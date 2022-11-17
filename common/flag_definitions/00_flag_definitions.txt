@@ -4265,6 +4265,46 @@ JAN = { # Jan Mayen
 	}		
 }
 
+ALK = {
+	flag_definition = {
+		coa = ALK
+		subject_canton = ALK
+		priority = 1
+	}
+	flag_definition = {
+		coa = ALK_communist
+		subject_canton = ALK_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ALK_fascist
+		subject_canton = ALK_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ALK_theocratic
+		subject_canton = ALK_theocratic
+		priority = 20
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ALK_absolute_monarchy
+		subject_canton = ALK_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+}
+
 JAP = { # Japan
 	flag_definition = {
 		coa = JAP
