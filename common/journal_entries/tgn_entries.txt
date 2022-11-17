@@ -1,0 +1,842 @@
+﻿je_rebilions_countdown = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_rebilions_varr
+			value = 0
+		}
+	}
+	
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_rebilions_varr
+				add = 1
+			}
+		}
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = tgn_rebilions_fired_tooltip
+			scope:journal_entry = {
+				is_goal_complete = yes
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = tgn_je_events.1 popup = yes }
+	}
+	
+	current_value = {
+		value = root.var:tgn_rebilions_varr
+	}
+	
+
+	goal_add_value = {
+		value = 14
+	}
+
+	weight = 100
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}
+je_tgn_investigations_begin = {
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_investigations_varr
+			value = 0
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = tgn_je_events.2 popup = yes }
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_investigations_varr
+				add = 1
+			}
+		}
+	}
+	current_value = {
+		value = root.var:tgn_investigations_varr
+	}
+
+	goal_add_value = {
+		value = 5
+	}
+	
+	progressbar = yes
+
+	weight = 100
+
+	should_be_pinned_by_default = yes
+}
+
+je_tgn_waiting_for_the_british = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_british_decision_varr
+			value = 0
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = tgn_je_events.3 popup = yes }
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_british_decision_varr
+				add = 1
+			}
+		}
+	}
+	current_value = {
+		value = root.var:tgn_british_decision_varr
+	}
+
+	goal_add_value = {
+		value = 3
+	}
+
+	weight = 100
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}
+je_tgn_forming_the_union = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_forming_the_union_varr
+			value = 0
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = tgn_will_proceed_with_the_province_formation_tooltip
+			if = {
+				limit = {
+					c:ONT = {
+						is_player = no
+					}
+					c:QUE = {
+						is_player = no
+					}
+					NOT = { has_global_variable = tgn_formation_event_taken } 
+				}
+				c:ONT = {
+					trigger_event = { id = tgn_je_events.4 popup = yes }
+				}
+				set_global_variable = {
+					name = tgn_formation_event_taken
+					value = yes
+				}
+			}
+			if = {
+				limit = {
+					c:ONT = {
+						is_player = no
+					}
+					c:QUE = {
+						is_player = yes
+					}
+					NOT = { has_global_variable = tgn_formation_event_taken } 
+				}
+				c:QUE = {
+					trigger_event = { id = tgn_je_events.4 popup = yes }
+				}
+				set_global_variable = {
+					name = tgn_formation_event_taken
+					value = yes
+				}
+			}
+			if = {
+				limit = {
+					c:ONT = {
+						is_player = yes
+					}
+					c:QUE = {
+						is_player = no
+					}
+					NOT = { has_global_variable = tgn_formation_event_taken }
+				}
+				c:ONT = {
+					trigger_event = { id = tgn_je_events.4 popup = yes }
+				}
+				set_global_variable = {
+					name = tgn_formation_event_taken
+					value = yes
+				}
+			}
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_forming_the_union_varr
+				add = 1
+			}
+		}
+	}
+	current_value = {
+		value = root.var:tgn_forming_the_union_varr
+	}
+
+	goal_add_value = {
+		value = 3
+	}
+
+	weight = 100
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}
+je_tgn_build_ottawa = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	complete = {
+		custom_tooltip = {
+			text = tgn_you_parliament_is_built_tooltip
+			OR = {
+				s:STATE_ONTARIO = {
+					has_building = building_ottawa
+				}
+				s:STATE_QUEBEC = {
+					has_building = building_montreal
+				}
+			}
+			OR = {
+				any_scope_building = {
+					is_building_type = building_montreal
+					level >= 1
+				}
+				any_scope_building = {
+					is_building_type = building_ottawa
+					level >= 1
+				}
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = tgn_je_events.5 popup = yes }
+	}
+
+	weight = 100
+
+	should_be_pinned_by_default = yes
+}
+je_tgn_discussing_the_dominion = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_discussing_the_dominion_varr
+			value = 0
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = tgn_je_events.7 popup = yes }
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_discussing_the_dominion_varr
+				add = 1
+			}
+		}
+	}
+	current_value = {
+		value = root.var:tgn_discussing_the_dominion_varr
+	}
+
+	goal_add_value = {
+		value = 1
+	}
+
+	weight = 100
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}
+je_tgn_drafting_the_bnaa = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_drafting_the_bnaa_varr
+			value = 0
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = tgn_je_events.8 popup = yes }
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_drafting_the_bnaa_varr
+				add = 1
+			}
+		}
+	}
+	current_value = {
+		value = root.var:tgn_drafting_the_bnaa_varr
+	}
+
+	goal_add_value = {
+		value = 3
+	}
+
+	weight = 100
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}
+je_tgn_amending_the_bnaa = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_amending_the_bnaa_varr
+			value = 0
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = tgn_je_events.9 popup = yes }
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_amending_the_bnaa_varr
+				add = 1
+			}
+		}
+	}
+	current_value = {
+		value = root.var:tgn_amending_the_bnaa_varr
+	}
+
+	goal_add_value = {
+		value = 3
+	}
+
+	weight = 100
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}
+je_tgn_looking_outwards = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_looking_outwards_varr
+			value = 0
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = tgn_you_will_open_further_stages_tooltip
+			set_global_variable = {
+				name = tgn_stage2_is_now_available
+				value = yes
+			}
+			remove_modifier = canada_test_modifier
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_looking_outwards_varr
+				add = 1
+			}
+		}
+	}
+	current_value = {
+		value = root.var:tgn_looking_outwards_varr
+	}
+
+	goal_add_value = {
+		value = 24
+	}
+
+	weight = 100
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}
+je_tgn_the_crown_considering_HBC_acquisition = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_HBC_acquisition_varr
+			value = 0
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = tgn_je_events.10 popup = yes }
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_HBC_acquisition_varr
+				add = 1
+			}
+		}
+	}
+	current_value = {
+		value = root.var:tgn_HBC_acquisition_varr
+	}
+
+	goal_add_value = {
+		value = 10
+	}
+
+	weight = 100
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}
+je_tgn_looking_outwards_2 = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_looking_outwards_1_varr
+			value = 0
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = tgn_you_will_open_further_stages_tooltip
+			remove_modifier = canada_test_modifier
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_looking_outwards_1_varr
+				add = 1
+			}
+		}
+	}
+	current_value = {
+		value = root.var:tgn_looking_outwards_1_varr
+	}
+
+	goal_add_value = {
+		value = 24
+	}
+
+	weight = 100
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}
+je_tgn_looking_outwards_3 = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_looking_outwards_3_varr
+			value = 0
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = tgn_you_will_open_further_stages_tooltip
+			remove_modifier = canada_test_modifier
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_looking_outwards_3_varr
+				add = 1
+			}
+		}
+	}
+	current_value = {
+		value = root.var:tgn_looking_outwards_3_varr
+	}
+
+	goal_add_value = {
+		value = 24
+	}
+
+	weight = 100
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}
+je_tgn_looking_outwards_4 = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_looking_outwards_4_varr
+			value = 0
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = tgn_you_will_open_further_stages_tooltip
+			remove_modifier = canada_test_modifier
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_looking_outwards_4_varr
+				add = 1
+			}
+		}
+	}
+	current_value = {
+		value = root.var:tgn_looking_outwards_4_varr
+	}
+
+	goal_add_value = {
+		value = 24
+	}
+
+	weight = 100
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}
+je_tgn_PEI_union = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_PEI_union_varr
+			value = 0
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = tgn_a_union_will_form_with_PEI_tooltip
+			trigger_event = { id = tgn_je_events.11 popup = yes }
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_PEI_union_varr
+				add = 1
+			}
+		}
+	}
+	current_value = {
+		value = root.var:tgn_PEI_union_varr
+	}
+
+	goal_add_value = {
+		value = 8
+	}
+
+	weight = 100
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}
+je_tgn_BC_union = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_BC_union_varr
+			value = 0
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = tgn_a_union_will_form_with_BC_tooltip
+			trigger_event = { id = tgn_je_events.12 popup = yes }
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_BC_union_varr
+				add = 1
+			}
+		}
+	}
+	current_value = {
+		value = root.var:tgn_BC_union_varr
+	}
+
+	goal_add_value = {
+		value = 12
+	}
+
+	weight = 100
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}
+je_tgn_oregon_tensions = {
+	icon = "gfx/interface/icons/event_icons/event_protest.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_oregon_tensions_varr
+			value = 0
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = tgn_the_americans_will_act_tooltip
+			trigger_event = { id = tgn_je_events.13 popup = yes }
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_oregon_tensions_varr
+				add = 1
+			}
+		}
+	}
+	current_value = {
+		value = root.var:tgn_oregon_tensions_varr
+	}
+
+	goal_add_value = {
+		value = 6
+	}
+
+	weight = 100
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}
+je_tgn_the_pig_war = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_the_pig_war_varr
+			value = 0
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = tgn_will_fire_the_event_tooltip
+			trigger_event = { id = tgn_je_events.14 popup = yes }
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_the_pig_war_varr
+				add = 1
+			}
+		}
+	}
+	current_value = {
+		value = root.var:tgn_the_pig_war_varr
+	}
+
+	goal_add_value = {
+		value = 6
+	}
+
+	weight = 100
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}
+je_tgn_reaching_a_treaty_with_the_usa = {
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	
+	immediate = {
+		set_variable = {
+			name = tgn_reaching_a_treaty_with_the_usa_varr
+			value = 0
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = tgn_will_sign_a_treaty_finally_tooltip
+			trigger_event = { id = tgn_je_events.15 popup = yes }
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = tgn_reaching_a_treaty_with_the_usa_varr
+				add = 1
+			}
+		}
+	}
+	current_value = {
+		value = root.var:tgn_reaching_a_treaty_with_the_usa_varr
+	}
+
+	goal_add_value = {
+		value = 3
+	}
+
+	weight = 100
+	
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}

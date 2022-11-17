@@ -1,0 +1,12 @@
+﻿DIPLOMACY = {
+	c:GBR = {
+		create_diplomatic_pact = {
+			country = c:PEI
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NVS
+			type = puppet
+		}
+	}
+}

@@ -1,0 +1,5 @@
+bg_cities = {
+	parent_group = bg_infrastructure
+	inheritable_construction = yes
+	urbanization = 100
+}

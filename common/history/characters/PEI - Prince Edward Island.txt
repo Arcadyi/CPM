@@ -1,13 +1,13 @@
 ﻿CHARACTERS = {
-	c:NVS = {
+	c:PEI = {
 		create_character = {
-			# Sir Colin Campbell, Lt. Gov. of Prince Edward Island
+			# Sir George Wright, Lt. Gov. of Prince Edward Island
 			#role = politician # Remove this line
-			first_name = "Colin"
-			last_name = "Campbell"
+			first_name = "George"
+			last_name = "Wright"
 			ruler = yes
 			ig_leader = yes
-			age = 60
+			age = 57
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate
 			traits = {

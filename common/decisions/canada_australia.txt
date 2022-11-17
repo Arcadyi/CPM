@@ -1,0 +1,89 @@
+﻿australia_unite_aus = {
+	is_shown = {
+		OR = {
+			country_has_primary_culture = cu:australian
+			country_has_primary_culture = cu:maori
+		}
+		is_subject = yes
+		any_neighbouring_state = {
+			owner = {
+				OR = {
+					country_has_primary_culture = cu:australian
+					country_has_primary_culture = cu:maori
+				}
+				is_subject = yes
+				NOT = { THIS = ROOT }
+				top_overlord = {
+					THIS = root.top_overlord
+				}
+			}
+		}
+	}
+
+	possible = {
+		has_technology_researched = nationalism
+		top_overlord = {
+			relations:root >= relations_threshold:amicable
+		}
+		NOT = { has_modifier = australia_test_modifier }
+		any_neighbouring_state = {
+			owner = {
+				relations:root >= relations_threshold:amicable
+				OR = {
+					country_has_primary_culture = cu:australian
+					country_has_primary_culture = cu:maori
+				}
+				is_subject = yes
+				NOT = { THIS = ROOT }
+				top_overlord = {
+					THIS = root.top_overlord
+				}
+				this.gdp < root.gdp
+			}
+		}
+	}
+	when_taken = {
+		custom_tooltip = unite_australia_tt
+		hidden_effect = {
+			trigger_event = { id = can_aus.3 popup = yes }
+		}
+		add_modifier = {
+			name = australia_test_modifier
+			months = short_modifier_time
+		}
+	}
+}
+
+australia_unite_gbr = {
+	is_shown = {
+		any_subject_or_below = {
+			OR = {
+				country_has_primary_culture = cu:australian
+				country_has_primary_culture = cu:maori
+			}
+			count >= 2
+		}
+	}
+	possible = {
+		has_technology_researched = nationalism
+		NOT = { has_modifier = australia_test_modifier }
+		any_subject_or_below = {
+			OR = {
+				country_has_primary_culture = cu:australian
+				country_has_primary_culture = cu:maori
+			}
+			relations:root >= relations_threshold:amicable
+			count >= 2
+		}
+	}
+	when_taken = {
+		custom_tooltip = unite_australia_tt
+		hidden_effect = {
+			trigger_event = { id = can_aus.4 popup = yes }
+		}
+		add_modifier = {
+			name = australia_test_modifier
+			months = short_modifier_time
+		}
+	}
+}
