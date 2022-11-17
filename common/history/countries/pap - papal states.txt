@@ -32,11 +32,13 @@
 		}
 		ig:ig_intelligentsia = {
 			remove_ideology = ideology_anti_clerical
+			add_ideology = ideology_papal_anti_clerical
 		}
-
 		ig:ig_devout = {
 			set_ig_bolstering = yes
 			set_interest_group_name = ig_roman_curia
+			remove_ideology = ideology_moralist
+			add_ideology = ideology_papal_moralist
 		}
 	}
 }
