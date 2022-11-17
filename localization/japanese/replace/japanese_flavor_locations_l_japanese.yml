@@ -1,0 +1,11 @@
+﻿l_japanese:
+
+ HUB_NAME_STATE_TOHOKU_farm:0 "盛岡" # 奥州
+ HUB_NAME_STATE_KANTO_port:0 "水戸" # ひたちなか
+ HUB_NAME_STATE_KANTO_mine:0 "宇都宮" # 那須
+ HUB_NAME_STATE_KANTO_wood:0 "千葉" # 大網白里
+ HUB_NAME_STATE_KANSAI_port:0 "津" # 松阪
+ HUB_NAME_STATE_SHIKOKU_port:0 "高知" # 南国
+ HUB_NAME_STATE_SHIKOKU_mine:0 "徳島" # 阿南
+ HUB_NAME_STATE_SHIKOKU_farm:0 "宇和島" # 宿毛
+ HUB_NAME_STATE_KYUSHU_port:0 "門司" # 北九州

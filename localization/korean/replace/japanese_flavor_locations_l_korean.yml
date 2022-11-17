@@ -1,0 +1,11 @@
+﻿l_korean:
+
+ HUB_NAME_STATE_TOHOKU_farm:0 "Morioka" # Oshu
+ HUB_NAME_STATE_KANTO_port:0 "Mito" # Hitachinaka
+ HUB_NAME_STATE_KANTO_mine:0 "Utsunomiya" # Nasu
+ HUB_NAME_STATE_KANTO_wood:0 "Chiba" # Oamishirasato
+ HUB_NAME_STATE_KANSAI_port:0 "Tsu" # Matsusaka
+ HUB_NAME_STATE_SHIKOKU_port:0 "Kochi" # Nankoku
+ HUB_NAME_STATE_SHIKOKU_mine:0 "Tokushima" # Anan
+ HUB_NAME_STATE_SHIKOKU_farm:0 "Uwajima" # Sukumo
+ HUB_NAME_STATE_KYUSHU_port:0 "Moji" # Kitakyushu

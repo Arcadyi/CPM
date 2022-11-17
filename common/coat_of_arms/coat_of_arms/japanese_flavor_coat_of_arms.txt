@@ -1,0 +1,38 @@
+# Late Tokugawa Shogunate (after Matthew C. Perry arrived)
+
+JAP_tokugawa_late = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "red"
+		color2 = "red"
+	}
+}
+
+# Empire of Japan (after Meiji Restoration)
+
+JAP_absolute_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "red"
+		color2 = "red"
+	}
+}
+
+# Present Japan (after World War II)
+
+JAP_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "red"
+		color2 = "red"
+	}
+}
