@@ -20,6 +20,9 @@
 				set_variable = {
 					name = second_party_system_democrat_var
 				}				
+				set_variable = {
+					name = is_andrew_jackson
+				}
 			}
 		}
 
