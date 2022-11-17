@@ -1,0 +1,300 @@
+﻿CAN = { # Canada
+	flag_definition = {
+		coa = CAN
+		coa_with_overlord_canton = CAN_subject
+		allow_overlord_canton = yes
+	}
+	flag_definition = {
+		coa = CAN_monarchy
+		allow_overlord_canton = yes
+		priority = 5
+		trigger = {
+			exists = c:GBR
+			c:GBR = {
+				has_diplomatic_pact = {
+					who = c:CAN
+					type = dominion
+					is_initiator = yes
+				}
+			}
+		}
+	}
+	flag_definition = {
+		coa = CAN_quebec
+		subject_canton = CAN_quebec
+		priority = 10
+		trigger = { 
+			exists = scope:actor
+			scope:actor = { capital = { state_region = s:STATE_QUEBEC } }
+		}
+	}
+	flag_definition = {
+		coa = CAN_republic
+		subject_canton = CAN_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = CAN_theocracy
+		subject_canton = CAN_theocracy
+		priority = 10
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CAN_absolute_monarchy
+		subject_canton = CAN_absolute_monarchy
+		priority = 20
+		trigger = {
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CAN_dictatorship
+		subject_canton = CAN_dictatorship
+		priority = 20
+		trigger = {
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CAN_oligarchy
+		subject_canton = CAN_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CAN_absolute_monarchy_subject_GBR
+		priority = 30
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+			coa_def_british_ensign_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CAN_subject_USA
+		priority = 50
+		trigger = { 
+			coa_def_american_ensign_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CAN_fascist
+		subject_canton = CAN_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = CAN_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}	
+}
+
+NBS = { # New Brunswick
+	flag_definition = {
+		coa = NBS
+		coa_with_overlord_canton = NBS_subject
+		allow_overlord_canton = yes		
+	}
+	flag_definition = {
+		coa = NBS_subject_FRA	
+		priority = 50
+		trigger = { 
+			coa_def_french_ensign_trigger = yes
+		}
+	}	
+}
+
+NEW = { # Newfoundland
+	flag_definition = {
+		coa = NEW
+		coa_with_overlord_canton = NEW_subject
+		allow_overlord_canton = yes
+	}
+	flag_definition = {
+		coa = NEW_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NEW_coa
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NEW_theocracy
+		subject_canton = NEW_theocracy
+		priority = 20
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NEW_oligarchy
+		subject_canton = NEW_oligarchy
+		priority = 25
+		trigger = { 
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NEW_subject_FRA		
+		priority = 50
+		trigger = { 
+			coa_def_french_ensign_trigger = yes
+		}
+	}
+}
+
+NVS = { # Nova Scotia
+	flag_definition = {
+		coa = NVS
+		coa_with_overlord_canton = NVS_subject
+		allow_overlord_canton = yes		
+	}	
+}
+
+ONT = { # Ontario
+	flag_definition = {
+		coa = ONT
+		coa_with_overlord_canton = ONT_subject
+		allow_overlord_canton = yes
+	}
+	flag_definition = {
+		coa = ONT_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+			coa_def_independent_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ONT_secessionist
+		priority = 15
+		trigger = {
+			coa_def_secessionist_or_revolutionary_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ONT_subject_FRA		
+		priority = 50
+		trigger = { 
+			coa_def_french_ensign_trigger = yes
+		}
+	}
+}
+
+ORG = { # Oregon
+	flag_definition = {
+		coa = ORG
+		subject_canton = ORG		
+		coa_with_overlord_canton = ORG_subject
+		allow_overlord_canton = yes
+		priority = 1		
+	}
+	flag_definition = {
+		coa = ORG_british_columbia
+		priority = 5
+		trigger = { 
+			exists = scope:actor
+			scope:actor = { capital = { state_region = s:STATE_BRITISH_COLUMBIA } }
+		}
+	}
+	flag_definition = {
+		coa = ORG_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ORG_subject_GBR
+		allow_overlord_canton = yes		
+		priority = 50
+		trigger = { 
+			coa_def_british_ensign_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ORG_subject_FRA	
+		priority = 50
+		trigger = { 
+			coa_def_french_ensign_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ORG_monarchy_subject_GBR
+		priority = 100
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+			coa_def_british_ensign_trigger = yes
+		}
+	}	
+}
+
+QUE = { # Quebec
+	flag_definition = {
+		coa = QUE
+		coa_with_overlord_canton = QUE_subject
+		allow_overlord_canton = yes
+	}
+	flag_definition = {
+		coa = QUE_secessionist
+		priority = 15
+		trigger = {
+			coa_def_secessionist_or_revolutionary_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = QUE_theocracy
+		subject_canton = QUE_theocracy
+		priority = 20
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = QUE_absolute_monarchy
+		subject_canton = QUE_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = QUE_oligarchy
+		subject_canton = QUE_oligarchy
+		priority = 25
+		trigger = {
+			coa_def_oligarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = QUE_communist
+		priority = 1500
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = QUE_subject_FRA
+		priority = 50
+		trigger = {
+			coa_def_french_ensign_trigger = yes
+		}
+	}
+}
