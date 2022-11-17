@@ -1,0 +1,7 @@
+﻿bg_camps = {
+	parent_group = bg_government
+	
+	default_building = building_concentration_camp
+	
+	subsidized = yes
+}

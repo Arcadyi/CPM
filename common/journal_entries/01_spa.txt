@@ -1,0 +1,32 @@
+je_isab_victory = {
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	complete = {
+		is_at_war = no
+		owns_entire_state_region = STATE_ARAGON
+		owns_entire_state_region = STATE_NAVARRA
+		owns_entire_state_region = STATE_CATALONIA
+	}
+	
+	should_be_pinned_by_default = yes
+	
+	is_shown_when_inactive = {
+		exists = c:SPA
+		c:SPA = root
+	}
+
+	on_complete = {
+		annex = c:CSP
+		add_loyalists = {
+		value = 0.1
+		}
+		c:SPA = {
+		add_modifier = {
+			name = modifier_liberal_win
+			months = 12
+		}
+			}
+}
+
+

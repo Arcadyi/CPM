@@ -1,0 +1,17 @@
+﻿building_concentration_camp = {
+	building_group = bg_camps
+	city_type = city
+	levels_per_mesh = 5
+
+	lens = infrastructure
+
+	texture = "gfx/interface/icons/building_icons/building_conscription_center.dds"
+
+	production_method_groups = {
+		pmg_base_building_concentration_camp
+	}
+
+	buildable = no
+	expandable = no
+	downsizeable = no
+}

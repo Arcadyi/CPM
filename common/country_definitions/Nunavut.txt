@@ -1,0 +1,10 @@
+NVT = {
+	color = { 213 217 220 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { inuit }
+	capital = STATE_ALASKA
+}

@@ -1,0 +1,41 @@
+﻿je_carlist_victory = {
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	complete = {
+		is_at_war = no
+		owns_entire_state_region = STATE_TOLEDO
+		owns_entire_state_region = STATE_BADAJOZ
+		owns_entire_state_region = STATE_VALENCIA
+		owns_entire_state_region = STATE_CASTILE
+		owns_entire_state_region = STATE_ASTURIAS
+		owns_entire_state_region = STATE_GALICIA
+
+	}
+	immediate = {
+		c:CSP = {
+		change_infamy = -200
+			}
+		}
+	
+	should_be_pinned_by_default = yes
+	
+	is_shown_when_inactive = {
+		exists = c:CSP
+		c:CSP = root
+	}
+
+	on_complete = {
+		annex = c:SPA
+		change_tag = SPA
+		add_loyalists = {
+		value = 0.1
+	}
+		c:SPA = {
+		add_modifier = {
+			name = modifier_monarch_win
+			months = 12
+		}
+}
+
+

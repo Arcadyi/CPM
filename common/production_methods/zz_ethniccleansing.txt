@@ -1,0 +1,21 @@
+﻿pm_ethniccleansing_base = {
+	texture = "gfx/interface/icons/production_method_icons/skirmish_infantry.dds"
+	pollution_generation = 5
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_prisoners_add = 20000
+			building_employment_officers_add = 1000
+		}
+
+		unscaled = {
+			building_prisoners_mortality_mult = 5
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_infamy_decay_mult = -0.10
+		}
+	}
+}

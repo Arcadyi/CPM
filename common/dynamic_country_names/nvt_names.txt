@@ -1,0 +1,25 @@
+﻿NVT = {
+	dynamic_country_name = {
+		name = dyn_c_nunavut_republic
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+			NOT = { coa_def_communist_flag_trigger = yes }
+		}
+		}
+
+	dynamic_country_name = {
+		name = dyn_c_nunavut_commune
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+}

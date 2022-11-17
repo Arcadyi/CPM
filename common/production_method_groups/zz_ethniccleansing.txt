@@ -1,0 +1,5 @@
+﻿pmg_base_building_concentration_camp = {
+	production_methods = {
+		pm_ethniccleansing_base
+	}
+}
