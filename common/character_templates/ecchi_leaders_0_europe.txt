@@ -1,0 +1,47 @@
+﻿# Lithuania
+
+ecchi_lit_basanavicius_character_template = {
+    first_name = Jonas
+    last_name = Basanavicius
+    culture = cu:lithuanian
+    female = no
+    religion = catholic
+    ideology = ideology_traditionalist
+    interest_group = ig_intelligentsia
+	dna = ecchi_dna_jonas_basanavicius
+    birth_date = 1851.11.23
+    traits = { romantic demagogue surveyor }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:UBD
+                    this = c:UBD
+                    NOT = {
+						exists = c:LIT
+						exists = c:PLC
+					}
+                }
+				AND = {
+                    exists = c:PLC
+                    this = c:PLC
+                    NOT = { exists = c:LIT }
+                }
+                AND = {
+                    exists = c:LIT
+                    this = c:LIT
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            OR = {
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_rural_folk
+            }
+        }
+        earliest_usage_date = 1905.1.1
+        latest_usage_date = 1927.2.16
+        chance = 75
+    }
+}
