@@ -10,7 +10,7 @@ institution_army_professionalism = {
 	}
 }
 institution_navy_professionalism = {
-	icon = "gfx/interface/icons/ig_icons/armed_forces.dds"
+	icon = "gfx/interface/icons/generic_icons/flotillas.dds"
 	background_texture = "gfx/interface/illustrations/institutions/colonization.dds"
 	modifier = {
 		country_navy_power_projection_mult = 0.05

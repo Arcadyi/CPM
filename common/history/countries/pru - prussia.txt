@@ -23,7 +23,7 @@
 		
 		set_institution_investment_level = {
 			institution = institution_army_professionalism
-			level = 2
+			level = 3
 		}
 		
 		set_institution_investment_level = {

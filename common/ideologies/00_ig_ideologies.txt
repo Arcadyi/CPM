@@ -59,6 +59,13 @@ ideology_laissez_faire = {
 		law_command_economy = strongly_disapprove
 	}
 	
+	lawgroup_navy_model = {
+		law_professional_navy = neutral
+		law_merchant_navy = approve
+		law_mass_draft = neutral
+		law_feudal_navy = disapprove
+	}
+	
 	lawgroup_trade_policy = {		
 		law_free_trade = approve	
 		law_mercantilism = neutral
@@ -119,6 +126,13 @@ ideology_stratocratic = {
 		law_professional_army = neutral
 		law_national_militia = neutral
 		law_mass_conscription = disapprove
+	}
+	
+	lawgroup_navy_model = {
+		law_professional_navy = neutral
+		law_merchant_navy = neutral
+		law_mass_draft = disapprove
+		law_feudal_navy = approve
 	}
 	
 	lawgroup_labor_rights = {
@@ -352,6 +366,12 @@ ideology_jingoist = {
 		law_peasant_levies = disapprove
 	}
 	
+	lawgroup_navy_model = {
+		law_professional_navy = strongly_approve
+		law_merchant_navy = disapprove
+		law_mass_draft = approve
+		law_feudal_navy = disapprove
+	}
 	lawgroup_colonization = {
 		law_colonial_resettlement = approve
 		law_colonial_exploitation = approve
