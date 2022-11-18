@@ -1,0 +1,50 @@
+STATE_LANCASHIRE = {
+	id = 16
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "x137263" "x410CE6" "x60E000" "x65617C" "xA242B2" "xE06000" "xE0E000" "xE74158" }
+	traits = { "state_trait_lancashire_coalfield" "state_trait_natural_harbors" }
+	city = "xE0E000"
+	port = "x60E000"
+	farm = "xA242B2"
+	mine = "xE0E000"
+	wood = "x410CE6"
+	arable_land = 98
+	arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+	capped_resources = {
+			bg_coal_mining = 100
+			bg_iron_mining = 60
+			bg_lead_mining = 45
+			bg_logging = 9
+			bg_fishing = 15
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+	naval_exit_id = 3030
+}
+
+STATE_EAST_ANGLIA = {
+	id = 21
+	subsistence_building = "building_subsistence_farms"
+	provinces = { "x5024FD" "x516676" "x60A040" "x618949" "x6D87D7" "x73EF57" "x8C667B" "xE02040" "xE0A040" }
+	traits = { "state_trait_good_soils" "state_trait_natural_harbors" }
+	city = "x8C667B"
+	port = "xE02040"
+	farm = "x60A040"
+	mine = "x8C667B"
+	wood = "x516676"
+	arable_land = 68
+	arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+	capped_resources = {
+			bg_coal_mining = 40
+			bg_iron_mining = 30
+			bg_logging = 4
+			bg_fishing = 12
+	}
+	resource = {
+		type = "bg_oil_extraction"
+		undiscovered_amount = 5
+	}
+	naval_exit_id = 3028
+}
