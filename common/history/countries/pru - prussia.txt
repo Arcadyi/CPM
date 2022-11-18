@@ -19,10 +19,16 @@
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_censorship
+		activate_law = law_type:law_professional_navy
 		
 		set_institution_investment_level = {
-			institution = institution_military_professionalism
+			institution = institution_army_professionalism
 			level = 2
+		}
+		
+		set_institution_investment_level = {
+			institution = institution_navy_professionalism
+			level = 1
 		}
 		
 		set_institution_investment_level = {

@@ -1,0 +1,6 @@
+lawgroup_navy_model = {
+	law_group_category = power_structure
+	
+	progressive_movement_chance = 2
+	regressive_movement_chance = 0.05	
+}

@@ -1,11 +1,22 @@
-institution_military_professionalism = {
+institution_army_professionalism = {
 	icon = "gfx/interface/icons/ig_icons/armed_forces.dds"
 	background_texture = "gfx/interface/illustrations/institutions/colonization.dds"
 	modifier = {
+		country_army_power_projection_mult = 0.05
 		unit_army_defense_mult = 0.05
 		unit_army_offense_mult = 0.05
+		interest_group_ig_armed_forces_pol_str_mult = 0.02
+		country_military_wages_mult = 0.05
+	}
+}
+institution_navy_professionalism = {
+	icon = "gfx/interface/icons/ig_icons/armed_forces.dds"
+	background_texture = "gfx/interface/illustrations/institutions/colonization.dds"
+	modifier = {
+		country_navy_power_projection_mult = 0.05
 		unit_navy_defense_mult = 0.05
 		unit_navy_offense_mult = 0.05
-		interest_group_ig_armed_forces_pol_str_mult = 0.05
+		interest_group_ig_armed_forces_pol_str_mult = 0.02
+		country_military_wages_mult = 0.05
 	}
 }

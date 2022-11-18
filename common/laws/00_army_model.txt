@@ -47,16 +47,13 @@ law_professional_army = {
 	modifier = {
 		state_conscription_rate_add = 0.01
 		interest_group_ig_armed_forces_pol_str_mult = 0.25
-		state_building_barracks_max_level_add = 100
+		state_building_barracks_max_level_add = 30
 		state_building_conscription_center_max_level_add = 50
-		country_institution_military_professionalism_max_investment_add = 1
+		country_institution_army_professionalism_max_investment_add = 5
 	}
 	
-	institution = institution_military_professionalism 
-	institution_modifier = {
-		country_military_wages_mult = 0.05
-		state_conscription_rate_mult = 0.05
-	}
+	institution = institution_army_professionalism 
+
 	possible_political_movements = {
 		law_mass_conscription
 	}
@@ -77,8 +74,8 @@ law_national_militia = {
 		state_building_conscription_center_max_level_add = 100
 	}
 	
-	institution = institution_military_professionalism 
-	
+	institution = institution_army_professionalism 
+
 	possible_political_movements = {
 		law_professional_army
 		law_mass_conscription
@@ -107,8 +104,8 @@ law_mass_conscription = {
 		state_building_conscription_center_max_level_add = 100
 	}
 	
-	institution = institution_military_professionalism 
-	
+	institution = institution_army_professionalism
+
 	possible_political_movements = {
 		law_mass_conscription
 	}
