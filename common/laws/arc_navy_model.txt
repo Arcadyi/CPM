@@ -33,6 +33,7 @@ law_professional_navy = {
 	
 	modifier = {
 		state_building_naval_base_max_level_add = 30
+		country_institution_navy_professionalism_max_investment_add = 5
 	}
 	
 	institution = institution_navy_professionalism 
@@ -53,6 +54,7 @@ law_merchant_navy = {
 	modifier = {
 		state_building_naval_base_max_level_add = 30
 		state_building_port_max_level_add = 5
+		country_institution_navy_professionalism_max_investment_add = 5
 	}
 	
 	institution = institution_navy_professionalism 
@@ -80,6 +82,7 @@ law_mass_draft = {
 	
 	modifier = {
 		state_building_naval_base_max_level_add = 100
+		country_institution_navy_professionalism_max_investment_add = 5
 	}
 	
 	institution = institution_navy_professionalism
