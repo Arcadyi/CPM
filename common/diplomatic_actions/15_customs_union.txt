@@ -348,7 +348,10 @@
 				limit = {
 					AND = {
 						scope:target_country = {
+								OR = {
 								country_has_primary_culture = cu:north_german
+								country_has_primary_culture = cu:south_german
+								}
 							}
 						scope:actor = {
 							country_has_primary_culture = cu:north_german
@@ -551,7 +554,7 @@
 			}
 		}
 		
-		will_break = { 
+		will_break = {
 			is_junior_in_customs_union = yes		
 			OR = {
 				has_attitude = {
@@ -569,7 +572,12 @@
 				has_attitude = {
 					who = scope:target_country
 					attitude = rebellious
-				}			
+				}
+				scope:target_country = {
+					market_capital = {
+						market_access < 0.1
+					}
+				}
 			}
 		}
 
