@@ -17,9 +17,8 @@ natural_death.1 = {
 				1 = { natural_death_effect = { AGE = 40 } }
 				2 = { natural_death_effect = { AGE = 50 } }
 				2 = { natural_death_effect = { AGE = 60 } }
-				4 = { natural_death_effect = { AGE = 70 } }
-				5 = { natural_death_effect = { AGE = 80 } }
-				5 = { natural_death_effect = { AGE = 90 } }
+				6 = { natural_death_effect = { AGE = 70 } }
+				8 = { natural_death_effect = { AGE = 80 } }
 			}
 		}
 	}
