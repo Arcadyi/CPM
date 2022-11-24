@@ -150,7 +150,7 @@ acw_je_events.1 = {
 				create_country = {
 				tag = CSA
 				origin = this
-				state = s:STATE_VIRGINIA.region_state:USA
+				state = s:STATE_SOUTH_CAROLINA.region_state:USA
 				}
 				set_variable = csa_will_spawn_var
 				c:USA = {trigger_event = { 
@@ -279,10 +279,21 @@ acw_je_events.2 = {
 			}
 			every_scope_state = {
 				limit = {
-					is_incorporated = yes
+					#is_incorporated = yes
+					OR = {
+						AND = {
+							has_modifier = border_state_mod
+							c:USA = { has_variable = border_state_rebels_var }
+						}
+						AND = {
+							has_modifier = south_state_mod
+							c:USA = { has_variable = south_state_rebels_var }
+						}
+							has_modifier = deep_south_state_mod
+					}
 					state_region = {
 						is_homeland = cu:dixie
-						NOT = { is_homeland = cu:yankee }
+					#	NOT = { is_homeland = cu:yankee }
 					}
 				}
 				set_state_type = unincorporated
@@ -295,7 +306,7 @@ acw_je_events.2 = {
 		else = {
 			every_scope_state = {
 				limit = {
-					is_incorporated = yes
+				#	is_incorporated = yes
 					state_region = {
 						is_homeland = cu:yankee
 						NOT = { is_homeland = cu:dixie }
