@@ -134,13 +134,9 @@ STATES = {
 	s:STATE_DOBRUDJA = {
 		create_state = {
 			country = c:TUR
-			owned_provinces = { xD9E021 xB06121 x7f25cd x7763F3 x940C8D xA3D7CE x316021 }
+			owned_provinces = { xD9E021 xB06121 x7f25cd x7763F3 x940C8D xA3D7CE x316021 x50F5CB}
 		}
-		create_state = {
-			country = c:RUS
-			owned_provinces = { x50F5CB }
-		}
-		
+
 		add_homeland = bulgarian
 		add_homeland = romanian
 		add_homeland = turkish
