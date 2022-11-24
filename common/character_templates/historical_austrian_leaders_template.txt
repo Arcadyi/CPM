@@ -1,0 +1,953 @@
+﻿# Austria - AUS
+aus_pillersdorf_character_template = {
+    first_name = Franz
+    last_name = von_Pillersdorf
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_landowners
+    birth_date = 1786.3.1
+	dna = dna_franz_pillersdorf
+    traits = {
+        experienced_political_operator
+		persistent
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners 
+        }   
+        earliest_usage_date = 1842.1.1
+        latest_usage_date = 1862.1.1
+        chance = 25
+    }   
+}
+aus_schwarznberg_character_template = {
+    first_name = Prince_Felix
+    last_name = zu_Schwarzenberg
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_landowners
+    birth_date = 1800.10.2
+	dna = dna_prince_schwarzenberg
+    traits = {
+        expert_political_operator
+		meticulous
+		experienced_diplomat
+		celebrity_commander
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners 
+        }   
+        earliest_usage_date = 1845.1.1
+        latest_usage_date = 1852.1.1
+        chance = 75
+    }   
+}
+aus_bach_character_template = {
+    first_name = Alexander
+    last_name = von_Bach
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_industrialists
+    birth_date = 1813.4.1
+	dna = dna_alex_bach
+    traits = {
+        basic_political_operator
+		wrathful
+		trench_rat
+		imperious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists 
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1867.1.1
+        chance = 25
+    }   
+}
+aus_thun_character_template = {
+    first_name = Leo
+    last_name = von_Thun
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_intelligentsia
+    birth_date = 1811.4.7
+	dna = dna_leo_thun
+    traits = {
+        innovative
+		meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1849.1.1
+        latest_usage_date = 1860.1.1
+        chance = 25
+    }   
+}
+aus_schmerling_character_template = {
+    first_name = Anton
+    last_name = von_Schmerling
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_radical
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1805.8.23
+	dna = dna_anton_schmerling
+    traits = {
+        expert_political_operator
+		inspirational_orator
+		ambitious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie 
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1891.1.1
+        chance = 50
+    }   
+}
+aus_buol_character_template = {
+    first_name = Karl_Graf
+    last_name = von_Buol-Schauenstein
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_landowners
+    birth_date = 1797.5.17
+	dna = dna_karl_buol
+    traits = {
+        experienced_diplomat
+		tactful
+		cautious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners 
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1865.1.1
+        chance = 25
+    }   
+}
+aus_rechberg_character_template = {
+    first_name = Bernhard
+    last_name = von_Rechberg
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1806.7.17
+	dna = dna_bernhard_rechberg
+    traits = {
+        basic_diplomat
+		basic_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners 
+        }   
+        earliest_usage_date = 1847.1.1
+        latest_usage_date = 1864.1.1
+        chance = 25
+    }   
+}
+aus_archduke_rainer_character_template = {
+    first_name = Archduke_Rainer_Ferdinand
+    last_name = von_Habsburg
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1827.1.11
+	dna = dna_archdule_rainer
+    traits = {
+        experienced_political_operator
+		innovative
+		explorer
+		charismatic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners 
+        }   
+        earliest_usage_date = 1857.1.1
+        latest_usage_date = 1913.1.1
+        chance = 75
+    }   
+}
+aus_belcredi_character_template = {
+    first_name = Richard
+    last_name = Belcredi
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_traditionalist
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1823.1.12
+	dna = dna_richard_belcredi
+    traits = {
+        basic_political_operator
+		cautious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners 
+        }   
+        earliest_usage_date = 1862.1.1
+        latest_usage_date = 1881.1.1
+        chance = 25
+    }   
+}
+aus_beust_character_template = {
+    first_name = Friedrich_Ferdinand
+    last_name = von_Beust
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_rural_folk
+    birth_date = 1809.1.13
+	dna = dna_friedrich_beust
+    traits = {
+        basic_diplomat
+		experienced_political_operator
+		meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk 
+        }   
+        earliest_usage_date = 1849.1.1
+        latest_usage_date = 1882.1.1
+        chance = 25
+    }   
+}
+aus_taaffe_character_template = {
+    first_name = Eduard
+    last_name = Taaffe
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_radical
+    interest_group = ig_intelligentsia
+    birth_date = 1833.2.24
+	dna = dna_eduard_taaffe
+    traits = {
+        experienced_political_operator
+		tactful
+		inspirational_orator
+		direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1861.1.1
+        latest_usage_date = 1895.1.1
+        chance = 50
+    }   
+}
+aus_plener_character_template = {
+    first_name = Ignaz
+    last_name = von_Plener
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_devout
+    birth_date = 1810.5.21
+	dna = dna_ignaz_plener
+    traits = {
+        basic_diplomat
+		pious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_devout
+        }   
+        earliest_usage_date = 1865.1.1
+        latest_usage_date = 1880.1.1
+        chance = 25
+    }   
+}
+aus_artha_character_template = {
+    first_name = Leopold
+    last_name = Hasner_von_Artha
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1818.3.15
+	dna = dna_leopold_artha
+    traits = {
+        expert_political_operator
+		innovative
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1861.1.1
+        latest_usage_date = 1875.1.1
+        chance = 25
+    }   
+}
+aus_potocki_character_template = {
+    first_name = Alfred_Jozef
+    last_name = Potocki
+    culture = cu:polish
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_rural_folk
+    birth_date = 1817.7.29
+	dna = dna_alfred_potocki
+    traits = {
+        experienced_political_operator
+		reserved
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk 
+        }   
+        earliest_usage_date = 1867.1.1
+        latest_usage_date = 1862.1.1
+        chance = 25
+    }   
+}
+aus_ado_auersperg_character_template = {
+    first_name = Adolf
+    last_name = von_Auersperg
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_radical
+    interest_group = ig_rural_folk
+    birth_date = 1821.6.21
+	dna = dna_adolf_auersperg
+    traits = {
+        experienced_political_operator
+		innovative
+		direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1867.1.1
+        latest_usage_date = 1885.1.1
+        chance = 25
+    }   
+}
+aus_windisch_character_template = {
+    first_name = Alfred_III
+    last_name = von_Windisch-Graetz
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_intelligentsia
+    birth_date = 1851.10.21
+	dna = dna_alfred_3_windisch
+    traits = {
+        basic_political_operator
+		reserved
+		romantic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:AUS
+                    this = c:AUS
+                }
+                AND = { 
+                    exists = c:CZH
+                    this = c:CZH
+                    c:CZH = { owns_entire_state_region = STATE_BOHEMIA }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1882.1.1
+        latest_usage_date = 1921.1.1
+        chance = 25
+    }   
+}
+aus_stremayr_character_template = {
+    first_name = Karl
+    last_name = von_Stremayr
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_intelligentsia
+    birth_date = 1823.10.30
+	dna = dna_karl_stremayr
+    traits = {
+        expert_political_operator
+		innovative
+		meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1870.1.1
+        latest_usage_date = 1899.1.1
+        chance = 50
+    }   
+}
+aus_sturgkh_character_template = {
+    first_name = Karl
+    last_name = Sturgkh
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_traditionalist
+    interest_group = ig_industrialists
+    birth_date = 1859.10.30
+	dna = dna_karl_sturgkh
+    traits = {
+        basic_political_operator
+		imperious
+		direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }   
+        earliest_usage_date = 1891.1.1
+        latest_usage_date = 1916.10.21
+        chance = 25
+    }   
+}
+aus_clary_character_template = {
+    first_name = Manfred
+    last_name = von_Clary-und-Aldringen
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1821.6.21
+	dna = dna_manfred_clary
+    traits = {
+        basic_political_operator
+		tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }   
+        earliest_usage_date = 1896.1.1
+        latest_usage_date = 1928.1.1
+        chance = 25
+    }   
+}
+aus_renner_character_template = {
+    first_name = Karl
+    last_name = Renner
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_social_democrat
+    interest_group = ig_trade_unions
+    birth_date = 1870.12.14
+	dna = dna_karl_renner
+    traits = {
+        experienced_political_operator
+		persistent
+		charismatic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }   
+        earliest_usage_date = 1907.1.1
+        latest_usage_date = 1936.1.1
+        chance = 25
+    }   
+}
+aus_bauer_character_template = {
+    first_name = Otto
+    last_name = Bauer
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_social_democrat
+    interest_group = ig_trade_unions
+    birth_date = 1881.9.5
+	dna = dna_otto_bauer
+    traits = {
+        experienced_diplomat
+		inspirational_orator
+		direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }   
+        earliest_usage_date = 1914.1.1
+        latest_usage_date = 1936.1.1
+        chance = 25
+    }   
+}
+aus_adler_character_template = {
+    first_name = Viktor
+    last_name = Adler
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_social_democrat
+    interest_group = ig_trade_unions
+    birth_date = 1852.6.24
+	dna = dna_viktor_adler
+    traits = {
+        demagogue
+		tactful
+		direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }   
+        earliest_usage_date = 1888.1.1
+        latest_usage_date = 1918.1.1
+        chance = 25
+    }   
+}
+aus_lammasch_character_template = {
+    first_name = Heinrich
+    last_name = Lammasch
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_pacifist
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1853.5.21
+	dna = dna_heinrich_lammasch
+    traits = {
+        masterful_diplomat
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1899.1.1
+        latest_usage_date = 1920.1.6
+        chance = 25
+    }   
+}
+aus_mayr_character_template = {
+    first_name = Michael
+    last_name = Mayr
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_radical
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1864.4.10
+	dna = dna_michael_mayr
+    traits = {
+        experienced_diplomat
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1907.1.1
+        latest_usage_date = 1922.1.1
+        chance = 25
+    }   
+}
+aus_schober_character_template = {
+    first_name = Johann
+    last_name = Schober
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_ethno_nationalist
+    interest_group = ig_industrialists
+    birth_date = 1874.9.14
+	dna = dna_johann_schober
+    traits = {
+        meticulous
+		reserved
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }   
+        earliest_usage_date = 1918.1.1
+        latest_usage_date = 1932.1.1
+        chance = 25
+    }   
+}
+aus_miklas_character_template = {
+    first_name = Wilhelm
+    last_name = Miklas
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1872.10.15
+	dna = dna_wilhelm_miklas
+    traits = {
+        persistent
+		reserved
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1918.1.1
+        latest_usage_date = 1936.1.1
+        chance = 25
+    }   
+}
+aus_seipel_character_template = {
+    first_name = Ignaz
+    last_name = Seipel
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_traditionalist
+    interest_group = ig_devout
+    birth_date = 1876.7.19
+	dna = dna_ignaz_seipel
+    traits = {
+        experienced_political_operator
+		pious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_devout
+        }   
+        earliest_usage_date = 1918.1.1
+        latest_usage_date = 1936.1.1
+        chance = 25
+    }   
+}
+aus_hainisch_character_template = {
+    first_name = Michael
+    last_name = Hainisch
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_rural_folk
+    birth_date = 1858.8.15
+	dna = dna_michael_hainish
+    traits = {
+        meticulous
+		basic_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1918.1.1
+        latest_usage_date = 1936.1.1
+        chance = 25
+    }   
+}
+aus_buresch_character_template = {
+    first_name = Karl
+    last_name = Buresch
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_industrialists
+    birth_date = 1878.10.12
+	dna = dna_karl_buresch
+    traits = {
+        tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }   
+        earliest_usage_date = 1919.1.1
+        latest_usage_date = 1936.1.1
+        chance = 25
+    }   
+}
+aus_dollfuss_character_template = {
+    first_name = Engelbert
+    last_name = Dollfuss
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_fascist
+    interest_group = ig_rural_folk
+    birth_date = 1892.10.4
+	dna = dna_engelbert_dollfuss
+    traits = {
+        meticulous
+		experienced_diplomat
+		firebrand
+		pious
+		cruel
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1922.1.1
+        latest_usage_date = 1934.1.1
+        chance = 75
+    }   
+}
+aus_schuschnigg_character_template = {
+    first_name = Kurt
+    last_name = Schuschnigg
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_fascist
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1897.12.14
+	dna = dna_kurt_schuschnigg
+    traits = {
+        inspirational_orator
+		direct
+		tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1930.1.1
+        latest_usage_date = 1936.1.1
+        chance = 25
+    }   
+}
+aus_rudiger_character_template = {
+    first_name = Ernst
+    last_name = Rudiger_Starhemberg
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_fascist
+    interest_group = ig_industrialists
+    birth_date = 1899.5.10
+	dna = dna_ernst_rudiger
+    traits = {
+        experienced_diplomat
+		tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }   
+        earliest_usage_date = 1930.1.1
+        latest_usage_date = 1936.1.1
+        chance = 25
+    }   
+}
+aus_lueger_character_template = {
+    first_name = Karl
+    last_name = Lueger
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1844.10.2
+	dna = dna_karl_lueger
+    traits = {
+        demagogue
+		charismatic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1890.1.1
+        latest_usage_date = 1910.1.1
+        chance = 25
+    }   
+}

@@ -1,0 +1,182 @@
+﻿rudolf_heir = {
+	is_shown = {
+		exists = c:AUS
+		c:AUS = ROOT
+		has_law = law_type:law_monarchy
+		game_date >= 1858.8.21
+		NOT = { has_variable = is_rudolf }
+	}
+	
+	possible = {
+		c:AUS = {
+			has_law = law_type:law_monarchy
+		}	
+	}
+
+	when_taken = {
+		create_character = {
+			first_name = Rudolf
+			last_name = von_Habsburg
+			heir = yes
+			noble = yes
+			birth_date = 1858.8.21
+			dna = dna_heir_rudolf
+			interest_group = ig_intelligentsia
+			ideology = ideology_reformer
+			traits = {
+				reserved
+			}				
+		}	
+		set_variable = {
+			name = is_rudolf
+			value = yes
+		}
+	}
+}
+
+karl_ludwig_heir = {
+	is_shown = {
+		exists = c:AUS
+		c:AUS = ROOT
+		has_law = law_type:law_monarchy
+		game_date >= 1889.1.30
+		NOT = { has_variable = is_karl_ludwig }
+	}
+	
+	possible = {
+		c:AUS = {
+			has_law = law_type:law_monarchy
+		}	
+	}
+
+	when_taken = {
+		create_character = {
+			first_name = Karl_Ludwig
+			last_name = von_Habsburg
+			heir = yes
+			noble = yes
+			birth_date = 1833.7.30
+			dna = dna_karl_ludwig
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			traits = {
+				arrogant
+			}
+		}	
+		set_variable = {
+			name = is_karl_ludwig
+			value = yes
+		}
+	}
+}
+
+franz_ferdinand_heir = {
+	is_shown = {
+		exists = c:AUS
+		c:AUS = ROOT
+		has_law = law_type:law_monarchy
+		game_date >= 1896.5.19
+		NOT = { has_variable = is_franz_ferdinand }
+	}
+	
+	possible = {
+		c:AUS = {
+			has_law = law_type:law_monarchy
+		}	
+	}
+	
+	when_taken = {
+		create_character = {
+			first_name = Franz_Ferdinand
+			last_name = von_Habsburg
+			heir = yes
+			noble = yes
+			birth_date = 1863.12.18
+			dna = dna_franz_ferdinand
+			interest_group = ig_landowners
+			ideology = ideology_radical
+			traits = {
+				cautious
+				innovative
+			}	
+		}	
+		set_variable = {
+			name = is_franz_ferdinand
+			value = yes
+		}
+	}
+}
+
+karl_heir = {
+	is_shown = {
+		exists = c:AUS
+		c:AUS = ROOT
+		has_law = law_type:law_monarchy
+		game_date >= 1914.6.28
+		NOT = { has_variable = is_karl }
+	}
+	
+	possible = {
+		c:AUS = {
+			has_law = law_type:law_monarchy
+		}	
+	}
+
+	when_taken = {
+		create_character = {
+			first_name = Karl
+			last_name = von_Habsburg
+			heir = yes
+			noble = yes
+			birth_date = 1887.8.17
+			dna = dna_karl_1
+			interest_group = ig_landowners
+			ideology = ideology_pacifist
+			traits = {
+				persistent
+				tactful
+			}
+		}
+		set_variable = {
+			name = is_karl
+			value = yes
+		}		
+	}
+}
+
+otto_heir = {
+	is_shown = {
+		exists = c:AUS
+		c:AUS = ROOT
+		has_law = law_type:law_monarchy
+		game_date >= 1916.11.21
+		NOT = { has_variable = is_otto }
+	}
+	
+	possible = {
+		c:AUS = {
+			has_law = law_type:law_monarchy
+		}	
+	}
+
+	when_taken = {
+		create_character = {
+			first_name = Otto
+			last_name = von_Habsburg
+			heir = yes
+			noble = yes
+			birth_date = 1912.11.20
+			dna = dna_heir_otto
+			interest_group = ig_intelligentsia
+			ideology = ideology_reformer
+			traits = {
+				meticulous
+				romantic
+			}				
+		}
+		set_variable = {
+			name = is_otto
+			value = yes
+		}
+	}
+}
