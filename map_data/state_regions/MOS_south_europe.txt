@@ -1,23 +1,23 @@
-STATE_LOMBARDY = {
-	id = 76
-	subsistence_building = "building_subsistence_farms"
-	provinces = { "x3F1E38" "x4713EE" "x50C060" "x70B8A9" "x867A90" "x9AC196" "xA40CE9" "xD04060" }
-	traits = { "state_trait_po_river" "state_trait_alps_mountains" }
-	city = "xD04060"
-	farm = "x867A90"
-	mine = "x3F1E38"
-	wood = "x4713EE"
-	arable_land = 160
-	arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
-	capped_resources = {
-			bg_iron_mining = 27
-			bg_lead_mining = 19
-			bg_logging = 7
-	}
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 5
-	}
+﻿STATE_LOMBARDY = {
+    id = 76
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x3F1E38" "x4713EE" "x50C060" "x70B8A9" "x867A90" "x9AC196" "xA40CE9" "xD04060" }
+    traits = { "state_trait_po_river" "state_trait_alps_mountains" }
+    city = "xD04060"
+    farm = "x867A90"
+    mine = "x3F1E38"
+    wood = "x4713EE"
+    arable_land = 160
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
+    capped_resources = {
+        bg_iron_mining = 27
+        bg_lead_mining = 19
+        bg_logging = 7
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
 }
 
 STATE_NAVARRA = {

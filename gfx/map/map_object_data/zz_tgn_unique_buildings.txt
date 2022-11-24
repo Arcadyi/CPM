@@ -1,19 +1,4 @@
 ﻿game_object_locator={
-	name="ottawa_city_locator"
-	clamp_to_water_level=no
-	render_under_water=no
-	generated_content=no
-	layer="static"
-	instances={
-		{
-			id=1
-			position={ 2372.19 0.000000 2620.28 }
-			rotation={ -0.000000 -0.000000 -0.000000 0.000000 }
-			scale={ 2.000000 2.000000 2.000000 }
-		}
-	}
-}
-game_object_locator={
 	name="montreal_city_locator"
 	clamp_to_water_level=no
 	render_under_water=no
@@ -22,7 +7,22 @@ game_object_locator={
 	instances={
 		{
 			id=1
-			position={ 2418.60 0.000000 2626.72 }
+			position={ 2418.600098 0.000000 2626.719971 }
+			rotation={ -0.000000 -0.000000 -0.000000 0.000000 }
+			scale={ 2.000000 2.000000 2.000000 }
+		}
+	}
+}
+game_object_locator={
+	name="ottawa_city_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+		{
+			id=1
+			position={ 2372.189941 0.000000 2620.280029 }
 			rotation={ -0.000000 -0.000000 -0.000000 0.000000 }
 			scale={ 2.000000 2.000000 2.000000 }
 		}
