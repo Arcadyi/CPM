@@ -34,7 +34,7 @@ base_values = {
 	
 	character_health_add = 1
 	
-	country_construction_add = 5
+	country_construction_add = 1000
 	
 	building_mobilization_cost_mult = 0.6
 	
