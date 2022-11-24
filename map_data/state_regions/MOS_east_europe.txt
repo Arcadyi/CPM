@@ -1,59 +1,59 @@
-STATE_EAST_GALICIA = {
-	id = 162
-	subsistence_building = "building_subsistence_farms"
-	provinces = { "x053163" "x11A021" "x489C42" "x4D0305" "x53932F" "x7EDD9E" "x8F9F20" "x9D8087" "xA2805F" "xA3CF78" "xB021A0" "xC1B262" "xC58E1C" "xCAE5B0" "xCDD223" "xD0E061" "xE369C4" "xEFE270" }
-	city = "x11A021"
-	farm = "xC58E1C"
-	mine = "x7EDD9E"
-	wood = "x8F9F20"
-	arable_land = 194
-	arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
-	capped_resources = {
-			bg_coal_mining = 92
-			bg_logging = 9
-	}
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 50
-	}
+﻿STATE_EAST_GALICIA = {
+    id = 162
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x053163" "x11A021" "x489C42" "x4D0305" "x53932F" "x7EDD9E" "x8F9F20" "x9D8087" "xA2805F" "xA3CF78" "xB021A0" "xC1B262" "xC58E1C" "xCAE5B0" "xCDD223" "xD0E061" "xE369C4" "xEFE270" }
+    city = "x11A021"
+    farm = "xC58E1C"
+    mine = "x7EDD9E"
+    wood = "x8F9F20"
+    arable_land = 194
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 92
+        bg_logging = 9
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 50
+    }
 }
 
 STATE_DELVIDEK = {
-	id = 166
-	subsistence_building = "building_subsistence_farms"
-	provinces = { "x11E021" "x626998" "x77143D" "x901B70" "x9E1AD1" "xC347D8" }
-	traits = { "state_trait_danube_river" }
-	city = "x11E021"
-	farm = "x626998"
-	mine = "xC347D8"
-	wood = "x9E1AD1"
-	arable_land = 62
-	arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
-	capped_resources = {
-			bg_logging = 4
-	}
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 10
-	}
+    id = 166
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x11E021" "x626998" "x77143D" "x901B70" "x9E1AD1" "xC347D8" }
+    traits = { "state_trait_danube_river" }
+    city = "x11E021"
+    farm = "x626998"
+    mine = "xC347D8"
+    wood = "x9E1AD1"
+    arable_land = 62
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 4
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 10
+    }
 }
 
 STATE_MOLDAVIA = {
-	id = 172
-	subsistence_building = "building_subsistence_farms"
-	provinces = { "x00A7F4" "x067DF0" "x0983EE" "x0D8A56" "x30E0A0" "x31A0A0" "x35CE84" "x3CE97E" "x556DE7" "x56839F" "x734EFF" "x7E6263" "x80D8F3" "x946A66" "xB0A0E0" "xEF2060" "xF40045" "xFF2F40" "xFFCCDA" }
-	city = "x946A66"
-	farm = "x30E0A0"
-	mine = "xFFCCDA"
-	wood = "x0D8A56"
-	arable_land = 130
-	arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
-	capped_resources = {
-			bg_iron_mining = 30
-			bg_logging = 14
-	}
-	resource = {
-		type = "bg_oil_extraction"
-		undiscovered_amount = 30
-	}
+    id = 172
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x00A7F4" "x067DF0" "x0983EE" "x0D8A56" "x30E0A0" "x31A0A0" "x35CE84" "x3CE97E" "x556DE7" "x56839F" "x734EFF" "x7E6263" "x80D8F3" "x946A66" "xB0A0E0" "xEF2060" "xF40045" "xFF2F40" "xFFCCDA" }
+    city = "x946A66"
+    farm = "x30E0A0"
+    mine = "xFFCCDA"
+    wood = "x0D8A56"
+    arable_land = 130
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
+    capped_resources = {
+        bg_iron_mining = 30
+        bg_logging = 14
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 30
+    }
 }
