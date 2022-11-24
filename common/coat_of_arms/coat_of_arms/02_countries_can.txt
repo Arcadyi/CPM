@@ -180,8 +180,8 @@ CAN_communist = {
 
 	colored_emblem = {
 		texture = "ce_roundel_canada_cpc.dds"
-		color1 = "white"
-		color2 = "white"
+		color1 = "blue"
+		color2 = "yellow"
 		instance = { position = { 0.5 0.5 } }
 	}
 }
@@ -442,7 +442,7 @@ QUE_communist = {
 
 	colored_emblem = {
 		texture = "ce_roundel_canada_cpc.dds"
-		color1 = "blue_light"
+		color1 = "blue"
 		color2 = "yellow"
 		instance = { position = { 0.5 0.5 } }
 	}
