@@ -51,10 +51,6 @@
 			institution = institution_colonial_affairs
 			level = 1
 		}
-
-		ig:ig_landowners = { # Victor de Broglie was Prime Minister until February 22, 1836
-			add_ruling_interest_group = yes
-		}
 		
 		ig:ig_industrialists = {
 			add_ruling_interest_group = yes
@@ -70,6 +66,11 @@
 
 		add_modifier = {
 			name = modifier_haitian_independence_payments
+			
+		}
+
+		add_journal_entry = { 
+			type = je_fall_of_july_monarchy
 			
 		}
 	}

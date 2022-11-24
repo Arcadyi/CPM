@@ -90,10 +90,63 @@ conservative_party = {
 				}
 			}
 			triggered_desc = {
+				desc = party_legitimist_party
+				trigger = {
+					exists = c:FRA
+					THIS = c:FRA
+					has_law = law_type:law_monarchy
+					NOT = { owner = { ruler = { has_variable = is_bonapartist } } }
+				}
+			}
+			triggered_desc = {
 				desc = party_bonapartist_party
 				trigger = {
 					exists = c:FRA
 					THIS = c:FRA
+					has_law = law_type:law_monarchy
+					owner = { ruler = { has_variable = is_bonapartist } }
+					year < 1880
+				}
+			}
+			triggered_desc = {
+				desc = party_appel_au_peuple
+				trigger = {
+					exists = c:FRA
+					THIS = c:FRA
+					has_law = law_type:law_monarchy
+					owner = { ruler = { has_variable = is_bonapartist } }
+					year >= 1880
+				}
+			}
+			triggered_desc = {
+				desc = party_party_of_order
+				trigger = {
+					exists = c:FRA
+					THIS = c:FRA
+					NOT = { has_law = law_type:law_monarchy }
+					NOT = { 
+						AND = { 
+							OR = { 
+								has_law = law_type:law_presidential_republic
+								has_law = law_type:law_parliamentary_republic
+								has_law = law_type:law_council_republic
+							}
+							year >= 1856
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_union_of_right
+				trigger = {
+					exists = c:FRA
+					THIS = c:FRA
+					NOT = { year < 1856 }
+					OR = {
+						has_law = law_type:law_presidential_republic
+						has_law = law_type:law_parliamentary_republic
+						has_law = law_type:law_council_republic
+					}
 				}
 			}
 			triggered_desc = {
@@ -235,6 +288,9 @@ conservative_party = {
 					OR = {
 						has_ideology = ideology_traditionalist
 						has_ideology = ideology_royalist
+						has_ideology = ideology_orleanist
+						has_ideology = ideology_legitimist
+						has_ideology = ideology_bonapartist
 						has_ideology = ideology_theocrat
 						has_ideology = ideology_slaver
 					}
@@ -542,26 +598,100 @@ conservative_party = {
 				desc = "from_no_police"
 			}
 		}
-		if = { 
-			limit = { #NFM
-				leader = {
-					has_variable = second_party_system_democrat_var
-				}
-			}
-			add = {
-				value = 40
-				desc = "Second Party System"
-			}
-		}
-		if = { #NFM
+		if = { # arbitrary weight for Andrew Jackson to be in the right party
 			limit = {
 				leader = {
-					has_variable = politically_neutral_var
+					has_variable = is_andrew_jackson
 				}
 			}
 			add = {
-				value = -10
-				desc = "Politically Neutral"
+				value = 35
+				desc = "from_jackson"
+			}
+		}
+		if = {
+			limit = {
+				leader = {
+					has_variable = is_adolphe_thiers_right
+					NOT = { owner = { has_law = law_type:law_monarchy } }
+				}
+			}
+			add = {
+				value = 10
+				desc = "from_adolphe_thiers"
+			}
+		}
+		if = {
+			limit = {
+				leader = {
+					OR = {
+						has_ideology = ideology_orleanist
+						has_ideology = ideology_bonapartist
+					}
+				}
+				NOT = { AND = { leader = { has_variable = is_adolphe_thiers_right } NOT = { owner = { has_law = law_type:law_monarchy } } } }
+				NOT = { owner = { ruler = { has_variable = is_bonapartist } } }
+			}
+			add = {
+				value = -15
+				desc = "from_rival_royalist"
+			}
+		}
+		if = {
+			limit = {
+				leader = { has_ideology = ideology_legitimist }
+				NOT = { owner = { ruler = { has_variable = is_bonapartist } } }
+			}
+			add = {
+				value = 10
+				desc = "from_legitimist"
+			}
+		}
+		if = {
+			limit = {
+				is_powerful = yes
+				leader = { has_ideology = ideology_legitimist }
+				NOT = { owner = { ruler = { has_variable = is_bonapartist } } }
+			}
+			add = {
+				value = 10
+				desc = "from_powerful_legitimist"
+			}
+		}
+		if = {
+			limit = {
+				leader = {
+					OR = {
+						has_ideology = ideology_legitimist
+						has_ideology = ideology_orleanist
+					}
+				}
+				owner = { ruler = { has_variable = is_bonapartist } }
+			}
+			add = {
+				value = -15
+				desc = "from_rival_royalist"
+			}
+		}
+		if = {
+			limit = {
+				leader = { has_ideology = ideology_bonapartist }
+				owner = { ruler = { has_variable = is_bonapartist } }
+			}
+			add = {
+				value = 10
+				desc = "from_bonapartist"
+			}
+		}
+		if = {
+			limit = {
+				is_powerful = yes
+				leader = { has_ideology = ideology_bonapartist }
+				owner = { ruler = { has_variable = is_bonapartist } }
+			}
+			add = {
+				value = 10
+				desc = "from_powerful_bonapartist"
 			}
 		}
 	}

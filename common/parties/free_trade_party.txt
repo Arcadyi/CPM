@@ -6,10 +6,33 @@ free_trade_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
-				desc = party_orleanists
+				desc = party_resistance_party
 				trigger = {
 					exists = c:FRA
 					THIS = c:FRA
+					has_law = law_type:law_monarchy
+					NOT = { owner = { ruler = { has_variable = is_bonapartist } } }
+				}
+			}
+			triggered_desc = {
+				desc = party_third_party
+				trigger = {
+					exists = c:FRA
+					THIS = c:FRA
+					has_law = law_type:law_monarchy
+					owner = { ruler = { has_variable = is_bonapartist } }
+				}
+			}
+			triggered_desc = {
+				desc = party_moderate_republicans
+				trigger = {
+					exists = c:FRA
+					THIS = c:FRA
+					OR = {
+						has_law = law_type:law_presidential_republic
+						has_law = law_type:law_parliamentary_republic
+						has_law = law_type:law_council_republic
+					}
 				}
 			}
 			triggered_desc = {
@@ -357,15 +380,37 @@ free_trade_party = {
 				desc = "from_lack_of_private_schools"
 			}
 		}
-		if = { #NFM
+		if = {
 			limit = {
 				leader = {
-					has_variable = politically_neutral_var
+					OR = {
+						has_ideology = ideology_legitimist
+						has_ideology = ideology_bonapartist
+					}
 				}
 			}
 			add = {
-				value = -10
-				desc = "Politically Neutral"
+				value = -15
+				desc = "from_rival_royalist"
+			}
+		}
+		if = {
+			limit = {
+				leader = { has_ideology = ideology_orleanist }
+			}
+			add = {
+				value = 10
+				desc = "from_orleanist"
+			}
+		}
+		if = {
+			limit = {
+				is_powerful = yes
+				leader = { has_ideology = ideology_orleanist }
+			}
+			add = {
+				value = 10
+				desc = "from_powerful_orleanist"
 			}
 		}
 	}

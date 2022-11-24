@@ -239,7 +239,7 @@ radical_party = {
 	}
 	# THIS IS RUN ONLY ONCE AT GAME START
 	valid_for_country = {
-		always = yes
+		ruler = { NOT = { has_variable = is_orleanist } }
 	}
 	available_for_interest_group = {
 		owner = {
@@ -541,17 +541,6 @@ radical_party = {
 			add = {
 				value = 3
 				desc = "from_serfdom"
-			}
-		}
-		if = { #NFM
-			limit = {
-				leader = {
-					has_variable = politically_neutral_var
-				}
-			}
-			add = {
-				value = -10
-				desc = "Politically Neutral"
 			}
 		}
 	}

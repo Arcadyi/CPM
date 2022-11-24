@@ -20,10 +20,15 @@ military_party = {
 				}
 			}
 			triggered_desc = {
-				desc = party_legitimist_party
+				desc = party_elysee_party
 				trigger = {
 					exists = c:FRA
 					THIS = c:FRA
+					OR = {
+						has_law = law_type:law_presidential_republic
+						has_law = law_type:law_parliamentary_republic
+						has_law = law_type:law_council_republic
+					}
 				}
 			}
 			triggered_desc = {
@@ -231,15 +236,40 @@ military_party = {
 				desc = "from_no_proportional_or_per_capita_tax"
 			}
 		}
-		if = { #NFM
+		if = {
 			limit = {
 				leader = {
-					has_variable = politically_neutral_var
+					OR = {
+						has_ideology = ideology_legitimist
+						has_ideology = ideology_orleanist
+					}
 				}
+				NOT = { owner = { ruler = { has_variable = is_bonapartist } } }
 			}
 			add = {
-				value = -10
-				desc = "Politically Neutral"
+				value = -15
+				desc = "from_rival_royalist"
+			}
+		}
+		if = {
+			limit = {
+				leader = { has_ideology = ideology_bonapartist }
+				NOT = { owner = { ruler = { has_variable = is_bonapartist } } }
+			}
+			add = {
+				value = 10
+				desc = "from_bonapartist"
+			}
+		}
+		if = {
+			limit = {
+				is_powerful = yes
+				leader = { has_ideology = ideology_bonapartist }
+				NOT = { owner = { ruler = { has_variable = is_bonapartist } } }
+			}
+			add = {
+				value = 10
+				desc = "from_powerful_bonapartist"
 			}
 		}
 	}
