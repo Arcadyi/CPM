@@ -1220,7 +1220,6 @@ STATE_TRANSVAAL = {
     }
 }
 
-
 STATE_EASTERN_CAPE = {
     id = 260
     subsistence_building = "building_subsistence_farms"
