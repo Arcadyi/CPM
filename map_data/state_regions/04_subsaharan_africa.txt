@@ -1349,7 +1349,7 @@ STATE_LOURENCO_MARQUES = {
 }
 
 STATE_SWAZILAND = {
-    id = 265
+    id = 584
     subsistence_building = "building_subsistence_farms"
     provinces = { "x25A652" "x73CDE8" "x884936" "x90A090" "xA30505" }
     traits = { "state_trait_malaria" "state_trait_waterberg_coalfield" }
@@ -1371,7 +1371,7 @@ STATE_SWAZILAND = {
     }
 }
 STATE_BASUTOLAND = {
-    id = 266
+    id = 585
     subsistence_building = "building_subsistence_farms"
     provinces = { "x6DB7E8" "x8C39B6" "xE1EAA4" "xF06050" }
     traits = { "state_trait_malaria" "state_trait_waterberg_coalfield" }
