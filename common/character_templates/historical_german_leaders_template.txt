@@ -1,0 +1,1588 @@
+﻿# Prussia - PRU
+pru_bismarck_character_template = {
+    first_name = Otto
+    last_name = von_Bismarck
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1815.4.1
+	dna = dna_otto_bismarck
+    traits = {
+        experienced_political_operator
+        masterful_diplomat
+        direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners      
+        }   
+        earliest_usage_date = 1847.1.1
+        latest_usage_date = 1884.1.1
+        chance = 50
+    }   
+}
+pru_stresemann_character_template = {
+    first_name = Gustav
+    last_name = Stresemann
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_moderate
+    interest_group = ig_industrialists
+    birth_date = 1878.5.10
+	dna = dna_gustav_stressmann
+    traits = {
+        masterful_diplomat
+        experienced_political_operator
+        meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists      
+        }   
+        earliest_usage_date = 1918.1.1
+        latest_usage_date = 1929.1.1
+        chance = 25
+    }   
+}
+pru_hitler_character_template = {
+    first_name = Adolf
+    last_name = Hitler
+    culture = cu:south_german
+    female = no
+    religion = protestant
+    ideology = ideology_fascist
+    interest_group = ig_rural_folk
+    birth_date = 1889.4.20
+	dna = dna_adolf_hitler
+    traits = {
+        demagogue
+        charismatic
+        arrogant
+		bigoted
+		direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+				AND = { 
+                    exists = c:AUS
+                    this = c:AUS
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk      
+        }   
+        earliest_usage_date = 1920.1.1
+        latest_usage_date = 1936.1.1
+        chance = 50
+    }   
+}
+pru_von_bulow_character_template = {
+    first_name = Bernhard
+    last_name = von_Bulow
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_royalist
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1849.5.3
+	dna = dna_bernhard_bulow
+    traits = {
+        experienced_diplomat
+        ambitious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie    
+        }   
+        earliest_usage_date = 1878.1.1
+        latest_usage_date = 1914.1.1
+        chance = 25
+    }   
+}
+pru_philipp_eulenburg_character_template = {
+    first_name = Philipp
+    last_name = zu_Eulenburg
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1847.2.12
+	dna = dna_philipp_eulenberg
+    traits = {
+        experienced_diplomat
+        bigoted
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners    
+        }   
+        earliest_usage_date = 1878.1.1
+        latest_usage_date = 1914.1.1
+        chance = 25
+    }   
+}
+pru_botho_eulenburg_character_template = {
+    first_name = Botho
+    last_name = zu_Eulenburg
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_traditionalist
+    interest_group = ig_landowners
+    birth_date = 1849.5.3
+	dna = dna_botho_eulenburg
+    traits = {
+        masterful_diplomat
+        basic_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners   
+        }   
+        earliest_usage_date = 1878.1.1
+        latest_usage_date = 1912.1.1
+        chance = 25
+    }   
+}
+bav_chlodwig_hohenhole_character_template = {
+    first_name = Chlodwig
+    last_name = zu_Hohenhole-Schilingsfurst
+    culture = cu:south_german
+    female = no
+    religion = protestant
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1819.3.31
+	dna = dna_chlodwig_hohenhole
+    traits = {
+        masterful_diplomat
+        experienced_political_operator
+		persistent
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:BAV
+                    this = c:BAV
+                }
+                AND = { 
+                    NOT = { exists = c:BAV }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BAVARIA }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners   
+        }   
+        earliest_usage_date = 1866.1.1
+        latest_usage_date = 1900.1.1
+        chance = 25
+    }   
+}
+pru_von_holstein_character_template = {
+    first_name = Friedrich
+    last_name = von_Holstein
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_pacifist
+    interest_group = ig_intelligentsia
+    birth_date = 1837.4.24
+	dna = dna_von_holstein
+    traits = {
+        experienced_diplomat
+        meticulous
+		tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia    
+        }   
+        earliest_usage_date = 1878.1.1
+        latest_usage_date = 1906.1.1
+        chance = 25
+    }   
+}
+pru_max_harden_character_template = {
+    first_name = Maximilian
+    last_name = Harden
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_jingoist_leader
+    interest_group = ig_intelligentsia
+    birth_date = 1861.10.20
+	dna = dna_max_harden
+    traits = {
+        inspirational_orator
+        direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia   
+        }   
+        earliest_usage_date = 1892.1.1
+        latest_usage_date = 1922.1.1
+        chance = 25
+    }   
+}
+pru_bethmann_hollweg_character_template = {
+    first_name = Theobald
+    last_name = von_Bethmann_Hollweg
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_moderate
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1856.11.29
+	dna = dna_bethmann_hollweg
+    traits = {
+        expert_political_operator
+        meticulous
+		inspirational_orator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie    
+        }   
+        earliest_usage_date = 1905.1.1
+        latest_usage_date = 1921.1.1
+        chance = 50
+    }   
+}
+pru_posadowsky_wehner_character_template = {
+    first_name = Arthur
+    last_name = von_Posadowsky-Wehner
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_royalist
+    interest_group = ig_rural_folk
+    birth_date = 1845.6.3
+	dna = dna_posadowsky
+    traits = {
+        basic_political_operator
+        reserved
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk    
+        }   
+        earliest_usage_date = 1882.1.1
+        latest_usage_date = 1920.1.1
+        chance = 25
+    }   
+}
+pru_ebert_character_template = {
+    first_name = Friedrich
+    last_name = Ebert
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_social_democrat
+    interest_group = ig_trade_unions
+    birth_date = 1871.2.4
+	dna = dna_friedrich_ebert
+    traits = {
+        experienced_political_operator
+        demagogue
+		charismatic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions    
+        }   
+        earliest_usage_date = 1912.1.1
+        latest_usage_date = 1925.1.1
+        chance = 25
+    }   
+}
+pru_kautsky_character_template = {
+    first_name = Karl
+    last_name = Kautsky
+    culture = cu:czech
+    female = no
+    religion = protestant
+    ideology = ideology_social_democrat
+    interest_group = ig_intelligentsia
+    birth_date = 1854.10.3
+	dna = dna_karl_kautsky
+    traits = {
+        basic_political_operator
+        tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia    
+        }   
+        earliest_usage_date = 1881.1.1
+        latest_usage_date = 1924.1.1
+        chance = 25
+    }   
+}
+pru_ledebour_character_template = {
+    first_name = Georg
+    last_name = Ledebour
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_vanguardist
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1850.3.7
+	dna = dna_georg_ledebour
+    traits = {
+        inspirational_orator
+        ambitious
+		charismatic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie    
+        }   
+        earliest_usage_date = 1900.1.1
+        latest_usage_date = 1936.1.1
+        chance = 25
+    }   
+}
+pru_cuno_character_template = {
+    first_name = Wilhelm
+    last_name = Cuno
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_moderate
+    interest_group = ig_industrialists
+    birth_date = 1876.7.2
+	dna = dna_wil_cuno
+    traits = {
+        basic_political_operator
+        reserved
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists   
+        }   
+        earliest_usage_date = 1922.1.1
+        latest_usage_date = 1933.1.1
+        chance = 25
+    }   
+}
+pru_bebel_character_template = {
+    first_name = August
+    last_name = Bebel
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_feminist
+    interest_group = ig_intelligentsia
+    birth_date = 1840.2.22
+	dna = dna_august_bebel
+    traits = {
+        firebrand
+        charismatic
+		experienced_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia   
+        }   
+        earliest_usage_date = 1870.1.1
+        latest_usage_date = 1913.1.1
+        chance = 25
+    }   
+}
+pru_wilhelm_liebknecht_character_template = {
+    first_name = Wilhelm
+    last_name = Liebknecht
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_social_democrat
+    interest_group = ig_trade_unions
+    birth_date = 1826.3.29
+	dna = dna_wil_liebknecht
+    traits = {
+        experienced_diplomat
+        inspirational_orator
+		basic_political_operator
+		persistent
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions  
+        }   
+        earliest_usage_date = 1866.1.1
+        latest_usage_date = 1900.1.1
+        chance = 25
+    }   
+}
+pru_karl_liebknecht_character_template = {
+    first_name = Karl
+    last_name = Liebknecht
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_communist
+    interest_group = ig_trade_unions
+    birth_date = 1871.8.13
+	dna = dna_karl_liebknecht
+    traits = {
+        firebrand
+        reckless
+		basic_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions   
+        }   
+        earliest_usage_date = 1912.1.1
+        latest_usage_date = 1919.1.1
+        chance = 25
+    }   
+}
+pru_rosa_luxembourg_character_template = {
+    first_name = Rosa
+    last_name = Luxembourg
+    culture = cu:polish
+    female = yes
+    religion = protestant
+    ideology = ideology_communist
+    interest_group = ig_trade_unions
+    birth_date = 1871.3.5
+	dna = dna_rosa_luxembourg
+    traits = {
+        firebrand
+        bandit
+		ambitious
+		brave
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions    
+        }   
+        earliest_usage_date = 1914.1.1
+        latest_usage_date = 1919.1.1
+        chance = 25
+    }   
+}
+pru_haase_character_template = {
+    first_name = Hugo
+    last_name = Haase
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_pacifist
+    interest_group = ig_intelligentsia
+    birth_date = 1863.9.29
+	dna = dna_hugo_haase
+    traits = {
+        experienced_diplomat
+        tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia   
+        }   
+        earliest_usage_date = 1911.1.1
+        latest_usage_date = 1919.1.1
+        chance = 25
+    }   
+}
+pru_scheidemann_character_template = {
+    first_name = Philipp
+    last_name = Scheidemann
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_social_democrat
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1865.7.26
+	dna = dna_philipp_scheidemann
+    traits = {
+        experienced_political_operator
+        cautious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie    
+        }   
+        earliest_usage_date = 1913.1.1
+        latest_usage_date = 1933.1.1
+        chance = 25
+    }   
+}
+pru_harnack_character_template = {
+    first_name = Adolf
+    last_name = von_Harnack
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_theocrat
+    interest_group = ig_devout
+    birth_date = 1851.5.7
+	dna = dna_von_harnack
+    traits = {
+        experienced_political_operator
+        pious
+		meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_devout   
+        }   
+        earliest_usage_date = 1881.1.1
+        latest_usage_date = 1930.1.1
+        chance = 25
+    }   
+}
+pru_simons_character_template = {
+    first_name = Walter
+    last_name = Simons
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_moderate
+    interest_group = ig_industrialists
+    birth_date = 1861.9.24
+	dna = dna_wal_simons
+    traits = {
+        basic_political_operator
+        tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists   
+        }   
+        earliest_usage_date = 1911.1.1
+        latest_usage_date = 1930.1.1
+        chance = 25
+    }   
+}
+pru_solf_character_template = {
+    first_name = Wilhelm
+    last_name = Solf
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_moderate
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1862.10.5
+	dna = dna_wil_solf
+    traits = {
+        experienced_colonial_administrator
+        basic_diplomat
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie    
+        }   
+        earliest_usage_date = 1911.1.1
+        latest_usage_date = 1928.1.1
+        chance = 25
+    }   
+}
+bad_max_baden_character_template = {
+    first_name = Maximilian
+    last_name = von_Baden
+    culture = cu:south_german
+    female = no
+    religion = protestant
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1867.7.10
+	dna = dna_max_baden
+    traits = {
+        basic_political_operator
+        traditionalist_commander
+		cautious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:BAD
+                    this = c:BAD
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BADEN }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners    
+        }   
+        earliest_usage_date = 1914.1.1
+        latest_usage_date = 1929.1.1
+        chance = 25
+    }   
+}
+pru_hertling_character_template = {
+    first_name = Georg
+    last_name = von_Hertling
+    culture = cu:north_german
+    female = no
+    religion = catholic
+    ideology = ideology_pacifist
+    interest_group = ig_devout
+    birth_date = 1843.8.31
+	dna = dna_georg_hertling
+    traits = {
+        pious
+        charismatic
+		experienced_diplomat
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_devout    
+        }   
+        earliest_usage_date = 1875.1.1
+        latest_usage_date = 1919.1.1
+        chance = 25
+    }   
+}
+pru_michaelis_character_template = {
+    first_name = Georg
+    last_name = Michaelis
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_moderate
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1857.10.8
+	dna = dna_georg_michaelis
+    traits = {
+        basic_political_operator
+        reserved
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie    
+        }   
+        earliest_usage_date = 1914.1.1
+        latest_usage_date = 1936.1.1
+        chance = 25
+    }   
+}
+pru_krupp_template = {
+    first_name = Alfred
+    last_name = Krupp
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_market_liberal
+    interest_group = ig_industrialists
+    birth_date = 1812.4.26
+	dna = dna_alfred_krupp
+    traits = {
+        innovative
+        meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists    
+        }   
+        earliest_usage_date = 1847.1.1
+        latest_usage_date = 1887.1.1
+        chance = 25
+    }   
+}
+pru_zeppelin_character_template = {
+    first_name = Ferdinand
+    last_name = von_Zeppelin
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_moderate
+    interest_group = ig_industrialists
+    birth_date = 1838.7.8
+	dna = dna_graf_zeppelin
+    traits = {
+        surveyor
+        innovative
+		persistent
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists    
+        }   
+        earliest_usage_date = 1899.1.1
+        latest_usage_date = 1917.1.1
+        chance = 25
+    }   
+}
+pru_seckendorff_character_template = {
+    first_name = Albert
+    last_name = von_Seckendorff
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1849.3.11
+	dna = dna_von_seckendorff
+    traits = {
+        experienced_diplomat
+        explorer
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners 
+        }   
+        earliest_usage_date = 1888.1.1
+        latest_usage_date = 1921.1.1
+        chance = 25
+    }   
+}
+pru_schorlemer_lieser_character_template = {
+    first_name = Clemens
+    last_name = von_Schorlemer-Lieser
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_royalist
+    interest_group = ig_rural_folk
+	dna = dna_shorlemer_lieser
+    birth_date = 1856.9.29
+    traits = {
+        basic_political_operator
+        meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk   
+        }   
+        earliest_usage_date = 1905.1.1
+        latest_usage_date = 1922.1.1
+        chance = 25
+    }   
+}
+pru_bennigsen_character_template = {
+    first_name = Rudolf
+    last_name = von_Bennigsen
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_republican_leader
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1824.7.10
+	dna = dna_rudolf_bennigsen
+    traits = {
+        experienced_political_operator
+        tactful
+		demagogue
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie    
+        }   
+        earliest_usage_date = 1871.1.1
+        latest_usage_date = 1893.1.1
+        chance = 25
+    }   
+}
+pru_virchow_character_template = {
+    first_name = Rudolf
+    last_name = Virchow
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_pacifist
+    interest_group = ig_intelligentsia
+    birth_date = 1821.10.13
+	dna = dna_rudolf_virchow
+    traits = {
+        persistent
+        basic_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia    
+        }   
+        earliest_usage_date = 1861.1.1
+        latest_usage_date = 1900.1.1
+        chance = 25
+    }   
+}
+pru_richter_character_template = {
+    first_name = Eugen
+    last_name = Richter
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_radical
+    interest_group = ig_intelligentsia
+    birth_date = 1838.7.30
+	dna = dna_eugen_richter
+    traits = {
+        direct
+        inspirational_orator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1869.1.1
+        latest_usage_date = 1906.1.1
+        chance = 25
+    }   
+}
+pru_bassermann_character_template = {
+    first_name = Ernst
+    last_name = Bassermann
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_republican_leader
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1854.7.26
+	dna = dna_ernst_bassermann
+    traits = {
+        basic_diplomat
+        inspirational_orator
+		reckless
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie    
+        }   
+        earliest_usage_date = 1886.1.1
+        latest_usage_date = 1917.1.1
+        chance = 25
+    }   
+}
+han_windthorst_character_template = {
+    first_name = Ludwig
+    last_name = Windthorst
+    culture = cu:north_german
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_devout
+    birth_date = 1812.1.7
+	dna = dna_ludwig_windthorst
+    traits = {
+        basic_political_operator
+        pious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:HAN
+                    this = c:HAN
+                }
+                AND = { 
+                    NOT = { exists = c:HAN }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_devout   
+        }   
+        earliest_usage_date = 1851.1.1
+        latest_usage_date = 1891.1.1
+        chance = 25
+    }   
+}
+pru_bauer_character_template = {
+    first_name = Gustav
+    last_name = Bauer
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_moderate
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1870.1.6
+	dna = dna_gustav_bauer
+    traits = {
+        experienced_diplomat
+        meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie    
+        }   
+        earliest_usage_date = 1908.1.1
+        latest_usage_date = 1925.2.1
+        chance = 25
+    }   
+}
+pru_bell_character_template = {
+    first_name = Johannes
+    last_name = Bell
+    culture = cu:north_german
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_industrialists
+    birth_date = 1869.9.23
+	dna = dna_johannes_bell
+    traits = {
+        experienced_colonial_administrator
+		cautious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists   
+        }   
+        earliest_usage_date = 1912.1.1
+        latest_usage_date = 1933.1.1
+        chance = 25
+    }   
+}
+pru_brockdorff_character_template = {
+    first_name = Ulrich
+    last_name = von_Brockdorff-Rantzau
+    culture = cu:north_german
+    female = no
+    religion = protestant
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1869.5.29
+	dna = dna_ulrich_bockendorff
+    traits = {
+        ambitious
+        experienced_diplomat
+		meticulous
+		wrathful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners 
+        }   
+        earliest_usage_date = 1897.1.1
+        latest_usage_date = 1928.1.1
+        chance = 25
+    }   
+}
+pru_papen_character_template = {
+    first_name = Franz
+    last_name = von_Papen
+    culture = cu:north_german
+    female = no
+    religion = catholic
+    ideology = ideology_royalist
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1879.10.29
+	dna = dna_franz_papen
+    traits = {
+        expert_political_operator
+        experienced_diplomat
+		pious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie    
+        }   
+        earliest_usage_date = 1915.1.1
+        latest_usage_date = 1936.1.1
+        chance = 25
+    }   
+}
+pru_bruning_character_template = {
+    first_name = Heinrich
+    last_name = Bruning
+    culture = cu:north_german
+    female = no
+    religion = catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_industrialists
+    birth_date = 1885.11.26
+	dna = dna_heinrich_bruning
+    traits = {
+        basic_political_operator
+		reckless
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:PRU
+                    this = c:PRU
+                }
+                AND = { 
+                    NOT = { exists = c:PRU }
+                    exists = c:GER
+                    this = c:GER
+                    c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists   
+        }   
+        earliest_usage_date = 1924.1.1
+        latest_usage_date = 1936.1.1
+        chance = 25
+    }   
+}

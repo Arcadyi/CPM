@@ -1,0 +1,223 @@
+﻿wilhelm_1_heir = {
+	is_shown = {
+		OR = {
+			AND = { 
+				exists = c:PRU
+				c:PRU = ROOT
+            }
+            AND = { 
+				NOT = { exists = c:PRU }
+				exists = c:GER
+				c:GER = ROOT
+				c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+            }
+        }
+		has_law = law_type:law_monarchy
+		game_date >= 1840.6.7
+		NOT = { has_variable = is_wilhelm_1 }
+	}
+	
+	possible = {
+		has_law = law_type:law_monarchy	
+	}
+
+	when_taken = {
+		create_character = {
+			first_name = Wilhelm
+			last_name = von_Hohenzollern
+			heir = yes
+			birth_date = 1797.3.22
+			dna = dna_emperor_wilhelm_1
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			traits = {
+				romantic
+				popular_commander
+			}
+		}
+		set_variable = {
+			name = is_wilhelm_1
+			value = yes
+		}
+	}
+}
+
+friedrich_3_heir = {
+	is_shown = {
+		OR = {
+			AND = { 
+				exists = c:PRU
+				c:PRU = ROOT
+            }
+            AND = { 
+				NOT = { exists = c:PRU }
+				exists = c:GER
+				c:GER = ROOT
+				c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+            }
+        }
+		has_law = law_type:law_monarchy
+		game_date >= 1840.6.7
+		NOT = { has_variable = is_friedrich_3 }
+	}
+	
+	possible = {
+		has_law = law_type:law_monarchy	
+	}
+
+	when_taken = {
+		create_character = {
+			first_name = Friedrich
+			last_name = von_Hohenzollern
+			heir = yes
+			birth_date = 1831.10.18
+			dna = dna_emperor_friedrich_3
+			interest_group = ig_intelligentsia
+			ideology = ideology_radical
+			traits = {
+				cancer
+				popular_commander
+				persistent
+			}
+		}
+		set_variable = {
+			name = is_friedrich_3
+			value = yes
+		}
+	}
+}
+
+wilhelm_2_heir = {
+	is_shown = {
+		OR = {
+			AND = { 
+				exists = c:PRU
+				c:PRU = ROOT
+            }
+            AND = { 
+				NOT = { exists = c:PRU }
+				exists = c:GER
+				c:GER = ROOT
+				c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+            }
+        }
+		has_law = law_type:law_monarchy
+		game_date >= 1888.3.9
+		NOT = { has_variable = is_wilhelm_2 }
+	}
+	
+	possible = {
+		has_law = law_type:law_monarchy	
+	}
+	
+	when_taken = {
+		create_character = {
+			first_name = Wilhelm
+			last_name = von_Hohenzollern
+			heir = yes
+			birth_date = 1859.1.27
+			dna = dna_emperor_wilhelm_2
+			interest_group = ig_armed_forces
+			ideology = ideology_jingoist_leader
+			traits = {
+				wrathful
+				experienced_colonial_administrator
+				imperious
+				direct
+			}
+		}
+		set_variable = {
+			name = is_wilhelm_2
+			value = yes
+		}
+	}
+}
+
+kronprinz_heir = {
+	is_shown = {
+		OR = {
+			AND = { 
+				exists = c:PRU
+				c:PRU = ROOT
+            }
+            AND = { 
+				NOT = { exists = c:PRU }
+				exists = c:GER
+				c:GER = ROOT
+				c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+            }
+        }
+		has_law = law_type:law_monarchy
+		game_date >= 1888.6.15
+		NOT = { has_variable = is_kronprinz}
+	}
+	
+	possible = {
+		has_law = law_type:law_monarchy	
+	}
+
+	when_taken = {
+		create_character = {
+			first_name = Wilhelm
+			last_name = von_Hohenzollern
+			heir = yes
+			birth_date = 1882.5.6
+			dna = dna_kronprinz_wilhelm
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			traits = {
+				charismatic
+				expensive_tastes
+				popular_commander
+			}
+		}
+		set_variable = {
+			name = is_kronprinz
+			value = yes
+		}
+	}
+}
+
+louis_ferdinand_heir = {
+	is_shown = {
+		OR = {
+			AND = { 
+				exists = c:PRU
+				c:PRU = ROOT
+            }
+            AND = { 
+				NOT = { exists = c:PRU }
+				exists = c:GER
+				c:GER = ROOT
+				c:GER = { owns_entire_state_region = STATE_BRANDENBURG }
+            }
+        }
+		has_law = law_type:law_monarchy
+		game_date >= 1918.11.9
+		NOT = { has_variable = is_louis_ferdinand}
+	}
+	
+	possible = {
+		has_law = law_type:law_monarchy	
+	}
+
+	when_taken = {
+		create_character = {
+			first_name = Louis_Ferdinand
+			last_name = von_Hohenzollern
+			heir = yes
+			birth_date = 1907.11.9
+			dna = dna_louis_ferdinand
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				reserved
+				expensive_tastes
+			}
+		}
+		set_variable = {
+			name = is_louis_ferdinand
+			value = yes
+		}
+	}
+}

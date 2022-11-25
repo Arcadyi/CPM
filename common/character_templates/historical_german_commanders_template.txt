@@ -1,0 +1,1753 @@
+﻿# Prussia - PRU
+pru_admiral_von_tirpitz = {
+	first_name = Alfred
+	last_name = von_Tirpitz
+	culture = cu:north_german
+	female = no
+	ideology = ideology_ethno_nationalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1849.3.19
+	dna = dna_alfred_tirpitz
+	traits = {
+		ambitious
+		dockyard_master
+		convoy_raider_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER 
+					c:GER = { owns_entire_state_region = STATE_BRANDENBURG } 
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1875.1.1
+		latest_usage_date = 1920.1.1	
+		chance = 50
+	}
+}
+pru_admiral_von_spee = {
+	first_name = Maximillian
+	last_name = von_Spee
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1861.6.22
+	dna = dna_admiral_spee
+	traits = {
+		experienced_convoy_raider
+		brave
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_RHINELAND } 
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1926.1.1	
+		chance = 50
+	}
+}
+pru_general_zu_dohna_schlobitten = {
+	first_name = Karl_Friedrich
+	last_name = zu_Dohna_Schlobitten
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1784.4.4
+	dna = dna_dohna_sclobitten
+	traits = {
+		tactful
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:PRU
+			this = c:PRU
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1854.1.1	
+		chance = 50
+	}
+}
+pru_general_von_moltke = { # Moltke the Younger
+	first_name = Helmuth
+	last_name = von_Moltke
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1848.5.25
+	dna = dna_moltke_younger
+	traits = {
+		experienced_offensive_planner
+		reserved
+		resupply_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER 
+					c:GER = { owns_entire_state_region = STATE_MECKLENBURG } 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1920.1.1	
+		chance = 50
+	}
+}
+pru_general_von_roon = {
+	first_name = Albrecht
+	last_name = von_Roon
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1803.4.3
+	dna = dna_albrecht_roon
+	traits = {
+		meticulous
+		innovative
+		resupply_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER 
+					c:GER = { owns_entire_state_region = STATE_POMERANIA } 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1879.1.1	
+		chance = 50
+	}
+}
+pru_general_prince_friedrich_karl = {
+	first_name = Prince_Friedrich_Karl 
+	last_name = von_Hohenzollern
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1828.3.20
+	dna = dna_prince_friedrich_karl
+	traits = {
+		experienced_offensive_planner
+		innovative
+		surveyor
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+					c:PRU = { has_law = law_type:law_monarchy } 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER 
+					c:GER = { owns_entire_state_region = STATE_POMERANIA } 
+					c:GER = { has_law = law_type:law_monarchy } 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1851.1.1
+		latest_usage_date = 1890.1.1	
+		chance = 50
+	}
+}
+pru_general_von_goeben = {
+	first_name = August_Karl
+	last_name = von_Goeben
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1816.12.10
+	dna = dna_august_goeben
+	traits = {
+		experienced_offensive_planner
+		persistent
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER 
+					c:GER = { owns_entire_state_region = STATE_POMERANIA } 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1880.1.1	
+		chance = 50
+	}
+}
+pru_general_von_hindenburg = {
+	first_name = Paul
+	last_name = von_Hindenburg
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1847.8.2
+	dna = dna_von_hindenburg
+	traits = {
+		experienced_offensive_planner
+		expert_defensive_strategist
+		persistent
+		popular_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER 
+					c:GER = { owns_entire_state_region = STATE_POSEN } 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1936.1.1	
+		chance = 90
+	}
+}
+pru_general_ludendorff = {
+	first_name = Erich
+	last_name = Ludendorff
+	culture = cu:north_german
+	female = no
+	ideology = ideology_ethno_nationalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1865.4.9
+	dna = dna_erich_ludendorff
+	traits = {
+		expert_offensive_planner
+		resupply_commander
+		surveyor
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER 
+					c:GER = { owns_entire_state_region = STATE_POSEN } 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1894.1.1
+		latest_usage_date = 1936.1.1	
+		chance = 90
+	}
+}
+pru_general_von_caprivi = {
+	first_name = Leo
+	last_name = von_Caprivi
+	culture = cu:north_german
+	female = no
+	ideology = ideology_reformer
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1831.2.24
+	dna = dna_leo_caprivi
+	traits = {
+		experienced_diplomat
+		ambitious
+		experienced_offensive_planner
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1870.1.1
+		latest_usage_date = 1894.1.1	
+		chance = 50
+	}
+}
+pru_general_falkenhayn = {
+	first_name = Erich
+	last_name = von_Falkenhayn
+	culture = cu:north_german
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1861.9.11
+	dna = dna_erich_falkenhayn
+	traits = {
+		expert_offensive_planner
+		trench_rat
+		experienced_artillery_commander
+		surveyor
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1903.1.1
+		latest_usage_date = 1919.1.1	
+		chance = 50
+	}
+}
+pru_general_von_seeckt = {
+	first_name = Hans
+	last_name = von_Seeckt
+	culture = cu:north_german
+	female = no
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1866.4.22
+	dna = dna_hans_seeckt
+	traits = {
+		basic_defensive_strategist
+		resupply_commander
+		trench_rat
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1899.1.1
+		latest_usage_date = 1932.1.1	
+		chance = 50
+	}
+}
+pru_general_von_steinmetz = {
+	first_name = Karl_Friedrich
+	last_name = von_Steinmetz
+	culture = cu:north_german
+	female = no
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1796.12.27
+	dna = dna_von_steinmetz
+	traits = {
+		persistent
+		experienced_offensive_planner
+		traditionalist_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1854.1.1
+		latest_usage_date = 1871.1.1	
+		chance = 50
+	}
+}
+pru_general_bittenfeld = {
+	first_name = Karl_Eberhard
+	last_name = von_Caprivi
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1796.9.4
+	dna = dna_von_bittenfeld
+	traits = {
+		expert_defensive_strategist
+		wrathful
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1872.1.1	
+		chance = 50
+	}
+}
+pru_general_manteuffel = {
+	first_name = Edwin
+	last_name = von_Manteuffel
+	culture = cu:north_german
+	female = no
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1809.2.24
+	dna = dna_edwin_manteuffel
+	traits = {
+		experienced_offensive_planner
+		pillager
+		meticulous
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1853.1.1
+		latest_usage_date = 1885.1.1	
+		chance = 50
+	}
+}
+pru_general_von_flies = {
+	first_name = Eduard_Moritz
+	last_name = von_Flies
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1802.8.25
+	dna = dna_von_flies
+	traits = {
+		basic_defensive_strategist
+		resupply_commander
+		forest_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1859.1.1
+		latest_usage_date = 1870.1.1	
+		chance = 50
+	}
+}
+pru_general_falckenstein = {
+	first_name = Eduard
+	last_name = Vogel_von_Falckenstein
+	culture = cu:north_german
+	female = no
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1797.1.5
+	dna = dna_von_falckenstein
+	traits = {
+		basic_offensive_planner
+		surveyor
+		tactful
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1855.1.1
+		latest_usage_date = 1873.1.1	
+		chance = 50
+	}
+}
+pru_general_von_hutier = {
+	first_name = Oskar
+	last_name = von_Hutier
+	culture = cu:north_german
+	female = no
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1857.8.27
+	dna = dna_von_hutier
+	traits = {
+		expert_offensive_planner
+		expert_artillery_commander
+		surveyor
+		meticulous
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1934.1.1	
+		chance = 50
+	}
+}
+pru_admiral_von_hipper = {
+	first_name = Franz
+	last_name = von_Hipper
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1863.9.19
+	dna = dna_von_hipper
+	traits = {
+		expert_naval_commander
+		surveyor
+		persistent
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:BAV 
+					this = c:BAV 
+				}
+				AND = { 
+					NOT = { exists = c:BAV } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1912.1.1
+		latest_usage_date = 1932.1.1	
+		chance = 50
+	}
+}
+pru_admiral_von_ingenohl = {
+	first_name = Friedrich
+	last_name = von_Ingenohl
+	culture = cu:north_german
+	female = no
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1857.6.30
+	dna = dna_von_ingenohl
+	traits = {
+		experienced_naval_commander
+		dockyard_master
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1907.1.1
+		latest_usage_date = 1933.1.1	
+		chance = 50
+	}
+}
+pru_admiral_von_pohl = {
+	first_name = Hugo
+	last_name = von_Pohl
+	culture = cu:north_german
+	female = no
+	ideology = ideology_reformer
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1855.8.25
+	dna = dna_von_pohl
+	traits = {
+		experienced_naval_commander
+		direct
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1916.1.1	
+		chance = 50
+	}
+}
+pru_admiral_scheer = {
+	first_name = Reinhard
+	last_name = Scheer
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1863.9.30
+	dna = dna_admiral_scheer
+	traits = {
+		expert_naval_commander
+		popular_commander
+		imperious
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1928.1.1	
+		chance = 50
+	}
+}
+pru_general_von_francois = {
+	first_name = Hermann
+	last_name = von_Francois
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1856.1.31
+	dna = dna_von_francois
+	traits = {
+		experienced_offensive_planner
+		trench_rat
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1908.1.1
+		latest_usage_date = 1920.1.1	
+		chance = 50
+	}
+}
+pru_general_von_mackensen = {
+	first_name = August
+	last_name = von_Mackensen
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1849.12.6
+	dna = dna_von_mackensen
+	traits = {
+		expert_offensive_planner
+		celebrity_commander
+		brave
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1893.1.1
+		latest_usage_date = 1919.1.1	
+		chance = 50
+	}
+}
+pru_general_von_kluck = {
+	first_name = Alexander
+	last_name = von_Kluck
+	culture = cu:north_german
+	female = no
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1846.5.20
+	dna = dna_von_kluck
+	traits = {
+		expert_artillery_commander
+		experienced_offensive_planner
+		meticulous
+		tactful
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1899.1.1
+		latest_usage_date = 1920.1.1	
+		chance = 50
+	}
+}
+pru_general_von_bulow = {
+	first_name = Karl
+	last_name = von_Bulow
+	culture = cu:north_german
+	female = no
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1846.4.24
+	dna = dna_karl_bulow
+	traits = {
+		expert_defensive_strategist
+		surveyor
+		traditionalist_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1921.1.1	
+		chance = 50
+	}
+}
+pru_general_von_schlieffen = {
+	first_name = Alfred
+	last_name = von_Schlieffen
+	culture = cu:north_german
+	female = no
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1833.2.28
+	dna = dna_von_schlieffen
+	traits = {
+		expert_offensive_planner
+		plains_commander
+		meticulous
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1876.1.1
+		latest_usage_date = 1906.1.1	
+		chance = 50
+	}
+}
+pru_general_von_marwitz = {
+	first_name = Georg
+	last_name = von_der_Marwitz
+	culture = cu:north_german
+	female = no
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1856.7.7
+	dna = dna_von_der_marwitz
+	traits = {
+		experienced_offensive_planner
+		basic_artillery_commander
+		direct
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1894.1.1
+		latest_usage_date = 1920.1.1	
+		chance = 50
+	}
+}
+pru_general_von_hoeppner = {
+	first_name = Ernst
+	last_name = von_Hoeppner
+	culture = cu:north_german
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1860.1.14
+	dna = dna_von_hoeppner
+	traits = {
+		resupply_commander
+		experienced_artillery_commander
+		surveyor
+		innovative
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1902.1.1
+		latest_usage_date = 1922.1.1	
+		chance = 50
+	}
+}
+pru_general_von_waldersee = {
+	first_name = Alfred
+	last_name = von_Waldersee
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1832.4.8
+	dna = dna_von_waldersee
+	traits = {
+		experienced_artillery_commander
+		resupply_commander
+		traditionalist_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1870.1.1
+		latest_usage_date = 1904.1.1	
+		chance = 50
+	}
+}
+pru_general_karl_hohenzollern = {
+	first_name = Karl-Anton
+	last_name = von_Hohenzollern
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1868.9.1
+	dna = dna_karl_anton_hohenzollern
+	traits = {
+		surveyor
+		arrogant
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1914.1.1
+		latest_usage_date = 1920.1.1	
+		chance = 50
+	}
+}
+bad_general_von_kageneck = {
+	first_name = Karl_Marquard
+	last_name = von_Kageneck
+	culture = cu:south_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1871.5.10
+	dna = dna_von_kageneck
+	traits = {
+		surveyor
+		reserved
+		meticulous
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:BAD 
+					this = c:BAD 
+				}
+				AND = { 
+					NOT = { exists = c:BAD } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1912.1.1
+		latest_usage_date = 19920.1.1	
+		chance = 50
+	}
+}
+pru_general_lettow_vorbeck = {
+	first_name = Paul
+	last_name = von_Lettow-Vorbeck
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1870.3.20
+	dna = dna_lettow_vorbeck
+	traits = {
+		resupply_commander
+		persistent
+		tactful
+		surveyor
+		experienced_offensive_planner
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1914.1.1
+		latest_usage_date = 1936.1.1	
+		chance = 50
+	}
+}
+pru_general_von_trumpling = {
+	first_name = Wilhelm
+	last_name = von_Trumpling
+	culture = cu:north_german
+	female = no
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1809.12.30
+	dna = dna_von_trumpling
+	traits = {
+		basic_offensive_planner
+		cautious
+		traditionalist_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1883.1.1	
+		chance = 50
+	}
+}
+pru_general_wweltzien = {
+	first_name = Ludwig
+	last_name = von_Weltzien
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1815.4.1
+	dna = dna_von_weltzien
+	traits = {
+		surveyor
+		plains_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1853.1.1
+		latest_usage_date = 1870.1.1	
+		chance = 50
+	}
+}
+pru_general_beyer = {
+	first_name = Gustav_Friedrich
+	last_name = von_Beyer
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1812.2.26
+	dna = dna_von_beyer
+	traits = {
+		basic_artillery_commander
+		forest_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1860.1.1
+		latest_usage_date = 1880.1.1	
+		chance = 50
+	}
+}
+pru_general_fransecky = {
+	first_name = Eduard
+	last_name = von_Fransecky
+	culture = cu:north_german
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1807.11.16
+	dna = dna_von_fransecky
+	traits = {
+		resupply_commander
+		meticulous
+		traditionalist_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1854.1.1
+		latest_usage_date = 1882.1.1	
+		chance = 50
+	}
+}
+pru_general_werder = {
+	first_name = August
+	last_name = von_Werder
+	culture = cu:north_german
+	female = no
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_rural_folk
+	birth_date = 1808.9.12
+	dna = dna_von_werder
+	traits = {
+		popular_commander
+		experienced_artillery_commander
+		plains_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1859.1.1
+		latest_usage_date = 1879.1.1	
+		chance = 50
+	}
+}
+pru_general_bonin = {
+	first_name = Adolf
+	last_name = von_Bonin
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1803.11.11
+	dna = dna_von_bonin
+	traits = {
+		moutains_commander
+		reckless
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1851.1.1
+		latest_usage_date = 1872.1.1	
+		chance = 50
+	}
+}
+pru_general_heeringen = {
+	first_name = Josias
+	last_name = von_Heeringen
+	culture = cu:north_german
+	female = no
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1850.3.9
+	dna = dna_von_heeringen
+	traits = {
+		experienced_defensive_strategist
+		cautious
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1898.1.1
+		latest_usage_date = 1926.1.1	
+		chance = 50
+	}
+}
+pru_general_hausen = {
+	first_name = Max
+	last_name = von_Hausen
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1846.12.17
+	dna = dna_general_hausen
+	traits = {
+		basic_defensive_strategist
+		stalwart_defender
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:SAX 
+					this = c:SAX 
+				}
+				AND = { 
+					NOT = { exists = c:SAX } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1874.1.1
+		latest_usage_date = 1914.1.1	
+		chance = 50
+	}
+}
+pru_general_schimdt = {
+	first_name = Konstantin
+	last_name = Schmidt_von_Knobelsdorf
+	culture = cu:north_german
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1860.12.13
+	dna = dna_general_schmidt
+	traits = {
+		surveyor
+		meticulous
+		basic_offensive_planner
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1912.1.1
+		latest_usage_date = 1936.1.1	
+		chance = 50
+	}
+}
+pru_general_von_prittwitz = {
+	first_name = Maximillian
+	last_name = von_Prittwitz
+	culture = cu:north_german
+	female = no
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1848.11.27
+	dna = dna_general_prittwitz
+	traits = {
+		experienced_defensive_strategist
+		defense_in_depth_specialist
+		traditionalist_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1894.1.1
+		latest_usage_date = 1917.1.1	
+		chance = 50
+	}
+}
+pru_general_von_armin = {
+	first_name = Friedrich_Bertram_Sixt
+	last_name = von_Armin
+	culture = cu:north_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1851.11.27
+	dna = dna_general_armin
+	traits = {
+		expert_defensive_strategist
+		trench_rat
+		experienced_artillery_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1936.1.1	
+		chance = 50
+	}
+}
+pru_general_emmich = {
+	first_name = Otto
+	last_name = von_Emmich
+	culture = cu:north_german
+	female = no
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1848.8.4
+	dna = dna_general_emmich
+	traits = {
+		experienced_offensive_planner
+		expert_artillery_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:PRU 
+					this = c:PRU 
+				}
+				AND = { 
+					NOT = { exists = c:PRU } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1897.1.1
+		latest_usage_date = 1915.1.1	
+		chance = 50
+	}
+}
+
+
+# Bavaria - BAV
+bav_general_von_wittelsbach = {
+	first_name = Prince_Karl_Theodor
+	last_name = von_Wittelsbach
+	culture = cu:south_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1795.7.7
+	dna = dna_karl_von_bayern 
+	traits = {
+		resupply_commander
+		meticulous
+	}
+	commander_usage = {
+		country_trigger = {
+			AND = {
+					exists = c:BAV
+					this = c:BAV
+					c:BAV = { has_law = law_type:law_monarchy }
+				}
+			AND = { 
+					NOT = { exists = c:BAV } 
+					exists = c:GER 
+					this = c:GER  
+				}
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1875.1.1	
+		chance = 50
+	}
+}
+bav_general_von_der_tann = {
+	first_name = Ludwig
+	last_name = von_der_Tann
+	culture = cu:south_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1815.6.18
+	dna = dna_von_der_tann
+	traits = {
+		celebrity_commander
+		experienced_offensive_planner
+		resupply_commander
+		tactful
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:BAV 
+					this = c:BAV
+				}
+				AND = { 
+					NOT = { exists = c:BAV } 
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_BAVARIA } 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1880.1.1	
+		chance = 50
+	}
+}
+bav_rupprecht_bayern = {
+	first_name = Rupprecht
+	last_name = von_Bayern
+	culture = cu:south_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1869.5.18
+	dna = dna_rupprecht_bayern
+	traits = {
+		experienced_offensive_planner
+		meticulous
+		trench_rat
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:BAV 
+					this = c:BAV 
+				}
+				AND = { 
+					NOT = { exists = c:BAV } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1914.1.1
+		latest_usage_date = 1936.1.1	
+		chance = 50
+	}
+}
+
+
+# Wurttemberg - WUR
+wur_albert_wurttemberg = {
+	first_name = Albert
+	last_name = von_Wurttemberg
+	culture = cu:south_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1865.12.23
+	dna = dna_albert_wurttemberg
+	traits = {
+		basic_offensive_planner
+		stalwart_defender 
+		resupply_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:WUR 
+					this = c:WUR 
+				}
+				AND = { 
+					NOT = { exists = c:WUR } 
+					exists = c:GER 
+					this = c:GER  
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1898.1.1
+		latest_usage_date = 1936.1.1	
+		chance = 50
+	}
+}
+
+
+# Saxony - SAX
+sax_general_von_hausen = {
+	first_name = Max
+	last_name = von_Hausen
+	culture = cu:south_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1846.12.17
+	traits = {
+		pillager
+		cruel
+		surveyor
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:SAX 
+					this = c:SAX
+				}
+				AND = { 
+					NOT = { exists = c:SAX } 
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_SAXONY } 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1875.1.1
+		latest_usage_date = 1920.1.1	
+		chance = 50
+	}
+}
