@@ -1,5 +1,5 @@
 ﻿GER = {
-	color = { 147 130 110 }
+	color = {96 101 105}
 	
 	country_type = recognized
 
@@ -14,7 +14,7 @@ GBR = {
 
 	country_type = recognized
 
-	tier = empire	
+	tier = empire
 	
 	cultures = { british scottish }
 	capital = STATE_HOME_COUNTIES
@@ -3355,7 +3355,7 @@ NGF = {
 }
 
 SGF = {
-	color = { 176 18 7}
+	color = {65 112 122}
 	
 	country_type = recognized
 
