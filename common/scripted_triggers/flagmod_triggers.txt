@@ -1,0 +1,264 @@
+﻿coa_def_flagmod_bolivian_ensign_trigger = {
+	exists = c:BOL
+	c:BOL = { save_temporary_scope_as = custom_overlord }
+	coa_def_ensign_trigger = yes
+}
+
+coa_def_flagmod_argentine_ensign_trigger = {
+	exists = c:ARG
+	c:ARG = { save_temporary_scope_as = custom_overlord }
+	coa_def_ensign_trigger = yes
+}
+
+coa_def_flagmod_nicaraguan_ensign_trigger = {
+	exists = c:NIC
+	c:NIC = { save_temporary_scope_as = custom_overlord }
+	coa_def_ensign_trigger = yes
+}
+
+coa_def_italian_ensign_trigger = {
+	exists = c:ITA
+	c:ITA = { save_temporary_scope_as = custom_overlord }
+	coa_def_ensign_trigger = yes
+}
+
+coa_def_sardinian_ensign_trigger = {
+	exists = c:SAR
+	c:SAR = { save_temporary_scope_as = custom_overlord }
+	coa_def_ensign_trigger = yes
+}
+
+
+coa_def_flagmod_bf1842_trigger = {
+	year < 1842
+}
+
+coa_def_flagmod_bf1845_trigger = {
+	year < 1845
+}
+
+coa_def_flagmod_bf1848_trigger = {
+	year < 1848
+}
+
+coa_def_flagmod_bf1866_trigger = {
+	year < 1866
+}
+
+coa_def_flagmod_bf1922_trigger = {
+	year < 1922
+}
+
+coa_def_flagmod_perubolivia_trigger = {
+	exists = scope:actor
+	scope:actor = {
+		owns_entire_state_region = STATE_LA_PAZ
+		owns_entire_state_region = STATE_LIMA
+	}
+}
+
+coa_def_flagmod_capital_santacruz = {
+	exists = scope:actor
+	scope:actor = {
+		NOT = {
+	    	owns_entire_state_region = STATE_LA_PAZ
+	    }
+		capital = {
+			state_region = {
+				this = s:STATE_SANTA_CRUZ
+			}
+		}
+	}	
+}
+
+coa_def_flagmod_capital_sicily = {
+	exists = scope:actor
+	scope:actor = {
+		capital = {
+			state_region = {
+				this = s:STATE_SICILY
+			}
+		}
+	}	
+}
+
+coa_def_flagmod_capital_northerncanada = {
+	exists = scope:actor
+	scope:actor = {
+		capital = {
+			state_region = {
+				OR = {
+					this = s:STATE_YUKON_TERRITORY
+					this = s:STATE_NORTHWEST_TERRITORIES
+					this = s:STATE_NUNAVUT
+					this = s:STATE_MANITOBA
+					this = s:STATE_ALBERTA
+					this = s:STATE_SASKATCHEWAN
+				}
+			}
+		}
+	}	
+}
+
+
+coa_def_flagmod_canada_on_trigger = {
+	exists = scope:actor
+	OR = {
+		scope:actor = {
+			owns_entire_state_region = STATE_ONTARIO
+		}
+		AND = {
+			NOT = {
+				exists = c:ONT
+			}
+			scope:actor = {
+				has_state_in_state_region = STATE_ONTARIO
+			}
+		}
+	}
+}
+
+coa_def_flagmod_canada_qc_trigger = {
+	exists = scope:actor
+	OR = {
+		scope:actor = {
+			owns_entire_state_region = STATE_QUEBEC
+		}
+		AND = {
+			NOT = {
+				exists = c:QUE
+			}
+			scope:actor = {
+				has_state_in_state_region = STATE_QUEBEC
+			}
+		}
+	}
+}
+
+coa_def_flagmod_canada_nb_trigger = {
+	exists = scope:actor
+	OR = {
+		scope:actor = {
+			owns_entire_state_region = STATE_NEW_BRUNSWICK
+		}
+		AND = {
+			NOT = {
+				exists = c:NBS
+			}
+			NOT = {
+				exists = c:NVS
+			}
+			scope:actor = {
+				has_state_in_state_region = STATE_NEW_BRUNSWICK
+			}
+		}
+	}
+}
+
+coa_def_flagmod_canada_bc_trigger = {
+	exists = scope:actor
+	OR = {
+		scope:actor = {
+			owns_entire_state_region = STATE_BRITISH_COLUMBIA
+		}
+		AND = {
+			NOT = {
+				exists = c:ORG
+			}
+			scope:actor = {
+				has_state_in_state_region = STATE_BRITISH_COLUMBIA
+			}
+		}
+	}
+}
+coa_def_flagmod_canada_mb_trigger = {
+	exists = scope:actor
+	OR = {
+		scope:actor = {
+			owns_entire_state_region = STATE_MANITOBA
+		}
+		AND = {
+			NOT = {
+				exists = c:HBC
+			}
+			scope:actor = {
+				has_state_in_state_region = STATE_MANITOBA
+			}
+		}
+	}
+}
+coa_def_flagmod_canada_ab_trigger = {
+	exists = scope:actor
+	OR = {
+		scope:actor = {
+			owns_entire_state_region = STATE_ALBERTA
+		}
+		AND = {
+			NOT = {
+				exists = c:HBC
+			}
+			scope:actor = {
+				has_state_in_state_region = STATE_ALBERTA
+			}
+		}
+	}
+}
+coa_def_flagmod_canada_sk_trigger = {
+	exists = scope:actor
+	OR = {
+		scope:actor = {
+			owns_entire_state_region = STATE_SASKATCHEWAN
+		}
+		AND = {
+			NOT = {
+				exists = c:HBC
+			}
+			scope:actor = {
+				has_state_in_state_region = STATE_SASKATCHEWAN
+			}
+		}
+	}
+}
+
+coa_def_flagmod_canada_no_nbs_trigger = {
+	NOT = {
+		exists = c:NBS
+	}
+}
+coa_def_flagmod_canada_no_nvs_trigger = {
+	NOT = {
+		exists = c:NVS
+	}
+}
+
+coa_def_flagmod_south_italian_trigger = { # Hacky, but kinda usually shows when Two Sicilies formed Italy
+	exists = scope:actor
+	scope:actor = {
+		has_law = law_type:law_monarchy
+		ruler = {
+			has_culture = cu:south_italian
+		}
+	}
+}
+
+coa_def_flagmod_nationalism_trigger = {
+	exists = scope:actor
+	scope:actor = {
+		has_technology_researched = nationalism
+	}
+}
+
+coa_def_flagmod_italy_unifiedbyminor = { # Hacky way to determine if Italy was unified by
+	exists = scope:actor
+	scope:actor = {
+		capital = {
+			state_region = {
+				OR = {
+					this = s:STATE_EMILIA
+					this = s:STATE_TUSCANY
+					this = s:STATE_VENETIA
+				}
+			}
+		}
+	}	
+}
