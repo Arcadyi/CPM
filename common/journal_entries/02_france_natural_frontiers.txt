@@ -1,0 +1,33 @@
+﻿je_france_natural_frontiers = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	is_shown_when_inactive = {
+		ROOT = c:FRA
+	}
+
+	possible = {
+		is_subject = no
+	}
+
+	complete = {
+			country_or_subject_owns_entire_state_region = STATE_RHINELAND
+			country_or_subject_owns_entire_state_region = STATE_NORTH_RHINE
+			country_or_subject_owns_entire_state_region = STATE_GELRE
+			country_or_subject_owns_entire_state_region = STATE_HOLLAND
+			country_or_subject_owns_entire_state_region = STATE_WALLONIA
+			country_or_subject_owns_entire_state_region = STATE_FLANDERS
+	}
+
+	on_complete = {
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_france_natural_frontiers
+			}
+		}
+	}
+
+	weight = 100
+}

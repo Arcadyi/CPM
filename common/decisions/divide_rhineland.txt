@@ -1,0 +1,33 @@
+﻿divide_rhineland = {
+	is_shown = {
+		ROOT = c:FRA
+	}
+
+	possible = {
+		owns_entire_state_region = STATE_NORTH_RHINE
+	}
+
+	when_taken = {
+		create_country = {
+			tag = RHI
+			origin = c:FRA
+			state = s:STATE_NORTH_RHINE.region_state:FRA
+		}
+		c:FRA = {
+			create_diplomatic_pact = {
+				country = c:RHI
+				type = protectorate
+			}
+		}
+		s:STATE_NORTH_RHINE = {
+			create_state = {
+				country = c:FRA
+				owned_provinces = { "x518021" "x8001E0" "x834B66" "x9F4072" x486F6A }
+			}
+		}
+	}
+
+	ai_chance = {
+		base = 10	
+	}
+}

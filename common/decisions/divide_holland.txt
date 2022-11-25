@@ -1,0 +1,33 @@
+﻿divide_holland = {
+	is_shown = {
+		ROOT = c:FRA
+	}
+
+	possible = {
+		owns_entire_state_region = STATE_HOLLAND
+	}
+
+	when_taken = {
+		create_country = {
+			tag = HLL
+			origin = c:FRA
+			state = s:STATE_HOLLAND.region_state:FRA
+		}
+		c:FRA = {
+			create_diplomatic_pact = {
+				country = c:HLL
+				type = protectorate
+			}
+		}
+		s:STATE_HOLLAND = {
+			create_state = {
+				country = c:FRA
+				owned_provinces = { x01C0A0 x80C0A0 xC04021 }
+			}
+		}
+	}
+
+	ai_chance = {
+		base = 10	
+	}
+}

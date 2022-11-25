@@ -1,0 +1,33 @@
+﻿divide_gelre = {
+	is_shown = {
+		ROOT = c:FRA
+	}
+
+	possible = {
+		owns_entire_state_region = STATE_GELRE
+	}
+
+	when_taken = {
+		create_country = {
+			tag = GEL
+			origin = c:FRA
+			state = s:STATE_GELRE.region_state:FRA
+		}
+		c:FRA = {
+			create_diplomatic_pact = {
+				country = c:GEL
+				type = protectorate
+			}
+		}
+		s:STATE_GELRE = {
+			create_state = {
+				country = c:FRA
+				owned_provinces = { x0000DF xC0C0A0 x4C4894 }
+			}
+		}
+	}
+
+	ai_chance = {
+		base = 10	
+	}
+}

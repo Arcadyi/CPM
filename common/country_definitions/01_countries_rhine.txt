@@ -1,0 +1,32 @@
+﻿RHI = {
+	color = { 0 105 63 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_NORTH_RHINE
+}
+
+HLL = {
+	color = { 122 0 25 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { dutch }
+	capital = STATE_HOLLAND
+}
+
+GEL = {
+	color = { 255 204 51 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { dutch }
+	capital = STATE_GELRE
+}
