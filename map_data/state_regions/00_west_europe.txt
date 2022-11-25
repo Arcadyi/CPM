@@ -356,6 +356,10 @@ STATE_LANCASHIRE = {
         bg_logging = 9
         bg_fishing = 15
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3030
 }
 
@@ -459,6 +463,10 @@ STATE_EAST_ANGLIA = {
         bg_iron_mining = 30
         bg_logging = 4
         bg_fishing = 12
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
     }
     naval_exit_id = 3028
 }

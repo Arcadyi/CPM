@@ -142,8 +142,13 @@ STATE_DONGOLA = {
         bg_logging = 4
         bg_fishing = 4
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3047
 }
+
 
 STATE_KORDOFAN = {
     id = 183
@@ -160,6 +165,10 @@ STATE_KORDOFAN = {
     capped_resources = {
         bg_logging = 4
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
 }
 
 STATE_DARFUR = {
@@ -174,6 +183,10 @@ STATE_DARFUR = {
     wood = "x3B2BDC"
     arable_land = 20
     arable_resources = { "bg_livestock_ranches" "bg_skyscraper" }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 10
+    }
 }
 
 STATE_BLUE_NILE = {
@@ -299,6 +312,10 @@ STATE_CONSTANTINE = {
     capped_resources = {
         bg_sulfur_mining = 20
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
 }
 
 STATE_TLEMCEN = {
@@ -355,8 +372,13 @@ STATE_TRIPOLI = {
     capped_resources = {
         bg_fishing = 5
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 30
+    }
     naval_exit_id = 3033
 }
+
 
 STATE_LIBYA = {
     id = 586
@@ -405,6 +427,10 @@ STATE_SAHARA = {
     wood = "x6F252B"
     arable_land = 10
     arable_resources = { "bg_livestock_ranches" }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
 }
 
 STATE_EAST_SAHARA = {
@@ -419,6 +445,10 @@ STATE_EAST_SAHARA = {
     wood = "x873702"
     arable_land = 10
     arable_resources = { "bg_livestock_ranches" }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
 }
 
 STATE_WEST_SAHARA = {
@@ -441,23 +471,25 @@ STATE_WEST_SAHARA = {
     naval_exit_id = 3089
 }
 
-STATE_MAURITANIA = {
-    id = 197
+STATE_INNER_MAURITANIA = {
+    id = 198
     subsistence_building = "building_subsistence_pastures"
-    provinces = { "x0D57A1" "x0EF47B" "x13CA97" "x153541" "x17D963" "x1A4167" "x1C026D" "x1E38D7" "x1EF394" "x1F8376" "x21A0F5" "x26AAF6" "x2A22CB" "x2CBC0B" "x313645" "x32772F" "x329F39" "x3548BF" "x3A6183" "x3BA23E" "x465B23" "x46C022" "x49B20E" "x4F74DF" "x58E2C6" "x5F17D5" "x5F1D19" "x6566A0" "x6796ED" "x6D5D50" "x6DFD32" "x7030C0" "x727FA1" "x74063E" "x799C35" "x824A63" "x891E75" "x8E8C95" "x8EDE46" "x9A8160" "x9DAADE" "xA5D3E6" "xABD39E" "xAC39A0" "xB03040" "xB070C0" "xB0CEA1" "xB0EE2C" "xB274BE" "xB47854" "xB55389" "xB6F68E" "xBE4407" "xC41F5C" "xC492B5" "xCBCD11" "xD10873" "xD1C794" "xD2ED35" "xD34BB3" "xDC457A" "xDF05DC" "xE7FC7D" "xEF3040" "xF0F041" "xF1E6C3" "xFB39E4" "xFBDBB8" "xFF05E2" }
+    provinces = { "x00F5CD" "x024A01" "x033DA4" "x06CE66" "x07AE87" "x105E98" "x13001D" "x142E23" "x15A720" "x165AFE" "x1890DF" "x1AF58B" "x1BCE6A" "x1D428D" "x206C06" "x221FEA" "x227149" "x231FB9" "x2338D0" "x2504D1" "x2750DE" "x2981D1" "x2A9897" "x2E4FA5" "x30719D" "x31194F" "x36AB5B" "x36B7F9" "x36F5C8" "x3949EC" "x3BE292" "x3C0D4E" "x3DA010" "x40529F" "x40A972" "x429D72" "x44DE38" "x45BFC9" "x4810FC" "x4882B4" "x496913" "x4F90FE" "x52FA05" "x54B70E" "x57036F" "x577C8B" "x57D5A9" "x593F25" "x5D2F40" "x5DF3C0" "x5E59AC" "x5EC4E2" "x5FED21" "x61957F" "x61D564" "x654CF8" "x66A0E2" "x6849B4" "x6BFCB0" "x6CD340" "x6D92B0" "x6E746C" "x6EA5E1" "x70660A" "x707040" "x71E938" "x739402" "x767E95" "x773EC8" "x7909BC" "x7C501F" "x7D7938" "x7EB77F" "x83453A" "x8400B9" "x849CB5" "x86526E" "x87B2CE" "x88561A" "x89EA99" "x8E2538" "x8FA78B" "x91F526" "x960903" "x965518" "x9CB643" "x9D65EB" "x9DCE76" "x9E92BD" "xA4E077" "xA500B0" "xA5AEC3" "xA6894A" "xA7265D" "xA77A56" "xA82DDA" "xAB7050" "xABECE6" "xACA020" "xB53884" "xB5389F" "xB641E9" "xB92E03" "xBA44EA" "xBA9B97" "xBDEDE0" "xC0BC97" "xC20B5C" "xC3567A" "xCBB3C9" "xCDA26C" "xCDAEDD" "xCE8372" "xCF7001" "xD4208F" "xD593BD" "xD60BDF" "xD9450D" "xD950C5" "xDCA035" "xDCF50C" "xDD82F0" "xDE33E1" "xDFEFC0" "xE53421" "xE5D72E" "xE6467D" "xE6E919" "xE98100" "xEA8822" "xEF06DD" "xEF1273" "xEFAD69" "xF06D38" "xF2485D" "xF2F684" "xF4772A" "xF62ACE" "xF64C5E" "xF7237C" "xFA8A80" "xFAA6D6" "xFBC3C9" "xFC3163" "xFE6ABD" "xFE8CB7" }
+    impassable = { "xF7237C" "xB53884" "x4810FC" "xC0BC97" "x36AB5B" "xABECE6" "x5DF3C0" "x36B7F9" "x44DE38" "x13001D" "xEA8822" "xCF7001" "x7909BC" "xBDEDE0" "x577C8B" "x61D564" "xA6894A" "xF2F684" "x4F90FE" "x52FA05" "x6E746C" "x654CF8" "x57D5A9" "xB92E03" "xD9450D" "x88561A" "x31194F" "xEF1273" "xAB7050" "xD950C5" "x89EA99" "x61957F" "xF06D38" "x3C0D4E" "x2750DE" "x30719D" "xB641E9" "xDE33E1" "x2504D1" "x87B2CE" "x54B70E" "x7EB77F" "x593F25" "xE5D72E" "xFA8A80" "xE53421" }
     traits = { "state_trait_malaria" "state_trait_sahara_desert" }
-    city = "x2CBC0B"
-    port = "x32772F"
-    farm = "xB03040"
-    mine = "xAC39A0"
-    wood = "xB070C0"
-    arable_land = 30
+    city = "x707040"
+    farm = "xACA020"
+    mine = "x5FED21"
+    wood = "x71E938"
+    arable_land = 20
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
-        bg_iron_mining = 45
-        bg_fishing = 15
+        bg_iron_mining = 27
     }
-    naval_exit_id = 3088
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
 }
 
 STATE_INNER_MAURITANIA = {
@@ -522,6 +554,10 @@ STATE_TIMBUKTU = {
         bg_coal_mining = 36
         bg_sulfur_mining = 36
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
 }
 
 STATE_NIGER = {
@@ -541,6 +577,10 @@ STATE_NIGER = {
         bg_lead_mining = 18
         bg_sulfur_mining = 24
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 30
+    }
 }
 
 STATE_CHAD = {
@@ -554,5 +594,8 @@ STATE_CHAD = {
     wood = "x815967"
     arable_land = 32
     arable_resources = { "bg_livestock_ranches" }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 10
+    }
 }
-
