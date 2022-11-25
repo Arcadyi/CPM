@@ -234,13 +234,7 @@ ideology_particularist = {
 		law_slave_trade = neutral
 	}
 
-	lawgroup_centralization= { #NFM Centralization
-		law_totalitarian = strongly_disapprove
-		law_unitary = neutral
-		law_cooperative_federalism = neutral
-		law_dual_federalism = neutral
-		law_regionalism = approve
-	}
+
 }
 
 ideology_isolationist = {
@@ -335,13 +329,6 @@ ideology_patriotic = {
 		law_protected_speech = disapprove
 	}	
 
-	lawgroup_centralization= { #NFM Centralization
-		law_totalitarian = approve
-		law_unitary = neutral
-		law_cooperative_federalism = neutral
-		law_dual_federalism = neutral
-		law_regionalism = disapprove
-	}
 }
 
 ideology_loyalist = {
@@ -418,14 +405,7 @@ ideology_liberal = {
 		law_womens_suffrage = neutral
 	}
 
-	lawgroup_centralization= { #NFM Centralization
-		#law_totalitarian = strongly_disapprove
-		law_unitary = approve
-		law_cooperative_federalism = approve
-		law_dual_federalism = neutral
-		law_regionalism = disapprove
 
-	}
 }
 
 ideology_anti_clerical = {

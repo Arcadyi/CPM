@@ -263,7 +263,8 @@ manifest_destiny_rebuked = { ##victory
     		OR = {
     			is_subject = no
     			is_subject_of = c:MEX
-    		}}
+    		}
+			}
     		exists = c:CAL
     	}
     		annex = c:CAL
@@ -361,6 +362,6 @@ homestead_act_decis = { ##victory
 		}
 
 	ai_chance = {
-		base = 100
+		always = yes
 	}
 }

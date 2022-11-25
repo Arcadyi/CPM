@@ -115,7 +115,7 @@ initialize_usa_dec = { 	##victory
 			}
 
 	ai_chance = {
-		base = 100
+		always = yes
 	}
 }
 

@@ -42,8 +42,8 @@ voortrekker.1 = {
 					set_state_owner = c:MTB
 				}
 			}
-			s:STATE_NORTHWEST_TERRITORIES = {
-				set_state_owner = c:PTF
+#			s:STATE_NORTHWEST_TERRITORIES = {
+#				set_state_owner = c:PTF
 			}
 			s:STATE_TRANSVAAL = {
 				set_owner_of_provinces = {

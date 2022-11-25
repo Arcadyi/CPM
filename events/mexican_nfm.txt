@@ -143,7 +143,8 @@ mexican_nfm.2 = {
 		exists = c:MEX
 		c:MEX = ROOT
 		year >= 1839
-		exists = c:TEX
+		exists = {
+			c:TEX
 		}
 		NOT = {
 				OR = {
@@ -229,17 +230,16 @@ mexican_nfm.2 = {
 				type = regime_change
 			}
 	 }
-}
+	}
 	option = {
 		name = mexican_nfm.2.a
 		default_option = yes
 		ai_chance = {
 			base = 0
-		}
-		
+		}	
 	}
-
 }
+
 
 mexican_nfm.3 = { #setup evet
 	type = country_event

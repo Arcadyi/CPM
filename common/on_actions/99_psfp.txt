@@ -8,7 +8,6 @@
 			1 = {
 				trigger_event = { id = roman_question.3 }
 			}
-			5 = { }
 		}
 	}
 }
