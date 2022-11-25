@@ -180,7 +180,20 @@ gov_presidential_dictatorship = {
 		}
 	}
 }
+gov_kaptein = {
+	transfer_of_power = hereditary
 
+	male_ruler = "RULER_TITLE_KAPTEIN"
+	female_ruler = "RULER_TITLE_KAPTEIN"
+
+	male_heir = "" # Empty on purpose
+	female_heir = "" # Empty on purpose
+	
+	possible = {
+		country_has_primary_culture = cu:griqua
+		has_law = law_type:law_presidential_republic
+	}
+}
 gov_junta = {
 	transfer_of_power = dictatorial
 

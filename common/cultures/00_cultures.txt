@@ -1312,6 +1312,7 @@ boer={
 		Koos
 		Louis
 		Martinus
+		Marthinus
 		Paul
 		Petrus
 		Piet
@@ -1323,6 +1324,7 @@ boer={
 		Simeon
 		Stephanus
 		Willem
+		Josias
 	}
 	female_common_first_names = {
 		Adriana 
@@ -1357,6 +1359,8 @@ boer={
 		Retief
 		van_der_Merwe
 		Wessels
+		Tregardt
+		Hoffman
 	}
 	common_last_names={
 		Bosman
@@ -1379,8 +1383,10 @@ boer={
 		du_Toit
 		du_Preez
 		de_Villiers
+		Hoffman
 		de_Bruyn
 		de_Kock
+		Pretorius
 		de_Klerk
 		Malan
 		Rossouw
@@ -1388,6 +1394,7 @@ boer={
 		Schoeman
 		Jacobszoon
 		Burgers
+		Tregardt
 		Smit
 		Struben
 		Maritz
@@ -18693,6 +18700,8 @@ nguni={
 		Kiwanga
 		Magobi
 		Mahengu
+		Sobhuza_I
+		Mswati_II
 		Makhado
 		Matola
 		Mbemchapa
@@ -18707,11 +18716,14 @@ nguni={
 		Schabruma
 		Sekonyela
 		Sentambandu
+		Soshangane
 		Songea
 		Tshilidzi 
 		Uawula
 		Ulanga
 		Wasesse
+		Mzilikazi
+		Lobengula
 	}
 	female_common_first_names = {
 		Fulu
@@ -18728,6 +18740,9 @@ nguni={
 		kaXaba
 		Ntombazi
 		Vzasenzi
+		Dlamini
+		Khumalo
+		KaZikode
 	}
 	common_last_names={
 		Amari
@@ -18739,6 +18754,7 @@ nguni={
 		Mtemi
 		Mwanawalifa
 		Ngwale
+		Khumalo
 	}
 	ethnicities = {
 		1 = african
@@ -18890,6 +18906,7 @@ shona={
 		Tichawonna
 		Tohwechipi
 		Zuka
+		Changamire
 	}
 	female_common_first_names = {
 		Charwe
@@ -18902,6 +18919,7 @@ shona={
 		Rozwi
 		Tjilisamhulu
 		Torwa
+		Tohwechipi
 	}
 	common_last_names={
 		Kwenda
@@ -18912,6 +18930,7 @@ shona={
 		Muhuru
 		Mzilikazi
 		Soshangane
+		Tohwechipi
 	}
 	ethnicities = {
 		1 = african
@@ -18963,6 +18982,8 @@ sotho={
 		Raimi
 		Razi
 		Reth
+		Moshoeshoe_I
+		Letsie_I
 	}
 	female_common_first_names = {
 		Arabang
@@ -18986,6 +19007,7 @@ sotho={
 		Matsaba
 		Moerane
 		Moshoeshoe
+		Bamokoteli
 	}
 	ethnicities = {
 		1 = african
@@ -19127,6 +19149,8 @@ xhosa={
 		Sipliwo
 		Thandiwe
 		Themba
+		Sarhili
+		Sigcawu
 		Uuka
 	}
 	female_common_first_names = {
@@ -19146,12 +19170,16 @@ xhosa={
 		kaHintsa
 		kaPhalo
 		Sigcawu
+		Kahintsa
+		Kasarhili
 	}
 	common_last_names={
 		Behle
 		Dlamini
 		Dosini
 		Gqunu
+		Kahintsa
+		Kasarhili
 		Gxarha
 		Hegebe
 		Khawatu

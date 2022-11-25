@@ -1,9 +1,8 @@
 ﻿CHARACTERS = {
 	c:TRN = {
 		create_character = {
-			#role = politician # Remove this line
-			first_name = "Andries"
-			last_name = "Pretorius"
+			first_name = "Louis"
+			last_name = "Tregardt"
 			ruler = yes
 			ig_leader = yes
 			age = 38

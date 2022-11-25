@@ -1,6 +1,11 @@
 ﻿l_english:
 
 # Monarchies
+ gov_kaptein:0 "Griqua State"
+ gov_kapteink_desc:0 "a Griqua State"
+ gov_windhoek:0 "Griqua Clan"
+ gov_windhoek_desc:0 "a Griqua Clan"
+ RULER_TITLE_KAPTEIN:0 "Kaptein"
  gov_absolute_kingdom:0 "Absolute Monarchy"
  gov_absolute_kingdom_desc:1 "This is a [concept_government] form where the power rests completely with the [Concept('concept_ruler','$RULER_TITLE_KING$')] or [Concept('concept_ruler','$RULER_TITLE_QUEEN$')]."
  gov_kingdom:0 "Monarchy"
@@ -93,6 +98,8 @@
  gov_shogunate_desc:1 "This is a [concept_government] ruled by the [Concept('concept_ruler','$RULER_TITLE_SHOGUN$')], a powerful feudal lord who has secured the loyalty of the landed class. Though there is nominally an [Concept('concept_ruler','$RULER_TITLE_EMPEROR$')], the monarchy has no real power to govern the [concept_country]."
  gov_hm_gov:0 "HM's Government"
  gov_hm_gov_desc:1 "His or Her Majesty's [concept_government]; a grand and illustrious institution."
+ 
+ 
  gov_absolute_grand_duchy:0 "Absolute Grand Duchy"
  gov_absolute_grand_duchy_desc:1 "This is a [concept_government] form where the power rests completely with the [Concept('concept_ruler','$RULER_TITLE_GRAND_DUKE$')] or [Concept('concept_ruler','$RULER_TITLE_GRAND_DUCHESS$')]."
  gov_grand_duchy:0 "Grand Duchy"
@@ -203,8 +210,10 @@
  transfer_of_power_default:0 "Random"
  transfer_of_power_default_desc:0 "Under Random Transfer of Power, [Concept('concept_ruler', '$concept_rulers$')] reign for life. On the death of the [concept_ruler], a new [concept_ruler] is randomly generated."
 
+
 # Titles
  RULER_TITLE_DEFAULT:0 "Ruler"
+
  RULER_TITLE_KING:0 "King"
  RULER_TITLE_QUEEN:0 "Queen"
  RULER_TITLE_EMPEROR:0 "Emperor"

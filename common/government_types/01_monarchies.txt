@@ -974,7 +974,21 @@ gov_constitutional_grand_duchy = {
 	}
 }
 
-gov_absolute_grand_principality = {
+gov_windhoek = {
+	transfer_of_power = hereditary
+	
+	male_ruler = "RULER_TITLE_KAPTEIN"
+	female_ruler = "RULER_TITLE_KAPTEIN" 
+	
+	male_heir = "" # Empty on purpose
+	female_heir = "" # Empty on purpose
+
+	possible = {
+		has_law = law_type:law_monarchy
+		exists = c:WNH
+		c:WNH = ROOT
+	}
+}gov_absolute_grand_principality = {
 	transfer_of_power = hereditary
 
 	male_ruler = "RULER_TITLE_GRAND_PRINCE"
