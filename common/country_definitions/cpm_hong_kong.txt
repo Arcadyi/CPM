@@ -1,4 +1,4 @@
-HKG = {
+﻿HKG = {
 	color = { 201 42 42 }
 	
 	country_type = unrecognized

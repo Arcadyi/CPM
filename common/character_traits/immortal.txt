@@ -1,4 +1,4 @@
-immortal = {
+﻿immortal = {
 	type = personality
 	texture = "gfx/interface/icons/character_trait_icons/wrathful.dds"
 	

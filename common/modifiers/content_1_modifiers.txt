@@ -1,4 +1,4 @@
-
+﻿
 modifier_liberal_win = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
 	interest_group_ig_intelligentsia_approval_add = 3

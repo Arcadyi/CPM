@@ -1,4 +1,4 @@
-tgn_canada_discuss_the_dominion = {
+﻿tgn_canada_discuss_the_dominion = {
 	is_shown = {
 		has_modifier = canada_tgnxxx
 		OR = {

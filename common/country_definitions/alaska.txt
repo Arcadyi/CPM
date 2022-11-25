@@ -1,4 +1,4 @@
-ALK = {
+﻿ALK = {
 	color = { 42  35  105 }
 	
 	country_type = recognized

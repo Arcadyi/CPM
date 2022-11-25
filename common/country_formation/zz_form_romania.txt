@@ -1,4 +1,4 @@
-ROM = {
+﻿ROM = {
 	use_culture_states = yes
 
 	required_states_fraction = 0.100 # Romania has 8 possible homeland states total

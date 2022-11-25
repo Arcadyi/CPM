@@ -1,4 +1,4 @@
-#notification_example = {													#notification key
+﻿#notification_example = {													#notification key
 #	type = country 															#include notification type
 #	texture = "gfx/interface/icons/notification_icons/technology.dds" 		#notification texture picture
 #

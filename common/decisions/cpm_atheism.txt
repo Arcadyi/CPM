@@ -1,4 +1,4 @@
-atheism_decision = {
+﻿atheism_decision = {
 	is_shown = {
 		NOT = { country_has_state_religion = rel:atheist }
 	}

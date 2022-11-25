@@ -1,4 +1,4 @@
-ROM = {
+﻿ROM = {
 	color = { 200 190 126 }
 	
 	country_type = recognized

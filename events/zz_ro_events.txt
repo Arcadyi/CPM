@@ -1,4 +1,4 @@
-namespace = romanian_events
+﻿namespace = romanian_events
 
 # Between the hammer and the anvil
 romanian_events.1 = {
