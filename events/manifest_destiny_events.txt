@@ -31,7 +31,6 @@ manifest_destiny.1 = {
 				has_variable = henry_clay_var
 			}
 			save_scope_as = henry_clay_scope
-			remove_trait = { great_triumverate_trait }
 			scope:henry_clay_scope = {
 				remove_trait = great_triumverate_trait 
 				add_trait = work_done_trait
@@ -42,7 +41,6 @@ manifest_destiny.1 = {
 				has_variable = john_calhoun_var
 			}
 			save_scope_as = john_calhoun_scope
-			remove_trait = { great_triumverate_trait }
 			scope:john_calhoun_scope = {
 				add_trait = work_done_trait
 				remove_trait = great_triumverate_trait 
@@ -55,7 +53,6 @@ manifest_destiny.1 = {
 			save_scope_as = daniel_webster_scope
 			remove_trait = { great_triumverate_trait }
 			scope:daniel_webster_scope = {
-				remove_trait = great_triumverate_trait 
 				add_trait = work_done_trait}
 		}
 		s:STATE_TEXAS.region_state:USA  = { 
@@ -685,7 +682,6 @@ manifest_destiny.4 = {
 		NOT = { has_law = law_type:law_slavery_banned }
 		any_scope_state = {
 			has_modifier = state_popular_soveriengty_rush
-			any_primary_culture_count >= 50000
 		}
 	}
 
