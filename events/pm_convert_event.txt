@@ -14,6 +14,15 @@ pm_convert_event.1 = {
 			}
 			set_variable = pm_convert_origin
 		}
+		every_scope_state = {
+			limit = {
+				is_split_state = yes
+			}
+			set_variable = {
+				name = pm_convert_split
+				value = arable_land
+			}
+		}		
 	}
 }
 
@@ -24,6 +33,14 @@ pm_convert_event.2 = {
 	trigger = { is_player = yes }
 
 	immediate = {
+		every_scope_state = {
+			limit = {
+				has_variable = pm_convert_split
+				arable_land > var:pm_convert_split
+			}
+			remove_variable = pm_convert_origin
+			remove_variable = pm_convert_split
+		}
 		every_scope_state = {
 			limit = {
 				NOT = { has_variable = pm_convert_origin }
