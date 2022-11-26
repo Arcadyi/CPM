@@ -819,7 +819,9 @@ nfm_misc.10 = {
 		c:USA = ROOT
 		year >= 1837
 		any_scope_state = {
-			any_primary_culture_count >= 60000
+			any_primary_culture = {
+				count > 60000
+			}
 			is_incorporated = yes
 			OR = {
 			NOT = {has_variable = american_state_variable }
@@ -833,7 +835,9 @@ nfm_misc.10 = {
 	immediate = {
 		random_scope_state = {
 			limit = {
-				any_primary_culture_count >= 60000
+				any_primary_culture = {
+					count > 60000
+				}
 				is_incorporated = yes
 				OR = {
 				NOT = {has_variable = american_state_variable }
