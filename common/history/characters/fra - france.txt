@@ -58,7 +58,7 @@
 				charismatic
 			}
 			on_created = {
-				set_variable = is_adolphe_thiers
+				set_variable = is_adolphe_thiers_right
 			}
 		}
 
@@ -122,7 +122,8 @@
 			ig_leader = yes
 			interest_group = ig_armed_forces
 			ideology = ideology_orleanist
-			traits = {				arrogant       
+			traits = {
+				arrogant       
 			}
 		}
 

@@ -24,23 +24,19 @@ acw_fsa_modded.1 = {
 	immediate = {
 		c:USA = {
 		any_scope_state = {
-			if ={ 
 				limit = {
 					is_slave_state = yes
 				}
-				set_state_owner = c:USA
-			}
+			set_state_owner = c:USA
 		}
 		}
 		c:FSA = {
 		any_scope_state = {
-			if ={ 
-				limit = { 
+			limit = { 
 					is_slave_state = no
 				}
-				set_state_owner = c:FSA
 			}
-		}
+			set_state_owner = c:FSA
 		}
 	}
 

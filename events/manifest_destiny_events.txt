@@ -25,7 +25,6 @@ manifest_destiny.1 = {
 	}
 
 	immediate = {
-		set_variable = great_triumverate_work_done
 		random_scope_character = {
 			limit = {
 				has_variable = henry_clay_var

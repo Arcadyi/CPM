@@ -113,10 +113,7 @@
     		on_created = {
 				set_variable = {
 					name = second_party_system_whig_var
-				}		
-				set_variable = {
-					name = john_q_adams_var
-				}			
+				}				
 			}
 		}
 
@@ -149,9 +146,9 @@
 				basic_political_operator
 			}
 			on_created = {
-			#	set_variable = {
-			#		name = politically_neutral_var
-			#	}				
+				set_variable = {
+					name = politically_neutral_var
+				}				
 			}
 		}
 

@@ -183,10 +183,6 @@ acw_events.3 = {
 	}
 
 	immediate = {
-		set_variable = {
-			name = USA_wilmot_proviso
-			value = yes
-		}
 		random_interest_group = {
 			limit = {
 				is_revolutionary = no
