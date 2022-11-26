@@ -1,4 +1,4 @@
-﻿building_ottawa = {
+building_ottawa = {
 	building_group = bg_cities
 	texture = "gfx/interface/icons/building_icons/big_ben.dds"
 	expandable = no
