@@ -173,7 +173,7 @@
 	}
 
 
-s:STATE_FLORIDA = {
+	s:STATE_FLORIDA = {
 		region_state:USA = {
 			create_pop = {
 				culture = dixie
@@ -196,3 +196,4 @@ s:STATE_FLORIDA = {
 			}
 		}
 	}
+}

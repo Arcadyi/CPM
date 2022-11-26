@@ -115,3 +115,4 @@ dna_alfred_krupp = {
  }
 	entity={ 0 0 }
 }
+}

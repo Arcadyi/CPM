@@ -4,10 +4,8 @@
 	}
 	effect = {
 		# ask for donation
-		random_list = {
-			1 = {
-				trigger_event = { id = roman_question.3 }
-			}
+				trigger_event = { 
+					id = roman_question.3 
+				}
 		}
-	}
 }

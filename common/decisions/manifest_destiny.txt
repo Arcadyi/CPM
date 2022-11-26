@@ -359,9 +359,10 @@ homestead_act_decis = { ##victory
 				name = homestead_act_mod
 				months = 1219
 				is_decaying = yes 
+			}
 		}
 
 	ai_chance = {
-		always = yes
+		base = 70
 	}
 }

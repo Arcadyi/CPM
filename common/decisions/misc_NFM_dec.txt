@@ -162,13 +162,22 @@ csa_national_guard = {
 		}
 
 	when_taken = {
-		c:CSA = {activate_law = law_type:law_national_militia}
-		if = { limit = { c:USA = {has_law = law_type:law_national_guard}}
-			c:CSA = {activate_law = law_type:law_national_guard}
+		c:CSA = {
+			activate_law = law_type:law_national_militia
 		}
-			c:CSA = set_variable = csa_mob_var
+		if = {
+			limit = { 
+				c:USA = {
+					has_law = law_type:law_national_guard
+				}
+			}
+			c:CSA = {
+				activate_law = law_type:law_national_guard
+			}
+		}
+		
+		c:CSA = set_variable = csa_mob_var
 	}
-
 	ai_chance = {
 		base = 10
 	}

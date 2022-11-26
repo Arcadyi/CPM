@@ -835,7 +835,7 @@ manifest_destiny.6 = {
 	
 	option = {
 		name = manifest_destiny.6.b
-		default = yes
+		default_option = yes
 		ai_chance = {
 			base = 100
 		}
@@ -906,7 +906,7 @@ manifest_destiny.7 = {
 	
 	option = {
 		name = manifest_destiny.7.a
-		default = yes
+		default_option = yes
 		ai_chance = {
 			base = 100
 		}

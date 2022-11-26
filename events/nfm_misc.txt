@@ -906,7 +906,9 @@ nfm_misc.4 = {#Garibaldi Death
 	immediate = {
 		set_global_variable = garibaldi_busy_var
 		set_variable = hired_garibaldi_var
-		trigger_event  = {nfm_misc.2} 
+		trigger_event  = {
+			id = nfm_misc.2
+		}
  }
 
  	option = {

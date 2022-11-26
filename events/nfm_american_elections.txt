@@ -71,9 +71,9 @@ nfm_american_elections.1 = { #1836 Nomination
 			base = 0
 		}
 		set_variable = 1836_dem_nomination_var_martin_van_buren
-		ig:ig_rural_folk  = {
-			add_momentum = 0.2
-		}
+#		ig:ig_rural_folk  = {
+#			add_momentum = 0.2
+#		}
      }
  }
 
@@ -147,9 +147,9 @@ nfm_american_elections.1 = { #1836 Nomination
 			base = 0
 		}
 		set_variable = 1836_whig_nomination_var_william_henry_harrison
-		ig:ig_intelligentsia  = {
-			add_momentum = 0.1
-		}
+#		ig:ig_intelligentsia  = {
+#			add_momentum = 0.1
+#		}
      }
  }
 
@@ -226,9 +226,9 @@ nfm_american_elections.3 = { #1840 Nomination
 			base = 0
 		}
 		set_variable = 1840_dem_nomination_var_martin_van_buren
-		ig:ig_rural_folk  = {
-			add_momentum = 0.1
-		}
+#		ig:ig_rural_folk  = {
+#			add_momentum = 0.1
+#		}
      }
  }
 
@@ -301,9 +301,9 @@ nfm_american_elections.3 = { #1840 Nomination
 			base = 0
 		}
 		set_variable = 1840_whig_nomination_var_william_henry_harrison
-		ig:ig_rural_folk  = {
-			add_momentum = 0.2
-		}
+#		ig:ig_rural_folk  = {
+#			add_momentum = 0.2
+#		}
      }
  }
 
@@ -396,9 +396,9 @@ nfm_american_elections.5 = { #1844 Nomination
 		}
 		set_variable = 1844_dem_nomination_var_james_k_polk	
 
-		ig:ig_rural_folk  = {
-			add_momentum = 0.25
-		}
+#		ig:ig_rural_folk  = {
+#			add_momentum = 0.25
+#		}
      }
      option = {
      	name = nfm_american_elections.5.b
@@ -408,9 +408,9 @@ nfm_american_elections.5 = { #1844 Nomination
 		}
 		set_variable = 1844_dem_nomination_var_lewis_cass
 
-		ig:ig_landowners  = {
-			add_momentum = 0.05
-		}
+#		ig:ig_landowners  = {
+#			add_momentum = 0.05
+#		}
      }
  }
 
@@ -478,9 +478,9 @@ nfm_american_elections.5 = { #1844 Nomination
 			base = 10
 		}
 		set_variable = 1844_whig_nomination_var_john_tyler
-		ig:ig_petty_bourgeoisie  = {
-			add_momentum = 0.08
-		}
+#		ig:ig_petty_bourgeoisie  = {
+#			add_momentum = 0.08
+#		}
      }
       option = {
      	name = nfm_american_elections.6.b
@@ -563,9 +563,9 @@ nfm_american_elections.7 = { #1848 Nomination
 			base = 0
 		}
 		set_variable = 1848_dem_nomination_var_lewis_cass
-		ig:ig_landowners  = {
-			add_momentum = 0.05
-		}
+#		ig:ig_landowners  = {
+#			add_momentum = 0.05
+#		}
      }
  }
 

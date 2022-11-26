@@ -13,13 +13,8 @@
 	
 	
 	c:CSP = {
-	random_list = {
-			100 = { set_strategy = ai_strategy_conservative_agenda }
-		}
-	
+		set_strategy = ai_strategy_conservative_agenda 
 	}
-	
-	
 	
 	c:SAR = {
 		set_strategy = ai_strategy_industrial_expansion		

@@ -47,5 +47,8 @@ snori_clothes_decision = {
 		}
 		
 	}
+	ai_chance = {
+		always = yes
+	}
 }
 

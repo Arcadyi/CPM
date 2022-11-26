@@ -82,12 +82,12 @@ mexican_nfm.1 = {
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_no_home_affairs
 		activate_law = law_type:law_serfdom_banned
-		activate_law = law_no_migration_controls 
-		activate_law = law_local_police
-		activate_law = law_women_own_property 
-		activate_law = law_slavery_banned
-		activate_law = law_per_capita_based_taxation 
-		activate_law = law_free_trade
+		activate_law = law_type:law_no_migration_controls 
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_women_own_property 
+		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_per_capita_based_taxation 
+		activate_law = law_type:law_free_trade
 		}
 
 		c:MEX = {
@@ -209,11 +209,11 @@ mexican_nfm.2 = {
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_no_home_affairs
 		activate_law = law_type:law_serfdom_banned
-		activate_law = law_no_migration_controls 
-		activate_law = law_local_police
-		activate_law = law_slavery_banned
-		activate_law = law_per_capita_based_taxation 
-		activate_law = law_free_trade
+		activate_law = law_type:law_no_migration_controls 
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_per_capita_based_taxation 
+		activate_law = law_type:law_free_trade
 		}
 
 

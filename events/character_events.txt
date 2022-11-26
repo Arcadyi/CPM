@@ -6,7 +6,7 @@ character_events.100 = {
 
 	trigger = {
 		OR = {
-		 year>= 1850
+		 year > 1850
 		 NOT = { c:USA = ROOT }}
 	}
 

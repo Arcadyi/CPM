@@ -84,7 +84,7 @@ on_five_year_pulse_country = {
 }
 
 on_state_incorporation = {
-	effect = {
+	events = {
 		nfm_misc.6
 	}
 }

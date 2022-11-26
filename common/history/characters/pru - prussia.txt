@@ -245,7 +245,6 @@
 #
 #		}
 	}
-}
 		create_character = {
 			is_general = yes
 			first_name = Friedrich_Graf
@@ -260,3 +259,4 @@
 			}
 
 		}
+	}

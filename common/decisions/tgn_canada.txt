@@ -65,6 +65,10 @@
 			}
 		}
 	}
+	
+	ai_chance = {
+		always = yes
+	}
 }
 tgn_canada_rupert_land_act_decision = {
 	is_shown = {
@@ -112,6 +116,10 @@ tgn_canada_rupert_land_act_decision = {
 			}
 		}
 	}
+	
+	ai_chance = {
+		always = yes
+	}
 }
 tgn_canada_negotiate_a_union_with_PEI_decision = {
 	is_shown = {
@@ -156,6 +164,10 @@ tgn_canada_negotiate_a_union_with_PEI_decision = {
 			}
 		}
 	}
+
+	ai_chance = {
+		always = yes
+	}
 }
 tgn_canada_negotiate_a_union_with_BC_decision = {
 	is_shown = {
@@ -199,5 +211,8 @@ tgn_canada_negotiate_a_union_with_BC_decision = {
 				months = 30
 			}
 		}
+	}
+	ai_chance = {
+		always = yes
 	}
 }
