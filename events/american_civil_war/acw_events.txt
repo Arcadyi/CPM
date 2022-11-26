@@ -451,7 +451,7 @@ acw_events.5 = {
 			culture = cu:dixie
 		}
 	}
-		c: USA = { 
+		c:USA = { 
 			add_modifier = {
 			name = abolitionist_win
 			months = 98

@@ -67,7 +67,7 @@
 	}
 	
 	ai_chance = {
-		always = yes
+		base = 100
 	}
 }
 tgn_canada_rupert_land_act_decision = {
@@ -118,7 +118,7 @@ tgn_canada_rupert_land_act_decision = {
 	}
 	
 	ai_chance = {
-		always = yes
+		base = 100
 	}
 }
 tgn_canada_negotiate_a_union_with_PEI_decision = {
@@ -166,7 +166,7 @@ tgn_canada_negotiate_a_union_with_PEI_decision = {
 	}
 
 	ai_chance = {
-		always = yes
+		base = 100
 	}
 }
 tgn_canada_negotiate_a_union_with_BC_decision = {
@@ -213,6 +213,6 @@ tgn_canada_negotiate_a_union_with_BC_decision = {
 		}
 	}
 	ai_chance = {
-		always = yes
+		base = 100
 	}
 }

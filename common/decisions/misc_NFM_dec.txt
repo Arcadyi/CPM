@@ -133,8 +133,13 @@ usa_repeal_house_gag = {
 				has_modifier = usa_house_gag
 				has_government_clout >= 0.60
 				government_legitimacy >= 60
-				ruler = {has_ideology = ideology_abolitionist}
-				ig:ig_landowners = {is_in_government = no}
+				ruler = {
+					has_ideology = ideology_abolitionist
+				}
+			
+				ig:ig_landowners = {
+					is_in_government = no
+				}
 			}
 		}
 
@@ -152,7 +157,9 @@ csa_national_guard = {
 	is_shown = {
 		exists = c:CSA
 		root = c:CSA
-		NOT = { has_variable = csa_mob_var }
+		NOT = {
+			 has_variable = csa_mob_var 
+			}
 	}
 
 	possible = { 
@@ -176,7 +183,9 @@ csa_national_guard = {
 			}
 		}
 		
-		c:CSA = set_variable = csa_mob_var
+		c:CSA = {
+			 set_variable = csa_mob_var
+		}
 	}
 	ai_chance = {
 		base = 10
