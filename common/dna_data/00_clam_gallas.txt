@@ -115,3 +115,4 @@ dna_clam_gallas = {
  }
 	entity={ 0 0 }
 }
+}

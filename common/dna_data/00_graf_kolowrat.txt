@@ -115,3 +115,4 @@ dna_graf_kolowrat = {
  }
 	entity={ 0 0 }
 }
+}

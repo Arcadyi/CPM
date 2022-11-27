@@ -115,3 +115,4 @@ dna_august_bebel = {
  }
 	entity={ 0 0 }
 }
+}

@@ -116,3 +116,4 @@ dna_julius_haynau = {
  }
 	entity={ 0 0 }
 }
+}

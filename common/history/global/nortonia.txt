@@ -62,10 +62,5 @@
 		s:STATE_TEXAS.region_state:TEX = {
 			add_modifier = south_state_mod
 		}
-		trigger_event = {
-			id = nfm_misc.6
-			days = 0
-			popup = yes
-		}
 	}
 }

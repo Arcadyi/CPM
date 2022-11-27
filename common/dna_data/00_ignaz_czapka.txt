@@ -116,3 +116,4 @@ dna_ignaz_czapka = {
  }
 	entity={ 0 0 }
 }
+}

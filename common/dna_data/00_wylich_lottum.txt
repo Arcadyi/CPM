@@ -115,3 +115,4 @@ dna_wylich_lottum = {
  }
 	entity={ 0 0 }
 }
+}

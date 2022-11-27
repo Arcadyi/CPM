@@ -26,12 +26,6 @@
 			traits = {
 				experienced_defensive_strategist popular_commander
 			}
-		}
-		
-		
-		
-		
-
-		}
-		
-
+		}	
+	}
+}

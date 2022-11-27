@@ -115,3 +115,4 @@ dna_von_schaffgotsch = {
  }
 	entity={ 0 0 }
 }
+}

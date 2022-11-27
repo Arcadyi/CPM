@@ -115,3 +115,4 @@ dna_manfred_clary = {
  }
 	entity={ 0 0 }
 }
+}

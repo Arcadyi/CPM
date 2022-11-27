@@ -115,6 +115,6 @@ dna_alfred_tirpitz = {
  		belts={ "no_belt" 0 "all_belts" 0 }
  		aiguillettes={ "no_aiguillettes" 0 "all_aiguillettes" 0 }
  }
-	entity={ 0 0 }
+entity={ 0 0 }
 }
 }

@@ -115,3 +115,4 @@ dna_general_schmidt = {
  }
 	entity={ 0 0 }
 }
+}

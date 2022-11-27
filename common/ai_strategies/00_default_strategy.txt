@@ -258,24 +258,24 @@ ai_strategy_default = {
 		}
 
 		# USA should be confident against owners of their Manifest Destiny states
-	#	if = {
-	#		limit = {
-	#			has_journal_entry = je_manifest_destiny_mexico
-	#			scope:target_country = {
-	#				any_scope_state = {
-	#					OR = {
-	#						state_region = s:STATE_CALIFORNIA
-	#						state_region = s:STATE_NEVADA
-	#						state_region = s:STATE_UTAH
-	#						state_region = s:STATE_ARIZONA
-	#						state_region = s:STATE_NEW_MEXICO
-		#					state_region = s:STATE_TEXAS
-	#					}
-		#			}
-		#		}
-	#		}
-		#	add = 1
-	#	}		
+		if = {
+			limit = {
+				has_journal_entry = je_manifest_destiny_mexico
+				scope:target_country = {
+					any_scope_state = {
+						OR = {
+							state_region = s:STATE_CALIFORNIA
+							state_region = s:STATE_NEVADA
+							state_region = s:STATE_UTAH
+							state_region = s:STATE_ARIZONA
+							state_region = s:STATE_NEW_MEXICO
+							state_region = s:STATE_TEXAS
+						}
+					}
+				}
+			}
+			add = 1
+		}		
 
 		# Ethiopian Thunderdome
 		if = {
@@ -2755,13 +2755,5 @@ ai_strategy_default = {
 		secession = {
 			value = 100
 		}		
-	}
-
-	possible = {
-		always = no
-	}
-	
-	weight = {
-		value = 0		
-	}
 }
+

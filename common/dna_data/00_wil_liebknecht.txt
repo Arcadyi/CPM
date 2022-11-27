@@ -115,3 +115,4 @@ dna_wil_liebknecht = {
  }
 	entity={ 0 0 }
 }
+}

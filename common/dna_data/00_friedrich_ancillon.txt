@@ -115,3 +115,4 @@ dna_friedrich_ancillon = {
  }
 	entity={ 0 0 }
 }
+}

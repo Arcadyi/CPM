@@ -115,3 +115,4 @@ dna_leo_caprivi = {
  }
 	entity={ 0 0 }
 }
+}

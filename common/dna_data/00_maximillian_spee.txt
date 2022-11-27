@@ -117,3 +117,4 @@ dna_admiral_spee = {
  }
 	entity={ 0 0 }
 }
+}
