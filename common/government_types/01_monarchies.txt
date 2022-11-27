@@ -446,7 +446,13 @@ gov_absolute_monarchy = {
 	possible = {
 		has_law = law_type:law_monarchy
 		has_law = law_type:law_autocracy 
-		NOT = { owner = { ruler = { has_variable = is_bonapartist } } }
+		NOT = { 
+			owner = { 
+				ruler = { 
+					has_variable = is_bonapartist 
+				} 
+			} 
+		}
 		AND = { 
 			exists = c:FRA 
 			c:FRA = ROOT
@@ -465,7 +471,13 @@ gov_monarchy = {
 	
 	possible = {
 		has_law = law_type:law_monarchy
-		NOT = { owner = { ruler = { has_variable = is_bonapartist } } }
+		NOT = {
+			 owner = { 
+				ruler = { 
+					has_variable = is_bonapartist 
+				} 
+			} 
+		}
 		OR = { 
 			has_law = law_type:law_oligarchy 
 			has_law = law_type:law_elder_council 
@@ -489,7 +501,13 @@ gov_constitutional_monarchy = {
 	
 	possible = {
 		has_law = law_type:law_monarchy
-		NOT = { owner = { ruler = { has_variable = is_bonapartist } } }
+		NOT = { 
+			owner = { 
+				ruler = { 
+					has_variable = is_bonapartist 
+				} 
+			} 
+		}
 		OR = { 
 			has_law = law_type:law_wealth_voting 
 			has_law = law_type:law_census_voting 
