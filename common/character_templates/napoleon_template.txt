@@ -1,4 +1,4 @@
-﻿#louis_napoleon_character_template = {
+﻿louis_napoleon_character_template = {
 	first_name = Louis-Napoleon
 	last_name = Bonaparte
 	culture = cu:french

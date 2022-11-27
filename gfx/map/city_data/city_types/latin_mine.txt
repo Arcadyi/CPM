@@ -63,3 +63,4 @@
 	building_sulfur_mine = {
 		"latin_colonial_manufactory_01_mesh"
 	}
+}

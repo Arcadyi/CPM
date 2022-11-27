@@ -183,10 +183,6 @@ acw_events.3 = {
 	}
 
 	immediate = {
-		set_variable = {
-			name = USA_wilmot_proviso
-			value = yes
-		}
 		random_interest_group = {
 			limit = {
 				is_revolutionary = no
@@ -445,15 +441,19 @@ acw_events.5 = {
 				liberate_slaves = yes
 			}
 		}
-		c:USA = {add_radicals = {
+		c:USA = {
+			add_radicals = {
 			value = 0.003
 			culture = cu:dixie
-		}}
-		c: USA = { add_modifier = {
+		}
+	}
+		c:USA = { 
+			add_modifier = {
 			name = abolitionist_win
 			months = 98
 			is_decaying = yes
-		} }
+		} 
+	}
 		custom_tooltip = acw_events_5_free_state_tt
 	}
 	
@@ -469,15 +469,19 @@ acw_events.5 = {
 				}
 			}
 		}
-		c:USA = {add_radicals = {
+		c:USA = {
+			add_radicals = {
 			value = 0.003
 			culture = cu:yankee
-		}}
-		c:USA = { add_modifier = {
+		}
+	}
+		c:USA = { 
+			add_modifier = {
 			name = slavery_win 
 			months = 98
 			is_decaying = yes
-		} }
+		} 
+	}
 		custom_tooltip = acw_events_5_slave_state_tt
 	}
 }
@@ -611,14 +615,18 @@ acw_events.6 = {
 				kill_character = yes
 			}
 		}
-		c:USA = {add_radicals = {
+		c:USA = {
+			add_radicals = {
 			value = 0.01
 			culture = cu:yankee
-		}}
-		c:USA = {add_radicals = {
+		}
+	}
+		c:USA = {
+			add_radicals = {
 			value = 0.01
 			culture = cu:dixie
-		}}
+		}
+	}
 	}
 }
 

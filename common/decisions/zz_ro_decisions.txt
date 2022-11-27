@@ -1,4 +1,4 @@
-
+﻿
 # Fix Moldavia leaving PU Bug
 fix_pu_moldavia = {
 
@@ -16,8 +16,10 @@ fix_pu_moldavia = {
 	when_taken = {
 		create_diplomatic_pact = {
             country = c:MOL
-			target = c:WAL
-            type = personal_union
+			target = {
+				tcountry = c:WAL
+			}
+			type = personal_union
 		}
 	}
 }

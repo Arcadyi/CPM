@@ -1,4 +1,4 @@
-
+﻿
 modifier_liberal_win = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
 	interest_group_ig_intelligentsia_approval_add = 3
@@ -12,7 +12,7 @@ modifier_monarch_win = {
 	
 
 
-﻿china_authority = {
+china_authority = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_authority_mult = 0.2
 }

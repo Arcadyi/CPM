@@ -669,12 +669,12 @@ types MilitaryPanelHQs {
 		
 						button = {
 							using = default_button
-							size = { 100% 100% }
+							size = { 100% }
 							parentanchor = bottom|right
 							widgetanchor = bottom|right
 							visible = "[Or( And( Not( State.AccessBuilding('building_barracks').IsValid ), IsValid( State.AccessBuilding('building_barracks').QueueConstruction ) ), Not(State.AccessBuilding('building_barracks').HasReachedLevelCap) )]"
 							tooltip = "[State.AccessBuilding('building_barracks').GetQueueConstructionTooltip]"
-							size = { 29 29 }
+							size = { 29 }
 							onclick = "[Execute( State.AccessBuilding('building_barracks').QueueConstruction )]"
 							onrightclick = "[Execute( State.AccessBuilding('building_barracks').CancelConstruction )]"
 							enabled = "[IsValid( State.AccessBuilding('building_barracks').QueueConstruction )]"

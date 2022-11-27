@@ -1,4 +1,4 @@
-atheism_decision = {
+﻿atheism_decision = {
 	is_shown = {
 		NOT = { country_has_state_religion = rel:atheist }
 	}
@@ -50,7 +50,9 @@ atheism_decision = {
 				every_scope_pop = {
 					limit = {
 						literacy_rate > 0.60
-						is_not_pop_type = clergy
+						NOT = {
+							is_pop_type = clergy
+						}
 					}
 					change_pop_religion = { target = rel:atheist value = 0.15 }
 				}

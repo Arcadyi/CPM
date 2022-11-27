@@ -1,4 +1,4 @@
-institution_army_professionalism = {
+﻿institution_army_professionalism = {
 	icon = "gfx/interface/icons/ig_icons/armed_forces.dds"
 	background_texture = "gfx/interface/illustrations/institutions/colonization.dds"
 	modifier = {

@@ -1,4 +1,4 @@
-#fra_ledrurollin_character_template = {
+﻿fra_ledrurollin_character_template = {
     first_name = Alexandre
     last_name = Ledru-Rollin
     culture = cu:french
@@ -74,22 +74,6 @@ Louis_napoleon_character_template = {
 	traits = {
 		ambitious
 		demagogue
+	}
 
-}#
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

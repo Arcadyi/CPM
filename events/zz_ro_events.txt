@@ -1,4 +1,4 @@
-namespace = romanian_events
+﻿namespace = romanian_events
 
 # Between the hammer and the anvil
 romanian_events.1 = {
@@ -133,7 +133,7 @@ romanian_events.4 = {
 
 		add_loyalists = {
 			value = 0.05
-			culture = cul:romanian
+			culture = cu:romanian
 		}
 
 		add_modifier = {
@@ -238,7 +238,7 @@ romanian_events.7 = {
 		
 		add_loyalists = {
 			value = 0.20
-			culture = cul:romanian
+			culture = cu:romanian
 		}
 
 		add_modifier = {

@@ -1,4 +1,4 @@
-namespace = ethniccleansing
+﻿namespace = ethniccleansing
 
 ethniccleansing.1 = {
 	type = country_event

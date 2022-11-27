@@ -113,10 +113,7 @@
     		on_created = {
 				set_variable = {
 					name = second_party_system_whig_var
-				}		
-				set_variable = {
-					name = john_q_adams_var
-				}			
+				}				
 			}
 		}
 
@@ -149,9 +146,9 @@
 				basic_political_operator
 			}
 			on_created = {
-			#	set_variable = {
-			#		name = politically_neutral_var
-			#	}				
+				set_variable = {
+					name = politically_neutral_var
+				}				
 			}
 		}
 
@@ -239,7 +236,7 @@
 			last_name = Taylor
 			birth_date = 1784.11.24
 			interest_group = ig_armed_forces
-			deology = ideology_moderate
+			ideology = ideology_moderate
 			hq = region_the_midwest
 			commander_rank = commander_rank_1
 			traits = {

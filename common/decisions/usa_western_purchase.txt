@@ -1,4 +1,4 @@
-usa_western_purchase = {
+﻿usa_western_purchase = {
 	is_shown = {
 		exists = c:USA
 		exists = c:MEX

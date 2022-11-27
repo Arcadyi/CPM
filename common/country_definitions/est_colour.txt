@@ -1,4 +1,4 @@
-EST = {
+﻿EST = {
 	color = { 0  114  206 }
 	
 	country_type = recognized

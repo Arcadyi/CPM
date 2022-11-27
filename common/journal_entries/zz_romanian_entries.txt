@@ -1,4 +1,4 @@
-
+﻿
 # Draft the First Constitution
 je_draft_constitution = {
 

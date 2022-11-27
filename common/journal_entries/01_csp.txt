@@ -30,12 +30,14 @@
 		change_tag = SPA
 		add_loyalists = {
 		value = 0.1
-	}
+			}
 		c:SPA = {
 		add_modifier = {
 			name = modifier_monarch_win
 			months = 12
+			}
 		}
+	}
 }
 
 

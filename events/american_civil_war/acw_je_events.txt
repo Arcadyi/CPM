@@ -88,11 +88,11 @@ acw_je_events.1 = {
 				change_tag = CSA
 				save_scope_as = csa_scope
 			}
-			u:USA = {trigger_event = { 
+			c:USA = {trigger_event = { 
 				id = acw_csa_modded.1
 				days = 3
 				}}
-			u:CSA = {trigger_event = {
+			c:CSA = {trigger_event = {
 			 id = acw_csa_modded.2
 			 	days = 3
 		}}
@@ -192,7 +192,6 @@ acw_je_events.1 = {
 		}
 		set_global_variable = {
 			name = american_civil_war
-			value = yes
 		}
 		
 	}

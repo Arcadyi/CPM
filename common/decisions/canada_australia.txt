@@ -52,6 +52,9 @@
 			months = short_modifier_time
 		}
 	}
+	ai_chance = {
+		base = 100
+	}
 }
 
 australia_unite_gbr = {
@@ -85,5 +88,9 @@ australia_unite_gbr = {
 			name = australia_test_modifier
 			months = short_modifier_time
 		}
+	}
+	
+	ai_chance = {
+		base = 100
 	}
 }

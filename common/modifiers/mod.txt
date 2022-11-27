@@ -1,9 +1,10 @@
-﻿missouri_compromise = {
+missouri_compromise = {
 	icon = gfx/interface/icons/timed_modifier_icons/maintain_power_balance_neutral.dds
 	interest_group_ig_landowners_pol_str_mult = 0.10
 	country_legitimacy_base_add = -10
 	country_opposition_ig_approval_add = -3
 	interest_group_ig_intelligensia_pop_attraction_mult = 0.10
+	interest_group_ig_industrialists_pop_attraction_mult = 0.10
 }
 second_great_awakening_mod = {
 	icon = gfx/interface/icons/timed_modifier_icons/devout_positive.dds

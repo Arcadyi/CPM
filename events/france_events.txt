@@ -298,7 +298,7 @@ orleanist_flavor.2 = {
 				commander_rank = default
 				interest_group = ig_landowners
 				birth_date = 1793.4.26
-				dna = dna_nicolas_changarnier
+#				dna = dna_nicolas_changarnier
 				traits = {
 					experienced_offensive_planner
 					cruel

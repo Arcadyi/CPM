@@ -143,7 +143,9 @@ mexican_american.2 = {
 		}
 		modifier = {
 			trigger = { 
-				ruler = {has_ideology = ideology_pacifist}
+				ruler = {
+					has_ideology = ideology_pacifist
+				}
 			}
 			add = 20
 		}
@@ -304,7 +306,7 @@ mexican_american.5 = {
 		s:STATE_ARIZONA = {
 			set_owner_of_provinces = {
 				country = c:MEX
-				provinces = { x022AE2 x48A4E7 xC28CA0 x39AEE1 x44CC50 BB6368 x52AD57 xBF471B x8737CC xC96399 x8737CC x2392B7 xA8531A
+				provinces = { x022AE2 x48A4E7 xC28CA0 x39AEE1 x44CC50 x50A011 x52AD57 xBF471B x8737CC xC96399 x8737CC x2392B7 xA8531A
 				xD331E1 x949C3F x1BDEB7 x8755F3 x77EF15 x1A06C1 xD08000 xBB6368 x67A8BE}
 			}
 		}
@@ -343,7 +345,7 @@ mexican_american.6 = { #Treaty of G H
 
 	immediate = {
 		c:MEX = {
-		leader = {
+		ruler = {
 			save_scope_as = mexico_leader
     			}
     	}

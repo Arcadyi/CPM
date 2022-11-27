@@ -13,7 +13,7 @@
 	
 	modifier = {
 		state_mortality_mult = 0.1
-		state_welfare_add = -10
+		state_welfare_payments_add = -10
 		state_assimilation_mult = 2
 		state_conversion_mult = 2
 	}

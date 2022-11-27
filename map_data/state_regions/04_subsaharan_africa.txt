@@ -18,6 +18,10 @@
         type = "bg_rubber"
         undiscovered_amount = 22
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3091
 }
 
@@ -178,6 +182,10 @@ STATE_HAUSALAND = {
         type = "bg_rubber"
         undiscovered_amount = 20
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 10
+    }
 }
 
 STATE_BENIN = {
@@ -266,6 +274,10 @@ STATE_OUTER_HAUSALAND = {
         bg_coal_mining = 48
         bg_logging = 4
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
 }
 
 STATE_BORNU = {
@@ -320,6 +332,10 @@ STATE_EAST_HAUSALAND = {
     capped_resources = {
         bg_coal_mining = 72
         bg_logging = 18
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
     }
 }
 
@@ -548,6 +564,10 @@ STATE_OROMIA = {
     resource = {
         type = "bg_rubber"
         undiscovered_amount = 28
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 10
     }
 }
 
@@ -844,6 +864,10 @@ STATE_CONGO = {
         type = "bg_rubber"
         undiscovered_amount = 60
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3104
 }
 
@@ -1046,6 +1070,10 @@ STATE_GABON = {
         type = "bg_rubber"
         undiscovered_amount = 24
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3091
 }
 
@@ -1220,7 +1248,6 @@ STATE_TRANSVAAL = {
     }
 }
 
-
 STATE_EASTERN_CAPE = {
     id = 260
     subsistence_building = "building_subsistence_farms"
@@ -1322,7 +1349,7 @@ STATE_LOURENCO_MARQUES = {
 }
 
 STATE_SWAZILAND = {
-    id = 265
+    id = 584
     subsistence_building = "building_subsistence_farms"
     provinces = { "x25A652" "x73CDE8" "x884936" "x90A090" "xA30505" }
     traits = { "state_trait_malaria" "state_trait_waterberg_coalfield" }
@@ -1344,7 +1371,7 @@ STATE_SWAZILAND = {
     }
 }
 STATE_BASUTOLAND = {
-    id = 266
+    id = 589
     subsistence_building = "building_subsistence_farms"
     provinces = { "x6DB7E8" "x8C39B6" "xE1EAA4" "xF06050" }
     traits = { "state_trait_malaria" "state_trait_waterberg_coalfield" }

@@ -1,66 +1,4 @@
-﻿
-###GARABALDI
-employ_Garibaldi_dec= { ##victory
-
-	is_shown = {
-		NOT = { has_global_variable = garibaldi_dead_var }
-	#	OR = {
-	#	has_law = law_type:law_council_republic
-	#	has_law = law_type:law_parliamentary_republic 
-	#	has_law = law_type:law_presidential_republic
-	#}
-	#	has_law = law_type:law_slavery_banned
-	#	NOT = { has_law = law_type:law_autocracy}
-	}
-
-	possible = {
-		is_subject = no
-		NOT = {has_global_variable = garibaldi_busy_var }
-		NOT = {has_global_variable = garibaldi_dead_var }
-		NOT = { 
-			OR = {
-			has_law = law_type:law_autocracy
-			has_law = law_type:law_oligarchy
-}
-		}
-		OR = {
-		has_law = law_type:law_council_republic
-		has_law = law_type:law_parliamentary_republic 
-		has_law = law_type:law_presidential_republic
-	}
-		OR = {
-			has_law = law_type:law_slavery_banned
-			root = c:PNI
-		}
-		any_country ={
-			has_war_with = ROOT
-			OR ={
-				OR ={
-					has_law = law_type:law_legacy_slavery
-					has_law = law_type:law_slave_trade
-					has_law = law_type:law_debt_slavery
-				}
-				OR ={
-					has_law = law_type:law_monarchy
-					has_law = law_type:law_theocracy
-					has_law = law_type:law_autocracy 
-					has_law = law_type:law_oligarchy
-				}
-			}
-		}
-	}
-
-	when_taken = {
-			trigger_event = { id = nfm_misc.2 } 
-			set_global_variable = garibaldi_busy_var
-		}
-
-	ai_chance = {
-		base = 100
-	}
-}
-
-usa_house_gag = {
+﻿usa_house_gag = {
 
 	is_shown = {
 		exists = c:USA
@@ -115,7 +53,7 @@ initialize_usa_dec = { 	##victory
 			}
 
 	ai_chance = {
-		base = 100
+		always = yes
 	}
 }
 
@@ -133,8 +71,13 @@ usa_repeal_house_gag = {
 				has_modifier = usa_house_gag
 				has_government_clout >= 0.60
 				government_legitimacy >= 60
-				ruler = {has_ideology = ideology_abolitionist}
-				ig:ig_landowners = {is_in_government = no}
+				ruler = {
+					has_ideology = ideology_abolitionist
+				}
+			
+				ig:ig_landowners = {
+					is_in_government = no
+				}
 			}
 		}
 
@@ -152,7 +95,9 @@ csa_national_guard = {
 	is_shown = {
 		exists = c:CSA
 		root = c:CSA
-		NOT = { has_variable = csa_mob_var }
+		NOT = {
+			 has_variable = csa_mob_var 
+			}
 	}
 
 	possible = { 
@@ -162,13 +107,24 @@ csa_national_guard = {
 		}
 
 	when_taken = {
-		c:CSA = {activate_law = law_type:law_national_militia}
-		if = { limit = { c:USA = {has_law = law_type:law_national_guard}}
-			c:CSA = {activate_law = law_type:law_national_guard}
+		c:CSA = {
+			activate_law = law_type:law_national_militia
 		}
-			c:CSA = set_variable = csa_mob_var
+		if = {
+			limit = { 
+				c:USA = {
+					has_law = law_type:law_national_guard
+				}
+			}
+			c:CSA = {
+				activate_law = law_type:law_national_guard
+			}
+		}
+		
+		c:CSA = {
+			 set_variable = csa_mob_var
+		}
 	}
-
 	ai_chance = {
 		base = 10
 	}

@@ -181,8 +181,6 @@
  building_ottawa:0 "Parliament Hill"
  building_montreal:0 "Parliament Hill"
  canada_test_modifier:0 "Confederated Canada"
- STATE_PRINCE_EDWARD_ISLAND:0 "Prince Edward Island"
- STATE_NOVA_SCOTIA:0 "Nova Scotia"
  PEI:0 "Prince Edward Island"
  PEI_ADJ:0 "Islander"
  Wright:0 "Wright"

@@ -1,4 +1,4 @@
-je_isab_victory = {
+﻿je_isab_victory = {
 
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 
@@ -28,5 +28,5 @@ je_isab_victory = {
 		}
 			}
 }
-
+}
 
