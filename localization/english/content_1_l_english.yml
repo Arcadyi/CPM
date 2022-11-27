@@ -127,7 +127,7 @@
  oregon.2.a:0 "A most agreeable compromise."
  oregon.2.b:0 "We will not surrender an inch of British land!"
  oregon.3.t:0 "The Oregon Treaty"
- oregon.3.d:0 "[SCOPE.sCountry('britain_scope').GetName] has agreed to our reasonable terms, and has ceded control of [SCOPE.sState('washington_scope').GetName], [SCOPE.sState('oregon_scope').GetName], and [SCOPE.sState('idaho_scope').GetName] to the [ROOT.GetCountry.GetName]."
+ oregon.3.d:0 "[SCOPE.sCountry('britain_scope').GetName] has agreed to our reasonable terms, and has ceded control of [SCOPE.sState('washington_scope').GetName], [SCOPE.sState('oregon_scope').GetName], [SCOPE.sState('idaho_scope').GetName] , [SCOPE.sState('wyoming_scope').GetName], and [SCOPE.sState('montana_scope').GetName] to the [ROOT.GetCountry.GetName]."
  oregon.3.f:0 ""The present treaty shall be ratified by the [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] of the [ROOT.GetCountry.GetName], by and with the advice and consent of the Senate thereof, and the ramifications shall be exchanged at London, at the expiration of six months from the date hereof, or sooner, if possible.""
  oregon.3.a:0 "A most amicable agreement."
  oregon.4.t:0 "Failed Oregon Treaty"

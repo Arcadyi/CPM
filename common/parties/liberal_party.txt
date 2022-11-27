@@ -579,13 +579,17 @@ liberal_party = {
 		}
 		if = {
 			limit = {		
-				owner = { ruler = { has_variable = is_orleanist } }
+				owner = {
+					 ruler = {
+						 has_variable = is_orleanist 
+						} 
+					}
 				is_interest_group_type = ig_petty_bourgeoisie
-			}
 			add = {
 				value = 5
 				desc = "from_orleanist_king"
 			}
 		}
 	}
+}
 }

@@ -19,9 +19,11 @@
 		ig:ig_devout = {
 			set_interest_group_name = ig_evangelical_church
 		}
-		add_modifier = {
+		c:PTF = {
+			add_modifier = {
 			name = adjunct_volksraad
 			months = -1
+			}
 		}	
 	}
 }

@@ -34,6 +34,26 @@
 				}
 			}
 		}
+		s:STATE_WYOMING = {
+			any_scope_state = {
+				owner = {
+					OR = {
+						c:GBR = THIS
+						is_subject_of = c:GBR
+					}
+				}
+			}
+		}
+		s:STATE_MONTANA = {
+			any_scope_state = {
+				owner = {
+					OR = {
+						c:GBR = THIS
+						is_subject_of = c:GBR
+					}
+				}
+			}
+		}
 	}
 
 	possible = {
@@ -58,6 +78,8 @@
 				owns_entire_state_region = STATE_WASHINGTON
 				owns_entire_state_region = STATE_IDAHO
 				owns_entire_state_region = STATE_OREGON
+				owns_entire_state_region = STATE_WYOMING
+				owns_entire_state_region = STATE_MONTANA
 			}
 		}
 	}
@@ -108,6 +130,12 @@
 			s:STATE_OREGON = {
 				add_homeland = yankee
 			}
+			s:STATE_WYOMING = {
+				add_homeland = yankee
+			}
+			s:STATE_MONTANA = {
+				add_homeland = yankee
+			}
 			add_modifier = {
 				name = oregon_resolved
 				months = normal_modifier_time
@@ -126,6 +154,8 @@ je_conquer_oregon = {
 			owns_entire_state_region = STATE_WASHINGTON
 			owns_entire_state_region = STATE_IDAHO
 			owns_entire_state_region = STATE_OREGON
+			owns_entire_state_region = STATE_WYOMING
+			owns_entire_state_region = STATE_MONTANA
 		}
 	}
 

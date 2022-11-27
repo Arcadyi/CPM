@@ -409,14 +409,7 @@ ai_strategy_armed_isolationism = {
 			limit = { has_law = law_type:law_isolationism }
 			add = 100
 		}	
-		if = {
-			limit = { 
-				ruler = {
-					has_ideology = ideology_pacifist
-				} 
-			} #NFM ADDED
-			add = 200
-		}
+
 	}
 }
 

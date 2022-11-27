@@ -640,7 +640,13 @@ conservative_party = {
 		if = {
 			limit = {
 				leader = { has_ideology = ideology_legitimist }
-				NOT = { owner = { ruler = { has_variable = is_bonapartist } } }
+				NOT = { 
+					owner = { 
+						ruler = { 
+							has_variable = is_bonapartist 
+						} 
+					} 
+				}
 			}
 			add = {
 				value = 10
@@ -666,7 +672,11 @@ conservative_party = {
 						has_ideology = ideology_orleanist
 					}
 				}
-				owner = { ruler = { has_variable = is_bonapartist } }
+				owner = {
+					ruler = {
+						has_variable = is_bonapartist 
+					} 
+				}
 			}
 			add = {
 				value = -15

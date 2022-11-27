@@ -1,0 +1,11 @@
+HKG = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_hong_kong.dds"
+		color1 = "white"
+			instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+}
