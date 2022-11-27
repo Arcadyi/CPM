@@ -2990,7 +2990,8 @@ QIA = { # Qian
 }
 
 FRS = { # Formosa
-	color = { 218 234 15 }
+	color = { 41  82  126 }
+	#color = { 218 234 15 }
 	
 	country_type = unrecognized
 	

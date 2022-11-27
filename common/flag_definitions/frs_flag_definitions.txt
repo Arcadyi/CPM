@@ -1,0 +1,7 @@
+﻿FRS = { # Formosa
+	flag_definition = {
+		coa = FRS
+		subject_canton = FRS
+		priority = 1000
+	}
+}

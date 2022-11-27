@@ -711,15 +711,19 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = min
-				size = 1880000
+				size = 1948000
 			}
 			create_pop = {
-				culture = manchu
-				size = 492
+				culture = hakka 
+				size = 366000
 			}
 			create_pop = {
-				culture = han # nanfaren
-				size = 1015504
+				culture = han
+				size = 31000
+			}
+			create_pop = {
+				culture = polynesian #taiwanese aboriginese
+				size = 200000
 			}
 		}
 	}

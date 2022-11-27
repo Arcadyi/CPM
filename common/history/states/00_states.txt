@@ -6027,8 +6027,10 @@ STATES = {
 			owned_provinces = { x44797F x9A5066 xE73B31 x6645CF xBB27F6 x6DAB21 xAEA2D8 x7070E0 }
 		}
 		
-		add_homeland = han
+		add_homeland = han #han wasn't a thing until 1949
 		add_homeland = min
+		add_homeland = hakka
+		add_homeland = polynesian
 	}
 	s:STATE_SOUTHERN_FINLAND = {
 		create_state = {
