@@ -697,6 +697,60 @@ tgn_je_events.13 = {
 					set_state_owner = c:USA
 				}
 			}
+			s:STATE_MONTANA = {
+				add_homeland = yankee
+				random_scope_state = {
+					limit = {
+						OR = {
+							exists = c:ONT
+							exists = c:QUE
+						}
+						owner = {
+							OR = {
+								c:ONT = THIS
+								c:QUE = THIS
+							}
+						}
+					}
+					set_state_owner = c:USA
+				}
+			}
+			s:STATE_WYOMING = {
+				add_homeland = yankee
+				random_scope_state = {
+					limit = {
+						OR = {
+							exists = c:ONT
+							exists = c:QUE
+						}
+						owner = {
+							OR = {
+								c:ONT = THIS
+								c:QUE = THIS
+							}
+						}
+					}
+					set_state_owner = c:USA
+				}
+			}
+		}
+		s:STATE_IDAHO = {
+			add_homeland = yankee
+			random_scope_state = {
+				limit = {
+					OR = {
+						exists = c:ONT
+						exists = c:QUE
+					}
+					owner = {
+						OR = {
+							c:ONT = THIS
+							c:QUE = THIS
+						}
+					}
+				}
+				set_state_owner = c:USA
+			}
 		}
 		change_relations = { 
 			country = c:USA 

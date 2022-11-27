@@ -103,7 +103,7 @@ romanian_events.3 = {
 		
 		create_diplomatic_pact = {
             country = c:MOL
-			tcountry = c:WAL
+			target = c:WAL
             type = personal_union
 		}
 	}
