@@ -2762,7 +2762,7 @@ STATES = {
 		create_state = {
 			country = c:NBS
 			owned_provinces = { 
-				xC91FD7 xEE2FFF x5A0CA8 x71A015 x326F36 xF01C37 x70A0CE x484A09 x082153 x62FC6A xDE0FD5 xBB0F05 x7040C0 x4D9EEE x8ED253 xD090A6 x20CF66 x66DFE7 x493CD4 x740012 x70C040
+				xC91FD7 xEE2FFF x5A0CA8 x71A015 x326F36 xF01C37 x70A0CE x484A09 x082153 x62FC6A xDE0FD5 xBB0F05 x7040C0 x4D9EEE x8ED253 xD090A6 x20CF66 x66DFE7 x493CD4 x740012
 			}
 		}
 		create_state = {
@@ -2776,6 +2776,10 @@ STATES = {
 			owned_provinces = {
 				x8E553E
 			}
+		}
+		create_state = {
+			country = c:PEI
+			owned_provinces = { x70C040 }
 		}
 		add_homeland = anglo_canadian
 		add_homeland = franco_canadian

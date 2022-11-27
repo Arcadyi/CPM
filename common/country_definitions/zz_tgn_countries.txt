@@ -6,5 +6,5 @@
 	tier = principality
 	
 	cultures = { anglo_canadian franco_canadian }
-	capital = STATE_PRINCE_EDWARD_ISLAND
+	capital = STATE_NEW_BRUNSWICK
 }

@@ -11,16 +11,4 @@
 			}
 		}
 	}
-	s:STATE_NOVA_SCOTIA = {
-		region_state:NVS = {
-			create_pop = {
-				culture = anglo_canadian
-				size = 99953
-			}
-			create_pop = {
-				culture = franco_canadian
-				size = 99953
-			}
-		}
-	}
 }
