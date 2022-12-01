@@ -1,0 +1,29 @@
+historical_population_of_germany = {
+	icon = gfx/interface/icons/modifier_icons/population.dds
+	state_birth_rate_mult = 0.15
+}
+
+historical_population_of_france1 = {
+	icon = gfx/interface/icons/modifier_icons/population.dds
+	state_birth_rate_mult = -0.05
+}
+
+historical_population_of_france2 = {									#### 여기까지는 문제 없음
+	icon = gfx/interface/icons/modifier_icons/population.dds
+	state_birth_rate_mult = -0.16
+}
+
+historical_population_of_france3 = {
+	icon = gfx/interface/icons/modifier_icons/population.dds
+	state_birth_rate_mult = -0.2
+}
+
+historical_population_of_france4 = {
+	icon = gfx/interface/icons/modifier_icons/population.dds
+	state_birth_rate_mult = -0.21
+}
+
+historical_population_of_russia = {
+	icon = gfx/interface/icons/modifier_icons/population.dds
+	state_birth_rate_mult = 0.25
+}

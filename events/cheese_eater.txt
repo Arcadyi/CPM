@@ -1,0 +1,317 @@
+﻿namespace = birth_rate
+
+
+#for exsiting save game for prrusia
+birth_rate.1 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	title = birth_rate.1.t
+	desc = birth_rate.1.d
+
+
+	duration = 1
+	
+	trigger = {
+		game_date >= 1836.1.1
+		exists = c:PRU
+		c:PRU = ROOT
+		NOT = {	has_modifier = historical_population_of_germany }
+	}
+	
+
+	option = {
+		name = ai.1.a
+		default_option = yes
+		add_modifier = {
+			name = historical_population_of_germany
+		}
+		ai_chance = {
+			base = 100										
+		}		
+	}
+}
+
+
+#for exsiting save game for nothern german federation
+birth_rate.2 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	title = birth_rate.2.t
+	desc = birth_rate.2.d
+
+
+	duration = 1
+	
+	trigger = {
+		game_date >= 1836.1.1
+		exists = c:NGF
+		c:NGF = ROOT
+		NOT = {	has_modifier = historical_population_of_germany }
+	}
+	
+
+	option = {
+		name = ai.1.a
+		default_option = yes
+		add_modifier = {
+			name = historical_population_of_germany
+		}
+		ai_chance = {
+			base = 100										
+		}		
+	}
+}
+
+
+#for exsiting save game for germany
+birth_rate.3 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	title = birth_rate.3.t
+	desc = birth_rate.3.d
+
+
+	duration = 1
+	
+	trigger = {
+		game_date >= 1836.1.1
+		exists = c:GER
+		c:GER = ROOT
+		NOT = {	has_modifier = historical_population_of_germany }
+	}
+	
+
+	option = {
+		name = ai.1.a
+		default_option = yes
+		add_modifier = {
+			name = historical_population_of_germany
+		}
+		ai_chance = {
+			base = 100										
+		}		
+	}
+}
+
+
+#for exsiting save game for Russia
+birth_rate.4 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	title = birth_rate.4.t
+	desc = birth_rate.4.d
+
+
+	duration = 1
+	
+	trigger = {
+		game_date >= 1836.1.1
+		exists = c:RUS
+		c:RUS = ROOT
+		NOT = {	has_modifier = historical_population_of_russia }
+	}
+	
+
+	option = {
+		name = ai.1.a
+		default_option = yes
+		add_modifier = {
+			name = historical_population_of_russia
+		}
+		ai_chance = {
+			base = 100										
+		}		
+	}
+}
+
+
+##########################################################################################
+
+#for exsiting save game for France
+birth_rate.5 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	title = birth_rate.5.t
+	desc = birth_rate.5.d
+
+
+	duration = 1
+	
+	trigger = {
+		game_date < 1856.1.1
+		exists = c:FRA
+		c:FRA = ROOT	
+		NOT = {	has_modifier = historical_population_of_france1 }
+	}
+	
+
+	option = {
+		name = birth_rate.5.a
+		default_option = yes
+		add_modifier = {
+			name = historical_population_of_france1
+		}
+		ai_chance = {
+			base = 100										
+		}		
+	}
+}
+
+
+#change french population debuff
+birth_rate.6 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	title = birth_rate.6.t
+	desc = birth_rate.6.d
+
+
+	duration = 1
+	
+	trigger = {
+		game_date > 1856.1.1
+		game_date < 1876.1.1
+		exists = c:FRA
+		c:FRA = ROOT	
+		NOT = { has_modifier = historical_population_of_france2 }
+	}
+	
+
+	option = {
+		name = birth_rate.6.a
+		default_option = yes
+		add_modifier = {
+			name = historical_population_of_france2
+		}
+		remove_modifier = historical_population_of_france1
+		ai_chance = {
+			base = 100										
+		}		
+	}
+}
+
+birth_rate.7 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	title = birth_rate.7.t
+	desc = birth_rate.7.d
+
+
+	duration = 1
+	
+	trigger = {
+		game_date > 1876.1.1
+		game_date < 1896.1.1
+		exists = c:FRA
+		c:FRA = ROOT	
+		NOT = { has_modifier = historical_population_of_france3 }
+	}
+	
+
+	option = {
+		name = birth_rate.7.a
+		default_option = yes
+		add_modifier = {
+			name = historical_population_of_france3
+		}
+		remove_modifier = historical_population_of_france2
+		ai_chance = {
+			base = 100										
+		}		
+	}
+}
+
+birth_rate.8 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	title = birth_rate.8.t
+	desc = birth_rate.8.d
+
+
+	duration = 1
+	
+	trigger = {
+		game_date > 1896.1.1
+		exists = c:FRA
+		c:FRA = ROOT	
+		NOT = { has_modifier = historical_population_of_france4 }
+	}
+	
+
+	option = {
+		name = birth_rate.8.a
+		default_option = yes
+		add_modifier = {
+			name = historical_population_of_france4
+		}
+		remove_modifier = historical_population_of_france3
+		ai_chance = {
+			base = 100										
+		}		
+	}
+}
+

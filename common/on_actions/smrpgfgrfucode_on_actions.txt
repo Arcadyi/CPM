@@ -1,0 +1,15 @@
+﻿# For on_actions launched by the code itself.
+
+# Root = Country
+on_monthly_pulse_country = {
+	events = {
+		birth_rate.1
+		birth_rate.2
+		birth_rate.3
+		birth_rate.4
+		birth_rate.5
+		birth_rate.6
+		birth_rate.7
+		birth_rate.8
+	}
+}
