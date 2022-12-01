@@ -88,7 +88,7 @@ Credit: All mods / mod ideas used linked below:
 		- Integrated Napoleonic Flavor mod.
 		- Integrated Romanian Flavor mod.
 		- Implemented a fix for expeditions getting stuck.			
-			# v.2
+			# v.2.0
 		- Fixed Oregon Dispute and Canadian Journal Entries.
 		- Fixed Canadian states and Strategic Region.
 		- Removed buggy or incomplete American events.
