@@ -767,7 +767,7 @@
 		region_state:PHI={
 			create_building={
 				building="building_rice_farm"
-				level=1
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -810,6 +810,18 @@
 	s:STATE_LUZON={
 		region_state:PHI={
 			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+			create_building={
+				building="building_coffee_plantation"
+				level=3
+				reserves=1
+				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
 				building="building_government_administration"
 				level=4
 				reserves=1
@@ -823,13 +835,13 @@
 			}
 			create_building={
 				building="building_sugar_plantation"
-				level=4
+				level=3
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
-				level=5
+				level=3
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
@@ -858,6 +870,12 @@
 	s:STATE_VISAYAS={
 		region_state:PHI={
 			create_building={
+				building="building_textile_mills"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_handsewn_clothes" "pm_merchant_guilds_building_textile_mills" "pm_traditional_looms" "pm_no_luxury_clothes" }
+			}
+			create_building={
 				building="building_sugar_plantation"
 				level=3
 				reserves=1
@@ -884,11 +902,11 @@
 		}
 	}
 	s:STATE_WEST_MICRONESIA={
-		region_state:MCR={
+		region_state:WMC={
 		}
 	}
 	s:STATE_EAST_MICRONESIA={
-		region_state:MCR={
+		region_state:EMC={
 		}
 	}
 	s:STATE_SOLOMON_ISLANDS={

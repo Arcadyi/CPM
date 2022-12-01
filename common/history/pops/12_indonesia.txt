@@ -968,7 +968,7 @@
 				pop_type = slaves
 				culture = filipino
 				religion = animist
-				size = 20208
+				size = 1000
 			}
 			create_pop = {
 				culture = bornean
@@ -1059,7 +1059,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = filipino
-				size = 50000
+				size = 2000
 			}
 		}
 		region_state:SUL = {
@@ -1107,12 +1107,12 @@
 			create_pop = {
 				pop_type = slaves
 				culture = filipino
-				size = 30000
+				size = 1000
 			}
 		}
 	}
 	s:STATE_EAST_MICRONESIA = {
-		region_state:MCR = {
+		region_state:EMC = {
 			create_pop = {
 				culture = micronesian
 				size = 23840
@@ -1129,7 +1129,7 @@
 	}
 
 	s:STATE_WEST_MICRONESIA = {
-		region_state:MCR = {
+		region_state:WMC = {
 			create_pop = {
 				culture = micronesian
 				size = 23840

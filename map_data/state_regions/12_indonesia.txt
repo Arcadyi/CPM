@@ -419,11 +419,17 @@ STATE_MINDANAO = {
         bg_iron_mining = 36
         bg_logging = 14
         bg_fishing = 8
+		bg_coal_mining = 2
     }
     resource = {
         type = "bg_rubber"
         undiscovered_amount = 10
     }
+	resource = {
+	    type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 1
+	}	
     naval_exit_id = 3055
 }
 
@@ -444,6 +450,12 @@ STATE_LUZON = {
         bg_logging = 20
         bg_fishing = 12
     }
+	resource = {
+	    type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 2
+        discovered_amount = 1
+	}	
     resource = {
         type = "bg_rubber"
         undiscovered_amount = 4
@@ -466,6 +478,7 @@ STATE_VISAYAS = {
         bg_iron_mining = 30
         bg_logging = 18
         bg_fishing = 10
+		bg_coal_mining = 3
     }
     resource = {
         type = "bg_rubber"

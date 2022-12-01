@@ -1,0 +1,34 @@
+﻿develop_micronesia = {
+	is_shown = {
+		exists = c:PHI
+		this = c:PHI
+	}
+
+	possible = {
+		in_default = no
+		taking_loans = no
+		is_at_war = no
+		root.gdp > 4000000
+		
+	}
+	
+	when_taken = {
+		annex = c:WMC
+		change_relations = { 
+		country = c:GBR
+		value = -40
+		}
+		is_shown = {
+		exists = c:GER 
+		change_relations = { 
+		country = c:GER
+		value = -40
+		}
+	}
+	}
+
+	ai_chance = {
+		base = 0	
+	}
+}
+

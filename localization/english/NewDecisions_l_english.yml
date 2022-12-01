@@ -1,0 +1,8 @@
+﻿l_english:
+ DECISION_TOOLTIP_FORMAT:1 "#header $NAME$#!\n$TOOLTIP_DELIMITER$\n$TRIGGER_SUMMARY$\n\nWhen taken:\n$EFFECT_SUMMARY$"
+
+ develop_micronesia:0 "Develop West Micronesia"
+ develop_micronesia_desc:0 "We have laid claim to these islands but have neglected their development for too long. Foreign merchants are encroaching on our territory and it's time for us to stake our claim by settling and developing these islands."
+ develop_micronesia_tooltip:0 "Por Dios y por España!"
+
+ 
