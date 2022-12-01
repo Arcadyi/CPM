@@ -51,3 +51,18 @@ ORA = {
 		}
 	}
 }
+WBL = {
+	dynamic_country_name = {
+		name = dyn_c_griqualand_west
+		adjective = dyn_c_griqualand_west_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			c:WBL = {
+				is_subject_of = c:SAF
+			}
+		}
+	}
+}

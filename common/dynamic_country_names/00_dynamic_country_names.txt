@@ -1271,7 +1271,12 @@ ORA = { # Oranje
 		priority = 0
 		
 		trigger = {
-			coa_def_british_ensign_trigger = yes
+			OR = {
+				coa_def_british_ensign_trigger = yes
+				c:ORA = {
+						is_subject_of = c:SAF
+				}
+			}
 		}
 	}
 }
@@ -1685,7 +1690,12 @@ TRN = { # Transvaal
 		priority = 0
 		
 		trigger = {
-			coa_def_british_ensign_trigger = yes
+			OR = {	
+				coa_def_british_ensign_trigger = yes
+				c:ORA = {
+					is_subject_of = c:SAF
+				}
+			}
 		}
 	}
 }
