@@ -577,7 +577,7 @@
 		region_state:GBR={
 			create_building={
 				building="building_government_administration"
-				level=10
+				level=20
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}			
@@ -1355,7 +1355,7 @@
 		region_state:FRA={
 			create_building={
 				building="building_government_administration"
-				level=14
+				level=20
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
