@@ -1,0 +1,51 @@
+﻿the_norway_formannskapsdistrikt = {
+	is_shown = {
+		exists = c:NOR
+		c:NOR = THIS
+		NOT = { has_variable = norway_formannskapsdistrikt }
+	}
+	
+	possible = {	# Add more later
+		bureaucracy >= 25
+		ig:ig_rural_folk = {
+			OR = {
+				is_powerful = yes
+				is_in_government = yes
+			}
+		}
+	}
+	
+	when_taken = {
+		set_variable = norway_formannskapsdistrikt
+		add_modifier = {
+			name = norway_formmanskapsdistrikt_pay
+			months = short_modifier_time
+		}
+		add_modifier = {
+			name = norway_formmanskapsdistrikt_nation
+			months = -1
+		}
+		ig:ig_rural_folk = {
+			add_modifier = {
+				name = norway_formmanskapsdistrikt
+				months = long_modifier_time
+			}
+		}
+	}
+
+	ai_chance = {
+		base = 0.1
+		modifier = {
+			trigger = {
+				bureaucracy < 40
+			}
+			add = -100
+		}
+		modifier = {
+			trigger = {
+				NOT = { has_strategy = ai_strategy_conservative_agenda }
+			}
+			add = 10
+		}
+	}
+}
