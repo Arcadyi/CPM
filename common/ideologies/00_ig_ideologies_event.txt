@@ -26,3 +26,13 @@ ideology_feminist_ig = {
 		law_no_womens_rights = strongly_disapprove
 	}
 }
+
+ideology_cosmopolitanism = {
+	lawgroup_citizenship = { 
+		law_ethnostate = strongly_disapprove ## Normally strongly_disapprove
+		law_national_supremacy = strongly_disapprove #Normally strongly_disapprove
+		law_racial_segregation = strongly_disapprove #Normally disapprove
+		law_cultural_exclusion = disapprove #Normally neutral
+		law_multicultural = strongly_approve	#normally approve
+	}
+}

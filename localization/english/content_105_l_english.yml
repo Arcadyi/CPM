@@ -279,6 +279,8 @@
  ideology_patriarchal_suffrage_desc:0 "#lore This group believes men should have political authority and that women should obey their fathers and husbands, but have accepted women's right to work and vote.#!"
  ideology_feminist_ig:0 "Feminist"
  ideology_feminist_ig_desc:0 "#lore This group holds that women are equal to men and strives for maintaining their rights as citizens.#!"
+ ideology_cosmopolitanism:0 "Cosmopolitan"
+ ideology_cosmopolitanism_desc:0 "#lore This group believes that all of humanity could and should belong to a single community.#!"
 
   # Secession Events
  secession_events.1.t:0 "Secessionist Manifesto"
