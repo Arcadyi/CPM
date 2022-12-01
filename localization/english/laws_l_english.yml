@@ -172,7 +172,7 @@
  law_presidential_republic:0 "Presidential Republic"
  law_presidential_republic_desc:0 "A political system where power is held by the people and their elected representatives. Republics have an elected or nominated $RULER_TITLE_PRESIDENT$ as Head of State."
  law_parliamentary_republic:0 "Parliamentary Republic"
- law_parliamentary_republic_desc:0 "A political system where power is held by the people and their elected representatives. The leader of the legislature acts as the Head of State and is referred to as $RULER_TITLE_CHANCELLOR$."
+ law_parliamentary_republic_desc:0 "A political system where power is held by the people and their elected representatives. The leader of the legislature acts as the Head of State and is referred to as $RULER_TITLE_PRIME_MINISTER$."
  law_theocracy:0 "Theocracy"
  law_theocracy_desc:0 "The government is ruled by a clergy and their interpretation of holy scripture. The Head of State is nominally the person of worship, though in practice a worldly representative selected by merit, status, or birth."
  law_council_republic:0 "Council Republic"
