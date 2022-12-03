@@ -5,7 +5,6 @@ je_hungarian_revolution = {
 	is_shown_when_inactive = {
 		AND = {
 			c:AUS = this
-			year >= 1847
 			c:AUS = {
 				OR = {
 					has_law = law_type:law_cultural_exclusion
@@ -38,13 +37,12 @@ je_hungarian_revolution = {
 		NOT = {
 			has_variable = hungarian_revolution
 		}
+		year >= 1847
 		THIS = {
 			owner = {
 				any_scope_state = {
 					limit = {
-						state_region = {
 							is_homeland = cu:hungarian
-						}
 					}
 				}
 			}

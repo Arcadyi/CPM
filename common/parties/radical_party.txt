@@ -238,13 +238,13 @@ radical_party = {
 		egalitarianism
 	}
 	# THIS IS RUN ONLY ONCE AT GAME START
-	valid_for_country = {
-		ruler = { 
-			NOT = { 
-				has_variable = is_orleanist 
-			} 
-		}
-	}
+#	valid_for_country = {
+#		ruler = { 
+#			NOT = { 
+#				has_variable = is_orleanist 
+#			} 
+#		}
+#	}
 	available_for_interest_group = {
 		owner = {
 			country_has_voting_franchise = yes
