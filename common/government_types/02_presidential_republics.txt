@@ -186,6 +186,7 @@ gov_presidential_dictatorship = {
 			}
 		}
 		has_law = law_type:law_presidential_republic
+		has_law = law_type:law_autocracy 
 		OR = {
 			has_variable = fra_presidential_dictatorship
 			has_law = law_type:law_peasant_levies
