@@ -1,0 +1,111 @@
+je_hungarian_revolution = {
+    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	should_be_pinned_by_default = yes
+	progressbar = yes
+	is_shown_when_inactive = {
+		AND = {
+			c:AUS = this
+			year >= 1847
+			c:AUS = {
+				OR = {
+					has_law = law_type:law_cultural_exclusion
+					has_law = law_type:law_ethnostate		
+					has_law = law_type:law_national_supremacy				
+				}
+			}
+			hidden_trigger = {
+				NOT = {
+					has_variable = hungarian_revolution
+				}
+			}
+		}
+	}
+	immediate = {
+		set_variable = {
+			name = hungarian_revolution_countdown_var
+			value = 0
+		}
+	}
+	on_monthly_pulse = {
+		effect = {
+			change_variable = {
+				name = hungarian_revolution_countdown_var
+				add = 1
+			}
+		}
+	}
+	possible = {
+		NOT = {
+			has_variable = hungarian_revolution
+		}
+		THIS = {
+			owner = {
+				any_scope_state = {
+					limit = {
+						state_region = {
+							is_homeland = cu:hungarian
+						}
+					}
+				}
+			}
+		}
+	}
+	current_value = {
+		value = root.var:hungarian_revolution_countdown_var
+	}
+	goal_add_value = {
+		value = 12
+	}
+	on_complete = {
+		trigger_event = { 
+			id = hungarian_revolution.1 
+			popup = yes
+		}
+		set_variable = hungarian_revolution
+		s:STATE_TRANSDANUBIA.region_state:AUS = {
+			remove_modifier = austriaturmoil
+		}
+		s:STATE_CENTRAL_HUNGARY.region_state:AUS = {
+			remove_modifier = austriaturmoil
+		}
+		s:STATE_WEST_SLOVAKIA.region_state:AUS = {
+			remove_modifier = austriaturmoil
+		}
+		s:STATE_EAST_SLOVAKIA.region_state:AUS = {
+			remove_modifier = austriaturmoil
+		}
+		s:STATE_BEKES.region_state:AUS = {
+			remove_modifier = austriaturmoil
+		}
+		s:STATE_NORTHERN_TRANSYLVANIA.region_state:AUS = {
+			remove_modifier = austriaturmoil
+		}
+		s:STATE_SOUTHERN_TRANSYLVANIA.region_state:AUS = {
+			remove_modifier = austriaturmoil
+		}
+		s:STATE_BANAT.region_state:AUS = {
+			remove_modifier = austriaturmoil
+		}
+		s:STATE_DELVIDEK.region_state:AUS = {
+			remove_modifier = austriaturmoil
+		}
+		s:STATE_SLAVONIA.region_state:AUS = {
+			remove_modifier = austriaturmoil
+		}
+		s:STATE_CROATIA.region_state:AUS = {
+			remove_modifier = austriaturmoil
+		}
+	}
+	complete = {
+		AND = {
+			cu:hungarian = {
+				culture_is_discriminated_in = ROOT 
+			}
+			scope:journal_entry = {
+				is_goal_complete = yes
+			}
+			year >= 1847
+		}
+	}
+	weight = 100
+}

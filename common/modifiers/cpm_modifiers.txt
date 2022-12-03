@@ -1,0 +1,5 @@
+﻿austriaturmoil = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	state_radicals_from_discrimination_mult = 1
+	state_tax_capacity_mult = -0.5
+}

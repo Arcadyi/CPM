@@ -1,0 +1,210 @@
+namespace = hungarian_revolution
+
+# Hungarian Revolution Start
+hungarian_revolution.1 = {
+    type = country_event
+    placement = ROOT
+
+    title = hungarian_revolution.1.t
+    desc = hungarian_revolution.1.d
+    flavor = hungarian_revolution.1.f
+
+    event_image = {
+        video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+    }
+
+    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    duration = 3
+        immediate = {
+         create_country = {
+            tag = HUN
+            origin = this
+            state = s:STATE_TRANSDANUBIA.region_state:AUS
+            state = s:STATE_CENTRAL_HUNGARY.region_state:AUS
+            state = s:STATE_WEST_SLOVAKIA.region_state:AUS
+            state = s:STATE_EAST_SLOVAKIA.region_state:AUS
+            state = s:STATE_BEKES.region_state:AUS
+            state = s:STATE_NORTHERN_TRANSYLVANIA.region_state:AUS
+            state = s:STATE_SOUTHERN_TRANSYLVANIA.region_state:AUS
+            state = s:STATE_CENTRAL_HUNGARY.region_state:AUS
+            state = s:STATE_BANAT.region_state:AUS
+            state = s:STATE_DELVIDEK.region_state:AUS
+            state = s:STATE_SLAVONIA.region_state:AUS
+            state = s:STATE_CROATIA.region_state:AUS
+     }
+     set_variable = hungarian_revolution_begun
+	}
+    
+    trigger = {
+        #triggered by je_hungarian_revolution
+        }
+    
+    option = {
+        name = hungarian_revolution.1.a
+		default_option = yes
+        create_diplomatic_play = {
+            name = hungarian_revolution_dp
+            escalation = 0
+            war = NO
+            initiator = c:AUS
+            type = dp_annex_war
+            target_country = c:HUN
+            add_war_goal = {
+                holder = c:HUN
+                target_country = c:AUS
+                type = independence
+            }
+            add_war_goal = {
+                holder = c:HUN
+                target_country = c:AUS
+                type = REVOKE_ALL_CLAIMS
+            }
+            add_war_goal = {
+                holder = c:HUN
+                target_country = c:AUS
+                type = war_reparations
+            }
+        }
+        ai_chance = {
+            base = 75
+        }
+    }
+    option = {
+        name = hungarian_revolution.1.b
+            create_truce = {
+                country = c:HUN
+                months = 48
+            }
+            custom_tooltip = losesaustrianclaimshun
+           hidden_effect = {
+                s:STATE_TRANSDANUBIA = {
+                    remove_claim = c:AUS
+                }
+                s:STATE_CENTRAL_HUNGARY = {
+                    remove_claim = c:AUS
+                }
+                s:STATE_WEST_SLOVAKIA = {
+                    remove_claim = c:AUS
+                }
+                s:STATE_EAST_SLOVAKIA = {
+                    remove_claim = c:AUS
+                }
+                s:STATE_BEKES = {
+                    remove_claim = c:AUS
+                }
+                s:STATE_NORTHERN_TRANSYLVANIA = {
+                    remove_claim = c:AUS
+                }
+                s:STATE_SOUTHERN_TRANSYLVANIA = {
+                    remove_claim = c:AUS
+                }
+                s:STATE_BANAT = {
+                    remove_claim = c:AUS
+                }
+                s:STATE_DELVIDEK = {
+                    remove_claim = c:AUS
+                }
+                s:STATE_SLAVONIA = {
+                    remove_claim = c:AUS
+                }
+                s:STATE_CROATIA = {
+                    remove_claim = c:AUS
+                }
+       }
+       ai_chance = {
+        base = 25
+        }
+    }
+    option = {
+        name = hungarian_revolution.1.c
+        play_as = c:HUN
+        create_diplomatic_play = {
+            name = hungarian_revolution_dp
+            escalation = 0
+            war = NO
+            initiator = c:AUS
+            type = dp_annex_war
+            target_country = c:HUN
+            add_war_goal = {
+                holder = c:HUN
+                target_country = c:AUS
+                type = independence
+            }
+            add_war_goal = {
+                holder = c:HUN
+                target_country = c:AUS
+                type = REVOKE_ALL_CLAIMS
+            }
+            add_war_goal = {
+                holder = c:HUN
+                target_country = c:AUS
+                type = war_reparations
+            }
+        }
+        ai_chance = {
+            base = 0
+        }
+    }
+}
+
+hungarian_revolution.2 = {
+    type = country_event
+    placement = ROOT
+
+    title = hungarian_revolution.2.t
+    desc = hungarian_revolution.2.d
+    flavor = hungarian_revolution.2.f
+
+    event_image = {
+        video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+    }
+
+    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    duration = 5
+    trigger = {
+        has_variable = hungarian_revolution_countdown_var
+    }
+   immediate = {
+    s:STATE_TRANSDANUBIA.region_state:AUS = {
+        add_modifier = austriaturmoil
+    }
+    s:STATE_CENTRAL_HUNGARY.region_state:AUS = {
+        add_modifier = austriaturmoil
+    }
+    s:STATE_WEST_SLOVAKIA.region_state:AUS = {
+        add_modifier = austriaturmoil
+    }
+    s:STATE_EAST_SLOVAKIA.region_state:AUS = {
+        add_modifier = austriaturmoil
+    }
+    s:STATE_BEKES.region_state:AUS = {
+        add_modifier = austriaturmoil
+    }
+    s:STATE_NORTHERN_TRANSYLVANIA.region_state:AUS = {
+        add_modifier = austriaturmoil
+    }
+    s:STATE_SOUTHERN_TRANSYLVANIA.region_state:AUS = {
+        add_modifier = austriaturmoil
+    }
+    s:STATE_BANAT.region_state:AUS = {
+        add_modifier = austriaturmoil
+    }
+    s:STATE_DELVIDEK.region_state:AUS = {
+        add_modifier = austriaturmoil
+    }
+    s:STATE_SLAVONIA.region_state:AUS = {
+        add_modifier = austriaturmoil
+    }
+    s:STATE_CROATIA.region_state:AUS = {
+        add_modifier = austriaturmoil
+    }
+   }
+   option = {
+        name = hungarian_revolution.2.a
+        custom_tooltip = hungarianradicalization
+   }
+}
