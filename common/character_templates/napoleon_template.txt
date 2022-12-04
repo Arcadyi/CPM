@@ -9,6 +9,7 @@
 	birth_date = 1808.4.20
 	dna = dna_emperor_napoleon_03
 	traits = {
+		concept_wikipedia_Louis-Napoleon_Bonaparte
 		ambitious demagogue
 	}	
 	
@@ -41,4 +42,3 @@
 	#	chance = 25 # The chance that this template is picked every time the recruitment pool is being refilled
 	#}
 }
-#

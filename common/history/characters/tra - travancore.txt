@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Swathi_Thirunal_Venad
 				meticulous
 			}
 		}	
@@ -24,6 +25,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Uthram_Thirunal_Venad
 				imperious
 			}
 		}

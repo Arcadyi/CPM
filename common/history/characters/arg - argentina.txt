@@ -11,6 +11,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Juan_Manuel_de_Rosas
 				ambitious
 			}
 		}
@@ -26,6 +27,7 @@
 			ideology = ideology_moderate
 			birth_date = 1777.6.22
 			traits = {
+				concept_wikipedia_William_Brown
 				experienced_naval_commander
 				romantic
 				persistent

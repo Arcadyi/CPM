@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Petar_Petrovic_Njegos
 				ambitious
 			}
 		}
@@ -24,6 +25,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Danilo_Petrovic_Njegos
 				ambitious
 			}
 		}
@@ -34,6 +36,7 @@
 			last_name = Petrovic_Njegos
 			age = 16
 			traits = {
+				concept_wikipedia_Mirko_Petrovic_Njegos
 		#		au_fait
 		#		poet
 			}

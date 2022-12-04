@@ -11,6 +11,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Otto_von_Wittelsbach
 				romantic
 			}
 		}	
@@ -26,6 +27,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Josef_Ludwig_von_Armansperg
 				reckless
 			}
 		}
@@ -36,6 +38,7 @@
 			last_name = von_Heideck
 			age = 37
 			traits = {
+				concept_wikipedia_Carl_Wilhelm_von_Heideck
 			#	romantic
 			#	poet
 			}
@@ -47,6 +50,7 @@
 			last_name = Kriezis
 			age = 40
 			traits = {
+				concept_wikipedia_Antonios_Kriezis
 			#	audacious
 			# 	expert_raider
 		 }

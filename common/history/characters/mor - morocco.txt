@@ -9,6 +9,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Abd_al-Rahman_al-Alawi
 				cautious
 			}
 		}	
@@ -22,6 +23,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate # "modernizer"?
 			traits = {
+				concept_wikipedia_Muhammad_al-Alawi
 				imperious
 			}
 		}

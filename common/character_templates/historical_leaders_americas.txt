@@ -9,6 +9,7 @@ mex_juarez_character_template = {
     interest_group = ig_intelligentsia
     birth_date = 1806.3.21
     traits = {
+    	concept_wikipedia_Benito_Juarez
         experienced_political_operator
         direct
         persistent
@@ -43,6 +44,7 @@ usa_lincoln_character_template = {
     birth_date = 1809.2.12
     dna = dna_abraham_lincoln
     traits = {
+    	concept_wikipedia_Abraham_Lincoln
         experienced_political_operator
         inspirational_orator
         tactful
@@ -74,6 +76,7 @@ usa_roosevelt_character_template = {
     interest_group = ig_industrialists
     birth_date = 1858.8.28
     traits = {
+    	concept_wikipedia_Theodore_Roosevelt
         celebrity_commander
         explorer
         brave

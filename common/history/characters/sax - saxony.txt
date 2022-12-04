@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Anton_von_Wettin
 				reserved # dude was old and did nothing
 			}
 			on_created = {
@@ -27,6 +28,7 @@
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Friedrich_August_von_Wettin
 				meticulous
 			}
 			on_created = {

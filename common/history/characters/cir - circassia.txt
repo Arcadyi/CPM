@@ -13,6 +13,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Ismail_Berzeg
 				ambitious
 				forest_commander
 				brave
@@ -29,6 +30,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Hawduqo_Mansur
 				forest_commander
 				brave
 				experienced_offensive_planner

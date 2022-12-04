@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Abdul_Rashid_Jamal_ud_Din_Sintang
 			}
 		}	
 
@@ -23,6 +24,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Muhammad_Qamar_ud_Din_Sintang
 			}
 		}
 	}

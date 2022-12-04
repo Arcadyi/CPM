@@ -10,6 +10,7 @@
 			interest_group = ig_devout
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Abdelkader_El_Djezairi
 				charismatic
 			}
 		}	

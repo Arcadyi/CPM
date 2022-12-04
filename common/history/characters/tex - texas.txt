@@ -11,6 +11,7 @@
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_David_Burnet
 				imperious
 			}
 		}
@@ -25,6 +26,7 @@
 			interest_group = ig_rural_folk
 			ideology= ideology_moderate
 			traits = {
+				concept_wikipedia_Samuel_Houston
 			}
 		}
 
@@ -38,6 +40,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_jingoist_leader
 			traits = {
+				concept_wikipedia_Mirabeau_Lamar
 			}
 		}
 
@@ -51,6 +54,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_jingoist_leader
 			traits = {
+				concept_wikipedia_Thomas_Jefferson_Rusk
 			}
 		}
 

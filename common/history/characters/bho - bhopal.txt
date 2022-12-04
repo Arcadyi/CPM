@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Muiz_Muhammad_Orakzai
 				reserved
 			}
 		}	
@@ -24,6 +25,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Jahangir_Mohammad_Orakzai
 				cautious
 			}
 		}
@@ -39,6 +41,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Qudsia_Begum_Orakzai
 				meticulous
 			}
 		}

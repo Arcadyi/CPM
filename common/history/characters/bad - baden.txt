@@ -10,6 +10,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_reformer
 			traits = {
+				concept_wikipedia_Leopold_von_Baden
 				cautious
 			}
 			on_created = {
@@ -27,6 +28,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Ludwig_von_Baden
 				reserved
 				psychological_affliction # "Nicht heilbaren Geisteskrankheit"
 			}
@@ -41,6 +43,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_market_liberal
 			traits = {
+				concept_wikipedia_Ludwig_Georg_Winter
 				persistent
 			}
 		}
@@ -54,6 +57,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_royalist
 			traits = {
+				concept_wikipedia_Friedrich_von_Blittersdorf
 				ambitious
 			}
 		}

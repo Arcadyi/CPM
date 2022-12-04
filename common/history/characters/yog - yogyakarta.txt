@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Gathot_Menol_Hamengkubuwono
 			}
 		}	
 
@@ -23,6 +24,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Mustojo_Hamengkubuwono
 			}
 		}
 	}

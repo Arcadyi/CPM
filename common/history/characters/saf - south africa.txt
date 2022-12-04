@@ -11,6 +11,7 @@
 			ideology = ideology_moderate
 			ig_leader = yes
 			traits = {
+				concept_wikipedia_sir_benjamin_d_urban
 				cruel
 			}		
 		}

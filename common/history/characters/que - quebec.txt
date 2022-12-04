@@ -11,6 +11,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Archibald_Acheson
 				tactful
 			}
 		}
@@ -24,6 +25,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_radical
 			traits = {
+				concept_wikipedia_Louis-Joseph_Papineau
 				ambitious
 			}
 		}

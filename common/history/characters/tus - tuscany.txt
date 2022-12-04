@@ -10,6 +10,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Leopoldo_d_Absburgo-Toscana
 				tactful
 			}
 			on_created = {
@@ -26,6 +27,7 @@
 			ideology = ideology_moderate
 			age = 1 # 
 			traits = {
+				concept_wikipedia_Francesco_d_Absburgo-Toscana
 				arrogant
 			}
 		}

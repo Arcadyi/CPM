@@ -11,6 +11,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Ang_Mey_Varman
 				imperious
 			}
 		}	
@@ -25,6 +26,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Ang_Duong_Varman
 				meticulous
 			}
 		}

@@ -9,6 +9,7 @@
 			interest_group = ig_rural_folk
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Andries_Pretorius
 				direct
 			}
 		}

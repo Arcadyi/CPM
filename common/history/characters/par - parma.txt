@@ -12,6 +12,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Maria_Luisa_von_Habsburg
 				tactful
 			}
 			on_created = {
@@ -26,6 +27,7 @@
 			last_name = Albrecht
 			age = 17
 			traits = {
+				concept_wikipedia_Wilhelm_Albrecht
 		#		indifferent
 		#		uncommonly_young
 			}

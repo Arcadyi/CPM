@@ -10,6 +10,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Andres_de_Santa_Cruz
 				ambitious
 			}
 		}
@@ -20,6 +21,7 @@
 			last_name = Ballivian
 			age = 31
 			traits = {
+				concept_wikipedia_Jose_Ballivian
 		#		generals_aide
 		#		imaginative
 			}

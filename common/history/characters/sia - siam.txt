@@ -9,6 +9,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate # "modernizer"?
 			traits = {
+				concept_wikipedia_Nangklao_Chakri
 				charismatic
 			}
 		}	
@@ -23,6 +24,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate # "modernizer"?
 			traits = {
+				concept_wikipedia_Pinklao_Chakri
 				charismatic
 			}
 		}

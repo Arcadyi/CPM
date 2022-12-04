@@ -11,6 +11,7 @@
 			ideology = ideology_traditionalist
 			traits = {
 				historical_figures
+				concept_wikipedia_Ienari_Tokugawa
 				arrogant
 				expensive_tastes # bit of corruption
 			}
@@ -25,6 +26,7 @@
 			ideology = ideology_traditionalist
 			traits = {
 				historical_figures
+				concept_wikipedia_Ieyoshi_Tokugawa
 				meticulous
 				pious
 			}
@@ -95,6 +97,8 @@
 			traits = {
 				historical_figures
 				romantic
+				concept_wikipedia_Koan_Ogata
+				meticulous
 			}
 		}
 
@@ -147,6 +151,7 @@
 			commander_rank = commander_rank_2
 			traits = {
 				historical_figures
+				concept_wikipedia_Hidetatsu_Egawa
 				innovative 
 				basic_defensive_strategist
 			}
@@ -162,6 +167,7 @@
 			commander_rank = commander_rank_2
 			traits = {
 				historical_figures
+				concept_wikipedia_Yozo_Torii
 				traditionalist_commander
 				imperious
 			}

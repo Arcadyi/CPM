@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Kwaku_Dua_Bretuo
 				ambitious
 				basic_political_operator
 				persistent

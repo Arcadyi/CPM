@@ -25,5 +25,5 @@ historical_population_of_france4 = {
 
 historical_population_of_russia = {
 	icon = gfx/interface/icons/modifier_icons/population.dds
-	state_birth_rate_mult = 0.25
+	state_birth_rate_mult = 0.20
 }

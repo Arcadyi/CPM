@@ -10,6 +10,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Isabel_de_Borbon
 			}
 		}
 		# no heir as of yet
@@ -22,6 +23,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Juan_Mendizabal
 				meticulous
 			}
 		}
@@ -36,6 +38,7 @@
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_radical
 			traits = {
+				concept_wikipedia_Baldomero_Espartero
 				basic_diplomat
 				ambitious
 			}
@@ -50,6 +53,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Ramon_Maria_Narvaez
 				ambitious
 			}
 		}
@@ -62,6 +66,7 @@
 			interest_group = ig_devout
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Victor_2_Saez
 				reserved
 			}
 		}
@@ -76,6 +81,7 @@
 			interest_group = ig_rural_folk
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Nazario_EguI_a
 				scarred
 				persistent
 			}
@@ -88,6 +94,7 @@
 			last_name = Rodil
 			birth_date = 1789.2.5
 			traits = {
+				concept_wikipedia_Jose_Ramon_Rodil
 				surveyor
 			}
 		}

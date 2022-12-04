@@ -11,6 +11,7 @@
 			birth_date = 1789.3.8
 			dna = dna_miguel_barragan
 			traits = {
+				concept_wikipedia_Miguel_Barragan
 				reserved # Santa Anna's puppet
 				wounded # Probably contracted typhus, just needed something to make him less healthy here. Resigned February 27th, 1836, died March 1st, 1836
 			}
@@ -29,6 +30,7 @@
 			ideology = ideology_moderate
 			commander_rank = commander_rank_2
 			traits = {
+				concept_wikipedia_Antonio_Lopez_de_Santa_Anna
 				ambitious
 			}
 			on_created = {
@@ -49,6 +51,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_jingoist_leader
 			traits = {
+				concept_wikipedia_Anastasio_Bustamante
 				ambitious
 			}		
 		}
@@ -64,6 +67,7 @@
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_jingoist_leader
 			traits = {
+				concept_wikipedia_Mariano_Paredes
 				imperious
 			}		
 		}
@@ -79,6 +83,7 @@
 			interest_group = ig_rural_folk
 			ideology = ideology_radical
 			traits = {
+				concept_wikipedia_Juan_Alvarez
 				persistent
 				direct
 				brave
@@ -94,6 +99,7 @@
 			interest_group = ig_devout
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Lucas_Alaman
 				pious
 				meticulous
 				basic_political_operator
@@ -109,6 +115,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Valentin_Gomez_Farias
 				direct
 				imperious
 			}		
@@ -123,6 +130,7 @@
 			interest_group = ig_industrialists
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Rafael_Mangino_i_Mendivil
 				reserved
 				cautious
 				meticulous

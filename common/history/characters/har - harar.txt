@@ -9,6 +9,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Abu_Bakr_Ali
 				ambitious
 			}
 		}	
@@ -22,6 +23,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Ahmad_Ali
 				cautious
 				kidney_stones
 			}
@@ -36,6 +38,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Gerad_Mohammed
 				ambitious
 			}
 		}

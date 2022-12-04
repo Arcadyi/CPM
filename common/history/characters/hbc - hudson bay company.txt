@@ -11,6 +11,7 @@
 			ig_leader = yes
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_George_Simpson
 				bigoted
 			}
 		}

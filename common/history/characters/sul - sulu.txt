@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Jamalul_Kiram_Sulu
 			}
 		}	
 
@@ -23,6 +24,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Mohammad_Pulalun_Kiram_Sulu
 			}
 		}
 	}

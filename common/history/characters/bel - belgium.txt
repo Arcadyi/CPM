@@ -12,6 +12,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Leopold_of_Saxe-Coburg-Gotha
 				tactful
 			}
 			on_created = {
@@ -28,6 +29,7 @@
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_royalist
 			traits = {
+				concept_wikipedia_Leopold_of_Saxe-Coburg-Gotha
 				ambitious # yes, even as a one-year-old
 			}
 		}	
@@ -40,6 +42,7 @@
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Hippolyte_Metdepenningen
 				cautious
 			}
 		}
@@ -52,6 +55,7 @@
 			interest_group = ig_devout
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Barthelemy_de_Theux_de_Meylandt
 				cautious
 			}
 		}
@@ -62,6 +66,7 @@
 			last_name = Nypels
 			age = 50
 			traits = {
+				concept_wikipedia_Andre_Lambert_Nypels
 				plains_commander
 				cautious
 			}
@@ -74,6 +79,7 @@
 			age = 61
 			culture = cu:french
 			traits = {
+				concept_wikipedia_Louis_Evain
 				trench_rat
 				meticulous
 			}

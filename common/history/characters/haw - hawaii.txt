@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_pacifist
 			traits = {
+				concept_wikipedia_Kamehameha_III_Kamehameha
 				direct
 				innovative
 			}
@@ -25,6 +26,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_theocrat
 			traits = {
+				concept_wikipedia_Kamehameha_IV_Kamehameha
 				tactful
 			}
 		}
@@ -39,6 +41,7 @@
 			interest_group = ig_devout
 			ideology = ideology_theocrat
 			traits = {
+				concept_wikipedia_Asa_Thurston
 				reserved
 			}
 		}

@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Yuusuf_Maxamuud_Ibrahiim_Gobroon
 				charismatic
 				experienced_diplomat
 				persistent

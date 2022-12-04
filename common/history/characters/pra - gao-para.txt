@@ -11,6 +11,7 @@
 			ig_leader = yes
 			ideology = ideology_radical
 			traits = {
+				concept_wikipedia_eduardo_angelim
 				ambitious
 			}
 		}

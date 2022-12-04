@@ -10,6 +10,7 @@
 			birth_date = 1796.7.6
 			dna = dna_tsar_nicolas_01
 			traits = {
+				concept_wikipedia_Nikolai_Romanov
 				arrogant
 			}
 			on_created = {
@@ -26,6 +27,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Aleksandr_Romanov
 				meticulous
 			}
 		}
@@ -38,6 +40,7 @@
 			ig_leader = yes
 			interest_group = ig_armed_forces
 			traits = {
+				concept_wikipedia_Aleksandr_von_Benckendorff
 				imperious
 			}
 		}
@@ -63,6 +66,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Mikhail_Speransky
 				cautious
 			}
 		}
@@ -78,6 +82,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Sergei_Uvarov
 				meticulous
 			}
 		}
@@ -91,6 +96,7 @@
 			interest_group = ig_devout
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Filaret_Drozdov
 				charismatic
 			}
 		}
@@ -104,6 +110,7 @@
 			interest_group = ig_trade_unions
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Aleksandr_Herzen
 			}
 		}
 
@@ -118,6 +125,7 @@
 			interest_group = ig_rural_folk
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Yevhen_Hrebinka
 				romantic
 			}
 		}
@@ -132,6 +140,7 @@
 			interest_group = ig_industrialists
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Alexei_Bobrinsky
 				persistent
 			}
 		}
@@ -144,6 +153,7 @@
 			hq = region_russia
 			commander_rank = commander_rank_5
 			traits = {
+				concept_wikipedia_Mikhail_Vorontsov
 				direct
 				forest_commander
 			}
@@ -158,6 +168,7 @@
 			hq = region_dnieper
 			commander_rank = commander_rank_5
 			traits = {
+				concept_wikipedia_Aleksandr_Chernyshyov
 				brave
 			}
 		
@@ -180,6 +191,7 @@
 			hq = region_poland
 			commander_rank = commander_rank_2
 			traits = {
+				concept_wikipedia_Ivan_Paskevich
 				brave
 			}
 		}
@@ -192,6 +204,7 @@
 			hq = region_caucasus
 			commander_rank = commander_rank_2
 			traits = {
+				concept_wikipedia_Matvey_Khrapovitsky
 				mountain_commander
 			}
 		}
@@ -203,6 +216,7 @@
 			birth_date = 1788.11.14 # Gregorian Calendar
 			hq = region_russia
 			traits = {
+				concept_wikipedia_Mikhail_Lazarev
 			 	explorer
 			 	experienced_naval_commander
 			 }
@@ -216,6 +230,7 @@
 			hq = region_central_asia
 			commander_rank = commander_rank_2
 			traits = {
+				concept_wikipedia_Nikolay_Muravyov_Karsky
 				persistent
 			}
 		}
@@ -239,6 +254,7 @@
 			age = 47
 			hq = region_west_siberia
 			traits = {
+				concept_wikipedia_Pavel_Grabbe
 				ambitious
 				experienced_artillery_commander
 			}
@@ -263,6 +279,7 @@
 			hq = region_baltic
 			age = 42
 			traits = {
+				concept_wikipedia_Friedrich_von_Berg
 				meticulous
 				surveyor
 			}
@@ -290,6 +307,7 @@
 			hq = region_baltic
 			commander_rank = commander_rank_2
 			traits = {
+				concept_wikipedia_Fabian_Gottlieb_von_Bellingshausen
 				explorer
 				basic_naval_commander
 				popular_commander
@@ -306,6 +324,7 @@
 			hq = region_dnieper
 			commander_rank = commander_rank_3
 			traits = {
+				concept_wikipedia_Vasily_Zavoyko
 				explorer
 				brave
 			}
@@ -319,6 +338,7 @@
 			birth_date = 1776.2.9
 			hq = region_east_siberia
 			traits = {
+				concept_wikipedia_Pyotr_Ricord
 				basic_naval_commander
 				experienced_diplomat
 				tactful

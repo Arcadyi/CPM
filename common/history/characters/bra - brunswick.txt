@@ -10,6 +10,7 @@
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Wilhelm_von_Braunschweig
 				tactful
 			}
 		}

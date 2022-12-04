@@ -11,6 +11,7 @@
 			ideology = ideology_moderate
 			ig_leader = yes
 			traits = {
+				concept_wikipedia_George_Eden
 				reckless
 			}
 		}
@@ -26,6 +27,7 @@
 			hq = region_south_india
 			commander_rank = commander_rank_3
 			traits = {
+				concept_wikipedia_Sir_Henry_Havelock
 				brave
 				basic_offensive_planner
 			}
@@ -56,6 +58,7 @@
 			hq = region_north_india
 			commander_rank = commander_rank_3
 			traits = {
+				concept_wikipedia_Sir_Henry_Godwin
 				basic_offensive_planner
 				forest_commander
 			}
@@ -71,6 +74,7 @@
 			birth_date = 1812.1.2 # exact date unknown
 			hq = region_north_india
 			traits = {
+				concept_wikipedia_John_Wood
 				explorer
 				surveyor
 			}
@@ -86,6 +90,7 @@
 			birth_date = 1782.12.13 # exact date unknown
 			hq = region_south_india
 			traits = {
+				concept_wikipedia_Sir_Charles_Malcolm
 				basic_naval_commander
 				meticulous
 			}

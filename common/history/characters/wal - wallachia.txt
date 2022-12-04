@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_royalist
 			traits = {
+				concept_wikipedia_Alexandru_Ghica
 				cautious
 			}
 			on_created = {

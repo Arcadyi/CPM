@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
 	c:USA = {
-			### Starting President ###
-			create_character = {
+		create_character = {
+			
 			first_name = Andrew
 			last_name = Jackson
 			culture = cu:dixie
@@ -36,6 +36,8 @@
 				meticulous
 				experienced_political_operator
 				great_triumverate_trait
+				concept_wikipedia_Andrew_Jackson
+				bigoted
 			}
 			on_created = {
 				set_variable = {
@@ -56,18 +58,27 @@
 			interest_group = ig_landowners
 			ideology = ideology_slaver
 			traits = {
+				concept_wikipedia_John_Calhoun
 				bigoted
-				experienced_political_operator
-				great_triumverate_trait 
-			}
-			on_created = {
-				set_variable = {
-					name = john_calhoun_var
-				}					
 			}
 		}
 
-		create_character = {	
+		create_character = {
+			first_name = Henry
+			last_name = Clay
+			culture = cu:dixie
+			birth_date = 1777.4.12
+			ig_leader = yes
+			interest_group = ig_intelligentsia
+			ideology = ideology_pacifist
+			traits = {
+				concept_wikipedia_Henry_Clay
+				meticulous
+			}
+		}
+
+		create_character = {
+			
 			first_name = Daniel
 			last_name = Webster
 			birth_date = 1782.1.18
@@ -75,6 +86,7 @@
 			interest_group = ig_industrialists
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Daniel_Webster
 				arrogant
 				experienced_diplomat
 				great_triumverate_trait 
@@ -119,6 +131,7 @@
 			interest_group = ig_devout
 			ideology = ideology_abolitionist
 			traits = {
+				concept_wikipedia_Charles_Finney
 				cautious
 			}
 		}
@@ -178,6 +191,7 @@
 			interest_group = ig_trade_unions
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Robert_Rantoul
 				meticulous
 			}
 		}
@@ -192,6 +206,7 @@
 			hq = region_new_england
 			commander_rank = commander_rank_2
 			traits = {
+				concept_wikipedia_Winfield_Scott
 				cautious
 				ambitious
 			}
@@ -234,6 +249,7 @@
 			hq = region_the_midwest
 			commander_rank = commander_rank_1
 			traits = {
+				concept_wikipedia_Zachary_Taylor
 				innovative
 			}
 		}
@@ -270,6 +286,7 @@
 			hq = region_new_england
 			commander_rank = commander_rank_2
 			traits = {
+				concept_wikipedia_Isaac_Hull
 				expert_naval_commander
 			}
 		}
@@ -302,6 +319,7 @@
 			birth_date = 1776.2.9
 			hq = region_dixie
 			traits = {
+				concept_wikipedia_Elie_Augustus_Frederick_Lavallette
 				brave
 				basic_naval_commander
 			}

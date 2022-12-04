@@ -12,6 +12,7 @@
 			interest_group = ig_armed_forces
 			ideology= ideology_royalist
 			traits = {
+				concept_wikipedia_Friedrich_Wilhelm1_von_Hohenzollern
 				direct
 			}
 			on_created = {
@@ -29,6 +30,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
 			traits = {
+				concept_wikipedia_Friedrich_Wilhelm2_von_Hohenzollern
 				reserved
 			}
 			on_created = {
@@ -46,6 +48,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
 			traits = {
+				concept_wikipedia_Gustav_von_Rauch
 				persistent
 			}
 		}
@@ -59,6 +62,7 @@
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_royalist
 			traits = {
+				concept_wikipedia_Friedrich_Ancillon
 				imperious
 			}
 		}
@@ -73,6 +77,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Carl_Heinrich_von_Wylich_und_Lottum
 				ambitious
 			}
 		}
@@ -87,6 +92,7 @@
 			interest_group = ig_devout
 			ideology = ideology_royalist
 			traits = {
+				concept_wikipedia_Ludwig_Gustav_von_Thile
 				tactful
 			}
 		}
@@ -101,6 +107,7 @@
 			interest_group = ig_industrialists
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_August_von_der_Heydt
 				persistent
 			}
 		}
@@ -114,6 +121,7 @@
 			age = 36
 			dna = dna_moltke_elder
 			traits = {
+				concept_wikipedia_Helmuth1_von_Moltke
 				expert_offensive_planner
 				resupply_commander
 				reserved
@@ -129,6 +137,7 @@
 			hq = region_poland
 			commander_rank = commander_rank_3
 			traits = {
+				concept_wikipedia_Hans_Ernst_Karl_von_Zieten
 				plains_commander
 			}
 		}
@@ -153,6 +162,7 @@
 			age = 62
 			dna = dna_von_krauseneck
 			traits = {
+				concept_wikipedia_Wilhelm_von_Krauseneck
 				reserved
 			}
 		}

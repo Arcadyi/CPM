@@ -12,6 +12,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Howard_Douglas
 				direct
 			}
 		}	

@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Francesco_d_Austria-Este
 				wrathful
 			}
 		}	
@@ -24,6 +25,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Francesco_d_Austria-Este
 				cautious
 			}
 		}

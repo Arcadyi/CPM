@@ -11,6 +11,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_reformer
 			traits = {
+				concept_wikipedia_Leopold_Askanier
 				persistent
 			}
 			on_created = {
@@ -27,6 +28,7 @@
 			age = 5
 			interest_group = ig_armed_forces
 			traits = {
+				concept_wikipedia_Friedrich_Askanier
 				imperious
 			}
 		}	

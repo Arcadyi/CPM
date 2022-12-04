@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Alauddin_Muhammad_Bugis
 				imperious
 			}
 		}	
@@ -24,6 +25,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Alauddin_Sulaiman_Bugis
 				reserved
 			}
 		}

@@ -11,6 +11,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Daoguang_Aisin_Gioro
 				cautious
 			}
 		}
@@ -25,6 +26,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Yizhu_Aisin_Gioro
 				arrogant
 			}
 		}
@@ -39,6 +41,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Qiying_Aisin_Gioro
 				reckless
 				expensive_tastes # INCREDIBLY corrupt
 				basic_diplomat
@@ -54,6 +57,7 @@
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Zexu_Lin
 				imperious
 				pious
 			}
@@ -69,6 +73,7 @@
 			interest_group = ig_trade_unions
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Zizhen_Gong
 				reckless
 				pious
 			}
@@ -84,6 +89,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Changling_He
 				meticulous
 			}
 		}
@@ -97,6 +103,7 @@
 			interest_group = ig_industrialists
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Yuan_Ruan
 				meticulous
 			}
 		}
@@ -110,6 +117,7 @@
 			interest_group = ig_rural_folk
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Lexing_Zhang
 				ambitious
 				firebrand
 				bandit
@@ -125,6 +133,7 @@
 			interest_group = ig_devout
 			ideology = ideology_royalist
 			traits = {
+				concept_wikipedia_Yupian_Huang
 				persistent
 				pious
 			}
@@ -137,6 +146,7 @@
 			age = 55
 			culture = cu:han
 			traits = {
+				concept_wikipedia_Tianpei_Guan
 				expert_naval_commander
 				brave
 			}
@@ -150,6 +160,7 @@
 			age = 60
 			culture = cu:han
 			traits = {
+				concept_wikipedia_Huacheng_Chen
 				experienced_naval_commander
 				ambitious
 			}
@@ -164,6 +175,7 @@
 			hq = region_north_china
 			commander_rank = commander_rank_4
 			traits = {
+				concept_wikipedia_Fang_Yang
 				persistent
 				cautious
 			}
@@ -180,6 +192,7 @@
 			hq = region_north_china
 			commander_rank = commander_rank_3
 			traits = {
+				concept_wikipedia_Guanwen_Wanggiya
 				traditionalist_commander
 				meticulous
 			}
@@ -196,6 +209,7 @@
 			hq = region_south_china
 			commander_rank = commander_rank_5
 			traits = {
+				concept_wikipedia_Bingzhang_Luo
 				stalwart_defender
 				wrathful
 			}
@@ -212,6 +226,7 @@
 			hq = region_south_china
 			commander_rank = commander_rank_4
 			traits = {
+				concept_wikipedia_Yishan_Aisin_Gioro
 				reckless
 				alcoholic
 			}
@@ -228,6 +243,7 @@
 			hq = region_south_china
 			commander_rank = commander_rank_3
 			traits = {
+				concept_wikipedia_Delu_Wang
 				experienced_offensive_planner
 				experienced_colonial_administrator
 				meticulous
@@ -245,6 +261,7 @@
 			hq = region_manchuria
 			commander_rank = commander_rank_3
 			traits = {
+				concept_wikipedia_Qishan_Borjigin
 				cautious
 				basic_political_operator
 			}
@@ -260,6 +277,7 @@
 			birth_date = 1791.6.10 # exact date unknown
 			hq = region_himalayas
 			traits = {
+				concept_wikipedia_Buyantai_Yanzha
 				basic_colonial_administrator
 				wrathful
 			}
@@ -276,6 +294,7 @@
 			hq = region_south_china
 			commander_rank = commander_rank_2
 			traits = {
+				concept_wikipedia_Yunfei_Ge_2
 				brave
 				stalwart_defender
 			}

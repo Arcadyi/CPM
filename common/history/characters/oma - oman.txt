@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Said_al_Said
 				cautious 
 			}
 			on_created = {
@@ -30,6 +31,7 @@
 			interest_group = ig_devout
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Thuwaini_al_Said
 				reserved
 			}
 		}

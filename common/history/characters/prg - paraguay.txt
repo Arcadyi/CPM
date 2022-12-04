@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_jingoist_leader
 			traits = {
+				concept_wikipedia_Jose_Gaspar_Rodriguez_de_Francia
 				ambitious
 			}
 		}

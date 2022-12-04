@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Ludwig_von_Hessen-Darmstadt
 				reserved
 				expensive_tastes
 			}
@@ -28,6 +29,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Ludwig_von_Hessen-Darmstadt
 				tactful
 			}
 			on_created = {

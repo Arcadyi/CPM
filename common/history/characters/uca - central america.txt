@@ -11,6 +11,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_reformer
 			traits = {
+				concept_wikipedia_Francisco_Morazan
 				meticulous
 			}
 		}

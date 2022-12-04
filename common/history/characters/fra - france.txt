@@ -9,6 +9,7 @@
 			interest_group = ig_industrialists
 			ideology = ideology_orleanist
 			traits = {
+				concept_wikipedia_Louis-Philippe_d_Orleans
 				tactful
 			}
 			on_created = {
@@ -26,6 +27,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_orleanist
 			traits = {
+				concept_wikipedia_Ferdinand_Philippe_d_Orleans
 				reserved
 			}
 			on_created = {
@@ -43,6 +45,8 @@
 			ideology = ideology_legitimist
 			traits = {
 				direct
+				concept_wikipedia_Victor_de_Broglie
+				tactful
 			}
 		}
 
@@ -55,6 +59,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_reformer
 			traits = {
+				concept_wikipedia_Adolphe_Thiers
 				charismatic
 			}
 			on_created = {
@@ -124,6 +129,7 @@
 			ideology = ideology_orleanist
 			traits = {
 				arrogant       
+				concept_wikipedia_Jean-de-Dieu_Soult
 			}
 		}
 
@@ -135,6 +141,7 @@
 			hq = region_rhine
 			interest_group = ig_rural_folk
 			traits = {
+				concept_wikipedia_Thomas_Bugeaud
 				ambitious
 			}
 			# Known for supressing riots and winning a duel
@@ -148,6 +155,7 @@
 			hq = region_north_africa
 			interest_group = ig_armed_forces
 			traits = {
+				concept_wikipedia_Bertrand_Clausel
 				wrathful
 			}
 		}
@@ -161,6 +169,7 @@
 			hq = region_france
 			commander_rank = commander_rank_3
 			traits = {
+				concept_wikipedia_Guy-Victor_Duperre
 				experienced_naval_commander
 			}
 
@@ -174,6 +183,7 @@
 			hq = region_occitania
 			commander_rank = commander_rank_3
 			traits = {
+				concept_wikipedia_Charles_Baudin
 				experienced_naval_commander
 			}
 		}
@@ -186,6 +196,7 @@
 			hq = region_occitania
 			commander_rank = commander_rank_5
 			traits = {
+				concept_wikipedia_Honore_Charles_Reille
 				brave
 				resupply_commander
 			}
@@ -199,6 +210,7 @@
 			hq = region_france
 			commander_rank = commander_rank_3
 			traits = {
+				concept_wikipedia_Guillaume_Dode_de_la_Brunerie
 				trench_rat
 			}
 		}

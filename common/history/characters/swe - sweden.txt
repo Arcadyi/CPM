@@ -12,6 +12,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Karl_Johan_Bernadotte
 				ambitious 
 			}
 			on_created = {
@@ -30,6 +31,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Oscar_Bernadotte
 				romantic
 			}
 			on_created = {
@@ -46,6 +48,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Otto_Palmstierna
 				meticulous
 				basic_political_operator
 			}
@@ -60,6 +63,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Jacob_De_la_Gardie
 				innovative
 			}
 		}
@@ -74,6 +78,7 @@
 			interest_group = ig_rural_folk
 			ideology = ideology_royalist
 			traits = {
+				concept_wikipedia_Anders_Danielsson
 				persistent			
 				inspirational_orator # granted, other people wrote his speeches, but he apparently delivered them well		
 				expensive_tastes
@@ -89,6 +94,7 @@
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Anders_Ericsson
 				direct
 				tactful
 				cautious
@@ -104,6 +110,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
 			traits = {
+				concept_wikipedia_Magnus_Brahe
 				ambitious
 				basic_political_operator
 			}
@@ -118,6 +125,7 @@
 			interest_group = ig_industrialists
 			ideology = ideology_market_liberal
 			traits = {
+				concept_wikipedia_Lars_Johan_Hierta
 				meticulous
 				inspirational_orator
 			}
@@ -132,6 +140,7 @@
 			interest_group = ig_devout
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Carl_Fredrik_af_Wingard
 				arrogant
 			}
 		}
@@ -142,6 +151,7 @@
 			last_name = "Nordenskiold"
 			birth_date = 1791.6.22
 			traits = {			
+				concept_wikipedia_Carl_Nordenskiold
 				ambitious
 				experienced_naval_commander
 			}
@@ -168,6 +178,7 @@
 			age = 62
 			interest_group = ig_armed_forces
 			traits = {
+				concept_wikipedia_Axel_Morner
 				romantic
 			}
 		}

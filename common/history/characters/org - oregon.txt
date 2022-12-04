@@ -11,6 +11,7 @@
 			interest_group = ig_industrialists
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_John_McLoughlin
 				tactful
 			}
 		}
@@ -25,6 +26,7 @@
 			interest_group = ig_rural_folk
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Ewing_Young
 				charismatic
 			}
 		}	
@@ -39,6 +41,7 @@
 			interest_group = ig_devout
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Jason_Lee
 			}
 		}
 
@@ -52,6 +55,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_William_Slacum
 				direct
 			}
 		}
@@ -66,6 +70,7 @@
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_William_Bailey
 			}
 		}
 
@@ -79,6 +84,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Ira_Babcock
 			}
 		}
 
@@ -92,6 +98,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Etienne_Lucier
 			}
 		}
 	}

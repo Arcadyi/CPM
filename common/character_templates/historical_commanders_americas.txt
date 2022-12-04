@@ -10,6 +10,7 @@ brz_admiral_inacio = {
 	ideology = ideology_royalist
 	birth_date = 1808.8.1
 	traits = {
+		concept_wikipedia_Joaquim_Jose_Inacio
 		brave
 		pious
 		experienced_naval_commander
@@ -35,6 +36,7 @@ brz_admiral_tamandare = {
 	ideology = ideology_royalist
 	birth_date = 1807.12.13
 	traits = {
+		concept_wikipedia_Joaquim_Marques_Lisboa
 		brave
 		experienced_naval_commander
 		dockyard_master
@@ -60,6 +62,7 @@ brz_general_alves_de_lima_e_silva = {
 	ideology = ideology_royalist
 	birth_date = 1803.8.25
 	traits = {
+		concept_wikipedia_Luis_2_Alves_de_Lima_e_Silva
 		surveyor
 		charismatic
 	}
@@ -85,6 +88,7 @@ chl_admiral_prat = {
 	ideology = ideology_reformer
 	birth_date = 1848.4.3
 	traits = {
+		concept_wikipedia_Arturo_Prat
 		brave
 		innovative
 		experienced_naval_commander
@@ -111,6 +115,7 @@ mex_general_diaz = {
 	ideology = ideology_reformer
 	birth_date = 1830.9.15
 	traits = {
+		concept_wikipedia_Porfirio_DIaz
 		ambitious
 		basic_defensive_strategist
 		cruel
@@ -136,6 +141,7 @@ mex_general_zaragoza = {
 	ideology = ideology_radical
 	birth_date = 1829.3.24
 	traits = {
+		concept_wikipedia_Ignacio_Zaragoza
 		stalwart_defender
 		direct
 		celebrity_commander
@@ -162,6 +168,7 @@ par_general_solano_lopez = {
 	ideology = ideology_reformer
 	birth_date = 1827.7.24
 	traits = {
+		concept_wikipedia_Francisco_Solano_Lopez
 		ambitious
 		innovative
 		cruel # He flogged and ordered the execution of his 70 year old mother for having revealed he was a bastard
@@ -188,6 +195,7 @@ peu_admiral_grau = {
 	ideology = ideology_reformer
 	birth_date = 1834.7.27
 	traits = {
+		concept_wikipedia_Miguel_Grau_Seminario
 		brave
 		romantic
 		experienced_naval_commander
@@ -212,6 +220,7 @@ usa_general_jesup = {
 	interest_group = ig_armed_forces
 	birth_date = 1788.12.16
 	traits = {
+		concept_wikipedia_Thomas_Jesup
 		meticulous
 	}
 	commander_usage = {
@@ -233,6 +242,7 @@ usa_admiral_shubrick = {
 	interest_group = ig_armed_forces
 	birth_date = 1790.10.31
 	traits = {
+		concept_wikipedia_William_Shubrick
 		experienced_naval_commander
 	}
 	commander_usage = {
@@ -256,6 +266,7 @@ usa_admiral_dewey = {
 	interest_group = ig_armed_forces
 	birth_date = 1837.12.26
 	traits = {
+		concept_wikipedia_George_Dewey
 		experienced_naval_commander
 		persistent
 		brave
@@ -282,6 +293,7 @@ usa_admiral_farragut = {
 	interest_group = ig_armed_forces
 	birth_date = 1801.7.5
 	traits = {
+		concept_wikipedia_David_Farragut
 		experienced_naval_commander
 		direct
 		brave
@@ -308,6 +320,7 @@ usa_admiral_perry = {
 	interest_group = ig_armed_forces
 	birth_date = 1794.4.10
 	traits = {
+		concept_wikipedia_Matthew_Perry
 		innovative
 		dockyard_master
 		explorer
@@ -334,6 +347,7 @@ usa_admiral_buchanan = {
 	interest_group = ig_armed_forces
 	birth_date = 1800.9.17
 	traits = {
+		concept_wikipedia_Franklin_Buchanan
 		experienced_naval_commander
 		dockyard_master
 		innovative
@@ -369,6 +383,7 @@ usa_general_lee = {
 	interest_group = ig_landowners
 	birth_date = 1807.1.19
 	traits = {
+		concept_wikipedia_Robert_Lee
 		experienced_defensive_strategist
 		innovative
 		direct
@@ -404,6 +419,7 @@ usa_general_jackson = {
 	interest_group = ig_armed_forces
 	birth_date = 1824.1.21
 	traits = {
+		concept_wikipedia_Thomas_Jackson
 		surveyor
 		stalwart_defender
 		brave
@@ -439,6 +455,7 @@ usa_general_longstreet = {
 	interest_group = ig_armed_forces
 	birth_date = 1821.1.8
 	traits = {
+		concept_wikipedia_James_Longstreet
 		experienced_offensive_planner
 		expert_defensive_strategist
 		brave
@@ -474,6 +491,7 @@ usa_general_sherman = {
 	interest_group = ig_petty_bourgeoisie
 	birth_date = 1820.2.8
 	traits = {
+		concept_wikipedia_William_Tecumseh_Sherman
 		expert_offensive_planner
 		resupply_commander
 		pillager
@@ -500,6 +518,7 @@ usa_general_chaffee = {
 	interest_group = ig_armed_forces
 	birth_date = 1842.4.14
 	traits = {
+		concept_wikipedia_Adna_Chaffee
 		innovative
 		basic_offensive_planner
 	}
@@ -525,6 +544,7 @@ usa_general_grant = {
 	interest_group = ig_petty_bourgeoisie
 	birth_date = 1822.1.21
 	traits = {
+		concept_wikipedia_Ulysses_Grant
 		experienced_offensive_planner
 		persistent
 		alcoholic
@@ -551,6 +571,7 @@ usa_general_pershing = {
 	interest_group = ig_armed_forces
 	birth_date = 1860.9.13
 	traits = {
+		concept_wikipedia_John_Pershing
 		experienced_offensive_planner
 		persistent
 		reserved
@@ -577,6 +598,7 @@ usa_general_sheridan = {
 	interest_group = ig_armed_forces
 	birth_date = 1860.9.13
 	traits = {
+		concept_wikipedia_Philip_Sheridan
 		experienced_offensive_planner
 		pillager
 		cruel

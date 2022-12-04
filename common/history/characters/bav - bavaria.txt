@@ -9,6 +9,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_royalist
 			traits = {
+				concept_wikipedia_Ludwig_I_von_Bayern
 				romantic
 			}
 			on_created = {
@@ -26,6 +27,7 @@
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_royalist
 			traits = {
+				concept_wikipedia_Maximilian_von_Bayern
 				tactful
 			}
 		}	
@@ -39,6 +41,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_royalist
 			traits = {
+				concept_wikipedia_Friedrich_August_von_Gise
 				reserved
 			}
 		}
@@ -52,6 +55,7 @@
 			interest_group = ig_industrialists
 			ideology = ideology_market_liberal
 			traits = {
+				concept_wikipedia_Joseph_Anton_von_Maffei
 				persistent
 			}
 		}
@@ -63,6 +67,7 @@
 			last_name = von_Washington
 			age = 58
 			traits = {
+				concept_wikipedia_Jakob_von_Washington
 		#		gallant
 		#		powerful_friends
 			}
@@ -75,6 +80,7 @@
 			last_name = von_Heideck
 			age = 48
 			traits = {
+				concept_wikipedia_Karl_von_Heideck
 		#		polite
 		#		poet
 			}

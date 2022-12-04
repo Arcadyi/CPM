@@ -9,6 +9,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
+				concept_wikipedia_Tuekakas_Wallowa
 				direct
 			}
 		}

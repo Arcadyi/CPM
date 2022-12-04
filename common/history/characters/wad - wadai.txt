@@ -9,6 +9,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Izz_ad-Din_al-_Abbas
 				persistent
 			}
 		}	
@@ -22,6 +23,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Ali_al-_Abbas
 				cautious
 			}
 		}

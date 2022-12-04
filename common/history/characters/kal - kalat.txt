@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Mehrab_Baloch
 				cautious
 			}
 		}	
@@ -24,6 +25,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Nasir_Baloch
 				charismatic
 			}
 		}
@@ -37,6 +39,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Muhammad_Hussein_Baloch
 				ambitious
 			}
 		}

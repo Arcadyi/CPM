@@ -13,6 +13,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Parichhat_Singh_Bundela
 				reserved
 			}
 		}	
@@ -27,6 +28,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Bijai_Singh_Bundela
 				cautious
 			}
 		}

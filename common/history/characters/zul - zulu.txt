@@ -8,6 +8,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Dingane_Zulu
 				ambitious
 			}
 		}	
@@ -20,6 +21,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_traditionalist
 			traits = {
+				concept_wikipedia_Mpande_Zulu
 				ambitious
 			}
 		}
