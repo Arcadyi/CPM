@@ -50,7 +50,7 @@ manifest_destiny.1 = {
 				has_variable = daniel_webster_var
 			}
 			save_scope_as = daniel_webster_scope
-			remove_trait = { great_triumverate_trait }
+			remove_trait =  great_triumverate_trait 
 			scope:daniel_webster_scope = {
 				add_trait = work_done_trait}
 		}
