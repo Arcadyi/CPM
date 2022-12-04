@@ -1,4 +1,4 @@
-state_trait_black_soil = {
+﻿state_trait_black_soil = {
 	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
 
 

@@ -198,7 +198,7 @@ types MilitaryPanelCharacters {
 				#}
 				widget = {
 					size = { 25 25 }
-					parentanchor = vcenter|top
+					parentanchor = vcenter
 					position = { -5 -5 }
 					button_icon_round_toggle = {
 						name = "commander_pin_button"

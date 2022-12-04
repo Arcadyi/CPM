@@ -657,59 +657,7 @@ types MilitaryPanelHQs {
 			}
 
 			### States list
-			flowcontainer = {
-				visible = "[IsDataModelEmpty(Hq.GetState.AccessBuilding('building_barracks'))]"
-				datamodel = "[Hq.GetStates]"
-				direction = vertical
-				parentanchor = hcenter
-
-				item = {
-					widget = {
-						size = { @panel_width 30 }
-		
-						button = {
-							using = default_button
-							size = { 100% }
-							parentanchor = bottom|right
-							widgetanchor = bottom|right
-							visible = "[Or( And( Not( State.AccessBuilding('building_barracks').IsValid ), IsValid( State.AccessBuilding('building_barracks').QueueConstruction ) ), Not(State.AccessBuilding('building_barracks').HasReachedLevelCap) )]"
-							tooltip = "[State.AccessBuilding('building_barracks').GetQueueConstructionTooltip]"
-							size = { 29 }
-							onclick = "[Execute( State.AccessBuilding('building_barracks').QueueConstruction )]"
-							onrightclick = "[Execute( State.AccessBuilding('building_barracks').CancelConstruction )]"
-							enabled = "[IsValid( State.AccessBuilding('building_barracks').QueueConstruction )]"
-						}
-
-						textbox = {
-							visible = "[State.AccessBuilding('building_barracks').IsValid]"
-							margin_left = 10
-							parentanchor = left|vcenter
-							align = nobaseline
-							fontsize_min = 12
-							autoresize = yes
-							text = "ANTY_MILITARY_PANEL_HQ_STATE_NAME_EXPAND"
-						}
-						textbox = {
-							visible = "[Not(State.AccessBuilding('building_barracks').IsValid)]"
-							margin_left = 10
-							parentanchor = left|vcenter
-							align = nobaseline
-							fontsize_min = 12
-							autoresize = yes
-							text = "ANTY_MILITARY_PANEL_HQ_STATE_NAME_BUILD"
-						}
-						
-						textbox = {
-							margin_right = 10
-							parentanchor = right|vcenter
-							align = nobaseline
-							fontsize_min = 12
-							autoresize = yes
-							text = "MILITARY_PANEL_HQ_STATE_BATTALIONS_FORMAT"
-						}
-					}
-				}
-			}
+#deleted
 			
 			
 		}

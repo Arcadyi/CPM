@@ -1,4 +1,4 @@
-MEX = {
+﻿MEX = {
 	color = { 56 143 53 }
 	
 	country_type = colonial
