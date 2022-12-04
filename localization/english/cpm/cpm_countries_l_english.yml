@@ -1,3 +1,7 @@
 ﻿l_english:
 HKG:0 "Hong Kong"
 HKG_ADJ:0 "Hong Kong"
+
+#
+dyn_c_communist_germany:0 "German Democratic Republic"
+dyn_c_communist_germany_adj:0 "German"

@@ -1,0 +1,11 @@
+﻿communist_germany = {
+	color = "red"
+	possible = {
+		exists = c:GER
+		THIS = c:GER
+		OR = {
+			has_law = law_type:law_council_republic
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}

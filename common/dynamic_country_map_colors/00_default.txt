@@ -293,15 +293,15 @@ unpleasant_germany = {
 	}
 }
 
-ddr_germany = {
-	color = "DDR_green"
-
-	possible = {
-		exists = c:GER
-		THIS = c:GER
-		has_law = law_type:law_council_republic
-	}
-}
+#ddr_germany = {
+#	color = "DDR_green"
+#
+#	possible = {
+#		exists = c:GER
+#		THIS = c:GER
+#		has_law = law_type:law_council_republic
+#	}
+#}
 
 roman_rome = {
 	color = "roman_red"
