@@ -4,7 +4,6 @@
 		exists = c:USA
 		root = c:USA
 		has_modifier = missouri_compromise
-		has_modifier = fake_modifier #hides
 	}
 
 	possible = { 
