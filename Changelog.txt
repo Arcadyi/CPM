@@ -111,3 +111,16 @@ Credit: All mods / mod ideas used linked below:
 
 		This changelog does not cover all of the changes as there are far too many to list.
 		In total over 18,000 lines of code have been changed, resulting in a lowered error count from 140k to 1.5k. Should be far more stable now, especially for MP.
+			# v.2.1
+		- Further Fixes to Oregon Treaty.
+		- Hong Kong Flag added.
+		- Fixes to Formosa.
+		- Philippines Flavor Pack integrated.
+		- South Africa Rework additions.
+		- Scandinavia Flavor Mod integrated.
+		- Title Changes now available to Republics based on culture.
+		- Citizenship laws being flipped for Intelligentsia fixed.
+		- Intelligentsia no longer automatically support Multiculturalism but need a leader with a "Cosmopolitan" Ideology.
+		- Cosmopolitanism added as an Ideology, the only one that supports Multiculturalism at this moment.
+		- Bureaucracy added to countries with Army/Navy Institutions.
+		- DNA of various characters fixed.
