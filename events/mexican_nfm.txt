@@ -143,9 +143,7 @@ mexican_nfm.2 = {
 		exists = c:MEX
 		c:MEX = ROOT
 		year >= 1839
-		exists = {
-			c:TEX
-		}
+		exists = c:TEX
 		NOT = {
 				OR = {
 				has_law = law_type:law_universal_suffrage

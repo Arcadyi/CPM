@@ -1,4 +1,4 @@
-monarch_selection_decision_iturbide = {
+﻿monarch_selection_decision_iturbide = {
     is_shown = {
           NOT = { has_variable = monarch_selection_taken }
           exists = c:MEX

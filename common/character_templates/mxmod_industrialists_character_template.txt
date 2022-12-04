@@ -1,4 +1,4 @@
-
+﻿
 
 ## LEADER IDEOLOGIES ##
 # ideology_moderate

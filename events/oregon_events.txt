@@ -141,7 +141,7 @@ oregon.2 = {
 					set_state_owner = c:USA
 				}
 			}
-			s:STATE_OREGON = {S
+			s:STATE_OREGON = {
 				random_scope_state = {
 					limit = {
 						exists = c:GBR
