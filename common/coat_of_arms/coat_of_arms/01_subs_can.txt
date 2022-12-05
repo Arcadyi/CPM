@@ -1,0 +1,34 @@
+sub_FRA_coa_circle = {
+	pattern = "pattern_shield_circle.dds"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_fleur_quebec.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { scale = {0.5 0.5  } position = { 0.333 0.333 } }
+		instance = { scale = {0.5 0.5  } position = { 0.667 0.333 } }
+		instance = { scale = {0.5 0.5  } position = { 0.5 0.667 } }
+	}
+}
+
+sub_GBR_sans_scotland = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_saltire.dds"
+		color1 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_cross_england.dds"
+		color1 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_crown_st_edward.dds"
+		color1 = "yellow"
+		color2 = "red_dark"
+		color3 = "pearl"
+		instance = { scale = { 0.84 0.84 } position = { 0.5 0.49 } } 
+	}
+}
