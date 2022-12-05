@@ -1,0 +1,2197 @@
+﻿# France - FRA
+fra_admiral_courbet = {
+	first_name = Amedee
+	last_name = Courbet
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1788.6.24
+	dna = dna_admiral_courbet
+	traits = {
+		expert_naval_commander
+		cautious
+		meticulous
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1855.1.1	
+		chance = 25
+	}
+}
+fra_admiral_jaures = {
+	first_name = Charles
+	last_name = Jaures
+	culture = cu:occitan
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1808.12.5
+	dna = dna_admiral_jaures
+	traits = {
+		basic_naval_commander
+		cautious
+		reserved
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1860.1.1
+		latest_usage_date = 1825.1.1	
+		chance = 25
+	}
+}
+fra_admiral_boue_de_lapeyrere = {
+	first_name = Augustin
+	last_name = Boue_de_Lapeyrere
+	culture = cu:occitan
+	female = no
+	religion = catholic
+	ideology = ideology_reformer
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1852.1.18
+	dna = dna_admiral_lapeyrere
+	traits = {
+		experienced_naval_commander
+		innovative
+		dockyard_master
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1883.1.1
+		latest_usage_date = 1916.1.1	
+		chance = 25
+	}
+}
+fra_admiral_jaureguiberry = {
+	first_name = Bernard
+	last_name = Jaureguiberry
+	culture = cu:occitan
+	female = no
+	religion = catholic
+	ideology = ideology_reformer
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1815.1.18
+	dna = dna_admiral_jaureguiberry
+	traits = {
+		experienced_naval_commander
+		brave
+		dockyard_master
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1845.1.1
+		latest_usage_date = 1887.1.1	
+		chance = 25
+	}
+}
+fra_general_boulanger = {
+	first_name = Georges_Ernest
+	last_name = Boulanger
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1837.4.29
+	dna = dna_general_boulanger
+	traits = {
+		celebrity_commander
+		firebrand
+		brave
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1870.1.1
+		latest_usage_date = 1910.1.1	
+		chance = 25
+	}
+}
+fra_general_foch = {
+	first_name = Ferdinand
+	last_name = Foch
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_reformer
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1851.8.2
+	dna = dna_ferdinand_foch
+	traits = {
+		persistent
+		experienced_offensive_planner
+		popular_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1879.1.1
+		latest_usage_date = 1927.1.1	
+		chance = 25
+	}
+}
+fra_general_macmahon = {
+	first_name = Patrice
+	last_name = de_MacMahon
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist # legitimist
+	commander_rank = default
+	interest_group = ig_devout
+	birth_date = 1808.6.13
+	dna = dna_mac_mahon
+	traits = {
+		popular_commander
+		experienced_offensive_planner
+		reckless
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1884.1.1	
+		chance = 25
+	}
+}
+fra_general_bazaine = {
+	first_name = Francois_Achille
+	last_name = Bazaine
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist # bonapartist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1808.6.13
+	dna = dna_general_bazaine
+	traits = {
+		brave
+		direct
+		experienced_offensive_planner
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1884.1.1	
+		chance = 25
+	}
+}
+fra_admiral_hamelin = {
+	first_name = Ferdinand
+	last_name = Hamelin
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1796.9.2
+	dna = dna_admiral_hamelin
+	traits = {
+		expert_naval_commander
+		meticulous
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1842.1.1
+		latest_usage_date = 1860.1.1	
+		chance = 25
+	}
+}
+fra_admiral_parseval = {
+	first_name = Alexandre_Ferdinand
+	last_name = Parseval-Deschenes
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1790.11.27
+	dna = dna_admiral_parseval
+	traits = {
+		dockyard_master
+		brave
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1860.1.1	
+		chance = 25
+	}
+}
+fra_admiral_bruat = {
+	first_name = Armand_Joseph
+	last_name = Bruat
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1796.5.26
+	dna = dna_admiral_bruat
+	traits = {
+		celebrity_commander
+		expert_colonial_administrator
+		surveyor
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1843.1.1
+		latest_usage_date = 1855.1.1	
+		chance = 25
+	}
+}
+fra_admiral_desfosses = {
+	first_name = Joseph-Romain
+	last_name = Desfosses
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_devout
+	birth_date = 1798.12.2
+	dna = dna_admiral_desfosses
+	traits = {
+		dockyard_master
+		popular_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1847.1.1
+		latest_usage_date = 1864.1.1	
+		chance = 25
+	}
+}
+fra_admiral_bonard = {
+	first_name = Louis_Adolphe
+	last_name = Bonard
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_reformer
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1805.3.27
+	dna = dna_admiral_bonard
+	traits = {
+		explorer
+		experienced_diplomat
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1855.1.1
+		latest_usage_date = 1867.1.1	
+		chance = 25
+	}
+}
+fra_admiral_rigault = {
+	first_name = Charles
+	last_name = Rigault_de_Genouilly
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1807.4.12
+	dna = dna_admiral_rigault
+	traits = {
+		expert_naval_commander
+		explorer
+		dockyard_master
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1857.1.1
+		latest_usage_date = 1873.1.1	
+		chance = 25
+	}
+}
+fra_admiral_charner = {
+	first_name = Leonard_Victor
+	last_name = Charner
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1797.2.13
+	dna = dna_admiral_charner
+	traits = {
+		experienced_naval_commander
+		tactful
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1851.1.1
+		latest_usage_date = 1869.1.1	
+		chance = 25
+	}
+}
+fra_admiral_trehouart = {
+	first_name = Francois
+	last_name = Trehouart
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_rural_folk
+	birth_date = 1798.4.27
+	dna = dna_admiral_trehouart
+	traits = {
+		experienced_naval_commander
+		surveyor
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1846.1.1
+		latest_usage_date = 1873.1.1	
+		chance = 25
+	}
+}
+fra_admiral_pothuau = {
+	first_name = Louis
+	last_name = Pothuau
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1815.10.28
+	dna = dna_admiral_pothuau
+	traits = {
+		basic_naval_commander
+		experienced_diplomat
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1864.1.1
+		latest_usage_date = 1880.1.1	
+		chance = 25
+	}
+}
+fra_admiral_jurien = {
+	first_name = Edmond
+	last_name = Jurien_de_La_Graviere
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1812.11.19
+	dna = dna_admiral_jurien
+	traits = {
+		expert_naval_commander
+		popular_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1855.1.1
+		latest_usage_date = 1886.1.1	
+		chance = 25
+	}
+}
+fra_general_saintarnaud = {
+	first_name = Armand
+	last_name = Leroy_de_Saint-Arnaud
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist # bonapartist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1798.8.20
+	dna = dna_leroy_saintarnaud
+	traits = {
+		cruel
+		celebrity_commander
+		experienced_offensive_planner
+		reckless
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1870.1.1	
+		chance = 25
+	}
+}
+fra_general_pelissier = {
+	first_name = Aimable
+	last_name = Pelissier
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1794.11.6
+	dna = dna_aimable_pelissier
+	traits = {
+		basic_artillery_commander
+		persistent
+		meticulous
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1845.1.1
+		latest_usage_date = 1864.1.1	
+		chance = 25
+	}
+}
+fra_general_randon = {
+	first_name = Jacques_Louis
+	last_name = Randon
+	culture = cu:french
+	female = no
+	religion = protestant
+	ideology = ideology_reformer
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1795.3.26
+	dna = dna_general_randon
+	traits = {
+		basic_colonial_administrator
+		resupply_commander
+		cautious
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1847.1.1
+		latest_usage_date = 1870.1.1	
+		chance = 25
+	}
+}
+fra_general_canrobert = {
+	first_name = Francois_Certain
+	last_name = de_Canrobert
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1809.6.27
+	dna = dna_marechal_canrobert
+	traits = {
+		basic_offensive_planner
+		traditionalist_commander
+		bigoted
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1850.1.1
+		latest_usage_date = 1873.1.1	
+		chance = 25
+	}
+}
+fra_general_bosquet = {
+	first_name = Pierre
+	last_name = Bosquet
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_reformer
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1810.11.8
+	dna = dna_pierre_bosquet
+	traits = {
+		charismatic
+		meticulous
+		expert_offensive_planner
+		brave
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1871.1.1	
+		chance = 25
+	}
+}
+fra_general_niel = {
+	first_name = Alphonse
+	last_name = Niel
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader # bonapartist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1802.10.4
+	dna = dna_alphonse_niel
+	traits = {
+		innovative
+		resupply_commander
+		tactful
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1849.1.1
+		latest_usage_date = 1870.1.1	
+		chance = 25
+	}
+}
+fra_general_mellinet = {
+	first_name = Emile
+	last_name = Mellinet
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist # bonapartist
+	commander_rank = default
+	interest_group = ig_rural_folk
+	birth_date = 1798.6.1
+	dna = dna_emile_mellinet
+	traits = {
+		pillager
+		plains_commander
+		reckless
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1850.1.1
+		latest_usage_date = 1871.1.1	
+		chance = 25
+	}
+}
+fra_general_chanzy = {
+	first_name = Alfred
+	last_name = Chanzy
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_republican_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1823.3.12
+	dna = dna_alfred_chanzy
+	traits = {
+		experienced_defensive_strategist
+		cautious
+		defense_in_depth_specialist
+		popular_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1864.1.1
+		latest_usage_date = 1883.1.1	
+		chance = 25
+	}
+}
+fra_general_gallieni = {
+	first_name = Joseph
+	last_name = Gallieni
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1849.4.24
+	dna = dna_joseph_gallieni
+	traits = {
+		expert_colonial_administrator
+		resupply_commander
+		direct
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1891.1.1
+		latest_usage_date = 1914.9.1	
+		chance = 25
+	}
+}
+fra_general_joffre = {
+	first_name = Joseph
+	last_name = Joffre
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1852.1.12
+	dna = dna_joseph_joffre
+	traits = {
+		reckless
+		resupply_commander
+		experienced_offensive_planner
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1920.1.1	
+		chance = 25
+	}
+}
+fra_general_franchet = {
+	first_name = Louis
+	last_name = Franchet_d_Esperey
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1856.5.25
+	dna = dna_franchet_desperey
+	traits = {
+		trench_rat
+		experienced_offensive_planner
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1903.1.1
+		latest_usage_date = 1930.1.1	
+		chance = 25
+	}
+}
+fra_general_petain = {
+	first_name = Philippe
+	last_name = Petain
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1856.4.24
+	dna = dna_philippe_petain
+	traits = {
+		trench_rat
+		popular_commander
+		experienced_defensive_strategist
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1914.1.1
+		latest_usage_date = 1935.1.1	
+		chance = 25
+	}
+}
+fra_eugene_cavaignac = {
+	first_name = Eugene
+	last_name = Cavaignac
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_republican_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1802.10.15
+	dna = dna_eugene_cavaignac
+	traits = {
+		celebrity_commander
+        surveyor
+        wrathful
+		brave
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1857.1.1	
+		chance = 25
+	}
+}
+fra_general_lyautey = {
+	first_name = Hubert
+	last_name = Lyautey
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1854.11.17
+	dna = dna_hubert_lyautey
+	traits = {
+		experienced_defensive_strategist
+        trench_rat
+        basic_artillery_commander
+		meticulous
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1903.1.1
+		latest_usage_date = 1925.1.1	
+		chance = 25
+	}
+}
+fra_general_castelnau = {
+	first_name = Edouard
+	last_name = de_Castelnau
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_devout
+	birth_date = 1851.12.24
+	dna = dna_ed_castelnau
+	traits = {
+		basic_artillery_commander
+        bigoted
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1906.1.1
+		latest_usage_date = 1935.1.1	
+		chance = 25
+	}
+}
+fra_general_baraguay = {
+	first_name = Achilles
+	last_name = Baraguey_d_Hilliers
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1795.9.6
+	dna = dna_baraguey_hilliers
+	traits = {
+		traditionalist_commander
+        surveyor
+        direct
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1851.1.1
+		latest_usage_date = 1871.1.1	
+		chance = 25
+	}
+}
+fra_general_billot = {
+	first_name = Jean-Baptiste
+	last_name = Billot
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_republican_leader
+	commander_rank = default
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1828.8.15
+	dna = dna_jb_billot
+	traits = {
+		basic_offensive_planner
+        persistent
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1870.1.1
+		latest_usage_date = 1900.1.1	
+		chance = 25
+	}
+}
+fra_general_castelane = {
+	first_name = Boniface
+	last_name = de_Castelane
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1788.3.21
+	dna = dna_boni_castelane
+	traits = {
+		resupply_commander
+        arrogant
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1860.1.1	
+		chance = 25
+	}
+}
+fra_general_chanoine = {
+	first_name = Jules
+	last_name = Chanoine
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_rural_folk
+	birth_date = 1835.12.18
+	dna = dna_jules_chanoine
+	traits = {
+		innovative
+        surveyor
+		explorer
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1867.1.1
+		latest_usage_date = 1898.1.1	
+		chance = 25
+	}
+}
+fra_general_cousin = {
+	first_name = Charles
+	last_name = Cousin-Montauban
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1796.6.24
+	dna = dna_cousin_montauban
+	traits = {
+		basic_colonial_administrator
+        plains_commander
+		imperious
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1855.1.1
+		latest_usage_date = 1871.1.1	
+		chance = 25
+	}
+}
+fra_general_fleury = {
+	first_name = Emile
+	last_name = Fleury
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1815.12.23
+	dna = dna_emile_fleury
+	traits = {
+		basic_defensive_strategist
+        surveyor
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1852.1.1
+		latest_usage_date = 1874.1.1	
+		chance = 25
+	}
+}
+fra_general_goyon = {
+	first_name = Charles-Marie-Augustin
+	last_name = de_Goyon
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1803.9.13
+	dna = dna_de_goyon
+	traits = {
+		experienced_defensive_strategist
+        stalwart_defender
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1850.1.1
+		latest_usage_date = 1870.1.1	
+		chance = 25
+	}
+}
+fra_general_lannes = {
+	first_name = Gustave_Olivier
+	last_name = Lannes
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1804.12.4
+	dna = dna_go_lannes
+	traits = {
+		surveyor
+        hedonist
+		basic_artillery_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1851.1.1
+		latest_usage_date = 1871.1.1	
+		chance = 25
+	}
+}
+fra_general_leboeuf = {
+	first_name = Edmond
+	last_name = Le_Boeuf
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1809.12.5
+	dna = dna_le_boeuf
+	traits = {
+		experienced_artillery_commander
+        forest_commander
+		direct
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1854.1.1
+		latest_usage_date = 1880.1.1	
+		chance = 25
+	}
+}
+fra_general_magnan = {
+	first_name = Bernard_Pierre
+	last_name = Magnan
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_rural_folk
+	birth_date = 1791.12.7
+	dna = dna_marechal_magnan
+	traits = {
+		charismatic
+        forest_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1845.1.1
+		latest_usage_date = 1865.1.1	
+		chance = 25
+	}
+}
+fra_general_morris = {
+	first_name = Louis_Michel
+	last_name = Morris
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1803.9.27
+	dna = dna_lm_morris
+	traits = {
+		experienced_offensive_planner
+        brave
+		reckless
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1849.1.1
+		latest_usage_date = 1867.1.1	
+		chance = 25
+	}
+}
+fra_general_ornano = {
+	first_name = Philippe_Antoine
+	last_name = d_Ornano
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1784.1.17
+	dna = dna_philippe_ornano
+	traits = {
+		experienced_offensive_planner
+        celebrity_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1863.1.1	
+		chance = 25
+	}
+}
+fra_general_forey = {
+	first_name = Elie_Frederic
+	last_name = Forey
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1804.1.10
+	dna = dna_elie_forrey
+	traits = {
+		wrathful
+        celebrity_commander
+		brave
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1867.4.1	
+		chance = 25
+	}
+}
+fra_general_bourbaki = {
+	first_name = Charles_Denis
+	last_name = Bourbaki
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1816.4.22
+	dna = dna_charles_bourbaki
+	traits = {
+		plains_commander
+        explorer
+		reckless
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1854.1.1
+		latest_usage_date = 1885.1.1	
+		chance = 25
+	}
+}
+fra_general_harispe = {
+	first_name = Jean_Isidore
+	last_name = Harispe
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_devout
+	birth_date = 1768.12.7
+	dna = dna_marechal_harispe
+	traits = {
+		popular_commander
+        traditionalist_commander
+		senile
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1851.1.1	
+		chance = 25
+	}
+}
+fra_general_vaillant = {
+	first_name = Jean-Baptiste_Philibert
+	last_name = Vaillant
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_rural_folk
+	birth_date = 1790.12.6
+	dna = dna_marechal_vaillant
+	traits = {
+		resupply_commander
+        reserved
+		cautious
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1849.1.1
+		latest_usage_date = 1870.1.1	
+		chance = 25
+	}
+}
+fra_general_appert = {
+	first_name = Felix_Antoine
+	last_name = Appert
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1817.6.12
+	dna = dna_felix_appert
+	traits = {
+		meticulous
+        cruel
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1870.1.1
+		latest_usage_date = 1884.1.1	
+		chance = 25
+	}
+}
+fra_general_voyron = {
+	first_name = Regis
+	last_name = Voyron
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1838.8.5
+	dna = dna_regis_voyron
+	traits = {
+		expert_colonial_administrator
+        resupply_commander
+		bigoted
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1887.1.1
+		latest_usage_date = 1900.1.1	
+		chance = 25
+	}
+}
+fra_general_vassoigne = {
+	first_name = Elie
+	last_name = de_Vassoigne
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1811.5.27
+	dna = dna_elie_vassoigne
+	traits = {
+		experienced_offensive_planner
+        explorer
+		meticulous
+		celebrity_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1854.1.1
+		latest_usage_date = 1880.1.1	
+		chance = 25
+	}
+}
+fra_general_failly = {
+	first_name = Pierre_Louis_Charles
+	last_name = de_Failly
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_devout
+	birth_date = 1810.1.21
+	dna = dna_de_failly
+	traits = {
+		popular_commander
+        arrogant
+		reckless
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1854.1.1
+		latest_usage_date = 1871.1.1	
+		chance = 25
+	}
+}
+fra_general_galliffet = {
+	first_name = Gaston
+	last_name = de_Galliffet
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1831.1.23
+	dna = dna_gaston_galliffet
+	traits = {
+		celebrity_commander
+        brave
+		cruel
+		arrogant
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1870.1.1
+		latest_usage_date = 1900.1.1	
+		chance = 25
+	}
+}
+fra_general_faidherbe = {
+	first_name = Louis
+	last_name = Faidherbe
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_republican_leader
+	commander_rank = default
+	interest_group = ig_rural_folk
+	birth_date = 1818.6.3
+	dna = dna_louis_faidherbe
+	traits = {
+		expert_colonial_administrator
+        meticulous
+		bigoted
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1854.1.1
+		latest_usage_date = 1888.1.1	
+		chance = 25
+	}
+}
+fra_general_mangin = {
+	first_name = Charles
+	last_name = Mangin
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1866.7.6
+	dna = dna_charles_mangin
+	traits = {
+		experienced_artillery_commander
+        basic_offensive_planner
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1913.1.1
+		latest_usage_date = 1925.1.1	
+		chance = 25
+	}
+}
+fra_general_marchand = {
+	first_name = Jean-Baptiste
+	last_name = Marchand
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1863.11.22
+	dna = dna_jb_marchand
+	traits = {
+		explorer
+        reckless
+		popular_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1896.1.1
+		latest_usage_date = 1918.1.1	
+		chance = 25
+	}
+}
+fra_general_nivelle = {
+	first_name = Robert
+	last_name = Nivelle
+	culture = cu:french
+	female = no
+	religion = protestant
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1856.10.15
+	dna = dna_robert_nivelle
+	traits = {
+		expert_artillery_commander
+        experienced_offensive_planner
+		direct
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1921.1.1	
+		chance = 25
+	}
+}
+fra_general_dreyfus = {
+	first_name = Alfred
+	last_name = Dreyfus
+	culture = cu:french
+	female = no
+	religion = jewish
+	ideology = ideology_pacifist
+	commander_rank = default
+	interest_group = ig_intelligentsia
+	birth_date = 1859.10.9
+	dna = dna_alfred_dreyfus
+	traits = {
+		basic_artillery_commander
+        reserved
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1919.1.1	
+		chance = 25
+	}
+}
+fra_general_picquart = {
+	first_name = Marie-Georges
+	last_name = Picquart
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_reformer
+	commander_rank = default
+	interest_group = ig_intelligentsia
+	birth_date = 1854.9.6
+	dna = dna_mg_picquart
+	traits = {
+		meticulous
+        direct
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1914.1.1	
+		chance = 25
+	}
+}
+fra_general_renault = {
+	first_name = Pierre_Hippolyte
+	last_name = Renault
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1807.1.20
+	dna = dna_pierre_renault
+	traits = {
+		basic_offensive_planner
+        brave
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1854.1.1
+		latest_usage_date = 1870.1.1	
+		chance = 25
+	}
+}
+fra_general_boisdeffre = {
+	first_name = Raoul
+	last_name = Le_Mouton_de_Boisdeffre
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_reformer
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1839.2.6
+	dna = dna_mouton_boisdeffre
+	traits = {
+		basic_offensive_planner
+        surveyor
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1914.1.1	
+		chance = 25
+	}
+}
+fra_general_vinoy = {
+	first_name = Joseph
+	last_name = Vinoy
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_rural_folk
+	birth_date = 1800.8.10
+	dna = dna_joseph_vinoy
+	traits = {
+		basic_defensive_strategist
+        cautious
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1853.1.1
+		latest_usage_date = 1871.1.1	
+		chance = 25
+	}
+}
+fra_general_brugere = {
+	first_name = Joseph
+	last_name = Brugere
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1841.6.27
+	dna = dna_joseph_brugere
+	traits = {
+		surveyor
+        meticulous
+		tactful
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1887.1.1
+		latest_usage_date = 1914.1.1	
+		chance = 25
+	}
+}
+fra_general_changarnier = {
+	first_name = Nicolas
+	last_name = Changarnier
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_rural_folk
+	birth_date = 1793.4.26
+	dna = dna_nicolas_changarnier
+	traits = {
+		experienced_offensive_planner
+        cruel
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1870.1.1	
+		chance = 25
+	}
+}
+fra_general_driant = {
+	first_name = Emile
+	last_name = Driant
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_intelligentsia
+	birth_date = 1855.9.11
+	dna = dna_emile_driant
+	traits = {
+		surveyor
+        romantic
+		resupply_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1920.1.1	
+		chance = 25
+	}
+}
+fra_general_fayolle = {
+	first_name = Emile
+	last_name = Fayolle
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1852.5.14
+	dna = dna_emile_fayolle
+	traits = {
+		experienced_artillery_commander
+        arrogant
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1920.1.1	
+		chance = 25
+	}
+}
+fra_general_mercier = {
+	first_name = Auguste
+	last_name = Mercier
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_ethno_nationalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1833.12.8
+	dna = dna_auguste_mercier
+	traits = {
+		basic_artillery_commander
+        bigoted
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1893.1.1
+		latest_usage_date = 1918.1.1	
+		chance = 25
+	}
+}
+fra_general_meunier = {
+	first_name = Victor_Joseph
+	last_name = Meunier
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_pacifist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1848.4.23
+	dna = dna_victor_meunier
+	traits = {
+		experienced_diplomat
+        explorer
+		basic_artillery_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1914.1.1	
+		chance = 25
+	}
+}
+fra_general_saussier = {
+	first_name = Gustave
+	last_name = Saussier
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_ethno_moderate
+	commander_rank = default
+	interest_group = ig_industrialists
+	birth_date = 1828.1.16
+	dna = dna_gustave_saussier
+	traits = {
+		resupply_commander
+        popular_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1857.1.1
+		latest_usage_date = 1887.1.1	
+		chance = 25
+	}
+}
+fra_general_trochu = {
+	first_name = Louis-Jules
+	last_name = Trochu
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1815.3.12
+	dna = dna_louis_trochu
+	traits = {
+		expert_defensive_strategist
+        tactful
+		surveyor
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1866.1.1
+		latest_usage_date = 1885.1.1	
+		chance = 25
+	}
+}
+fra_general_weygand = {
+	first_name = Maxime
+	last_name = Weygand
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_fascist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1867.1.21
+	dna = dna_maxime_weygand
+	traits = {
+		surveyor
+        bigoted
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1935.1.1	
+		chance = 25
+	}
+}
+fra_general_bedeau = {
+	first_name = Marie-Alphonse
+	last_name = Bedeau
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1804.8.19
+	dna = dna_general_bedeau
+	traits = {
+		experienced_defensive_strategist
+        basic_colonial_administrator
+		popular_commander
+		brave
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1839.1.1
+		latest_usage_date = 1851.12.2	
+		chance = 25
+	}
+}
+fra_general_lamoricière = {
+	first_name = Louis
+	last_name = Juchault_de_Lamoriciere
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1806.2.5
+	dna = dna_de_lamoriciere
+	traits = {
+		experienced_offensive_planner
+        cruel
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1843.1.1
+		latest_usage_date = 1851.12.2	
+		chance = 25
+	}
+}
+fra_general_oudinot = {
+	first_name = Nicolas_Charles
+	last_name = Oudinot
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_moderate
+	commander_rank = commander_rank_4
+	interest_group = ig_armed_forces
+	birth_date = 1767.4.25
+	dna = dna_marechal_oudinot
+	traits = {
+		traditionalist_commander
+        celebrity_commander
+		brave
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1847.1.1	
+		chance = 25
+	}
+}
+fra_general_perrin = {
+	first_name = Claude-Victor
+	last_name = Perrin
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist
+	commander_rank = commander_rank_4
+	interest_group = ig_devout
+	birth_date = 1764.12.7
+	dna = dna_marechal_perrin
+	traits = {
+		experienced_artillery_commander
+		celebrity_commander
+        senile
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1841.1.1	
+		chance = 25
+	}
+}
+fra_general_bourmont = {
+	first_name = Louis_Auguste_Victor
+	last_name = de_Ghaisne_de_Bourmont
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist
+	commander_rank = commander_rank_3
+	interest_group = ig_landowners
+	birth_date = 1773.9.2
+	dna = dna_marechal_ghaisne
+	traits = {
+		traditionalist_commander
+        senile
+		brave
+		popular_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1846.1.1	
+		chance = 25
+	}
+}
+fra_general_gerard = {
+	first_name = Etienne_Maurice
+	last_name = Gerard
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_royalist
+	commander_rank = commander_rank_3
+	interest_group = ig_rural_folk
+	birth_date = 1773.4.4
+	dna = dna_marechal_gerard
+	traits = {
+		expert_offensive_planner
+        celebrity_commander
+		basic_political_operator
+		charismatic
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1852.1.1	
+		chance = 25
+	}
+}
+fra_general_valee = {
+	first_name = Sylvain_Charles
+	last_name = Valee
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_traditionalist
+	commander_rank = commander_rank_3
+	interest_group = ig_armed_forces
+	birth_date = 1773.12.17
+	dna = dna_marechal_valee
+	traits = {
+		expert_artillery_commander
+        popular_commander
+		meticulous
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1846.1.1	
+		chance = 25
+	}
+}
+fra_general_sebastiani = {
+	first_name = Horace
+	last_name = Sebastiani
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = commander_rank_3
+	interest_group = ig_armed_forces
+	birth_date = 1773.11.17
+	dna = dna_marechal_sebastiani
+	traits = {
+		celebrity_commander
+        experienced_diplomat
+		senile
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1851.1.1	
+		chance = 25
+	}
+}
+fra_general_drouet = {
+	first_name = Jean-Baptiste
+	last_name = Drouet_d_Erlon
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_jingoist_leader
+	commander_rank = commander_rank_3
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1765.7.29
+	dna = dna_marechal_drouet
+	traits = {
+		popular_commander
+        reckless
+		basic_colonial_administrator
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1844.1.1	
+		chance = 25
+	}
+}
+fra_general_exelmans = {
+	first_name = Remy_Joseph_Isidore
+	last_name = Exelmans
+	culture = cu:french
+	female = no
+	religion = catholic
+	ideology = ideology_traditionalist
+	commander_rank = commander_rank_3
+	interest_group = ig_landowners
+	birth_date = 1775.11.13
+	dna = dna_marechal_exelmans
+	traits = {
+		celebrity_commander
+        brave
+		experienced_offensive_planner
+		direct
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1852.1.1	
+		chance = 25
+	}
+}

@@ -1,0 +1,2875 @@
+﻿# France - FRA
+fra_clemenceau_character_template = {
+    first_name = Georges
+    last_name = Clemenceau
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_radical
+    interest_group = ig_trade_unions
+    birth_date = 1841.9.11
+	dna = dna_georges_clemenceau
+    traits = {
+        experienced_political_operator
+        persistent
+        direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions    
+        }   
+        earliest_usage_date = 1881.1.1
+        latest_usage_date = 1920.1.1
+        chance = 50
+    }   
+}
+fra_gambetta_character_template = {
+    first_name = Leon
+    last_name = Gambetta
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1838.4.2
+	dna = dna_leon_gambetta
+    traits = {
+        experienced_political_operator
+        inspirational_orator
+        charismatic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie    
+        }   
+        earliest_usage_date = 1868.1.1
+        latest_usage_date = 1892.1.1
+        chance = 50
+    }   
+}
+
+fra_jaures_character_template = {
+    first_name = Jean
+    last_name = Jaures
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_social_democrat
+    interest_group = ig_trade_unions
+    birth_date = 1859.9.3
+	dna = dna_jean_jaures
+    traits = {
+        expert_political_operator
+        charismatic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions    
+        }   
+        earliest_usage_date = 1893.1.1
+        latest_usage_date = 1914.1.1
+        chance = 75
+    }   
+}
+
+fra_lesseps_character_template = {
+    first_name = Ferdinand
+    last_name = de_Lesseps
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_industrialists
+    birth_date = 1805.11.19
+	dna = dna_ferdinand_lesseps
+    traits = {
+        experienced_diplomat
+        innovative
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists    
+        }   
+        earliest_usage_date = 1854.1.1
+        latest_usage_date = 1882.1.1
+        chance = 25
+    }   
+}
+
+fra_morny_character_template = {
+    first_name = Charles
+    last_name = de_Morny
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1811.10.21
+	dna = dna_charles_morny
+    traits = {
+        experienced_political_operator
+        romantic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners    
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1865.1.1
+        chance = 25
+    }   
+}
+
+fra_ferry_character_template = {
+    first_name = Jules
+    last_name = Ferry
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_intelligentsia
+    birth_date = 1832.4.5
+	dna = dna_jules_ferry
+    traits = {
+        experienced_political_operator
+		expert_colonial_administrator
+        bigoted
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia    
+        }   
+        earliest_usage_date = 1870.1.1
+        latest_usage_date = 1893.1.1
+        chance = 25
+    }   
+}
+
+fra_mun_character_template = {
+    first_name = Albert
+    last_name = de_Mun
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_theocrat
+    interest_group = ig_devout
+    birth_date = 1841.2.28
+	dna = dna_albert_mun
+    traits = {
+        innovative
+        ambitious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_devout    
+        }   
+        earliest_usage_date = 1870.1.1
+        latest_usage_date = 1905.1.1
+        chance = 25
+    }   
+}
+
+fra_blanqui_character_template = {
+    first_name = Auguste
+    last_name = Blanqui
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_anarchist
+    interest_group = ig_trade_unions
+    birth_date = 1805.2.8
+	dna = dna_auguste_blanqui
+    traits = {
+        romantic
+        persistent
+        basic_diplomat
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions    
+        }   
+        earliest_usage_date = 1839.1.1
+        latest_usage_date = 1871.1.1
+        chance = 25
+    }   
+}
+
+fra_guizot_character_template = {
+    first_name = Francois
+    last_name = Guizot
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_devout
+    birth_date = 1787.10.4
+	dna = dna_francois_guizot
+    traits = {
+        experienced_political_operator
+        persistent
+        romantic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_devout    
+        }   
+        earliest_usage_date = 1837.1.1
+        latest_usage_date = 1851.1.1
+        chance = 25
+    }   
+}
+
+fra_ledrurollin_character_template = {
+    first_name = Alexandre
+    last_name = Ledru-Rollin
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_radical
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1807.2.2
+	dna = dna_alexandre_ledrurollin
+    traits = {
+        experienced_political_operator
+        demagogue
+        direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie   
+        }   
+        earliest_usage_date = 1841.1.1
+        latest_usage_date = 1871.1.1
+        chance = 25
+    }   
+}
+
+fra_blanc_character_template = {
+    first_name = Louis
+    last_name = Blanc
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_social_democrat
+    interest_group = ig_trade_unions
+    birth_date = 1811.10.29
+	dna = dna_louis_blanc
+    traits = {
+        basic_political_operator
+        inspirational_orator
+        charismatic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions    
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1871.1.1
+        chance = 25
+    }   
+}
+
+fra_louisemichel_character_template = {
+    first_name = Louise
+    last_name = Michel
+    culture = cu:french
+    female = yes
+    religion = catholic
+    ideology = ideology_anarchist
+    interest_group = ig_trade_unions
+    birth_date = 1830.5.29
+	dna = dna_louise_michel
+    traits = {
+        firebrand
+        persistent
+        bandit
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions   
+        }   
+        earliest_usage_date = 1871.1.1
+        latest_usage_date = 1905.1.1
+        chance = 5
+    }   
+}
+
+fra_deschanel_character_template = {
+    first_name = Paul
+    last_name = Deschanel
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1855.2.13
+	dna = dna_paul_deschanel
+    traits = {
+        experienced_political_operator
+        inspirational_orator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie    
+        }   
+        earliest_usage_date = 1898.1.1
+        latest_usage_date = 1922.1.1
+        chance = 25
+    }   
+}
+
+fra_aldbroglie_character_template = {
+    first_name = Albert
+    last_name = de_Broglie
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_royalist
+    interest_group = ig_devout
+    birth_date = 1821.6.13
+	dna = dna_albert_broglie
+    traits = {
+        experienced_diplomat
+        arrogant
+        meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_devout    
+        }   
+        earliest_usage_date = 1856.1.1
+        latest_usage_date = 1885.1.1
+        chance = 25
+    }   
+}
+
+fra_charlesfreycinet_character_template = {
+    first_name = Charles
+    last_name = de_Freycinet
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_industrialists
+    birth_date = 1828.11.14
+	dna = dna_charles_freycinet
+    traits = {
+        basic_political_operator
+        innovative
+        meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists   
+        }   
+        earliest_usage_date = 1869.1.1
+        latest_usage_date = 1900.1.1
+        chance = 25
+    }   
+}
+
+fra_ribot_character_template = {
+    first_name = Alexandre
+    last_name = Ribot
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1842.2.7
+	dna = dna_alexandre_ribot
+    traits = {
+        masterful_diplomat
+        inspirational_orator
+        persistent
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie   
+        }   
+        earliest_usage_date = 1877.1.1
+        latest_usage_date = 1906.1.1
+        chance = 25
+    }   
+}
+
+fra_dupuy_character_template = {
+    first_name = Charles
+    last_name = Dupuy
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_intelligentsia
+    birth_date = 1851.11.5
+	dna = dna_charles_dupuy
+    traits = {
+        demagogue
+        experienced_diplomat
+        tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia    
+        }   
+        earliest_usage_date = 1885.1.1
+        latest_usage_date = 1900.1.1
+        chance = 25
+    }   
+}
+
+fra_bourgeois_character_template = {
+    first_name = Leon
+    last_name = Bourgeois
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_radical
+    interest_group = ig_trade_unions
+    birth_date = 1851.5.29
+	dna = dna_leon_bourgeois
+    traits = {
+        direct
+        experienced_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions 
+        }   
+        earliest_usage_date = 1888.1.1
+        latest_usage_date = 1920.1.1
+        chance = 25
+    }   
+}
+
+fra_waldeckrousseau_character_template = {
+    first_name = Pierre
+    last_name = Waldeck-Rousseau
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_social_democrat
+    interest_group = ig_intelligentsia
+    birth_date = 1846.12.2
+	dna = dna_pierre_waldeck
+    traits = {
+        expert_political_operator
+        wrathful
+        ambitious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia    
+        }   
+        earliest_usage_date = 1879.1.1
+        latest_usage_date = 1902.1.1
+        chance = 25
+    }   
+}
+
+fra_poincare_character_template = {
+    first_name = Raymond
+    last_name = Poincare
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_rural_folk
+    birth_date = 1860.8.20
+	dna = dna_raymond_poincare
+    traits = {
+        experienced_political_operator
+        cautious
+        brave
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk    
+        }   
+        earliest_usage_date = 1887.1.1
+        latest_usage_date = 1926.1.1
+        chance = 25
+    }   
+}
+
+fra_briand_character_template = {
+    first_name = Aristide
+    last_name = Briand
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_atheist
+    interest_group = ig_trade_unions
+    birth_date = 1862.3.28
+	dna = dna_aristide_briand
+    traits = {
+        masterful_diplomat
+        imperious
+        charismatic
+		experienced_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions    
+        }   
+        earliest_usage_date = 1902.1.1
+        latest_usage_date = 1929.1.1
+        chance = 25
+    }   
+}
+
+fra_millerand_character_template = {
+    first_name = Alexandre
+    last_name = Millerand
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_industrialists
+    birth_date = 1859.2.10
+	dna = dna_alexandre_millerand
+    traits = {
+        meticulous
+        experienced_political_operator
+        persistent
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists   
+        }   
+        earliest_usage_date = 1885.1.1
+        latest_usage_date = 1927.1.1
+        chance = 25
+    }   
+}
+
+fra_painleve_character_template = {
+    first_name = Paul
+    last_name = Painleve
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_jingoist_leader
+    interest_group = ig_intelligentsia
+    birth_date = 1863.12.5
+	dna = dna_paul_painleve
+    traits = {
+        innovative
+        bigoted
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia    
+        }   
+        earliest_usage_date = 1910.1.1
+        latest_usage_date = 1930.1.1
+        chance = 25
+    }   
+}
+
+fra_rochefort_character_template = {
+    first_name = Henri
+    last_name = Rochefort
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_ethno_nationalist
+    interest_group = ig_intelligentsia
+    birth_date = 1831.1.30
+	dna = dna_henri_rochefort
+    traits = {
+        bandit
+        firebrand
+        ambitious
+		romantic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia    
+        }   
+        earliest_usage_date = 1870.1.1
+        latest_usage_date = 1910.1.1
+        chance = 15
+    }   
+}
+
+fra_deroulede_character_template = {
+    first_name = Paul
+    last_name = Deroulede
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_ethno_nationalist
+    interest_group = ig_rural_folk
+    birth_date = 1846.9.2
+	dna = dna_paul_deroulede
+    traits = {
+        romantic
+        demagogue
+        charismatic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk    
+        }   
+        earliest_usage_date = 1882.1.1
+        latest_usage_date = 1900.1.1
+        chance = 15
+    }   
+}
+
+fra_sadicarnot_character_template = {
+    first_name = Sadi
+    last_name = Carnot
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_industrialists
+    birth_date = 1837.8.11
+	dna = dna_sadi_carnot
+    traits = {
+        reserved
+        arrogant
+        basic_diplomat
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists    
+        }   
+        earliest_usage_date = 1871.1.1
+        latest_usage_date = 1894.1.1
+        chance = 25
+    }   
+}
+
+fra_felixfaure_character_template = {
+    first_name = Felix
+    last_name = Faure
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_rural_folk
+    birth_date = 1841.1.30
+	dna = dna_felix_faure
+    traits = {
+        basic_diplomat
+        romantic
+        imperious
+		expensive_tastes
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk    
+        }   
+        earliest_usage_date = 1881.1.1
+        latest_usage_date = 1900.1.1
+        chance = 25
+    }   
+}
+
+fra_peflandin_character_template = {
+    first_name = Pierre-Etienne
+    last_name = Flandin
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_feminist
+    interest_group = ig_industrialists
+    birth_date = 1889.4.12
+	dna = dna_pe_flandin
+    traits = {
+        romantic
+        inspirational_orator
+        cautious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists   
+        }   
+        earliest_usage_date = 1914.1.1
+        latest_usage_date = 1935.1.1
+        chance = 25
+    }   
+}
+
+fra_fallieres_character_template = {
+    first_name = Armand
+    last_name = Fallieres
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_pacifist
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1841.11.6
+	dna = dna_armand_fallieres
+    traits = {
+        basic_diplomat
+        reserved
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie  
+        }   
+        earliest_usage_date = 1882.1.1
+        latest_usage_date = 1914.1.1
+        chance = 25
+    }   
+}
+
+fra_floquet_character_template = {
+    first_name = Charles
+    last_name = Floquet
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_rural_folk
+    birth_date = 1828.10.2
+	dna = dna_charles_floquet
+    traits = {
+        direct
+        inspirational_orator
+		tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk 
+        }   
+        earliest_usage_date = 1867.1.1
+        latest_usage_date = 1890.1.1
+        chance = 25
+    }   
+}
+
+fra_blum_character_template = {
+    first_name = Leon
+    last_name = Blum
+    culture = cu:french
+    female = no
+    religion = jewish
+    ideology = ideology_vanguardist
+    interest_group = ig_trade_unions
+    birth_date = 1872.4.9
+	dna = dna_leon_blum
+    traits = {
+        experienced_diplomat
+        meticulous
+		inspirational_orator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions  
+        }   
+        earliest_usage_date = 1920.1.1
+        latest_usage_date = 1935.1.1
+        chance = 50
+    }   
+}
+
+fra_barres_character_template = {
+    first_name = Maurice
+    last_name = Barres
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_fascist
+    interest_group = ig_intelligentsia
+    birth_date = 1862.8.17
+	dna = dna_maurice_barres
+    traits = {
+        bigoted
+        romantic
+		firebrand
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia  
+        }   
+        earliest_usage_date = 1889.1.1
+        latest_usage_date = 1919.1.1
+        chance = 15
+    }   
+}
+
+fra_leygues_character_template = {
+    first_name = Georges
+    last_name = Leygues
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_jingoist_leader
+    interest_group = ig_industrialists
+    birth_date = 1857.10.26
+	dna = dna_georges_leygues
+    traits = {
+        brave
+        reserved
+		meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists 
+        }   
+        earliest_usage_date = 1893.1.1
+        latest_usage_date = 1920.1.1
+        chance = 25
+    }   
+}
+
+fra_maginot_character_template = {
+    first_name = Andre
+    last_name = Maginot
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_industrialists
+    birth_date = 1877.2.17
+	dna = dna_andre_maginot
+    traits = {
+        meticulous
+        expert_defensive_strategist 
+		defense_in_depth_specialist
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists 
+        }   
+        earliest_usage_date = 1910.1.1
+        latest_usage_date = 1932.1.1
+        chance = 25
+    }   
+}
+
+fra_tardieu_character_template = {
+    first_name = Andre
+    last_name = Tardieu
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_pacifist
+    interest_group = ig_landowners
+    birth_date = 1876.9.22
+	dna = dna_andre_tardieu
+    traits = {
+        basic_diplomat
+        basic_political_operator 
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners 
+        }   
+        earliest_usage_date = 1918.1.1
+        latest_usage_date = 1935.1.1
+        chance = 25
+    }   
+}
+
+fra_maurras_character_template = {
+    first_name = Charles
+    last_name = Maurras
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_fascist
+    interest_group = ig_intelligentsia
+    birth_date = 1868.4.20
+	dna = dna_charles_maurras
+    traits = {
+        romantic
+        bigoted 
+		demagogue
+		charismatic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1898.1.1
+        latest_usage_date = 1934.1.1
+        chance = 15
+    }   
+}
+
+fra_durand_character_template = {
+    first_name = Marguerite
+    last_name = Durand
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_feminist
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1864.1.24
+	dna = dna_marguerite_durand
+    traits = {
+        persistent
+        inspirational_orator 
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie 
+        }   
+        earliest_usage_date = 1895.1.1
+        latest_usage_date = 1930.1.1
+        chance = 15
+    }   
+}
+
+fra_aumale_character_template = {
+    first_name = Henri
+    last_name = d_Orleans
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1822.1.16
+	dna = dna_duc_aumale
+    traits = {
+        romantic
+        reserved 
+		popular_commander
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }   
+        earliest_usage_date = 1872.1.1
+        latest_usage_date = 1897.1.1
+        chance = 15
+    }   
+}
+
+fra_dupanloup_character_template = {
+    first_name = Felix
+    last_name = Dupanloup
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_traditionalist
+    interest_group = ig_devout
+    birth_date = 1802.1.3
+	dna = dna_felix_dupanloup
+    traits = {
+        pious
+        romantic 
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_devout
+        }   
+        earliest_usage_date = 1849.1.1
+        latest_usage_date = 1872.1.1
+        chance = 25
+    }   
+}
+
+fra_gueronniere_character_template = {
+    first_name = Arthur
+    last_name = de_La_Gueronniere
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1816.4.6
+	dna = dna_la_guerroniere
+    traits = {
+        experienced_diplomat
+        inspirational_orator
+		romantic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1851.1.1
+        latest_usage_date = 1871.1.1
+        chance = 25
+    }   
+}
+
+fra_ollivier_character_template = {
+    first_name = Emile
+    last_name = Ollivier
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_radical
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1825.7.2
+	dna = dna_emile_ollivier
+    traits = {
+        basic_political_operator
+        direct
+		meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1855.1.1
+        latest_usage_date = 1875.1.1
+        chance = 25
+    }   
+}
+
+fra_pietri_character_template = {
+    first_name = Joseph
+    last_name = Pietri
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_royalist
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1820.2.25
+	dna = dna_joseph_pietri
+    traits = {
+        ambitious
+		bigoted
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1866.1.1
+        latest_usage_date = 1885.1.1
+        chance = 25
+    }   
+}
+
+fra_rouher_character_template = {
+    first_name = Eugene
+    last_name = Rouher
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1814.11.30
+	dna = dna_eugene_rouher
+    traits = {
+        experienced_diplomat
+        meticulous
+		imperious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1870.1.1
+        chance = 25
+    }   
+}
+
+fra_lamartine_character_template = {
+    first_name = Alphonse
+    last_name = de_Lamartine
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_intelligentsia
+    birth_date = 1790.10.21
+	dna = dna_alphonse_lamartine
+    traits = {
+        firebrand
+        direct
+		romantic
+		basic_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1865.1.1
+        chance = 75
+    }   
+}
+
+fra_cremieux_character_template = {
+    first_name = Adolphe
+    last_name = Cremieux
+    culture = cu:french
+    female = no
+    religion = jewish
+    ideology = ideology_pacifist
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1796.4.30
+	dna = dna_adolphe_cremieux
+    traits = {
+        experienced_diplomat
+        persistent
+		tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1875.1.1
+        chance = 25
+    }   
+}
+
+fra_eiffel_character_template = {
+    first_name = Gustave
+    last_name = Eiffel
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_industrialists
+    birth_date = 1832.12.15
+	dna = dna_gustave_eiffel
+    traits = {
+        innovative
+        surveyor
+		meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }   
+        earliest_usage_date = 1878.1.1
+        latest_usage_date = 1913.1.1
+        chance = 15
+    }   
+}
+
+fra_hugo_character_template = {
+    first_name = Victor
+    last_name = Hugo
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_pacifist
+    interest_group = ig_intelligentsia
+    birth_date = 1802.2.26
+	dna = dna_victor_hugo
+    traits = {
+        firebrand
+        charismatic
+		direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1870.1.1
+        latest_usage_date = 1885.1.1
+        chance = 15
+    }   
+}
+
+fra_zola_character_template = {
+    first_name = Emile
+    last_name = Zola
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_rural_folk
+    birth_date = 1840.4.2
+	dna = dna_emile_zola
+    traits = {
+        inspirational_orator
+		romantic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1865.1.1
+        latest_usage_date = 1902.1.1
+        chance = 15
+    }   
+}
+
+fra_berryer_character_template = {
+    first_name = Pierre-Antoine
+    last_name = Berryer
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_radical
+    interest_group = ig_intelligentsia
+    birth_date = 1790.1.4
+	dna = dna_pa_berryer
+    traits = {
+        experienced_political_operator
+        inspirational_orator
+		direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1840.1.1
+        latest_usage_date = 1851.1.1
+        chance = 25
+    }   
+}
+
+fra_dupin_character_template = {
+    first_name = Andre
+    last_name = Dupin_Aine
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_landowners
+    birth_date = 1783.2.1
+	dna = dna_dupin_aine
+    traits = {
+        persistent
+        inspirational_orator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }   
+        earliest_usage_date = 1840.1.1
+        latest_usage_date = 1852.1.1
+        chance = 25
+    }   
+}
+
+fra_feuillet_character_template = {
+    first_name = Octave
+    last_name = Feuillet
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_intelligentsia
+    birth_date = 1821.8.10
+	dna = dna_octave_feuillet
+    traits = {
+        inspirational_orator
+		romantic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1852.1.1
+        latest_usage_date = 1871.1.1
+        chance = 5
+    }   
+}
+
+fra_fortoul_character_template = {
+    first_name = Hippolyte
+    last_name = Fortoul
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_rural_folk
+    birth_date = 1811.8.13
+	dna = dna_hippolyte_fortoul
+    traits = {
+        experienced_diplomat
+        inspirational_orator
+		romantic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1856.7.7
+        chance = 25
+    }   
+}
+
+fra_haussmann_character_template = {
+    first_name = Georges_Eugene
+    last_name = Haussmann
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_industrialists
+    birth_date = 1809.3.27
+	dna = dna_baron_haussmann
+    traits = {
+        innovative
+        meticulous
+		imperious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }   
+        earliest_usage_date = 1853.1.1
+        latest_usage_date = 1877.1.1
+        chance = 15
+    }   
+}
+
+fra_louvet_character_template = {
+    first_name = Charles
+    last_name = Louvet
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_rural_folk
+    birth_date = 1806.10.22
+	dna = dna_charles_louvet
+    traits = {
+        basic_political_operator
+        inspirational_orator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1849.1.1
+        latest_usage_date = 1870.1.1
+        chance = 25
+    }   
+}
+
+fra_persigny_character_template = {
+    first_name = Victor
+    last_name = de_Persigny
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1808.1.11
+	dna = dna_victor_persigny
+    traits = {
+        experienced_political_operator
+        meticulous
+		persistent
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1870.1.1
+        chance = 25
+    }   
+}
+
+fra_augagneur_character_template = {
+    first_name = Jean-Victor
+    last_name = Augagneur
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_traditionalist
+    interest_group = ig_rural_folk
+    birth_date = 1855.5.16
+	dna = dna_victor_augagneur
+    traits = {
+        ambitious
+        basic_colonial_administrator
+		bigoted
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1904.1.1
+        latest_usage_date = 1931.1.1
+        chance = 25
+    }   
+}
+
+fra_barthou_character_template = {
+    first_name = Louis
+    last_name = Barthou
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1862.8.25
+	dna = dna_louis_barthou
+    traits = {
+        experienced_diplomat
+        basic_political_operator
+		tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1913.1.1
+        latest_usage_date = 1934.1.1
+        chance = 25
+    }   
+}
+
+fra_brisson_character_template = {
+    first_name = Henri
+    last_name = Brisson
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_pacifist
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1835.7.31
+	dna = dna_henri_brisson
+    traits = {
+        basic_political_operator
+        demagogue
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1871.1.1
+        latest_usage_date = 1898.1.1
+        chance = 25
+    }   
+}
+
+fra_buisson_character_template = {
+    first_name = Ferdinand
+    last_name = Buisson
+    culture = cu:french
+    female = no
+    religion = protestant
+    ideology = ideology_feminist
+    interest_group = ig_rural_folk
+    birth_date = 1816.4.6
+	dna = dna_ferdinand_buisson
+    traits = {
+        masterful_diplomat_diplomat
+        direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1898.1.1
+        latest_usage_date = 1906.1.1
+        chance = 25
+    }   
+}
+
+fra_burdeau_character_template = {
+    first_name = Auguste
+    last_name = Burdeau
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_jingoist_leader
+    interest_group = ig_landowners
+    birth_date = 1851.9.10
+	dna = dna_auguste_burdeau
+    traits = {
+        expert_colonial_administrator
+        meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }   
+        earliest_usage_date = 1892.1.1
+        latest_usage_date = 1900.1.1
+        chance = 25
+    }   
+}
+
+fra_caillaux_character_template = {
+    first_name = Joseph
+    last_name = Caillaux
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_industrialists
+    birth_date = 1863.3.30
+	dna = dna_joseph_caillaux
+    traits = {
+        basic_political_operator
+        cautious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }   
+        earliest_usage_date = 1898.1.1
+        latest_usage_date = 1920.1.1
+        chance = 25
+    }   
+}
+
+fra_casimirperrier_character_template = {
+    first_name = Jean
+    last_name = Casimir-Perrier
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1847.11.8
+	dna = dna_casimir_perier
+    traits = {
+        experienced_political_operator
+        bigoted
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }   
+        earliest_usage_date = 1876.1.1
+        latest_usage_date = 1900.1.1
+        chance = 25
+    }   
+}
+
+fra_cassagnac_character_template = {
+    first_name = Paul
+    last_name = de_Cassagnac
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1842.12.2
+	dna = dna_paul_cassagnac
+    traits = {
+        direct
+        inspirational_orator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }   
+        earliest_usage_date = 1877.1.1
+        latest_usage_date = 1900.1.1
+        chance = 25
+    }   
+}
+
+fra_chautemps_character_template = {
+    first_name = Camille
+    last_name = Chautemps
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_vanguardist
+    interest_group = ig_rural_folk
+    birth_date = 1885.2.1
+	dna = dna_cam_chautemps
+    traits = {
+        experienced_political_operator
+        demagogue
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1928.1.1
+        latest_usage_date = 1935.1.1
+        chance = 25
+    }   
+}
+
+fra_doumer_character_template = {
+    first_name = Paul
+    last_name = Doumer
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_intelligentsia
+    birth_date = 1857.3.22
+	dna = dna_paul_doumer
+    traits = {
+        experienced_political_operator
+        demagogue
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1888.1.1
+        latest_usage_date = 1930.1.1
+        chance = 25
+    }   
+}
+
+fra_doumergue_character_template = {
+    first_name = Gaston
+    last_name = Doumergue
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_pacifist
+    interest_group = ig_industrialists
+    birth_date = 1863.8.1
+	dna = dna_gaston_doumergue
+    traits = {
+        experienced_political_operator
+        firebrand
+		persistent
+		direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }   
+        earliest_usage_date = 1893.1.1
+        latest_usage_date = 1924.1.1
+        chance = 25
+    }   
+}
+
+fra_duclerc_character_template = {
+    first_name = Charles
+    last_name = Duclerc
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_rural_folk
+    birth_date = 1812.11.9
+	dna = dna_charles_duclerc
+    traits = {
+        basic_political_operator
+		reserved
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1871.1.1
+        latest_usage_date = 1883.1.1
+        chance = 25
+    }   
+}
+
+fra_dufaure_character_template = {
+    first_name = Jules
+    last_name = Dufaure
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_industrialists
+    birth_date = 1798.12.4
+	dna = dna_jules_dufaure
+    traits = {
+        experienced_political_operator
+        senile
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }   
+        earliest_usage_date = 1871.1.1
+        latest_usage_date = 1876.1.1
+        chance = 25
+    }   
+}
+
+fra_estournelles_character_template = {
+    first_name = Paul
+    last_name = d_Estournelles_de_Constant
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_pacifist
+    interest_group = ig_landowners
+    birth_date = 1852.11.22
+	dna = dna_estournelles_constant
+    traits = {
+        masterful_diplomat
+        charismatic
+		direct
+		meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }   
+        earliest_usage_date = 1899.1.1
+        latest_usage_date = 1920.1.1
+        chance = 15
+    }   
+}
+
+fra_favre_character_template = {
+    first_name = Jules
+    last_name = Favre
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_intelligentsia
+    birth_date = 1809.3.21
+	dna = dna_jules_favre
+    traits = {
+        experienced_diplomat
+        tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1870.1.1
+        latest_usage_date = 1876.1.1
+        chance = 25
+    }   
+}
+
+fra_flourens_character_template = {
+    first_name = Emile
+    last_name = Flourens
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_pacifist
+    interest_group = ig_intelligentsia
+    birth_date = 1841.4.27
+	dna = dna_emile_flourens
+    traits = {
+        direct
+        basic_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1886.1.1
+        latest_usage_date = 1914.1.1
+        chance = 25
+    }   
+}
+
+fra_grevy_character_template = {
+    first_name = Jules
+    last_name = Grevy
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_pacifist
+    interest_group = ig_industrialists
+    birth_date = 1807.8.15
+	dna = dna_jules_grevy
+    traits = {
+        experienced_diplomat
+        reserved
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }   
+        earliest_usage_date = 1873.1.1
+        latest_usage_date = 1887.1.1
+        chance = 25
+    }   
+}
+
+fra_herriot_character_template = {
+    first_name = Edouard
+    last_name = Herriot
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_vanguardist
+    interest_group = ig_trade_unions
+    birth_date = 1872.7.5
+	dna = dna_edouard_herriot
+    traits = {
+        experienced_political_operator
+        direct
+		meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }   
+        earliest_usage_date = 1916.1.1
+        latest_usage_date = 1935.1.1
+        chance = 25
+    }   
+}
+
+fra_lemire_character_template = {
+    first_name = Jules-Auguste
+    last_name = Lemire
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_devout
+    birth_date = 1853.4.23
+	dna = dna_abbe_lemire
+    traits = {
+        innovative
+        basic_diplomat
+		tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_devout
+        }   
+        earliest_usage_date = 1893.1.1
+        latest_usage_date = 1918.1.1
+        chance = 25
+    }   
+}
+
+fra_loubet_character_template = {
+    first_name = Emile
+    last_name = Loubet
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_atheist
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1838.12.30
+	dna = dna_emile_loubet
+    traits = {
+        experienced_diplomat
+        inspirational_orator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1876.1.1
+        latest_usage_date = 1914.1.1
+        chance = 25
+    }   
+}
+
+fra_meline_character_template = {
+    first_name = Jules
+    last_name = Meline
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_rural_folk
+    birth_date = 1838.5.20
+	dna = dna_jules_meline
+    traits = {
+        basic_political_operator
+		wrathful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1886.1.1
+        latest_usage_date = 1918.1.1
+        chance = 25
+    }   
+}
+
+fra_pyat_character_template = {
+    first_name = Felix
+    last_name = Pyat
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_communist
+    interest_group = ig_trade_unions
+    birth_date = 1810.10.4
+	dna = dna_felix_pyat
+    traits = {
+        brave
+        bandit
+		popular_commander
+		demagogue
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }   
+        earliest_usage_date = 1869.1.1
+        latest_usage_date = 1888.1.1
+        chance = 15
+    }   
+}
+
+fra_reynaud_character_template = {
+    first_name = Paul
+    last_name = Reynaud
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_traditionalist
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1878.10.15
+	dna = dna_paul_reynaud
+    traits = {
+        experienced_political_operator
+		persistent
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1928.1.1
+        latest_usage_date = 1935.1.1
+        chance = 25
+    }   
+}
+
+fra_siegfried_character_template = {
+    first_name = Jules
+    last_name = Siegfried
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_feminist
+    interest_group = ig_trade_unions
+    birth_date = 1837.2.12
+	dna = dna_jules_siegfried
+    traits = {
+        basic_political_operator
+        inspirational_orator
+		direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }   
+        earliest_usage_date = 1886.1.1
+        latest_usage_date = 1918.1.1
+        chance = 25
+    }   
+}
+
+fra_simon_character_template = {
+    first_name = Jules
+    last_name = Simon
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1814.12.27
+	dna = dna_jules_simon
+    traits = {
+        reserved
+        basic_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1876.1.1
+        latest_usage_date = 1890.1.1
+        chance = 25
+    }   
+}
+
+fra_viviani_character_template = {
+    first_name = Rene
+    last_name = Viviani
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_feminist
+    interest_group = ig_intelligentsia
+    birth_date = 1863.11.8
+	dna = dna_rene_viviani
+    traits = {
+        experienced_political_operator
+        demagogue
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1900.1.1
+        latest_usage_date = 1920.1.1
+        chance = 25
+    }   
+}
+
+fra_wetterle_character_template = {
+    first_name = Emile
+    last_name = Wetterle
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_devout
+    birth_date = 1861.4.2
+	dna = dna_abbe_wetterle
+    traits = {
+        direct
+        inspirational_orator
+		basic_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_devout
+        }   
+        earliest_usage_date = 1918.1.1
+        latest_usage_date = 1935.1.1
+        chance = 25
+    }   
+}
+
+fra_thorez_character_template = {
+    first_name = Arthur
+    last_name = de_La_Gueronniere
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_communist
+    interest_group = ig_trade_unions
+    birth_date = 1900.04.23
+	dna = dna_maurice_thorez
+    traits = {
+        firebrand
+		wrathful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }   
+        earliest_usage_date = 1930.1.1
+        latest_usage_date = 1935.1.1
+        chance = 25
+    }   
+}
+
+fra_armand_barbes_template = {
+    first_name = Armand
+    last_name = Barbes
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_radical
+    interest_group = ig_trade_unions
+    birth_date = 1809.9.18
+	dna = dna_armand_barbes
+    traits = {
+        bandit
+		ambitious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }   
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1849.1.1
+        chance = 25
+    }   
+}
+
+fra_amable_courtais_template = {
+    first_name = Amable
+    last_name = de_Courtais
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_armed_forces
+    birth_date = 1790.1.10
+	dna = dna_amable_courtais
+    traits = {
+        reserved
+		stalwart_defender
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_armed_forces
+        }   
+        earliest_usage_date = 1842.1.1
+        latest_usage_date = 1849.1.1
+        chance = 25
+    }   
+}
+
+fra_armand_marrast_template = {
+    first_name = Armand
+    last_name = Marrast
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1801.6.5
+	dna = dna_armand_marrast
+    traits = {
+        direct
+		basic_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1849.5.14
+        chance = 25
+    }   
+}
+
+fra_victor_schoelcher_template = {
+    first_name = Victor
+    last_name = Schoelcher
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_abolitionist
+    interest_group = ig_rural_folk
+    birth_date = 1804.7.22
+	dna = dna_victor_schoelcher
+    traits = {
+        inspirational_orator
+		persistent
+		tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1842.1.1
+        latest_usage_date = 1877.1.1
+        chance = 25
+    }   
+}
+
+fra_alexandre_martin_template = {
+    first_name = Alexandre
+    last_name = Martin
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_vanguardist
+    interest_group = ig_trade_unions
+    birth_date = 1815.3.27
+	dna = dna_alexandre_martin
+    traits = {
+        charismatic
+		cautious
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1870.1.1
+        chance = 25
+    }   
+}
+
+fra_ferdinand_flocon_template = {
+    first_name = Ferdinand
+    last_name = Flocon
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1800.11.1
+	dna = dna_ferdinand_flocon
+    traits = {
+        demagogue
+		experienced_political_operator
+		persistent
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1843.1.1
+        latest_usage_date = 1851.12.2
+        chance = 25
+    }   
+}
+
+fra_prince_joinville_template = {
+    first_name = Francois
+    last_name = d_Orleans
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1818.8.14
+	dna = dna_prince_joinvile
+    traits = {
+        experienced_naval_commander
+		tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }   
+        earliest_usage_date = 1840.1.1
+        latest_usage_date = 1871.1.1
+        chance = 25
+    }   
+}
+
+fra_francois_arago_template = {
+    first_name = Francois
+    last_name = Arago
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_intelligentsia
+    birth_date = 1786.2.26
+	dna = dna_francois_arago
+    traits = {
+        meticulous
+		basic_political_operator
+		innovative
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1846.1.1
+        latest_usage_date = 1852.1.1
+        chance = 25
+    }   
+}
+
+fra_charles_remusat_template = {
+    first_name = Charles
+    last_name = de_Remusat
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_landowners
+    birth_date = 1797.3.13
+	dna = dna_charles_remusat
+    traits = {
+        romantic
+		charismatic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1871.1.1
+        chance = 25
+    }   
+}
+
+fra_alfred_falloux_template = {
+    first_name = Alfred
+    last_name = de_Falloux
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1811.5.8
+	dna = dna_alfred_falloux
+    traits = {
+        bigoted
+		experienced_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1870.1.1
+        chance = 25
+    }   
+}
+
+fra_leon_maleville_template = {
+    first_name = Leon
+    last_name = de_Maleville
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_royalist
+    interest_group = ig_industrialists
+    birth_date = 1803.5.8
+	dna = dna_leon_maleville
+    traits = {
+        basic_political_operator
+		persistent
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1875.1.1
+        chance = 25
+    }   
+}
+
+fra_charles_montalembert_template = {
+    first_name = Charles_Forbes
+    last_name = de_Montalembert
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_royalist
+    interest_group = ig_intelligentsia
+    birth_date = 1810.4.15
+	dna = dna_charles_montalembert
+    traits = {
+        experienced_diplomat
+		romantic
+		inspirational_orator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1837.1.1
+        latest_usage_date = 1868.8.26
+        chance = 25
+    }   
+}
+
+fra_garnier_pages_template = {
+    first_name = Louis-Antoine
+    last_name = Garnier-Pages
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_industrialists
+    birth_date = 1803.2.16
+	dna = dna_garnier_pages
+    traits = {
+        demagogue
+		experienced_political_operator
+		persistent
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1857.1.1
+        chance = 25
+    }   
+}
+
+fra_pe_proudhon_template = {
+    first_name = Pierre-Joseph
+    last_name = Proudhon
+    culture = cu:french
+    female = no
+    religion = catholic
+    ideology = ideology_anarchist
+    interest_group = ig_trade_unions
+    birth_date = 1800.11.1
+	dna = dna_pe_proudhon
+    traits = {
+        demagogue
+		direct
+		persistent
+		experienced_diplomat
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRA
+            this = c:FRA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }   
+        earliest_usage_date = 1840.1.1
+        latest_usage_date = 1865.1.19
+        chance = 25
+    }   
+}
