@@ -32,7 +32,7 @@ aus_admiral_tegetthoff = {
 		role = admiral
 		earliest_usage_date = 1854.1.1
 		latest_usage_date = 1880.1.1	
-		chance = 50
+		chance = 90
 	}
 }
 aus_admiral_archduke_friedrich = {
@@ -72,7 +72,7 @@ aus_admiral_archduke_friedrich = {
 		role = admiral
 		earliest_usage_date = 1840.1.1
 		latest_usage_date = 1870.1.1	
-		chance = 50
+		chance = 90
 	}
 }
 aus_general_von_windisch_gratz = {
@@ -106,7 +106,7 @@ aus_general_von_windisch_gratz = {
 		role = general
 		earliest_usage_date = 1836.1.1
 		latest_usage_date = 1850.1.1	
-		chance = 50
+		chance = 90
 	}
 }
 aus_general_von_hotzendorf = {
@@ -142,7 +142,7 @@ aus_general_von_hotzendorf = {
 		role = general
 		earliest_usage_date = 1876.1.1
 		latest_usage_date = 1925.1.1
-		chance = 50
+		chance = 90
 	}
 }
 aus_general_boroevic = {
@@ -184,7 +184,7 @@ aus_general_boroevic = {
 		role = general
 		earliest_usage_date = 1896.1.1
 		latest_usage_date = 1927.1.1	
-		chance = 50
+		chance = 90
 	}
 }
 aus_general_von_benedek = {
@@ -220,7 +220,7 @@ aus_general_von_benedek = {
 		role = general
 		earliest_usage_date = 1896.1.1
 		latest_usage_date = 1927.1.1	
-		chance = 50
+		chance = 90
 	}
 }
 aus_general_von_habsburg_lothringen = {
@@ -245,7 +245,7 @@ aus_general_von_habsburg_lothringen = {
 		role = general
 		earliest_usage_date = 1836.1.1
 		latest_usage_date = 1869.1.1	
-		chance = 50
+		chance = 90
 	}
 }
 aus_general_urban = {
@@ -1136,6 +1136,425 @@ aus_general_prokesch = {
 		role = general
 		earliest_usage_date = 1836.1.1
 		latest_usage_date = 1876.1.1	
+		chance = 50
+	}
+}
+aus_admiral_wullerstorf = {
+	first_name = Bernhard
+	last_name = von_Wullerstorf-Urbai
+	culture = cu:south_german
+	female = no
+	ideology = ideology_market_liberal
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1816.1.29
+	dna = dna_von_wullerstorf
+	traits = {
+		explorer
+		celebrity_commander
+		experienced_naval_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:AUS 
+			this = c:AUS
+		}
+		role = admiral
+		earliest_usage_date = 1857.1.1
+		latest_usage_date = 1883.1.1	
+		chance = 50
+	}
+}
+aus_admiral_spaun = {
+	first_name = Hermann
+	last_name = von_Spaun
+	culture = cu:south_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1833.5.9
+	dna = dna_von_spaun
+	traits = {
+		dockyard_master
+		surveyor
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:AUS 
+			this = c:AUS
+		}
+		role = admiral
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1904.1.1	
+		chance = 50
+	}
+}
+aus_admiral_haus = {
+	first_name = Anton
+	last_name = Haus
+	culture = cu:south_german
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1851.6.13
+	dna = dna_von_haus
+	traits = {
+		experienced_naval_commander
+		popular_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:AUS 
+			this = c:AUS
+		}
+		role = admiral
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1917.1.1	
+		chance = 50
+	}
+}
+
+# Hungary - HUN
+hun_admiral_horthy = {
+	first_name = Miklos
+	last_name = Horthy
+	culture = cu:hungarian
+	female = no
+	ideology = ideology_ethno_nationalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1868.5.18
+	dna = dna_miklos_horthy
+	traits = {
+		experienced_naval_commander
+		celebrity_commander
+		bigoted
+
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:HUN 
+					this = c:HUN
+				}
+				AND = { 
+					NOT = { exists = c:HUN } 
+					exists = c:AUS 
+					this = c:AUS 
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1911.1.1
+		latest_usage_date = 1936.1.1	
+		chance = 50
+	}
+}
+hun_general_gorgey = {
+	first_name = Artur
+	last_name = Gorgey
+	culture = cu:hungarian
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1818.1.30
+	dna = dna_gorgey
+	traits = {
+		expert_artillery_commander
+		celebrity_commander
+		meticulous
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN 
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1895.1.1	
+		chance = 50
+	}
+}
+hun_general_gyulai = {
+	first_name = Ferencz
+	last_name = Gyulai
+	culture = cu:hungarian
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1798.9.1
+	dna = dna_gyulai
+	traits = {
+		basic_diplomat
+		expert_artillery_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:HUN 
+					this = c:HUN
+				}
+				AND = { 
+					NOT = { exists = c:HUN } 
+					exists = c:AUS 
+					this = c:AUS 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1839.1.1
+		latest_usage_date = 1868.1.1	
+		chance = 50
+	}
+}
+hun_general_hazai = {
+	first_name = Samu
+	last_name = Hazai
+	culture = cu:hungarian
+	female = no
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1851.12.26
+	dna = dna_hazai
+	traits = {
+		defense_in_depth_specialist
+		basic_artillery_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:HUN 
+					this = c:HUN
+				}
+				AND = { 
+					NOT = { exists = c:HUN } 
+					exists = c:AUS 
+					this = c:AUS 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1936.1.1	
+		chance = 50
+	}
+}
+hun_general_novak = {
+	first_name = Elemer
+	last_name = Gorondy-Novak
+	culture = cu:hungarian
+	female = no
+	ideology = ideology_ethno_nationalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1885.2.23
+	dna = dna_novak
+	traits = {
+		basic_offensive_planner
+		experienced_artillery_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:HUN 
+					this = c:HUN
+				}
+				AND = { 
+					NOT = { exists = c:HUN } 
+					exists = c:AUS 
+					this = c:AUS 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1918.1.1
+		latest_usage_date = 1936.1.1	
+		chance = 50
+	}
+}
+
+# Czech - CZH
+czh_general_syrovy = {
+	first_name = Jan
+	last_name = Syrovy
+	culture = cu:czech
+	female = no
+	ideology = ideology_ethno_nationalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1888.1.24
+	dna = dna_syrovy
+	traits = {
+		basic_offensive_planner
+		bigoted
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:CZH 
+					this = c:CZH
+				}
+				AND = { 
+					NOT = { exists = c:CZH } 
+					exists = c:AUS 
+					this = c:AUS 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1936.1.1	
+		chance = 50
+	}
+}
+
+# Croatia - CRO
+cro_general_jelacic = {
+	first_name = Josip
+	last_name = Jelacic
+	culture = cu:croat
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1801.10.16
+	dna = dna_jelacic
+	traits = {
+		basic_offensive_planner
+		meticulous
+		ambitious
+		tactful
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:CRO 
+					this = c:CRO
+				}
+				AND = { 
+					NOT = { exists = c:CRO } 
+					exists = c:AUS 
+					this = c:AUS 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1842.1.1
+		latest_usage_date = 1859.1.1	
+		chance = 50
+	}
+}
+cro_general_sarkotic = {
+	first_name = Stjepan
+	last_name = Sarkotic
+	culture = cu:croat	
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1858.10.4
+	dna = dna_sarkotic
+	traits = {
+		traditionalist_commander
+		experienced_artillery_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:CRO 
+					this = c:CRO
+				}
+				AND = { 
+					NOT = { exists = c:CRO } 
+					exists = c:AUS 
+					this = c:AUS 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1901.1.1
+		latest_usage_date = 1936.1.1	
+		chance = 50
+	}
+}
+slo_general_potiorek = {
+	first_name = Oskar
+	last_name = Potiorek
+	culture = cu:slovene
+	female = no
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1853.11.20
+	dna = dna_potiorek
+	traits = {
+		resupply_commander
+		reserved
+		ambitious
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:SLO 
+					this = c:SLO
+				}
+				AND = { 
+					NOT = { exists = c:SLO } 
+					exists = c:AUS 
+					this = c:AUS 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1906.1.1
+		latest_usage_date = 1933.1.1	
+		chance = 50
+	}
+}
+cro_admiral_njegovan = {
+	first_name = Maksimilijan
+	last_name = Njegovan
+	culture = cu:croat
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1858.10.30
+	dna = dna_njegovan
+	traits = {
+		dockyard_master
+		convoy_raider_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:CRO 
+					this = c:CRO
+				}
+				AND = { 
+					NOT = { exists = c:CRO } 
+					exists = c:AUS 
+					this = c:AUS 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1911.1.1
+		latest_usage_date = 190.1.1	
 		chance = 50
 	}
 }

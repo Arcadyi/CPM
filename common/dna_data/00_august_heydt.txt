@@ -114,5 +114,4 @@ dna_august_heydt = {
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  }
 	entity={ 0 0 }
-}
-}
+}}

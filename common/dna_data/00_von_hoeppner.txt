@@ -116,5 +116,4 @@ dna_von_hoeppner = {
  		aiguillettes={ "no_aiguillettes" 0 "all_aiguillettes" 0 }
  }
 	entity={ 0 0 }
-}
-}
+}}

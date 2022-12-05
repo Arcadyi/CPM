@@ -115,5 +115,4 @@ dna_admiral_scheer = {
  		belts={ "no_belt" 0 "all_belts" 0 }
  }
 	entity={ 0 0 }
-}
-}
+}}

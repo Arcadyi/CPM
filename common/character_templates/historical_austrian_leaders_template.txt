@@ -951,3 +951,825 @@ aus_lueger_character_template = {
         chance = 25
     }   
 }
+aus_adler_character_template = {
+    first_name = Friedrich
+    last_name = Adler
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_vanguardist
+    interest_group = ig_trade_unions
+    birth_date = 1879.7.8
+	dna = dna_friedrich_adler
+    traits = {
+        inspirational_orator
+		tactful
+		bandit
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }   
+        earliest_usage_date = 1911.1.1
+        latest_usage_date = 1936.1.1
+        chance = 25
+    }   
+}
+aus_bohm_bawerk_character_template = {
+    first_name = Eugen
+    last_name = von_Bohm_Bawerk
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_industrialists
+    birth_date = 1851.2.12
+	dna = dna_bohm_bawerk
+    traits = {
+        innovative
+		meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }   
+        earliest_usage_date = 1889.1.1
+        latest_usage_date = 1914.1.1
+        chance = 25
+    }   
+}
+aus_menger_character_template = {
+    first_name = Carl
+    last_name = Menger
+    culture = cu:south_german
+    female = no
+    religion = catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_intelligentsia
+    birth_date = 1840.2.23
+	dna = dna_carl_menger
+    traits = {
+        innovative
+		persistent
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:AUS
+            this = c:AUS
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1876.1.1
+        latest_usage_date = 1921.1.1
+        chance = 25
+    }   
+}
+
+# Hungary - HUN
+hun_andrassy_character_template = {
+    first_name = Gyula
+    last_name = Andrassy
+    culture = cu:hungarian
+    female = no
+    religion = catholic
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1823.3.8
+	dna = dna_gyula_andrassy
+    traits = {
+        expert_political_operator
+		experienced_diplomat
+		tactful
+		romantic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:HUN
+                    this = c:HUN
+                }
+                AND = { 
+                    NOT = { exists = c:HUN }
+                    exists = c:AUS
+                    this = c:AUS
+                    c:AUS = { owns_entire_state_region = STATE_CENTRAL_HUNGARY }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners  
+        }   
+        earliest_usage_date = 1857.1.1
+        latest_usage_date = 1890.1.1
+        chance = 75
+    }   
+}
+hun_deak_character_template = {
+    first_name = Ferenc
+    last_name = Deak
+    culture = cu:hungarian
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1803.10.17
+	dna = dna_deak
+    traits = {
+		masterful_diplomat
+		persistent
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:HUN
+                    this = c:HUN
+                }
+                AND = { 
+                    NOT = { exists = c:HUN }
+                    exists = c:AUS
+                    this = c:AUS
+                    c:AUS = { owns_entire_state_region = STATE_CENTRAL_HUNGARY }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1876.1.1
+        chance = 50
+    }   
+}
+hun_szapary_character_template = {
+    first_name = Gyula
+    last_name = Szapary
+    culture = cu:hungarian
+    female = no
+    religion = catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_rural_folk
+    birth_date = 1832.11.1
+	dna = dna_szapary
+    traits = {
+		meticulous
+		basic_political_operator
+		innovative
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:HUN
+                    this = c:HUN
+                }
+                AND = { 
+                    NOT = { exists = c:HUN }
+                    exists = c:AUS
+                    this = c:AUS
+                    c:AUS = { owns_entire_state_region = STATE_CENTRAL_HUNGARY }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1848.1.1
+        latest_usage_date = 1876.1.1
+        chance = 50
+    }   
+}
+hun_wekerle_character_template = {
+    first_name = Sandor
+    last_name = Wekerle
+    culture = cu:hungarian
+    female = no
+    religion = catholic
+    ideology = ideology_radical
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1848.11.14
+	dna = dna_wekerle
+    traits = {
+		experienced_diplomat
+		meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:HUN
+                    this = c:HUN
+                }
+                AND = { 
+                    NOT = { exists = c:HUN }
+                    exists = c:AUS
+                    this = c:AUS
+                    c:AUS = { owns_entire_state_region = STATE_CENTRAL_HUNGARY }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1886.1.1
+        latest_usage_date = 1921.1.1
+        chance = 50
+    }   
+}
+hun_tisza_character_template = {
+    first_name = Istvan
+    last_name = Tisza
+    culture = cu:hungarian
+    female = no
+    religion = catholic
+    ideology = ideology_traditionalist
+    interest_group = ig_industrialists
+    birth_date = 1861.4.22
+	dna = dna_tisza
+    traits = {
+		expert_political_operator
+		imperious
+		tactful
+		charismatic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:HUN
+                    this = c:HUN
+                }
+                AND = { 
+                    NOT = { exists = c:HUN }
+                    exists = c:AUS
+                    this = c:AUS
+                    c:AUS = { owns_entire_state_region = STATE_CENTRAL_HUNGARY }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }   
+        earliest_usage_date = 1895.1.1
+        latest_usage_date = 1918.1.1
+        chance = 50
+    }   
+}
+hun_kun_character_template = {
+    first_name = Bela
+    last_name = Kun
+    culture = cu:hungarian
+    female = no
+    religion = jewish
+    ideology = ideology_communist
+    interest_group = ig_trade_unions
+    birth_date = 1886.2.20
+	dna = dna_kun
+    traits = {
+		direct
+		cruel
+		experienced_diplomat
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:HUN
+            this = c:HUN
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }   
+        earliest_usage_date = 1918.1.1
+        latest_usage_date = 1936.1.1
+        chance = 50
+    }   
+}
+hun_karolyi_character_template = {
+    first_name = Mihaly
+    last_name = Karolyi
+    culture = cu:hungarian
+    female = no
+    religion = catholic
+    ideology = ideology_pacifist
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1875.3.4
+	dna = dna_karolyi
+    traits = {
+		tactful
+		experienced_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:HUN
+            this = c:HUN
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1914.1.1
+        latest_usage_date = 1936.1.1
+        chance = 50
+    }   
+}
+hun_garbai_character_template = {
+    first_name = Sandor
+    last_name = Garbai
+    culture = cu:hungarian
+    female = no
+    religion = protestant
+    ideology = ideology_vanguardist
+    interest_group = ig_trade_unions
+    birth_date = 1879.3.27
+	dna = dna_garbai
+    traits = {
+		basic_political_operator
+		reserved
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:HUN
+            this = c:HUN
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }   
+        earliest_usage_date = 1908.1.1
+        latest_usage_date = 1936.1.1
+        chance = 50
+    }   
+}
+hun_peidl_character_template = {
+    first_name = Gyula
+    last_name = Peidl
+    culture = cu:hungarian
+    female = no
+    religion = catholic
+    ideology = ideology_social_democrat
+    interest_group = ig_trade_unions
+    birth_date = 1873.4.4
+	dna = dna_peidl
+    traits = {
+		expert_political_operator
+		meticulous
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:HUN
+            this = c:HUN
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }   
+        earliest_usage_date = 1919.1.1
+        latest_usage_date = 1931.1.1
+        chance = 50
+    }   
+}
+hun_berinkey_character_template = {
+    first_name = Denes
+    last_name = Berinkey
+    culture = cu:hungarian
+    female = no
+    religion = catholic
+    ideology = ideology_social_democrat
+    interest_group = ig_industrialists
+    birth_date = 1871.10.17
+	dna = dna_berinkey
+    traits = {
+		basic_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:HUN
+            this = c:HUN
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }   
+        earliest_usage_date = 1919.1.1
+        latest_usage_date = 1936.1.1
+        chance = 50
+    }   
+}
+hun_burian_character_template = {
+    first_name = Stephan
+    last_name = Burian_von_Rajecz
+    culture = cu:hungarian
+    female = no
+    religion = catholic
+    ideology = ideology_moderate
+    interest_group = ig_industrialists
+    birth_date = 1851.1.16
+	dna = dna_burian
+    traits = {
+		basic_diplomat
+		persistent
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:HUN
+                    this = c:HUN
+                }
+                AND = { 
+                    NOT = { exists = c:HUN }
+                    exists = c:AUS
+                    this = c:AUS
+                    c:AUS = { owns_entire_state_region = STATE_CENTRAL_HUNGARY }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_industrialists
+        }   
+        earliest_usage_date = 1914.1.1
+        latest_usage_date = 1922.1.1
+        chance = 50
+    }   
+}
+hun_kossuth_character_template = {
+    first_name = Lajos
+    last_name = Kossuth
+    culture = cu:hungarian
+    female = no
+    religion = protestant
+    ideology = ideology_republican_leader
+    interest_group = ig_rural_folk
+    birth_date = 1802.9.19
+	dna = dna_kossuth
+    traits = {
+		expert_political_operator
+		firebrand
+		charismatic
+		direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:HUN
+                    this = c:HUN
+                }
+                AND = { 
+                    NOT = { exists = c:HUN }
+                    exists = c:AUS
+                    this = c:AUS
+                    c:AUS = { owns_entire_state_region = STATE_CENTRAL_HUNGARY }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1847.1.1
+        latest_usage_date = 1880.1.1
+        chance = 50
+    }   
+}
+hun_batthyany_character_template = {
+    first_name = Lajos
+    last_name = Batthyany
+    culture = cu:hungarian
+    female = no
+    religion = catholic
+    ideology = ideology_reformer
+    interest_group = ig_landowners
+    birth_date = 1807.2.10
+	dna = dna_batthyany
+    traits = {
+		experienced_political_operator
+		inspirational_orator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:HUN
+                    this = c:HUN
+                }
+                AND = { 
+                    NOT = { exists = c:HUN }
+                    exists = c:AUS
+                    this = c:AUS
+                    c:AUS = { owns_entire_state_region = STATE_CENTRAL_HUNGARY }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_landowners
+        }   
+        earliest_usage_date = 1839.1.1
+        latest_usage_date = 1849.1.1
+        chance = 50
+    }   
+}
+hun_szamuely_character_template = {
+    first_name = Tibor
+    last_name = Szamuely
+    culture = cu:hungarian
+    female = no
+    religion = catholic
+    ideology = ideology_communist
+    interest_group = ig_trade_unions
+    birth_date = 1890.12.27
+	dna = dna_szamuely
+    traits = {
+		direct
+		tactful
+		charismatic
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:HUN
+            this = c:HUN
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }   
+        earliest_usage_date = 1918.1.1
+        latest_usage_date = 1936.1.1
+        chance = 50
+    }   
+}
+hun_bardossy_character_template = {
+    first_name = Laszlo
+    last_name = Bardossy
+    culture = cu:hungarian
+    female = no
+    religion = catholic
+    ideology = ideology_fascist
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1890.12.10
+	dna = dna_bardossy
+    traits = {
+		experienced_political_operator
+		basic_diplomat
+		bigoted
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:HUN
+            this = c:HUN
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1922.1.1
+        latest_usage_date = 1936.1.1
+        chance = 50
+    }   
+}
+
+# Czech - CZH
+czh_benes_character_template = {
+    first_name = Edvard
+    last_name = Benes
+    culture = cu:czech
+    female = no
+    religion = catholic
+    ideology = ideology_radical
+    interest_group = ig_rural_folk
+    birth_date = 1884.5.28
+	dna = dna_benes
+    traits = {
+		experienced_diplomat
+		persistent
+		experienced_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:CZH
+            this = c:CZH
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1918.1.1
+        latest_usage_date = 1936.1.1
+        chance = 50
+    }   
+}
+czh_svehla_character_template = {
+    first_name = Antonin
+    last_name = Svehla
+    culture = cu:czech
+    female = no
+    religion = catholic
+    ideology = ideology_market_liberal
+    interest_group = ig_rural_folk
+    birth_date = 1873.4.15
+	dna = dna_svehla
+    traits = {
+		meticulous
+		experienced_political_operator
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:CZH
+            this = c:CZH
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1918.1.1
+        latest_usage_date = 1933.1.1
+        chance = 50
+    }   
+}
+czh_masaryk_character_template = {
+    first_name = Tomas
+    last_name = Masaryk
+    culture = cu:slovak
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1850.3.7
+	dna = dna_masaryk
+    traits = {
+		charismatic
+		demagogue
+		expert_political_operator
+		persistent
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:CZH
+                    this = c:CZH
+                }
+                AND = { 
+                    NOT = { exists = c:CZH }
+                    exists = c:AUS
+                    this = c:AUS
+                    c:AUS = { owns_entire_state_region = STATE_BOHEMIA }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }   
+        earliest_usage_date = 1891.1.1
+        latest_usage_date = 1936.1.1
+        chance = 50
+    }   
+}
+czh_kramar_character_template = {
+    first_name = Karel
+    last_name = Kramar
+    culture = cu:czech
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_intelligentsia
+    birth_date = 1860.12.27
+	dna = dna_kramar
+    traits = {
+		masterful_diplomat
+		direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = { 
+                    exists = c:CZH
+                    this = c:CZH
+                }
+                AND = { 
+                    NOT = { exists = c:CZH }
+                    exists = c:AUS
+                    this = c:AUS
+                    c:AUS = { owns_entire_state_region = STATE_BOHEMIA }
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1891.1.1
+        latest_usage_date = 1936.1.1
+        chance = 50
+    }   
+}
+czh_stefanik_character_template = {
+    first_name = Milan_Ratislav
+    last_name = Stefanik
+    culture = cu:slovak
+    female = no
+    religion = catholic
+    ideology = ideology_republican_leader
+    interest_group = ig_armed_forces
+    birth_date = 1880.7.21
+	dna = dna_stefanik
+    traits = {
+		celebrity_commander
+		innovative
+		explorer
+		basic_diplomat
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:CZH
+            this = c:CZH
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_armed_forces
+        }   
+        earliest_usage_date = 1914.1.1
+        latest_usage_date = 1936.1.1
+        chance = 50
+    }   
+}
+czh_hodza_character_template = {
+    first_name = Milan
+    last_name = Hodza
+    culture = cu:slovak
+    female = no
+    religion = protestant
+    ideology = ideology_moderate
+    interest_group = ig_rural_folk
+    birth_date = 1878.2.1
+	dna = dna_hodza
+    traits = {
+		masterful_diplomat
+		tactful
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:CZH
+            this = c:CZH
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1918.1.1
+        latest_usage_date = 1936.1.1
+        chance = 50
+    }   
+}
+
+# Croatia - CRO
+cro_pavelic_character_template = {
+    first_name = Ante
+    last_name = Pavelic
+    culture = cu:croat
+    female = no
+    religion = catholic
+    ideology = ideology_fascist
+    interest_group = ig_rural_folk
+    birth_date = 1889.7.14
+	dna = dna_pavelic
+    traits = {
+		experienced_political_operator
+		cruel
+		direct
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:CRO
+            this = c:CRO
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }   
+        earliest_usage_date = 1927.1.1
+        latest_usage_date = 1936.1.1
+        chance = 50
+    }   
+}

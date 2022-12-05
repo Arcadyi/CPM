@@ -115,5 +115,4 @@ dna_karl_von_bayern = {
  		belts={ "no_belt" 0 "all_belts" 0 }
  }
 	entity={ 0 0 }
-}
-}
+}}

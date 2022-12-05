@@ -32,7 +32,6 @@
 			value = yes
 		}
 	}
-
 }
 
 karl_ludwig_heir = {
@@ -177,6 +176,43 @@ otto_heir = {
 		}
 		set_variable = {
 			name = is_otto
+			value = yes
+		}
+	}
+}
+
+sissi_heir = {
+	is_shown = {
+		exists = c:AUS
+		c:AUS = ROOT
+		has_law = law_type:law_monarchy
+		game_date >= 1854.4.24
+		NOT = { has_variable = is_sissi }
+	}
+	
+	possible = {
+		c:AUS = {
+			has_law = law_type:law_monarchy
+		}	
+	}
+
+	when_taken = {
+		create_character = {
+			first_name = Elisabeth
+			last_name = von_Wittelsbach
+			female = yes
+			heir = yes
+			noble = yes
+			birth_date = 1837.12.24
+			dna = dna_impress_sissi
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {				
+				romantic
+			}				
+		}
+		set_variable = {
+			name = is_sissi
 			value = yes
 		}
 	}

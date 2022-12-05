@@ -115,5 +115,4 @@ dna_vincent_milde = {
  		aiguillettes={ "no_aiguillettes" 0 "all_aiguillettes" 0 }
  }
 	entity={ 0 0 }
-}
-}
+}}

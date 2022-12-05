@@ -114,5 +114,4 @@ dna_archduke_friedrich_2 = {
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  }
 	entity={ 0 0 }
-}
-}
+}}
