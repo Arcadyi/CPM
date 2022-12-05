@@ -26,12 +26,11 @@ ecchi_joh_aw_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
             is_interest_group_type = ig_industrialists
         }
         earliest_usage_date = 1925.1.1
         latest_usage_date = 1954.9.4
-        chance = 75
+        chance = 90
     }
 }
 
@@ -63,7 +62,7 @@ ecchi_kaz_bukeikhanov_character_template = {
         }
         earliest_usage_date = 1900.1.1
         latest_usage_date = 1937.9.27
-        chance = 75
+        chance = 90
     }
 }
 
@@ -94,7 +93,31 @@ ecchi_geo_chavchavadze_character_template = {
         }
         earliest_usage_date = 1870.1.1
         latest_usage_date = 1907.9.12
-        chance = 75
+        chance = 90
+    }
+}
+
+ecchi_geo_cholokashvili_character_template = {
+    first_name = ecchi_Kakutsa
+    last_name = Cholokashvili
+    culture = cu:georgian
+    female = no
+    religion = orthodox
+    ideology = ideology_republican_leader
+    interest_group = ig_armed_forces
+	dna = ecchi_dna_kakutsa_cholokashvili
+    birth_date = 1888.7.14
+    traits = { mountain_commander popular_commander }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            exists = c:GEO
+            this = c:GEO
+        }
+        role = general
+        earliest_usage_date = 1910.1.1
+        latest_usage_date = 1930.6.27
+        chance = 90
     }
 }
 
@@ -126,6 +149,46 @@ ecchi_tur_ataturk_character_template = {
         }
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1938.11.10
-        chance = 75
+        chance = 90
+    }
+}
+
+# Palestine
+
+ecchi_pal_trumpeldor_character_template = {
+    first_name = Joseph
+    last_name = ecchi_Trumpeldor
+    culture = cu:russian
+    female = no
+    religion = jewish
+    ideology = ideology_radical
+    interest_group = ig_armed_forces
+	dna = ecchi_dna_joseph_trumpeldor
+    birth_date = 1880.11.21
+    traits = { pious brave reckless }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:PAL
+                    this = c:PAL
+                    NOT = { exists = c:ISR }
+                }
+                AND = {
+                    exists = c:ISR
+                    this = c:ISR
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            OR = {
+                is_interest_group_type = ig_armed_forces
+                is_interest_group_type = ig_devout
+            }
+        }
+        earliest_usage_date = 1911.1.1
+        latest_usage_date = 1920.3.1
+        chance = 90
     }
 }

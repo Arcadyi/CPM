@@ -17,12 +17,11 @@ ecchi_kor_myeongseong_character_template = {
             this = c:KOR
         }
         interest_group_trigger = {
-            is_marginal = no
             is_interest_group_type = ig_landowners
         }
         earliest_usage_date = 1866.1.1
         latest_usage_date = 1895.10.8
-        chance = 75
+        chance = 90
     }
 }
 
@@ -51,7 +50,7 @@ ecchi_kor_daewongun_character_template = {
         }
         earliest_usage_date = 1864.1.1
         latest_usage_date = 1898.2.22
-        chance = 75
+        chance = 90
     }
 }
 
@@ -80,7 +79,7 @@ ecchi_kor_jeon_bongjun_character_template = {
         }
         earliest_usage_date = 1890.1.1
         latest_usage_date = 1895.4.24
-        chance = 75
+        chance = 90
     }
 }
 
@@ -109,6 +108,6 @@ ecchi_kor_son_byonghi_character_template = {
         }
         earliest_usage_date = 1890.1.1
         latest_usage_date = 1922.5.19
-        chance = 75
+        chance = 90
     }
 }

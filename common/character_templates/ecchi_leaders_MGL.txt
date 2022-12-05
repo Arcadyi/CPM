@@ -25,7 +25,7 @@ ecchi_mgl_bogd_khan_character_template = {
         }
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1924.5.20
-        chance = 75
+        chance = 90
     }
 }
 
@@ -54,7 +54,7 @@ ecchi_mgl_khanddorj_character_template = {
         }
         earliest_usage_date = 1900.1.1
         latest_usage_date = 1915.6.28
-        chance = 75
+        chance = 90
     }
 }
 
@@ -83,7 +83,7 @@ ecchi_mgl_namnansuren_character_template = {
         }
         earliest_usage_date = 1900.1.1
         latest_usage_date = 1919.4.13
-        chance = 75
+        chance = 90
     }
 }
 

@@ -27,12 +27,11 @@ ecchi_czh_palacky_character_template = {
             }
         }
         interest_group_trigger = {
-            is_marginal = no
             is_interest_group_type = ig_intelligentsia
         }
         earliest_usage_date = 1840.1.1
         latest_usage_date = 1876.5.26
-        chance = 75
+        chance = 90
     }
 }
 
@@ -70,7 +69,45 @@ ecchi_czh_masaryk_character_template = {
         }
         earliest_usage_date = 1890.1.1
         latest_usage_date = 1937.9.14
-        chance = 75
+        chance = 90
+    }
+}
+
+ecchi_czh_kafka_character_template = {
+    first_name = Franz
+    last_name = Kafka
+    culture = cu:czech
+    female = no
+    religion = jewish
+    ideology = ideology_anarchist
+    interest_group = ig_intelligentsia
+	dna = ecchi_dna_franz_kafka
+    birth_date = 1883.7.3
+    traits = { reserved cautious meticulous }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:CZH
+                    this = c:CZH
+                    NOT = { exists = c:BOH }
+                }
+                AND = {
+                    exists = c:BOH
+                    this = c:BOH
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            OR = {
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_trade_unions
+            }
+        }
+        earliest_usage_date = 1910.1.1
+        latest_usage_date = 1924.6.3
+        chance = 25
     }
 }
 
@@ -86,7 +123,7 @@ ecchi_czh_tiso_character_template = {
     interest_group = ig_armed_forces
 	dna = ecchi_dna_jozef_tiso
     birth_date = 1887.10.13
-    traits = { bigoted ambitious cruel pious }
+    traits = { bigoted ambitious cruel pious war_criminal }
     interest_group_leader_usage = {
         country_trigger = {
             OR = {
@@ -110,7 +147,7 @@ ecchi_czh_tiso_character_template = {
         }
         earliest_usage_date = 1920.1.1
         latest_usage_date = 1947.4.18
-        chance = 75
+        chance = 90
     }
 }
 
@@ -148,7 +185,7 @@ ecchi_czh_stefanik_character_template = {
         }
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1919.5.4
-        chance = 75
+        chance = 90
     }
 }
 

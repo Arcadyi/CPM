@@ -25,7 +25,7 @@ ecchi_chl_o_higgins_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1842.10.24
-        chance = 75
+        chance = 90
     }
 }
 
@@ -57,7 +57,7 @@ ecchi_uru_artigas_character_template = {
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1850.9.23
-        chance = 75
+        chance = 90
     }
 }
 
@@ -86,6 +86,41 @@ ecchi_uru_berro_character_template = {
         }
         earliest_usage_date = 1852.1.1
         latest_usage_date = 1868.2.19
-        chance = 75
+        chance = 90
+    }
+}
+
+# Venezuela
+
+ecchi_vnz_lopez_character_template = {
+    first_name = Narciso
+    last_name = Lopez
+    culture = cu:north_andean
+    female = no
+    religion = catholic
+    ideology = ideology_jingoist_leader
+    interest_group = ig_armed_forces
+	dna = ecchi_dna_narciso_lopez
+    birth_date = 1797.11.2
+    traits = { reckless persistent }
+    commander_rank = default
+    commander_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:VNZ
+                    this = c:VNZ
+                    NOT = { exists = c:CUB }
+                }
+                AND = {
+                    exists = c:CUB
+                    this = c:CUB
+                }
+            }
+        }
+        role = general
+        earliest_usage_date = 1840.1.1
+        latest_usage_date = 1851.9.1
+        chance = 90
     }
 }

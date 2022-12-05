@@ -17,12 +17,11 @@ ecchi_phi_bonifacio_character_template = {
             this = c:PHI
         }
         interest_group_trigger = {
-            is_marginal = no
             is_interest_group_type = ig_intelligentsia
         }
         earliest_usage_date = 1892.1.1
         latest_usage_date = 1897.5.10
-        chance = 75
+        chance = 90
     }
 }
 
@@ -52,7 +51,7 @@ ecchi_phi_aguinaldo_character_template = {
         }
         earliest_usage_date = 1895.1.1
         latest_usage_date = 1964.2.6
-        chance = 75
+        chance = 90
     }
 }
 
@@ -74,11 +73,10 @@ ecchi_phi_rizal_character_template = {
             this = c:PHI
         }
         interest_group_trigger = {
-            is_marginal = no
             is_interest_group_type = ig_intelligentsia
         }
         earliest_usage_date = 1890.1.1
         latest_usage_date = 1896.12.30
-        chance = 75
+        chance = 90
     }
 }

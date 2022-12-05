@@ -13,8 +13,17 @@ ecchi_swe_nobel_character_template = {
     traits = { tactful ambitious innovative }
     interest_group_leader_usage = {
         country_trigger = {
-            exists = c:SWE
-            this = c:SWE
+            OR = {
+                AND = {
+                    exists = c:SCA
+                    this = c:SCA
+                    NOT = { exists = c:NOR }
+                }
+                AND = {
+                    exists = c:NOR
+                    this = c:NOR
+                }
+            }
         }
         interest_group_trigger = {
             is_marginal = no
@@ -25,6 +34,6 @@ ecchi_swe_nobel_character_template = {
         }
         earliest_usage_date = 1867.1.1
         latest_usage_date = 1896.12.10
-        chance = 75
+        chance = 90
     }
 }
