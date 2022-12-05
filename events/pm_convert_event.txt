@@ -1,5 +1,4 @@
-﻿namespace = pm_convert_event
-
+namespace = pm_convert_event
 
 pm_convert_event.1 = {
 	type = country_event
@@ -30,7 +29,9 @@ pm_convert_event.2 = {
 	type = country_event
 	hidden = yes
 
-	trigger = { is_player = yes }
+	trigger = { 
+		is_player = yes
+	}
 
 	immediate = {
 		every_scope_state = {
@@ -47,8 +48,42 @@ pm_convert_event.2 = {
 			}
 			pm_convert_custom = yes		
 		}
+		every_scope_state = {
+			limit = {
+				has_variable = pm_convert_origin
+			}
+			remove_variable = pm_convert_origin
+		}
 	}
 }
 
+pm_convert_event.3 = {
+	type = country_event
+	hidden = yes
 
+	trigger = { 
+	}
+
+	immediate = {
+		every_scope_state = {
+			limit = {
+				has_variable = pm_convert_origin
+			}
+			remove_variable = pm_convert_origin
+		}
+		every_scope_state = {
+			limit = {
+				has_variable = pm_convert_split
+			}
+			remove_variable = pm_convert_split
+		}
+
+		if = {
+			limit = {
+				is_player = yes
+			}
+			trigger_event = { id = pm_convert_event.1 }
+		}
+	}
+}
 

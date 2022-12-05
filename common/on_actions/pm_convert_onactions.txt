@@ -1,6 +1,6 @@
 ﻿on_diplomatic_play_started = {
 	events = {
-		pm_convert_event.1
+		pm_convert_event.3
 	}
 }
 
