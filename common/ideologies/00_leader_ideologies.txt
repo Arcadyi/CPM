@@ -292,7 +292,7 @@ ideology_radical = {
 		law_national_guard = strongly_disapprove
 		law_secret_police = strongly_disapprove
 	}
-
+	
 	possible = {
 		owner = { has_technology_researched = egalitarianism }
 		scope:interest_group = {
@@ -424,7 +424,7 @@ ideology_reformer = {
 	
 	character_ideology = yes
 	
-	lawgroup_citizenship = { #changed up a lil
+	lawgroup_citizenship = {
 		law_ethnostate = disapprove
 		law_national_supremacy = neutral
 		law_racial_segregation = disapprove
@@ -947,7 +947,11 @@ ideology_royalist = {
 	}
 	
 	possible = {
-		NOT = { owner = { c:FRA = THIS } }
+		NOT = { 
+			owner = { 
+				c:FRA = THIS 
+			} 
+		}
 		# no monarchists in countries with strong republican tradition
 		owner = {
 			NOR = {

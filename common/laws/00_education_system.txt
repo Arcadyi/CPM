@@ -33,8 +33,8 @@ law_religious_schools = {
 
 	institution = institution_schools
 	institution_modifier = {
-		state_conversion_mult = 0.1
-		state_education_access_add = 0.125
+		state_conversion_mult = 0.2
+		state_education_access_add = 0.1
 		interest_group_ig_devout_pol_str_mult = 0.1
 	}
 	
@@ -210,7 +210,7 @@ law_public_schools = {
 	institution = institution_schools
 	institution_modifier = {
 		state_assimilation_mult = 0.125
-		state_education_access_add = 0.15
+		state_education_access_add = 0.1
 	}
 	
 	possible_political_movements = {

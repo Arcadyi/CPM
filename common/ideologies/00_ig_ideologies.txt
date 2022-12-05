@@ -233,8 +233,6 @@ ideology_particularist = {
 		law_debt_slavery = strongly_disapprove
 		law_slave_trade = neutral
 	}
-
-
 }
 
 ideology_isolationist = {
@@ -328,7 +326,6 @@ ideology_patriotic = {
 		law_right_of_assembly = neutral
 		law_protected_speech = disapprove
 	}	
-
 }
 
 ideology_loyalist = {
@@ -369,7 +366,7 @@ ideology_jingoist = {
 ideology_liberal = {
 	icon = "gfx/interface/icons/ideology_icons/liberal.dds"
 	
-	lawgroup_citizenship = { 
+	lawgroup_citizenship = {
 		law_ethnostate = strongly_disapprove ## Normally strongly_disapprove
 		law_national_supremacy = disapprove #Normally strongly_disapprove
 		law_racial_segregation = disapprove #Normally disapprove
@@ -404,8 +401,6 @@ ideology_liberal = {
 		law_women_in_the_workplace = neutral
 		law_womens_suffrage = neutral
 	}
-
-
 }
 
 ideology_anti_clerical = {

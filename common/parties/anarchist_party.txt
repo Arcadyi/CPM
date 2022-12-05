@@ -298,7 +298,7 @@ anarchist_party = {
 				desc = "from_republican"
 			}
 		}
-		if = { #NFM
+		if = {
 			limit = {
 				leader = {
 					has_variable = politically_neutral_var

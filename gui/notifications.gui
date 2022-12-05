@@ -26,58 +26,27 @@ types notifications {
 				position_x = 0
 				alpha = 1
 			}
-
+		
 			### notifications in fullscreen (can maximize and minimize)
-			flowcontainer = {
+			notifications_message_feed = {
 				using = fullscreen_show
-
-				flowcontainer = {
-					direction = vertical
-					parentanchor = bottom
-
-					notifications_filter_message_feed_above = {
-						onmousehierarchyenter = "[PdxGuiInterruptThenTriggerAllAnimations('notifications_minimize','notifications_maximize')]"
-						onmousehierarchyleave = "[PdxGuiInterruptThenTriggerAllAnimations('notifications_maximize','notifications_minimize')]"
-					}
-
-					notifications_filter_message_feed_below = {
-						onmousehierarchyenter = "[PdxGuiInterruptThenTriggerAllAnimations('notifications_minimize','notifications_maximize')]"
-						onmousehierarchyleave = "[PdxGuiInterruptThenTriggerAllAnimations('notifications_maximize','notifications_minimize')]"
-					}
-				}
-
-				notifications_filter_buttons = {}
+				onmousehierarchyenter = "[PdxGuiInterruptThenTriggerAllAnimations('notifications_minimize','notifications_maximize')]"
+				onmousehierarchyleave = "[PdxGuiInterruptThenTriggerAllAnimations('notifications_maximize','notifications_minimize')]"
 			}
 			
 			### notifications in non fullscreen
-			flowcontainer = {
+			notifications_message_feed = {
 				using = fullscreen_hide
-
-				flowcontainer = {
-					direction = vertical
-					parentanchor = bottom
-
-					notifications_filter_message_feed_above = {
-						# this maximize is for when you click things from the notifications in fullscreen the mouse will "leave" the outliner thus it minimizes.
-						# so this makes sure it stays maximized.
-						onmousehierarchyenter = "[PdxGuiInterruptThenTriggerAllAnimations('notifications_minimize','notifications_maximize')]"
-					}
-
-					notifications_filter_message_feed_below = {
-						# this maximize is for when you click things from the notifications in fullscreen the mouse will "leave" the outliner thus it minimizes.
-						# so this makes sure it stays maximized.
-						onmousehierarchyenter = "[PdxGuiInterruptThenTriggerAllAnimations('notifications_minimize','notifications_maximize')]"
-					}
-				}
-
-				notifications_filter_buttons = {}
+				# this maximize is for when you click things from the notifications in fullscreen the mouse will "leave" the outliner thus it minimizes.
+				# so this makes sure it stays maximized.
+				onmousehierarchyenter = "[PdxGuiInterruptThenTriggerAllAnimations('notifications_minimize','notifications_maximize')]"
 			}
 		}
 	}
 	
 	type notifications_message_feed = flowcontainer {
 		direction = vertical
-		margin = { 0 3 }
+		margin = { 0 5 }
 
 		scrollarea = {
 			autoresizescrollarea = yes
@@ -85,7 +54,6 @@ types notifications {
 			#for having 2 rows of lens open in lowest resolution
 			#and so that you can still see a little bit of outliner.
 			maximumsize = { 425 450 }
-			minimumsize = { 425 -1 }
 			scrollbarpolicy_horizontal = always_off
 
 			scrollbar_vertical = {
@@ -105,8 +73,6 @@ types notifications {
 								alwaystransparent = no
 								resizeparent = yes
 								direction = vertical
-
-								block "notifications_filter" {}
 
 								position = { 0 0 }
 
@@ -192,7 +158,7 @@ types notifications {
 										icon = {
 											size = { 28 28 }
 											texture = "[Notification.GetTexture]"
-#											tooltip = "[Notification.GetToolTip]"
+											tooltip = "[Notification.GetToolTip]"
 										}
 
 										text_single = {
@@ -226,7 +192,7 @@ types notifications {
 
 												text_single = {
 													name = "date"
-													text = "NOTIFICATION_FILTERS_GET_DATE"
+													text = "[Notification.GetDate]"
 													align = nobaseline
 												}
 											}
@@ -322,11 +288,7 @@ types notifications {
 									### EXPAND
 									state = {
 										name = "expand_auto"
-
-										block "notifications_filter_expand_auto" {
-											trigger_when = "[FeedMessageItem.ShouldExpandAuto]"
-										}
-
+										trigger_when = "[FeedMessageItem.ShouldExpandAuto]"
 										on_start = "[FeedMessageItem.StartAnimation]"
 										on_finish = "[FeedMessageItem.EndAnimation]"
 										on_finish = "[FeedMessageItem.OnExpandFinished]"
@@ -337,21 +299,9 @@ types notifications {
 									}
 
 									state = {
-										name = "expand_auto_filtered"
-
-										block "notifications_filter_expand_auto_filtered" {
-											trigger_when = "[And( FeedMessageItem.ShouldExpandAuto, Not( FeedMessageItem.ShouldExpandAuto ) )]"
-										}
-
-										on_start = "[FeedMessageItem.OnCollapseFinished]"
-										duration = 0
-									}
-
-									state = {
 										name = "expand_click"
 										trigger_when = "[FeedMessageItem.ShouldExpandFromClick]"
 										on_start = "[FeedMessageItem.StartAnimation]"
-										on_start = "[FeedMessageItem.OnCollapseFinished]"
 										on_finish = "[FeedMessageItem.EndAnimation]"
 										on_finish = "[FeedMessageItem.OnExpandFinished]"
 										start_sound = {
@@ -583,182 +533,32 @@ types notifications {
 			}
 		}
 
-		cameracontrolwidget = 
-		{
-			size = { 2000% 2000% }
-			# Limit to 8K to prevent widget getting to large and causing a crash
-			maximumsize = { 7680 4320 }
-			widgetanchor = center
-			parentanchor = center
-			position = { 0 15 }
-			alwaystransparent = yes
-			entity_instance = vfx_entity_ui_toasts
-			ignore_in_debug_draw = yes
-			gfxtype = jomini_entitygfx
+		vfx = {
+			blockoverride "size" {
+				size = { 2000% 2000% }
+				maximumsize = { 7680 4320 }	
+			}
+			blockoverride "position" {
+				position = { 0 15 }
+			}
+			blockoverride "parent_anchor" {
+				widgetanchor = center
+				parentanchor = center
+			}
+			blockoverride "camera_position" {
+				camera_position = { 0 0 -2 }
+			}
+			blockoverride "entity_instance" {
+				entity_instance = vfx_entity_ui_toasts
+			}			
 		}
+
 		
 		### CLOSE BUTTON
 		close_button = {
 			parentanchor = top|right
 			onclick = "[ToastMessageHandler.DismissMessage]"
 			tooltip = "DISMISS"
-		}
-	}
-
-
-	#### Notifications Filter
-
-	type notifications_filter_message_feed_above = notifications_message_feed {
-		blockoverride "notifications_filter" {
-			visible = "[And( Not( GetVariableSystem.Exists('notifications_filter_hidden_all') ), Or( Or( And( GetVariableSystem.HasValue('notifications_filter_rank', '4' ), EqualTo_string( Notification.GetToolTip, '4' ) ), And( GetVariableSystem.HasValue('notifications_filter_rank', '3' ), Or( EqualTo_string( Notification.GetToolTip, '4' ), EqualTo_string( Notification.GetToolTip, '3' ) ) ) ), Or( GetVariableSystem.HasValue('notifications_filter_rank', '2' ), Not( GetVariableSystem.Exists('notifications_filter_rank') ) ) ) )]"
-		}
-	}
-
-	type notifications_filter_message_feed_below = notifications_message_feed {
-		blockoverride "notifications_filter" {
-			visible = "[And( And( GetVariableSystem.Exists('notifications_filter_hidden'), Not( GetVariableSystem.Exists('notifications_filter_hidden_all') ) ), Not( Or( Or( And( GetVariableSystem.HasValue('notifications_filter_rank', '4' ), EqualTo_string( Notification.GetToolTip, '4' ) ), And( GetVariableSystem.HasValue('notifications_filter_rank', '3' ), Or( EqualTo_string( Notification.GetToolTip, '4' ), EqualTo_string( Notification.GetToolTip, '3' ) ) ) ), Or( GetVariableSystem.HasValue('notifications_filter_rank', '2' ), Not( GetVariableSystem.Exists('notifications_filter_rank') ) ) ) ) )]"
-		}
-
-		blockoverride "notifications_filter_expand_auto" {
-			trigger_when = "[And( FeedMessageItem.ShouldExpandAuto, Not( FeedMessageItem.ShouldExpandAuto ) )]"
-		}
-
-		blockoverride "notifications_filter_expand_auto_filtered" {
-			trigger_when = "[FeedMessageItem.ShouldExpandAuto]"
-		}
-	}
-
-	type notifications_filter_buttons = flowcontainer {
-		parentanchor = bottom|right
-		direction = vertical
-		spacing = -10
-
-		notifications_filter_button_item = {
-			visible = "[Not( GetVariableSystem.Exists('notifications_filter_hidden_all') )]"
-
-			blockoverride "texture"
-			{
-				texture = "gfx/interface/flag/power_rank_04.dds"
-			}
-			blockoverride "onclick"
-			{
-				onclick = "[GetVariableSystem.Set('notifications_filter_rank', '4')]"
-			}
-			blockoverride "background"
-			{
-				visible = yes
-				progresstexture = "gfx/interface/flag/minor_progress.dds"
-			}
-			blockoverride "text"
-			{
-				text = "NOTIFICATION_FILTERS_BUTTON_RANK_4"
-			}
-		}
-
-		notifications_filter_button_item = {
-			visible = "[Not( GetVariableSystem.Exists('notifications_filter_hidden_all') )]"
-
-			blockoverride "texture"
-			{
-				texture = "gfx/interface/flag/power_rank_03.dds"
-			}
-			blockoverride "onclick"
-			{
-				onclick = "[GetVariableSystem.Set('notifications_filter_rank', '3')]"
-			}
-			blockoverride "background"
-			{
-				visible = "[Or( Or( Not( GetVariableSystem.Exists('notifications_filter_rank') ), GetVariableSystem.HasValue('notifications_filter_rank', '3') ), GetVariableSystem.HasValue('notifications_filter_rank', '2') )]"
-				progresstexture = "gfx/interface/flag/major_progress.dds"
-			}
-			blockoverride "text"
-			{
-				text = "NOTIFICATION_FILTERS_BUTTON_RANK_3"
-			}
-		}
-
-		notifications_filter_button_item = {
-			visible = "[Not( GetVariableSystem.Exists('notifications_filter_hidden_all') )]"
-
-			blockoverride "texture"
-			{
-				texture = "gfx/interface/flag/power_rank_02.dds"
-			}
-			blockoverride "onclick"
-			{
-				onclick = "[GetVariableSystem.Set('notifications_filter_rank', '2')]"
-			}
-			blockoverride "background"
-			{
-				visible = "[Or( Not( GetVariableSystem.Exists('notifications_filter_rank') ), GetVariableSystem.HasValue('notifications_filter_rank', '2') )]"
-				progresstexture = "gfx/interface/flag/minor_progress.dds"
-			}
-			blockoverride "text"
-			{
-				text = "NOTIFICATION_FILTERS_BUTTON_RANK_2"
-			}
-		}
-
-		notifications_filter_button_item = {
-			blockoverride "texture"
-			{
-				texture = "gfx/interface/flag/power_rank_01.dds"
-			}
-			blockoverride "onclick"
-			{
-				onclick = "[GetVariableSystem.Toggle('notifications_filter_hidden_all')]"
-				onrightclick = "[GetVariableSystem.Toggle('notifications_filter_hidden')]"
-			}
-			blockoverride "background"
-			{
-				visible = no
-			}
-			blockoverride "text"
-			{
-				text = "[SelectLocalization( GetVariableSystem.Exists('notifications_filter_hidden_all'), 'NOTIFICATION_FILTERS_BUTTON_UP', 'NOTIFICATION_FILTERS_BUTTON_DOWN' )]"
-			}
-		}
-	}
-
-	type notifications_filter_button_item = button {
-		block "texture" {
-			texture = "gfx/interface/flag/power_rank_01.dds"
-		}
-		size = { 50 50 }
-		using = confirm_button_sound
-		block "onclick" {
-			onclick = "[GetVariableSystem.Set('notifications_filter_rank', '1')]"
-		}
-		progressbar = {
-			block "background" {
-				visible = "[GetVariableSystem.HasValue('notifications_filter_rank', '1')]"
-				progresstexture = "gfx/interface/flag/minor_progress.dds"
-			}
-			noprogresstexture = "gfx/interface/icons/generic_icons/transparent.dds"
-			size = { 48% 48% }
-			value = 1
-			direction = vertical
-			min = 0
-			max = 1
-			using = progressbar_changed_animation
-			parentanchor = center
-
-			modify_texture = {
-				texture = "gfx/interface/flag/major_progress.dds"
-				spriteType = Corneredstretched
-				spriteborder = { 0 0 }
-				blend_mode = alphamultiply
-				alpha = 0.3
-			}
-		}
-		textbox = {
-			parentanchor = center
-			align = center|nobaseline
-			autoresize = yes
-			using = fontsize_large
-			block "text" {
-				text = "#BOLD 1#!"
-			}
 		}
 	}
 }

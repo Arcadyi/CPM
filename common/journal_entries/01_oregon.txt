@@ -1,7 +1,5 @@
 ﻿je_oregon = {
 	icon = "gfx/interface/icons/event_icons/event_map.dds"
-
-
 	is_shown_when_inactive = {
 		exists = c:USA
 		exists = c:GBR
@@ -45,7 +43,8 @@
 						}
 					}
 				}
-			}
+	}
+	}
 
 	possible = {
 		has_interest_marker_in_region = region_pacific_coast
@@ -58,6 +57,11 @@
 					text = oregon_tt
 					has_global_variable = oregon_trail_mapped
 				}
+				year >= 1846
+				c:GBR = {
+					relations:ROOT >= relations_threshold:neutral
+				}
+			}
 		}
 						s:STATE_MONTANA = {
 							any_scope_state = {
@@ -70,35 +74,15 @@
 								}
 							}
 						}
+					AND = {
+						owns_entire_state_region = STATE_WASHINGTON
+						owns_entire_state_region = STATE_IDAHO
+						owns_entire_state_region = STATE_OREGON
+						owns_entire_state_region = STATE_WYOMING
+						owns_entire_state_region = STATE_MONTANA
 					}
-
-	possible = {
-		has_interest_marker_in_region = region_pacific_coast
-				}
-				
-	complete = {
-		OR = {
-			AND = {
-				OR = {
-				custom_tooltip = {
-					text = oregon_tt
-					has_global_variable = oregon_trail_mapped
-				}
-				year >= 1846
-			}
-				c:GBR = {
-					relations:ROOT >= relations_threshold:neutral
-				}
-			}
-			AND = {
-				owns_entire_state_region = STATE_WASHINGTON
-				owns_entire_state_region = STATE_IDAHO
-				owns_entire_state_region = STATE_OREGON
-				owns_entire_state_region = STATE_WYOMING
-				owns_entire_state_region = STATE_MONTANA
-			}
-		}
 	}
+}
 
 	on_complete = {
 		if = {
@@ -157,8 +141,6 @@
 				months = normal_modifier_time
 			}
 		}
-	}
-
 	weight = 100
 }
 

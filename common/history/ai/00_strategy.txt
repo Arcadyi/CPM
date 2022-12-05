@@ -9,7 +9,7 @@
 			50 = { set_strategy = ai_strategy_conservative_agenda }
 			50 = { set_strategy = ai_strategy_progressive_agenda }
 		}
-	}
+	}	
 	
 	
 	c:CSP = {

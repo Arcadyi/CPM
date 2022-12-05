@@ -1,18 +1,7 @@
-### ----
-#layer layer_map_markers
-#{
-#	priority = -230
-#}
-### ++++
 layer layer_map_markers
-{
-	priority = -231
-}
-layer layer_map_battle_markers
 {
 	priority = -230
 }
-### ====
 layer layer_map_notifications
 {
 	priority = -229

@@ -4,6 +4,7 @@
 	lawgroup_governance_principles = {		
 		law_presidential_republic = approve
 		law_parliamentary_republic = approve
+		law_theocracy = approve
 		law_monarchy = neutral
 		law_council_republic = disapprove
 	}
@@ -73,8 +74,6 @@ ideology_scholar_paternalistic = {
 		law_militarized_police = neutral
 		law_no_police = disapprove
 	}
-
-
 }
 
 ideology_junker_paternalistic = {
@@ -110,7 +109,6 @@ ideology_junker_paternalistic = {
 		law_militarized_police = neutral
 		law_no_police = disapprove
 	}
-
 }
 
 ideology_papal_paternalistic = {
@@ -146,8 +144,6 @@ ideology_papal_paternalistic = {
 		law_militarized_police = neutral
 		law_no_police = disapprove
 	}
-
-
 }
 
 ideology_confucian = {
@@ -173,11 +169,9 @@ ideology_confucian = {
 		law_right_of_assembly = neutral
 		law_protected_speech = disapprove
 	}
-
-
 }
 
-ideology_bakufu = { #NFM EDITS BROAD
+ideology_bakufu = {
 	icon = "gfx/interface/icons/ideology_icons/bakufu.dds"
 
 	lawgroup_policing = {
@@ -225,8 +219,6 @@ ideology_bakufu = { #NFM EDITS BROAD
 		law_universal_suffrage = strongly_disapprove
 		law_anarchy = strongly_disapprove
 	}
-
-
 }
 
 ideology_shinto_moralist = {
@@ -298,8 +290,6 @@ ideology_caudillismo = {
 		law_militarized_police = neutral
 		law_no_police = disapprove
 	}
-
-
 }
 
 ideology_austrian_hegemony = {
@@ -312,8 +302,6 @@ ideology_austrian_hegemony = {
 		law_cultural_exclusion = strongly_disapprove
 		law_multicultural = strongly_disapprove	
 	}
-
-
 }
 
 ideology_russian_patriarch = {

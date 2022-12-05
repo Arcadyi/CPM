@@ -18,17 +18,6 @@ cold.101 = {
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	on_opened_soundeffect = "event:/SFX/Events/unspecific/arctic"
 	
-	immediate = {
-			remove_expedition_events_effect = yes
-			every_scope_character = {
-				limit = {
-					has_variable = expedition_leader_var
-				}
-				remove_variable = expedition_leader_var
-				set_character_busy = no
-			}
-	}
-	
 	option = {
 		name = cold.101.a
 		trigger_event = { id = cold.102 days = 0 popup = yes }
@@ -446,7 +435,6 @@ cold.4 = {
 		random_scope_character = {
 			limit = { has_variable = expedition_leader_var }
 			save_scope_as = expedition_leader
-			remove_variable = expedition_leader_var
 		}
 	}
 
@@ -632,7 +620,6 @@ cold.7 = {
 		random_scope_character = {
 			limit = { has_variable = expedition_leader_var }
 			save_scope_as = expedition_leader
-			remove_variable = expedition_leader_var
 		}
 	}
 	
@@ -828,7 +815,6 @@ cold.10 = {
 		random_scope_character = {
 			limit = { has_variable = expedition_leader_var }
 			save_scope_as = expedition_leader
-			remove_variable = expedition_leader_var
 		}
 	}
 	

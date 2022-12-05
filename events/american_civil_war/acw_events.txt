@@ -2,7 +2,7 @@
 
 # The Abolitionist's Martyrdom
 # based off the death of Elijah P. Lovejoy
-acw_events.1 = { ###Edited to change when it fires 
+acw_events.1 = {
 	type = country_event
 	
 	event_image = {
@@ -135,81 +135,10 @@ acw_events.1 = { ###Edited to change when it fires
 	#		culture = cu:dixie
 	#	}}
 	}
-	}
-
-
-
-# The [Leader Name] Proviso - a.k.a. The (Dynamic) Wilmot Proviso
-acw_events.3 = {
-	hidden = yes
-	type = country_event
-
-	title = acw_events.3.t
-	desc = acw_events.3.d
-	flavor = acw_events.3.f
-
-	event_image = {
-		video = "gfx/event_pictures/europenorthamerica_capitalists_meeting.bk2"
-	}
-
-	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/capitalists_meeting"
-
-	icon = "gfx/interface/icons/event_icons/event_map.dds"
-
-	duration = 3
-
-	trigger = {
-	#	exists = c:USA
-	#	c:USA = ROOT
-	#	NOT = { has_law = law_type:law_slavery_banned }
-	#	NOT = { has_variable = american_civil_war }
-	#	NOT = { has_variable = USA_wilmot_proviso }
-	#	exists = c:MEX
-	#	any_state = {
-	#		has_claim_by = c:MEX
-	#	}
-	#	any_interest_group = {
-	#		is_revolutionary = no
-	#		is_insurrectionary = no
-	#		is_marginal = no
-	#		OR = {
-	#			has_ideology = ideology_anti_slavery
-	##			leader = {
-	#				has_ideology = ideology_abolitionist
-	#			}
-	#		}
-	#	}
-	}
-
-	immediate = {
-		random_interest_group = {
-			limit = {
-				is_revolutionary = no
-				is_insurrectionary = no
-				is_marginal = no
-				OR = {
-					has_ideology = ideology_anti_slavery
-					leader = {
-						has_ideology = ideology_abolitionist
-					}
-				}
-			}
-			save_scope_as = wilmot_proviso_ig
-			leader = {
-				save_scope_as = wilmot_proviso_ig_leader
-			}
-		}
-	}
-
-	cancellation_trigger = {
-		has_global_variable = american_civil_war
-	}
-
 }
 
-# The Fugitive Slave 
-acw_events.2 = {###Edited to change when it fires  
+# The Fugitive Slave
+acw_events.2 = {
 	type = country_event
 
 	event_image = {
@@ -230,7 +159,7 @@ acw_events.2 = {###Edited to change when it fires
 	trigger = {
 		NOT = { has_law = law_type:law_slavery_banned }
 		NOT = { has_variable = american_civil_war }
-		any_interest_group = {	
+		any_interest_group = {
 			is_revolutionary = no
 			is_insurrectionary = no
 			is_marginal = no
@@ -240,7 +169,6 @@ acw_events.2 = {###Edited to change when it fires
 					has_ideology = ideology_slaver
 				}
 			}
-			ig_approval <= -6
 		}
 		NOT = { has_variable = fugitive_slave_var }
 	}
@@ -266,7 +194,6 @@ acw_events.2 = {###Edited to change when it fires
 		set_variable = {
 			name = fugitive_slave_var
 			months = short_modifier_time
-			is_decaying = yes
 		}
 	}
 
@@ -288,7 +215,6 @@ acw_events.2 = {###Edited to change when it fires
 			add_modifier = {
 				name = ig_slavers_happy
 				months = short_modifier_time
-				is_decaying = yes
 			}
 		}
 		every_interest_group = {
@@ -301,13 +227,8 @@ acw_events.2 = {###Edited to change when it fires
 			add_modifier = {
 				name = ig_abolitionists_mad
 				months = short_modifier_time
-				is_decaying = yes
 			}
 		}
-	#	c:USA = {add_radicals = {
-	#		value = 0.01
-	#		culture = cu:yankee
-	#	}}
 	}
 	option = {
 		name = acw_events.2.b
@@ -323,7 +244,6 @@ acw_events.2 = {###Edited to change when it fires
 			add_modifier = {
 				name = ig_slavers_mad
 				months = short_modifier_time
-				is_decaying = yes
 			}
 		}
 		every_interest_group = {
@@ -337,13 +257,179 @@ acw_events.2 = {###Edited to change when it fires
 			add_modifier = {
 				name = ig_abolitionists_happy
 				months = short_modifier_time
-				is_decaying = yes
 			}
 		}
-	#	c:USA = {add_radicals = {
-	#		value = 0.01
-	#		culture = cu:dixie
-	#	}}
+	}
+}
+
+# The [Leader Name] Proviso - a.k.a. The (Dynamic) Wilmot Proviso
+
+acw_events.3 = {
+	type = country_event
+
+	title = acw_events.3.t
+	desc = acw_events.3.d
+	flavor = acw_events.3.f
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_capitalists_meeting.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/capitalists_meeting"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	trigger = {
+		exists = c:USA
+		c:USA = ROOT
+		NOT = { has_law = law_type:law_slavery_banned }
+		NOT = { has_variable = american_civil_war }
+		NOT = { has_variable = USA_wilmot_proviso }
+		exists = c:MEX
+		any_state = {
+			has_claim_by = c:MEX
+		}
+		any_interest_group = {
+			is_revolutionary = no
+			is_insurrectionary = no
+			is_marginal = no
+			OR = {
+				has_ideology = ideology_anti_slavery
+				leader = {
+					has_ideology = ideology_abolitionist
+				}
+			}
+		}
+	}
+
+	immediate = {
+		set_variable = {
+			name = USA_wilmot_proviso
+			value = yes
+		}
+		random_interest_group = {
+			limit = {
+				is_revolutionary = no
+				is_insurrectionary = no
+				is_marginal = no
+				OR = {
+					has_ideology = ideology_anti_slavery
+					leader = {
+						has_ideology = ideology_abolitionist
+					}
+				}
+			}
+			save_scope_as = wilmot_proviso_ig
+			leader = {
+				save_scope_as = wilmot_proviso_ig_leader
+			}
+		}
+	}
+
+	cancellation_trigger = {
+		has_global_variable = american_civil_war
+	}
+
+	option = {
+		name = acw_events.3.a # a compromise is when nobody is happy at the end
+		default_option = yes
+
+		every_interest_group = {
+			limit = {
+				OR = {
+					has_ideology = ideology_pro_slavery
+					leader = { has_ideology = ideology_slaver }
+				}
+				NOT = { has_modifier = disappointing_compromise }
+			}
+			add_modifier = {
+				name = disappointing_compromise
+				months = short_modifier_time
+			}
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+					has_ideology = ideology_anti_slavery
+					leader = { has_ideology = ideology_abolitionist }
+				}
+				NOT = { has_modifier = disappointing_compromise }
+			}
+			add_modifier = {
+				name = disappointing_compromise
+				months = short_modifier_time
+			}
+		}
+	}
+	option = { # Abolish slavery in all the new territories
+		name = acw_events.3.b
+
+		every_scope_state = {
+			limit = {
+				has_claim_by = c:MEX
+			}
+			liberate_slaves = yes # this is going to be rough for freed pops initially, and that's to be expected.
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+					has_ideology = ideology_pro_slavery
+					leader = { has_ideology = ideology_slaver }
+				}
+				NOT = { has_modifier = ig_slavers_mad }
+			}
+			add_modifier = {
+				name = ig_slavers_mad
+				months = short_modifier_time
+			}
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+					has_ideology = ideology_anti_slavery
+					leader = { has_ideology = ideology_abolitionist }
+				}
+				NOT = { has_modifier = ig_abolitionists_happy }
+			}
+			add_modifier = {
+				name = ig_abolitionists_happy
+				months = short_modifier_time
+			}
+		}
+
+	}
+	option = { # Enable slavery in all the new territories
+		name = acw_events.3.c
+
+		every_interest_group = {
+			limit = {
+				OR = {
+					has_ideology = ideology_pro_slavery
+					leader = { has_ideology = ideology_slaver }
+				}
+				NOT = { has_modifier = ig_slavers_happy }
+			}
+			add_modifier = {
+				name = ig_slavers_happy
+				months = short_modifier_time
+			}
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+					has_ideology = ideology_anti_slavery
+					leader = { has_ideology = ideology_abolitionist }
+				}
+				NOT = { has_modifier = ig_abolitionists_mad }
+			}
+			add_modifier = {
+				name = ig_abolitionists_mad
+				months = short_modifier_time
+			}
+		}
 	}
 }
 
@@ -456,7 +542,6 @@ acw_events.5 = {
 	}
 		custom_tooltip = acw_events_5_free_state_tt
 	}
-	
 	option = {
 		name = acw_events.5.b
 
@@ -596,10 +681,12 @@ acw_events.6 = {
 				kill_character = yes
 			}
 		}
-		c:USA = {add_radicals = {
+		c:USA = {
+			add_radicals = {
 			value = 0.02
 			culture = cu:yankee
-		}}
+		}
+	}
 	}
 	option = {
 		name = acw_events.6.b

@@ -284,7 +284,7 @@ communist_britain = {
 }
 
 unpleasant_germany = {
-	color = {91 89 87}
+	color = "feldgrau"
 
 	possible = {
 		exists = c:GER
@@ -323,7 +323,7 @@ napoleonic_france = {
 	possible = {
 		exists = c:FRA
 		THIS = c:FRA
-		OR = { 
+		OR = {
 			AND = {
 				has_law = law_type:law_monarchy
 				OR = {

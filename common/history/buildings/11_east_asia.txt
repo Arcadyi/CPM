@@ -1079,7 +1079,7 @@
 			}
 			create_building={
 				building="building_banana_plantation"
-				level=2
+				level=5
 				reserves=1
 				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
@@ -2081,7 +2081,7 @@
 		region_state:KOR={
 			create_building={
 				building="building_government_administration"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -2125,6 +2125,12 @@
 	}
 	s:STATE_BUSAN={
 		region_state:KOR={
+			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
 			create_building={
 				building="building_shipyards"
 				level=1
@@ -2173,7 +2179,7 @@
 		region_state:KOR={
 			create_building={
 				building="building_government_administration"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}	
@@ -2212,6 +2218,12 @@
 	s:STATE_SARIWON={
 		region_state:KOR={
 			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+			create_building={
 				building="building_rice_farm"
 				level=1
 				reserves=1
@@ -2241,7 +2253,7 @@
 		region_state:KOR={
 			create_building={
 				building="building_government_administration"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}

@@ -440,15 +440,6 @@ types information_panels_types
 							block "goto_visibility" {}
  						}
 
-						textbox = {
-							layoutpolicy_horizontal = expanding
-							align = left|nobaseline
-							size = { 0 25 }
-							elide = right
-							text = "[InterestGroup.GetApprovalRating] #bold ([InterestGroup.GetApprovalValue|=+])#!"
-							tooltip = "IG_APPROVAL_BREAKDOWN"
-						}
-
  						expand = {}
 						
 						### CLOUT
@@ -485,6 +476,20 @@ types information_panels_types
 								}
 							}
 						}
+
+						icon = {
+							visible = "[InterestGroup.GetPartyAffiliationHighest.IsValid]"
+							texture = "[InterestGroup.GetPartyAffiliationHighest.GetIcon]"
+							size = { 30 30 }
+							tooltip = "[InterestGroup.GetPartyAffiliationTooltip]"
+						}
+
+						icon = {
+							visible = "[Not(InterestGroup.GetPartyAffiliationHighest.IsValid)]"
+							texture = "gfx/interface/icons/generic_icons/undecided_icon.dds"
+							size = { 30 30 }
+							tooltip = "[InterestGroup.GetPartyAffiliationTooltip]"
+						}
 					}
 
 					### BOTTOM PART
@@ -492,28 +497,6 @@ types information_panels_types
 						layoutpolicy_horizontal = preferred
 						layoutpolicy_vertical = preferred
 						margin_top = 10
-
-						### IDEOLOGIES
-						dynamicgridbox = {
-							minimumsize = { 150 -1 }
-							flipdirection = yes
-							name = "ideologies_box"
-							datamodel = "[InterestGroup.AccessIntrinsicIdeologies]"
-							item = {
-								widget = {
-									size = { 37 35 }
-
-									icon = {
-										texture = "[Ideology.GetTexture]"
-										tooltipwidget = {
-											FancyTooltip_Ideology = {}
-										}
-										size = { 35 35 }
-										using = tooltip_above
-									}
-								}
-							}
-						}
 
 						fixedgridbox = {
 							name = "traits_box"
@@ -539,51 +522,43 @@ types information_panels_types
 								}
 							}
 						}
+						textbox = {
+							layoutpolicy_horizontal = expanding
+							align = left|nobaseline
+							margin_left = 10
+							size = { 0 25 }
+							elide = right
+							text = "[InterestGroup.GetApprovalRating] #bold ([InterestGroup.GetApprovalValue|=+])#!"
+							tooltip = "IG_APPROVAL_BREAKDOWN"
+						}
 
-						expand = {}
-
-						### TRAITS
+						### IDEOLOGIES
 						dynamicgridbox = {
 							flipdirection = yes
-							datamodel = "[InterestGroup.AccessLeader.AccessTraits]"
-
+							name = "ideologies_box"
+							datamodel = "[InterestGroup.AccessIntrinsicIdeologies]"
 							item = {
 								widget = {
-									size = { 32 42 }
+									size = { 37 35 }
 
 									icon = {
-										size = { 30 42 }
-										texture = "[CharacterTrait.GetTexture]"
-										using = tooltip_above
-
+										texture = "[Ideology.GetTexture]"
 										tooltipwidget = {
-											FancyTooltip_CharacterTrait = {}
+											FancyTooltip_Ideology = {}
 										}
+										size = { 35 35 }
+										using = tooltip_above
 									}
 								}
 							}
 						}
 					}
-					hbox = {
-						textbox = {
-							visible = "[Not(StringIsEmpty(InterestGroup.GetWillJoinPartyDesc))]"
-	                        layoutpolicy_horizontal = expanding
-	                        size = { 0 30 }
-	                        text = "#v [InterestGroup.GetWillJoinPartyDesc]#!"
-	                        tooltip = "[InterestGroup.GetWillJoinPartyTooltip]"
-	                    }
-
-	                    expand = {}
-					
-						textbox = {
-							datacontext = "[InterestGroup.AccessLeader]"
-							layoutpolicy_horizontal = expanding
-							align = right|nobaseline
-							elide = right
-							size = { 0 30 }
-							text = "[Character.GetCustom('GetUniversalFullName')]"
-						}
-					}
+					textbox = {
+                        layoutpolicy_horizontal = expanding
+                        size = { 0 30 }
+                        text = "#v [InterestGroup.GetWillJoinPartyDesc]#!"
+                        tooltip = "[InterestGroup.GetWillJoinPartyTooltip]"
+                    }
 				}
 
 				### LEADER
@@ -676,7 +651,10 @@ types information_panels_types
 					parentanchor = hcenter
 					addrow = 23
 					minimumsize = { -1 69 }
-					maxverticalslots = 3
+
+					block "maxverticalslots" {
+						maxverticalslots = 3
+					}
 
 					block "columnsize" {
 						addcolumn = 250

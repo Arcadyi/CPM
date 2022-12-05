@@ -5,7 +5,7 @@
 			80 = 0
 			
 			#Standard event
-			10 = expedition_events.20 #posts a notification
+			20 = expedition_events.20 #posts a notification
 			
 			20 = expedition_events.220 #river crossing
 			20 = expedition_events.230 #bear sighting
@@ -86,12 +86,9 @@
 			}
 		}
 		remove_variable = on_expedition
+		remove_variable = congo_river_expedition_var
 		remove_variable = west_america_expedition_var #this was missing for some reason
 		remove_variable = niger_river_expedition_var #left this in just in case
-		remove_modifier = modifier_large_expedition_cost
-		set_variable = west_america_expedition_succes_var #grand exhibition check
-
-		#Remove all these gosh-darn variables that keep events from happening in successive expeditions
 		remove_variable = river_crossing
 		remove_variable = jump_river_fail_var
 		remove_variable = jump_river_success_var
@@ -112,6 +109,15 @@
 		remove_variable = expedition_barter_var
 		remove_variable = guide_advice_var
 		remove_variable = no_extra_expenses_var
+		
+		remove_modifier = modifier_large_expedition_cost
+		set_variable = west_america_expedition_succes_var #grand exhibition check
+		random_scope_character = {
+			limit = {
+				has_variable = expedition_leader_var
+			}
+			remove_variable = expedition_leader_var
+		}
 	}
     
    fail = {
@@ -129,8 +135,6 @@
 		remove_variable = west_america_expedition_var
 		remove_variable = niger_river_expedition_var
 		remove_modifier = modifier_large_expedition_cost
-
-		#Remove all these gosh-darn variables that keep events from happening in successive expeditions
 		remove_variable = river_crossing
 		remove_variable = jump_river_fail_var
 		remove_variable = jump_river_success_var
@@ -151,6 +155,12 @@
 		remove_variable = expedition_barter_var
 		remove_variable = guide_advice_var
 		remove_variable = no_extra_expenses_var
+		random_scope_character = {
+			limit = {
+				has_variable = expedition_leader_var
+			}
+			remove_variable = expedition_leader_var
+		}
 	}
 	
 	current_value = {

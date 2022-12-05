@@ -14,7 +14,7 @@ GBR = {
 
 	country_type = recognized
 
-	tier = empire
+	tier = empire	
 	
 	cultures = { british scottish }
 	capital = STATE_HOME_COUNTIES

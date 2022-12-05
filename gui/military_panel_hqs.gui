@@ -92,6 +92,8 @@ types MilitaryPanelHQs {
 			parentanchor = hcenter
 
 			using = entry_bg_fancy
+
+			block "empty_state" {}
 			
 			flowcontainer = {
 				visible = "[Not(IsDataModelEmpty(Hq.GetBuildingsWithUnitsInReserve))]"
@@ -105,7 +107,7 @@ types MilitaryPanelHQs {
 					size = { 510 40 }
 							
 					blockoverride "left_text" {
-						text = "GARRISONED"
+						text = "GARRISONED_CONCEPT"
 					}
 
 					textbox = {
@@ -178,17 +180,6 @@ types MilitaryPanelHQs {
 					}
 				}
 			}
-			
-			### No battalions available in this HQ
-			textbox = {
-				visible = "[And( Hq.IsLandHQ, EqualTo_int32(Hq.GetHomeGarrisonMaxUnits, '(int32)0' ))]"
-				parentanchor = hcenter
-				align = nobaseline
-				fontsize_min = 12
-				autoresize = yes
-				text = "MILITARY_PANEL_NO_BATTALIONS"
-			}
-
 		}
 	}
 
@@ -397,7 +388,7 @@ types MilitaryPanelHQs {
 			margin = { 3 0 }
 
 			character_portrait_mini = {
-
+				blockoverride "character_highlight" {}
 			}
 
 
@@ -490,34 +481,23 @@ types MilitaryPanelHQs {
 				}
 				blockoverride "text2"
 				{
-					visible = "[GreaterThan_int32(Hq.GetHomeGarrisonMaxUnits, '(int32)0')]"
-					text = "ANTY_MILITARY_PANEL_HQ_UNITS_FORMAT"
-					tooltip = "ANTY_MILITARY_PANEL_HQ_UNITS_TOOLTIP"
-				}
-				### No battalions available in this HQ
-				textbox = {
-					visible = "[EqualTo_int32(Hq.GetHomeGarrisonMaxUnits, '(int32)0')]"
-					parentanchor = right|vcenter
-					align = right
-					fontsize_min = 12
-					autoresize = yes
-					text = "MILITARY_PANEL_NO_BATTALIONS"
-					margin_right = 25
+					text = "MILITARY_PANEL_HQ_UNITS_FORMAT"
+					tooltip = "MILITARY_PANEL_HQ_UNITS_TOOLTIP"
 				}
 			}
 
 			### Garrisoned commanders list
-			#flowcontainer = {
-			#	visible = "[Not(IsDataModelEmpty(MilitaryPanelHQEntry.GetGarrisonedCommanderEntries))]"
-			#	parentanchor = hcenter
-			#	direction = vertical
-			#	spacing = 5
-			#	datamodel = "[MilitaryPanelHQEntry.GetGarrisonedCommanderEntries]"
-			#
-			#	item = {
-			#		military_panel_hq_commander_entry = {}
-			#	}
-			#}
+			flowcontainer = {
+				visible = "[Not(IsDataModelEmpty(MilitaryPanelHQEntry.GetGarrisonedCommanderEntries))]"
+				parentanchor = hcenter
+				direction = vertical
+				spacing = 10
+				datamodel = "[MilitaryPanelHQEntry.GetGarrisonedCommanderEntries]"
+
+				item = {
+					military_panel_hq_commander_entry = {}
+				}
+			}
 
 			### Buildings with units in reserve (garrisoned units)
 			flowcontainer = {
@@ -525,14 +505,14 @@ types MilitaryPanelHQs {
 				parentanchor = hcenter
 				direction = vertical
 				ignoreinvisible = yes
-				spacing = 5
+				spacing = 10
 
 				### Units in reserve header
 				section_header_button = {
-					size = { @panel_width 35 }
+					size = { @panel_width 40 }
 							
 					blockoverride "left_text" {
-						text = "ANTY_GARRISONED"
+						text = "GARRISONED"
 					}
 
 					textbox = {
@@ -560,8 +540,8 @@ types MilitaryPanelHQs {
 					visible = "[MilitaryPanelHQEntry.IsExpandedInReserve]"
 					datamodel = "[MilitaryPanelHQEntry.GetBuildingWithUnitsInReserveEntries]"
 					direction = vertical
-					spacing = 5
-					margin_bottom = 3
+					spacing = 10
+					margin_bottom = 10
 					minimumsize = { @panel_width -1 }
 					maximumsize = { @panel_width -1 }
 
@@ -611,15 +591,15 @@ types MilitaryPanelHQs {
 				visible = "[Not(IsDataModelEmpty(Hq.GetNotGarrisonedCommanders))]"
 				parentanchor = hcenter
 				direction = vertical
-				spacing = 5
+				spacing = 10
 
 				### Not garrisoned commanders header
 				section_header_button = {
 					parentanchor = left
-					size = { @panel_width 35 }
+					size = { @panel_width 40 }
 							
 					blockoverride "left_text" {
-						text = "ANTY_MILITARY_PANEL_NOT_GARRISONED"
+						text = "MILITARY_PANEL_NOT_GARRISONED"
 					}
 
 					textbox = {
@@ -646,7 +626,7 @@ types MilitaryPanelHQs {
 					visible = "[MilitaryPanelHQEntry.IsExpandedNotGarrisoned]"
 					parentanchor = hcenter
 					direction = vertical
-					spacing = 5
+					spacing = 10
 					datamodel = "[MilitaryPanelHQEntry.GetNotGarrisonedCommanderEntries]"
 
 					item = {
@@ -657,9 +637,42 @@ types MilitaryPanelHQs {
 			}
 
 			### States list
-#deleted
-			
-			
+			flowcontainer = {
+				visible = "[And(And(IsDataModelEmpty(MilitaryPanelHQEntry.GetGarrisonedCommanderEntries), IsDataModelEmpty(Hq.GetNotGarrisonedCommanders)),IsDataModelEmpty(Hq.GetBuildingsWithUnitsInReserve))]"
+				datamodel = "[Hq.GetStates]"
+				direction = vertical
+				parentanchor = hcenter
+
+				item = {
+					widget = {
+						size = { @panel_width 50 }
+		
+						button = {
+							using = default_button
+							size = { 100% 100% }
+							onclick = "[InformationPanelBar.OpenStatePanelTab(State.AccessSelf,'buildings')]"
+						}
+
+						textbox = {
+							margin_left = 10
+							parentanchor = left|vcenter
+							align = nobaseline
+							fontsize_min = 12
+							autoresize = yes
+							text = "MILITARY_PANEL_HQ_STATE_NAME_FORMAT"
+						}
+						
+						textbox = {
+							margin_right = 10
+							parentanchor = right|vcenter
+							align = nobaseline
+							fontsize_min = 12
+							autoresize = yes
+							text = "MILITARY_PANEL_HQ_STATE_BATTALIONS_FORMAT"
+						}
+					}
+				}
+			}
 		}
 	}
 	
@@ -819,12 +832,13 @@ types MilitaryPanelHQs {
 		}
 
 		flowcontainer = {
-			margin = { 8 0 }
-			spacing = 3
-			margin_bottom = -5
+			margin = { 6 0 }
+			spacing = 5
+
 			# Troop image on the left
 			widget = {
-				size = { 140 110 }
+				size = { 200 150 }
+
 				background = {
 					texture = "[Building.GetCombatUnitTexture]"
 
@@ -837,74 +851,11 @@ types MilitaryPanelHQs {
 					using = simple_frame
 					size = { 100% 100% }
 				}
-				
-				
-				### Expand units widget
-				widget = {
-					parentanchor = bottom
-					margin = { 10 0 }
-					background = {
-						using = dark_area
-						alpha = 0.6
-						modify_texture = {
-							texture = "gfx/interface/masks/fade_horizontal_left.dds"
-							spriteType = Corneredstretched
-							spriteborder = { 0 0 }
-							blend_mode = alphamultiply
-						}
-					}
-					size = { 140 20 }
-					flowcontainer = {
-						
-						#parentanchor = right|vcenter
-						spacing = 10
-						parentanchor = right
-						#### Attrition level #Anty: Does this make sense? 
-						block "units_attrition" {
-							textbox = {
-								
-								visible = "[Or(Character.IsMobilized, NotEqualTo_CFixedPoint(Character.GetAttritionRaw,'(CFixedPoint)0'))]"
-								text = "ANTY_MILITARY_PANEL_TROOP_ATTRITION_LEVEL"
-								tooltip = "[Character.GetAttritionDesc]"
-								autoresize = yes
-								align = nobaseline
-							using = fontsize_medium
-							}
-						}
-
-						#### Num units with the commander / unit capacity in the building
-						block "units_amount" {
-							textbox = {
-								visible = "[Character.IsMobilized]"
-								
-								text = "MILITARY_PANEL_UNITS_FROM_BUILDING_FORMAT"
-								tooltip = "MILITARY_PANEL_UNITS_FROM_BUILDING_TOOLTIP"
-								autoresize = yes
-								align = nobaseline
-								using = fontsize_medium
-							}
-							textbox = {
-								visible = "[Not(Character.IsMobilized)]"
-								parentanchor = vcenter
-								text = "MILITARY_PANEL_UNITS_FROM_BUILDING_FORMAT_UNMOBILIZED"
-								tooltip = "MILITARY_PANEL_UNITS_FROM_BUILDING_TOOLTIP"
-								autoresize = yes
-								align = nobaseline
-								using = fontsize_medium
-							}
-						}
-						
-						#### Morale bar
-						block "units_morale" {
-							# Block for morale bar
-						}
-					}
-				}
 			}
 
 			# Building info on the right
 			widget = {
-				size = { 360 100 }
+				size = { 300 150 }
 
 				### Title: "Regular/Conscript troops in State"
 				widget = {
@@ -913,13 +864,9 @@ types MilitaryPanelHQs {
 					background = {
 						using = fade_right_bg
 					}
-					# Holds "onclick_" blocks
-					section_header_button = {
-						parentanchor = left|vcenter
-						size = { 100% 100% }
-					}
+
 					textbox = {
-						margin_left = 35
+						margin_left = 10
 						parentanchor = vcenter
 						align = nobaseline
 	
@@ -928,7 +875,7 @@ types MilitaryPanelHQs {
 						elide = right
 						text = "MILITARY_PANEL_BUILDING_TROOP_NAME"
 					}
-					
+	
 					button_icon_goto = {
 						datacontext = "[Building]"
 						parentanchor = right|vcenter
@@ -1001,52 +948,59 @@ types MilitaryPanelHQs {
 				}
 				
 				### Expand units widget
-				#widget = {
-				#	position = { -50 0 }
-				#	size = { 100% 40 }
-				#	flowcontainer = {
-				#		margin = { 10 0 }
-				#		parentanchor = right|vcenter
-				#		spacing = 10
-				#		
-				#		### Attrition level
-				#		block "units_attrition" {
-				#			textbox = {
-				#				parentanchor = vcenter
-				#				visible = "[Or(Character.IsMobilized, NotEqualTo_CFixedPoint(Character.GetAttritionRaw,'(CFixedPoint)0'))]"
-				#				text = "MILITARY_PANEL_TROOP_ATTRITION_LEVEL"
-				#				tooltip = "[Character.GetAttritionDesc]"
-				#				autoresize = yes
-				#				align = nobaseline
-				#			}
-				#		}
-				#
-				#		#### Num units with the commander / unit capacity in the building
-				#		block "units_amount" {
-				#			textbox = {
-				#				visible = "[Character.IsMobilized]"
-				#				parentanchor = vcenter
-				#				text = "MILITARY_PANEL_UNITS_FROM_BUILDING_FORMAT"
-				#				tooltip = "MILITARY_PANEL_UNITS_FROM_BUILDING_TOOLTIP"
-				#				autoresize = yes
-				#				align = nobaseline
-				#			}
-				#			textbox = {
-				#				visible = "[Not(Character.IsMobilized)]"
-				#				parentanchor = vcenter
-				#				text = "MILITARY_PANEL_UNITS_FROM_BUILDING_FORMAT_UNMOBILIZED"
-				#				tooltip = "MILITARY_PANEL_UNITS_FROM_BUILDING_TOOLTIP"
-				#				autoresize = yes
-				#				align = nobaseline
-				#			}
-				#		}
-				#		
-				#		#### Morale bar
-				#		block "units_morale" {
-				#			# Block for morale bar
-				#		}
-				#	}
-				#}
+				widget = {
+					position = { 0 110 }
+					size = { 100% 40 }
+
+					# Holds "onclick_" blocks
+					section_header_button = {
+						parentanchor = left|vcenter
+						size = { 100% 100% }
+					}
+	
+					flowcontainer = {
+						margin = { 10 0 }
+						parentanchor = right|vcenter
+						spacing = 10
+						
+						### Attrition level
+						block "units_attrition" {
+							textbox = {
+								parentanchor = vcenter
+								visible = "[Or(Character.IsMobilized, NotEqualTo_CFixedPoint(Character.GetAttritionRaw,'(CFixedPoint)0'))]"
+								text = "MILITARY_PANEL_TROOP_ATTRITION_LEVEL"
+								tooltip = "[Character.GetAttritionDesc]"
+								autoresize = yes
+								align = nobaseline
+							}
+						}
+
+						### Num units with the commander / unit capacity in the building
+						block "units_amount" {
+							textbox = {
+								visible = "[Character.IsMobilized]"
+								parentanchor = vcenter
+								text = "MILITARY_PANEL_UNITS_FROM_BUILDING_FORMAT"
+								tooltip = "MILITARY_PANEL_UNITS_FROM_BUILDING_TOOLTIP"
+								autoresize = yes
+								align = nobaseline
+							}
+							textbox = {
+								visible = "[Not(Character.IsMobilized)]"
+								parentanchor = vcenter
+								text = "MILITARY_PANEL_UNITS_FROM_BUILDING_FORMAT_UNMOBILIZED"
+								tooltip = "MILITARY_PANEL_UNITS_FROM_BUILDING_TOOLTIP"
+								autoresize = yes
+								align = nobaseline
+							}
+						}
+	
+						### Morale bar
+						block "units_morale" {
+							# Block for morale bar
+						}
+					}
+				}
 			}
 		}
 

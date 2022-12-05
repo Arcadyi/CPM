@@ -10,7 +10,6 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
-				concept_wikipedia_Ferdinand_von_Habsburg
 				arrogant
 				psychological_affliction
 			}
@@ -25,11 +24,9 @@
 			heir = yes
 			noble = yes
 			birth_date = 1830.8.18
-			dna = dna_franz_joseph
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			traits = {
-				concept_wikipedia_Franz_Josef_von_Habsburg
 				cautious
 			}
 		}
@@ -38,12 +35,10 @@
 			first_name = Klemens
 			last_name = von_Metternich
 			age = 63
-			dna = dna_klemens_metternich
 			ig_leader = yes
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
-				concept_wikipedia_Klemens_von_Metternich
 				meticulous
 				masterful_diplomat
 				experienced_political_operator
@@ -55,12 +50,10 @@
 			first_name = Ludwig
 			last_name = von_Habsburg
 			birth_date = 1784.12.13
-			dna = dna_archduke_ludwig
 			ig_leader = yes
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
 			traits = {
-				concept_wikipedia_Ludwig_von_Habsburg
 				arrogant
 				tactful
 				pious
@@ -71,13 +64,11 @@
 			first_name = Franz_Anton
 			last_name = von_Kolowrat_Liebsteinsky
 			birth_date = 1778.1.31
-			dna = dna_graf_kolowrat
 			ig_leader = yes
 			# From Bohemia, but a native German speaker
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
 			traits = {
-				concept_wikipedia_Franz_Anton_von_Kolowrat_Liebsteinsky
 				imperious
 				persistent
 			}
@@ -88,12 +79,10 @@
 			first_name = Vincenz
 			last_name = Milde
 			birth_date = 1777.5.11
-			dna = dna_vincent_milde
 			ig_leader = yes
 			interest_group = ig_devout
 			ideology = ideology_moderate
 			traits = {
-				concept_wikipedia_Vincenz_Milde
 				pious
 				reserved
 			}
@@ -104,12 +93,10 @@
 			first_name = Ignaz
 			last_name = Czapka
 			birth_date = 1791.2.24 # possibly born in 1792
-			dna = dna_ignaz_czapka
 			ig_leader = yes
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_royalist
 			traits = {
-				concept_wikipedia_Ignaz_Czapka
 				cautious
 				imperious
 			}
@@ -120,12 +107,10 @@
 			first_name = Anton
 			last_name = von_Doblhoff-Dier
 			birth_date = 1800.11.10
-			dna = dna_doblhoff_dier
 			ig_leader = yes
 			interest_group = ig_rural_folk
 			ideology = ideology_royalist
 			traits = {
-				concept_wikipedia_Anton_von_Doblhoff-Dier
 				innovative
 				reserved
 			}
@@ -136,11 +121,9 @@
 			first_name = Josef
 			last_name = Radetzky
 			birth_date = 1766.11.2
-			dna = dna_josef_radetzky
 			hq = region_south_germany
 			commander_rank = commander_rank_3
 			traits = {
-				concept_wikipedia_Josef_Radetzky
 				persistent
 				surveyor
 			}
@@ -151,11 +134,9 @@
 			first_name = Julius
 			last_name = von_Haynau
 			birth_date = 1786.10.14
-			dna = dna_julius_haynau
 			hq = region_poland
 			commander_rank = commander_rank_2
 			traits = {
-				concept_wikipedia_Julius_von_Haynau
 				wrathful
 				cruel
 			}
@@ -166,11 +147,9 @@
 			first_name = Heinrich
 			last_name = von_Hess
 			birth_date = 1788.3.17
-			dna = dna_heinrich_hess
 			hq = region_danubia
 			commander_rank = commander_rank_4
 			traits = {
-				concept_wikipedia_Heinrich_von_Hess
 				meticulous
 				resupply_commander
 			}
@@ -184,11 +163,9 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
 			birth_date = 1777.11.3
-			dna = dna_laval_nugent
 			hq = region_italy
 			commander_rank = commander_rank_2
 			traits = {
-				concept_wikipedia_Laval_Nugent_von_Westmeath
 				basic_offensive_planner
 				tactful
 			}
@@ -202,11 +179,9 @@
 			interest_group = ig_landowners
 			ideology = ideology_royalist
 			birth_date = 1777.3.23
-			dna = dna_graf_ficquelmont
 			hq = region_balkans
 			commander_rank = commander_rank_2
 			traits = {
-				concept_wikipedia_Karl_Ludwig_von_Ficquelmont
 				experienced_diplomat
 				charismatic
 			}
@@ -220,11 +195,9 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			birth_date = 1785.5.22
-			dna = dna_franz_bandiera
 			hq = region_italy
 			commander_rank = commander_rank_2
 			traits = {
-				concept_wikipedia_Franz_von_Bandiera
 				direct
 				basic_naval_commander
 			}

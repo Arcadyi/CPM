@@ -12,13 +12,17 @@ DEFAULT = {
 		adjective = csa_revolt_name_adj
 		
 		is_revolutionary = yes
-		priority = 0
+		priority = 100
 		
 		trigger = {
 			exists = c:CSA
+			exists = c:USA
 			exists = scope:actor
 			scope:actor = {
 				this = c:CSA
+			}
+			c:USA = {
+				has_journal_entry = je_acw_war
 			}
 		}
 	}
@@ -27,7 +31,7 @@ DEFAULT = {
 		adjective = fsa_revolt_name_adj
 		
 		is_revolutionary = yes
-		priority = 0
+		priority = 100
 		
 		trigger = {
 			exists = c:FSA
@@ -133,12 +137,25 @@ DEFAULT = {
 		priority = 0
 		
 		trigger = {
+
 			exists = scope:actor
 			scope:actor = {
 				is_secessionist = no
 				ig:ig_landowners = {
 					is_powerful = yes
 					is_in_government = yes
+				}
+			}
+			NOT = {
+				AND = {
+					exists = c:CSA
+					exists = c:USA
+					scope:actor = {
+						this = c:CSA
+					}
+					c:USA = {
+						has_journal_entry = je_acw_war
+					}
 				}
 			}
 		}
@@ -1271,12 +1288,7 @@ ORA = { # Oranje
 		priority = 0
 		
 		trigger = {
-			OR = {
-				coa_def_british_ensign_trigger = yes
-				c:ORA = {
-						is_subject_of = c:SAF
-				}
-			}
+			coa_def_british_ensign_trigger = yes
 		}
 	}
 }
@@ -1492,18 +1504,6 @@ RUS = { # Russia
 
 SAF = { # South Africa
 	dynamic_country_name = {
-		name = dyn_c_saf_union
-		adjective = dyn_c_saf_union_adj
-		
-		priority = 5
-		
-		trigger = {
-			c:SAF = {
-				has_modifier = union_of_south_africa_modifier
-			}
-		}
-	}
-	dynamic_country_name = {
 		name = dyn_c_south_africa
 		adjective = dyn_c_south_africa_adj
 
@@ -1690,12 +1690,7 @@ TRN = { # Transvaal
 		priority = 0
 		
 		trigger = {
-			OR = {	
-				coa_def_british_ensign_trigger = yes
-				c:ORA = {
-					is_subject_of = c:SAF
-				}
-			}
+			coa_def_british_ensign_trigger = yes
 		}
 	}
 }

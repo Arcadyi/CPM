@@ -19,32 +19,35 @@
 		in_default = no
 		taking_loans = no
 		is_at_war = no
-		root.gdp > 60000000
 		c:RUS = {
-			relations:root >= relations_threshold:cordial
+			relations:root >= 0
 			is_at_war = no
 			OR = {
-				in_default = yes
-				taking_loans = yes
-				any_rival_country = {
-					OR = {
-						country_or_subject_owns_entire_state_region = STATE_YUKON_TERRITORY
-						country_or_subject_owns_entire_state_region = STATE_BRITISH_COLUMBIA
-						custom_tooltip ={
-							text = alaskapurchase_tt
-							any_neighbouring_state = {
-								owner = c:RUS
+			in_default = yes
+			taking_loans = yes
+			can_take_on_scaled_debt = {
+				who = c:RUS
+				value = c:RUS.scaled_debt
+			}
+			any_rival_country = {
+				OR = {
+					country_or_subject_owns_entire_state_region = STATE_YUKON_TERRITORY
+					country_or_subject_owns_entire_state_region = STATE_BRITISH_COLUMBIA
+					custom_tooltip ={
+						text = alaskapurchase_tt
+						any_neighbouring_state = {
+							owner = c:RUS
 							}
 						}
 					}
 				}
 			}
 		}
-		custom_tooltip = {
-			text = alaskainprog_tt
-			NOT = {
-				has_global_variable = alaska_purchase_in_prog
-			}
+				custom_tooltip = {
+					text = alaskainprog_tt
+					NOT = {
+						has_global_variable = alaska_purchase_in_prog
+					}
 		}
 	}
 

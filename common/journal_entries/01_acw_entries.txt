@@ -128,15 +128,15 @@ je_acw_war = {
 	complete = {
 		custom_tooltip = {
 			text = acw_war_tt_complete
+			scope:target = { is_country_alive = no }
 			OR = {
-			NOT = {exists = c:CSA}
-				AND = {
-						NOT = { has_variable = csa_will_spawn_var }
-						NOT = {exists = c:FSA}
-				}
-		}			
-	}
-	
+				NOT = {exists = c:CSA}
+					AND = {
+							NOT = { has_variable = csa_will_spawn_var }
+							NOT = {exists = c:FSA}
+					}
+			}			
+		}
 	}
 
 	on_complete = {

@@ -22,14 +22,6 @@ expedition_events.601 = { #Start event
 	icon = "gfx/interface/icons/event_icons/event_map.dds"
 
 	immediate = {
-			remove_expedition_events_effect = yes
-			every_scope_character = {
-				limit = {
-					has_variable = expedition_leader_var
-				}
-				remove_variable = expedition_leader_var
-				set_character_busy = no
-			}
 	}
 
 	option = {
@@ -252,7 +244,6 @@ expedition_events.611 = { #Successful expedition
 		random_scope_character = {
 			limit = { has_variable = expedition_leader_var }
 			save_scope_as = expedition_leader
-			remove_variable = expedition_leader_var
 		}
 		if = {
 			limit = {
@@ -321,7 +312,6 @@ expedition_events.612 = { #Failed expedition
 		random_scope_character = {
 			limit = { has_variable = expedition_leader_var }
 			save_scope_as = expedition_leader
-			remove_variable = expedition_leader_var
 			set_variable = failed_expedition_leader_var
 		}
 	}

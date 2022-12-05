@@ -373,7 +373,7 @@ agrarian_party = {
 				desc = "from_no_rural_folk_in_party" # this should probably never actually display in game because the party won't exist
 			}
 		}
-		if = { #NFM
+		if = {
 			limit = {
 				leader = {
 					has_variable = politically_neutral_var

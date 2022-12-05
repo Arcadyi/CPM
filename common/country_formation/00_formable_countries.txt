@@ -179,7 +179,7 @@ CHI = {
 ETH = {
 	use_culture_states = yes
 
-	required_states_fraction = 0.25
+	required_states_fraction = 0.50
 	
 	ai_will_do = { always = yes }
 }
@@ -284,6 +284,18 @@ CZH = {
 	ai_will_do = { always = yes }
 }
 
+CAN = {
+	use_culture_states = yes
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+}
+
 AST = {
 	use_culture_states = yes
 
@@ -299,7 +311,7 @@ AST = {
 POL = {
 	use_culture_states = yes
 
-	required_states_fraction = 0.75	
+	required_states_fraction = 0.55
 
 	ai_will_do = { always = yes }
 }

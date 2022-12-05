@@ -98,13 +98,12 @@ types outliner_framework {
 		
 		# The list of the items within that group
 		container = {
-			parentanchor = right
 			block "list_visibility" {
 				visible = "[OutlinerEntry.IsExpanded]"
 			}
 			dynamicgridbox = {
 				block "list_position" {
-					position = { 0 0 }
+					position = { 20 0 }
 				}
 				block "list_properties" {
 					datamodel = "[OutlinerEntry.AccessSubEntries]"

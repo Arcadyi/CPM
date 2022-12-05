@@ -1778,7 +1778,7 @@ CHI = { # China
 	}	
 	flag_definition = {
 		coa = CHI_republic
-		subject_canton = CHI_dictatorship
+		subject_canton = CHI_republic
 		allow_overlord_canton = yes
 		priority = 10
 		trigger = { 
@@ -3265,7 +3265,7 @@ GEO = { # Georgia
 
 GER = { # Germany
 	flag_definition = {
-		coa = GER
+		coa = GER_modern
 	}
 	flag_definition = {
 		coa = GER_iron_cross
@@ -3301,6 +3301,68 @@ GER = { # Germany
 		priority = 1500
 		trigger = { 
 			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = GER_bavarian
+		priority = 100
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_monarchy
+				ruler = {
+					has_culture = cu:south_german
+				}
+				capital = { 
+					OR = {
+						state_region = s:STATE_BAVARIA 
+						state_region = s:STATE_FRANCONIA
+					}
+				}
+			}
+		}
+	}	
+	flag_definition = {
+		coa = GER_austrian
+		priority = 100
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_monarchy
+				ruler = {
+					has_culture = cu:south_german
+				}
+				capital = { 
+					OR = {
+						state_region = s:STATE_AUSTRIA
+						state_region = s:STATE_TYROL
+						state_region = s:STATE_SOUTH_TYROL
+						state_region = s:STATE_STYRIA
+					}
+				}
+			}
+		}
+	}	
+	
+	# Black-White-Red tricolor is reserved for a Prussian monarchy
+	flag_definition = {
+		coa = GER
+		priority = 100
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_monarchy
+				ruler = {
+					has_culture = cu:north_german
+				}
+				capital = { 
+					OR = {
+						state_region = s:STATE_BRANDENBURG 
+						state_region = s:STATE_EAST_PRUSSIA
+						state_region = s:STATE_WEST_PRUSSIA
+					}
+				}
+			}
 		}
 	}	
 }
@@ -4115,10 +4177,49 @@ ISR = { # Israel
 
 ITA = { # Italy
 	flag_definition = {
-		coa = ITA
-		subject_canton = ITA
+		coa = ITA_republic
+		subject_canton = ITA_republic
 		priority = 1
 	}
+	flag_definition = {
+		coa = ITA_sicilian
+		subject_canton = ITA_sicilian
+		priority = 15
+		trigger = { 
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_monarchy
+				ruler = {
+					has_culture = cu:south_italian
+				}
+				capital = { 
+					OR = {
+						state_region = s:STATE_SICILY 
+						state_region = s:STATE_CAMPANIA
+						state_region = s:STATE_ABRUZZO
+						state_region = s:STATE_APULIA
+					}
+				}
+			}
+		}
+	}
+	flag_definition = {
+		coa = ITA_papal
+		subject_canton = ITA_papal
+		priority = 15
+		
+		trigger = {
+			NOT = { exists = c:PAP } # Can't be Pope if the Pope is still in control of another country!
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ITA
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}	
 	flag_definition = {
 		coa = ITA_republic
 		priority = 10
@@ -8684,76 +8785,3 @@ ZIM = { # Zimbabwe
 		priority = 1
 	}
 }
-
-
-
-
-CSP = { # Carlist Spain
-	flag_definition = {
-		coa = SPA
-		subject_canton = SPA
-		coa_with_overlord_canton = SPA_subject
-		allow_overlord_canton = yes
-	}
-	flag_definition = {
-		coa = SPA_republic
-		subject_canton = SPA_republic
-		priority = 10
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = SPA_absolute_monarchy
-		subject_canton = SPA_absolute_monarchy	
-		priority = 10
-		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = SPA_dictatorship
-		subject_canton = SPA_dictatorship
-		priority = 20
-		trigger = {
-			coa_def_dictatorship_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = SPA_communist
-		subject_canton = SPA_communist
-		priority = 1500
-		trigger = { 
-			coa_def_communist_flag_trigger = yes
-		}
-	}		
-	flag_definition = {
-		coa = SPA_theocracy
-		subject_canton = SPA_theocracy
-		priority = 20
-		trigger = { 
-			coa_def_theocracy_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = SPA_subject_GBR
-		allow_overlord_canton = yes		
-		priority = 50
-		trigger = { 
-			coa_def_british_ensign_trigger = yes
-		}
-	}		
-}
-
-
-
-
-
-
-
-
-
-
-
-
-

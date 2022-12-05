@@ -25,6 +25,7 @@
 		ig:ig_devout = {
 			set_interest_group_name = ig_anglican_church
 		}
+		add_taxed_goods = g:grain
 		add_journal_entry = { type = je_rebilions_countdown }
 	}
 }

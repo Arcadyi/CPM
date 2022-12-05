@@ -1,6 +1,6 @@
 ﻿NMapMode = {
 
-	# Use opacity 3.4 as the default for colors and control the final opacity directly in the
+	# Use opacity 1 as the default for colors and control the final opacity directly in the
 	# Map Modes (or make a very specific call to step away from this for a very specific reasons)
 	@opacity = 3.4
 
@@ -280,7 +280,7 @@ NFrontend = {
 NCamera = {
     FOV	= 55 	# Field-of-View
     ZNEAR = 1
-    ZFAR = 10000
+    ZFAR = 50000
 
 	EDGE_SCROLLING_PIXELS = 10 # how many pixels from window edge that will trigger edge scrolling
 

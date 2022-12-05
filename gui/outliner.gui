@@ -94,8 +94,6 @@ types outliner_types {
 						pinned_expand_buttons = {}
 					}
 					using = outliner_entry_animation
-					
-
 				}
 				outliner_markets = {
 					blockoverride "visibility" {
@@ -111,21 +109,6 @@ types outliner_types {
 						pinned_expand_buttons = {}
 					}
 					using = outliner_entry_animation
-
-					flowcontainer = {
-						visible = "[OutlinerEntry.IsPinnedExpanded]"
-						direction = vertical
-						parentanchor = right
-						allow_outside = yes
-
-						datamodel = "[GetGlobalList('markets')]"
-
-						item = {
-							market_item = {
-								datacontext = "[Scope.AccessCountry.AccessFirstMarket]"
-							}
-						}
-					}
 				}
 				outliner_colonies = {
 					blockoverride "visibility" {

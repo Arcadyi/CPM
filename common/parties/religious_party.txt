@@ -286,7 +286,7 @@ religious_party = {
 				desc = "from_patriarchy"
 			}
 		}
-		if = { #NFM
+		if = {
 			limit = {
 				leader = {
 					has_variable = politically_neutral_var

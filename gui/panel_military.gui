@@ -32,7 +32,7 @@ types panel_military {
 				### Mobilize button
 				button = {
 					enabled = "[IsValid( Country.MobilizeAllGenerals )]"
-					using = default_button_action
+					using = default_button
 					using = diplomatic_play_mobilize_button_sound
 					size = { 240 50 }
 					using = fontsize_large
@@ -109,15 +109,7 @@ types panel_military {
 					}
 				}
 			}
-			
 		}
-		#textbox = {
-		#	text = "ANTY_ARMY_CURRENTCOST"
-		#	align = center|nobaseline
-		#	size = { 60 40 }
-		#	fontsize_min = 30
-		#	parentanchor = vcenter|hcenter
-		#}
 	}
 
 	type tab_navy = top_illu {
@@ -142,7 +134,6 @@ types panel_military {
 			widget = { size = { 1 10 } }
 		}
 	}
-	
 
 	type military_panel_unit_info = vbox {
 		layoutpolicy_vertical = expanding
@@ -260,7 +251,6 @@ types panel_military {
 		}
 
 	}
-	
 
 	### MOBILIZATION CONTROLS
 	type mobilization_icon = widget {
@@ -472,18 +462,6 @@ types panel_military {
 				text = "MOBILIZED_BATTALIONS_HEADER_COUNT"
 				tooltip = "MOBILIZED_BATTALIONS_HEADER_TOOLTIP"
 			}
-			blockoverride "text3" {
-				text = "MOBILIZED_BATTALIONS_HEADER_COUNT"
-				tooltip = "MOBILIZED_BATTALIONS_HEADER_TOOLTIP"
-			}
-			textbox = {
-				text = "ANTY_ARMY_CURRENTCOST"
-				align = center|nobaseline
-				size = { 60 30 }
-				
-				parentanchor = vcenter|hcenter
-				position = { -20 0 }
-			}
 		}
 
 		widget = { size = { 1 10 }}
@@ -491,9 +469,20 @@ types panel_military {
 		commander_list = {}
 
 		widget = { size = { 1 10 }}
-		
+
 		hq_list = {
-			visible = yes
+			blockoverride "empty_state" {
+				empty_state = {
+
+					blockoverride "visible" {
+						visible = "[IsDataModelEmpty(Hq.GetBuildingsWithUnitsInReserve)]"
+					}
+					
+					blockoverride "text" {
+						text = "NO_BATTALIONS_IN_HQ"
+					}
+				}
+			}
 		}
 
 		widget = { size = { 1 10 }}
@@ -601,11 +590,23 @@ types panel_military {
 			blockoverride "recruit_text" {
 				text = "RECRUIT_ADMIRAL_BUTTON"
 			}
+
+			blockoverride "empty_state" {
+				empty_state = {
+
+					blockoverride "visible" {
+						visible = "[IsDataModelEmpty(Hq.GetBuildingsWithUnitsInReserve)]"
+					}
+
+					blockoverride "text" {
+						text = "NO_FLOTILLAS_IN_HQ"
+					}
+				}
+			}
 		}
 
 		widget = { size = { 1 10 }}
 	}
-	
 
 	type panel_military = default_block_window {
 		name = "panel_military"
@@ -641,7 +642,6 @@ types panel_military {
 				}
 				blockoverride "first_button_click" {
 					onclick = "[InformationPanel.SelectTab('army')]"
-					
 				}
 				blockoverride "first_button_visibility" {
 					visible = "[InformationPanel.IsTabSelected('army')]"
@@ -686,7 +686,6 @@ types panel_military {
 				blockoverride "third_button_selected" {
 					text = "MILITARY_PANEL_TAB_NAVY_SELECTED"
 				}
-				
 			}
 		}
 
@@ -697,16 +696,18 @@ types panel_military {
 				
 				military_panel_army_content = {
 					visible = "[InformationPanel.IsTabSelected('army')]"
+					using = default_fade_in_out
 				}
 
 				military_panel_garrison_content = {
 					visible = "[InformationPanel.IsTabSelected('garrison')]"
+					using = default_fade_in_out
 				}
 
 				military_panel_navy_content = {
 					visible = "[InformationPanel.IsTabSelected('navy')]"
+					using = default_fade_in_out
 				}
-				
 
 				widget = { size = { 1 20 } }
 			}
@@ -730,6 +731,7 @@ types panel_military {
 					onclick = "[PanelMilitary.OnClickRecruitGenerals]"
 					enabled = yes
 					visible = "[InformationPanel.IsTabSelected('army')]"
+					using = default_content_fade
 
 					flowcontainer = {
 						parentanchor = center
@@ -758,6 +760,7 @@ types panel_military {
 					onclick = "[PanelMilitary.OnClickRecruitAdmirals]"
 					enabled = yes
 					visible = "[InformationPanel.IsTabSelected('navy')]"
+					using = default_content_fade
 
 					flowcontainer = {
 						parentanchor = center
