@@ -94,12 +94,51 @@ oregon.2 = {
 				save_scope_as = montana_scope
 			}
 		}
+		s:STATE_ALBERTA = {
+			random_scope_state = {
+				limit = {
+					owner = {
+						or = {
+							c:GBR = THIS
+							is_subject_of = c:GBR
+						}
+					}
+				}
+				save_scope_as = alberta_scope
+			}
+		}
+		s:STATE_SASKATCHEWAN = {
+			random_scope_state = {
+				limit = {
+					owner = {
+						or = {
+							c:GBR = THIS
+							is_subject_of = c:GBR
+						}
+					}
+				}
+				save_scope_as = saskatchewan_scope
+			}
+		}
+		s:STATE_MANITOBA = {
+			random_scope_state = {
+				limit = {
+					owner = {
+						or = {
+							c:GBR = THIS
+							is_subject_of = c:GBR
+						}
+					}
+				}
+				save_scope_as = manitoba_scope
+			}
+		}
 		c:USA = {
 			save_scope_as = usa_scope
 		}
 	}
 	
-	option = {
+	option = { #GBR Accepts (AI will always do)
 		name = oregon.2.a
 		default_option = yes
 		c:USA = {
@@ -112,8 +151,8 @@ oregon.2 = {
 				days = 0
 			}
 		}
-		show_as_tooltip = {
-			s:STATE_IDAHO = {
+		show_as_tooltip = { #Shows in tooltip for GBR - USA can still refuse
+			s:STATE_IDAHO = { #USA Gets Idaho
 				random_scope_state = {
 					limit = {
 						exists = c:GBR
@@ -127,7 +166,7 @@ oregon.2 = {
 					set_state_owner = c:USA
 				}
 			}
-			s:STATE_WASHINGTON = {
+			s:STATE_WASHINGTON = { #USA Gets Washington
 				random_scope_state = {
 					limit = {
 						exists = c:GBR
@@ -141,7 +180,7 @@ oregon.2 = {
 					set_state_owner = c:USA
 				}
 			}
-			s:STATE_OREGON = {
+			s:STATE_OREGON = { #USA Gets Oregon
 				random_scope_state = {
 					limit = {
 						exists = c:GBR
@@ -169,7 +208,7 @@ oregon.2 = {
 					set_state_owner = c:USA
 				}
 			}
-			s:STATE_MONTANA = {
+			s:STATE_MONTANA = { #USA Gets Montana - edge case for when HBC annexes Niitsitapi before USA can colonize all of Montana
 				random_scope_state = {
 					limit = {
 						exists = c:GBR
@@ -183,12 +222,108 @@ oregon.2 = {
 					set_state_owner = c:USA
 				}
 			}
+			s:STATE_ALBERTA = { #HBC or CAN gets Alberta
+				random_scope_state = {
+					limit = {
+						exists = c:USA
+						OR = {
+							exists = c:HBC
+							exists = c:CAN
+						}
+						owner = {
+							OR = {
+								c:USA = THIS
+								is_subject_of = c:USA
+							}
+						}
+					}
+					if = {
+						limit = {
+							exists = c:HBC
+							NOT = { exists = c:CAN }
+						}
+						set_state_owner = c:HBC
+					}
+					else = {
+						if = {
+							limit = {
+							exists = c:CAN
+							}
+							set_state_owner = c:CAN
+						}
+					}
+				}
+			}
+			s:STATE_SASKATCHEWAN = { #HBC or CAN gets Saskatchewan
+				random_scope_state = {
+					limit = {
+						exists = c:USA
+						OR = {
+							exists = c:HBC
+							exists = c:CAN
+						}
+						owner = {
+							OR = {
+								c:USA = THIS
+								is_subject_of = c:USA
+							}
+						}
+					}
+					if = {
+						limit = {
+							exists = c:HBC
+							NOT = { exists = c:CAN }
+						}
+						set_state_owner = c:HBC
+					}
+					else = {
+						if = {
+							limit = {
+							exists = c:CAN
+							}
+							set_state_owner = c:CAN
+						}
+					}
+				}
+			}
+			s:STATE_MANITOBA = { #HBC or CAN gets Manitoba
+				random_scope_state = {
+					limit = {
+						exists = c:USA
+						OR = {
+							exists = c:HBC
+							exists = c:CAN
+						}
+						owner = {
+							OR = {
+								c:USA = THIS
+								is_subject_of = c:USA
+							}
+						}
+					}
+					if = {
+						limit = {
+							exists = c:HBC
+							NOT = { exists = c:CAN }
+						}
+						set_state_owner = c:HBC
+					}
+					else = {
+						if = {
+							limit = {
+							exists = c:CAN
+							}
+							set_state_owner = c:CAN
+						}
+					}
+				}
+			}
 		}
 		ai_chance = { # AI should do this by default
 			base = 10
 		}
 	}
-	option = {
+	option = { #GBR refuses
 		name = oregon.2.b
 		c:USA = {
 			change_relations = {
@@ -207,7 +342,7 @@ oregon.2 = {
 }
 
 # Successful Treaty
-oregon.3 = {
+oregon.3 = { #USA Event if GBR accepts treaty
 	type = country_event
 	placement = ROOT
 
@@ -300,12 +435,54 @@ oregon.3 = {
 				save_scope_as = montana_scope
 			}
 		}
+		s:STATE_ALBERTA = {
+			random_scope_state = {
+				limit = {
+					exists = c:GBR
+					owner = {
+						or = {
+							c:GBR = THIS
+							is_subject_of = c:GBR
+						}
+					}
+				}
+				save_scope_as = alberta_scope
+			}
+		}
+		s:STATE_SASKATCHEWAN = {
+			random_scope_state = {
+				limit = {
+					exists = c:GBR
+					owner = {
+						or = {
+							c:GBR = THIS
+							is_subject_of = c:GBR
+						}
+					}
+				}
+				save_scope_as = saskatchewan_scope
+			}
+		}
+		s:STATE_MANITOBA = {
+			random_scope_state = {
+				limit = {
+					exists = c:GBR
+					owner = {
+						or = {
+							c:GBR = THIS
+							is_subject_of = c:GBR
+						}
+					}
+				}
+				save_scope_as = manitoba_scope
+			}
+		}
 		c:GBR = {
 			save_scope_as = britain_scope
 		}
 	}
 	
-	option = {
+	option = { #USA Accept treaty (AI will always do)
 		name = oregon.3.a
 		default_option = yes
 		s:STATE_IDAHO = {
@@ -368,9 +545,9 @@ oregon.3 = {
 				set_state_owner = c:USA
 			}
 		}
-		s:STATE_MONTANA = {
-			add_homeland = yankee
-			random_scope_state = {
+		s:STATE_MONTANA = { #USA Gets Montana - edge case when HBC/Canada annexes Niitsitapi
+		add_homeland = yankee
+		random_scope_state = {
 				limit = {
 					exists = c:GBR
 					owner = {
@@ -383,11 +560,163 @@ oregon.3 = {
 				set_state_owner = c:USA
 			}
 		}
+		s:STATE_ALBERTA = {
+			random_scope_state = {
+				limit = {
+					OR = {
+							exists = c:HBC
+							exists = c:CAN
+						}
+					owner = {
+						OR = {
+							c:USA = THIS
+							is_subject_of = c:USA
+						}
+					}
+				}
+					if = {
+						limit = {
+							exists = c:HBC
+							NOT = { exists = c:CAN }
+						}
+						set_state_owner = c:HBC
+					}
+					else = {
+						if = {
+							limit = {
+							exists = c:CAN
+							}
+							set_state_owner = c:CAN
+						}
+					}
+			}
+		}
+		s:STATE_SASKATCHEWAN = {
+			random_scope_state = {
+				limit = {
+					OR = {
+							exists = c:HBC
+							exists = c:CAN
+						}
+					owner = {
+						OR = {
+							c:USA = THIS
+							is_subject_of = c:USA
+						}
+					}
+				}
+					if = {
+						limit = {
+							exists = c:HBC
+							NOT = { exists = c:CAN }
+						}
+						set_state_owner = c:HBC
+					}
+					else = {
+						if = {
+							limit = {
+							exists = c:CAN
+							}
+							set_state_owner = c:CAN
+						}
+					}
+			}
+		}
+		s:STATE_MANITOBA = {
+			random_scope_state = {
+				limit = {
+					OR = {
+							exists = c:HBC
+							exists = c:CAN
+						}
+					owner = {
+						OR = {
+							c:USA = THIS
+							is_subject_of = c:USA
+						}
+					}
+				}
+					if = {
+						limit = {
+							exists = c:HBC
+							NOT = { exists = c:CAN }
+						}
+						set_state_owner = c:HBC
+					}
+					else = {
+						if = {
+							limit = {
+							exists = c:CAN
+							}
+							set_state_owner = c:CAN
+						}
+					}
+			}
+		}
+
+		ai_chance = { # AI should do this by default
+			base = 10
+		}
+	}
+
+	option = { #USA Refuse Treaty - Fifty-four forty or FIGHT! (AI will never do)
+		name = oregon.3.b
+				add_journal_entry = {
+			type = je_fifty_four_fourty
+		}
+		s:STATE_OREGON = {
+			add_claim = ROOT
+			add_homeland = yankee
+		}
+		s:STATE_IDAHO = {
+			add_claim = ROOT
+			add_homeland = yankee
+		}
+		s:STATE_WASHINGTON = {
+			add_claim = ROOT
+			add_homeland = yankee
+		}
+		s:STATE_BRITISH_COLUMBIA = {
+			add_claim = ROOT
+			add_homeland = yankee
+		}
+		s:STATE_MONTANA = { #Edge case for when HBC or CAN annexes Niitsitapi
+			if = {
+				limit = {
+					any_scope_state = {
+						owner = {
+							OR = {
+								c:GBR = THIS
+								is_subject_of = c:GBR
+							}
+						}
+					}
+				}
+				add_claim = ROOT
+			}
+		}
+
+		c:GBR = {
+			show_as_tooltip = {
+				change_relations = {
+					country = c:USA
+					value = -50
+				}
+			}
+			trigger_event = {
+				id = oregon.5
+				days = 0
+			}
+		}
+
+		ai_chance = {
+			base = 0
+		}
 	}
 }
 
 # Unsuccessful Treaty
-oregon.4 = {
+oregon.4 = { #USA event if GBR refuses treaty
 	type = country_event
 	placement = ROOT
 
@@ -415,8 +744,9 @@ oregon.4 = {
 		}
 	}
 	
-	option = {
+	option = { #USA Claim on Oregon territory
 		name = oregon.4.a
+		default_option = yes
 		add_journal_entry = {
 			type = je_conquer_oregon
 		}
@@ -439,6 +769,87 @@ oregon.4 = {
 		s:STATE_MONTANA = {
 			add_claim = ROOT
 			add_homeland = yankee
+		}
+		ai_chance = { # AI should do this by default
+			base = 10
+		}
+	}
+	option = { #USA Fifty-four fourty or fight! (AI will never do)
+		name = oregon.4.b 
+
+		s:STATE_OREGON = {
+			add_claim = ROOT
+			add_homeland = yankee
+		}
+		s:STATE_IDAHO = {
+			add_claim = ROOT
+			add_homeland = yankee
+		}
+		s:STATE_WASHINGTON = {
+			add_claim = ROOT
+			add_homeland = yankee
+		}
+		s:STATE_BRITISH_COLUMBIA = {
+			add_claim = ROOT
+			add_homeland = yankee
+		}
+		c:GBR = {
+			show_as_tooltip = {
+				change_relations = {
+					country = c:USA
+					value = -50
+				}
+			}
+			trigger_event = {
+				id = oregon.5
+				days = 0
+			}
+		}
+		create_incident = {
+				country = c:GBR
+				value = 20 #Infamy for the USA
+		}
+		ai_chance = { 
+			base = 0
+		}
+	}
+	
+}
+
+# Fifty-Four Fourty or FIGHT!
+oregon.5 = { #GBR event if USA chooses to claim all of oregon territory (should only ever happen if USA is player controlled)
+	type = country_event
+	placement = ROOT
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_capitalists_meeting.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/capitalists_meeting"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	title = oregon.5.t
+	desc = oregon.5.d
+	flavor = oregon.5.f
+
+	duration = 3
+	
+	trigger = {
+	}
+	
+	immediate = {
+		c:USA = {
+			save_scope_as = american_scope
+		}
+	}
+
+	option = {
+		name = oregon.5.a
+		change_relations = {
+			country = c:USA
+			value = -50 #Royally piss off the British
 		}
 	}
 }
