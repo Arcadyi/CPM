@@ -1,4 +1,4 @@
-﻿#notification_example = {													#notification key
+#notification_example = {													#notification key
 #	type = country 															#include notification type
 #	texture = "gfx/interface/icons/notification_icons/technology.dds" 		#notification texture picture
 #
@@ -77,10 +77,8 @@ heir_born_notification = {
 	type = character
 	texture = "gfx/interface/icons/notification_icons/character.dds"
 
-	notification_type = toast
+	notification_type = feed
 	days = 21
-	
-	on_created_soundeffect = "event:/SFX/UI/Alerts/Toasts/heir_born"
 }
 
 building_built_notification = {
@@ -236,10 +234,8 @@ migration_target_created = {
 	type = state
 	texture = "gfx/interface/icons/notification_icons/pops.dds"
 
-	notification_type = toast
+	notification_type = feed
 	days = 21
-	
-	on_created_soundeffect = "event:/SFX/UI/Alerts/Toasts/migration_target"
 }
 
 migration_target_created_other = {
@@ -336,8 +332,6 @@ diplo_play_start_notification = {
 
 	notification_type = toast
 	days = 21
-	
-	on_created_soundeffect = "event:/SFX/UI/Alerts/Toasts/native_uprising"
 }
 
 diplo_play_start_third_party_notification = {
@@ -354,8 +348,6 @@ diplo_play_back_down_notification = {
 
 	notification_type = toast
 	days = 21
-	
-	on_created_soundeffect = "event:/SFX/UI/Alerts/Toasts/peace_agreement"
 }
 
 diplo_play_back_down_involved_notification = {
@@ -364,8 +356,6 @@ diplo_play_back_down_involved_notification = {
 
 	notification_type = toast
 	days = 21
-	
-	on_created_soundeffect = "event:/SFX/UI/Alerts/Toasts/peace_agreement"
 }
 
 diplo_play_declare_neutrality_notification = {
@@ -382,8 +372,6 @@ diplo_play_join_side_notification = {
 
 	notification_type = toast
 	days = 21
-	
-	on_created_soundeffect = "event:/SFX/UI/Alerts/Toasts/peace_agreement"
 }
 
 diplo_play_abandon_side_notification = {
@@ -392,8 +380,6 @@ diplo_play_abandon_side_notification = {
 
 	notification_type = toast
 	days = 21
-	
-	on_created_soundeffect = "event:/SFX/UI/Alerts/Toasts/peace_agreement"
 }
 
 diplo_play_war_start_notification = {
@@ -904,8 +890,6 @@ enemy_convoys_raided = {
 
 	notification_type = toast
 	days = 7
-	
-	on_created_soundeffect = "event:/SFX/UI/Alerts/Toasts/capitulated"
 }
 
 our_convoys_raided = {
@@ -914,6 +898,4 @@ our_convoys_raided = {
 
 	notification_type = toast
 	days = 7
-	
-	on_created_soundeffect = "event:/SFX/UI/Alerts/Toasts/capitulated"
 }
