@@ -9,6 +9,8 @@ japanese_flavor_Oshio_Heihachiro = {
 	birth_date = 1793.1.1
 	traits = {
 		historical_figures
+		historical_figures
+        concept_wikipedia_Oshio_Heihachiro
 		charismatic
 		inspirational_orator
 		firebrand
@@ -38,6 +40,8 @@ japanese_flavor_Takano_Choei = {
 	birth_date = 1804.1.1
 	traits = {
 		historical_figures
+		historical_figures
+        concept_wikipedia_Takano_Choei
 		direct
 	}
 	interest_group_leader_usage = {
@@ -65,6 +69,8 @@ japanese_flavor_Shimazu_Nariakira = {
 	birth_date = 1809.1.1
 	traits = {
 		historical_figures
+		historical_figures
+        concept_wikipedia_Shimazu_Nariakira
 		basic_political_operator
 		basic_diplomat
 	}
@@ -93,6 +99,7 @@ japanese_flavor_Hotta_Masayoshi = {
 	birth_date = 1810.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Hotta_Masayoshi
 		psychological_affliction
 	}
 	interest_group_leader_usage = {
@@ -120,6 +127,8 @@ japanese_flavor_Ogata_Koan = {
 	birth_date = 1810.1.1
 	traits = {
 		historical_figures
+        historical_figures
+        concept_wikipedia_Ogata_Koan
 		meticulous
 	}
 	interest_group_leader_usage = {
@@ -147,6 +156,8 @@ japanese_flavor_Ii_Naosuke = {
 	birth_date = 1815.1.1
 	traits = {
 		historical_figures
+        historical_figures
+        concept_wikipedia_Ii_Naosuke
 		experienced_political_operator
 		cruel
 	}
@@ -175,6 +186,7 @@ japanese_flavor_Shimazu_Hisamitsu = {
 	birth_date = 1817.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Shimazu_Hisamitsu
 		basic_political_operator
 		ambitious
 	}
@@ -203,6 +215,7 @@ japanese_flavor_Abe_Masahiro = {
 	birth_date = 1819.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Abe_Masahiro
 		psychological_affliction
 	}
 	interest_group_leader_usage = {
@@ -230,6 +243,7 @@ japanese_flavor_Mori_Takachika = {
 	birth_date = 1819.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Mori_Takachika
 		meticulous
 		ambitious
 	}
@@ -258,6 +272,7 @@ japanese_flavor_Katsu_Kaishu = {
 	birth_date = 1823.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Katsu_Kaishu
 		experienced_diplomat
 		basic_naval_commander
 	}
@@ -286,6 +301,7 @@ japanese_flavor_Oguri_Tadamasa = {
 	birth_date = 1827.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Oguri_Tadamasa
 		basic_diplomat
 		basic_political_operator
 	}
@@ -314,6 +330,7 @@ japanese_flavor_Saigo_Takamori = {
 	birth_date = 1828.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Saigo_Takamori
 		basic_offensive_planner
 		romantic
 		brave
@@ -343,6 +360,7 @@ japanese_flavor_Yoshida_Shoin = {
 	birth_date = 1830.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Yoshida_Shoin
 		inspirational_orator
 		reckless
 	}
@@ -371,6 +389,7 @@ japanese_flavor_Okubo_Toshimichi = {
 	birth_date = 1830.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Okubo_Toshimichi
 		basic_political_operator
 		basic_diplomat
 	}
@@ -399,6 +418,7 @@ japanese_flavor_Kido_Katayoshi = {
 	birth_date = 1833.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kido_Katayoshi
 		basic_diplomat
 		plains_commander
 	}
@@ -427,6 +447,7 @@ japanese_flavor_Kondo_Isami = {
 	birth_date = 1834.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kondo_Isami
 		plains_commander
 		brave
 	}
@@ -439,7 +460,7 @@ japanese_flavor_Kondo_Isami = {
 		role = general
 		earliest_usage_date = 1858.1.1
 		latest_usage_date = 1868.1.1
-		chance = 50
+		chance = 80
 	}
 }
 
@@ -454,6 +475,7 @@ japanese_flavor_Eto_Shinpei = {
 	birth_date = 1834.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Eto_Shinpei
 		basic_political_operator
 		reckless
 	}
@@ -482,6 +504,7 @@ japanese_flavor_Fukuzawa_Yukichi = {
 	birth_date = 1835.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Fukuzawa_Yukichi
 		inspirational_orator
 		basic_political_operator
 	}
@@ -513,6 +536,7 @@ japanese_flavor_Iwasaki_Yataro = {
 	birth_date = 1835.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Iwasaki_Yataro
 		ambitious
 		resupply_commander
 	}
@@ -541,6 +565,7 @@ japanese_flavor_Matsudaira_Katamori = {
 	birth_date = 1836.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Matsudaira_Katamori
 		basic_defensive_strategist
 		brave
 	}
@@ -569,6 +594,7 @@ japanese_flavor_Sakamoto_Ryoma = {
 	birth_date = 1836.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Sakamoto_Ryoma
 		experienced_diplomat
 		charismatic
 		romantic
@@ -601,6 +627,7 @@ japanese_flavor_Inoue_Kaoru = {
 	birth_date = 1836.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Inoue_Kaoru
 		experienced_political_operator
 	}
 	interest_group_leader_usage = {
@@ -628,6 +655,7 @@ japanese_flavor_Itagaki_Taisuke = {
 	birth_date = 1837.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Itagaki_Taisuke
 		demagogue
 		experienced_political_operator
 	}
@@ -656,6 +684,7 @@ japanese_flavor_Okuma_Shigenobu = {
 	birth_date = 1838.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Okuma_Shigenobu
 		experienced_political_operator
 		demagogue
 	}
@@ -687,6 +716,7 @@ japanese_flavor_Yamagata_Aritomo = {
 	birth_date = 1838.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Yamagata_Aritomo
 		experienced_offensive_planner
 		basic_political_operator
 	}
@@ -699,7 +729,7 @@ japanese_flavor_Yamagata_Aritomo = {
 		role = general
 		earliest_usage_date = 1868.1.1
 		latest_usage_date = 1922.1.1
-		chance = 50
+		chance = 80
 	}
 }
 
@@ -714,6 +744,7 @@ japanese_flavor_Takasugi_Shinsaku = {
 	birth_date = 1839.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Takasugi_Shinsaku
 		basic_offensive_planner
 		psychological_affliction
 	}
@@ -742,6 +773,7 @@ japanese_flavor_Kuroda_Kiyotaka = {
 	birth_date = 1840.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kuroda_Kiyotaka
 		basic_diplomat
 		expensive_tastes
 	}
@@ -770,6 +802,7 @@ japanese_flavor_Shibusawa_Eiichi = {
 	birth_date = 1840.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Shibusawa_Eiichi
 		basic_political_operator
 		ambitious
 	}
@@ -798,6 +831,7 @@ japanese_flavor_Ito_Hirobumi = {
 	birth_date = 1841.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Ito_Hirobumi
 		experienced_political_operator
 		experienced_colonial_administrator
 	}
@@ -826,6 +860,7 @@ japanese_flavor_Tanaka_Shozo = {
 	birth_date = 1841.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Tanaka_Shozo
 		persistent
 	}
 	interest_group_leader_usage = {
@@ -853,6 +888,7 @@ japanese_flavor_Oyama_Iwao = {
 	birth_date = 1842.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Oyama_Iwao
 		experienced_offensive_planner
 		trench_rat
 		reserved
@@ -866,7 +902,7 @@ japanese_flavor_Oyama_Iwao = {
 		role = general
 		earliest_usage_date = 1872.1.1
 		latest_usage_date = 1916.1.1
-		chance = 50
+		chance = 80
 	}
 }
 
@@ -881,6 +917,7 @@ japanese_flavor_Katsura_Taro = {
 	birth_date = 1848.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Katsura_Taro
 		experienced_political_operator
 		basic_colonial_administrator
 	}
@@ -909,6 +946,7 @@ japanese_flavor_Saionji_Kinmochi = {
 	birth_date = 1849.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Saionji_Kinmochi
 		experienced_political_operator
 		basic_diplomat
 	}
@@ -937,6 +975,7 @@ japanese_flavor_Nogi_Maresuke = {
 	birth_date = 1849.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Nogi_Maresuke
 		popular_commander
 	}
 	commander_rank = default
@@ -948,7 +987,7 @@ japanese_flavor_Nogi_Maresuke = {
 		role = general
 		earliest_usage_date = 1879.1.1
 		latest_usage_date = 1912.1.1
-		chance = 50
+		chance = 80
 	}
 }
 
@@ -963,6 +1002,7 @@ japanese_flavor_Kodama_Gentaro = {
 	birth_date = 1852.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kodama_Gentaro
 		experienced_offensive_planner
 		experienced_colonial_administrator
 		innovative
@@ -976,7 +1016,7 @@ japanese_flavor_Kodama_Gentaro = {
 		role = general
 		earliest_usage_date = 1882.1.1
 		latest_usage_date = 1906.1.1
-		chance = 50
+		chance = 80
 	}
 }
 
@@ -991,6 +1031,7 @@ japanese_flavor_Takahashi_Korekiyo = {
 	birth_date = 1854.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Takahashi_Korekiyo
 		basic_political_operator
 	}
 	interest_group_leader_usage = {
@@ -1018,6 +1059,7 @@ japanese_flavor_Komura_Jutaro = {
 	birth_date = 1855.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Komura_Jutaro
 		experienced_diplomat
 		bigoted
 	}
@@ -1038,6 +1080,34 @@ japanese_flavor_Komura_Jutaro = {
 	}
 }
 
+# Inukai Tsuyoshi
+japanese_flavor_Inukai_Tsuyoshi = {
+	first_name = japanese_flavor_Inukai_Tsuyoshi_first
+	last_name = japanese_flavor_Inukai_Tsuyoshi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_ethno_nationalist
+	interest_group = ig_intelligentsia
+	birth_date = 1855.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Inukai_Tsuyoshi
+		experienced_political_operator
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1932.1.1
+		chance = 50
+	}
+}
+
 # Hara Takashi
 japanese_flavor_Hara_Takashi = {
 	first_name = japanese_flavor_Hara_Takashi_first
@@ -1049,6 +1119,7 @@ japanese_flavor_Hara_Takashi = {
 	birth_date = 1856.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Hara_Takashi
 		experienced_political_operator
 	}
 	interest_group_leader_usage = {
@@ -1076,6 +1147,7 @@ japanese_flavor_Ozaki_Yukio = {
 	birth_date = 1858.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Ozaki_Yukio
 		wrathful
 	}
 	interest_group_leader_usage = {
@@ -1103,6 +1175,7 @@ japanese_flavor_Mori_Ogai = {
 	birth_date = 1862.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Mori_Ogai
 		persistent
 	}
 	interest_group_leader_usage = {
@@ -1122,6 +1195,38 @@ japanese_flavor_Mori_Ogai = {
 	}
 }
 
+# Nitobe Inazo
+japanese_flavor_Nitobe_Inazo = {
+	first_name = japanese_flavor_Nitobe_Inazo_first
+	last_name = japanese_flavor_Nitobe_Inazo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_pacifist
+	interest_group = ig_devout
+	birth_date = 1862.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Nitobe_Inazo
+		pious
+		experienced_diplomat
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			OR = {
+				is_interest_group_type = ig_devout
+				is_interest_group_type = ig_intelligentsia
+			}
+		}
+		earliest_usage_date = 1892.1.1
+		latest_usage_date = 1933.1.1
+		chance = 50
+	}
+}
+
 # Natsume Soseki
 japanese_flavor_Natsume_Soseki = {
 	first_name = japanese_flavor_Natsume_Soseki_first
@@ -1133,6 +1238,7 @@ japanese_flavor_Natsume_Soseki = {
 	birth_date = 1867.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Natsume_Soseki
 		romantic
 	}
 	interest_group_leader_usage = {
@@ -1152,6 +1258,34 @@ japanese_flavor_Natsume_Soseki = {
 	}
 }
 
+# Minobe Tatsukichi
+japanese_flavor_Minobe_Tatsukichi = {
+	first_name = japanese_flavor_Minobe_Tatsukichi_first
+	last_name = japanese_flavor_Minobe_Tatsukichi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_devout
+	birth_date = 1873.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Minobe_Tatsukichi
+		meticulous
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1903.1.1
+		latest_usage_date = 1948.1.1
+		chance = 50
+	}
+}
+
 # Yosano Akiko
 japanese_flavor_Yosano_Akiko = {
 	first_name = japanese_flavor_Yosano_Akiko_first
@@ -1163,6 +1297,7 @@ japanese_flavor_Yosano_Akiko = {
 	birth_date = 1878.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Yosano_Akiko
 		innovative
 	}
 	interest_group_leader_usage = {
@@ -1179,6 +1314,68 @@ japanese_flavor_Yosano_Akiko = {
 	}
 }
 
+# Yoshino Sakuzo
+japanese_flavor_Yoshino_Sakuzo = {
+	first_name = japanese_flavor_Yoshino_Sakuzo_first
+	last_name = japanese_flavor_Yoshino_Sakuzo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_republican_leader
+	interest_group = ig_devout
+	birth_date = 1878.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Yoshino_Sakuzo
+		innovative
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			OR = {
+				is_interest_group_type = ig_devout
+				is_interest_group_type = ig_intelligentsia
+			}
+		}
+		earliest_usage_date = 1908.1.1
+		latest_usage_date = 1933.1.1
+		chance = 50
+	}
+}
+
+# Kita Ikki
+japanese_flavor_Kita_Ikki = {
+	first_name = japanese_flavor_Kita_Ikki_first
+	last_name = japanese_flavor_Kita_Ikki_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_fascist
+	interest_group = ig_trade_unions
+	birth_date = 1883.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kita_Ikki
+		charismatic
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			OR = {
+				is_interest_group_type = ig_trade_unions
+				is_interest_group_type = ig_intelligentsia
+			}
+		}
+		earliest_usage_date = 1913.1.1
+		latest_usage_date = 1937.1.1
+		chance = 50
+	}
+}
+
 # Hiratsuka Raicho
 japanese_flavor_Hiratsuka_Raicho = {
 	first_name = japanese_flavor_Hiratsuka_Raicho_first
@@ -1186,10 +1383,11 @@ japanese_flavor_Hiratsuka_Raicho = {
 	culture = cu:japanese
 	female = yes
 	ideology = ideology_feminist
-	interest_group = ig_devout
+	interest_group = ig_intelligentsia
 	birth_date = 1886.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Hiratsuka_Raicho
 		inspirational_orator
 	}
 	interest_group_leader_usage = {
@@ -1198,11 +1396,39 @@ japanese_flavor_Hiratsuka_Raicho = {
 			this = c:JAP
 		}
 		interest_group_trigger = {
-			is_interest_group_type = ig_devout
+			is_interest_group_type = ig_intelligentsia
 		}
 		earliest_usage_date = 1916.1.1
 		latest_usage_date = 1971.1.1
 		chance = 50
+	}
+}
+
+# Ishiwara Kanji
+japanese_flavor_Ishiwara_Kanji = {
+	first_name = japanese_flavor_Ishiwara_Kanji_first
+	last_name = japanese_flavor_Ishiwara_Kanji_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_fascist
+	interest_group = ig_armed_forces
+	birth_date = 1889.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Ishiwara_Kanji
+		ambitious
+		experienced_offensive_planner
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1919.1.1
+		latest_usage_date = 1949.1.1
+		chance = 80
 	}
 }
 
@@ -1217,6 +1443,7 @@ japanese_flavor_Akutagawa_Ryunosuke = {
 	birth_date = 1892.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Akutagawa_Ryunosuke
 		romantic
 	}
 	interest_group_leader_usage = {
@@ -1233,19 +1460,19 @@ japanese_flavor_Akutagawa_Ryunosuke = {
 	}
 }
 
-# Katsushika Hokusai
-japanese_flavor_Katsushika_Hokusai = {
-	first_name = japanese_flavor_Katsushika_Hokusai_first
-	last_name = japanese_flavor_Katsushika_Hokusai_last
+# Ichikawa Fusae
+japanese_flavor_Ichikawa_Fusae = {
+	first_name = japanese_flavor_Ichikawa_Fusae_first
+	last_name = japanese_flavor_Ichikawa_Fusae_last
 	culture = cu:japanese
-	female = no
-	ideology = ideology_moderate
+	female = yes
+	ideology = ideology_feminist
 	interest_group = ig_trade_unions
-	birth_date = 1760.1.1
+	birth_date = 1893.1.1
 	traits = {
 		historical_figures
-		innovative
-		bigoted
+        concept_wikipedia_Ichikawa_Fusae
+		inspirational_orator
 	}
 	interest_group_leader_usage = {
 		country_trigger = {
@@ -1255,9 +1482,37 @@ japanese_flavor_Katsushika_Hokusai = {
 		interest_group_trigger = {
 			is_interest_group_type = ig_trade_unions
 		}
-		earliest_usage_date = 1790.1.1
-		latest_usage_date = 1849.1.1
-		chance = 25
+		earliest_usage_date = 1923.1.1
+		latest_usage_date = 1981.1.1
+		chance = 50
+	}
+}
+
+# Tokuda Kyuichi
+japanese_flavor_Tokuda_Kyuichi = {
+	first_name = japanese_flavor_Tokuda_Kyuichi_first
+	last_name = japanese_flavor_Tokuda_Kyuichi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_communist
+	interest_group = ig_trade_unions
+	birth_date = 1894.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Tokuda_Kyuichi
+		charismatic
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_trade_unions
+		}
+		earliest_usage_date = 1924.1.1
+		latest_usage_date = 1953.1.1
+		chance = 50
 	}
 }
 
@@ -1272,6 +1527,7 @@ japanese_flavor_Zusho_Hirosato = {
 	birth_date = 1776.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Zusho_Hirosato
 		basic_political_operator
 	}
 	interest_group_leader_usage = {
@@ -1288,6 +1544,38 @@ japanese_flavor_Zusho_Hirosato = {
 	}
 }
 
+# Mamiya Rinzo
+japanese_flavor_Mamiya_Rinzo = {
+	first_name = japanese_flavor_Mamiya_Rinzo_first
+	last_name = japanese_flavor_Mamiya_Rinzo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_ethno_nationalist
+	interest_group = ig_armed_forces
+	birth_date = 1780.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Mamiya_Rinzo
+		explorer
+		surveyor
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			OR = {
+				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_rural_folk
+			}
+		}
+		earliest_usage_date = 1810.1.1
+		latest_usage_date = 1844.1.1
+		chance = 25
+	}
+}
+
 # Murata Seifu
 japanese_flavor_Murata_Seifu = {
 	first_name = japanese_flavor_Murata_Seifu_first
@@ -1299,6 +1587,7 @@ japanese_flavor_Murata_Seifu = {
 	birth_date = 1783.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Murata_Seifu
 		basic_political_operator
 	}
 	interest_group_leader_usage = {
@@ -1326,6 +1615,7 @@ japanese_flavor_Shimazu_Narioki = {
 	birth_date = 1791.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Shimazu_Narioki
 		basic_political_operator
 		imperious
 	}
@@ -1354,6 +1644,7 @@ japanese_flavor_Toyama_Kagemoto = {
 	birth_date = 1793.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Toyama_Kagemoto
 		charismatic
 		persistent
 	}
@@ -1371,6 +1662,34 @@ japanese_flavor_Toyama_Kagemoto = {
 	}
 }
 
+# Utagawa Hiroshige
+japanese_flavor_Utagawa_Hiroshige = {
+	first_name = japanese_flavor_Utagawa_Hiroshige_first
+	last_name = japanese_flavor_Utagawa_Hiroshige_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_trade_unions
+	birth_date = 1797.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Utagawa_Hiroshige
+		romantic
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_trade_unions
+		}
+		earliest_usage_date = 1827.1.1
+		latest_usage_date = 1858.1.1
+		chance = 25
+	}
+}
+
 # Takashima Shuhan
 japanese_flavor_Takashima_Shuhan = {
 	first_name = japanese_flavor_Takashima_Shuhan_first
@@ -1382,6 +1701,7 @@ japanese_flavor_Takashima_Shuhan = {
 	birth_date = 1798.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Takashima_Shuhan
 		basic_artillery_commander
 	}
 	interest_group_leader_usage = {
@@ -1409,6 +1729,7 @@ japanese_flavor_Ikuta_Yorozu = {
 	birth_date = 1801.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Ikuta_Yorozu
 		charismatic
 		firebrand
 	}
@@ -1437,6 +1758,7 @@ japanese_flavor_Yokoi_Shonan = {
 	birth_date = 1809.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Yokoi_Shonan
 		tactful
 		alcoholic
 	}
@@ -1465,6 +1787,7 @@ japanese_flavor_Sakuma_Shozan = {
 	birth_date = 1811.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Sakuma_Shozan
 		romantic
 		arrogant
 	}
@@ -1493,6 +1816,7 @@ japanese_flavor_Maki_Yasuomi = {
 	birth_date = 1813.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Maki_Yasuomi
 		reckless
 	}
 	interest_group_leader_usage = {
@@ -1520,6 +1844,7 @@ japanese_flavor_Nabeshima_Naomasa = {
 	birth_date = 1815.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Nabeshima_Naomasa
 		expert_political_operator
 	}
 	interest_group_leader_usage = {
@@ -1547,6 +1872,7 @@ japanese_flavor_Yoshida_Toyo = {
 	birth_date = 1816.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Yoshida_Toyo
 		reckless
 	}
 	interest_group_leader_usage = {
@@ -1574,6 +1900,7 @@ japanese_flavor_Date_Munenari = {
 	birth_date = 1818.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Date_Munenari
 		basic_political_operator
 	}
 	interest_group_leader_usage = {
@@ -1601,6 +1928,7 @@ japanese_flavor_Okubo_Ichio = {
 	birth_date = 1818.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Okubo_Ichio
 		basic_political_operator
 	}
 	interest_group_leader_usage = {
@@ -1628,6 +1956,7 @@ japanese_flavor_Ando_Nobumasa = {
 	birth_date = 1820.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Ando_Nobumasa
 		basic_political_operator
 	}
 	interest_group_leader_usage = {
@@ -1655,6 +1984,7 @@ japanese_flavor_Shimizu_Jirocho = {
 	birth_date = 1820.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Shimizu_Jirocho
 		charismatic
 	}
 	interest_group_leader_usage = {
@@ -1682,6 +2012,7 @@ japanese_flavor_Iwakura_Tomomi = {
 	birth_date = 1825.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Iwakura_Tomomi
 		basic_diplomat
 		alcoholic
 	}
@@ -1710,6 +2041,7 @@ japanese_flavor_Omura_Masujiro = {
 	birth_date = 1825.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Omura_Masujiro
 		basic_offensive_planner
 	}
 	commander_rank = default
@@ -1721,7 +2053,7 @@ japanese_flavor_Omura_Masujiro = {
 		role = general
 		earliest_usage_date = 1855.1.1
 		latest_usage_date = 1869.1.1
-		chance = 25
+		chance = 40
 	}
 }
 
@@ -1736,6 +2068,7 @@ japanese_flavor_John_Manjiro = {
 	birth_date = 1827.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_John_Manjiro
 		basic_diplomat
 	}
 	interest_group_leader_usage = {
@@ -1763,6 +2096,7 @@ japanese_flavor_Yamauchi_Yodo = {
 	birth_date = 1827.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Yamauchi_Yodo
 		basic_political_operator
 		alcoholic
 	}
@@ -1791,6 +2125,7 @@ japanese_flavor_Matsudaira_Shungaku = {
 	birth_date = 1828.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Matsudaira_Shungaku
 		basic_diplomat
 		innovative
 	}
@@ -1819,6 +2154,7 @@ japanese_flavor_Soejima_Taneomi = {
 	birth_date = 1828.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Soejima_Taneomi
 		basic_diplomat
 	}
 	interest_group_leader_usage = {
@@ -1846,6 +2182,7 @@ japanese_flavor_Takechi_Zuizan = {
 	birth_date = 1829.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Takechi_Zuizan
 		plains_commander
 		reckless
 	}
@@ -1874,6 +2211,7 @@ japanese_flavor_Nakamura_Masanao = {
 	birth_date = 1832.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Nakamura_Masanao
 		inspirational_orator
 	}
 	interest_group_leader_usage = {
@@ -1901,6 +2239,7 @@ japanese_flavor_Matsumoto_Ryojun = {
 	birth_date = 1832.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Matsumoto_Ryojun
 		basic_political_operator
 	}
 	interest_group_leader_usage = {
@@ -1928,6 +2267,7 @@ japanese_flavor_Otori_Keisuke = {
 	birth_date = 1833.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Otori_Keisuke
 		stalwart_defender
 	}
 	interest_group_leader_usage = {
@@ -1955,6 +2295,7 @@ japanese_flavor_Maejima_Hisoka = {
 	birth_date = 1835.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Maejima_Hisoka
 		basic_political_operator
 	}
 	interest_group_leader_usage = {
@@ -1982,6 +2323,7 @@ japanese_flavor_Hijikata_Toshizo = {
 	birth_date = 1835.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Hijikata_Toshizo
 		plains_commander
 		wrathful
 	}
@@ -1994,7 +2336,7 @@ japanese_flavor_Hijikata_Toshizo = {
 		role = general
 		earliest_usage_date = 1859.1.1
 		latest_usage_date = 1869.1.1
-		chance = 25
+		chance = 40
 	}
 }
 
@@ -2009,6 +2351,7 @@ japanese_flavor_Komatsu_Kiyokado = {
 	birth_date = 1835.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Komatsu_Kiyokado
 		basic_diplomat
 		psychological_affliction
 	}
@@ -2037,6 +2380,7 @@ japanese_flavor_Matsukata_Masayoshi = {
 	birth_date = 1835.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Matsukata_Masayoshi
 		expensive_tastes
 	}
 	interest_group_leader_usage = {
@@ -2064,6 +2408,7 @@ japanese_flavor_Arisugawanomiya_Taruhito = {
 	birth_date = 1835.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Arisugawanomiya_Taruhito
 		reckless
 	}
 	commander_rank = default
@@ -2075,6 +2420,35 @@ japanese_flavor_Arisugawanomiya_Taruhito = {
 		role = general
 		earliest_usage_date = 1865.1.1
 		latest_usage_date = 1895.1.1
+		chance = 40
+	}
+}
+
+# Ito Kashitaro
+japanese_flavor_Ito_Kashitaro = {
+	first_name = japanese_flavor_Ito_Kashitaro_first
+	last_name = japanese_flavor_Ito_Kashitaro_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_abolitionist
+	interest_group = ig_armed_forces
+	birth_date = 1835.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Ito_Kashitaro
+		basic_political_operator
+		ambitious
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_armed_forces
+		}
+		earliest_usage_date = 1857.1.1
+		latest_usage_date = 1867.1.1
 		chance = 25
 	}
 }
@@ -2090,6 +2464,7 @@ japanese_flavor_Enomoto_Takeaki = {
 	birth_date = 1836.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Enomoto_Takeaki
 		basic_diplomat
 		basic_colonial_administrator
 	}
@@ -2102,7 +2477,7 @@ japanese_flavor_Enomoto_Takeaki = {
 		role = admiral
 		earliest_usage_date = 1866.1.1
 		latest_usage_date = 1908.1.1
-		chance = 25
+		chance = 40
 	}
 }
 
@@ -2117,6 +2492,7 @@ japanese_flavor_Godai_Tomoatsu = {
 	birth_date = 1836.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Godai_Tomoatsu
 		basic_political_operator
 	}
 	interest_group_leader_usage = {
@@ -2147,6 +2523,7 @@ japanese_flavor_Yamaoka_Tesshu = {
 	birth_date = 1836.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Yamaoka_Tesshu
 		brave
 	}
 	interest_group_leader_usage = {
@@ -2174,6 +2551,7 @@ japanese_flavor_Sanjo_Sanetomi = {
 	birth_date = 1837.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Sanjo_Sanetomi
 		ambitious
 	}
 	interest_group_leader_usage = {
@@ -2201,6 +2579,7 @@ japanese_flavor_Okura_Kihachiro = {
 	birth_date = 1837.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Okura_Kihachiro
 		resupply_commander
 	}
 	interest_group_leader_usage = {
@@ -2228,6 +2607,7 @@ japanese_flavor_Kabayama_Sukenori = {
 	birth_date = 1837.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kabayama_Sukenori
 		basic_naval_commander
 	}
 	commander_rank = default
@@ -2239,7 +2619,7 @@ japanese_flavor_Kabayama_Sukenori = {
 		role = admiral
 		earliest_usage_date = 1867.1.1
 		latest_usage_date = 1922.1.1
-		chance = 25
+		chance = 40
 	}
 }
 
@@ -2254,6 +2634,7 @@ japanese_flavor_Nakaoka_Shintaro = {
 	birth_date = 1838.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Nakaoka_Shintaro
 		basic_diplomat
 	}
 	interest_group_leader_usage = {
@@ -2281,6 +2662,7 @@ japanese_flavor_Goto_Shojiro = {
 	birth_date = 1838.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Goto_Shojiro
 		basic_political_operator
 	}
 	interest_group_leader_usage = {
@@ -2311,6 +2693,7 @@ japanese_flavor_Okita_Soji = {
 	birth_date = 1842.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Okita_Soji
 		plains_commander
 		charismatic
 	}
@@ -2323,7 +2706,7 @@ japanese_flavor_Okita_Soji = {
 		role = general
 		earliest_usage_date = 1858.1.1
 		latest_usage_date = 1868.1.1
-		chance = 25
+		chance = 40
 	}
 }
 
@@ -2339,6 +2722,7 @@ japanese_flavor_Niijima_Jo = {
 	birth_date = 1843.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Niijima_Jo
 		pious
 	}
 	interest_group_leader_usage = {
@@ -2366,6 +2750,7 @@ japanese_flavor_Saigo_Judo = {
 	birth_date = 1843.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Saigo_Judo
 		reserved
 	}
 	interest_group_leader_usage = {
@@ -2393,6 +2778,7 @@ japanese_flavor_Saito_Hajime = {
 	birth_date = 1844.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Saito_Hajime
 		plains_commander
 	}
 	commander_rank = default
@@ -2404,7 +2790,7 @@ japanese_flavor_Saito_Hajime = {
 		role = general
 		earliest_usage_date = 1874.1.1
 		latest_usage_date = 1915.1.1
-		chance = 25
+		chance = 40
 	}
 }
 
@@ -2419,6 +2805,7 @@ japanese_flavor_Mutsu_Munemitsu = {
 	birth_date = 1844.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Mutsu_Munemitsu
 		experienced_diplomat
 	}
 	interest_group_leader_usage = {
@@ -2446,6 +2833,7 @@ japanese_flavor_Komatsunomiya_Akihito = {
 	birth_date = 1846.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Komatsunomiya_Akihito
 		brave
 	}
 	commander_rank = default
@@ -2457,7 +2845,7 @@ japanese_flavor_Komatsunomiya_Akihito = {
 		role = general
 		earliest_usage_date = 1876.1.1
 		latest_usage_date = 1903.1.1
-		chance = 25
+		chance = 40
 	}
 }
 
@@ -2472,6 +2860,7 @@ japanese_flavor_Mori_Arinori = {
 	birth_date = 1847.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Mori_Arinori
 		direct
 	}
 	interest_group_leader_usage = {
@@ -2491,6 +2880,94 @@ japanese_flavor_Mori_Arinori = {
 	}
 }
 
+# Nakae Chomin
+japanese_flavor_Nakae_Chomin = {
+	first_name = japanese_flavor_Nakae_Chomin_first
+	last_name = japanese_flavor_Nakae_Chomin_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_republican_leader
+	interest_group = ig_devout
+	birth_date = 1847.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Nakae_Chomin
+		firebrand
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1877.1.1
+		latest_usage_date = 1901.1.1
+		chance = 25
+	}
+}
+
+# Kitashirakawanomiya Yoshihisa
+japanese_flavor_Kitashirakawanomiya_Yoshihisa = {
+	first_name = japanese_flavor_Kitashirakawanomiya_Yoshihisa_first
+	last_name = japanese_flavor_Kitashirakawanomiya_Yoshihisa_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_traditionalist
+	interest_group = ig_landowners
+	birth_date = 1847.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kitashirakawanomiya_Yoshihisa
+		basic_defensive_strategist
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+		}
+		earliest_usage_date = 1877.1.1
+		latest_usage_date = 1895.1.1
+		chance = 25
+	}
+}
+
+# Koizumi Yakumo
+japanese_flavor_Koizumi_Yakumo = {
+	first_name = japanese_flavor_Koizumi_Yakumo_first
+	last_name = japanese_flavor_Koizumi_Yakumo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_intelligentsia
+	birth_date = 1850.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Koizumi_Yakumo
+		romantic
+		meticulous
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			OR = {
+				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_devout
+			}
+		}
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1904.1.1
+		chance = 25
+	}
+}
+
 # Terauchi Masatake
 japanese_flavor_Terauchi_Masatake = {
 	first_name = japanese_flavor_Terauchi_Masatake_first
@@ -2502,6 +2979,7 @@ japanese_flavor_Terauchi_Masatake = {
 	birth_date = 1852.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Terauchi_Masatake
 		meticulous
 		scarred
 	}
@@ -2519,6 +2997,90 @@ japanese_flavor_Terauchi_Masatake = {
 	}
 }
 
+# Kitazato Shibasaburo
+japanese_flavor_Kitazato_Shibasaburo = {
+	first_name = japanese_flavor_Kitazato_Shibasaburo_first
+	last_name = japanese_flavor_Kitazato_Shibasaburo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_market_liberal
+	interest_group = ig_devout
+	birth_date = 1853.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kitazato_Shibasaburo
+		charismatic
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1883.1.1
+		latest_usage_date = 1931.1.1
+		chance = 25
+	}
+}
+
+# Toyama Mitsuru
+japanese_flavor_Toyama_Mitsuru = {
+	first_name = japanese_flavor_Toyama_Mitsuru_first
+	last_name = japanese_flavor_Toyama_Mitsuru_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_ethno_nationalist
+	interest_group = ig_intelligentsia
+	birth_date = 1855.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Toyama_Mitsuru
+		firebrand
+		charismatic
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1944.1.1
+		chance = 25
+	}
+}
+
+# Kamio Mitsuomi
+japanese_flavor_Kamio_Mitsuomi = {
+	first_name = japanese_flavor_Kamio_Mitsuomi_first
+	last_name = japanese_flavor_Kamio_Mitsuomi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_armed_forces
+	birth_date = 1855.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kamio_Mitsuomi
+		basic_offensive_planner
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1927.1.1
+		chance = 40
+	}
+}
+
 # Ueki Emori
 japanese_flavor_Ueki_Emori = {
 	first_name = japanese_flavor_Ueki_Emori_first
@@ -2530,6 +3092,7 @@ japanese_flavor_Ueki_Emori = {
 	birth_date = 1857.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Ueki_Emori
 		inspirational_orator
 	}
 	interest_group_leader_usage = {
@@ -2557,6 +3120,7 @@ japanese_flavor_Goto_Shinpei = {
 	birth_date = 1857.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Goto_Shinpei
 		basic_colonial_administrator
 	}
 	interest_group_leader_usage = {
@@ -2573,6 +3137,34 @@ japanese_flavor_Goto_Shinpei = {
 	}
 }
 
+# Dan Takuma
+japanese_flavor_Dan_Takuma = {
+	first_name = japanese_flavor_Dan_Takuma_first
+	last_name = japanese_flavor_Dan_Takuma_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_industrialists
+	birth_date = 1858.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Dan_Takuma
+		charismatic
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1888.1.1
+		latest_usage_date = 1932.1.1
+		chance = 25
+	}
+}
+
 # Akiyama Yoshifuru
 japanese_flavor_Akiyama_Yoshifuru = {
 	first_name = japanese_flavor_Akiyama_Yoshifuru_first
@@ -2584,6 +3176,7 @@ japanese_flavor_Akiyama_Yoshifuru = {
 	birth_date = 1859.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Akiyama_Yoshifuru
 		tactful
 	}
 	commander_rank = default
@@ -2595,7 +3188,7 @@ japanese_flavor_Akiyama_Yoshifuru = {
 		role = general
 		earliest_usage_date = 1889.1.1
 		latest_usage_date = 1930.1.1
-		chance = 25
+		chance = 40
 	}
 }
 
@@ -2610,6 +3203,7 @@ japanese_flavor_Tsubouchi_Shoyo = {
 	birth_date = 1859.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Tsubouchi_Shoyo
 		innovative
 	}
 	interest_group_leader_usage = {
@@ -2637,6 +3231,7 @@ japanese_flavor_Katayama_Sen = {
 	birth_date = 1859.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Katayama_Sen
 		tactful
 	}
 	interest_group_leader_usage = {
@@ -2664,6 +3259,7 @@ japanese_flavor_Kano_Jigoro = {
 	birth_date = 1860.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kano_Jigoro
 		charismatic
 	}
 	interest_group_leader_usage = {
@@ -2691,6 +3287,7 @@ japanese_flavor_Shirase_Nobu = {
 	birth_date = 1861.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Shirase_Nobu
 		explorer
 	}
 	commander_rank = default
@@ -2702,7 +3299,7 @@ japanese_flavor_Shirase_Nobu = {
 		role = general
 		earliest_usage_date = 1891.1.1
 		latest_usage_date = 1946.1.1
-		chance = 25
+		chance = 40
 	}
 }
 
@@ -2718,6 +3315,7 @@ japanese_flavor_Uchimura_Kanzo = {
 	birth_date = 1861.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Uchimura_Kanzo
 		pious
 	}
 	interest_group_leader_usage = {
@@ -2745,6 +3343,7 @@ japanese_flavor_Makino_Tomitaro = {
 	birth_date = 1862.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Makino_Tomitaro
 		innovative
 	}
 	interest_group_leader_usage = {
@@ -2772,6 +3371,7 @@ japanese_flavor_Tokutomi_Soho = {
 	birth_date = 1863.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Tokutomi_Soho
 		inspirational_orator
 	}
 	interest_group_leader_usage = {
@@ -2788,6 +3388,34 @@ japanese_flavor_Tokutomi_Soho = {
 	}
 }
 
+# Tokugawa Iesato
+japanese_flavor_Tokugawa_Iesato = {
+	first_name = japanese_flavor_Tokugawa_Iesato_first
+	last_name = japanese_flavor_Tokugawa_Iesato_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_landowners
+	birth_date = 1863.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Tokugawa_Iesato
+		meticulous
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+		}
+		earliest_usage_date = 1893.1.1
+		latest_usage_date = 1940.1.1
+		chance = 25
+	}
+}
+
 # Tsuda Umeko
 japanese_flavor_Tsuda_Umeko = {
 	first_name = japanese_flavor_Tsuda_Umeko_first
@@ -2799,6 +3427,7 @@ japanese_flavor_Tsuda_Umeko = {
 	birth_date = 1864.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Tsuda_Umeko
 		tactful
 	}
 	interest_group_leader_usage = {
@@ -2826,6 +3455,7 @@ japanese_flavor_Tanaka_Giichi = {
 	birth_date = 1864.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Tanaka_Giichi
 		tactful
 	}
 	commander_rank = default
@@ -2837,6 +3467,62 @@ japanese_flavor_Tanaka_Giichi = {
 		role = general
 		earliest_usage_date = 1894.1.1
 		latest_usage_date = 1929.1.1
+		chance = 40
+	}
+}
+
+# Minakata Kumagusu
+japanese_flavor_Minakata_Kumagusu = {
+	first_name = japanese_flavor_Minakata_Kumagusu_first
+	last_name = japanese_flavor_Minakata_Kumagusu_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_intelligentsia
+	birth_date = 1867.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Minakata_Kumagusu
+		innovative
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1897.1.1
+		latest_usage_date = 1941.1.1
+		chance = 25
+	}
+}
+
+# Hiranuma Kiichiro
+japanese_flavor_Hiranuma_Kiichiro = {
+	first_name = japanese_flavor_Hiranuma_Kiichiro_first
+	last_name = japanese_flavor_Hiranuma_Kiichiro_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_fascist
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1867.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Hiranuma_Kiichiro
+		bigoted
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_petty_bourgeoisie
+		}
+		earliest_usage_date = 1897.1.1
+		latest_usage_date = 1952.1.1
 		chance = 25
 	}
 }
@@ -2852,6 +3538,7 @@ japanese_flavor_Akiyama_Saneyuki = {
 	birth_date = 1868.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Akiyama_Saneyuki
 		basic_naval_commander
 	}
 	commander_rank = default
@@ -2863,6 +3550,34 @@ japanese_flavor_Akiyama_Saneyuki = {
 		role = admiral
 		earliest_usage_date = 1898.1.1
 		latest_usage_date = 1918.1.1
+		chance = 40
+	}
+}
+
+# Yokoyama Taikan
+japanese_flavor_Yokoyama_Taikan = {
+	first_name = japanese_flavor_Yokoyama_Taikan_first
+	last_name = japanese_flavor_Yokoyama_Taikan_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_republican_leader
+	interest_group = ig_trade_unions
+	birth_date = 1868.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Yokoyama_Taikan
+		charismatic
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_trade_unions
+		}
+		earliest_usage_date = 1898.1.1
+		latest_usage_date = 1958.1.1
 		chance = 25
 	}
 }
@@ -2878,6 +3593,7 @@ japanese_flavor_Nishida_Kitaro = {
 	birth_date = 1870.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Nishida_Kitaro
 		tactful
 	}
 	interest_group_leader_usage = {
@@ -2905,6 +3621,7 @@ japanese_flavor_Kotoku_Shusui = {
 	birth_date = 1871.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kotoku_Shusui
 		charismatic
 	}
 	interest_group_leader_usage = {
@@ -2921,6 +3638,460 @@ japanese_flavor_Kotoku_Shusui = {
 	}
 }
 
+# Sakai Toshihiko
+japanese_flavor_Sakai_Toshihiko = {
+	first_name = japanese_flavor_Sakai_Toshihiko_first
+	last_name = japanese_flavor_Sakai_Toshihiko_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_social_democrat
+	interest_group = ig_intelligentsia
+	birth_date = 1871.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Sakai_Toshihiko
+		tactful
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1901.1.1
+		latest_usage_date = 1933.1.1
+		chance = 25
+	}
+}
+
+# Yanagita Kunio
+japanese_flavor_Yanagita_Kunio = {
+	first_name = japanese_flavor_Yanagita_Kunio_first
+	last_name = japanese_flavor_Yanagita_Kunio_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_intelligentsia
+	birth_date = 1875.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Yanagita_Kunio
+		meticulous
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1962.1.1
+		chance = 25
+	}
+}
+
+# Hayashi Senjuro
+japanese_flavor_Hayashi_Senjuro = {
+	first_name = japanese_flavor_Hayashi_Senjuro_first
+	last_name = japanese_flavor_Hayashi_Senjuro_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_fascist
+	interest_group = ig_armed_forces
+	birth_date = 1876.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Hayashi_Senjuro
+		plains_commander
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1906.1.1
+		latest_usage_date = 1943.1.1
+		chance = 40
+	}
+}
+
+# Masaki Jinzaburo
+japanese_flavor_Masaki_Jinzaburo = {
+	first_name = japanese_flavor_Masaki_Jinzaburo_first
+	last_name = japanese_flavor_Masaki_Jinzaburo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_fascist
+	interest_group = ig_armed_forces
+	birth_date = 1876.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Masaki_Jinzaburo
+		basic_defensive_strategist
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1906.1.1
+		latest_usage_date = 1956.1.1
+		chance = 40
+	}
+}
+
+# Noguchi Hideyo
+japanese_flavor_Noguchi_Hideyo = {
+	first_name = japanese_flavor_Noguchi_Hideyo_first
+	last_name = japanese_flavor_Noguchi_Hideyo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_intelligentsia
+	birth_date = 1876.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Noguchi_Hideyo
+		meticulous
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1906.1.1
+		latest_usage_date = 1928.1.1
+		chance = 25
+	}
+}
+
+# Araki Sadao
+japanese_flavor_Araki_Sadao = {
+	first_name = japanese_flavor_Araki_Sadao_first
+	last_name = japanese_flavor_Araki_Sadao_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_fascist
+	interest_group = ig_armed_forces
+	birth_date = 1877.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Araki_Sadao
+		basic_offensive_planner
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1907.1.1
+		latest_usage_date = 1966.1.1
+		chance = 40
+	}
+}
+
+# Kawakami Hajime
+japanese_flavor_Kawakami_Hajime = {
+	first_name = japanese_flavor_Kawakami_Hajime_first
+	last_name = japanese_flavor_Kawakami_Hajime_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_communist
+	interest_group = ig_intelligentsia
+	birth_date = 1879.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kawakami_Hajime
+		inspirational_orator
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			OR = {
+				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_trade_unions
+			}
+		}
+		earliest_usage_date = 1909.1.1
+		latest_usage_date = 1946.1.1
+		chance = 25
+	}
+}
+
+# Nagata Tetsuzan
+japanese_flavor_Nagata_Tetsuzan = {
+	first_name = japanese_flavor_Nagata_Tetsuzan_first
+	last_name = japanese_flavor_Nagata_Tetsuzan_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_fascist
+	interest_group = ig_armed_forces
+	birth_date = 1884.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Nagata_Tetsuzan
+		innovative
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_armed_forces
+		}
+		earliest_usage_date = 1914.1.1
+		latest_usage_date = 1935.1.1
+		chance = 25
+	}
+}
+
+# Yamada Kosaku
+japanese_flavor_Yamada_Kosaku = {
+	first_name = japanese_flavor_Yamada_Kosaku_first
+	last_name = japanese_flavor_Yamada_Kosaku_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_intelligentsia
+	birth_date = 1886.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Yamada_Kosaku
+		innovative
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1916.1.1
+		latest_usage_date = 1965.1.1
+		chance = 25
+	}
+}
+
+# Okawa Shumei
+japanese_flavor_Okawa_Shumei = {
+	first_name = japanese_flavor_Okawa_Shumei_first
+	last_name = japanese_flavor_Okawa_Shumei_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_fascist
+	interest_group = ig_intelligentsia
+	birth_date = 1886.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Okawa_Shumei
+		meticulous
+		syphilis
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1916.1.1
+		latest_usage_date = 1957.1.1
+		chance = 25
+	}
+}
+
+# Kagawa Toyohiko
+japanese_flavor_Kagawa_Toyohiko = {
+	first_name = japanese_flavor_Kagawa_Toyohiko_first
+	last_name = japanese_flavor_Kagawa_Toyohiko_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_social_democrat
+	interest_group = ig_trade_unions
+	birth_date = 1888.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kagawa_Toyohiko
+		direct
+		pious
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			OR = {
+				is_interest_group_type = ig_trade_unions
+				is_interest_group_type = ig_rural_folk
+			}
+		}
+		earliest_usage_date = 1918.1.1
+		latest_usage_date = 1960.1.1
+		chance = 25
+	}
+}
+
+# Kikuchi Kan
+japanese_flavor_Kikuchi_Kan = {
+	first_name = japanese_flavor_Kikuchi_Kan_first
+	last_name = japanese_flavor_Kikuchi_Kan_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_intelligentsia
+	birth_date = 1888.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kikuchi_Kan
+		innovative
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1918.1.1
+		latest_usage_date = 1948.1.1
+		chance = 25
+	}
+}
+
+# Miyazawa Kenji
+japanese_flavor_Miyazawa_Kenji = {
+	first_name = japanese_flavor_Miyazawa_Kenji_first
+	last_name = japanese_flavor_Miyazawa_Kenji_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_rural_folk
+	birth_date = 1896.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Miyazawa_Kenji
+		romantic
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_rural_folk
+		}
+		earliest_usage_date = 1923.1.1
+		latest_usage_date = 1933.1.1
+		chance = 25
+	}
+}
+
+# Kobayashi Takiji
+japanese_flavor_Kobayashi_Takiji = {
+	first_name = japanese_flavor_Kobayashi_Takiji_first
+	last_name = japanese_flavor_Kobayashi_Takiji_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_communist
+	interest_group = ig_trade_unions
+	birth_date = 1903.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kobayashi_Takiji
+		demagogue
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_trade_unions
+		}
+		earliest_usage_date = 1923.1.1
+		latest_usage_date = 1933.1.1
+		chance = 25
+	}
+}
+
+# Nakahara Chuya
+japanese_flavor_Nakahara_Chuya = {
+	first_name = japanese_flavor_Nakahara_Chuya_first
+	last_name = japanese_flavor_Nakahara_Chuya_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_intelligentsia
+	birth_date = 1907.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Nakahara_Chuya
+		bigoted
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1927.1.1
+		latest_usage_date = 1937.1.1
+		chance = 25
+	}
+}
+
+# Dazai Osamu
+japanese_flavor_Dazai_Osamu = {
+	first_name = japanese_flavor_Dazai_Osamu_first
+	last_name = japanese_flavor_Dazai_Osamu_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_social_democrat
+	interest_group = ig_trade_unions
+	birth_date = 1909.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Dazai_Osamu
+		hedonist
+		cocaine_addiction
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_trade_unions
+		}
+		earliest_usage_date = 1938.1.1
+		latest_usage_date = 1948.1.1
+		chance = 25
+	}
+}
+
 # Matsura Kiyoshi
 japanese_flavor_Matsura_Kiyoshi = {
 	first_name = japanese_flavor_Matsura_Kiyoshi_first
@@ -2932,6 +4103,7 @@ japanese_flavor_Matsura_Kiyoshi = {
 	birth_date = 1760.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Matsura_Kiyoshi
 		tactful
 	}
 	interest_group_leader_usage = {
@@ -2944,7 +4116,7 @@ japanese_flavor_Matsura_Kiyoshi = {
 		}
 		earliest_usage_date = 1790.1.1
 		latest_usage_date = 1841.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -2959,6 +4131,7 @@ japanese_flavor_Sato_Nobuhiro = {
 	birth_date = 1769.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Sato_Nobuhiro
 		ambitious
 	}
 	interest_group_leader_usage = {
@@ -2971,7 +4144,7 @@ japanese_flavor_Sato_Nobuhiro = {
 		}
 		earliest_usage_date = 1799.1.1
 		latest_usage_date = 1850.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -2986,6 +4159,7 @@ japanese_flavor_Suzuki_Bokushi = {
 	birth_date = 1770.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Suzuki_Bokushi
 		basic_diplomat
 	}
 	interest_group_leader_usage = {
@@ -2998,7 +4172,7 @@ japanese_flavor_Suzuki_Bokushi = {
 		}
 		earliest_usage_date = 1800.1.1
 		latest_usage_date = 1842.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3013,6 +4187,7 @@ japanese_flavor_Matsuzaki_Kodo = {
 	birth_date = 1771.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Matsuzaki_Kodo
 		brave
 	}
 	interest_group_leader_usage = {
@@ -3025,7 +4200,7 @@ japanese_flavor_Matsuzaki_Kodo = {
 		}
 		earliest_usage_date = 1801.1.1
 		latest_usage_date = 1844.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3040,6 +4215,7 @@ japanese_flavor_Ban_Nobutomo = {
 	birth_date = 1773.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Ban_Nobutomo
 		bigoted
 	}
 	interest_group_leader_usage = {
@@ -3052,7 +4228,7 @@ japanese_flavor_Ban_Nobutomo = {
 		}
 		earliest_usage_date = 1803.1.1
 		latest_usage_date = 1846.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3067,6 +4243,7 @@ japanese_flavor_Zeniya_Gohe = {
 	birth_date = 1774.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Zeniya_Gohe
 		ambitious
 	}
 	interest_group_leader_usage = {
@@ -3079,7 +4256,7 @@ japanese_flavor_Zeniya_Gohe = {
 		}
 		earliest_usage_date = 1804.1.1
 		latest_usage_date = 1852.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3094,6 +4271,7 @@ japanese_flavor_Hoashi_Banri = {
 	birth_date = 1778.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Hoashi_Banri
 		innovative
 	}
 	interest_group_leader_usage = {
@@ -3106,7 +4284,7 @@ japanese_flavor_Hoashi_Banri = {
 		}
 		earliest_usage_date = 1808.1.1
 		latest_usage_date = 1852.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3121,6 +4299,7 @@ japanese_flavor_Kunitomo_Ikkansai = {
 	birth_date = 1778.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kunitomo_Ikkansai
 		innovative
 	}
 	interest_group_leader_usage = {
@@ -3133,7 +4312,7 @@ japanese_flavor_Kunitomo_Ikkansai = {
 		}
 		earliest_usage_date = 1808.1.1
 		latest_usage_date = 1840.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3148,6 +4327,7 @@ japanese_flavor_Ryutei_Tanehiko = {
 	birth_date = 1783.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Ryutei_Tanehiko
 		romantic
 	}
 	interest_group_leader_usage = {
@@ -3160,7 +4340,7 @@ japanese_flavor_Ryutei_Tanehiko = {
 		}
 		earliest_usage_date = 1813.1.1
 		latest_usage_date = 1842.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3175,6 +4355,7 @@ japanese_flavor_Iwasaki_Kanen = {
 	birth_date = 1786.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Iwasaki_Kanen
 		explorer
 	}
 	interest_group_leader_usage = {
@@ -3187,7 +4368,7 @@ japanese_flavor_Iwasaki_Kanen = {
 		}
 		earliest_usage_date = 1816.1.1
 		latest_usage_date = 1842.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3202,6 +4383,7 @@ japanese_flavor_Yanagawa_Seigan = {
 	birth_date = 1789.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Yanagawa_Seigan
 		charismatic
 	}
 	interest_group_leader_usage = {
@@ -3214,7 +4396,35 @@ japanese_flavor_Yanagawa_Seigan = {
 		}
 		earliest_usage_date = 1819.1.1
 		latest_usage_date = 1858.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Sanada Yukitsura
+japanese_flavor_Sanada_Yukitsura = {
+	first_name = japanese_flavor_Sanada_Yukitsura_first
+	last_name = japanese_flavor_Sanada_Yukitsura_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_reformer
+	interest_group = ig_landowners
+	birth_date = 1791.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Sanada_Yukitsura
+		innovative
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+		}
+		earliest_usage_date = 1821.1.1
+		latest_usage_date = 1852.1.1
+		chance = 5
 	}
 }
 
@@ -3229,6 +4439,7 @@ japanese_flavor_Ii_Naoaki = {
 	birth_date = 1794.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Ii_Naoaki
 		innovative
 	}
 	interest_group_leader_usage = {
@@ -3241,7 +4452,7 @@ japanese_flavor_Ii_Naoaki = {
 		}
 		earliest_usage_date = 1824.1.1
 		latest_usage_date = 1850.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3256,6 +4467,7 @@ japanese_flavor_Chiba_Shusaku = {
 	birth_date = 1794.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Chiba_Shusaku
 		brave
 	}
 	interest_group_leader_usage = {
@@ -3268,7 +4480,7 @@ japanese_flavor_Chiba_Shusaku = {
 		}
 		earliest_usage_date = 1824.1.1
 		latest_usage_date = 1856.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3283,6 +4495,7 @@ japanese_flavor_Terakado_Seiken = {
 	birth_date = 1796.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Terakado_Seiken
 		cautious
 	}
 	interest_group_leader_usage = {
@@ -3295,7 +4508,7 @@ japanese_flavor_Terakado_Seiken = {
 		}
 		earliest_usage_date = 1826.1.1
 		latest_usage_date = 1868.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3310,6 +4523,7 @@ japanese_flavor_Ohara_Yugaku = {
 	birth_date = 1797.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Ohara_Yugaku
 		pious
 	}
 	interest_group_leader_usage = {
@@ -3322,7 +4536,7 @@ japanese_flavor_Ohara_Yugaku = {
 		}
 		earliest_usage_date = 1827.1.1
 		latest_usage_date = 1858.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3337,6 +4551,7 @@ japanese_flavor_Nakayama_Miki = {
 	birth_date = 1798.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Nakayama_Miki
 		pious
 	}
 	interest_group_leader_usage = {
@@ -3349,7 +4564,7 @@ japanese_flavor_Nakayama_Miki = {
 		}
 		earliest_usage_date = 1828.1.1
 		latest_usage_date = 1887.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3364,6 +4579,7 @@ japanese_flavor_Udagawa_Yoan = {
 	birth_date = 1798.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Udagawa_Yoan
 		surveyor
 	}
 	interest_group_leader_usage = {
@@ -3376,7 +4592,35 @@ japanese_flavor_Udagawa_Yoan = {
 		}
 		earliest_usage_date = 1828.1.1
 		latest_usage_date = 1846.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Saito Yakuro
+japanese_flavor_Saito_Yakuro = {
+	first_name = japanese_flavor_Saito_Yakuro_first
+	last_name = japanese_flavor_Saito_Yakuro_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_ethno_nationalist
+	interest_group = ig_armed_forces
+	birth_date = 1798.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Saito_Yakuro
+		brave
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_armed_forces
+		}
+		earliest_usage_date = 1828.1.1
+		latest_usage_date = 1871.1.1
+		chance = 5
 	}
 }
 
@@ -3391,6 +4635,7 @@ japanese_flavor_Mitsukuri_Genpo = {
 	birth_date = 1799.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Mitsukuri_Genpo
 		tactful
 	}
 	interest_group_leader_usage = {
@@ -3403,6 +4648,90 @@ japanese_flavor_Mitsukuri_Genpo = {
 		}
 		earliest_usage_date = 1829.1.1
 		latest_usage_date = 1863.1.1
+		chance = 5
+	}
+}
+
+# Tanaka Hisashige
+japanese_flavor_Tanaka_Hisashige = {
+	first_name = japanese_flavor_Tanaka_Hisashige_first
+	last_name = japanese_flavor_Tanaka_Hisashige_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_intelligentsia
+	birth_date = 1799.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Tanaka_Hisashige
+		innovative
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1829.1.1
+		latest_usage_date = 1881.1.1
+		chance = 5
+	}
+}
+
+# Totsuka Seikai
+japanese_flavor_Totsuka_Seikai = {
+	first_name = japanese_flavor_Totsuka_Seikai_first
+	last_name = japanese_flavor_Totsuka_Seikai_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_intelligentsia
+	birth_date = 1799.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Totsuka_Seikai
+		direct
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1829.1.1
+		latest_usage_date = 1876.1.1
+		chance = 5
+	}
+}
+
+# Atobe Yoshisuke
+japanese_flavor_Atobe_Yoshisuke = {
+	first_name = japanese_flavor_Atobe_Yoshisuke_first
+	last_name = japanese_flavor_Atobe_Yoshisuke_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_traditionalist
+	interest_group = ig_landowners
+	birth_date = 1799.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Atobe_Yoshisuke
+		arrogant
+		pillager
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1829.1.1
+		latest_usage_date = 1869.1.1
 		chance = 10
 	}
 }
@@ -3418,6 +4747,7 @@ japanese_flavor_Shinmen_Tatsugoro = {
 	birth_date = 1800.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Shinmen_Tatsugoro
 		wrathful
 		basic_defensive_strategist
 	}
@@ -3445,6 +4775,7 @@ japanese_flavor_Kawaji_Toshiakira = {
 	birth_date = 1801.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kawaji_Toshiakira
 		basic_diplomat
 	}
 	interest_group_leader_usage = {
@@ -3457,7 +4788,7 @@ japanese_flavor_Kawaji_Toshiakira = {
 		}
 		earliest_usage_date = 1831.1.1
 		latest_usage_date = 1868.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3472,6 +4803,7 @@ japanese_flavor_Narabayashi_Soken = {
 	birth_date = 1802.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Narabayashi_Soken
 		innovative
 	}
 	interest_group_leader_usage = {
@@ -3484,7 +4816,7 @@ japanese_flavor_Narabayashi_Soken = {
 		}
 		earliest_usage_date = 1832.1.1
 		latest_usage_date = 1852.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3499,6 +4831,7 @@ japanese_flavor_Takeda_Kounsai = {
 	birth_date = 1803.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Takeda_Kounsai
 		wrathful
 	}
 	interest_group_leader_usage = {
@@ -3511,7 +4844,7 @@ japanese_flavor_Takeda_Kounsai = {
 		}
 		earliest_usage_date = 1833.1.1
 		latest_usage_date = 1865.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3526,6 +4859,7 @@ japanese_flavor_Saito_Gesshin = {
 	birth_date = 1804.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Saito_Gesshin
 		surveyor
 	}
 	interest_group_leader_usage = {
@@ -3538,7 +4872,7 @@ japanese_flavor_Saito_Gesshin = {
 		}
 		earliest_usage_date = 1834.1.1
 		latest_usage_date = 1878.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3553,6 +4887,7 @@ japanese_flavor_Manabe_Akikatsu = {
 	birth_date = 1804.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Manabe_Akikatsu
 		persistent
 	}
 	interest_group_leader_usage = {
@@ -3565,7 +4900,63 @@ japanese_flavor_Manabe_Akikatsu = {
 		}
 		earliest_usage_date = 1834.1.1
 		latest_usage_date = 1884.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Yamada Hokoku
+japanese_flavor_Yamada_Hokoku = {
+	first_name = japanese_flavor_Yamada_Hokoku_first
+	last_name = japanese_flavor_Yamada_Hokoku_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_traditionalist
+	interest_group = ig_devout
+	birth_date = 1805.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Yamada_Hokoku
+		experienced_political_operator
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1835.1.1
+		latest_usage_date = 1877.1.1
+		chance = 5
+	}
+}
+
+# Nakayama Tadayasu
+japanese_flavor_Nakayama_Tadayasu = {
+	first_name = japanese_flavor_Nakayama_Tadayasu_first
+	last_name = japanese_flavor_Nakayama_Tadayasu_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1809.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Nakayama_Tadayasu
+		persistent
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_petty_bourgeoisie
+		}
+		earliest_usage_date = 1839.1.1
+		latest_usage_date = 1888.1.1
+		chance = 5
 	}
 }
 
@@ -3580,6 +4971,7 @@ japanese_flavor_Kunisada_Chuji = {
 	birth_date = 1810.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kunisada_Chuji
 		bandit
 	}
 	interest_group_leader_usage = {
@@ -3592,7 +4984,7 @@ japanese_flavor_Kunisada_Chuji = {
 		}
 		earliest_usage_date = 1840.1.1
 		latest_usage_date = 1851.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3607,6 +4999,7 @@ japanese_flavor_Murakami_Hidetoshi = {
 	birth_date = 1811.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Murakami_Hidetoshi
 		basic_diplomat
 	}
 	interest_group_leader_usage = {
@@ -3619,7 +5012,7 @@ japanese_flavor_Murakami_Hidetoshi = {
 		}
 		earliest_usage_date = 1841.1.1
 		latest_usage_date = 1890.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3634,6 +5027,7 @@ japanese_flavor_Umeda_Unpin = {
 	birth_date = 1815.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Umeda_Unpin
 		firebrand
 	}
 	interest_group_leader_usage = {
@@ -3646,7 +5040,7 @@ japanese_flavor_Umeda_Unpin = {
 		}
 		earliest_usage_date = 1845.1.1
 		latest_usage_date = 1859.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3661,6 +5055,7 @@ japanese_flavor_Nijo_Nariyuki = {
 	birth_date = 1816.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Nijo_Nariyuki
 		senile
 	}
 	interest_group_leader_usage = {
@@ -3673,7 +5068,7 @@ japanese_flavor_Nijo_Nariyuki = {
 		}
 		earliest_usage_date = 1846.1.1
 		latest_usage_date = 1878.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3688,6 +5083,7 @@ japanese_flavor_Nagai_Naoyuki = {
 	birth_date = 1816.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Nagai_Naoyuki
 		tactful
 	}
 	interest_group_leader_usage = {
@@ -3700,7 +5096,7 @@ japanese_flavor_Nagai_Naoyuki = {
 		}
 		earliest_usage_date = 1846.1.1
 		latest_usage_date = 1891.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3715,6 +5111,7 @@ japanese_flavor_Matsura_Takeshiro = {
 	birth_date = 1818.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Matsura_Takeshiro
 		explorer
 	}
 	commander_rank = default
@@ -3730,6 +5127,62 @@ japanese_flavor_Matsura_Takeshiro = {
 	}
 }
 
+# Iwase Tadanari
+japanese_flavor_Iwase_Tadanari = {
+	first_name = japanese_flavor_Iwase_Tadanari_first
+	last_name = japanese_flavor_Iwase_Tadanari_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_abolitionist
+	interest_group = ig_landowners
+	birth_date = 1818.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Iwase_Tadanari
+		basic_diplomat
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+		}
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1861.1.1
+		chance = 5
+	}
+}
+
+# Hori Toshihiro
+japanese_flavor_Hori_Toshihiro = {
+	first_name = japanese_flavor_Hori_Toshihiro_first
+	last_name = japanese_flavor_Hori_Toshihiro_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_traditionalist
+	interest_group = ig_landowners
+	birth_date = 1818.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Hori_Toshihiro
+		basic_diplomat
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+		}
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1860.1.1
+		chance = 5
+	}
+}
+
 # Nagai Uta
 japanese_flavor_Nagai_Uta = {
 	first_name = japanese_flavor_Nagai_Uta_first
@@ -3741,6 +5194,7 @@ japanese_flavor_Nagai_Uta = {
 	birth_date = 1819.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Nagai_Uta
 		basic_diplomat
 	}
 	interest_group_leader_usage = {
@@ -3753,7 +5207,7 @@ japanese_flavor_Nagai_Uta = {
 		}
 		earliest_usage_date = 1849.1.1
 		latest_usage_date = 1863.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3768,6 +5222,7 @@ japanese_flavor_Nakamura_Naozo = {
 	birth_date = 1819.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Nakamura_Naozo
 		surveyor
 	}
 	interest_group_leader_usage = {
@@ -3780,7 +5235,7 @@ japanese_flavor_Nakamura_Naozo = {
 		}
 		earliest_usage_date = 1849.1.1
 		latest_usage_date = 1882.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3795,6 +5250,7 @@ japanese_flavor_Kuze_Hirochika = {
 	birth_date = 1819.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kuze_Hirochika
 		brave
 	}
 	interest_group_leader_usage = {
@@ -3807,7 +5263,7 @@ japanese_flavor_Kuze_Hirochika = {
 		}
 		earliest_usage_date = 1849.1.1
 		latest_usage_date = 1864.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3822,6 +5278,7 @@ japanese_flavor_Kawazu_Sukekuni = {
 	birth_date = 1821.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kawazu_Sukekuni
 		tactful
 	}
 	interest_group_leader_usage = {
@@ -3834,7 +5291,35 @@ japanese_flavor_Kawazu_Sukekuni = {
 		}
 		earliest_usage_date = 1851.1.1
 		latest_usage_date = 1873.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Minomura Rizaemon
+japanese_flavor_Minomura_Rizaemon = {
+	first_name = japanese_flavor_Minomura_Rizaemon_first
+	last_name = japanese_flavor_Minomura_Rizaemon_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_market_liberal
+	interest_group = ig_industrialists
+	birth_date = 1821.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Minomura_Rizaemon
+		basic_political_operator
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1851.1.1
+		latest_usage_date = 1877.1.1
+		chance = 5
 	}
 }
 
@@ -3849,6 +5334,7 @@ japanese_flavor_Ogasawara_Nagamichi = {
 	birth_date = 1822.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Ogasawara_Nagamichi
 		persistent
 	}
 	commander_rank = default
@@ -3875,6 +5361,7 @@ japanese_flavor_Kurimoto_Joun = {
 	birth_date = 1822.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kurimoto_Joun
 		inspirational_orator
 	}
 	interest_group_leader_usage = {
@@ -3887,7 +5374,62 @@ japanese_flavor_Kurimoto_Joun = {
 		}
 		earliest_usage_date = 1852.1.1
 		latest_usage_date = 1897.1.1
+		chance = 5
+	}
+}
+
+# Hiraoka Enshiro
+japanese_flavor_Hiraoka_Enshiro = {
+	first_name = japanese_flavor_Hiraoka_Enshiro_first
+	last_name = japanese_flavor_Hiraoka_Enshiro_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_landowners
+	birth_date = 1822.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Hiraoka_Enshiro
+		innovative
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1852.1.1
+		latest_usage_date = 1864.1.1
 		chance = 10
+	}
+}
+
+# Ichikawa Seiryu
+japanese_flavor_Ichikawa_Seiryu = {
+	first_name = japanese_flavor_Ichikawa_Seiryu_first
+	last_name = japanese_flavor_Ichikawa_Seiryu_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_market_liberal
+	interest_group = ig_devout
+	birth_date = 1822.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Ichikawa_Seiryu
+		innovative
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1852.1.1
+		latest_usage_date = 1879.1.1
+		chance = 5
 	}
 }
 
@@ -3902,6 +5444,7 @@ japanese_flavor_Shimooka_Renjo = {
 	birth_date = 1823.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Shimooka_Renjo
 		surveyor
 	}
 	interest_group_leader_usage = {
@@ -3914,7 +5457,7 @@ japanese_flavor_Shimooka_Renjo = {
 		}
 		earliest_usage_date = 1853.1.1
 		latest_usage_date = 1914.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3929,6 +5472,7 @@ japanese_flavor_Tsuji_Igaku = {
 	birth_date = 1823.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Tsuji_Igaku
 		basic_political_operator
 	}
 	interest_group_leader_usage = {
@@ -3941,7 +5485,63 @@ japanese_flavor_Tsuji_Igaku = {
 		}
 		earliest_usage_date = 1853.1.1
 		latest_usage_date = 1894.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Sano Tsunetami
+japanese_flavor_Sano_Tsunetami = {
+	first_name = japanese_flavor_Sano_Tsunetami_first
+	last_name = japanese_flavor_Sano_Tsunetami_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_pacifist
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1823.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Sano_Tsunetami
+		direct
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_petty_bourgeoisie
+		}
+		earliest_usage_date = 1853.1.1
+		latest_usage_date = 1902.1.1
+		chance = 5
+	}
+}
+
+# Itakura Kazukiyo
+japanese_flavor_Itakura_Kazukiyo = {
+	first_name = japanese_flavor_Itakura_Kazukiyo_first
+	last_name = japanese_flavor_Itakura_Kazukiyo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_abolitionist
+	interest_group = ig_landowners
+	birth_date = 1823.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Itakura_Kazukiyo
+		persistent
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+		}
+		earliest_usage_date = 1853.1.1
+		latest_usage_date = 1889.1.1
+		chance = 5
 	}
 }
 
@@ -3956,6 +5556,7 @@ japanese_flavor_Motoki_Shozo = {
 	birth_date = 1824.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Motoki_Shozo
 		ambitious
 	}
 	interest_group_leader_usage = {
@@ -3968,7 +5569,7 @@ japanese_flavor_Motoki_Shozo = {
 		}
 		earliest_usage_date = 1854.1.1
 		latest_usage_date = 1875.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -3983,6 +5584,7 @@ japanese_flavor_Kuninomiya_Asahiko = {
 	birth_date = 1824.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kuninomiya_Asahiko
 		ambitious
 	}
 	interest_group_leader_usage = {
@@ -3995,7 +5597,7 @@ japanese_flavor_Kuninomiya_Asahiko = {
 		}
 		earliest_usage_date = 1854.1.1
 		latest_usage_date = 1891.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4010,6 +5612,7 @@ japanese_flavor_Rai_Mikisaburo = {
 	birth_date = 1825.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Rai_Mikisaburo
 		firebrand
 	}
 	interest_group_leader_usage = {
@@ -4022,7 +5625,7 @@ japanese_flavor_Rai_Mikisaburo = {
 		}
 		earliest_usage_date = 1849.1.1
 		latest_usage_date = 1859.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4037,6 +5640,7 @@ japanese_flavor_Hayashi_Kinbee = {
 	birth_date = 1825.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Hayashi_Kinbee
 		charismatic
 	}
 	interest_group_leader_usage = {
@@ -4049,7 +5653,35 @@ japanese_flavor_Hayashi_Kinbee = {
 		}
 		earliest_usage_date = 1855.1.1
 		latest_usage_date = 1881.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Momonoi Shunzo
+japanese_flavor_Momonoi_Shunzo = {
+	first_name = japanese_flavor_Momonoi_Shunzo_first
+	last_name = japanese_flavor_Momonoi_Shunzo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_ethno_nationalist
+	interest_group = ig_armed_forces
+	birth_date = 1825.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Momonoi_Shunzo
+		brave
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_armed_forces
+		}
+		earliest_usage_date = 1855.1.1
+		latest_usage_date = 1885.1.1
+		chance = 5
 	}
 }
 
@@ -4064,6 +5696,7 @@ japanese_flavor_Oshima_Takato = {
 	birth_date = 1826.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Oshima_Takato
 		innovative
 	}
 	interest_group_leader_usage = {
@@ -4076,7 +5709,7 @@ japanese_flavor_Oshima_Takato = {
 		}
 		earliest_usage_date = 1856.1.1
 		latest_usage_date = 1901.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4091,6 +5724,7 @@ japanese_flavor_Saisho_Atsushi = {
 	birth_date = 1827.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Saisho_Atsushi
 		brave
 	}
 	interest_group_leader_usage = {
@@ -4103,7 +5737,7 @@ japanese_flavor_Saisho_Atsushi = {
 		}
 		earliest_usage_date = 1857.1.1
 		latest_usage_date = 1910.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4118,6 +5752,7 @@ japanese_flavor_Kawai_Tsuginosuke = {
 	birth_date = 1827.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kawai_Tsuginosuke
 		plains_commander
 	}
 	commander_rank = default
@@ -4133,6 +5768,62 @@ japanese_flavor_Kawai_Tsuginosuke = {
 	}
 }
 
+# Kusumoto Ine
+japanese_flavor_Kusumoto_Ine = {
+	first_name = japanese_flavor_Kusumoto_Ine_first
+	last_name = japanese_flavor_Kusumoto_Ine_last
+	culture = cu:japanese
+	female = yes
+	ideology = ideology_moderate
+	interest_group = ig_intelligentsia
+	birth_date = 1827.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kusumoto_Ine
+		brave
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1857.1.1
+		latest_usage_date = 1903.1.1
+		chance = 5
+	}
+}
+
+# Sakai Tadashige
+japanese_flavor_Sakai_Tadashige = {
+	first_name = japanese_flavor_Sakai_Tadashige_first
+	last_name = japanese_flavor_Sakai_Tadashige_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_abolitionist
+	interest_group = ig_landowners
+	birth_date = 1827.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Sakai_Tadashige
+		wrathful
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+		}
+		earliest_usage_date = 1857.1.1
+		latest_usage_date = 1895.1.1
+		chance = 5
+	}
+}
+
 # Hirano Kuniomi
 japanese_flavor_Hirano_Kuniomi = {
 	first_name = japanese_flavor_Hirano_Kuniomi_first
@@ -4144,6 +5835,7 @@ japanese_flavor_Hirano_Kuniomi = {
 	birth_date = 1828.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Hirano_Kuniomi
 		firebrand
 	}
 	interest_group_leader_usage = {
@@ -4156,7 +5848,7 @@ japanese_flavor_Hirano_Kuniomi = {
 		}
 		earliest_usage_date = 1854.1.1
 		latest_usage_date = 1864.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4171,6 +5863,7 @@ japanese_flavor_Ijichi_Masaharu = {
 	birth_date = 1828.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Ijichi_Masaharu
 		basic_offensive_planner
 	}
 	commander_rank = default
@@ -4197,6 +5890,7 @@ japanese_flavor_Takenaka_Shigekata = {
 	birth_date = 1828.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Takenaka_Shigekata
 		forest_commander
 	}
 	commander_rank = default
@@ -4223,6 +5917,7 @@ japanese_flavor_Oura_Kei = {
 	birth_date = 1828.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Oura_Kei
 		meticulous
 	}
 	interest_group_leader_usage = {
@@ -4235,7 +5930,7 @@ japanese_flavor_Oura_Kei = {
 		}
 		earliest_usage_date = 1858.1.1
 		latest_usage_date = 1884.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4250,6 +5945,7 @@ japanese_flavor_Kanagaki_Robun = {
 	birth_date = 1829.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kanagaki_Robun
 		romantic
 	}
 	interest_group_leader_usage = {
@@ -4262,7 +5958,7 @@ japanese_flavor_Kanagaki_Robun = {
 		}
 		earliest_usage_date = 1859.1.1
 		latest_usage_date = 1894.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4277,6 +5973,7 @@ japanese_flavor_Yuri_Kimimasa = {
 	birth_date = 1829.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Yuri_Kimimasa
 		basic_political_operator
 	}
 	interest_group_leader_usage = {
@@ -4289,7 +5986,7 @@ japanese_flavor_Yuri_Kimimasa = {
 		}
 		earliest_usage_date = 1859.1.1
 		latest_usage_date = 1909.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4304,6 +6001,7 @@ japanese_flavor_Nishi_Amane = {
 	birth_date = 1829.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Nishi_Amane
 		innovative
 	}
 	interest_group_leader_usage = {
@@ -4316,7 +6014,7 @@ japanese_flavor_Nishi_Amane = {
 		}
 		earliest_usage_date = 1859.1.1
 		latest_usage_date = 1897.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4331,6 +6029,7 @@ japanese_flavor_Izumi_Yosuke = {
 	birth_date = 1829.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Izumi_Yosuke
 		innovative
 	}
 	interest_group_leader_usage = {
@@ -4343,6 +6042,33 @@ japanese_flavor_Izumi_Yosuke = {
 		}
 		earliest_usage_date = 1859.1.1
 		latest_usage_date = 1900.1.1
+		chance = 5
+	}
+}
+
+# Yatabori Ko
+japanese_flavor_Yatabori_Ko = {
+	first_name = japanese_flavor_Yatabori_Ko_first
+	last_name = japanese_flavor_Yatabori_Ko_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_market_liberal
+	interest_group = ig_landowners
+	birth_date = 1829.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Yatabori_Ko
+		basic_naval_commander
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = admiral
+		earliest_usage_date = 1859.1.1
+		latest_usage_date = 1887.1.1
 		chance = 10
 	}
 }
@@ -4358,6 +6084,7 @@ japanese_flavor_Kiyokawa_Hachiro = {
 	birth_date = 1830.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kiyokawa_Hachiro
 		firebrand
 	}
 	interest_group_leader_usage = {
@@ -4370,7 +6097,35 @@ japanese_flavor_Kiyokawa_Hachiro = {
 		}
 		earliest_usage_date = 1853.1.1
 		latest_usage_date = 1863.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Kimura Kaishu
+japanese_flavor_Kimura_Kaishu = {
+	first_name = japanese_flavor_Kimura_Kaishu_first
+	last_name = japanese_flavor_Kimura_Kaishu_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_abolitionist
+	interest_group = ig_landowners
+	birth_date = 1830.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kimura_Kaishu
+		basic_naval_commander
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+		}
+		earliest_usage_date = 1860.1.1
+		latest_usage_date = 1901.1.1
+		chance = 5
 	}
 }
 
@@ -4385,6 +6140,7 @@ japanese_flavor_Kondo_Makoto = {
 	birth_date = 1831.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kondo_Makoto
 		basic_naval_commander
 	}
 	interest_group_leader_usage = {
@@ -4397,7 +6153,7 @@ japanese_flavor_Kondo_Makoto = {
 		}
 		earliest_usage_date = 1861.1.1
 		latest_usage_date = 1886.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4412,6 +6168,7 @@ japanese_flavor_Hayashi_Enri = {
 	birth_date = 1831.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Hayashi_Enri
 		inspirational_orator
 	}
 	interest_group_leader_usage = {
@@ -4424,7 +6181,63 @@ japanese_flavor_Hayashi_Enri = {
 		}
 		earliest_usage_date = 1861.1.1
 		latest_usage_date = 1906.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Fukuba Bisei
+japanese_flavor_Fukuba_Bisei = {
+	first_name = japanese_flavor_Fukuba_Bisei_first
+	last_name = japanese_flavor_Fukuba_Bisei_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_ethno_nationalist
+	interest_group = ig_devout
+	birth_date = 1831.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Fukuba_Bisei
+		innovative
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1861.1.1
+		latest_usage_date = 1907.1.1
+		chance = 5
+	}
+}
+
+# Itosu Anko
+japanese_flavor_Itosu_Anko = {
+	first_name = japanese_flavor_Itosu_Anko_first
+	last_name = japanese_flavor_Itosu_Anko_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_armed_forces
+	birth_date = 1831.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Itosu_Anko
+		brave
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_armed_forces
+		}
+		earliest_usage_date = 1861.1.1
+		latest_usage_date = 1915.1.1
+		chance = 5
 	}
 }
 
@@ -4439,6 +6252,7 @@ japanese_flavor_Oki_Takato = {
 	birth_date = 1832.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Oki_Takato
 		basic_political_operator
 	}
 	interest_group_leader_usage = {
@@ -4454,7 +6268,7 @@ japanese_flavor_Oki_Takato = {
 		}
 		earliest_usage_date = 1862.1.1
 		latest_usage_date = 1899.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4469,6 +6283,7 @@ japanese_flavor_Furukawa_Ichibee = {
 	birth_date = 1832.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Furukawa_Ichibee
 		mountain_commander
 	}
 	interest_group_leader_usage = {
@@ -4481,7 +6296,7 @@ japanese_flavor_Furukawa_Ichibee = {
 		}
 		earliest_usage_date = 1862.1.1
 		latest_usage_date = 1903.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4496,6 +6311,7 @@ japanese_flavor_Funatsu_Denjibei = {
 	birth_date = 1832.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Funatsu_Denjibei
 		innovative
 	}
 	interest_group_leader_usage = {
@@ -4508,6 +6324,33 @@ japanese_flavor_Funatsu_Denjibei = {
 		}
 		earliest_usage_date = 1862.1.1
 		latest_usage_date = 1898.1.1
+		chance = 5
+	}
+}
+
+# Sasaki Tadasaburo
+japanese_flavor_Sasaki_Tadasaburo = {
+	first_name = japanese_flavor_Sasaki_Tadasaburo_first
+	last_name = japanese_flavor_Sasaki_Tadasaburo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_traditionalist
+	interest_group = ig_armed_forces
+	birth_date = 1833.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Sasaki_Tadasaburo
+		cruel
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1858.1.1
+		latest_usage_date = 1868.1.1
 		chance = 10
 	}
 }
@@ -4523,6 +6366,7 @@ japanese_flavor_Hashimoto_Sanai = {
 	birth_date = 1834.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Hashimoto_Sanai
 		firebrand
 	}
 	interest_group_leader_usage = {
@@ -4535,7 +6379,7 @@ japanese_flavor_Hashimoto_Sanai = {
 		}
 		earliest_usage_date = 1849.1.1
 		latest_usage_date = 1859.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4550,6 +6394,7 @@ japanese_flavor_Inaba_Masakuni = {
 	birth_date = 1834.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Inaba_Masakuni
 		grifter
 	}
 	interest_group_leader_usage = {
@@ -4562,7 +6407,7 @@ japanese_flavor_Inaba_Masakuni = {
 		}
 		earliest_usage_date = 1864.1.1
 		latest_usage_date = 1898.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4577,6 +6422,7 @@ japanese_flavor_Maebara_Issei = {
 	birth_date = 1834.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Maebara_Issei
 		reckless
 	}
 	interest_group_leader_usage = {
@@ -4589,7 +6435,7 @@ japanese_flavor_Maebara_Issei = {
 		}
 		earliest_usage_date = 1864.1.1
 		latest_usage_date = 1876.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4604,6 +6450,7 @@ japanese_flavor_Hirosawa_Saneomi = {
 	birth_date = 1834.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Hirosawa_Saneomi
 		basic_diplomat
 	}
 	interest_group_leader_usage = {
@@ -4616,7 +6463,7 @@ japanese_flavor_Hirosawa_Saneomi = {
 		}
 		earliest_usage_date = 1861.1.1
 		latest_usage_date = 1871.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4631,6 +6478,7 @@ japanese_flavor_Tashiro_Eisuke = {
 	birth_date = 1834.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Tashiro_Eisuke
 		firebrand
 	}
 	interest_group_leader_usage = {
@@ -4643,7 +6491,7 @@ japanese_flavor_Tashiro_Eisuke = {
 		}
 		earliest_usage_date = 1864.1.1
 		latest_usage_date = 1885.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4658,6 +6506,7 @@ japanese_flavor_Kawaji_Toshiyoshi = {
 	birth_date = 1834.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kawaji_Toshiyoshi
 		basic_offensive_planner
 	}
 	commander_rank = default
@@ -4673,6 +6522,61 @@ japanese_flavor_Kawaji_Toshiyoshi = {
 	}
 }
 
+# Kawakami Gensai
+japanese_flavor_Kawakami_Gensai = {
+	first_name = japanese_flavor_Kawakami_Gensai_first
+	last_name = japanese_flavor_Kawakami_Gensai_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_ethno_nationalist
+	interest_group = ig_armed_forces
+	birth_date = 1834.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kawakami_Gensai
+		plains_commander
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1862.1.1
+		latest_usage_date = 1872.1.1
+		chance = 10
+	}
+}
+
+# Inaba Masakuni
+japanese_flavor_Inaba_Masakuni = {
+	first_name = japanese_flavor_Inaba_Masakuni_first
+	last_name = japanese_flavor_Inaba_Masakuni_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_traditionalist
+	interest_group = ig_landowners
+	birth_date = 1834.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Inaba_Masakuni
+		ambitious
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+		}
+		earliest_usage_date = 1864.1.1
+		latest_usage_date = 1898.1.1
+		chance = 5
+	}
+}
+
 # Otaguro Tomoo
 japanese_flavor_Otaguro_Tomoo = {
 	first_name = japanese_flavor_Otaguro_Tomoo_first
@@ -4684,6 +6588,7 @@ japanese_flavor_Otaguro_Tomoo = {
 	birth_date = 1835.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Otaguro_Tomoo
 		wrathful
 	}
 	interest_group_leader_usage = {
@@ -4696,6 +6601,34 @@ japanese_flavor_Otaguro_Tomoo = {
 		}
 		earliest_usage_date = 1865.1.1
 		latest_usage_date = 1876.1.1
+		chance = 5
+	}
+}
+
+# Mishima Michitsune
+japanese_flavor_Mishima_Michitsune = {
+	first_name = japanese_flavor_Mishima_Michitsune_first
+	last_name = japanese_flavor_Mishima_Michitsune_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_abolitionist
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1835.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Mishima_Michitsune
+		persistent
+		resupply_commander
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1865.1.1
+		latest_usage_date = 1888.1.1
 		chance = 10
 	}
 }
@@ -4711,6 +6644,7 @@ japanese_flavor_Kawamura_Sumiyoshi = {
 	birth_date = 1836.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kawamura_Sumiyoshi
 		basic_naval_commander
 	}
 	commander_rank = default
@@ -4737,6 +6671,7 @@ japanese_flavor_Tani_Tateki = {
 	birth_date = 1837.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Tani_Tateki
 		basic_defensive_strategist
 	}
 	commander_rank = default
@@ -4752,6 +6687,62 @@ japanese_flavor_Tani_Tateki = {
 	}
 }
 
+# Ikeda Nagaoki
+japanese_flavor_Ikeda_Nagaoki = {
+	first_name = japanese_flavor_Ikeda_Nagaoki_first
+	last_name = japanese_flavor_Ikeda_Nagaoki_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_market_liberal
+	interest_group = ig_landowners
+	birth_date = 1837.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Ikeda_Nagaoki
+		basic_diplomat
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+		}
+		earliest_usage_date = 1867.1.1
+		latest_usage_date = 1879.1.1
+		chance = 5
+	}
+}
+
+# Takamatsu Ryoun
+japanese_flavor_Takamatsu_Ryoun = {
+	first_name = japanese_flavor_Takamatsu_Ryoun_first
+	last_name = japanese_flavor_Takamatsu_Ryoun_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_landowners
+	birth_date = 1837.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Takamatsu_Ryoun
+		brave
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+		}
+		earliest_usage_date = 1867.1.1
+		latest_usage_date = 1916.1.1
+		chance = 5
+	}
+}
+
 # Ueno Hikoma
 japanese_flavor_Ueno_Hikoma = {
 	first_name = japanese_flavor_Ueno_Hikoma_first
@@ -4763,6 +6754,7 @@ japanese_flavor_Ueno_Hikoma = {
 	birth_date = 1838.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Ueno_Hikoma
 		explorer
 	}
 	interest_group_leader_usage = {
@@ -4775,7 +6767,7 @@ japanese_flavor_Ueno_Hikoma = {
 		}
 		earliest_usage_date = 1868.1.1
 		latest_usage_date = 1904.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4790,6 +6782,7 @@ japanese_flavor_Minami_Kiji = {
 	birth_date = 1838.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Minami_Kiji
 		ambitious
 	}
 	interest_group_leader_usage = {
@@ -4802,7 +6795,7 @@ japanese_flavor_Minami_Kiji = {
 		}
 		earliest_usage_date = 1868.1.1
 		latest_usage_date = 1906.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4817,6 +6810,7 @@ japanese_flavor_Chiba_Sanako = {
 	birth_date = 1838.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Chiba_Sanako
 		brave
 	}
 	interest_group_leader_usage = {
@@ -4829,7 +6823,175 @@ japanese_flavor_Chiba_Sanako = {
 		}
 		earliest_usage_date = 1868.1.1
 		latest_usage_date = 1896.1.1
+		chance = 5
+	}
+}
+
+# Shimaji Mokurai
+japanese_flavor_Shimaji_Mokurai = {
+	first_name = japanese_flavor_Shimaji_Mokurai_first
+	last_name = japanese_flavor_Shimaji_Mokurai_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_reformer
+	interest_group = ig_devout
+	birth_date = 1838.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Shimaji_Mokurai
+		pious
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1868.1.1
+		latest_usage_date = 1911.1.1
+		chance = 5
+	}
+}
+
+# Yasuda Zenjiro
+japanese_flavor_Yasuda_Zenjiro = {
+	first_name = japanese_flavor_Yasuda_Zenjiro_first
+	last_name = japanese_flavor_Yasuda_Zenjiro_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_market_liberal
+	interest_group = ig_industrialists
+	birth_date = 1838.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Yasuda_Zenjiro
+		charismatic
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1868.1.1
+		latest_usage_date = 1921.1.1
+		chance = 5
+	}
+}
+
+# Tamaoki Hanemon
+japanese_flavor_Tamaoki_Hanemon = {
+	first_name = japanese_flavor_Tamaoki_Hanemon_first
+	last_name = japanese_flavor_Tamaoki_Hanemon_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_slaver
+	interest_group = ig_industrialists
+	birth_date = 1838.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Tamaoki_Hanemon
+		arrogant
+		experienced_colonial_administrator
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1868.1.1
+		latest_usage_date = 1910.1.1
+		chance = 5
+	}
+}
+
+# Shibusawa Seichiro
+japanese_flavor_Shibusawa_Seichiro = {
+	first_name = japanese_flavor_Shibusawa_Seichiro_first
+	last_name = japanese_flavor_Shibusawa_Seichiro_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_ethno_nationalist
+	interest_group = ig_industrialists
+	birth_date = 1838.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Shibusawa_Seichiro
+		basic_defensive_strategist
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1868.1.1
+		latest_usage_date = 1912.1.1
 		chance = 10
+	}
+}
+
+# Okada Izo
+japanese_flavor_Okada_Izo = {
+	first_name = japanese_flavor_Okada_Izo_first
+	last_name = japanese_flavor_Okada_Izo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_ethno_nationalist
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1838.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Okada_Izo
+		cruel
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_petty_bourgeoisie
+		}
+		earliest_usage_date = 1855.1.1
+		latest_usage_date = 1865.1.1
+		chance = 5
+	}
+}
+
+# Tanaka Yoshio
+japanese_flavor_Tanaka_Yoshio = {
+	first_name = japanese_flavor_Tanaka_Yoshio_first
+	last_name = japanese_flavor_Tanaka_Yoshio_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_market_liberal
+	interest_group = ig_intelligentsia
+	birth_date = 1838.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Tanaka_Yoshio
+		basic_diplomat
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1868.1.1
+		latest_usage_date = 1916.1.1
+		chance = 5
 	}
 }
 
@@ -4844,6 +7006,7 @@ japanese_flavor_Sanyutei_Encho = {
 	birth_date = 1839.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Sanyutei_Encho
 		innovative
 	}
 	interest_group_leader_usage = {
@@ -4856,7 +7019,7 @@ japanese_flavor_Sanyutei_Encho = {
 		}
 		earliest_usage_date = 1869.1.1
 		latest_usage_date = 1900.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4871,6 +7034,7 @@ japanese_flavor_Sagara_Sozo = {
 	birth_date = 1839.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Sagara_Sozo
 		expensive_tastes
 	}
 	commander_rank = default
@@ -4897,6 +7061,7 @@ japanese_flavor_Komuro_Sinobu = {
 	birth_date = 1839.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Komuro_Sinobu
 		pillager
 	}
 	interest_group_leader_usage = {
@@ -4909,7 +7074,7 @@ japanese_flavor_Komuro_Sinobu = {
 		}
 		earliest_usage_date = 1869.1.1
 		latest_usage_date = 1898.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4924,6 +7089,7 @@ japanese_flavor_Ogyu_Yuzuru = {
 	birth_date = 1839.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Ogyu_Yuzuru
 		innovative
 	}
 	interest_group_leader_usage = {
@@ -4936,7 +7102,7 @@ japanese_flavor_Ogyu_Yuzuru = {
 		}
 		earliest_usage_date = 1869.1.1
 		latest_usage_date = 1910.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -4951,6 +7117,7 @@ japanese_flavor_Kirino_Toshiaki = {
 	birth_date = 1839.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kirino_Toshiaki
 		basic_defensive_strategist
 	}
 	commander_rank = default
@@ -4966,6 +7133,88 @@ japanese_flavor_Kirino_Toshiaki = {
 	}
 }
 
+# Matsudaira Taro
+japanese_flavor_Matsudaira_Taro = {
+	first_name = japanese_flavor_Matsudaira_Taro_first
+	last_name = japanese_flavor_Matsudaira_Taro_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_traditionalist
+	interest_group = ig_landowners
+	birth_date = 1839.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Matsudaira_Taro
+		resupply_commander
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+		}
+		earliest_usage_date = 1869.1.1
+		latest_usage_date = 1909.1.1
+		chance = 5
+	}
+}
+
+# Koga Gengo
+japanese_flavor_Koga_Gengo = {
+	first_name = japanese_flavor_Koga_Gengo_first
+	last_name = japanese_flavor_Koga_Gengo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_traditionalist
+	interest_group = ig_armed_forces
+	birth_date = 1839.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Koga_Gengo
+		basic_naval_commander
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = admiral
+		earliest_usage_date = 1859.1.1
+		latest_usage_date = 1869.1.1
+		chance = 10
+	}
+}
+
+# Nagakura Shinpachi
+japanese_flavor_Nagakura_Shinpachi = {
+	first_name = japanese_flavor_Nagakura_Shinpachi_first
+	last_name = japanese_flavor_Nagakura_Shinpachi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_ethno_nationalist
+	interest_group = ig_armed_forces
+	birth_date = 1839.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Nagakura_Shinpachi
+		plains_commander
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1869.1.1
+		latest_usage_date = 1915.1.1
+		chance = 10
+	}
+}
+
 # Hoshi Juntaro
 japanese_flavor_Hoshi_Juntaro = {
 	first_name = japanese_flavor_Hoshi_Juntaro_first
@@ -4977,6 +7226,7 @@ japanese_flavor_Hoshi_Juntaro = {
 	birth_date = 1840.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Hoshi_Juntaro
 		basic_artillery_commander
 	}
 	commander_rank = default
@@ -5003,6 +7253,7 @@ japanese_flavor_Anegakoji_Kintomo = {
 	birth_date = 1840.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Anegakoji_Kintomo
 		direct
 	}
 	interest_group_leader_usage = {
@@ -5015,7 +7266,35 @@ japanese_flavor_Anegakoji_Kintomo = {
 		}
 		earliest_usage_date = 1853.1.1
 		latest_usage_date = 1863.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Kusaka Genzui
+japanese_flavor_Kusaka_Genzui = {
+	first_name = japanese_flavor_Kusaka_Genzui_first
+	last_name = japanese_flavor_Kusaka_Genzui_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_ethno_nationalist
+	interest_group = ig_armed_forces
+	birth_date = 1840.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kusaka_Genzui
+		firebrand
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_armed_forces
+		}
+		earliest_usage_date = 1854.1.1
+		latest_usage_date = 1864.1.1
+		chance = 5
 	}
 }
 
@@ -5030,6 +7309,7 @@ japanese_flavor_Date_Kunishige = {
 	birth_date = 1841.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Date_Kunishige
 		basic_colonial_administrator
 	}
 	interest_group_leader_usage = {
@@ -5042,7 +7322,7 @@ japanese_flavor_Date_Kunishige = {
 		}
 		earliest_usage_date = 1871.1.1
 		latest_usage_date = 1904.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -5057,6 +7337,7 @@ japanese_flavor_Konoike_Yukitomi = {
 	birth_date = 1841.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Konoike_Yukitomi
 		resupply_commander
 	}
 	interest_group_leader_usage = {
@@ -5069,7 +7350,7 @@ japanese_flavor_Konoike_Yukitomi = {
 		}
 		earliest_usage_date = 1871.1.1
 		latest_usage_date = 1920.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -5084,6 +7365,7 @@ japanese_flavor_Fukuchi_Genichiro = {
 	birth_date = 1841.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Fukuchi_Genichiro
 		romantic
 	}
 	interest_group_leader_usage = {
@@ -5096,7 +7378,7 @@ japanese_flavor_Fukuchi_Genichiro = {
 		}
 		earliest_usage_date = 1871.1.1
 		latest_usage_date = 1906.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -5111,6 +7393,7 @@ japanese_flavor_Nozu_Michitsura = {
 	birth_date = 1841.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Nozu_Michitsura
 		forest_commander
 	}
 	commander_rank = default
@@ -5137,6 +7420,7 @@ japanese_flavor_Akamatsu_Noriyoshi = {
 	birth_date = 1841.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Akamatsu_Noriyoshi
 		basic_naval_commander
 	}
 	interest_group_leader_usage = {
@@ -5149,7 +7433,35 @@ japanese_flavor_Akamatsu_Noriyoshi = {
 		}
 		earliest_usage_date = 1871.1.1
 		latest_usage_date = 1920.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Fujita Denzaburo
+japanese_flavor_Fujita_Denzaburo = {
+	first_name = japanese_flavor_Fujita_Denzaburo_first
+	last_name = japanese_flavor_Fujita_Denzaburo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_industrialists
+	birth_date = 1841.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Fujita_Denzaburo
+		reserved
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1871.1.1
+		latest_usage_date = 1912.1.1
+		chance = 5
 	}
 }
 
@@ -5164,6 +7476,7 @@ japanese_flavor_Hayashi_Yuzo = {
 	birth_date = 1842.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Hayashi_Yuzo
 		reckless
 	}
 	interest_group_leader_usage = {
@@ -5176,7 +7489,7 @@ japanese_flavor_Hayashi_Yuzo = {
 		}
 		earliest_usage_date = 1872.1.1
 		latest_usage_date = 1921.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -5191,6 +7504,7 @@ japanese_flavor_Shinagawa_Yajiro = {
 	birth_date = 1843.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Shinagawa_Yajiro
 		cruel
 	}
 	interest_group_leader_usage = {
@@ -5203,7 +7517,7 @@ japanese_flavor_Shinagawa_Yajiro = {
 		}
 		earliest_usage_date = 1873.1.1
 		latest_usage_date = 1900.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -5218,6 +7532,7 @@ japanese_flavor_Sakai_Noritsune = {
 	birth_date = 1843.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Sakai_Noritsune
 		basic_offensive_planner
 	}
 	commander_rank = default
@@ -5244,6 +7559,7 @@ japanese_flavor_Ito_Sukeyuki = {
 	birth_date = 1843.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Ito_Sukeyuki
 		basic_naval_commander
 	}
 	commander_rank = default
@@ -5270,6 +7586,7 @@ japanese_flavor_Okochi_Masatada = {
 	birth_date = 1844.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Okochi_Masatada
 		cruel
 	}
 	interest_group_leader_usage = {
@@ -5282,7 +7599,7 @@ japanese_flavor_Okochi_Masatada = {
 		}
 		earliest_usage_date = 1874.1.1
 		latest_usage_date = 1901.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -5297,6 +7614,7 @@ japanese_flavor_Kataoka_Kenkichi = {
 	birth_date = 1844.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kataoka_Kenkichi
 		basic_offensive_planner
 	}
 	interest_group_leader_usage = {
@@ -5309,7 +7627,7 @@ japanese_flavor_Kataoka_Kenkichi = {
 		}
 		earliest_usage_date = 1874.1.1
 		latest_usage_date = 1903.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -5324,6 +7642,7 @@ japanese_flavor_Kuroki_Tamemoto = {
 	birth_date = 1844.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kuroki_Tamemoto
 		basic_artillery_commander
 	}
 	commander_rank = default
@@ -5339,6 +7658,145 @@ japanese_flavor_Kuroki_Tamemoto = {
 	}
 }
 
+# Aoki Shuzo
+japanese_flavor_Aoki_Shuzo = {
+	first_name = japanese_flavor_Aoki_Shuzo_first
+	last_name = japanese_flavor_Aoki_Shuzo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_reformer
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1844.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Aoki_Shuzo
+		basic_diplomat
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_petty_bourgeoisie
+		}
+		earliest_usage_date = 1874.1.1
+		latest_usage_date = 1914.1.1
+		chance = 5
+	}
+}
+
+# Kumoi Tatsuo
+japanese_flavor_Kumoi_Tatsuo = {
+	first_name = japanese_flavor_Kumoi_Tatsuo_first
+	last_name = japanese_flavor_Kumoi_Tatsuo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_traditionalist
+	interest_group = ig_armed_forces
+	birth_date = 1844.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kumoi_Tatsuo
+		inspirational_orator
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_armed_forces
+		}
+		earliest_usage_date = 1861.1.1
+		latest_usage_date = 1871.1.1
+		chance = 5
+	}
+}
+
+# Iba Hachiro
+japanese_flavor_Iba_Hachiro = {
+	first_name = japanese_flavor_Iba_Hachiro_first
+	last_name = japanese_flavor_Iba_Hachiro_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_traditionalist
+	interest_group = ig_armed_forces
+	birth_date = 1844.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Iba_Hachiro
+		plains_commander
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1859.1.1
+		latest_usage_date = 1869.1.1
+		chance = 10
+	}
+}
+
+# Senge Takatomi
+japanese_flavor_Senge_Takatomi = {
+	first_name = japanese_flavor_Senge_Takatomi_first
+	last_name = japanese_flavor_Senge_Takatomi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_theocrat
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1845.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Senge_Takatomi
+		basic_political_operator
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_petty_bourgeoisie
+		}
+		earliest_usage_date = 1875.1.1
+		latest_usage_date = 1918.1.1
+		chance = 5
+	}
+}
+
+# Niijima Yae
+japanese_flavor_Niijima_Yae = {
+	first_name = japanese_flavor_Niijima_Yae_first
+	last_name = japanese_flavor_Niijima_Yae_last
+	culture = cu:japanese
+	female = yes
+	ideology = ideology_moderate
+	interest_group = ig_devout
+	birth_date = 1845.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Niijima_Yae
+		brave
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1875.1.1
+		latest_usage_date = 1932.1.1
+		chance = 5
+	}
+}
+
 # Matsudaira Sadachika
 japanese_flavor_Matsudaira_Sadachika = {
 	first_name = japanese_flavor_Matsudaira_Sadachika_first
@@ -5350,6 +7808,7 @@ japanese_flavor_Matsudaira_Sadachika = {
 	birth_date = 1847.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Matsudaira_Sadachika
 		persistent
 	}
 	interest_group_leader_usage = {
@@ -5362,7 +7821,7 @@ japanese_flavor_Matsudaira_Sadachika = {
 		}
 		earliest_usage_date = 1877.1.1
 		latest_usage_date = 1908.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -5377,6 +7836,7 @@ japanese_flavor_Furusawa_Shigeru = {
 	birth_date = 1847.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Furusawa_Shigeru
 		inspirational_orator
 	}
 	interest_group_leader_usage = {
@@ -5389,7 +7849,7 @@ japanese_flavor_Furusawa_Shigeru = {
 		}
 		earliest_usage_date = 1877.1.1
 		latest_usage_date = 1911.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -5404,6 +7864,7 @@ japanese_flavor_Oku_Yasutaka = {
 	birth_date = 1847.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Oku_Yasutaka
 		resupply_commander
 	}
 	commander_rank = default
@@ -5419,6 +7880,118 @@ japanese_flavor_Oku_Yasutaka = {
 	}
 }
 
+# Asano Soichiro
+japanese_flavor_Asano_Soichiro = {
+	first_name = japanese_flavor_Asano_Soichiro_first
+	last_name = japanese_flavor_Asano_Soichiro_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_market_liberal
+	interest_group = ig_industrialists
+	birth_date = 1848.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Asano_Soichiro
+		innovative
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1878.1.1
+		latest_usage_date = 1930.1.1
+		chance = 5
+	}
+}
+
+# Kamimura Hikonojo
+japanese_flavor_Kamimura_Hikonojo = {
+	first_name = japanese_flavor_Kamimura_Hikonojo_first
+	last_name = japanese_flavor_Kamimura_Hikonojo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_armed_forces
+	birth_date = 1849.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kamimura_Hikonojo
+		wrathful
+		experienced_naval_commander
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = admiral
+		earliest_usage_date = 1879.1.1
+		latest_usage_date = 1916.1.1
+		chance = 10
+	}
+}
+
+# Kono Hironaka
+japanese_flavor_Kono_Hironaka = {
+	first_name = japanese_flavor_Kono_Hironaka_first
+	last_name = japanese_flavor_Kono_Hironaka_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_republican_leader
+	interest_group = ig_trade_unions
+	birth_date = 1849.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kono_Hironaka
+		firebrand
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_trade_unions
+		}
+		earliest_usage_date = 1879.1.1
+		latest_usage_date = 1923.1.1
+		chance = 5
+	}
+}
+
+# Orita Hikoichi
+japanese_flavor_Orita_Hikoichi = {
+	first_name = japanese_flavor_Orita_Hikoichi_first
+	last_name = japanese_flavor_Orita_Hikoichi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_devout
+	birth_date = 1849.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Orita_Hikoichi
+		meticulous
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1879.1.1
+		latest_usage_date = 1920.1.1
+		chance = 5
+	}
+}
+
 # Kiyoura Keigo
 japanese_flavor_Kiyoura_Keigo = {
 	first_name = japanese_flavor_Kiyoura_Keigo_first
@@ -5430,6 +8003,7 @@ japanese_flavor_Kiyoura_Keigo = {
 	birth_date = 1850.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kiyoura_Keigo
 		senile
 	}
 	interest_group_leader_usage = {
@@ -5442,6 +8016,88 @@ japanese_flavor_Kiyoura_Keigo = {
 		}
 		earliest_usage_date = 1880.1.1
 		latest_usage_date = 1942.1.1
+		chance = 5
+	}
+}
+
+# Hoshi Toru
+japanese_flavor_Hoshi_Toru = {
+	first_name = japanese_flavor_Hoshi_Toru_first
+	last_name = japanese_flavor_Hoshi_Toru_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_republican_leader
+	interest_group = ig_intelligentsia
+	birth_date = 1850.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Hoshi_Toru
+		persistent
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1901.1.1
+		chance = 5
+	}
+}
+
+# Hasegawa Yoshimichi
+japanese_flavor_Hasegawa_Yoshimichi = {
+	first_name = japanese_flavor_Hasegawa_Yoshimichi_first
+	last_name = japanese_flavor_Hasegawa_Yoshimichi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_jingoist_leader
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1850.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Hasegawa_Yoshimichi
+		wrathful
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1924.1.1
+		chance = 10
+	}
+}
+
+# Kawamura Kageaki
+japanese_flavor_Kawamura_Kageaki = {
+	first_name = japanese_flavor_Kawamura_Kageaki_first
+	last_name = japanese_flavor_Kawamura_Kageaki_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1850.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kawamura_Kageaki
+		plains_commander
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1926.1.1
 		chance = 10
 	}
 }
@@ -5457,6 +8113,7 @@ japanese_flavor_Yamamoto_Gonbee = {
 	birth_date = 1852.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Yamamoto_Gonbee
 		basic_political_operator
 	}
 	interest_group_leader_usage = {
@@ -5469,7 +8126,7 @@ japanese_flavor_Yamamoto_Gonbee = {
 		}
 		earliest_usage_date = 1882.1.1
 		latest_usage_date = 1933.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -5484,6 +8141,7 @@ japanese_flavor_Fukushima_Yasumasa = {
 	birth_date = 1852.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Fukushima_Yasumasa
 		explorer
 	}
 	commander_rank = default
@@ -5499,6 +8157,199 @@ japanese_flavor_Fukushima_Yasumasa = {
 	}
 }
 
+# Ijuin Goro
+japanese_flavor_Ijuin_Goro = {
+	first_name = japanese_flavor_Ijuin_Goro_first
+	last_name = japanese_flavor_Ijuin_Goro_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_armed_forces
+	birth_date = 1852.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Ijuin_Goro
+		experienced_naval_commander
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = admiral
+		earliest_usage_date = 1882.1.1
+		latest_usage_date = 1921.1.1
+		chance = 10
+	}
+}
+
+# Takamine Jokichi
+japanese_flavor_Takamine_Jokichi = {
+	first_name = japanese_flavor_Takamine_Jokichi_first
+	last_name = japanese_flavor_Takamine_Jokichi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_market_liberal
+	interest_group = ig_industrialists
+	birth_date = 1854.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Takamine_Jokichi
+		innovative
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1884.1.1
+		latest_usage_date = 1922.1.1
+		chance = 5
+	}
+}
+
+# Tatsuno Kingo
+japanese_flavor_Tatsuno_Kingo = {
+	first_name = japanese_flavor_Tatsuno_Kingo_first
+	last_name = japanese_flavor_Tatsuno_Kingo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_intelligentsia
+	birth_date = 1854.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Tatsuno_Kingo
+		innovative
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1884.1.1
+		latest_usage_date = 1919.1.1
+		chance = 5
+	}
+}
+
+# Taguchi Ukichi
+japanese_flavor_Taguchi_Ukichi = {
+	first_name = japanese_flavor_Taguchi_Ukichi_first
+	last_name = japanese_flavor_Taguchi_Ukichi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_market_liberal
+	interest_group = ig_intelligentsia
+	birth_date = 1855.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Taguchi_Ukichi
+		romantic
+		inspirational_orator
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1905.1.1
+		chance = 5
+	}
+}
+
+# Iguchi Seigo
+japanese_flavor_Iguchi_Seigo = {
+	first_name = japanese_flavor_Iguchi_Seigo_first
+	last_name = japanese_flavor_Iguchi_Seigo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_armed_forces
+	birth_date = 1855.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Iguchi_Seigo
+		basic_offensive_planner
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1925.1.1
+		chance = 10
+	}
+}
+
+# Ichinohe Hyoe
+japanese_flavor_Ichinohe_Hyoe = {
+	first_name = japanese_flavor_Ichinohe_Hyoe_first
+	last_name = japanese_flavor_Ichinohe_Hyoe_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_armed_forces
+	birth_date = 1855.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Ichinohe_Hyoe
+		experienced_offensive_planner
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1931.1.1
+		chance = 10
+	}
+}
+
+# Tojo Hidenori
+japanese_flavor_Tojo_Hidenori = {
+	first_name = japanese_flavor_Tojo_Hidenori_first
+	last_name = japanese_flavor_Tojo_Hidenori_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_armed_forces
+	birth_date = 1855.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Tojo_Hidenori
+		tactful
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1913.1.1
+		chance = 10
+	}
+}
+
 # Hiraoka Hiroshi
 japanese_flavor_Hiraoka_Hiroshi = {
 	first_name = japanese_flavor_Hiraoka_Hiroshi_first
@@ -5510,6 +8361,7 @@ japanese_flavor_Hiraoka_Hiroshi = {
 	birth_date = 1856.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Hiraoka_Hiroshi
 		expensive_tastes
 	}
 	interest_group_leader_usage = {
@@ -5522,7 +8374,7 @@ japanese_flavor_Hiraoka_Hiroshi = {
 		}
 		earliest_usage_date = 1886.1.1
 		latest_usage_date = 1934.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -5537,6 +8389,7 @@ japanese_flavor_Uehara_Yusaku = {
 	birth_date = 1856.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Uehara_Yusaku
 		basic_artillery_commander
 	}
 	commander_rank = default
@@ -5563,6 +8416,7 @@ japanese_flavor_Iwashita_Kiyochika = {
 	birth_date = 1857.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Iwashita_Kiyochika
 		basic_diplomat
 	}
 	interest_group_leader_usage = {
@@ -5575,7 +8429,35 @@ japanese_flavor_Iwashita_Kiyochika = {
 		}
 		earliest_usage_date = 1887.1.1
 		latest_usage_date = 1928.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Tsuneto Noritaka
+japanese_flavor_Tsuneto_Noritaka = {
+	first_name = japanese_flavor_Tsuneto_Noritaka_first
+	last_name = japanese_flavor_Tsuneto_Noritaka_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_rural_folk
+	birth_date = 1857.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Tsuneto_Noritaka
+		ambitious
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_rural_folk
+		}
+		earliest_usage_date = 1887.1.1
+		latest_usage_date = 1938.1.1
+		chance = 5
 	}
 }
 
@@ -5590,6 +8472,7 @@ japanese_flavor_Inoue_Enryo = {
 	birth_date = 1858.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Inoue_Enryo
 		meticulous
 	}
 	interest_group_leader_usage = {
@@ -5602,7 +8485,122 @@ japanese_flavor_Inoue_Enryo = {
 		}
 		earliest_usage_date = 1888.1.1
 		latest_usage_date = 1919.1.1
+		chance = 5
+	}
+}
+
+# Shimamura Hayao
+japanese_flavor_Shimamura_Hayao = {
+	first_name = japanese_flavor_Shimamura_Hayao_first
+	last_name = japanese_flavor_Shimamura_Hayao_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_armed_forces
+	birth_date = 1858.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Shimamura_Hayao
+		popular_commander
+		experienced_naval_commander
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = admiral
+		earliest_usage_date = 1888.1.1
+		latest_usage_date = 1923.1.1
 		chance = 10
+	}
+}
+
+# Saito Makoto
+japanese_flavor_Saito_Makoto = {
+	first_name = japanese_flavor_Saito_Makoto_first
+	last_name = japanese_flavor_Saito_Makoto_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_armed_forces
+	birth_date = 1858.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Saito_Makoto
+		basic_diplomat
+		basic_colonial_administrator
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_armed_forces
+		}
+		earliest_usage_date = 1888.1.1
+		latest_usage_date = 1936.1.1
+		chance = 5
+	}
+}
+
+# Matsukawa Toshitane
+japanese_flavor_Matsukawa_Toshitane = {
+	first_name = japanese_flavor_Matsukawa_Toshitane_first
+	last_name = japanese_flavor_Matsukawa_Toshitane_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_armed_forces
+	birth_date = 1859.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Matsukawa_Toshitane
+		resupply_commander
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1889.1.1
+		latest_usage_date = 1928.1.1
+		chance = 10
+	}
+}
+
+# Yokoi Tokiyoshi
+japanese_flavor_Yokoi_Tokiyoshi = {
+	first_name = japanese_flavor_Yokoi_Tokiyoshi_first
+	last_name = japanese_flavor_Yokoi_Tokiyoshi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_rural_folk
+	birth_date = 1860.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Yokoi_Tokiyoshi
+		persistent
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			OR = {
+				is_interest_group_type = ig_rural_folk
+				is_interest_group_type = ig_devout
+			}
+		}
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1927.1.1
+		chance = 5
 	}
 }
 
@@ -5617,6 +8615,7 @@ japanese_flavor_Kato_Tomosaburo = {
 	birth_date = 1861.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kato_Tomosaburo
 		basic_diplomat
 	}
 	interest_group_leader_usage = {
@@ -5629,6 +8628,63 @@ japanese_flavor_Kato_Tomosaburo = {
 		}
 		earliest_usage_date = 1891.1.1
 		latest_usage_date = 1923.1.1
+		chance = 5
+	}
+}
+
+# Tanaka Chigaku
+japanese_flavor_Tanaka_Chigaku = {
+	first_name = japanese_flavor_Tanaka_Chigaku_first
+	last_name = japanese_flavor_Tanaka_Chigaku_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_ethno_nationalist
+	interest_group = ig_intelligentsia
+	birth_date = 1861.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Tanaka_Chigaku
+		charismatic
+		firebrand
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1891.1.1
+		latest_usage_date = 1939.1.1
+		chance = 5
+	}
+}
+
+# Arima Ryokitsu
+japanese_flavor_Arima_Ryokitsu = {
+	first_name = japanese_flavor_Arima_Ryokitsu_first
+	last_name = japanese_flavor_Arima_Ryokitsu_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_armed_forces
+	birth_date = 1861.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Arima_Ryokitsu
+		basic_naval_commander
+		brave
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = admiral
+		earliest_usage_date = 1891.1.1
+		latest_usage_date = 1944.1.1
 		chance = 10
 	}
 }
@@ -5644,6 +8700,7 @@ japanese_flavor_Adachi_Kenzo = {
 	birth_date = 1864.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Adachi_Kenzo
 		basic_political_operator
 	}
 	interest_group_leader_usage = {
@@ -5656,7 +8713,7 @@ japanese_flavor_Adachi_Kenzo = {
 		}
 		earliest_usage_date = 1894.1.1
 		latest_usage_date = 1948.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -5671,6 +8728,7 @@ japanese_flavor_Koizumi_Matajiro = {
 	birth_date = 1865.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Koizumi_Matajiro
 		brave
 	}
 	interest_group_leader_usage = {
@@ -5683,7 +8741,147 @@ japanese_flavor_Koizumi_Matajiro = {
 		}
 		earliest_usage_date = 1895.1.1
 		latest_usage_date = 1951.1.1
+		chance = 5
+	}
+}
+
+# Abe Isoo
+japanese_flavor_Abe_Isoo = {
+	first_name = japanese_flavor_Abe_Isoo_first
+	last_name = japanese_flavor_Abe_Isoo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_social_democrat
+	interest_group = ig_trade_unions
+	birth_date = 1865.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Abe_Isoo
+		meticulous
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_trade_unions
+		}
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1949.1.1
+		chance = 5
+	}
+}
+
+# Kaninnomiya Kotohito
+japanese_flavor_Kaninnomiya_Kotohito = {
+	first_name = japanese_flavor_Kaninnomiya_Kotohito_first
+	last_name = japanese_flavor_Kaninnomiya_Kotohito_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_royalist
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1865.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kaninnomiya_Kotohito
+		basic_offensive_planner
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1945.1.1
 		chance = 10
+	}
+}
+
+# Kawaguchi Ekai
+japanese_flavor_Kawaguchi_Ekai = {
+	first_name = japanese_flavor_Kawaguchi_Ekai_first
+	last_name = japanese_flavor_Kawaguchi_Ekai_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_intelligentsia
+	birth_date = 1866.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kawaguchi_Ekai
+		explorer
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1896.1.1
+		latest_usage_date = 1945.1.1
+		chance = 5
+	}
+}
+
+# Kaneko Naokichi
+japanese_flavor_Kaneko_Naokichi = {
+	first_name = japanese_flavor_Kaneko_Naokichi_first
+	last_name = japanese_flavor_Kaneko_Naokichi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_reformer
+	interest_group = ig_industrialists
+	birth_date = 1866.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kaneko_Naokichi
+		grifter
+		reckless
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1896.1.1
+		latest_usage_date = 1944.1.1
+		chance = 5
+	}
+}
+
+# Ninomiya Chuhachi
+japanese_flavor_Ninomiya_Chuhachi = {
+	first_name = japanese_flavor_Ninomiya_Chuhachi_first
+	last_name = japanese_flavor_Ninomiya_Chuhachi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_reformer
+	interest_group = ig_industrialists
+	birth_date = 1866.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Ninomiya_Chuhachi
+		romantic
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1896.1.1
+		latest_usage_date = 1936.1.1
+		chance = 5
 	}
 }
 
@@ -5698,6 +8896,7 @@ japanese_flavor_Miyatake_Gaikotsu = {
 	birth_date = 1867.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Miyatake_Gaikotsu
 		wrathful
 		reckless
 	}
@@ -5711,7 +8910,119 @@ japanese_flavor_Miyatake_Gaikotsu = {
 		}
 		earliest_usage_date = 1897.1.1
 		latest_usage_date = 1955.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Toyoda Sakichi
+japanese_flavor_Toyoda_Sakichi = {
+	first_name = japanese_flavor_Toyoda_Sakichi_first
+	last_name = japanese_flavor_Toyoda_Sakichi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_industrialists
+	birth_date = 1867.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Toyoda_Sakichi
+		innovative
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1897.1.1
+		latest_usage_date = 1930.1.1
+		chance = 5
+	}
+}
+
+# Nakamura Jusaku
+japanese_flavor_Nakamura_Jusaku = {
+	first_name = japanese_flavor_Nakamura_Jusaku_first
+	last_name = japanese_flavor_Nakamura_Jusaku_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_abolitionist
+	interest_group = ig_rural_folk
+	birth_date = 1867.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Nakamura_Jusaku
+		brave
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_rural_folk
+		}
+		earliest_usage_date = 1897.1.1
+		latest_usage_date = 1943.1.1
+		chance = 5
+	}
+}
+
+# Muto Sanji
+japanese_flavor_Muto_Sanji = {
+	first_name = japanese_flavor_Muto_Sanji_first
+	last_name = japanese_flavor_Muto_Sanji_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_market_liberal
+	interest_group = ig_industrialists
+	birth_date = 1867.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Muto_Sanji
+		cautious
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1897.1.1
+		latest_usage_date = 1934.1.1
+		chance = 5
+	}
+}
+
+# Ito Chuta
+japanese_flavor_Ito_Chuta = {
+	first_name = japanese_flavor_Ito_Chuta_first
+	last_name = japanese_flavor_Ito_Chuta_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_traditionalist
+	interest_group = ig_intelligentsia
+	birth_date = 1867.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Ito_Chuta
+		pious
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1897.1.1
+		latest_usage_date = 1954.1.1
+		chance = 5
 	}
 }
 
@@ -5726,6 +9037,7 @@ japanese_flavor_Ugaki_Kazushige = {
 	birth_date = 1868.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Ugaki_Kazushige
 		ambitious
 	}
 	interest_group_leader_usage = {
@@ -5738,7 +9050,64 @@ japanese_flavor_Ugaki_Kazushige = {
 		}
 		earliest_usage_date = 1898.1.1
 		latest_usage_date = 1956.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Fukuzawa Momosuke
+japanese_flavor_Fukuzawa_Momosuke = {
+	first_name = japanese_flavor_Fukuzawa_Momosuke_first
+	last_name = japanese_flavor_Fukuzawa_Momosuke_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_market_liberal
+	interest_group = ig_industrialists
+	birth_date = 1868.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Fukuzawa_Momosuke
+		tactful
+		grifter
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1898.1.1
+		latest_usage_date = 1938.1.1
+		chance = 5
+	}
+}
+
+# Oyabe Zenichiro
+japanese_flavor_Oyabe_Zenichiro = {
+	first_name = japanese_flavor_Oyabe_Zenichiro_first
+	last_name = japanese_flavor_Oyabe_Zenichiro_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_reformer
+	interest_group = ig_devout
+	birth_date = 1868.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Oyabe_Zenichiro
+		romantic
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1898.1.1
+		latest_usage_date = 1941.1.1
+		chance = 5
 	}
 }
 
@@ -5753,6 +9122,7 @@ japanese_flavor_Kuhara_Fusanosuke = {
 	birth_date = 1869.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kuhara_Fusanosuke
 		arrogant
 	}
 	interest_group_leader_usage = {
@@ -5765,7 +9135,7 @@ japanese_flavor_Kuhara_Fusanosuke = {
 		}
 		earliest_usage_date = 1899.1.1
 		latest_usage_date = 1965.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -5780,6 +9150,7 @@ japanese_flavor_Morishita_Hiroshi = {
 	birth_date = 1869.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Morishita_Hiroshi
 		tactful
 	}
 	interest_group_leader_usage = {
@@ -5792,7 +9163,63 @@ japanese_flavor_Morishita_Hiroshi = {
 		}
 		earliest_usage_date = 1899.1.1
 		latest_usage_date = 1943.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Kimura Hisashi
+japanese_flavor_Kimura_Hisashi = {
+	first_name = japanese_flavor_Kimura_Hisashi_first
+	last_name = japanese_flavor_Kimura_Hisashi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_devout
+	birth_date = 1870.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kimura_Hisashi
+		surveyor
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1943.1.1
+		chance = 5
+	}
+}
+
+# Nakane Naka
+japanese_flavor_Nakane_Naka = {
+	first_name = japanese_flavor_Nakane_Naka_first
+	last_name = japanese_flavor_Nakane_Naka_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_abolitionist
+	interest_group = ig_trade_unions
+	birth_date = 1870.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Nakane_Naka
+		firebrand
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_trade_unions
+		}
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1945.1.1
+		chance = 5
 	}
 }
 
@@ -5807,6 +9234,7 @@ japanese_flavor_Deguchi_Onisaburo = {
 	birth_date = 1871.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Deguchi_Onisaburo
 		charismatic
 		romantic
 	}
@@ -5820,7 +9248,35 @@ japanese_flavor_Deguchi_Onisaburo = {
 		}
 		earliest_usage_date = 1901.1.1
 		latest_usage_date = 1948.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Shiga Kiyoshi
+japanese_flavor_Shiga_Kiyoshi = {
+	first_name = japanese_flavor_Shiga_Kiyoshi_first
+	last_name = japanese_flavor_Shiga_Kiyoshi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_intelligentsia
+	birth_date = 1871.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Shiga_Kiyoshi
+		meticulous
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1901.1.1
+		latest_usage_date = 1957.1.1
+		chance = 5
 	}
 }
 
@@ -5835,6 +9291,7 @@ japanese_flavor_Kobayashi_Ichizo = {
 	birth_date = 1873.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Kobayashi_Ichizo
 		charismatic
 		innovative
 	}
@@ -5848,7 +9305,63 @@ japanese_flavor_Kobayashi_Ichizo = {
 		}
 		earliest_usage_date = 1903.1.1
 		latest_usage_date = 1957.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Hasegawa Nyozekan
+japanese_flavor_Hasegawa_Nyozekan = {
+	first_name = japanese_flavor_Hasegawa_Nyozekan_first
+	last_name = japanese_flavor_Hasegawa_Nyozekan_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_radical
+	interest_group = ig_intelligentsia
+	birth_date = 1875.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Hasegawa_Nyozekan
+		brave
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1969.1.1
+		chance = 5
+	}
+}
+
+# Kannari Matsu
+japanese_flavor_Kannari_Matsu = {
+	first_name = japanese_flavor_Kannari_Matsu_first
+	last_name = japanese_flavor_Kannari_Matsu_last
+	culture = cu:ainu
+	female = yes
+	ideology = ideology_moderate
+	interest_group = ig_intelligentsia
+	birth_date = 1875.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kannari_Matsu
+		inspirational_orator
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1961.1.1
+		chance = 5
 	}
 }
 
@@ -5864,6 +9377,7 @@ japanese_flavor_Otani_Kozui = {
 	birth_date = 1876.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Otani_Kozui
 		explorer
 	}
 	interest_group_leader_usage = {
@@ -5876,7 +9390,35 @@ japanese_flavor_Otani_Kozui = {
 		}
 		earliest_usage_date = 1906.1.1
 		latest_usage_date = 1948.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Okochi Masatoshi
+japanese_flavor_Okochi_Masatoshi = {
+	first_name = japanese_flavor_Okochi_Masatoshi_first
+	last_name = japanese_flavor_Okochi_Masatoshi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_industrialists
+	birth_date = 1878.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Okochi_Masatoshi
+		innovative
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1908.1.1
+		latest_usage_date = 1952.1.1
+		chance = 5
 	}
 }
 
@@ -5891,6 +9433,7 @@ japanese_flavor_Yamakawa_Hitoshi = {
 	birth_date = 1880.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Yamakawa_Hitoshi
 		meticulous
 	}
 	interest_group_leader_usage = {
@@ -5903,7 +9446,7 @@ japanese_flavor_Yamakawa_Hitoshi = {
 		}
 		earliest_usage_date = 1910.1.1
 		latest_usage_date = 1958.1.1
-		chance = 10
+		chance = 5
 	}
 }
 
@@ -5918,6 +9461,7 @@ japanese_flavor_Ohara_Magosaburo = {
 	birth_date = 1880.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Ohara_Magosaburo
 		innovative
 	}
 	interest_group_leader_usage = {
@@ -5930,7 +9474,173 @@ japanese_flavor_Ohara_Magosaburo = {
 		}
 		earliest_usage_date = 1910.1.1
 		latest_usage_date = 1943.1.1
+		chance = 5
+	}
+}
+
+# Ayukawa Yoshisuke
+japanese_flavor_Ayukawa_Yoshisuke = {
+	first_name = japanese_flavor_Ayukawa_Yoshisuke_first
+	last_name = japanese_flavor_Ayukawa_Yoshisuke_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_industrialists
+	birth_date = 1880.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Ayukawa_Yoshisuke
+		ambitious
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1967.1.1
+		chance = 5
+	}
+}
+
+# Yamaoka Mitsutaro
+japanese_flavor_Yamaoka_Mitsutaro = {
+	first_name = japanese_flavor_Yamaoka_Mitsutaro_first
+	last_name = japanese_flavor_Yamaoka_Mitsutaro_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_armed_forces
+	birth_date = 1880.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Yamaoka_Mitsutaro
+		explorer
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1959.1.1
 		chance = 10
+	}
+}
+
+# Goto Keita
+japanese_flavor_Goto_Keita = {
+	first_name = japanese_flavor_Goto_Keita_first
+	last_name = japanese_flavor_Goto_Keita_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_industrialists
+	birth_date = 1882.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Goto_Keita
+		tactful
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1912.1.1
+		latest_usage_date = 1959.1.1
+		chance = 5
+	}
+}
+
+# Kindaichi Kyosuke
+japanese_flavor_Kindaichi_Kyosuke = {
+	first_name = japanese_flavor_Kindaichi_Kyosuke_first
+	last_name = japanese_flavor_Kindaichi_Kyosuke_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_devout
+	birth_date = 1882.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kindaichi_Kyosuke
+		meticulous
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1912.1.1
+		latest_usage_date = 1971.1.1
+		chance = 5
+	}
+}
+
+# Shigeno Kiyotake
+japanese_flavor_Shigeno_Kiyotake = {
+	first_name = japanese_flavor_Shigeno_Kiyotake_first
+	last_name = japanese_flavor_Shigeno_Kiyotake_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_jingoist_leader
+	interest_group = ig_armed_forces
+	birth_date = 1882.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Shigeno_Kiyotake
+		popular_commander
+	}
+	commander_rank = default
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1912.1.1
+		latest_usage_date = 1924.1.1
+		chance = 10
+	}
+}
+
+# Kitaoji Rosanjin
+japanese_flavor_Kitaoji_Rosanjin = {
+	first_name = japanese_flavor_Kitaoji_Rosanjin_first
+	last_name = japanese_flavor_Kitaoji_Rosanjin_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_intelligentsia
+	birth_date = 1883.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Kitaoji_Rosanjin
+		arrogant
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1913.1.1
+		latest_usage_date = 1959.1.1
+		chance = 5
 	}
 }
 
@@ -5945,6 +9655,7 @@ japanese_flavor_Arima_Yoriyasu = {
 	birth_date = 1884.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Arima_Yoriyasu
 		direct
 	}
 	interest_group_leader_usage = {
@@ -5960,7 +9671,92 @@ japanese_flavor_Arima_Yoriyasu = {
 		}
 		earliest_usage_date = 1914.1.1
 		latest_usage_date = 1957.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Nakajima Chikuhei
+japanese_flavor_Nakajima_Chikuhei = {
+	first_name = japanese_flavor_Nakajima_Chikuhei_first
+	last_name = japanese_flavor_Nakajima_Chikuhei_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_industrialists
+	birth_date = 1884.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Nakajima_Chikuhei
+		romantic
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1914.1.1
+		latest_usage_date = 1949.1.1
+		chance = 5
+	}
+}
+
+# Tokugawa Iemasa
+japanese_flavor_Tokugawa_Iemasa = {
+	first_name = japanese_flavor_Tokugawa_Iemasa_first
+	last_name = japanese_flavor_Tokugawa_Iemasa_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_landowners
+	birth_date = 1884.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Tokugawa_Iemasa
+		basic_diplomat
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+		}
+		earliest_usage_date = 1914.1.1
+		latest_usage_date = 1963.1.1
+		chance = 5
+	}
+}
+
+# Batchelor Yaeko
+japanese_flavor_Batchelor_Yaeko = {
+	first_name = japanese_flavor_Batchelor_Yaeko_first
+	last_name = japanese_flavor_Batchelor_Yaeko_last
+	culture = cu:ainu
+	religion = protestant
+	female = yes
+	ideology = ideology_moderate
+	interest_group = ig_devout
+	birth_date = 1884.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Batchelor_Yaeko
+		pious
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1914.1.1
+		latest_usage_date = 1962.1.1
+		chance = 5
 	}
 }
 
@@ -5975,6 +9771,7 @@ japanese_flavor_Osugi_Sakae = {
 	birth_date = 1885.1.1
 	traits = {
 		historical_figures
+        concept_wikipedia_Osugi_Sakae
 		charismatic
 	}
 	interest_group_leader_usage = {
@@ -5987,7 +9784,208 @@ japanese_flavor_Osugi_Sakae = {
 		}
 		earliest_usage_date = 1913.1.1
 		latest_usage_date = 1923.1.1
-		chance = 10
+		chance = 5
+	}
+}
+
+# Sugiyama Genjiro
+japanese_flavor_Sugiyama_Genjiro = {
+	first_name = japanese_flavor_Sugiyama_Genjiro_first
+	last_name = japanese_flavor_Sugiyama_Genjiro_last
+	culture = cu:japanese
+	religion = protestant
+	female = no
+	ideology = ideology_reformer
+	interest_group = ig_rural_folk
+	birth_date = 1885.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Sugiyama_Genjiro
+		reserved
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			OR = {
+				is_interest_group_type = ig_rural_folk
+				is_interest_group_type = ig_trade_unions
+			}
+		}
+		earliest_usage_date = 1915.1.1
+		latest_usage_date = 1964.1.1
+		chance = 5
+	}
+}
+
+# Ishihara Hiroichiro
+japanese_flavor_Ishihara_Hiroichiro = {
+	first_name = japanese_flavor_Ishihara_Hiroichiro_first
+	last_name = japanese_flavor_Ishihara_Hiroichiro_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_jingoist_leader
+	interest_group = ig_industrialists
+	birth_date = 1890.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Ishihara_Hiroichiro
+		ambitious
+		grifter
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+		}
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1970.1.1
+		chance = 5
+	}
+}
+
+# Aso Hisashi
+japanese_flavor_Aso_Hisashi = {
+	first_name = japanese_flavor_Aso_Hisashi_first
+	last_name = japanese_flavor_Aso_Hisashi_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_social_democrat
+	interest_group = ig_trade_unions
+	birth_date = 1891.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Aso_Hisashi
+		ambitious
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_trade_unions
+		}
+		earliest_usage_date = 1921.1.1
+		latest_usage_date = 1940.1.1
+		chance = 5
+	}
+}
+
+# Akamatsu Katsumaro
+japanese_flavor_Akamatsu_Katsumaro = {
+	first_name = japanese_flavor_Akamatsu_Katsumaro_first
+	last_name = japanese_flavor_Akamatsu_Katsumaro_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_fascist
+	interest_group = ig_trade_unions
+	birth_date = 1894.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Akamatsu_Katsumaro
+		inspirational_orator
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_trade_unions
+		}
+		earliest_usage_date = 1924.1.1
+		latest_usage_date = 1955.1.1
+		chance = 5
+	}
+}
+
+# Minoda Muneki
+japanese_flavor_Minoda_Muneki = {
+	first_name = japanese_flavor_Minoda_Muneki_first
+	last_name = japanese_flavor_Minoda_Muneki_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_fascist
+	interest_group = ig_devout
+	birth_date = 1894.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Minoda_Muneki
+		wrathful
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1924.1.1
+		latest_usage_date = 1946.1.1
+		chance = 5
+	}
+}
+
+# Edogawa Ranpo
+japanese_flavor_Edogawa_Ranpo = {
+	first_name = japanese_flavor_Edogawa_Ranpo_first
+	last_name = japanese_flavor_Edogawa_Ranpo_last
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	interest_group = ig_intelligentsia
+	birth_date = 1894.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Edogawa_Ranpo
+		tactful
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1924.1.1
+		latest_usage_date = 1965.1.1
+		chance = 5
+	}
+}
+
+# Ito Noe
+japanese_flavor_Ito_Noe = {
+	first_name = japanese_flavor_Ito_Noe_first
+	last_name = japanese_flavor_Ito_Noe_last
+	culture = cu:japanese
+	female = yes
+	ideology = ideology_anarchist
+	interest_group = ig_intelligentsia
+	birth_date = 1895.1.1
+	traits = {
+		historical_figures
+        concept_wikipedia_Ito_Noe
+		cautious
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+		}
+		earliest_usage_date = 1913.1.1
+		latest_usage_date = 1923.1.1
+		chance = 5
 	}
 }
 

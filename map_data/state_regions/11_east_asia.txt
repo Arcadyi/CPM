@@ -659,7 +659,6 @@ STATE_SHANDONG = {
     naval_exit_id = 3057
 }
 
-
 STATE_SUZHOU = {
     id = 512
     subsistence_building = "building_subsistence_farms"

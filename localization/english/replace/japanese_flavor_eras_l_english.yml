@@ -1,16 +1,20 @@
 ﻿l_english:
 
+ # Era names
+
  japanese_flavor_era_1:0 "Late Edo Era"
  japanese_flavor_era_2:0 "Early Meiji Era"
  japanese_flavor_era_3:0 "Late Meiji Era"
  japanese_flavor_era_4:0 "Taisho Era"
  japanese_flavor_era_5:0 "Early Showa Era"
 
+ # Interest Group names for each era
+
  ig_japanese_flavor_landowners_1:0 "Shogunate"
  ig_japanese_flavor_petty_bourgeoisie_1:0 "Powerful Domains"
  ig_japanese_flavor_armed_forces_1:0 "Samurai"
  ig_japanese_flavor_rural_folk_1:0 "Peasants"
- ig_japanese_flavor_trade_unions_1:0 "Craftsmen"
+ ig_japanese_flavor_trade_unions_1:0 "Artisans"
  ig_japanese_flavor_industrialists_1:0 "Merchants"
  ig_japanese_flavor_devout_1:0 "Confucian Scholars"
  ig_japanese_flavor_intelligentsia_1:0 "Dutch Scholars"
@@ -19,7 +23,7 @@
  ig_japanese_flavor_petty_bourgeoisie_2:0 "Domain Cliques"
  ig_japanese_flavor_armed_forces_2:0 "Samurai"
  ig_japanese_flavor_rural_folk_2:0 "Peasants"
- ig_japanese_flavor_trade_unions_2:0 "Craftsmen"
+ ig_japanese_flavor_trade_unions_2:0 "Artisans"
  ig_japanese_flavor_industrialists_2:0 "Industrialists"
  ig_japanese_flavor_devout_2:0 "Educators"
  ig_japanese_flavor_intelligentsia_2:0 "Intellectuals"
@@ -54,6 +58,8 @@
  ig_shinto_monks:0 "Educators"
  shogunate_rename.tt:0 ""
 
+ # Era-changing events
+
  je_japanese_flavor_enter_era:0 "The New Wind"
  je_japanese_flavor_enter_era_goal:0 "One year passed"
  je_japanese_flavor_enter_era_reason:0 "The new era has come. The social structure and people's clothes will change."
@@ -81,6 +87,8 @@
  je_japanese_flavor_enter_era_3_complete:0 "$je_japanese_flavor_enter_era_complete$"
  je_japanese_flavor_enter_era_4_complete:0 "$je_japanese_flavor_enter_era_complete$"
  je_japanese_flavor_enter_era_5_complete:0 "$je_japanese_flavor_enter_era_complete$"
+
+ # Era-changing decisions (for testing purpose)
 
  japanese_flavor_era_1_decision:0 "$japanese_flavor_era_1$"
  japanese_flavor_era_2_decision:0 "$japanese_flavor_era_2$"

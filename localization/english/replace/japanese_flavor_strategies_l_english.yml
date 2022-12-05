@@ -26,5 +26,5 @@
  ai_strategy_japanese_flavor_political_phase_3_desc:0 "[COUNTRY.GetName] wants to reform the [COUNTRY.GetGovernment.GetName] to compete with Western countries."
  ai_strategy_japanese_flavor_political_phase_4:0 "Keiō Reforms"
  ai_strategy_japanese_flavor_political_phase_4_desc:0 "[COUNTRY.GetName] wants to reform the [COUNTRY.GetGovernment.GetName] to compete with Western countries."
- ai_strategy_japanese_flavor_political_fallback:0 "Reform Shogunate"
+ ai_strategy_japanese_flavor_political_fallback:0 "Meiji Restoration"
  ai_strategy_japanese_flavor_political_fallback_desc:0 "[COUNTRY.GetName] wants to reform the [COUNTRY.GetGovernment.GetName] to compete with Western countries."

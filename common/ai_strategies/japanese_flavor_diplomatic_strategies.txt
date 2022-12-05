@@ -235,6 +235,7 @@ ai_strategy_japanese_flavor_diplomatic_phase_3 = {
 		AND = {
 			NOT = { has_law = law_type:law_isolationism }
 			has_variable = meiji_restoration_complete
+			NOT = { has_global_variable = meiji_restoration_complete }
 		}
 	}
 
@@ -318,6 +319,7 @@ ai_strategy_japanese_flavor_diplomatic_fallback = {
 		exists = c:JAP
 		this = c:JAP
 		has_law = law_type:law_monarchy
+		NOT = { has_global_variable = meiji_restoration_complete }
 	}
 
 	weight = {

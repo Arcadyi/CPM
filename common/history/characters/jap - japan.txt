@@ -11,7 +11,7 @@
 			ideology = ideology_traditionalist
 			traits = {
 				historical_figures
-				concept_wikipedia_Ienari_Tokugawa
+        concept_wikipedia_Tokugawa_Ienari
 				arrogant
 				expensive_tastes # bit of corruption
 			}
@@ -26,7 +26,7 @@
 			ideology = ideology_traditionalist
 			traits = {
 				historical_figures
-				concept_wikipedia_Ieyoshi_Tokugawa
+        concept_wikipedia_Tokugawa_Ieyoshi
 				meticulous
 				pious
 			}
@@ -41,6 +41,7 @@
 			ideology = ideology_traditionalist
 			traits = {
 				historical_figures
+        concept_wikipedia_Mizuno_Tadakuni
 				arrogant
 			}
 		}
@@ -50,12 +51,13 @@
 			is_general = yes
 			first_name = japanese_flavor_Tokugawa_Nariaki_first
 			last_name = japanese_flavor_Tokugawa_Nariaki_last
-			birth_date = 1800.4.4
+			birth_date = 1800.1.1
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_jingoist_leader
 			commander_rank = commander_rank_2
 			traits = {
 				historical_figures
+        concept_wikipedia_Tokugawa_Nariaki
 				imperious
 			}
 		}
@@ -69,6 +71,7 @@
 			ideology = ideology_traditionalist
 			traits = {
 				historical_figures
+        concept_wikipedia_Fujita_Toko
 				inspirational_orator
 			}
 		}
@@ -82,6 +85,7 @@
 			ideology = ideology_moderate
 			traits = {
 				historical_figures
+        concept_wikipedia_Ninomiya_Sontoku
 				basic_political_operator
 				charismatic
 			}
@@ -89,16 +93,16 @@
 
 		create_character = {
 			ig_leader = yes
-			first_name = japanese_flavor_Utagawa_Hiroshige_first
-			last_name = japanese_flavor_Utagawa_Hiroshige_last
-			birth_date = 1797.1.1
+			first_name = japanese_flavor_Katsushika_Hokusai_first
+			last_name = japanese_flavor_Katsushika_Hokusai_last
+			birth_date = 1760.1.1
 			interest_group = ig_trade_unions
 			ideology = ideology_moderate
 			traits = {
 				historical_figures
-				romantic
-				concept_wikipedia_Koan_Ogata
-				meticulous
+        concept_wikipedia_Katsushika_Hokusai
+				innovative
+				bigoted
 			}
 		}
 
@@ -111,6 +115,7 @@
 			ideology = ideology_moderate
 			traits = {
 				historical_figures
+        concept_wikipedia_Kyokutei_Bakin
 				romantic
 			}
 		}
@@ -124,6 +129,7 @@
 			ideology = ideology_traditionalist
 			traits = {
 				historical_figures
+        concept_wikipedia_Hirata_Atsutane
 				innovative
 			}
 		}
@@ -137,6 +143,7 @@
 			ideology = ideology_abolitionist
 			traits = {
 				historical_figures
+        concept_wikipedia_Watanabe_Kazan
 				tactful
 			}
 		}
@@ -147,11 +154,11 @@
 			last_name = japanese_flavor_Egawa_Hidetatsu_last
 			interest_group = ig_landowners
 			ideology = ideology_reformer
-			birth_date = 1801.6.23
+			birth_date = 1801.1.1
 			commander_rank = commander_rank_2
 			traits = {
 				historical_figures
-				concept_wikipedia_Hidetatsu_Egawa
+        concept_wikipedia_Egawa_Hidetatsu
 				innovative 
 				basic_defensive_strategist
 			}
@@ -163,11 +170,11 @@
 			last_name = japanese_flavor_Torii_Yozo_last
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
-			birth_date = 1796.11.24
+			birth_date = 1796.1.1
 			commander_rank = commander_rank_2
 			traits = {
 				historical_figures
-				concept_wikipedia_Yozo_Torii
+        concept_wikipedia_Torii_Yozo
 				traditionalist_commander
 				imperious
 			}
