@@ -4,18 +4,19 @@
 	complete = {
 		OR = {
 			AND = {
-				owns_entire_state_region = STATE_CALIFORNIA
-				owns_entire_state_region = STATE_NEVADA
-				owns_entire_state_region = STATE_UTAH
-				owns_entire_state_region = STATE_TEXAS
-				owns_entire_state_region = STATE_ARIZONA
-				owns_entire_state_region = STATE_NEW_MEXICO
-			}
-			has_variable = manifest_destiny_we_did_it_folks
-		}
-			NOT = {has_variable = manifest_destiny_we_did_it_folks_cooldown}
+		owns_entire_state_region = STATE_CALIFORNIA
+		owns_entire_state_region = STATE_NEVADA
+		owns_entire_state_region = STATE_UTAH
+		owns_entire_state_region = STATE_ARIZONA
+		owns_entire_state_region = STATE_NEW_MEXICO
+		owns_entire_state_region = STATE_TEXAS 
 	}
-
+		has_variable = manifest_destiny_we_did_it_folks
+	}
+		NOT = {
+			has_variable = manifest_destiny_we_did_it_folks_cooldown
+		}
+}
 	on_complete = {
 		trigger_event = { id = manifest_destiny.1 }
 	}
@@ -51,5 +52,57 @@ je_manifest_destiny_frontier_wars = {
 	weight = 100
 	
 	inheritable = no
+	should_be_pinned_by_default = yes
+}
+
+je_manifest_destiny_mexican_american_war = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	complete = {
+		c:USA = {
+			is_at_war = no
+			is_diplomatic_play_committed_participant = no
+			AND = {
+				custom_tooltip = { 
+					text = mexican_american_war_tt1
+					has_variable = mexican_american_war
+				}
+			}
+
+			
+		}
+		c:MEX = {
+			is_subject_of = c:USA
+		}
+	}
+
+	fail = {
+		c:USA = {
+			is_at_war = no
+			is_diplomatic_play_committed_participant = no
+			custom_tooltip = { 
+				text = mexican_american_war_tt1
+				has_variable = mexican_american_war
+			}
+		}
+		c:MEX = {
+			NOT = {
+				is_subject_of = c:USA
+			}
+		}
+	}
+
+	on_fail = { 
+		trigger_event = {
+			id = manifest_destiny.4 #USA Loses!
+		}
+	}
+
+	on_complete = {
+		trigger_event = { 
+			id = manifest_destiny.6  #USA Wins!
+		}
+	}
+
+	weight = 100
 	should_be_pinned_by_default = yes
 }

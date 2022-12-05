@@ -5,7 +5,7 @@
 			80 = 0
 			
 			#Standard event
-			20 = expedition_events.20 #posts a notification
+			10 = expedition_events.20 #posts a notification
 			
 			20 = expedition_events.220 #river crossing
 			20 = expedition_events.230 #bear sighting
@@ -86,9 +86,32 @@
 			}
 		}
 		remove_variable = on_expedition
-		remove_variable = congo_river_expedition_var
+		remove_variable = west_america_expedition_var #this was missing for some reason
+		remove_variable = niger_river_expedition_var #left this in just in case
 		remove_modifier = modifier_large_expedition_cost
 		set_variable = west_america_expedition_succes_var #grand exhibition check
+
+		#Remove all these gosh-darn variables that keep events from happening in successive expeditions
+		remove_variable = river_crossing
+		remove_variable = jump_river_fail_var
+		remove_variable = jump_river_success_var
+		remove_variable = bear_sighting
+		remove_variable = wildlife_photography
+		remove_variable = mountain_spotted
+		remove_variable = snow_falls
+		remove_variable = plant_gathering
+		remove_variable = expedition_lost
+		remove_variable = build_a_fort_var
+		remove_variable = expedition_baby_var
+		remove_variable = disciplinary_sanctions_var
+		remove_variable = team_disobeys_var
+		remove_variable = team_disobeys_bad_var
+		remove_variable = expedition_quest_var
+		remove_variable = expedition_barter_var
+		remove_variable = native_guide_var
+		remove_variable = expedition_barter_var
+		remove_variable = guide_advice_var
+		remove_variable = no_extra_expenses_var
 	}
     
    fail = {
@@ -101,8 +124,33 @@
 	on_fail = {
 		trigger_event = { id = expedition_events.205 }
 		remove_variable = on_expedition
+		remove_variable = expedition_progress
+		remove_variable = expedition_peril
 		remove_variable = west_america_expedition_var
+		remove_variable = niger_river_expedition_var
 		remove_modifier = modifier_large_expedition_cost
+
+		#Remove all these gosh-darn variables that keep events from happening in successive expeditions
+		remove_variable = river_crossing
+		remove_variable = jump_river_fail_var
+		remove_variable = jump_river_success_var
+		remove_variable = bear_sighting
+		remove_variable = wildlife_photography
+		remove_variable = mountain_spotted
+		remove_variable = snow_falls
+		remove_variable = plant_gathering
+		remove_variable = expedition_lost
+		remove_variable = build_a_fort_var
+		remove_variable = expedition_baby_var
+		remove_variable = disciplinary_sanctions_var
+		remove_variable = team_disobeys_var
+		remove_variable = team_disobeys_bad_var
+		remove_variable = expedition_quest_var
+		remove_variable = expedition_barter_var
+		remove_variable = native_guide_var
+		remove_variable = expedition_barter_var
+		remove_variable = guide_advice_var
+		remove_variable = no_extra_expenses_var
 	}
 	
 	current_value = {

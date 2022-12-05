@@ -4,7 +4,7 @@
 		exists = c:USA
 		root = c:USA
 		NOT = { has_variable = manifested_destiny }
-	}  
+	}
 
 	possible = {
 		has_technology_researched = nationalism
@@ -13,22 +13,14 @@
 	when_taken = {
 		if = {
 			limit = {
-				OR = { 
-					AND = {
 				owns_entire_state_region = STATE_CALIFORNIA
 				owns_entire_state_region = STATE_NEVADA
 				owns_entire_state_region = STATE_UTAH
 				owns_entire_state_region = STATE_ARIZONA
 				owns_entire_state_region = STATE_NEW_MEXICO
-				OR = {
 				owns_entire_state_region = STATE_TEXAS
-				exists = c:RIO
 			}
-					}
-					has_variable = mexican_american_war_treaty
-				}
-			}
-		#	trigger_event = { id = manifest_destiny.1 }
+			trigger_event = { id = manifest_destiny.1 }
 		}
 		else = {
 			add_journal_entry = {
@@ -71,30 +63,233 @@
 			}
 			create_incident = {
 				country = c:MEX
-				value = 10
+				value = 20
 			}
 		}	
 		# Add Claims
+		s:STATE_CALIFORNIA = { 
+			if = {
+				limit = {
+					any_scope_state = {
+						owner = c:MEX
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_NEVADA = {  
+			if = {
+				limit = {
+					any_scope_state = {
+						owner = c:MEX
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_UTAH = { 
+			if = {
+				limit = {
+					any_scope_state = {
+						owner = c:MEX
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_ARIZONA = { 
+			if = {
+				limit = {
+					any_scope_state = {
+						owner = c:MEX
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_NEW_MEXICO = { 
+			if = {
+				limit = {
+					any_scope_state = {
+						owner = c:MEX
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_OKLAHOMA = { 
+			if = {
+				limit = {
+					any_scope_state = {
+						owner = c:MEX
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		#If Texas has already been annexed and part owned by MEX, and USA does not already have claim, give USA the claim
+		s:STATE_TEXAS = {
+			if = {
+				limit = {
+					NOT = {
+						exists = c:TEX
+						ROOT = {
+							has_claim = s:STATE_TEXAS
+						}
+					}
+					any_scope_state = {
+						owner = c:MEX
+					}
+				}
+				add_claim = ROOT
+			}
+		}
+		s:STATE_MONTANA = { 
+			if = {
+				limit = {
+					any_scope_state = {
+						owner = c:MEX
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_WYOMING = {  
+			if = {
+				limit = {
+					any_scope_state = {
+						owner = c:MEX
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_COLORADO = { 
+			if = {
+				limit = {
+					any_scope_state = {
+						owner = c:MEX
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_NORTH_DAKOTA = { 
+			if = {
+				limit = {
+					any_scope_state = {
+						owner = c:MEX
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_SOUTH_DAKOTA = { 
+			if = {
+				limit = {
+					any_scope_state = {
+						owner = c:MEX
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_NEBRASKA = { 
+			if = {
+				limit = {
+					any_scope_state = {
+						owner = c:MEX
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+		s:STATE_KANSAS = { 
+			if = {
+				limit = {
+					any_scope_state = {
+						owner = c:MEX
+					}
+				}
+				add_claim = ROOT 
+			}
+		}
+
 		set_variable = manifested_destiny
 	}
 
 	ai_chance = {
-		base = 100
+		base = 10
 	}
 }
 
-
-manifest_destiny_war = {
-
+mexican_american_war = {
 	is_shown = {
 		exists = c:USA
 		root = c:USA
-		c:USA = {
-			has_variable = manifested_destiny
+		NOT = {
+			exists = c:TEX
 		}
+		c:USA = {
+			has_variable = manifested_destiny #already took Manifest Destiny decision
+			NOT = {
+				has_variable = mexican_american_war #war hasn't happened yet
+			}
+		}
+		
+		s:STATE_ARIZONA = {
+			any_scope_state = {
+				owner = c:MEX
+			}
+		}
+		s:STATE_CALIFORNIA = {
+			any_scope_state = {
+				owner = c:MEX
+			}
+		}
+	#	s:STATE_COLORADO = {
+	#		any_scope_state = {
+	#			owner = c:MEX
+	#		}
+	#	}
+		s:STATE_NEVADA = {
+			any_scope_state = {
+				owner = c:MEX
+			}
+		}
+		s:STATE_NEW_MEXICO = {
+			any_scope_state = {
+				owner = c:MEX
+			}
+		}
+	#	s:STATE_TEXAS = {
+	#		any_scope_state = {
+	#			owner = c:MEX
+	#		}
+	#	}
+		s:STATE_UTAH = {
+			any_scope_state = {
+				owner = c:MEX
+			}
 		NOT = {
 			c:USA = { has_variable = mexican_american_war_started }
 		}
+	#	s:STATE_KANSAS = {
+	#		any_scope_state = {
+	#			owner = c:MEX
+	#		}
+	#	}
+	#	s:STATE_NEBRASKA = {
+	#		any_scope_state = {
+	#			owner = c:MEX
+	#		}
+	#	}
+	#	s:STATE_WYOMING = {
+	#		any_scope_state = {
+	#			owner = c:MEX
+	#		}
+	#	}
+
 	}
 
 	possible = {
@@ -102,21 +297,33 @@ manifest_destiny_war = {
 		root = c:USA
 		is_diplomatic_play_committed_participant = no
  		is_at_war = no
-		c:USA = {
-			has_variable = manifested_destiny
+		custom_tooltip = {
+			text = manifest_destiny_tt0
 		}
-		NOT = {
-			c:USA = { has_variable = mexican_american_war_started }
+			c:USA = {
+				has_variable = manifested_destiny
 		}
+				NOT = {
+			c:USA = { 
+				or = {
+				has_variable = mexican_american_war_started 
+				has_variable = mexican_american_war
+			}
+			}
+				}
 		OR = {
 			is_player = no
 			has_technology_researched = logistics
-		}	
-	}
+			}
+		}
+
 
 	when_taken = {
 		c:USA = {
-			set_variable = mexican_american_war_started
+			set_variable = mexican_american_war
+		}
+		add_journal_entry = {
+			type = je_manifest_destiny_mexican_american_war
 		}
 		c:USA = { trigger_event = { id = manifest_destiny.5 } }
 			hidden_effect  = {
@@ -159,6 +366,7 @@ manifest_destiny_war = {
 			}
 			add = 100
 		}
+		
 	#	modifier = {
 	#		trigger = { 
 	#			ruler = {has_ideology = ideology_pacifist}
