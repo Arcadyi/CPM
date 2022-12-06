@@ -25,3 +25,6 @@ cosmopolitan_events.5.d:0 "Leaders from various interest groups appear to have a
 cosmopolitan_events.5.f:0 "Cosmopolitanism can be defined as a global politics that, firstly, projects a sociality of common political engagement among all human beings across the globe, and, secondly suggests that this sociality should be either ethically or organizationally privileged over other forms of sociality"
 cosmopolitan_events.5.a:0 "All aboard!"
 cosmopolitan_events.5.b:0 "We should further support this line of thinking"
+#
+ ideology_cosmopolitanism:0 "Cosmopolitan"
+ ideology_cosmopolitanism_desc:0 "#lore This group believes that all of humanity could and should belong to a single community.#!"
