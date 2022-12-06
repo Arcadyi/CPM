@@ -154,3 +154,5 @@ Credit: All mods / mod ideas used linked below:
 		- Fixed not being able to play as CSA when ACW starts.
 		- Fixes to Heightmap and terrain, some provinces should look more realistic now.
 		- Dense Market Details & Dense trade Routes fixed.
+			# v.2.4
+		-

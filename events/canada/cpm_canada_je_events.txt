@@ -1,0 +1,861 @@
+﻿namespace = cpm_canada_events
+
+# Rebellions of 1837
+cpm_canada_events.1 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/southamerica_war_civilians.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/war_civilians"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	title = cpm_canada_events.1.t
+	desc = cpm_canada_events.1.d
+	flavor = cpm_canada_events.1.f
+
+	duration = 3
+
+	trigger = {
+		# triggered by je_rebilions_countdown completion
+	}
+
+	option = {
+		name = cpm_canada_events.1.a
+		default_option = yes
+		
+		custom_tooltip = {
+			text = tgn_will_investiage_tooltip
+			add_journal_entry = {
+				type = je_tgn_investigations_begin
+			}
+		}
+		add_radicals = {
+			value = large_radicals
+		}
+	}
+}
+
+# Durham Report
+cpm_canada_events.2 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/southamerica_aristocrats.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/aristocrats"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	title = cpm_canada_events.2.t
+	desc = cpm_canada_events.2.d
+	flavor = cpm_canada_events.2.f
+
+	duration = 3
+
+	trigger = {
+		# triggered when je_tgn_investigations_begin completes
+	}
+
+	option = {
+		name = cpm_canada_events.2.a
+		default_option = yes
+		
+		custom_tooltip = {
+			text = tgn_will_send_to_the_crown_tooltip
+			add_journal_entry = {
+				type = je_tgn_waiting_for_the_british
+			}
+		}
+	}
+}
+
+# The Act of Union
+cpm_canada_events.3 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_capitalists_meeting.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/capitalists_meeting"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	title = cpm_canada_events.3.t
+	desc = cpm_canada_events.3.d
+	flavor = cpm_canada_events.3.f
+
+	duration = 3
+
+	trigger = {
+		# triggered when je_tgn_waiting_for_the_british completes
+	}
+
+	option = {
+		name = cpm_canada_events.3.a
+		default_option = yes
+		
+		custom_tooltip = {
+			text = tgn_the_union_will_start_forming_tooltip
+			add_journal_entry = {
+				type = je_tgn_forming_the_union
+			}
+		}
+	}
+}
+
+# The formation of the Province of Canada
+cpm_canada_events.4 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	title = cpm_canada_events.4.t
+	desc = cpm_canada_events.4.d
+	flavor = cpm_canada_events.4.f
+
+	duration = 3
+
+	trigger = {
+		# triggered when je_tgn_forming_the_union completes
+	}
+
+	option = {
+		name = cpm_canada_events.4.a
+		default_option = yes
+		add_journal_entry = {
+				type = je_tgn_build_ottawa
+		}
+		custom_tooltip = {
+			text = tgn_the_union_will_finally_form_tooltip
+			set_global_variable = {
+				name = ottawa_buildable
+				value = yes
+			}
+			if = {
+				limit = {
+					c:ONT = {
+						is_player = no
+					}
+					c:QUE = {
+						is_player = no
+					}
+				}
+				c:ONT = {
+					annex = c:QUE
+					add_modifier = canada_tgnxxx
+					add_modifier = canada_tgnxxx_ontario
+				}
+				set_global_variable = {
+					name = tgn_province_of_canada_formed_on
+					value = yes
+				}
+				every_scope_state = {
+					limit = {
+						is_incorporated = no
+						OR = {
+							state_region = {
+								is_homeland = cu:anglo_canadian
+							}
+							state_region = {
+								is_homeland = cu:franco_canadian
+							}
+						}
+					}
+					set_state_type = incorporated
+				}
+				c:GBR = {
+					hidden_effect = {
+						remove_diplomatic_pact = {
+							country = c:ONT
+							type = puppet
+						}
+					}
+					create_diplomatic_pact = {
+						country = c:ONT
+						type = dominion
+					}
+				}
+			}
+			if = {
+				limit = {
+					c:ONT = {
+						is_player = yes
+					}
+					c:QUE = {
+						is_player = no
+					}
+				}
+				c:ONT = {
+					annex = c:QUE
+					add_modifier = canada_tgnxxx
+					add_modifier = canada_tgnxxx_ontario
+				}
+				set_global_variable = {
+					name = tgn_province_of_canada_formed_on
+					value = yes
+				}
+				every_scope_state = {
+					limit = {
+						is_incorporated = no
+						OR = {
+							state_region = {
+								is_homeland = cu:anglo_canadian
+							}
+							state_region = {
+								is_homeland = cu:franco_canadian
+							}
+						}
+					}
+					set_state_type = incorporated
+				}
+				c:GBR = {
+					hidden_effect = {
+						remove_diplomatic_pact = {
+							country = c:QUE
+							type = puppet
+						}
+					}
+					create_diplomatic_pact = {
+						country = c:QUE
+						type = dominion
+					}
+				}
+			}
+			if = {
+				limit = {
+					c:ONT = {
+						is_player = no
+					}
+						c:QUE = {
+						is_player = yes
+					}
+				}
+				c:QUE = {
+					annex = c:ONT
+					add_modifier = canada_tgnxxx
+					add_modifier = canada_tgnxxx_quebec
+				}
+				set_global_variable = {
+					name = tgn_province_of_canada_formed_qc
+					value = yes
+				}
+				every_scope_state = {
+					limit = {
+						is_incorporated = no
+						OR = {
+							state_region = {
+								is_homeland = cu:anglo_canadian
+							}
+							state_region = {
+								is_homeland = cu:franco_canadian
+							}
+						}
+					}
+					set_state_type = incorporated
+				}
+				c:GBR = {
+					hidden_effect = {
+						remove_diplomatic_pact = {
+							country = c:QUE
+							type = puppet
+						}
+					}
+					create_diplomatic_pact = {
+						country = c:QUE
+						type = dominion
+					}
+				}
+			}
+			add_modifier = {
+				name = canada_test_modifier
+				months = 24
+			}
+		}
+	}
+}
+
+# The new Parliament of the Union!
+cpm_canada_events.5 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/unspecific_world_fair.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/unspecific_world_fair"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	title = cpm_canada_events.5.t
+	desc = cpm_canada_events.5.d
+	flavor = cpm_canada_events.5.f
+
+	duration = 3
+
+	trigger = {
+		# triggered when je_tgn_build_ottawa completes
+	}
+
+	option = {
+		name = cpm_canada_events.5.a
+		default_option = yes
+		
+		custom_tooltip = {
+			text = tgn_can_proceed_with_the_dominion_ambitions_tooltip
+			set_global_variable = {
+				name = tgn_can_now_proceed_with_the_dominion
+				value = yes
+			}
+		}
+		activate_law = law_type:law_parliamentary_republic
+	}
+}
+
+# Charlottetown conference
+cpm_canada_events.6 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/southamerica_aristocrats.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/southamerica_aristocrats"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	title = cpm_canada_events.6.t
+	desc = cpm_canada_events.6.d
+	flavor = cpm_canada_events.6.f
+
+	duration = 3
+
+	trigger = {
+		# triggered when decision tgn_canada_discuss_the_dominion is taken
+	}
+
+	option = {
+		name = cpm_canada_events.6.a
+		default_option = yes
+		
+		custom_tooltip = {
+			text = tgn_another_conference_to_sign_the_resolutions_tooltip
+			add_journal_entry = {
+				type = je_tgn_discussing_the_dominion
+			}
+		}
+	}
+}
+
+# Quebec conference
+cpm_canada_events.7 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	title = cpm_canada_events.7.t
+	desc = cpm_canada_events.7.d
+	flavor = cpm_canada_events.7.f
+
+	duration = 3
+
+	trigger = {
+		# triggered when je_tgn_discussing_the_dominion completes
+	}
+
+	option = {
+		name = cpm_canada_events.7.a
+		default_option = yes
+		
+		custom_tooltip = {
+			text = tgn_sending_the_act_to_the_crown_tooltip
+			add_journal_entry = {
+				type = je_tgn_drafting_the_bnaa
+			}
+		}
+	}
+}
+
+# London conference
+cpm_canada_events.8 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_capitalists_meeting.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/capitalists_meeting"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	title = cpm_canada_events.8.t
+	desc = cpm_canada_events.8.d
+	flavor = cpm_canada_events.8.f
+
+	duration = 3
+
+	trigger = {
+		# triggered when je_tgn_drafting_the_bnaa completes
+	}
+
+	option = {
+		name = cpm_canada_events.8.a
+		default_option = yes
+		
+		custom_tooltip = {
+			text = tgn_sending_the_act_to_the_house_of_commons_tooltip
+			add_journal_entry = {
+				type = je_tgn_amending_the_bnaa
+			}
+		}
+	}
+}
+
+# British North America Act
+cpm_canada_events.9 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/unspecific_world_fair.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/unspecific_world_fair"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	title = cpm_canada_events.9.t
+	desc = cpm_canada_events.9.d
+	flavor = cpm_canada_events.9.f
+
+	duration = 3
+
+	trigger = {
+		# triggered when je_tgn_amending_the_bnaa completes
+	}
+
+	option = {
+		name = cpm_canada_events.9.a
+		default_option = yes
+		
+		custom_tooltip = {
+			text = tgn_another_the_dominion_is_forming_stage1_tooltip
+			set_global_variable = {
+				name = tgn_stage1_of_the_dominion_completed
+				value = yes
+			}
+			annex = c:NVS
+			annex = c:NBS
+			add_journal_entry = {
+				type = je_tgn_looking_outwards
+			}
+			add_modifier = {
+				name = canada_test_modifier
+				months = 24
+			}
+		}
+	}
+}
+
+# Rupert's Land Act
+cpm_canada_events.10 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_capitalists_meeting.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/capitalists_meeting"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	title = cpm_canada_events.10.t
+	desc = cpm_canada_events.10.d
+	flavor = cpm_canada_events.10.f
+
+	duration = 3
+
+	trigger = {
+		# triggered when je_tgn_the_crown_considering_HBC_acquisition completes
+	}
+
+	option = {
+		name = cpm_canada_events.10.a
+		default_option = yes
+		
+		custom_tooltip = {
+			text = tgn_another_the_dominion_is_forming_HBC_tooltip
+			annex = c:HBC
+			add_journal_entry = {
+				type = je_tgn_looking_outwards_2
+			}
+			every_scope_state = {
+				limit = {
+					is_incorporated = no
+					OR = {
+						state_region = {
+							is_homeland = cu:anglo_canadian
+						}
+						state_region = {
+							is_homeland = cu:franco_canadian
+						}
+					}
+				}
+				set_state_type = incorporated
+			}
+		}
+	}
+}
+# Prince Edward Island Joins Confederation
+cpm_canada_events.11 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/unspecific_world_fair.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/unspecific_world_fair"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	title = cpm_canada_events.11.t
+	desc = cpm_canada_events.11.d
+	flavor = cpm_canada_events.11.f
+
+	duration = 3
+
+	trigger = {
+		# triggered when je_tgn_PEI_union completes
+	}
+
+	option = {
+		name = cpm_canada_events.11.a
+		default_option = yes
+		
+		custom_tooltip = {
+			text = tgn_another_the_dominion_is_forming_PEI_tooltip
+			annex = c:PEI
+			add_journal_entry = {
+				type = je_tgn_looking_outwards_3
+			}
+			every_scope_state = {
+				limit = {
+					is_incorporated = no
+					OR = {
+						state_region = {
+							is_homeland = cu:anglo_canadian
+						}
+						state_region = {
+							is_homeland = cu:franco_canadian
+						}
+					}
+				}
+				set_state_type = incorporated
+			}
+		}
+	}
+}
+# British Columbia Joins Confederation
+cpm_canada_events.12 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/unspecific_world_fair.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/unspecific_world_fair"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	title = cpm_canada_events.12.t
+	desc = cpm_canada_events.12.d
+	flavor = cpm_canada_events.12.f
+
+	duration = 3
+
+	trigger = {
+		# triggered when je_tgn_BC_union completes
+	}
+
+	option = {
+		name = cpm_canada_events.12.a
+		default_option = yes
+		
+		custom_tooltip = {
+			text = tgn_another_the_dominion_is_forming_BC_tooltip
+			annex = c:ORG
+			add_journal_entry = {
+				type = je_tgn_looking_outwards_4
+			}
+			every_scope_state = {
+				limit = {
+					is_incorporated = no
+					OR = {
+						state_region = {
+							is_homeland = cu:anglo_canadian
+						}
+						state_region = {
+							is_homeland = cu:franco_canadian
+						}
+					}
+				}
+				set_state_type = incorporated
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_global_variable = tgn_oregon_fired }
+			}
+			add_journal_entry = {
+				type = je_tgn_oregon_tensions
+			}
+			hidden_effect = {
+				set_global_variable = {
+					name = tgn_oregon_fired
+					value = yes
+				}
+			}
+		}
+	}
+}
+# The United States Army marches into Oregon
+cpm_canada_events.13 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_before_the_battle.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/before_the_battle"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	title = cpm_canada_events.13.t
+	desc = cpm_canada_events.13.d
+	flavor = cpm_canada_events.13.f
+
+	duration = 3
+
+	trigger = {
+		# triggered when je_tgn_oregon_tensions completes
+	}
+
+	option = {
+		name = cpm_canada_events.13.a
+		default_option = yes
+		
+		custom_tooltip = {
+			text = tgn_the_us_will_annex_oregon_tooltip
+			s:STATE_IDAHO = {
+				add_homeland = yankee
+				random_scope_state = {
+					limit = {
+						OR = {
+							exists = c:ONT
+							exists = c:QUE
+						}
+						owner = {
+							OR = {
+								c:ONT = THIS
+								c:QUE = THIS
+							}
+						}
+					}
+					set_state_owner = c:USA
+				}
+			}
+			s:STATE_OREGON = {
+				add_homeland = yankee
+				random_scope_state = {
+					limit = {
+						OR = {
+							exists = c:ONT
+							exists = c:QUE
+						}
+						owner = {
+							OR = {
+								c:ONT = THIS
+								c:QUE = THIS
+							}
+						}
+					}
+					set_state_owner = c:USA
+				}
+			}
+			s:STATE_MONTANA = {
+				add_homeland = yankee
+				random_scope_state = {
+					limit = {
+						OR = {
+							exists = c:ONT
+							exists = c:QUE
+						}
+						owner = {
+							OR = {
+								c:ONT = THIS
+								c:QUE = THIS
+							}
+						}
+					}
+					set_state_owner = c:USA
+				}
+			}
+			s:STATE_WYOMING = {
+				add_homeland = yankee
+				random_scope_state = {
+					limit = {
+						OR = {
+							exists = c:ONT
+							exists = c:QUE
+						}
+						owner = {
+							OR = {
+								c:ONT = THIS
+								c:QUE = THIS
+							}
+						}
+					}
+					set_state_owner = c:USA
+				}
+			}
+		}
+		s:STATE_IDAHO = {
+			add_homeland = yankee
+			random_scope_state = {
+				limit = {
+					OR = {
+						exists = c:ONT
+						exists = c:QUE
+					}
+					owner = {
+						OR = {
+							c:ONT = THIS
+							c:QUE = THIS
+						}
+					}
+				}
+				set_state_owner = c:USA
+			}
+		}
+		change_relations = { 
+			country = c:USA 
+			value = -50
+		}
+		add_journal_entry = {
+			type = je_tgn_the_pig_war
+		}
+	}
+}
+
+# The Pig War
+cpm_canada_events.14 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/unspecific_temperance_movement.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/temperance_movement"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	title = cpm_canada_events.14.t
+	desc = cpm_canada_events.14.d
+	flavor = cpm_canada_events.14.f
+
+	duration = 3
+
+	trigger = {
+		# triggered when je_tgn_the_pig_war completes
+	}
+
+	option = {
+		name = cpm_canada_events.14.a
+		default_option = yes
+		
+		custom_tooltip = {
+			text = tgn_maybe_we_need_to_meet_tooltip
+			add_journal_entry = {
+				type = je_tgn_reaching_a_treaty_with_the_usa
+			}
+		}
+		change_relations = { 
+			country = c:USA 
+			value = -10
+		}
+		c:USA = {
+			add_radicals = {
+				value = 0.05
+			}
+		}
+	}
+}
+
+# Oregon Treaty
+cpm_canada_events.15 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/southamerica_aristocrats.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/aristocrats"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	title = cpm_canada_events.15.t
+	desc = cpm_canada_events.15.d
+	flavor = cpm_canada_events.15.f
+
+	duration = 3
+
+	trigger = {
+		# triggered when je_tgn_reaching_a_treaty_with_the_usa completes
+	}
+
+	option = {
+		name = cpm_canada_events.15.a
+		default_option = yes
+		
+		custom_tooltip = {
+			text = tgn_the_new_borders_will_apply_tooltip
+			s:STATE_WASHINGTON = {
+				add_homeland = yankee
+				random_scope_state = {
+					limit = {
+						OR = {
+							exists = c:ONT
+							exists = c:QUE
+						}
+						owner = {
+							OR = {
+								c:ONT = THIS
+								c:QUE = THIS
+							}
+						}
+					}
+					set_state_owner = c:USA
+				}
+			}
+		}
+		change_relations = { 
+			country = c:USA 
+			value = 50
+		}
+	}
+}

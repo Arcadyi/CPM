@@ -27,7 +27,7 @@
 	}
 
 	on_complete = {
-		trigger_event = { id = tgn_je_events.1 popup = yes }
+		trigger_event = { id = cpm_canada_events.1 popup = yes }
 	}
 	
 	current_value = {
@@ -62,7 +62,7 @@ je_tgn_investigations_begin = {
 	}
 
 	on_complete = {
-		trigger_event = { id = tgn_je_events.2 popup = yes }
+		trigger_event = { id = cpm_canada_events.2 popup = yes }
 	}
 
 	on_monthly_pulse = {
@@ -105,7 +105,7 @@ je_tgn_waiting_for_the_british = {
 	}
 
 	on_complete = {
-		trigger_event = { id = tgn_je_events.3 popup = yes }
+		trigger_event = { id = cpm_canada_events.3 popup = yes }
 	}
 
 	on_monthly_pulse = {
@@ -160,7 +160,7 @@ je_tgn_forming_the_union = {
 					NOT = { has_global_variable = tgn_formation_event_taken } 
 				}
 				c:ONT = {
-					trigger_event = { id = tgn_je_events.4 popup = yes }
+					trigger_event = { id = cpm_canada_events.4 popup = yes }
 				}
 				set_global_variable = {
 					name = tgn_formation_event_taken
@@ -178,7 +178,7 @@ je_tgn_forming_the_union = {
 					NOT = { has_global_variable = tgn_formation_event_taken } 
 				}
 				c:QUE = {
-					trigger_event = { id = tgn_je_events.4 popup = yes }
+					trigger_event = { id = cpm_canada_events.4 popup = yes }
 				}
 				set_global_variable = {
 					name = tgn_formation_event_taken
@@ -196,7 +196,7 @@ je_tgn_forming_the_union = {
 					NOT = { has_global_variable = tgn_formation_event_taken }
 				}
 				c:ONT = {
-					trigger_event = { id = tgn_je_events.4 popup = yes }
+					trigger_event = { id = cpm_canada_events.4 popup = yes }
 				}
 				set_global_variable = {
 					name = tgn_formation_event_taken
@@ -256,7 +256,7 @@ je_tgn_build_ottawa = {
 	}
 
 	on_complete = {
-		trigger_event = { id = tgn_je_events.5 popup = yes }
+		trigger_event = { id = cpm_canada_events.5 popup = yes }
 	}
 
 	weight = 100
@@ -280,7 +280,7 @@ je_tgn_discussing_the_dominion = {
 	}
 
 	on_complete = {
-		trigger_event = { id = tgn_je_events.7 popup = yes }
+		trigger_event = { id = cpm_canada_events.7 popup = yes }
 	}
 
 	on_monthly_pulse = {
@@ -322,7 +322,7 @@ je_tgn_drafting_the_bnaa = {
 	}
 
 	on_complete = {
-		trigger_event = { id = tgn_je_events.8 popup = yes }
+		trigger_event = { id = cpm_canada_events.8 popup = yes }
 	}
 
 	on_monthly_pulse = {
@@ -364,7 +364,7 @@ je_tgn_amending_the_bnaa = {
 	}
 
 	on_complete = {
-		trigger_event = { id = tgn_je_events.9 popup = yes }
+		trigger_event = { id = cpm_canada_events.9 popup = yes }
 	}
 
 	on_monthly_pulse = {
@@ -455,7 +455,7 @@ je_tgn_the_crown_considering_HBC_acquisition = {
 	}
 
 	on_complete = {
-		trigger_event = { id = tgn_je_events.10 popup = yes }
+		trigger_event = { id = cpm_canada_events.10 popup = yes }
 	}
 
 	on_monthly_pulse = {
@@ -634,7 +634,7 @@ je_tgn_PEI_union = {
 	on_complete = {
 		custom_tooltip = {
 			text = tgn_a_union_will_form_with_PEI_tooltip
-			trigger_event = { id = tgn_je_events.11 popup = yes }
+			trigger_event = { id = cpm_canada_events.11 popup = yes }
 		}
 	}
 
@@ -679,7 +679,7 @@ je_tgn_BC_union = {
 	on_complete = {
 		custom_tooltip = {
 			text = tgn_a_union_will_form_with_BC_tooltip
-			trigger_event = { id = tgn_je_events.12 popup = yes }
+			trigger_event = { id = cpm_canada_events.12 popup = yes }
 		}
 	}
 
@@ -724,7 +724,7 @@ je_tgn_oregon_tensions = {
 	on_complete = {
 		custom_tooltip = {
 			text = tgn_the_americans_will_act_tooltip
-			trigger_event = { id = tgn_je_events.13 popup = yes }
+			trigger_event = { id = cpm_canada_events.13 popup = yes }
 		}
 	}
 
@@ -769,7 +769,7 @@ je_tgn_the_pig_war = {
 	on_complete = {
 		custom_tooltip = {
 			text = tgn_will_fire_the_event_tooltip
-			trigger_event = { id = tgn_je_events.14 popup = yes }
+			trigger_event = { id = cpm_canada_events.14 popup = yes }
 		}
 	}
 
@@ -814,7 +814,7 @@ je_tgn_reaching_a_treaty_with_the_usa = {
 	on_complete = {
 		custom_tooltip = {
 			text = tgn_will_sign_a_treaty_finally_tooltip
-			trigger_event = { id = tgn_je_events.15 popup = yes }
+			trigger_event = { id = cpm_canada_events.15 popup = yes }
 		}
 	}
 

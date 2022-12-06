@@ -58,7 +58,7 @@
 	when_taken = {
 		custom_tooltip = tgn_charlottetown_conference_will_be_held_tooltip
 		hidden_effect = {
-			trigger_event = { id = tgn_je_events.6 popup = yes }
+			trigger_event = { id = cpm_canada_events.6 popup = yes }
 			set_global_variable = {
 				name = tgn_charlottetown_conference_held
 				value = yes
