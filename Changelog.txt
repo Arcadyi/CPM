@@ -1,4 +1,5 @@
 The Community Project Mod Changelog
+# Rework branch, All non-UI flavor mods will be directly integrated
 Credit: All mods / mod ideas used linked below:
 		#QOL Mods
 		State transfer tool - https://steamcommunity.com/sharedfiles/filedetails/?id=2880446671
