@@ -150,3 +150,4 @@ Credit: All mods / mod ideas used linked below:
 		- Fixes to Japanese Flavor.
 		- PM Auto Convert Fixes.
 		- Fixes to French Leaders.
+		- Fixed not being able to play as CSA when ACW starts.
