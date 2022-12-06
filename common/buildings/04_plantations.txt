@@ -14,6 +14,8 @@ building_coffee_plantation = {
 	
 	production_method_groups = {
 		pmg_base_building_coffee_plantation
+		pmg_fertilizer_coffee
+		pmg_harvesting_process_coffee
 		pmg_train_automation_building_coffee_plantation
 		pmg_ownership_land_building_coffee_plantation
 	}
@@ -33,6 +35,8 @@ building_cotton_plantation = {
 
 	production_method_groups = {
 		pmg_base_building_cotton_plantation
+		pmg_fertilizer_cotton
+		pmg_harvesting_process_cotton
 		pmg_train_automation_building_cotton_plantation
 		pmg_ownership_land_building_cotton_plantation
 	}
@@ -52,6 +56,8 @@ building_dye_plantation = {
 	
 	production_method_groups = {
 		pmg_base_building_dye_plantation
+		pmg_fertilizer_dye
+		pmg_harvesting_process_dye
 		pmg_train_automation_building_dye_plantation
 		pmg_ownership_land_building_dye_plantation
 	}
@@ -71,6 +77,8 @@ building_opium_plantation = {
 	
 	production_method_groups = {
 		pmg_base_building_opium_plantation
+		pmg_fertilizer_opium
+		pmg_harvesting_process_opium
 		pmg_train_automation_building_opium_plantation
 		pmg_ownership_land_building_opium_plantation
 	}
@@ -97,6 +105,8 @@ building_tea_plantation = {
 	
 	production_method_groups = {
 		pmg_base_building_tea_plantation
+		pmg_fertilizer_tea
+		pmg_harvesting_process_tea
 		pmg_train_automation_building_tea_plantation
 		pmg_ownership_land_building_tea_plantation
 	}
@@ -116,6 +126,8 @@ building_tobacco_plantation = {
 	
 	production_method_groups = {
 		pmg_base_building_tobacco_plantation
+		pmg_fertilizer_tobacco
+		pmg_harvesting_process_tobacco
 		pmg_train_automation_building_tobacco_plantation
 		pmg_ownership_land_building_tobacco_plantation
 	}
@@ -135,6 +147,8 @@ building_sugar_plantation = {
 
 	production_method_groups = {
 		pmg_base_building_sugar_plantation
+		pmg_fertilizer_sugar
+		pmg_harvesting_process_sugar
 		pmg_train_automation_building_sugar_plantation
 		pmg_ownership_land_building_sugar_plantation
 	}
@@ -154,6 +168,8 @@ building_banana_plantation = {
 	
 	production_method_groups = {
 		pmg_base_building_banana_plantation
+		pmg_fertilizer_banana
+		pmg_harvesting_process_banana
 		pmg_train_automation_building_banana_plantation
 		pmg_ownership_land_building_banana_plantation
 	}
@@ -173,6 +189,8 @@ building_silk_plantation = {
 
 	production_method_groups = {
 		pmg_base_building_silk_plantation
+		pmg_fertilizer_silk
+		pmg_harvesting_process_silk
 		pmg_train_automation_building_silk_plantation
 		pmg_ownership_land_building_silk_plantation
 	}
