@@ -234,7 +234,7 @@ acw_je_events.1 = {
 				type = je_acw_war
 				target = scope:csa_scope
 			}
-			play_as = scope:csa_scope
+			play_as = c:CSA
 		}
 		else_if = {
 			limit = { exists = c:FSA }
