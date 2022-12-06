@@ -2,6 +2,12 @@
 #CPM
  modifier_country_institution_army_professionalism_max_investment_add:0 "Max $institution_army_professionalism$ [concept_institution] Investment"
  modifier_country_institution_army_professionalism_max_investment_add_desc:0 "A bonus or penalty to the maximum investment level of the $institution_army_professionalism$ [concept_institution]"
+ historical_population_of_germany:0 "Historical Population of Germany"
+ historical_population_of_france1:0 "Historical Population of France"
+ historical_population_of_france2:0 "Historical Population of France"
+ historical_population_of_france3:0 "Historical Population of France"
+ historical_population_of_france4:0 "Historical Population of France"
+ historical_population_of_russia:0 "Historical Population of Russia"
 #
  orleaniste_buff:0 "Increased Support for Government"
  orleaniste_buff_desc:0 "The political crisis was resolved, and the government strengthened its influence."
@@ -67,11 +73,7 @@ small_mexican_ces_settlement_recieve:0 "Modest Mexican Cession Payments"
 small_mexican_ces_settlement_pay_recieve:0 "The United States has agreed to pay $15,000,000 (£3,000,000) over the course of ten years."
 
 huge_mexican_ces_settlement_pay:0 "Large Mexican Cession Payments"
-small_mexican_ces_settlement_pay_desc:0 "The United States has agreed to pay $15,000,000 (£3,000,000) over the course of ten years."
-huge_mexican_ces_settlement_pay:0 "Large Mexican Cession Payments"
-huge_mexican_ces_settlement_pay_recieve:0 "The United States has agreed to pay $15,000,000 (£3,000,000) over the course of ten years."
-
- je_acw_countdown_reason:1 "Slaveholders and abolitionists are engaged in increasingly rancorous debate across the nation. Sooner or later, the arguments will stop being made with words and start being made with bullets. If the approval of landlords falls to -20, they will rebel."
+huge_mexican_ces_settlement_pay_desc:0 "The United States has agreed to pay $15,000,000 (£3,000,000) over the course of ten years."
 
  harpers_ferry_success_mod:0 "Harpers Ferry Slave Revolt"
  harpers_ferry_failure_mod:0 "Raid at Harpers Ferry"

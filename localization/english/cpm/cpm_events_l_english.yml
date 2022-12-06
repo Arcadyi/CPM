@@ -1,4 +1,36 @@
 ﻿l_english:
+#CPM
+ birth_rate.1.t:0 "Historical Population of Prussia"
+ birth_rate.1.d:0 "Technological advances and rising standards of living begin to significantly increase Prussia's population."
+ birth_rate.1.a:0 "For the glory of Prussia!"
+ 
+ birth_rate.2.t:0 "Historical Population of the North German Confederation"
+ birth_rate.2.d:0 "Technological advances and rising standards of living begin to significantly increase Prussia's population."
+ birth_rate.2.a:0 "For the glory of North German Confederation!"
+ 
+ birth_rate.3.t:0 "Germany's Historical Population"
+ birth_rate.3.d:0 "Technological advances and rising standards of living begin to significantly increase Prussia's population."
+ birth_rate.3.a:0 "For the glory of Germany!"
+ 
+ birth_rate.4.t:0 "Historical Population of Russia"
+ birth_rate.4.d:0 "Technological advances and rising standards of living begin to significantly increase Prussia's population."
+ birth_rate.4.a:0 "For the glory of Russia!"
+ 
+ birth_rate.5.t:0 "France's Low Fertility Problem Emerges."
+ birth_rate.5.d:0 "Industrialization and the principle of equal distribution of inherited wealth begin to have a more serious impact on France's fertility rate."
+ birth_rate.5.a:0 "Is that even a problem?"
+ 
+ birth_rate.6.t:0 "France's Chronical low birth rate"
+ birth_rate.6.d:0 "Industrialization and the principle of equal distribution of inherited wealth begin to have a more serious impact on fertility rates."
+ birth_rate.6.a:0 "There are still many people!"
+ 
+ birth_rate.7.t:0 "France's Endemic Low Birth Rate Has Become Even More Serious"
+ birth_rate.7.d:0 "France's low birth rate is starting to get very serious."
+ birth_rate.7.a:0 "France can overcome!"
+ 
+ birth_rate.8.t:0 "France's Low Fertility Problem"
+ birth_rate.8.d:0 "France's low birth rate has deteriorated to an irreversible level."
+ birth_rate.8.a:0 "Traitors!"
 # France
  orleanist_flavor.1.t:0 "The End of the Political Crisis"
  orleanist_flavor.1.d:0 "The Orleans monarchy, which marked the transition of power from the house of Bourbon to its younger branch, the House of Orleans, was a triumph of popular sovereignty over the principle of the divine right of the king, and also established a liberal order, a triumph for the bourgeoisie and the final defeat of the landed aristocracy. Despite all the opposition, the rule of the House of Orleans seems increasingly immutable even to the most radical opponents of the regime."
@@ -563,3 +595,8 @@ acw_events.5.d:0 ""Abolitionists and proponents of slavery have been pouring int
  acw_modded.3.f:0 "I have only a short time to live, only one death to die, and I will die fighting for this cause. There will be no peace in this land until slavery is done for."-John Brown"
  acw_modded.3.a:0 "A stain on the abolitionist cause"
 
+# Oregon
+oregon.3.t:0 "The Oregon Treaty"
+oregon.3.d:0 "[SCOPE.sCountry('britain_scope').GetName] has agreed to our reasonable terms, and has ceded control of [SCOPE.sState('washington_scope').GetName], [SCOPE.sState('oregon_scope').GetName], and [SCOPE.sState('idaho_scope').GetName] to the [ROOT.GetCountry.GetName]. In return, we are to cede any territory north of the 49th Parallel."
+oregon.3.f:0 "The present treaty shall be ratified by the [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] of the [ROOT.GetCountry.GetName], by and with the advice and consent of the Senate thereof, and the ramifications shall be exchanged at London, at the expiration of six months from the date hereof, or sooner, if possible."
+oregon.3.a:0 "A most amicable agreement."

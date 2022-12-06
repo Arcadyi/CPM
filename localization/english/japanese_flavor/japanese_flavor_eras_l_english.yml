@@ -55,8 +55,8 @@
  ig_japanese_flavor_devout_5:0 "Educators"
  ig_japanese_flavor_intelligentsia_5:0 "Intellectuals"
 
- ig_shinto_monks:0 "Educators"
- shogunate_rename.tt:0 ""
+ #ig_shinto_monks:0 "Educators"
+ #shogunate_rename.tt:0 ""
 
  # Era-changing events
 
