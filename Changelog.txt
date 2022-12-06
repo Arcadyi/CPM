@@ -7,7 +7,7 @@ Credit: All mods / mod ideas used linked below:
 		Dense Trade Routes Tab - https://steamcommunity.com/sharedfiles/filedetails/?id=2881996099&searchtext=Dense+Market+Details
 		Practical Heatmaps - https://steamcommunity.com/sharedfiles/filedetails/?id=2882033954&searchtext=practical
 		Improved Building Grid - https://steamcommunity.com/sharedfiles/filedetails/?id=2883323135&searchtext=improved
-		Improved Building Map List - https://steamcommunity.com/sharedfiles/filedetails/?id=2883109872&searchtext=mproved+Building+Map+List
+		Extended Building Map List - https://steamcommunity.com/id/arcadyy/myworkshopfiles/?appid=529340&browsefilter=mysubscriptions&p=1&sortmethod=lastupdated
 		Dense Military Tab - https://steamcommunity.com/sharedfiles/filedetails/?id=2885691742&searchtext=Dense+Military+Tab
 		One Outliner to Rule Them All - https://steamcommunity.com/sharedfiles/filedetails/?id=2883738219&searchtext=One+Outliner+to+Rule+Them+All
 		Improved Battle Interface - https://steamcommunity.com/sharedfiles/filedetails/?id=2886497091&searchtext=Improved+Battle+Interface
@@ -124,3 +124,29 @@ Credit: All mods / mod ideas used linked below:
 		- Cosmopolitanism added as an Ideology, the only one that supports Multiculturalism at this moment.
 		- Bureaucracy added to countries with Army/Navy Institutions.
 		- DNA of various characters fixed.
+			# v.2.2
+		- Certain Modifiers fixed
+		- Universal Names Integrated
+		- Historical population modifiers added so France, Germany, & Russia reach similar levels of growth to IRL.
+		- Visual leaders Integrated
+		- Hungarian Revolution events & journal entry added
+		- Parties fixed.
+		- Fixes to Formosa and South African Republic
+		- Pop Consumption fix, wealthier pops consume more services now.
+		- Mexico Flavor added
+		- Edited provinces to follow the Rhine river more closely, Natural French borders should look better now.
+		- Better Interest Group Attraction integrated
+		- Communist Germany name changed to "German Democratic Republic" and color changed to red.
+		- Historical Figures integrated.
+		- Fixes to UI and other errors.
+		- Fixes to localization of South African Journal Entries.
+			# v.2.3
+		- Updated to work with patch 1.1.
+		- ECCI Updated to latest version.
+		- Implemented a fix for Bureaucrats, Capitalists, & Shopkeepers not correctly gaining clout.
+		- IG attraction fixed.
+		- Canadian Flag Pack Updated.
+		- Historical Austrian leaders updated.
+		- Fixes to Japanese Flavor.
+		- PM Auto Convert Fixes.
+		- Fixes to French Leaders.
