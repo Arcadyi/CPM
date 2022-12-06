@@ -196,6 +196,8 @@ italian_unification.3 = {
 			ideology = ideology_republican_leader
 			traits = {
 				concept_wikipedia_Giuseppe_Garibaldi
+				meticulous
+				cautious
 				resupply_commander
 				surveyor
 				expert_artillery_commander
@@ -222,6 +224,9 @@ italian_unification.3 = {
 				concept_wikipedia_Giuseppe_Garibaldi
 				meticulous
 				cautious
+				resupply_commander
+				surveyor
+				expert_artillery_commander
 			}
 			on_created = {
 				add_modifier = {
