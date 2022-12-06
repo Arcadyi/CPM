@@ -1,0 +1,19 @@
+﻿l_english:
+#CPM
+ modifier_country_institution_army_professionalism_max_investment_add:0 "Max $institution_army_professionalism$ [concept_institution] Investment"
+ modifier_country_institution_army_professionalism_max_investment_add_desc:0 "A bonus or penalty to the maximum investment level of the $institution_army_professionalism$ [concept_institution]"
+#
+ orleaniste_buff:0 "Increased Support for Government"
+ orleaniste_buff_desc:0 "The political crisis was resolved, and the government strengthened its influence."
+ laissez_faire:0 "Challenged Authority"
+ laissez_faire_desc:0 "Banquet campaigns are strengthening Republican influence."
+ win_bonaparte:0 "Victory for Bonaparte!"
+ win_bonaparte_desc:0 "Bonaparte won the first presidential election of the Second Republic."
+ win_cavaignac:0 "Victory for Cavaignac!"
+ win_cavaignac_desc:0 "Cavaignac won the first presidential election of the Second Republic."
+ win_ledru:0 "Victory for Ledru-Rollin!"
+ win_ledru_desc:0 "Ledru-Rollin won the first presidential election of the Second Republic."
+ fail_coup_etat:0 "Countering a Coup d'État"
+ fail_coup_etat_desc:0 "Louis-Napoleon was arrested after an attempted coup d'état."
+ immortal:0 "Immortal"
+ immortal_desc:0 "His time has not yet come."

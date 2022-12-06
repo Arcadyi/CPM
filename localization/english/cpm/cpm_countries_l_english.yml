@@ -1,7 +1,18 @@
 ﻿l_english:
 HKG:0 "Hong Kong"
 HKG_ADJ:0 "Hong Kong"
-
+RHI:0 "Rhineland"
+RHI_ADJ:0 "Rhine"
+HLL:0 "Holland"
+HLL_ADJ:0 "Hollander"
+GEL:0 "Gelre"
+GEL_ADJ:0 "Gelrish"
 #
 dyn_c_communist_germany:0 "German Democratic Republic"
 dyn_c_communist_germany_adj:0 "German"
+#
+ dyn_c_kingdom_of_france:0 "Kingdom of France"
+ dyn_c_french_empire:0 "French Empire"
+ dyn_c_french_republic:0 "French Republic"
+ dyn_c_french_commune:0 "French Commune"
+ dyn_c_french_state:0 "French State"
