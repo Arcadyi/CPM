@@ -34,12 +34,12 @@
 				}
 			}
 		}
-		NOT = { has_global_variable = tgn_oregon_fired }
+		NOT = { has_global_variable = cpm_oregon_fired }
 	}
 
 	possible = {
 		has_interest_marker_in_region = region_pacific_coast
-		NOT = { has_global_variable = tgn_oregon_fired }
+		NOT = { has_global_variable = cpm_oregon_fired }
 	}
 
 	complete = {
@@ -67,7 +67,7 @@
 				owns_entire_state_region = STATE_OREGON
 			}
 		}
-		NOT = { has_global_variable = tgn_oregon_fired }
+		NOT = { has_global_variable = cpm_oregon_fired }
 	}
 
 	on_complete = {
@@ -89,14 +89,14 @@
 		}
 		hidden_effect = {
 			set_global_variable = {
-				name = tgn_oregon_fired
+				name = cpm_oregon_fired
 				value = yes
 			}
 		}
 	}
 	
 	fail = {
-		has_global_variable = tgn_oregon_fired
+		has_global_variable = cpm_oregon_fired
     }
 
 	weight = 100

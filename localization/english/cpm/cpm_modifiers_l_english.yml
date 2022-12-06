@@ -17,3 +17,72 @@
  fail_coup_etat_desc:0 "Louis-Napoleon was arrested after an attempted coup d'état."
  immortal:0 "Immortal"
  immortal_desc:0 "His time has not yet come."
+# Adopt Western Clothes
+ snori_kor_clothes_modifier:0 "Western clothes"
+ snori_kor_clothes_modifier_desc:0 "Western clothes"
+# South Africa Rework
+ adjunct_volksraad:0 "Adjunct Volksraad"
+ union_of_south_africa_modifier:0 "Parliament of South Africa"
+# Papal Modifiers
+ papal_treaty_cost_modifier: "Law of Guarantees"
+ papal_treaty_mod: "Papal Treaty"
+ pope_exiled_mod: "Papal Exile"
+ pope_good_riddance_mod: "Good Riddance"
+ pope_refused_mod: "Pope Refused"
+# Romanian Modifiers
+ ro_diplomacy:0 "Romanian Diplomacy"
+ ro_diplomacy_desc:0 "With the basic human rights guaranteed we will have an easier time influencing the Great Powers to help us."
+
+ romanian_nationalism:0 "Romanian Nationalism"
+ romanian_nationalism_desc:0 "We have united all our people under one state, yay!"
+
+# Canada
+ canada_tgnxxx:0 "Dominion of Canada"
+ canada_tgnxxx_ontario:0 "Anglophone Dominion"
+ canada_tgnxxx_quebec:0 "Francophone Dominion"
+ cpm_oregon_fired:0 "Canada caused tensions in the Oregon region"
+
+# NFM Modifiers
+usa_house_gag:0 "House Gag Rule"
+
+usa_western_purchase_gold:0 "Western Purchase Payments"
+mex_western_purchase_gold:0 "Western Purchase Payments""
+
+state_popular_soveriengty_rush:0 "Popular Sovereignty Migration"
+state_popular_soveriengty_rush_desc:0 "Abolitionists and Slavers are both migrating to the Western territories, bringing violence with them. When 50,000 Americans are present in a state, a vote may be held."
+
+slavery_win:0 "The Cause of Slavery Advances"
+
+abolitionist_win:0 "The Cause of Abolition Advances"
+
+mexican_cession_compromise:0 "Mexican Cession Compromise"
+mexican_cession_proviso:0 "Mexican Cession Proviso"
+mexican_cession_pop_sov:0 "Mexican Cession Popular Sovereignty"
+
+ig_abolitionists_martyr:0 "Abolitionist Martyr"
+
+small_mexican_ces_settlement_pay:0 "Modest Mexican Cession Payments"
+small_mexican_ces_settlement_pay_desc:0 "The United States has agreed to pay $15,000,000 (£3,000,000) over the course of ten years."
+small_mexican_ces_settlement_recieve:0 "Modest Mexican Cession Payments"
+small_mexican_ces_settlement_pay_recieve:0 "The United States has agreed to pay $15,000,000 (£3,000,000) over the course of ten years."
+
+huge_mexican_ces_settlement_pay:0 "Large Mexican Cession Payments"
+small_mexican_ces_settlement_pay_desc:0 "The United States has agreed to pay $15,000,000 (£3,000,000) over the course of ten years."
+huge_mexican_ces_settlement_pay:0 "Large Mexican Cession Payments"
+huge_mexican_ces_settlement_pay_recieve:0 "The United States has agreed to pay $15,000,000 (£3,000,000) over the course of ten years."
+
+ je_acw_countdown_reason:1 "Slaveholders and abolitionists are engaged in increasingly rancorous debate across the nation. Sooner or later, the arguments will stop being made with words and start being made with bullets. If the approval of landlords falls to -20, they will rebel."
+
+ harpers_ferry_success_mod:0 "Harpers Ferry Slave Revolt"
+ harpers_ferry_failure_mod:0 "Raid at Harpers Ferry"
+ harpers_ferry_disaster_mod:0 "Harpers Ferry Massacre"
+
+second_great_awakening_mod:0 "Second Great Awakening"
+second_great_awakening_mod_desc:0 "The effects of the Second Great Awakening have continued to influence the American people, even as it wanes."
+
+state_trait_native_resistance:0 "Effective Native Resistance"
+state_trait_native_resistance_desc:0 "The native peoples of this land fight fiercely to protect their way of life."
+state_trait_comancheria:0 "Comancheria"
+homestead_act_mod:0 "Homestead Act"
+south_state_mod:0 "Southern State"
+border_state_mod:0 "Border State"

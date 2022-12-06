@@ -47,3 +47,13 @@ cosmopolitan_events.5.b:0 "We should further support this line of thinking"
 # Scandinavia
  ideology_nordic_pan_nationalist:0 "Nordic Pan-Nationalist"
  ideology_nordic_pan_nationalist_desc:0 "I am Scandinavian."
+
+# Papal Ideologies
+ ideology_papal_moralist: "Apostolic"
+ ideology_papal_moralist_desc: "#lore This group believes the Holy See should have direct control of the temporal state.#!"
+ ideology_papal_anti_clerical: "Scholastic"
+ ideology_papal_anti_clerical_desc: "#lore This group believes in the pursuit of knowledge and education within the context of religion.#!"
+
+#
+ ideology_catholic_moralist:0 "Catholic Moralism"
+ ideology_catholic_moralist_desc:0 "#lore Catholic moralism promotes both clericalism and the protection of cultural minorities.#!"

@@ -19,7 +19,7 @@ cpm_canada_events.1 = {
 	duration = 3
 
 	trigger = {
-		# triggered by je_rebilions_countdown completion
+		# triggered by je_rebellions_countdown completion
 	}
 
 	option = {
@@ -27,9 +27,9 @@ cpm_canada_events.1 = {
 		default_option = yes
 		
 		custom_tooltip = {
-			text = tgn_will_investiage_tooltip
+			text = cpm_will_investiage_tooltip
 			add_journal_entry = {
-				type = je_tgn_investigations_begin
+				type = je_cpm_investigations_begin
 			}
 		}
 		add_radicals = {
@@ -57,7 +57,7 @@ cpm_canada_events.2 = {
 	duration = 3
 
 	trigger = {
-		# triggered when je_tgn_investigations_begin completes
+		# triggered when je_cpm_investigations_begin completes
 	}
 
 	option = {
@@ -65,9 +65,9 @@ cpm_canada_events.2 = {
 		default_option = yes
 		
 		custom_tooltip = {
-			text = tgn_will_send_to_the_crown_tooltip
+			text = cpm_will_send_to_the_crown_tooltip
 			add_journal_entry = {
-				type = je_tgn_waiting_for_the_british
+				type = je_cpm_waiting_for_the_british
 			}
 		}
 	}
@@ -92,7 +92,7 @@ cpm_canada_events.3 = {
 	duration = 3
 
 	trigger = {
-		# triggered when je_tgn_waiting_for_the_british completes
+		# triggered when je_cpm_waiting_for_the_british completes
 	}
 
 	option = {
@@ -100,9 +100,9 @@ cpm_canada_events.3 = {
 		default_option = yes
 		
 		custom_tooltip = {
-			text = tgn_the_union_will_start_forming_tooltip
+			text = cpm_the_union_will_start_forming_tooltip
 			add_journal_entry = {
-				type = je_tgn_forming_the_union
+				type = je_cpm_forming_the_union
 			}
 		}
 	}
@@ -127,17 +127,17 @@ cpm_canada_events.4 = {
 	duration = 3
 
 	trigger = {
-		# triggered when je_tgn_forming_the_union completes
+		# triggered when je_cpm_forming_the_union completes
 	}
 
 	option = {
 		name = cpm_canada_events.4.a
 		default_option = yes
 		add_journal_entry = {
-				type = je_tgn_build_ottawa
+				type = je_cpm_build_ottawa
 		}
 		custom_tooltip = {
-			text = tgn_the_union_will_finally_form_tooltip
+			text = cpm_the_union_will_finally_form_tooltip
 			set_global_variable = {
 				name = ottawa_buildable
 				value = yes
@@ -157,7 +157,7 @@ cpm_canada_events.4 = {
 					add_modifier = canada_tgnxxx_ontario
 				}
 				set_global_variable = {
-					name = tgn_province_of_canada_formed_on
+					name = cpm_province_of_canada_formed_on
 					value = yes
 				}
 				every_scope_state = {
@@ -202,7 +202,7 @@ cpm_canada_events.4 = {
 					add_modifier = canada_tgnxxx_ontario
 				}
 				set_global_variable = {
-					name = tgn_province_of_canada_formed_on
+					name = cpm_province_of_canada_formed_on
 					value = yes
 				}
 				every_scope_state = {
@@ -247,7 +247,7 @@ cpm_canada_events.4 = {
 					add_modifier = canada_tgnxxx_quebec
 				}
 				set_global_variable = {
-					name = tgn_province_of_canada_formed_qc
+					name = cpm_province_of_canada_formed_qc
 					value = yes
 				}
 				every_scope_state = {
@@ -304,7 +304,7 @@ cpm_canada_events.5 = {
 	duration = 3
 
 	trigger = {
-		# triggered when je_tgn_build_ottawa completes
+		# triggered when je_cpm_build_ottawa completes
 	}
 
 	option = {
@@ -312,9 +312,9 @@ cpm_canada_events.5 = {
 		default_option = yes
 		
 		custom_tooltip = {
-			text = tgn_can_proceed_with_the_dominion_ambitions_tooltip
+			text = cpm_can_proceed_with_the_dominion_ambitions_tooltip
 			set_global_variable = {
-				name = tgn_can_now_proceed_with_the_dominion
+				name = cpm_can_now_proceed_with_the_dominion
 				value = yes
 			}
 		}
@@ -341,7 +341,7 @@ cpm_canada_events.6 = {
 	duration = 3
 
 	trigger = {
-		# triggered when decision tgn_canada_discuss_the_dominion is taken
+		# triggered when decision cpm_canada_discuss_the_dominion is taken
 	}
 
 	option = {
@@ -349,9 +349,9 @@ cpm_canada_events.6 = {
 		default_option = yes
 		
 		custom_tooltip = {
-			text = tgn_another_conference_to_sign_the_resolutions_tooltip
+			text = cpm_another_conference_to_sign_the_resolutions_tooltip
 			add_journal_entry = {
-				type = je_tgn_discussing_the_dominion
+				type = je_cpm_discussing_the_dominion
 			}
 		}
 	}
@@ -376,7 +376,7 @@ cpm_canada_events.7 = {
 	duration = 3
 
 	trigger = {
-		# triggered when je_tgn_discussing_the_dominion completes
+		# triggered when je_cpm_discussing_the_dominion completes
 	}
 
 	option = {
@@ -384,9 +384,9 @@ cpm_canada_events.7 = {
 		default_option = yes
 		
 		custom_tooltip = {
-			text = tgn_sending_the_act_to_the_crown_tooltip
+			text = cpm_sending_the_act_to_the_crown_tooltip
 			add_journal_entry = {
-				type = je_tgn_drafting_the_bnaa
+				type = je_cpm_drafting_the_bnaa
 			}
 		}
 	}
@@ -411,7 +411,7 @@ cpm_canada_events.8 = {
 	duration = 3
 
 	trigger = {
-		# triggered when je_tgn_drafting_the_bnaa completes
+		# triggered when je_cpm_drafting_the_bnaa completes
 	}
 
 	option = {
@@ -419,9 +419,9 @@ cpm_canada_events.8 = {
 		default_option = yes
 		
 		custom_tooltip = {
-			text = tgn_sending_the_act_to_the_house_of_commons_tooltip
+			text = cpm_sending_the_act_to_the_house_of_commons_tooltip
 			add_journal_entry = {
-				type = je_tgn_amending_the_bnaa
+				type = je_cpm_amending_the_bnaa
 			}
 		}
 	}
@@ -446,7 +446,7 @@ cpm_canada_events.9 = {
 	duration = 3
 
 	trigger = {
-		# triggered when je_tgn_amending_the_bnaa completes
+		# triggered when je_cpm_amending_the_bnaa completes
 	}
 
 	option = {
@@ -454,15 +454,15 @@ cpm_canada_events.9 = {
 		default_option = yes
 		
 		custom_tooltip = {
-			text = tgn_another_the_dominion_is_forming_stage1_tooltip
+			text = cpm_another_the_dominion_is_forming_stage1_tooltip
 			set_global_variable = {
-				name = tgn_stage1_of_the_dominion_completed
+				name = cpm_stage1_of_the_dominion_completed
 				value = yes
 			}
 			annex = c:NVS
 			annex = c:NBS
 			add_journal_entry = {
-				type = je_tgn_looking_outwards
+				type = je_cpm_looking_outwards
 			}
 			add_modifier = {
 				name = canada_test_modifier
@@ -491,7 +491,7 @@ cpm_canada_events.10 = {
 	duration = 3
 
 	trigger = {
-		# triggered when je_tgn_the_crown_considering_HBC_acquisition completes
+		# triggered when je_cpm_the_crown_considering_HBC_acquisition completes
 	}
 
 	option = {
@@ -499,10 +499,10 @@ cpm_canada_events.10 = {
 		default_option = yes
 		
 		custom_tooltip = {
-			text = tgn_another_the_dominion_is_forming_HBC_tooltip
+			text = cpm_another_the_dominion_is_forming_HBC_tooltip
 			annex = c:HBC
 			add_journal_entry = {
-				type = je_tgn_looking_outwards_2
+				type = je_cpm_looking_outwards_2
 			}
 			every_scope_state = {
 				limit = {
@@ -540,7 +540,7 @@ cpm_canada_events.11 = {
 	duration = 3
 
 	trigger = {
-		# triggered when je_tgn_PEI_union completes
+		# triggered when je_cpm_PEI_union completes
 	}
 
 	option = {
@@ -548,10 +548,10 @@ cpm_canada_events.11 = {
 		default_option = yes
 		
 		custom_tooltip = {
-			text = tgn_another_the_dominion_is_forming_PEI_tooltip
+			text = cpm_another_the_dominion_is_forming_PEI_tooltip
 			annex = c:PEI
 			add_journal_entry = {
-				type = je_tgn_looking_outwards_3
+				type = je_cpm_looking_outwards_3
 			}
 			every_scope_state = {
 				limit = {
@@ -589,7 +589,7 @@ cpm_canada_events.12 = {
 	duration = 3
 
 	trigger = {
-		# triggered when je_tgn_BC_union completes
+		# triggered when je_cpm_BC_union completes
 	}
 
 	option = {
@@ -597,10 +597,10 @@ cpm_canada_events.12 = {
 		default_option = yes
 		
 		custom_tooltip = {
-			text = tgn_another_the_dominion_is_forming_BC_tooltip
+			text = cpm_another_the_dominion_is_forming_BC_tooltip
 			annex = c:ORG
 			add_journal_entry = {
-				type = je_tgn_looking_outwards_4
+				type = je_cpm_looking_outwards_4
 			}
 			every_scope_state = {
 				limit = {
@@ -619,14 +619,14 @@ cpm_canada_events.12 = {
 		}
 		if = {
 			limit = {
-				NOT = { has_global_variable = tgn_oregon_fired }
+				NOT = { has_global_variable = cpm_oregon_fired }
 			}
 			add_journal_entry = {
-				type = je_tgn_oregon_tensions
+				type = je_cpm_oregon_tensions
 			}
 			hidden_effect = {
 				set_global_variable = {
-					name = tgn_oregon_fired
+					name = cpm_oregon_fired
 					value = yes
 				}
 			}
@@ -652,7 +652,7 @@ cpm_canada_events.13 = {
 	duration = 3
 
 	trigger = {
-		# triggered when je_tgn_oregon_tensions completes
+		# triggered when je_cpm_oregon_tensions completes
 	}
 
 	option = {
@@ -660,7 +660,7 @@ cpm_canada_events.13 = {
 		default_option = yes
 		
 		custom_tooltip = {
-			text = tgn_the_us_will_annex_oregon_tooltip
+			text = cpm_the_us_will_annex_oregon_tooltip
 			s:STATE_IDAHO = {
 				add_homeland = yankee
 				random_scope_state = {
@@ -757,7 +757,7 @@ cpm_canada_events.13 = {
 			value = -50
 		}
 		add_journal_entry = {
-			type = je_tgn_the_pig_war
+			type = je_cpm_the_pig_war
 		}
 	}
 }
@@ -781,7 +781,7 @@ cpm_canada_events.14 = {
 	duration = 3
 
 	trigger = {
-		# triggered when je_tgn_the_pig_war completes
+		# triggered when je_cpm_the_pig_war completes
 	}
 
 	option = {
@@ -789,9 +789,9 @@ cpm_canada_events.14 = {
 		default_option = yes
 		
 		custom_tooltip = {
-			text = tgn_maybe_we_need_to_meet_tooltip
+			text = cpm_maybe_we_need_to_meet_tooltip
 			add_journal_entry = {
-				type = je_tgn_reaching_a_treaty_with_the_usa
+				type = je_cpm_reaching_a_treaty_with_the_usa
 			}
 		}
 		change_relations = { 
@@ -825,7 +825,7 @@ cpm_canada_events.15 = {
 	duration = 3
 
 	trigger = {
-		# triggered when je_tgn_reaching_a_treaty_with_the_usa completes
+		# triggered when je_cpm_reaching_a_treaty_with_the_usa completes
 	}
 
 	option = {
@@ -833,7 +833,7 @@ cpm_canada_events.15 = {
 		default_option = yes
 		
 		custom_tooltip = {
-			text = tgn_the_new_borders_will_apply_tooltip
+			text = cpm_the_new_borders_will_apply_tooltip
 			s:STATE_WASHINGTON = {
 				add_homeland = yankee
 				random_scope_state = {
