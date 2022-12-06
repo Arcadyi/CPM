@@ -7,7 +7,7 @@ QUE = {
 		priority = 50
 		
 		trigger = {
-			has_global_variable = tgn_province_of_canada_formed_qc
+			has_global_variable = cpm_province_of_canada_formed_qc
 		}
 	}
 	dynamic_country_name = {
@@ -18,8 +18,8 @@ QUE = {
 		priority = 100
 		
 		trigger = {
-			has_global_variable = tgn_province_of_canada_formed_qc
-			has_global_variable = tgn_stage1_of_the_dominion_completed
+			has_global_variable = cpm_province_of_canada_formed_qc
+			has_global_variable = cpm_stage1_of_the_dominion_completed
 		}
 	}
 	dynamic_country_name = {
@@ -61,7 +61,7 @@ ONT = {
 		priority = 50
 		
 		trigger = {
-			has_global_variable = tgn_province_of_canada_formed_on
+			has_global_variable = cpm_province_of_canada_formed_on
 		}
 	}
 	dynamic_country_name = {
@@ -72,8 +72,8 @@ ONT = {
 		priority = 100
 		
 		trigger = {
-			has_global_variable = tgn_province_of_canada_formed_on
-			has_global_variable = tgn_stage1_of_the_dominion_completed
+			has_global_variable = cpm_province_of_canada_formed_on
+			has_global_variable = cpm_stage1_of_the_dominion_completed
 		}
 	}
 }

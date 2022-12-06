@@ -1,0 +1,79 @@
+﻿l_english:
+#Develop Micronesia
+ develop_micronesia:0 "Develop West Micronesia"
+ develop_micronesia_desc:0 "We have laid claim to these islands but have neglected their development for too long. Foreign merchants are encroaching on our territory and it's time for us to stake our claim by settling and developing these islands."
+ develop_micronesia_tooltip:0 "Por Dios y por España!"
+# Mexico Monarch
+ monarch_selection_decision_iturbide:0 "Restore the Imperial House of Iturbide"
+ monarch_selection_decision_iturbide_desc:0 "We have succeeded in restoring the Mexican Empire. Who better to lead it than the legitimate heir of the first Emperor?"
+ monarch_selection_decision_iturbide_tooltip:0 "Agustin Jeronimo de Iturbide becomes Emperor of the Mexicans"
+ monarch_selection_decision_santa_anna:0 "Proclaim Santa Anna as Emperor"
+ monarch_selection_decision_santa_anna_desc:0 "We have succeeded in restoring the Mexican Empire. Who better to lead it then His Most Serene Highness, Generalissimo Antonio Lopez de Santa Anna?"
+ monarch_selection_decision_santa_anna_tooltip:0 "Antonio Lopez de Santa Anna becomes Emperor of the Mexicans"
+ monarch_selection_decision_maximillian:0 "Offer the Imperial throne to an European prince"
+ monarch_selection_decision_maximillian_desc:0 "We have succeeded in restoring the Mexican Empire. Who better to lead it than someone with the prestige of an ancient house, born and raised to the task?"
+ monarch_selection_decision_maximillian_tooltip:0 "Maximiliano de Habsburgo becomes Emperor of the Mexicans"
+ monarch_selection_decision_bonaparte:0 "Offer the Imperial throne to a Bonaparte"
+ monarch_selection_decision_bonaparte_desc:0 "We have succeeded in restoring the Mexican Empire. Who better to lead it than the blood of L'Empereur?"
+ monarch_selection_decision_bonaparte_tooltip:0 "Jose Bonaparte becomes Emperor of the Mexicans"
+# Natural Borders France
+ divide_rhineland:0 "Divide North Rhine"
+ divide_rhineland_desc:0 "Our natural borders are at the Rhine River. Create the state of Rhineland as a protectorate beyond the Rhine."
+ divide_holland:0 "Divide Holland"
+ divide_holland_desc:0 "Our natural borders are at the Rhine River. Create the neutral state of Holland as a protectorate beyond the Rhine."
+ divide_gelre:0 "Divide Gelre"
+ divide_gelre_desc:0 "Our natural borders are at the Rhine River. Create the neutral state of Gelre as a protectorate beyond the Rhine."
+# Scandinavia
+ the_norway_formannskapsdistrikt:0 "Foundation of Formannskapsdistrikt"
+ the_norway_formannskapsdistrikt_desc:0 "The Parliament of Norway has prepared to approve a bill that would create a system of municipalities and reorganise the parishes of the Church of Norway into administrative districts. This should create 396 Formannskapsdistrikt once done."
+ formally_end_slavery_in_nordic_country:0 "Formally End Slavery"
+ formally_end_slavery_in_nordic_country_desc:0 "While our country has signed a treated denouncing slavery and have ended our part in the slave trade, we've yet to formally free the slaves. We need to change this immedietly."
+ promote_finnish_as_primary_language_in_official_affairs:0 "Change Administrative Language to Finnish"
+ promote_finnish_as_primary_language_in_official_affairs_desc:0 "Our people are struggling with their national identity due to that the Swedish language is used in the administrative and academic sphere. It's time we change the administrative language to Finnish!"
+ promote_finnish_as_primary_language_in_official_affairs_in_finland:0 "Change Administrative Language in Finland"
+ promote_finnish_as_primary_language_in_official_affairs_in_finland_desc:0 "The Finnish people are struggling with their national identity due to that the Swedish language is used in the administrative and academic sphere. We've duty to relieve their administrative duties."
+# Portugal Brazil Union
+ portugal_brazil_union:0 "Unification of Brazil into Portugal"
+ portugal_brazil_union_desc:0 "It is officially the time to reincorporate Brazil land into our control."
+ portugal_brazil_union_tt:0 "Unification"
+# Adopt Western Clothes
+ snori_clothes_decision:0 "Adopt Western style clothes"
+ snori_clothes_decision_desc:0 "Adopt Western style clothes not only for industry and academics, but also for clothing."
+# South African Rework
+ form_oranje_vrystaat_tt:0 "You will become the #yellow Oranje-Vrystaat#!"
+ form_oranje_vrystaat_2_tt:0 "If you do not fully own the Oranje region you will take control of it"
+ country_this_equal:0 "You are playing the relevant nation"
+ form_south_african_republic_tt:0 "You will become the #yellow South African Republic#!"
+ gbr_expand_cape_colony:0 "Expand Cape Colony"
+# Romania
+ fix_pu_moldavia:0 "Fix Moldavia leaving PU bug"
+ fix_pu_moldavia_desc:0 "For unknown reasons Moldavia might leave the PU, if that happens use this decision to get it back."
+# Canada
+cpm_canada_discuss_the_dominion:0 "Discuss a bigger union"
+ cpm_canada_discuss_the_dominion_desc:0 "Discuss a bigger union with the Maritime Provinces, is it the time to form the Dominion of Canada?"
+ cpm_canada_rupert_land_act_decision:0 "Ask the Crown to acquire Hudson Bay Company"
+ cpm_canada_rupert_land_act_decision_desc:0 "Should Hudson Bay Company join the Confederation? Its vast land and resources could help to massively develop our country."
+ cpm_canada_negotiate_a_union_with_PEI_decision:0 "Negotiate a Union with Prince Edward Island"
+ cpm_canada_negotiate_a_union_with_PEI_decision_desc:0 "Prince Edward Island rejected our 72 Resolutions at the beginning and decided to stand alone, we shall renegotiate a Union."
+ cpm_canada_negotiate_a_union_with_BC_decision:0 "Negotiate a Union with British Columbia"
+ cpm_canada_negotiate_a_union_with_BC_decision_desc:0 "Our British Columbian brothers to the west are standing alone against the might of the United States, we should get them to join our Confederation, and stand strong against all threats!"
+
+# NFM Decisions
+manifest_destiny_conquest:0 "Victory in Mexico"
+ manifest_destiny_conquest_desc:0 "We have brought the government of [SCOPE.sC('mexico_leader').GetRuler.GetPrimaryRoleTitle] to heel. We may now carve up Mexico as we please."
+
+ manifest_destiny_war:0 "Demand the Western Territories from Mexico"
+ manifest_destiny_war_desc:0 "The United State's destiny is to spread from sea to shining sea, and it will not be denied."
+
+dred_scott_for_scot_mod:0 "The Dred Scott Decision - Scott"
+dred_scott_for_sand_mod:0 "The Dred Scott Decision - Sandford"
+
+ gasden_purchase_decis:0 "Gasden Purchase"
+ gasden_purchase_decis_desc:0 "We should aquire additional territory in Arizona and New Mexico to enable rail expansion."
+
+ webster_ashburton_treaty_decis:0 "Webster-Ashburton Treaty"
+ webster_ashburton_treaty_decis_desc:0 "We should settle our border disputes with Great Britian in Maine."
+homestead_act_decis:0 "Pass the Homestead Act"
+homestead_act_decis_desc:0 "Homesteads are large plots of land that can be aquired by individual farmers at very low prices to encourage farmer ownership and operation of new land, especially in the West. Provided from Federal Land, homesteading is opposed by the Planter Aristocracy which wishes instead for the great lands of the West to become slave plantations owned by the few."
+
+# Oregon

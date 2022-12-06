@@ -1,0 +1,98 @@
+﻿namespace = ethniccleansing
+
+ethniccleansing.1 = {
+	type = country_event
+	placement = scope:decree_state
+
+	title = ethniccleansing.1.t
+	desc = ethniccleansing.1.d
+	flavor = ethniccleansing.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/southamerica_war_civilians.bk2"
+	}
+
+	duration = 3
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/war_civilians"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	
+	immediate = {
+		random_scope_state = {
+			limit = {
+				has_decree = decree_ethniccleansing
+				NOT = { has_building = building_concentration_camp }
+			}
+			save_scope_as = decree_state
+		}
+	}
+	
+	trigger = {
+		any_scope_state = {
+			has_decree = decree_ethniccleansing
+			NOT = { has_building = building_concentration_camp }
+		}
+	}
+	
+	option = {
+		name = ethniccleansing.1.a
+		scope:decree_state = {
+			create_building={
+ 				building="building_concentration_camp"
+ 				level=40
+ 			}
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ethniccleansing.2 = {
+	type = country_event
+	placement = scope:decree_state
+
+	title = ethniccleansing.2.t
+	desc = ethniccleansing.2.d
+	flavor = ethniccleansing.2.f
+
+	event_image = {
+		video = "gfx/event_pictures/southamerica_war_civilians.bk2"
+	}
+
+	duration = 3
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/war_civilians"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	
+	immediate = {
+		random_scope_state = {
+			limit = {
+				has_building = building_concentration_camp
+				NOT = { has_decree = decree_ethniccleansing }
+			}
+			save_scope_as = decree_state
+		}
+	}
+	
+	trigger = {
+		any_scope_state = {
+			NOT = { has_decree = decree_ethniccleansing }
+			has_building = building_concentration_camp
+		}
+	}
+	
+	option = {
+		name = ethniccleansing.2.a
+		scope:decree_state = {
+			remove_building = building_concentration_camp
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}

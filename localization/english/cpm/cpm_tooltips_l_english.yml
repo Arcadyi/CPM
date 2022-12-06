@@ -1,0 +1,11 @@
+﻿l_english:
+#CPM
+# Prussian Market Acceptance 
+DIPLOMATIC_ACCEPTANCE_PRUSSIA:0 "Zollverein"
+losesaustrianclaimshun:0 "Austria will lose all claims to Hungary"
+hungarianradicalization:0 "Certain states will start to gain increased radicalization until this problem is fixed"
+austriaturmoil:0 "Hungarian Seperatists"
+# NFM Tooltips
+ ai_strategy_mexico_defend_the_north:0 "Defend the North"
+ ai_strategy_mexico_defend_the_north_desc:0 "Mexico wishes to prevent the loss of her Northern frontier."
+# Alaska Purchase
