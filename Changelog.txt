@@ -61,6 +61,8 @@ Credit: All mods / mod ideas used linked below:
 		Fixes to Estonia, North German Federation, South German Federation, Germany country colors.
 		Rhine border decision added for France. Should be able to achieve natural borders now.
 		Flag Additions to: Italy, Two Sicilies, Parma, Tunisia, Liberia, Miskito, Kongo, Loango, Bornu, Wadai, Futa Jallon, Damagaram, Darfur, Canada, Hawai'i, Tonga, Nauru, Tahiti, Paraguay, Bolivia, Peru. 
+		Communist Germany name changed to "German Democratic Republic" and color changed to red.
+		Hungarian Revolution events & journal entry added
 		
 		#Changelogs
 			# v.1.0
@@ -154,5 +156,7 @@ Credit: All mods / mod ideas used linked below:
 		- Fixed not being able to play as CSA when ACW starts.
 		- Fixes to Heightmap and terrain, some provinces should look more realistic now.
 		- Dense Market Details & Dense trade Routes fixed.
-			# v.2.4
+      # v.2.4
 		-
+
+
