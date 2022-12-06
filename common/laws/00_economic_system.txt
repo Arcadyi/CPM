@@ -206,7 +206,7 @@ law_command_economy = {
 		country_mandate_subsidies = yes
 		
 		state_tax_capacity_mult = 0.25	
-		country_authority_mult = 0.25		
+		country_authority_mult = 0.25								
 		
 		state_bureaucrats_investment_pool_contribution_add = 0.95						
 	}
