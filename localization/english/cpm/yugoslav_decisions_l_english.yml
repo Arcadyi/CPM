@@ -1,0 +1,10 @@
+l_english:
+ accept_bosniaks:0 "Embrace the Bosniaks"
+ accept_bosniaks_desc:0 "The Bosniaks are historically a Muslim culture, and notoriously at odds with the rest of the Slavs. With enough effort, however, it should not be impossible to integrate them more fully into the Yugoslav culture and government. Perhaps this might even mean a future of peace between our peoples."
+ accept_bosniaks_tooltip:0 "This decision will bring the Bosniaks amongst our primary cultures!"
+ accept_albanians:0 "Embrace Albanians"
+ accept_albanians_desc:0 "The Albanians are not truly a Slavic culture, and notoriously at odds with the rest of the Slavs. With enough effort, however, it should not be impossible to integrate them more fully into the Yugoslav culture and government. Perhaps this might even mean a future of peace between our peoples."
+ accept_albanians_tooltip:0 "This decision will bring the Albanians amongst our primary cultures!"
+ accept_bulgarians:0 "Embrace Bulgarians"
+ accept_bulgarians_desc:0 "The Bulgarians often do not consider themselves true Slavs, or perhaps they simply think themselves superior? Either way relations with the Bulgarians have been difficult. With enough effort, however, it should not be impossible to integrate them more fully into the Yugoslav culture and government. Perhaps this might even mean a future of peace between our peoples."
+ accept_bulgarians_tooltip:0 "This decision will bring the Bulgarians amongst our primary cultures!"

@@ -1,0 +1,80 @@
+accept_bosniaks = {
+	is_shown = {
+		exists = c:YUG
+		c:YUG = THIS
+any_scoped_state = {
+   limit = {
+   has_homeland = cu:bosniak
+           }
+       }
+	}
+	
+	possible = {	
+		NOT = { 
+		        has_law = law_type:law_state_religion
+				culture_accepted = cu:bosniak
+				}
+        has_law = law_type:law_cultural_exclusion
+		has_law = law_type:law_total_separation
+	}
+	
+	when_taken = {
+        add_primary_culture = cu:bosniak
+	}
+
+	ai_chance = {
+		base = 65
+	}
+}
+accept_albanians = {
+	is_shown = {
+		exists = c:YUG
+		c:YUG = THIS
+any_scoped_state = {
+   limit = {
+   has_homeland = cu:albanian
+           }
+       }
+	}
+	
+	possible = {	
+		NOT = { 
+				culture_accepted = cu:albanian
+				}
+        has_law = law_type:law_racial_segregation
+	}
+	
+	when_taken = {
+        add_primary_culture = cu:albanian
+	}
+
+	ai_chance = {
+		base = 50
+	}
+}
+accept_bulgarians = {
+	is_shown = {
+		exists = c:YUG
+		c:YUG = THIS
+any_scoped_state = {
+   limit = {
+   has_homeland = cu:bulgarian
+           }
+       }
+	}
+	
+	possible = {	
+		NOT = { 
+				culture_accepted = cu:bulgarian
+				has_law = law_type:law_ethnostate
+				}
+	}
+	
+	when_taken = {
+        add_primary_culture = cu:bulgarian
+	}
+
+	ai_chance = {
+		base = 75
+	}
+}
