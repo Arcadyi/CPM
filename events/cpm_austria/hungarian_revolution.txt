@@ -34,7 +34,10 @@ hungarian_revolution.1 = {
             state = s:STATE_SLAVONIA.region_state:AUS
             state = s:STATE_CROATIA.region_state:AUS
      }
-     set_variable = hungarian_revolution_begun
+     c:HUN = {
+        set_strategy = ai_strategy_gain_independence
+        }
+        set_variable = hungarian_revolution_begun
 	}
     
     trigger = {

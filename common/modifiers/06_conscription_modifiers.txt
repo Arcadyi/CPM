@@ -51,7 +51,7 @@ native_conscription_7 = {
 	state_conscription_rate_add = 0.35
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 1.0
-	unit_army_defense_mult = 3.0
+	unit_army_defense_mult = 2 #3.0
 }
 
 native_conscription_8 = {
@@ -59,7 +59,7 @@ native_conscription_8 = {
 	state_conscription_rate_add = 0.4
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 1.0
-	unit_army_defense_mult = 3.0
+	unit_army_defense_mult = 2 #3.0
 }
 
 native_conscription_9 = {
@@ -67,7 +67,7 @@ native_conscription_9 = {
 	state_conscription_rate_add = 0.45
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 1.0
-	unit_army_defense_mult = 3.0
+	unit_army_defense_mult = 2 #3.0
 }
 
 native_conscription_10 = {
@@ -75,7 +75,7 @@ native_conscription_10 = {
 	state_conscription_rate_add = 0.5
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 1.0
-	unit_army_defense_mult = 3.0
+	unit_army_defense_mult = 2 #3.0
 }
 
 native_conscription_11 = {
@@ -83,7 +83,7 @@ native_conscription_11 = {
 	state_conscription_rate_add = 0.6
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 1.0
-	unit_army_defense_mult = 3.0
+	unit_army_defense_mult = 2 #3.0
 }
 
 native_conscription_12 = {
@@ -91,5 +91,5 @@ native_conscription_12 = {
 	state_conscription_rate_add = 0.7
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 1.0
-	unit_army_defense_mult = 3.0
+	unit_army_defense_mult = 2 #3.0
 }

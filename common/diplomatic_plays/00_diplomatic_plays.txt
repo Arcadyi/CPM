@@ -6,11 +6,13 @@
 	possible = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }
 		NOT = { is_subject_of = scope:target }
 		scope:target = {
 			NOT = { is_country_type = decentralized }
 			NOT = { is_subject_of = root }
 		}
+		
 	}
 
 	on_weekly_pulse = {}
@@ -29,6 +31,7 @@ dp_regime_change = {
 	possible = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }
 		NOT = { is_subject_of = scope:target }
 		scope:target = {
 			NOT = { is_country_type = decentralized }
@@ -50,6 +53,7 @@ dp_ban_slavery = {
 	possible = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }
 		NOT = { is_subject_of = scope:target }
 		scope:target = {
 			NOT = { is_country_type = decentralized }
@@ -71,6 +75,7 @@ dp_conquer_state = {
 	possible = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }
 		NOT = { is_subject_of = scope:target }
 		scope:target = {
 			NOT = { is_country_type = decentralized }
@@ -95,6 +100,7 @@ dp_return_state = {
 	possible = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }
 		NOT = { is_subject_of = scope:target }
 		scope:target = {
 			NOT = { is_country_type = decentralized }
@@ -117,6 +123,7 @@ dp_liberate_subject = {
 	possible = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }
 		NOT = { is_subject_of = scope:target }
 		scope:target = {
 			NOT = { is_country_type = decentralized }
@@ -159,11 +166,12 @@ dp_take_treaty_port = {
 	possible = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }
 		NOT = { is_subject_of = scope:target }
 		scope:target = {
 			NOT = { is_country_type = decentralized }
 			NOT = { is_subject_of = root }
-		}
+		}			
 		OR = {
 			country_rank > scope:target.market.owner.country_rank
 			AND = {
@@ -187,7 +195,8 @@ dp_make_dominion = {
 	texture = "gfx/interface/icons/war_goals/make_dominion.dds"
 	
 	possible = {
-		aggressive_diplomatic_plays_permitted = yes		
+		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }		
 	}
 	
 	on_weekly_pulse = {}
@@ -203,7 +212,8 @@ dp_make_vassal = {
 	texture = "gfx/interface/icons/war_goals/make_vassal.dds"
 	
 	possible = {
-		aggressive_diplomatic_plays_permitted = yes			
+		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }			
 	}
 	
 	on_weekly_pulse = {}
@@ -219,7 +229,8 @@ dp_make_puppet = {
 	texture = "gfx/interface/icons/war_goals/make_puppet.dds"
 	
 	possible = {	
-		aggressive_diplomatic_plays_permitted = yes		
+		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }		
 	}
 	
 	on_weekly_pulse = {}
@@ -235,7 +246,8 @@ dp_transfer_subject = {
 	texture = "gfx/interface/icons/war_goals/transfer_subject.dds"
 	
 	possible = {	
-		aggressive_diplomatic_plays_permitted = yes	
+		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }	
 	}
 	
 	on_weekly_pulse = {}
@@ -253,6 +265,7 @@ dp_annex_subject = {
 	possible = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }
 		scope:target = {
 			NOT = { is_country_type = decentralized }
 			is_direct_subject_of = root
@@ -285,6 +298,7 @@ dp_force_recognition = {
 	possible = {
 		is_country_type = unrecognized
 		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }
 		NOT = { is_subject_of = scope:target }
 		scope:target = {
 			OR = {
@@ -328,6 +342,7 @@ dp_revolution = {
 	additional_involvement_trigger = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
+
 	
 		scope:target = {
 			capital = {
@@ -355,7 +370,9 @@ dp_revolution = {
 
 	on_war_begins = {}
 
-	on_war_end = {}
+	on_war_end = {
+		
+	}
 }
 
 dp_secession = {
@@ -381,6 +398,7 @@ dp_secession = {
 	additional_involvement_trigger = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }
 	
 		scope:target = {
 			capital = {
@@ -415,6 +433,7 @@ dp_contain_threat = {
 	possible = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }
 		NOT = { is_subject_of = scope:target }
 		scope:target = {
 			NOT = { is_country_type = decentralized }
@@ -434,6 +453,7 @@ dp_contain_threat = {
 		NOT = { is_country_type = decentralized }
 		country_rank >= rank_value:great_power
 		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }
 	}
 	
 	on_weekly_pulse = {}
@@ -462,6 +482,7 @@ dp_taiping_rebellion = {
 	additional_involvement_trigger = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
+
 	
 		scope:target = {
 			capital = {
@@ -615,6 +636,7 @@ dp_unify_ethiopia = {
 		scope:target = {
 			NOT = { is_country_type = decentralized }
 			aggressive_diplomatic_plays_permitted = yes
+
 			can_form_nation = ETH
 		}
 	}
@@ -681,6 +703,7 @@ dp_unify_arabia = {
 		scope:target = {
 			NOT = { is_country_type = decentralized }
 			aggressive_diplomatic_plays_permitted = yes
+
 			custom_tooltip = {
 				text = ARA_tt
 				can_form_nation = ARA
@@ -712,6 +735,7 @@ dp_unify_india = {
 		scope:target = {
 			NOT = { is_country_type = decentralized }
 			aggressive_diplomatic_plays_permitted = yes
+
 			can_form_nation = BHT
 		}
 	}
@@ -740,6 +764,7 @@ dp_unify_indonesia = {
 		scope:target = {
 			NOT = { is_country_type = decentralized }
 			aggressive_diplomatic_plays_permitted = yes
+
 			can_form_nation = IDN
 		}
 	}
@@ -827,7 +852,8 @@ dp_humiliation = {
 	texture = "gfx/interface/icons/war_goals/humiliation.dds"
 	
 	possible = {	
-		aggressive_diplomatic_plays_permitted = yes		
+		aggressive_diplomatic_plays_permitted = yes
+        NOT = { has_variable = backed_down }		
 	}
 	
 	on_weekly_pulse = {}
