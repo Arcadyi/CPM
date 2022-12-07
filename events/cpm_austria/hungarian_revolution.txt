@@ -34,8 +34,12 @@ hungarian_revolution.1 = {
             state = s:STATE_SLAVONIA.region_state:AUS
             state = s:STATE_CROATIA.region_state:AUS
      }
+     create_diplomatic_pact = {
+        tcountry = C:HUN
+        type = puppet
+     }
      c:HUN = {
-        set_strategy = ai_strategy_gain_independence
+        set_variable = add_bravery_variable
         }
         set_variable = hungarian_revolution_begun
 	}

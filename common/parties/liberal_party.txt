@@ -48,7 +48,7 @@ liberal_party = {
 					exists = c:FRA
 					THIS = c:FRA
 					has_law = law_type:law_monarchy
-					NOT = { owner = { ruler = { has_variable = is_bonapartist } } }
+#					NOT = { owner = { ruler = { has_variable = is_bonapartist } } }
 				}
 			}
 			triggered_desc = {
@@ -577,19 +577,19 @@ liberal_party = {
 				desc = "from_serfdom"
 			}
 		}
-		if = {
-			limit = {		
-				owner = {
-					 ruler = {
-						 has_variable = is_orleanist 
-						} 
-					}
-				is_interest_group_type = ig_petty_bourgeoisie
-				}
-		add = {
-			value = 5
-			desc = "from_orleanist_king"
-		}
-	}
+#		if = {
+#			limit = {		
+#				owner = {
+#					 ruler = {
+#						 has_variable = is_orleanist 
+#						} 
+#					}
+#				is_interest_group_type = ig_petty_bourgeoisie
+#				}
+#		add = {
+#			value = 5
+#			desc = "from_orleanist_king"
+#		}
+#	}
 	}
 }
