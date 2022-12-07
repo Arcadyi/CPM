@@ -1,5 +1,6 @@
 ﻿l_english:
 #CPM
+concept_convoy_desc:0 "Convoy"
 # Prussian Market Acceptance 
 DIPLOMATIC_ACCEPTANCE_PRUSSIA:0 "Zollverein"
 losesaustrianclaimshun:0 "Austria will lose all claims to Hungary"

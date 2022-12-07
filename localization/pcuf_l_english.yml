@@ -1,8 +1,5 @@
 ﻿l_english:
- 
- pm_tools_disabled:1 "Tool Self-sufficiency"
- 
- pmg_fertilizer_coffee:0 "Fertilizer"
+  pmg_fertilizer_coffee:0 "Fertilizer"
  pmg_fertilizer_cotton:0 "Fertilizer"
  pmg_fertilizer_dye:0 "Fertilizer"
  pmg_fertilizer_opium:0 "Fertilizer"
