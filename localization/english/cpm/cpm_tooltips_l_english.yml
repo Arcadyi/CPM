@@ -1,5 +1,7 @@
 ﻿l_english:
 #CPM
+# Turmoil in Hungarian Austria
+austriaturmoiltooltip:0 = "[ROOT.GetCountry.GetName] will get Turmoil on all [scope.cu:hungarian.Getname] lands."
 concept_convoy_desc:0 "Convoy"
 # Prussian Market Acceptance 
 DIPLOMATIC_ACCEPTANCE_PRUSSIA:0 "Zollverein"

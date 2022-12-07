@@ -35,7 +35,7 @@ hungarian_revolution.1 = {
             state = s:STATE_CROATIA.region_state:AUS
      }
      create_diplomatic_pact = {
-        tcountry = C:HUN
+        target_country = c:HUN
         type = puppet
      }
      c:HUN = {
@@ -176,39 +176,7 @@ hungarian_revolution.2 = {
         has_variable = hungarian_revolution_countdown_var
     }
    immediate = {
-    s:STATE_TRANSDANUBIA.region_state:AUS = {
-        add_modifier = austriaturmoil
-    }
-    s:STATE_CENTRAL_HUNGARY.region_state:AUS = {
-        add_modifier = austriaturmoil
-    }
-    s:STATE_WEST_SLOVAKIA.region_state:AUS = {
-        add_modifier = austriaturmoil
-    }
-    s:STATE_EAST_SLOVAKIA.region_state:AUS = {
-        add_modifier = austriaturmoil
-    }
-    s:STATE_BEKES.region_state:AUS = {
-        add_modifier = austriaturmoil
-    }
-    s:STATE_NORTHERN_TRANSYLVANIA.region_state:AUS = {
-        add_modifier = austriaturmoil
-    }
-    s:STATE_SOUTHERN_TRANSYLVANIA.region_state:AUS = {
-        add_modifier = austriaturmoil
-    }
-    s:STATE_BANAT.region_state:AUS = {
-        add_modifier = austriaturmoil
-    }
-    s:STATE_DELVIDEK.region_state:AUS = {
-        add_modifier = austriaturmoil
-    }
-    s:STATE_SLAVONIA.region_state:AUS = {
-        add_modifier = austriaturmoil
-    }
-    s:STATE_CROATIA.region_state:AUS = {
-        add_modifier = austriaturmoil
-    }
+    
    }
    option = {
         name = hungarian_revolution.2.a

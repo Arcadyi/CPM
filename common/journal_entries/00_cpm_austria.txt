@@ -24,6 +24,44 @@ je_hungarian_revolution = {
 			name = hungarian_revolution_countdown_var
 			value = 0
 		}
+		custom_tooltip = {
+			text = austriaturmoiltooltip
+		}
+		hidden_effect = {
+		s:STATE_TRANSDANUBIA.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_CENTRAL_HUNGARY.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_WEST_SLOVAKIA.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_EAST_SLOVAKIA.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_BEKES.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_NORTHERN_TRANSYLVANIA.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_SOUTHERN_TRANSYLVANIA.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_BANAT.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_DELVIDEK.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_SLAVONIA.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_CROATIA.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+	}
 	}
 	on_monthly_pulse = {
 		effect = {
@@ -37,7 +75,10 @@ je_hungarian_revolution = {
 		NOT = {
 			has_variable = hungarian_revolution
 		}
+		OR = {
 		year >= 1847
+		has_technology_researched = nationalism
+		}
 		THIS = {
 			owner = {
 				any_scope_state = {
@@ -52,7 +93,7 @@ je_hungarian_revolution = {
 		value = root.var:hungarian_revolution_countdown_var
 	}
 	goal_add_value = {
-		value = 12
+		value = 6
 	}
 	on_complete = {
 		trigger_event = { 
