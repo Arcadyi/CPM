@@ -746,7 +746,6 @@
                 add  = 1100
 
                  AND = {
-                    yamato_clothes_pop_trigger = yes
                     OR = {
                         soldier_clothes_pop_trigger = yes
                         officers_clothes_pop_trigger = yes
@@ -1029,7 +1028,6 @@
             base = 0
             modifier = {
                 add = 100
-                japanese_common_clothes_trigger = yes
             }
         }
     }

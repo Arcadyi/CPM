@@ -99,7 +99,6 @@
             modifier = {
                 add = 1000
                 AND = {
-                    yamato_hairstyles_pop_trigger = yes
                     poor_clothes_pop_trigger = no
                 }
             }
@@ -141,7 +140,6 @@
             modifier = {
                 add = 1000
                 AND = {
-                    yamato_hairstyles_trigger = yes
                     poor_clothes_pop_trigger = no
                 }
             }
