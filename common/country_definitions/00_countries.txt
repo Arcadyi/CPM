@@ -2092,19 +2092,19 @@ HAI = {
 	capital = STATE_HAITI
 }
 
-MEX = {
-	color = { 56 143 53 }
-	
-	country_type = colonial
-	
-	#173  242  175
-
-	tier = kingdom
-	
-	cultures = { mexican }
-	capital = STATE_MEXICO
-	is_named_from_capital = yes
-}
+#MEX = {
+#	color = { 56 143 53 }
+#	
+#	country_type = colonial
+#	
+#	#173  242  175
+#
+#	tier = kingdom
+#	
+#	cultures = { mexican }
+#	capital = STATE_MEXICO
+#	is_named_from_capital = yes
+#}
 
 MTC = {
 	color = { 221  186  163 }
