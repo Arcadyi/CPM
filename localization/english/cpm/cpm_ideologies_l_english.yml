@@ -28,6 +28,7 @@ cosmopolitan_events.5.b:0 "We should further support this line of thinking"
 #
  ideology_cosmopolitanism:0 "Cosmopolitan"
  ideology_cosmopolitanism_desc:0 "#lore This group believes that all of humanity could and should belong to a single community.#!"
+ideology_cosmopolitanism_ig:0 "Cosmopolitanism"
 #French
  from_adolphe_thiers:0 "Adolphe Thiers"
  from_orleanist_king:0 "Orleanism"

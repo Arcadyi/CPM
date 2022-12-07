@@ -874,19 +874,19 @@ GBR = { # Great Britain of United Kingdom
 	}
 }
 
-GER = { # Germany
-	dynamic_country_name = {
-		name = dyn_c_german_empire
-		
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			coa_def_monarchy_flag_trigger = yes
-			country_rank >= rank_value:major_power
-		}
-	}
-}
+#GER = { # Germany
+#	dynamic_country_name = {
+#		name = dyn_c_german_empire
+#		
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			coa_def_monarchy_flag_trigger = yes
+#			country_rank >= rank_value:major_power
+#		}
+#	}
+#}
 
 HAI = { # Haiti
 	dynamic_country_name = {
@@ -1028,23 +1028,23 @@ ITA = { # Italy
 	}
 }
 
-JAP = { # Japan
-	dynamic_country_name = {
-		name = dyn_c_japan_shogunate
-		adjective = dyn_c_japan_shogunate_adj
-
-		is_main_tag_only = yes
-		priority = 10
-
-		trigger = {
-			exists = scope:actor
-			scope:actor = { 
-				has_law = law_type:law_monarchy
-				NOT = { has_variable = meiji_var }
-			}
-		}
-	}
-}
+#JAP = { # Japan
+#	dynamic_country_name = {
+#		name = dyn_c_japan_shogunate
+#		adjective = dyn_c_japan_shogunate_adj
+#
+#		is_main_tag_only = yes
+#		priority = 10
+#
+#		trigger = {
+#			exists = scope:actor
+#			scope:actor = { 
+#				has_law = law_type:law_monarchy
+#				NOT = { has_variable = meiji_var }
+#			}
+#		}
+#	}
+#}
 
 JMB = { # Jambi
 	dynamic_country_name = {
@@ -1258,96 +1258,96 @@ NET = { # Netherlands
 	}
 }
 
-ONT = { # Ontario
-	dynamic_country_name = {
-		name = dyn_c_upper_canada
-		adjective = dyn_c_upper_canada_adj
+#ONT = { # Ontario
+#	dynamic_country_name = {
+#		name = dyn_c_upper_canada
+#		adjective = dyn_c_upper_canada_adj
+#
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			exists = c:GBR
+#			c:GBR = {
+#				has_diplomatic_pact = {
+#					who = c:ONT
+#					type = puppet
+#					is_initiator = yes
+#				}
+#			}
+#		}
+#	}
+#}
 
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			exists = c:GBR
-			c:GBR = {
-				has_diplomatic_pact = {
-					who = c:ONT
-					type = puppet
-					is_initiator = yes
-				}
-			}
-		}
-	}
-}
+#ORA = { # Oranje
+#	dynamic_country_name = {
+#		name = dyn_c_orange_river_sovereignty
+#		adjective = dyn_c_orange_river_sovereignty_adj
+#		
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			coa_def_british_ensign_trigger = yes
+#		}
+#	}
+#}
 
-ORA = { # Oranje
-	dynamic_country_name = {
-		name = dyn_c_orange_river_sovereignty
-		adjective = dyn_c_orange_river_sovereignty_adj
-		
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			coa_def_british_ensign_trigger = yes
-		}
-	}
-}
-
-ORG = { # Oregon
-	dynamic_country_name = {
-		name = dyn_c_columbia
-		adjective = dyn_c_columbia_adj
-		
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			exists = scope:actor
-			OR = {
-				AND = {
-					exists = c:GBR
-					c:GBR = {
-						has_diplomatic_pact = {
-							who = scope:actor
-							type = dominion
-							is_initiator = yes
-						}
-					}
-				}
-				AND = {
-					exists = c:HBC
-					scope:actor = {
-						is_subject_of = c:HBC
-					}
-				}
-				AND = {
-					exists = c:CAN
-					scope:actor = {
-						is_subject_of = c:CAN
-					}
-				}
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_columbia_district
-		adjective = dyn_c_columbia_adj # no need for a different adjective from the above entry
-		
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			exists = c:GBR
-			c:GBR = {
-				has_diplomatic_pact = {
-					who = c:ORG
-					type = puppet
-					is_initiator = yes
-				}
-			}
-		}
-	}
-}
+#ORG = { # Oregon
+#	dynamic_country_name = {
+#		name = dyn_c_columbia
+#		adjective = dyn_c_columbia_adj
+#		
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			exists = scope:actor
+#			OR = {
+#				AND = {
+#					exists = c:GBR
+#					c:GBR = {
+#						has_diplomatic_pact = {
+#							who = scope:actor
+#							type = dominion
+#							is_initiator = yes
+#						}
+#					}
+#				}
+#				AND = {
+#					exists = c:HBC
+#					scope:actor = {
+#						is_subject_of = c:HBC
+#					}
+#				}
+#				AND = {
+#					exists = c:CAN
+#					scope:actor = {
+#						is_subject_of = c:CAN
+#					}
+#				}
+#			}
+#		}
+#	}
+#	dynamic_country_name = {
+#		name = dyn_c_columbia_district
+#		adjective = dyn_c_columbia_adj # no need for a different adjective from the above entry
+#		
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			exists = c:GBR
+#			c:GBR = {
+#				has_diplomatic_pact = {
+#					who = c:ORG
+#					type = puppet
+#					is_initiator = yes
+#				}
+#			}
+#		}
+#	}
+#}
 
 PAN = { # Punjab
 	dynamic_country_name = {
@@ -1467,26 +1467,26 @@ POR = {
 	}
 }
 
-QUE = { # Quebec
-	dynamic_country_name = {
-		name = dyn_c_lower_canada
-		adjective = dyn_c_lower_canada_adj
-
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			exists = c:GBR
-			c:GBR = {
-				has_diplomatic_pact = {
-					who = c:QUE
-					type = puppet
-					is_initiator = yes
-				}
-			}
-		}
-	}
-}
+#QUE = { # Quebec
+#	dynamic_country_name = {
+#		name = dyn_c_lower_canada
+#		adjective = dyn_c_lower_canada_adj
+#
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			exists = c:GBR
+#			c:GBR = {
+#				has_diplomatic_pact = {
+#					who = c:QUE
+#					type = puppet
+#					is_initiator = yes
+#				}
+#			}
+#		}
+#	}
+#}
 
 RUS = { # Russia
 	dynamic_country_name = {
@@ -1502,26 +1502,26 @@ RUS = { # Russia
 	}	
 }
 
-SAF = { # South Africa
-	dynamic_country_name = {
-		name = dyn_c_south_africa
-		adjective = dyn_c_south_africa_adj
-
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			exists = c:GBR
-			c:GBR = {
-				has_diplomatic_pact = {
-					who = c:SAF
-					type = puppet
-					is_initiator = yes
-				}
-			}
-		}
-	}
-}
+#SAF = { # South Africa
+#	dynamic_country_name = {
+#		name = dyn_c_south_africa
+#		adjective = dyn_c_south_africa_adj
+#
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			exists = c:GBR
+#			c:GBR = {
+#				has_diplomatic_pact = {
+#					who = c:SAF
+#					type = puppet
+#					is_initiator = yes
+#				}
+#			}
+#		}
+#	}
+#}
 
 SAK = { # Siak
 	dynamic_country_name = {
@@ -1682,18 +1682,18 @@ TAS = { # Tasmania
 	}
 }
 
-TRN = { # Transvaal
-	dynamic_country_name = {
-		name = dyn_c_transvaal_colony
-		
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			coa_def_british_ensign_trigger = yes
-		}
-	}
-}
+#TRN = { # Transvaal
+#	dynamic_country_name = {
+#		name = dyn_c_transvaal_colony
+#		
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			coa_def_british_ensign_trigger = yes
+#		}
+#	}
+#}
 
 TSW = { # Tswana
 	dynamic_country_name = {

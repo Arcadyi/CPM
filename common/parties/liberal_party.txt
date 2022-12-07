@@ -585,10 +585,10 @@ liberal_party = {
 						} 
 					}
 				is_interest_group_type = ig_petty_bourgeoisie
-			add = {
-				value = 5
-				desc = "from_orleanist_king"
-			}
+				}
+		add = {
+			value = 5
+			desc = "from_orleanist_king"
 		}
 	}
 	}
