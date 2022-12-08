@@ -5,6 +5,7 @@ austriaturmoiltooltip:0 " [SCOPE.sCountry('austriascope').GetName] will get Turm
 austriaturmoiltooltipwin:0 " [SCOPE.sCountry('austriascope').GetName] will lose Turmoil effects on all [SCOPE.sCulture('hungarianscope').GetName] lands."
 concept_convoy_desc:0 "Convoy"
 russiaacceptshelp:0 "[SCOPE.sCountry('russia_scope').GetName] will assist [SCOPE.sCountry('austriascope').GetName] in their war."
+hungarianrevolutionover:0 " The Hungarian Revolution has been crushed. "
 # Prussian Market Acceptance 
 DIPLOMATIC_ACCEPTANCE_PRUSSIA:0 "Zollverein"
 losesaustrianclaimshun:0 "Austria will lose all claims to Hungary"

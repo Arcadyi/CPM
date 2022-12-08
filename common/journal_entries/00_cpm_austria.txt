@@ -206,17 +206,22 @@ je_hungarian_revolution_2 = {
 	}
 	on_complete = {
 		trigger_event = { 
-			id = hungarian_revolution.1 
+			id = hungarian_revolution.7
 			popup = yes
 		}
-		set_global_variable = hungarian_revolution_ended_aus
 	}
 	complete = {
+		hidden_effect = {
 		AND = {
 		has_global_variable = hungarian_revolution_begun
 			not = {
 				exists = c:HUN
 			}
 		}
+	}
+	custom_tooltip = {
+		text = hungarianrevolutionover
+	}
 	weight = 100
+}
 }

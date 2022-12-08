@@ -186,7 +186,7 @@ hungarian_revolution.2 = {
     title = hungarian_revolution.2.t
     desc = hungarian_revolution.2.d
     flavor = hungarian_revolution.2.f
-    duration = 2
+    duration = 6
 
     event_image = {
         video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
@@ -198,7 +198,16 @@ hungarian_revolution.2 = {
     trigger = {
         THIS = c:AUS
         has_global_variable = hungarian_revolution_begun
-        NOT = { has_variable = asked_russia_for_help }
+        NOT = { has_global_variable = asked_russia_for_help }
+        c:AUS = {
+            is_at_war = yes
+        }
+        any_scope_war = {
+            has_war_support = {
+                target = c:AUS
+                value < 20
+            }
+        }
     }
    immediate = {
     c:RUS = {
@@ -247,7 +256,7 @@ hungarian_revolution.3 = { #Asking Russia for help
             c:HUN = {
                 save_scope_as = hungaryscope
             }
-            set_variable = asked_russia_for_help
+            set_global_variable = asked_russia_for_help
            }
         
         option = {
@@ -287,6 +296,7 @@ hungarian_revolution.3 = { #Asking Russia for help
                      add = 50
                 }
           }
+          set_global_variable = russiaacceptshelp
         }
 
         option = {
@@ -303,14 +313,70 @@ hungarian_revolution.3 = { #Asking Russia for help
                  modifier = {
                      trigger = {
                              c:AUS = {
-                                 relations:root > 30 
+                                 relations:root < 0
                              }
                      }
-                     add = 50
+                     add = 100
                 }
           }
+          set_global_variable = russiarejectshelp
         }
 
+}
+hungarian_revolution.5 = { #Russia Sends Help
+    type = country_event
+    placement = ROOT
+
+    title = hungarian_revolution.5.t
+    desc = hungarian_revolution.5.d
+
+    event_image = {
+        video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+    }
+    duration = 1
+
+    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+    trigger = {
+        this = c:AUS
+        has_global_variable = russiaacceptshelp
+        NOT = {
+            has_variable = russianresponsedone
+        }
+    }
+   immediate = {
+    set_variable = russianresponsedone
+   }
+   option = {
+        name = hungarian_revolution.5.a
+        } 
+}
+hungarian_revolution.6 = { #Russia Rejects Help
+    type = country_event
+    placement = ROOT
+
+    title = hungarian_revolution.6.t
+    desc = hungarian_revolution.6.d
+    duration = 1
+    event_image = {
+        video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+    }
+
+    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+    trigger = {
+        this = c:AUS
+        has_global_variable = russiarejectshelp
+        NOT = {
+            has_variable = russianresponsedone
+        }
+    }
+   immediate = {
+    set_variable = russianresponsedone
+   }
+   option = {
+        name = hungarian_revolution.6.a
+        } 
 }
 hungarian_revolution.4 = { #Hungary Wins
     type = country_event
@@ -327,7 +393,10 @@ hungarian_revolution.4 = { #Hungary Wins
     icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
     trigger = {
+        OR = {
         this = c:AUS
+        this = c:HUN
+        }
         c:HUN = {
             is_at_war = NO
             is_subject = NO
@@ -343,6 +412,32 @@ hungarian_revolution.4 = { #Hungary Wins
    option = {
         name = hungarian_revolution.4.a
             c:HUN = {
+                country_prestige_add = 100
+            }
+        } 
+}
+hungarian_revolution.7 = {
+    type = country_event
+    placement = ROOT
+
+    title = hungarian_revolution.7.t
+    desc = hungarian_revolution.7.d
+
+    event_image = {
+        video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+    }
+
+    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+     trigger = {
+        #triggered by je_hungarian_revolution_2
+    }
+    immediate = {
+        set_global_variable = hungarian_revolution_ended
+    }
+    option = {
+        name = hungarian_revolution.7.a
+            c:AUS = {
                 country_prestige_add = 100
             }
         } 
