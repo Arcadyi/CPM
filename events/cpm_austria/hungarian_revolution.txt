@@ -42,12 +42,14 @@ hungarian_revolution.1 = {
     }
      c:HUN = {
         set_variable = add_bravery_variable
+        set_strategy = ai_hungary_gain_independence
         add_modifier = {
             name = hungarian_partisans
             months = short_modifier_time
         }
         }
-        set_variable = hungarian_revolution_begun
+        set_global_variable = hungarian_revolution_begun
+        
 	}
     
     trigger = {
@@ -80,8 +82,10 @@ hungarian_revolution.1 = {
                 type = war_reparations
             }
         }
+        
         c:HUN = {
             set_variable = add_bravery_variable
+            set_strategy = ai_hungary_gain_independence
         }
         ai_chance = {
             base = 75
@@ -167,6 +171,7 @@ hungarian_revolution.1 = {
         }
         c:HUN = {
             set_variable = add_bravery_variable
+            set_strategy = ai_hungary_gain_independence
         }
         ai_chance = {
             base = 0
@@ -181,6 +186,7 @@ hungarian_revolution.2 = {
     title = hungarian_revolution.2.t
     desc = hungarian_revolution.2.d
     flavor = hungarian_revolution.2.f
+    duration = 2
 
     event_image = {
         video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
@@ -189,12 +195,10 @@ hungarian_revolution.2 = {
     icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-    duration = 5
     trigger = {
-        has_variable = hungarian_revolution_begun
-        NOT = {
-            has_variable = asked_russia_for_help
-        }
+        THIS = c:AUS
+        has_global_variable = hungarian_revolution_begun
+        NOT = { has_variable = asked_russia_for_help }
     }
    immediate = {
     c:RUS = {
@@ -240,6 +244,9 @@ hungarian_revolution.3 = { #Asking Russia for help
             c:AUS = {
                 save_scope_as = austriascope
             }
+            c:HUN = {
+                save_scope_as = hungaryscope
+            }
             set_variable = asked_russia_for_help
            }
         
@@ -254,14 +261,19 @@ hungarian_revolution.3 = { #Asking Russia for help
             set_owes_obligation_to = {
                 country = c:RUS
                 setting = yes
+            }          
+            add_modifier = {
+                name = russianassistance
+                months = 12
             }
         }
-            hidden_effect = {
-                any_diplomatic_play = {
-                    c:AUS = {
-                        is_diplomatic_play_enemy_of = c:HUN      
-                    }
-                    add_initiator_backers = c:RUS
+            any_diplomatic_play = {
+                limit = {
+                    is_war_participant = c:AUS
+                }
+                add_diplomatic_play_war_support = {
+                    target = c:AUS
+                    value = 50
                 }
             }
             ai_chance = {
@@ -286,14 +298,6 @@ hungarian_revolution.3 = { #Asking Russia for help
                     value = -60
                 }
             }
-            hidden_effect = {
-                any_diplomatic_play = {
-                    c:AUS = {
-                        is_diplomatic_play_enemy_of = c:HUN      
-                    }
-                    add_initiator_backers = c:RUS
-                }
-            }
             ai_chance = {
                 base = 10
                  modifier = {
@@ -307,4 +311,39 @@ hungarian_revolution.3 = { #Asking Russia for help
           }
         }
 
+}
+hungarian_revolution.4 = { #Hungary Wins
+    type = country_event
+    placement = ROOT
+
+    title = hungarian_revolution.4.t
+    desc = hungarian_revolution.4.d
+    flavor = hungarian_revolution.4.f
+
+    event_image = {
+        video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+    }
+
+    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+    trigger = {
+        this = c:AUS
+        c:HUN = {
+            is_at_war = NO
+            is_subject = NO
+            has_global_variable = hungarian_revolution_begun
+            NOT = {
+                has_global_variable = hungarian_revolution_ended
+            }
+        }
+    }
+   immediate = {
+    set_global_variable = hungarian_revolution_ended
+   }
+   option = {
+        name = hungarian_revolution.4.a
+            c:HUN = {
+                country_prestige_add = 100
+            }
+        } 
 }

@@ -1,9 +1,16 @@
 ﻿hungarian_partisans = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
-	unit_army_defense_mult = 1
-	unit_army_offense_mult = 1
-	unit_morale_protection_mult = 1
-	unit_morale_recovery_mult = 1
+	unit_army_defense_mult = 0.5
+	unit_army_offense_mult = 0.5
+	unit_morale_protection_mult = 0.5
+	unit_morale_recovery_mult = 0.5
+	country_war_exhaustion_casualties_mult = -0.25
+}
+russianassistance = {
+	unit_army_defense_mult = 0.25
+	unit_army_offense_mult = 0.25
+	unit_morale_protection_mult = 0.25
+	unit_morale_recovery_mult = 0.25
 	country_war_exhaustion_casualties_mult = -0.25
 }
 austriaturmoil = {

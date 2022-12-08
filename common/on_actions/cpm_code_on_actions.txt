@@ -1,0 +1,12 @@
+﻿on_monthly_pulse_country = {
+	events = {
+		ethniccleansing.1
+		ethniccleansing.2
+	}
+}
+on_monthly_pulse_country = {
+	events = {
+		hungarian_revolution.2
+		hungarian_revolution.4
+	}
+}

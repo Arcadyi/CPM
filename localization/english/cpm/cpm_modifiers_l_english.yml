@@ -91,3 +91,5 @@ border_state_mod:0 "Border State"
 # Hungarian Revolt Modifiers
 hungarian_partisans:0 "Hungarian Partisans"
 hungarian_partisans_desc:0 "Brought on by an almost religious fervor, The newly born Hungarian nation will fight its hardest to survive."
+russianassistance:0 "Russian Assistance"
+russianassistance_desc:0 "The Russians have agreed to send help to quell the rebellion."
