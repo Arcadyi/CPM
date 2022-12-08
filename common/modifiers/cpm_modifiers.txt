@@ -1,4 +1,12 @@
-﻿austriaturmoil = {
+﻿hungarian_partisans = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	unit_army_defense_mult = 1
+	unit_army_offense_mult = 1
+	unit_morale_protection_mult = 1
+	unit_morale_recovery_mult = 1
+	country_war_exhaustion_casualties_mult = -0.25
+}
+austriaturmoil = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
 	state_radicals_from_discrimination_mult = 1
 	state_tax_capacity_mult = -0.5

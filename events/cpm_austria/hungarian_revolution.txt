@@ -34,12 +34,18 @@ hungarian_revolution.1 = {
             state = s:STATE_SLAVONIA.region_state:AUS
             state = s:STATE_CROATIA.region_state:AUS
      }
+     c:AUS = {
      create_diplomatic_pact = {
-        target_country = c:HUN
+        country = c:HUN
         type = puppet
      }
+    }
      c:HUN = {
         set_variable = add_bravery_variable
+        add_modifier = {
+            name = hungarian_partisans
+            months = short_modifier_time
+        }
         }
         set_variable = hungarian_revolution_begun
 	}
@@ -73,6 +79,9 @@ hungarian_revolution.1 = {
                 target_country = c:AUS
                 type = war_reparations
             }
+        }
+        c:HUN = {
+            set_variable = add_bravery_variable
         }
         ai_chance = {
             base = 75
@@ -120,6 +129,12 @@ hungarian_revolution.1 = {
                     remove_claim = c:AUS
                 }
        }
+       c:AUS = {
+        remove_diplomatic_pact = {
+            country = c:HUN
+            type = puppet
+        }
+       }
        ai_chance = {
         base = 25
         }
@@ -150,6 +165,9 @@ hungarian_revolution.1 = {
                 type = war_reparations
             }
         }
+        c:HUN = {
+            set_variable = add_bravery_variable
+        }
         ai_chance = {
             base = 0
         }
@@ -173,13 +191,120 @@ hungarian_revolution.2 = {
 
     duration = 5
     trigger = {
-        has_variable = hungarian_revolution_countdown_var
+        has_variable = hungarian_revolution_begun
+        NOT = {
+            has_variable = asked_russia_for_help
+        }
     }
    immediate = {
-    
+    c:RUS = {
+        save_scope_as = russia_scope
+    }
    }
    option = {
         name = hungarian_revolution.2.a
-        custom_tooltip = hungarianradicalization
+        custom_tooltip = askingrussiahungary
+        hidden_effect = {
+            c:RUS = {
+                trigger_event = hungarian_revolution.3
+            }
+        } 
    }
+   option = {
+    name = hungarian_revolution.2.b
+    }
+}
+
+hungarian_revolution.3 = { #Asking Russia for help
+        type = country_event
+        placement = ROOT
+
+        title = hungarian_revolution.3.t
+        desc = hungarian_revolution.3.d
+        flavor = hungarian_revolution.3.f
+        event_image = {
+            video = "gfx/event_pictures/europenorthamerica_before_the_battle.bk2"
+        }
+
+        icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+        on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+        duration = 2
+        trigger = {
+            #triggered by hungarian_revolution.2.a
+        }
+
+        immediate = {
+            c:RUS = {
+                save_scope_as = russia_scope
+            }
+            c:AUS = {
+                save_scope_as = austriascope
+            }
+            set_variable = asked_russia_for_help
+           }
+        
+        option = {
+            name = hungarian_revolution.3.a
+            custom_tooltip = russiaacceptshelp
+            c:AUS = {
+            change_relations = {
+                country = c:RUS
+                value = 60
+            }
+            set_owes_obligation_to = {
+                country = c:RUS
+                setting = yes
+            }
+        }
+            hidden_effect = {
+                any_diplomatic_play = {
+                    c:AUS = {
+                        is_diplomatic_play_enemy_of = c:HUN      
+                    }
+                    add_initiator_backers = c:RUS
+                }
+            }
+            ai_chance = {
+                base = 10
+                 modifier = {
+                     trigger = {
+                             c:AUS = {
+                                 relations:root > 30 
+                             }
+                     }
+                     add = 50
+                }
+          }
+        }
+
+        option = {
+            name = hungarian_revolution.3.b
+            custom_tooltip = russiarejectsshelp
+            c:AUS = {
+                change_relations = {
+                    country = c:RUS
+                    value = -60
+                }
+            }
+            hidden_effect = {
+                any_diplomatic_play = {
+                    c:AUS = {
+                        is_diplomatic_play_enemy_of = c:HUN      
+                    }
+                    add_initiator_backers = c:RUS
+                }
+            }
+            ai_chance = {
+                base = 10
+                 modifier = {
+                     trigger = {
+                             c:AUS = {
+                                 relations:root > 30 
+                             }
+                     }
+                     add = 50
+                }
+          }
+        }
+
 }

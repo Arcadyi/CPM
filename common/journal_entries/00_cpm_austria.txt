@@ -14,12 +14,19 @@ je_hungarian_revolution = {
 			}
 			hidden_trigger = {
 				NOT = {
-					has_variable = hungarian_revolution
+					has_variable = hungarian_revolution_ended
 				}
 			}
 		}
 	}
 	immediate = {
+		c:AUS = {
+			save_scope_as = austriascope
+		}
+		cu:hungarian = {
+			save_scope_as = hungarianscope
+		}
+
 		set_variable = {
 			name = hungarian_revolution_countdown_var
 			value = 0
@@ -30,6 +37,7 @@ je_hungarian_revolution = {
 		hidden_effect = {
 		s:STATE_TRANSDANUBIA.region_state:AUS = {
 			add_modifier = austriaturmoil
+			save_scope_as = austriaturmoilscope
 		}
 		s:STATE_CENTRAL_HUNGARY.region_state:AUS = {
 			add_modifier = austriaturmoil
@@ -72,19 +80,21 @@ je_hungarian_revolution = {
 		}
 	}
 	possible = {
+		hidden_trigger = {
 		NOT = {
-			has_variable = hungarian_revolution
+			has_variable = hungarian_revolution_begun
+			has_variable = hungarian_revolution_ended
+		}
 		}
 		OR = {
 		year >= 1847
 		has_technology_researched = nationalism
 		}
+		
 		THIS = {
 			owner = {
-				any_scope_state = {
-					limit = {
-							is_homeland = cu:hungarian
-					}
+				any_scope_state.region_state:AUS = {
+					is_homeland = cu:hungarian
 				}
 			}
 		}
@@ -100,7 +110,17 @@ je_hungarian_revolution = {
 			id = hungarian_revolution.1 
 			popup = yes
 		}
-		set_variable = hungarian_revolution
+		c:AUS = {
+			save_scope_as = austriascope
+		}
+		cu:hungarian = {
+			save_scope_as = hungarianscope
+		}
+		custom_tooltip = {
+			text = austriaturmoiltooltipwin
+		}
+		set_variable = hungarian_revolution_begun
+		hidden_effect = {
 		s:STATE_TRANSDANUBIA.region_state:AUS = {
 			remove_modifier = austriaturmoil
 		}
@@ -135,6 +155,7 @@ je_hungarian_revolution = {
 			remove_modifier = austriaturmoil
 		}
 	}
+	}
 	complete = {
 		AND = {
 			cu:hungarian = {
@@ -143,7 +164,10 @@ je_hungarian_revolution = {
 			scope:journal_entry = {
 				is_goal_complete = yes
 			}
+			OR = {
 			year >= 1847
+			has_technology_researched = nationalism
+		}
 		}
 	}
 	weight = 100

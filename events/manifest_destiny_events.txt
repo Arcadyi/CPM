@@ -348,7 +348,7 @@ manifest_destiny.5 = {
 			set_variable = mexican_american_war
 		}
 		c:MEX = {
-			#set_variable = add_bravery_variable
+			set_variable = add_bravery_variable
 		}
 	}
 
