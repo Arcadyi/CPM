@@ -39,6 +39,8 @@ NCommands = {
 
 NAI = {
 
+	DIPLO_PLAY_BACK_DOWN_CHANCE_THRESHOLD = -25 # If ( confidence + boldness ) is less than this, consider backing down 
+
 	DIPLO_PLAY_BACK_DOWN_GUARANTEED_ESCALATION = 80 #95 # Above this escalation, AI will always back down if it's supposed to
 
 	DIPLO_PLAY_CONFIDENCE_FROM_GOLD_RESERVES = 0 #15	 # At 100% gold reserves, add this amount of confidence
