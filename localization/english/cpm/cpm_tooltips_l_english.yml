@@ -1,12 +1,14 @@
 ﻿l_english:
 #CPM
 # Turmoil in Hungarian Austria
-austriaturmoiltooltip:0 = "[ROOT.GetCountry.GetName] will get Turmoil on all [scope.cu:hungarian.Getname] lands."
+austriaturmoiltooltip:0 " [SCOPE.sCountry('austriascope').GetName] will get Turmoil on all [SCOPE.sCulture('hungarianscope').GetName] lands."
+austriaturmoiltooltipwin:0 " [SCOPE.sCountry('austriascope').GetName] will lose Turmoil effects on all [SCOPE.sCulture('hungarianscope').GetName] lands."
 concept_convoy_desc:0 "Convoy"
+russiaacceptshelp:0 "[SCOPE.sCountry('russia_scope').GetName] will declare war on Hungary"
 # Prussian Market Acceptance 
 DIPLOMATIC_ACCEPTANCE_PRUSSIA:0 "Zollverein"
 losesaustrianclaimshun:0 "Austria will lose all claims to Hungary"
-hungarianradicalization:0 "Certain states will start to gain increased radicalization until this problem is fixed"
+askingrussiahungary:0 "We shall ask [SCOPE.sCountry('russia_scope').GetName] for assistance."
 austriaturmoil:0 "Hungarian Seperatists"
 # NFM Tooltips
  ai_strategy_mexico_defend_the_north:0 "Defend the North"
