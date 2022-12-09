@@ -1,7 +1,7 @@
 pdxmesh = {
 	name = "horse_cart_01_mesh"
 	file = "horse_cart_01.mesh"
-
+	
 	lod_percentages = {
 		lod = { index = 1 percent = 12.0 }
 		lod = { index = 2 percent = 6.0 }
@@ -78,6 +78,5 @@ entity = {
 			#event = { time = 0 node = "horse_L_effect" particle = "infrastructure/horse_dust" trigger_once = yes keep_particle = yes}
 	
 	}
-	
-	scale = 0.45
+	scale = 0.44
 }

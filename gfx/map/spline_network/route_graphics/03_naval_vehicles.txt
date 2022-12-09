@@ -1,8 +1,8 @@
 ﻿sailing_ships = {
 	valid_spline_styles = { "naval_route" "coastal_naval_route" }
 
-	speed = 1.0
-	min_caravan_distance = 3.0
+	speed = 0.45
+	min_caravan_distance = 30
 	max_count = 50
 	max_path_length = 10
 	side_offset = 0.3
@@ -12,7 +12,7 @@
 		sail_transport_ship_01 = {
 			entity = "sail_transport_ship_01_entity"
 			position = 0
-			entity_length = 1.5
+			entity_length = 3.0
 	
 			possible = {
 				always = yes
@@ -46,9 +46,9 @@
 screw_frigates = {
 	valid_spline_styles = { "naval_route" "coastal_naval_route" }
 
-	speed = 1.0
-	min_caravan_distance = 3.0
-	max_count = 50
+	speed = 0.65
+	min_caravan_distance = 30
+	max_count = 35
 	max_path_length = 10
 	side_offset = 0.3
 	path_generation_mode = naval
@@ -57,7 +57,7 @@ screw_frigates = {
 		generic_ship_cargo_01 = {
 			entity = "generic_ship_cargo_01_entity"
 			position = 0
-			entity_length = 1.5
+			entity_length = 3.0
 	
 			possible = {
 				has_technology_researched = screw_frigate
@@ -91,9 +91,9 @@ screw_frigates = {
 steam_boats = {
 	valid_spline_styles = { "naval_route" "coastal_naval_route" }
 
-	speed = 1.5
-	min_caravan_distance = 3.0
-	max_count = 50
+	speed = 0.85
+	min_caravan_distance = 30
+	max_count = 35
 	max_path_length = 10
 	side_offset = 0.3
 	path_generation_mode = naval
@@ -102,7 +102,7 @@ steam_boats = {
 		steam_transport_ship_01 = {
 			entity = "steam_transport_ship_01_entity"
 			position = 0
-			entity_length = 1.5
+			entity_length = 3.0
 	
 			possible = {
 				scope:state = {
