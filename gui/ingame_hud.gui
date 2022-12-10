@@ -41,9 +41,7 @@ template information_panels_fullscreens {
 	politics_panel = {}
 	politics_panel_change_law = {}
 	tech_tree_panel = {}
-	### ++++ compatibility with "More Spreadsheets"
 	using = ms_spreadsheet_panel
-	### ====
 }
 
 template map_list_panels {
@@ -75,11 +73,9 @@ template map_list_panels {
 	recruit_commanders_map_list_panel = {}
 }
 
-### ++++ compatibility with "More Spreadsheets"
 template outliner_size {
 	size = { 360 0 }
 }
-### ====
 
 widget = {
 	size = { 100% 100% }
@@ -178,10 +174,8 @@ widget = {
 								outliner = {
 									### ---- compatibility with "More Spreadsheets"
 									#size = { 360 0 }
-									### ++++
 									using = outliner_size
 									using = external_outliner_size
-									### ====
 									layoutpolicy_vertical = expanding
 								}
 							}

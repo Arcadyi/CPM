@@ -2,10 +2,12 @@
 
 	on_monthly_pulse = {
 		random_events = {
-			80 = 0
+			#80 = 0
+			70 = 0 
 			
 			#Standard event
-			20 = expedition_events.20 #posts a notification
+			#20 = expedition_events.20 #posts a notification
+			30 = expedition_events.20 #posts a notification
 			
 			20 = expedition_events.220 #river crossing
 			20 = expedition_events.230 #bear sighting
@@ -121,9 +123,16 @@
 	}
     
    fail = {
-		custom_tooltip = {
-			text = je_expedition_fail
-			var:expedition_peril >= 8
+		OR = {
+			custom_tooltip = {
+				text = je_expedition_fail
+				var:expedition_peril >= 8
+			}
+			AND = {
+				has_global_variable = buenaventura_river_disproven
+				has_global_variable = oregon_trail_mapped
+				has_global_variable = great_salt_lake_mapped
+			}
 		}
     }
 	

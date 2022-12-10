@@ -808,6 +808,11 @@ meiji.6 = {
 
 	trigger = {
 		NOT = { has_modifier = japan_production_tech_modifier }
+		OR = { 
+			country_rank >= rank_value:unrecognized_major_power 
+			country_rank >= rank_value:unrecognized_regional_power 
+			country_rank >= rank_value:unrecognized_power 
+		}
 		OR = {
 			AND = {
 				has_law = law_type:law_isolationism
@@ -835,6 +840,7 @@ meiji.6 = {
 			relations:root >= relations_threshold:neutral
 			NOT = { has_war_with = ROOT }
 			NOT = { is_owed_obligation_by = ROOT }
+			NOT = { THIS = ROOT }
 			ig:ig_industrialists = {
 				is_in_government = yes
 			}
@@ -846,6 +852,7 @@ meiji.6 = {
 			limit = {
 				country_rank >= rank_value:major_power
 				relations:root >= relations_threshold:neutral
+				NOT = { THIS = ROOT }
 				NOT = { has_war_with = ROOT }
 				NOT = { is_owed_obligation_by = ROOT }
 				ig:ig_industrialists = {

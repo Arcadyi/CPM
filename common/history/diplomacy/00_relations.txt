@@ -109,6 +109,21 @@
         set_relations = { country = c:BRE value = 30 }
         set_relations = { country = c:BRA value = 30 }
         set_relations = { country = c:SCM value = 30 }
+		
+		#new
+		set_relations = { country = c:ORG value = 30 }
+		set_relations = { country = c:SAF value = 30 }
+		set_relations = { country = c:ONT value = 30 }
+		set_relations = { country = c:QUE value = 30 }
+		set_relations = { country = c:NBS value = 30 }
+		set_relations = { country = c:NVS value = 30 }
+		set_relations = { country = c:HBC value = 30 }
+		set_relations = { country = c:NSW value = 30 }
+		set_relations = { country = c:WAS value = 30 }
+		set_relations = { country = c:SAS value = 30 }
+		set_relations = { country = c:TAS value = 30 }
+		set_relations = { country = c:UNT value = 30 }
+		set_relations = { country = c:MKT value = 30 }
 	}
 	c:GRE = {
 		set_relations = { country = c:TUR value = -50 }

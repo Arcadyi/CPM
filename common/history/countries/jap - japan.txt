@@ -5,6 +5,8 @@
 		add_technology_researched = urban_planning
 		add_technology_researched = centralization
 		add_technology_researched = law_enforcement
+		add_technology_researched = academia
+		add_technology_researched = empiricism
 
 		set_tax_level = medium
 		
@@ -23,6 +25,11 @@
 
 		set_institution_investment_level = {
 			institution = institution_police
+			level = 1
+		}
+
+		set_institution_investment_level = {
+			institution = institution_schools
 			level = 1
 		}
 

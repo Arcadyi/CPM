@@ -62,7 +62,7 @@
  DATA_CHARACTER_COMMANDER_ADVANCEMENT_CONTRIBUTION_TITLE:0 "[concept_front] Advancement Contribution: "
  DATA_CHARACTER_COMMANDER_ENEMY_ADVANCEMENT_CONTRIBUTION_TITLE:0 "[concept_front] Enemy Advancement Contribution: "
  DATA_CHARACTER_COMMANDER_ADVANCEMENT_CONTRIBUTION:0 "[SelectLocalization( NotEqualTo_CFixedPoint( Character.GetFrontAdvancementContributionRaw, '(CFixedPoint)0'), '\n', '' )][SelectLocalization( NotEqualTo_CFixedPoint( Character.GetFrontAdvancementContributionRaw, '(CFixedPoint)0'), 'DATA_CHARACTER_COMMANDER_ADVANCEMENT_CONTRIBUTION_TITLE', '')][SelectLocalization( NotEqualTo_CFixedPoint( Character.GetFrontAdvancementContributionRaw, '(CFixedPoint)0'), Character.GetFrontAdvancementContributionFormatted, '')][SelectLocalization( NotEqualTo_CFixedPoint( Character.GetFrontEnemyAdvancementContributionRaw, '(CFixedPoint)0'), '\n', '')][SelectLocalization( NotEqualTo_CFixedPoint( Character.GetFrontEnemyAdvancementContributionRaw, '(CFixedPoint)0'), 'DATA_CHARACTER_COMMANDER_ENEMY_ADVANCEMENT_CONTRIBUTION_TITLE', '')][SelectLocalization( NotEqualTo_CFixedPoint( Character.GetFrontEnemyAdvancementContributionRaw, '(CFixedPoint)0'), Character.GetFrontEnemyAdvancementContributionFormatted, '')]"
- DATA_CHARACTER_TRAIT_NAME_TOOLTIP:1 "[CharacterTrait.GetModifiers]\n\n#lore [CharacterTrait.GetDesc]#!"
+ #DATA_CHARACTER_TRAIT_NAME_TOOLTIP:1 "[CharacterTrait.GetModifiers]\n\n#lore [CharacterTrait.GetDesc]#!"
  DATA_CHARACTER_RANK:1 "Rank: [Character.GetRankName|v]"
  DATA_CHARACTER_RANK_NAME_FORMAT_TOOLTIP:2 "[CommanderRank.GetModifiers( Character.Self )]"
  DATA_CANAL_TYPE_NAME_FORMAT_TOOLTIP:0 "[CanalType.GetDescFor( GetPlayer.Self )]\n$TOOLTIP_DELIMITER$\n[CanalType.GetDesc]"

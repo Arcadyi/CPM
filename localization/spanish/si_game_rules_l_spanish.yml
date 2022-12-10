@@ -1,0 +1,25 @@
+﻿l_spanish:
+ rule_si_automation_method:0 "Improved Automation: Reglas de automatización"
+ setting_si_economic_system_automation:0 "Dependientes del sistema económico"
+ setting_si_economic_system_automation_desc:0 "DEFECTO: La expansión automática tendrá diferentes reglas para la expansión cuando su economía sea Laissez Faire, Command o Interventionist. Este modo hará que diferentes economías se sientan diferentes."
+ setting_si_laissez_faire_automation:0 "Laissez Faire Lógica"
+ setting_si_laissez_faire_automation_desc:0 "La expansión automática utilizará las reglas de Laissez Faire para la expansión automática, verificando si el edificio actual tiene suficiente dinero, tiene un ingreso neto y cualquier otro modificador específico del edificio.."
+ setting_si_command_economy_automation:0 "Economía Dirigida Lógica"
+ setting_si_command_economy_automation_desc:0 "La expansión automática utilizará las reglas de Economía Dirigida para la expansión automática, verificando solo si el edificio tiene subsidio y cualquier otro modificador específico del edificio.."
+ setting_si_interventionism_automation:0 "Intervencionismo Lógica"
+ setting_si_interventionism_automation_desc:0 "La expansión automática utilizará las reglas del intervencionismo para la expansión automática, verificando si el edificio actual tiene suficiente dinero o está subsidiado, tiene ingresos netos y cualquier otro modificador específico del edificio."
+ 
+ rule_si_automation_time_prefrence:0 "Improved Automation: Preferencia de tiempo de automatización"
+ setting_si_short_time_prefrence:0 "Preferencia de tiempo corto"
+ setting_si_short_time_prefrence_desc:0 "Auto Expand no se activará a menos que haya menos de 15 semanas de construcción. Producción en curso. Este es el enfoque menos lento."
+ setting_si_vanilla_time_prefrence:0 "Preferencia de tiempo original"
+ setting_si_vanilla_time_prefrence_desc:0 "Auto Expand no se activará a menos que haya menos de 26 semanas de construcción. Producción en curso. Este es el ideal de Paradox."
+ setting_si_medium_time_prefrence:0 "Preferencia de tiempo medio"
+ setting_si_medium_time_prefrence_desc:0 "DEFECTO: Auto Expand no se activará a menos que haya menos de 30 semanas de construcción. Producción en curso. Esta es la elección de la comunidad."
+ setting_si_long_time_prefrence:0 "Preferencia de tiempo larga"
+ setting_si_long_time_prefrence_desc:0 "La expansión automática no se activará a menos que haya menos de 100 semanas de producción de construcción en curso. Esta es la versión menos lenta de la preferencia Infinite Time."
+ setting_si_infinite_time_prefrence:0 "Preferencia de tiempo infinita"
+ setting_si_infinite_time_prefrence_desc:0 "Auto Expand verificará si hay producción en curso. Este es el enfoque más lento."
+
+ NOT_TRIGGER_MARKET_ACCESS_EQUAL:0 "No tiene 100% de acceso al mercado"
+ 

@@ -11,7 +11,14 @@
 		
 		effect_starting_politics_reactionary = yes
 		
+		activate_law = law_type:law_religious_schools #Was none
+		
 		set_tax_level = medium
+		
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 2 #was none
+		}
 		
 		set_tariffs_import_priority = g:artillery
 		set_tariffs_import_priority = g:small_arms

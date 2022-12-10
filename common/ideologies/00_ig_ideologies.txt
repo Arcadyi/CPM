@@ -398,8 +398,8 @@ ideology_liberal = {
 	lawgroup_rights_of_women = {
 		law_no_womens_rights = disapprove
 		law_women_own_property = approve
-		law_women_in_the_workplace = neutral
-		law_womens_suffrage = neutral
+		law_women_in_the_workplace = approve #neutral
+		law_womens_suffrage = strongly_approve #neutral
 	}
 }
 

@@ -1,0 +1,34 @@
+﻿l_japanese:
+ 
+ building_hydroelectric_power_plant:0 "水力発電所"
+
+ pmg_base_building_hydroelectric_power_plant:0 "水力発電"
+ pm_hydroelectric_plant:0 "水力発電"
+
+ pm_transmission_method:0 "送電方法"
+ pm_transmission_method_direct_current:0 "直流"
+ pm_transmission_method_alternating_current:0 "交流"
+
+# omit.. other in WIP.
+
+ state_trait_hangang_river:0 "漢江"
+ state_trait_daedong_river:0 "大同江" # is Equal Taedong River, Present of DPRK?
+ state_trait_geumgang_river:0 "錦江" # is Equal Geum River, Present of ROK?
+ state_trait_nakdong_river:0 "洛東江"
+
+ state_trait_arakawa_river:0 "荒川"
+ state_trait_yodo_river:0 "淀川"
+ state_trait_hirose_river:0 "広瀬川"
+
+ state_trait_meuse_river:0 "マース川"
+ state_trait_gironde_river:0 "ジロンド川"
+ state_trait_capital_of_white_coal:0 "白炭の首都"
+ 
+ state_trait_jotunheimen_river:0 "ヨトゥンの家江"
+ state_trait_glomma_river:0 "グロンマ江"
+ state_trait_nordfjella_river:0 "ノルドフィエラ江"
+ 
+ state_trait_magdalena_river:0 "マグダレナ江"
+ state_trait_orinoco_river:0 "オリノコ江"
+ 
+ state_trait_colorado_river:0 "コロラド江"

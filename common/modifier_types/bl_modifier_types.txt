@@ -1,0 +1,35 @@
+﻿state_mortality_wealth_mult = {
+	good = no
+	percent = yes
+	num_decimals = 1
+}
+
+state_mortality_turmoil_mult = {
+	good = no
+	percent = yes
+	num_decimals = 1
+}
+
+state_birth_rate_mult = {
+	good = yes
+	percent = yes
+	num_decimals = 1
+}
+
+state_conscription_rate_add = {
+	good = yes
+	percent = yes
+	num_decimals = 1
+}
+
+state_working_adult_ratio_add = {
+	good = yes
+	percent = yes
+	num_decimals = 1
+}
+
+state_accepted_birth_rate_mult = {
+	good = yes
+	percent = yes
+	num_decimals = 1
+}

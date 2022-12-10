@@ -4,7 +4,8 @@
 	strata = middle
 	start_quality_of_life = 10
 	wage_weight = 4
-	literacy_target = 0.40
+	literacy_target = 0.50
+	education_access = 0.50 #was none
 	dependent_wage = 0.5	# per year
 	unemployment = yes
 	
@@ -25,7 +26,7 @@
 				value = 1
 			}		
 		}
-	
+
 		multiply = {
 			desc = "POP_WORKPLACE"
 			value = 1
@@ -35,7 +36,7 @@
 				}
 				value = 0.5
 			}
-		}	
+		}
 	}
 	
 	qualifications_growth_desc = "BUREAUCRATS_QUALIFICATIONS_DESC"
@@ -49,7 +50,7 @@
 			add = {
 				value = literacy_rate
 				subtract = 0.2
-				multiply = 20
+				multiply = 25 #was 20
 				desc = "QUALIFICATIONS_LITERACY_FACTOR"
 			}
 			if = {
@@ -64,10 +65,19 @@
 			}
 			if = {
 				limit = {
+					is_pop_type = officers
+				}
+				multiply = {
+					value = 2.5
+					desc = "QUALIFICATIONS_FAVORED_TYPE"
+				}
+			}
+			if = {
+				limit = {
 					is_pop_type = clerks
 				}
 				multiply = {
-					value = 5
+					value = 10 #was 5
 					desc = "QUALIFICATIONS_FAVORED_TYPE"
 				}
 			}
@@ -82,10 +92,19 @@
 			}
 			if = {
 				limit = {
+					is_pop_type = engineers
+				}
+				multiply = {
+					value = 5 #was none
+					desc = "QUALIFICATIONS_FAVORED_TYPE"
+				}
+			}
+			if = {
+				limit = {
 					culture_accepted = no
 				}
 				multiply = {
-					value = 0.1
+					value = 0.01 #was 0.1
 					desc = "QUALIFICATIONS_CULTURAL_DISCRIMINATION"
 				}
 			}

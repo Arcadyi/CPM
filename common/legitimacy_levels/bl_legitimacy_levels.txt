@@ -1,0 +1,15 @@
+﻿legitimacy_level_righteous = {
+	threshold = 90
+
+	modifier = {
+		state_loyalists_from_sol_change_mult = 0.25
+		country_law_enactment_time_mult = -0.25
+	}
+
+	# Loyalists will multiply by 3.0% - 5.0% each month
+	loyalties_gain = {
+		value = legitimacy
+		subtract = 75
+		multiply = 0.002
+	}
+}

@@ -235,7 +235,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 1291006
+				size = 2291006
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -244,7 +244,11 @@
 			}
 			create_pop = {
 				culture = manchu
-				size = 801994
+				size = 2801994
+			}
+			create_pop = {
+				culture = korean
+				size = 204000
 			}
 		}
 	}
@@ -268,15 +272,15 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = manchu
-				size = 5210800
+				size = 2210800
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 3011992
+				size = 1011992
 			}
 			create_pop = {
 				culture = korean
-				size = 504000
+				size = 304000
 			}
 			create_pop = {
 				culture = mongol
@@ -1358,7 +1362,7 @@
 		region_state:KOR = {
 			create_pop = {
 				culture = korean
-				size = 2818978
+				size = 2617467
 			}
 		}
 	}
@@ -1366,7 +1370,7 @@
 		region_state:KOR = {
 			create_pop = {
 				culture = korean
-				size = 3596627
+				size = 3102183
 			}
 		}
 	}
@@ -1374,7 +1378,7 @@
 		region_state:KOR = {
 			create_pop = {
 				culture = korean
-				size = 4552487
+				size = 4265502
 			}
 		}
 	}
@@ -1382,7 +1386,7 @@
 		region_state:KOR = {
 			create_pop = {
 				culture = korean
-				size = 1620102
+				size = 1680349
 			}
 		}
 	}
@@ -1390,7 +1394,7 @@
 		region_state:KOR = {
 			create_pop = {
 				culture = korean
-				size = 3612828
+				size = 3134497
 			}
 		}
 	}

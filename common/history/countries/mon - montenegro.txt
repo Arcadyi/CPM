@@ -11,6 +11,13 @@
 		activate_law = law_type:law_traditionalism
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_land_based_taxation		
+		
+		activate_law = law_type:law_religious_schools #Was none
+		
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 1
+		}
 
 		ig:ig_devout = {
 			set_interest_group_name = ig_orthodox_church

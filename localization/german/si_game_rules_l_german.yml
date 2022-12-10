@@ -1,0 +1,25 @@
+﻿l_german:
+ rule_si_automation_method:0 "Improved Automation: Automatisierungsregeln"
+ setting_si_economic_system_automation:0 "Abhängig vom Wirtschaftssystem"
+ setting_si_economic_system_automation_desc:0 "STANDARD: Die automatische Erweiterung hat andere Regeln für die Erweiterung, wenn Ihre Wirtschaft Laissez Faire, Command oder Interventionist ist. In diesem Modus werden sich verschiedene Economies unterschiedlich anfühlen."
+ setting_si_laissez_faire_automation:0 "Laissez Faire Logik"
+ setting_si_laissez_faire_automation_desc:0 "Automatisches Erweitern verwendet die Laissez-Faire-Regeln für das automatische Erweitern und überprüft, ob das aktuelle Gebäude genug Geld hat, ein Nettoeinkommen hat und alle anderen gebäudespezifischen Modifikatoren."
+ setting_si_command_economy_automation:0 "Planwirtschaft Logik"
+ setting_si_command_economy_automation_desc:0 "Automatische Erweiterung verwendet die Planwirtschaft-Regeln für die automatische Erweiterung und prüft nur, ob das Gebäude Subventionen und andere gebäudespezifische Modifikatoren aufweist."
+ setting_si_interventionism_automation:0 "Interventionismus Logik"
+ setting_si_interventionism_automation_desc:0 "Automatische Erweiterung verwendet die Interventionismus-Regeln für die automatische Erweiterung und prüft, ob das aktuelle Gebäude genug Geld hat oder subventioniert wird, ein Nettoeinkommen hat und alle anderen gebäudespezifischen Modifikatoren."
+ 
+ rule_si_automation_time_prefrence:0 "Improved Automation: Automatisierungszeitpräferenz"
+ setting_si_short_time_prefrence:0 "Kurzzeitpräferenz"
+ setting_si_short_time_prefrence_desc:0 "Auto Expand wird nicht ausgelöst, es sei denn, es sind weniger als 15 Wochen Bauzeit im Gange. Dies ist der Ansatz mit der geringsten Verzögerung."
+ setting_si_vanilla_time_prefrence:0 "Standartzeitpräferenz"
+ setting_si_vanilla_time_prefrence_desc:0 "Auto Expand wird nicht ausgelöst, es sei denn, es sind weniger als 26 Wochen Bauzeit im Gange. Das ist das Ideal von Paradox."
+ setting_si_medium_time_prefrence:0 "Mittlerezeitpräferenz"
+ setting_si_medium_time_prefrence_desc:0 "STANDARD: Auto Expand wird nicht ausgelöst, es sei denn, es sind weniger als 30 Wochen Bauzeit im Gange. Dies ist die Community-Wahl."
+ setting_si_long_time_prefrence:0 "Langzeitpräferenz"
+ setting_si_long_time_prefrence_desc:0 "Auto Expand wird nicht ausgelöst, es sei denn, es sind weniger als 100 Wochen Bauzeit im Gange. Dies ist die weniger verzögerte Version der Einstellung „Unendliche Zeitpräferenz“."
+ setting_si_infinite_time_prefrence:0 "Unendliche Zeitpräferenz"
+ setting_si_infinite_time_prefrence_desc:0 "Auto Expand prüft nur, ob die Produktion läuft. Dies ist der verzögerteste Ansatz."
+
+ NOT_TRIGGER_MARKET_ACCESS_EQUAL:0 "Hat keinen 100% Marktzugang"
+ 

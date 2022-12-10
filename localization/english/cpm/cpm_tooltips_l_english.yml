@@ -1,0 +1,22 @@
+﻿l_english:
+#CPM
+# Turmoil in Hungarian Austria
+austriaturmoiltooltip:0 " [SCOPE.sCountry('austriascope').GetName] will get Turmoil on all [SCOPE.sCulture('hungarianscope').GetName] lands."
+austriaturmoiltooltipwin:0 " [SCOPE.sCountry('austriascope').GetName] will lose Turmoil effects on all [SCOPE.sCulture('hungarianscope').GetName] lands."
+concept_convoy_desc:0 "Convoy"
+russiaacceptshelp:0 "[SCOPE.sCountry('russia_scope').GetName] will assist [SCOPE.sCountry('austriascope').GetName] in their war."
+hungarianrevolutionover:0 " The Hungarian Revolution has been crushed. "
+# Prussian Market Acceptance 
+DIPLOMATIC_ACCEPTANCE_PRUSSIA:0 "Zollverein"
+losesaustrianclaimshun:0 "Austria will lose all claims to Hungary"
+askingrussiahungary:0 "We shall ask [SCOPE.sCountry('russia_scope').GetName] for assistance."
+austriaturmoil:0 "Hungarian Seperatists"
+russiarejectsshelp:0 "[SCOPE.sCountry('russia_scope').GetName] will refuse to send any assistance to [SCOPE.sCountry('austriascope').GetName]"
+# NFM Tooltips
+ ai_strategy_mexico_defend_the_north:0 "Defend the North"
+ ai_strategy_mexico_defend_the_north_desc:0 "Mexico wishes to prevent the loss of her Northern frontier."
+# Alaska Purchase
+
+#
+ai_hungary_gain_independence:0 "Gain Independence"
+ai_hungary_gain_independence_desc:0 "This nation seeks to gain independence and will not back down from a fight with its overlord."

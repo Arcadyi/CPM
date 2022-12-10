@@ -1,0 +1,122 @@
+﻿CRH = 
+{
+	color = { 99 144 153 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { dutch north_german south_german swiss flemish wallonian }
+	capital = STATE_WESTPHALIA
+}
+BXN = 
+{
+	color = { 238 157 38 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { dutch flemish wallonian }
+	capital = STATE_HOLLAND
+}
+RMN = 
+{
+	color = { 162 58 58 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { north_italian south_italian maltese spanish catalan portuguese french occitan albanian romanian armenian greek georgian north_caucasian }
+	capital = STATE_LAZIO
+}
+IPF = 
+{
+	color = { 114 26 29 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { british scottish welsh irish dixie yankee afro_american cajun australian maltese anglo_canadian franco-canadian boer bengali manipuri bihari telegu tamil malayalam afro_caribbean afro_antillean nez_perce navajo metis athabaskan caddoan paiute siouan salish dakota cherokee muskogean inuit cree rajput maori aborigine sindi marathi sinhala oriya dayak gujarati burmese nepali kachin assamese karen pashtun kashmiri kannada panjabi }
+	capital = STATE_HOME_COUNTIES
+}
+GRS = 
+{
+	color = { 40 56 82 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { north_german south_german swiss }
+	capital = STATE_BRANDENBURG
+}
+PSL = 
+{
+	color = { 45 80 53 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { russian ukrainian byelorussian bosniak bulgarian serb croat slovene north_caucasian slovak polish czech sorb }
+	capital = STATE_BREST
+}
+BLI = 
+{
+	color = { 58 91 133 }
+	
+	country_type = unrecognized
+
+	tier = empire
+	
+	cultures = { luo lacustrine_bantu baganda ruanda rundi nilotic maasai fluvian_bantu luba unyamwezi mongo azande yao nuer dinka equatorial_bantu }
+	capital = STATE_UGANDA
+}
+SML = 
+{
+	color = { 123 108 187 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { somali }
+	capital = STATE_UGANDA
+}
+TMR = 
+{
+	color = { 187 98 104 }
+	
+	country_type = unrecognized
+
+	tier = empire
+	
+	cultures = { turkmen uzbek kazak kirgiz tajik }
+	capital = STATE_MAZANDARAN
+}
+GOI = 
+{
+	color = { 27 142 76 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { irish scottish }
+	capital = STATE_ULSTER
+}
+BYH = 
+{
+	color = { 64 145 103 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { welsh breton }
+	capital = STATE_WALES
+}
+	

@@ -56,6 +56,13 @@
 	building_synthetics_plants = {"african_glassworks_manufactory_01_mesh"}
 	building_electrics_industry = {"african_manufactory_02_mesh"}
 	building_power_plant = {"african_manufactory_01_mesh"}
+	building_hydroelectric_power_plant = {"african_manufactory_01_mesh"}
+	building_refinery = {"african_colonial_manufactory_02_mesh"}
+	building_ironworks = {"african_manufactory_01_mesh"}
+	building_lead_refineries = {"african_manufactory_02_mesh"}
+	building_coal_refineries = {"african_colonial_manufactory_01_mesh"}
+	building_sulfur_refineries = {"african_colonial_manufactory_02_mesh"}
+	building_gold_refineries = {"african_colonial_manufactory_03_mesh"}
 
 	building_suez_canal = {"canal_suezcanal_01_mesh"}
 	building_panama_canal = {"canal_panamacanal_01_mesh"}

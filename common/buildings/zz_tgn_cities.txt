@@ -25,9 +25,9 @@
 	
 	can_build = {
 		custom_tooltip = {
-			text = tgn_ottawa_buildable_building_tooltip
+			text = cpm_ottawa_buildable_building_tooltip
 			has_global_variable = ottawa_buildable
-			has_global_variable = tgn_province_of_canada_formed_on
+			has_global_variable = cpm_province_of_canada_formed_on
 		}
 		error_check = {
 			severity = invalid
@@ -36,7 +36,7 @@
 			}
 		}
 		custom_tooltip = {
-			text = tgn_ottawa_buildable_building_country_tooltip
+			text = cpm_ottawa_buildable_building_country_tooltip
 			owner = {
 				has_modifier = canada_tgnxxx_ontario
 			}
@@ -70,9 +70,9 @@ building_montreal = {
 	
 	can_build = {
 		custom_tooltip = {
-			text = tgn_ottawa_buildable_building_tooltip
+			text = cpm_ottawa_buildable_building_tooltip
 			has_global_variable = ottawa_buildable
-			has_global_variable = tgn_province_of_canada_formed_qc
+			has_global_variable = cpm_province_of_canada_formed_qc
 		}
 		error_check = {
 			severity = invalid
@@ -81,7 +81,7 @@ building_montreal = {
 			}
 		}
 		custom_tooltip = {
-			text = tgn_ottawa_buildable_building_country_tooltip
+			text = cpm_ottawa_buildable_building_country_tooltip
 			owner = {
 				has_modifier = canada_tgnxxx_quebec
 			}

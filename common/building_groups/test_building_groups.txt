@@ -1,0 +1,22 @@
+﻿bg_bureaucracy = {
+	parent_group = bg_government
+	
+	should_auto_expand = { 
+		government_auto_expand_rule = yes
+	}
+}
+
+bg_private_infrastructure = {
+	parent_group = bg_infrastructure
+	
+	is_government_funded = no
+	subsidized = yes
+	
+	cash_reserves_max = 25000
+	
+	urbanization = 5
+	
+	should_auto_expand = { 
+		railway_auto_expand_rule = yes
+	}
+}

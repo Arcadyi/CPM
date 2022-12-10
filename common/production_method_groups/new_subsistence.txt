@@ -1,0 +1,92 @@
+﻿pmg_base_building_subsistence_china = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_subsistence_china
+	}
+}
+
+pmg_base_building_subsistence_east_asia = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_subsistence_east_asia
+	}
+}
+
+pmg_base_building_subsistence_south_east_asia = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_subsistence_south_east_asia
+	}
+}
+
+pmg_base_building_subsistence_india = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_subsistence_india
+	}
+}
+
+pmg_base_building_subsistence_central_asia = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_subsistence_central_asia
+	}
+}
+
+pmg_base_building_subsistence_russia = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_subsistence_russia
+	}
+}
+
+pmg_base_building_subsistence_mediterranean = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_subsistence_mediterranean
+	}
+}
+
+pmg_base_building_subsistence_european = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_subsistence_european
+	}
+}
+
+pmg_base_building_subsistence_north_america = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_subsistence_north_america
+	}
+}
+
+pmg_base_building_subsistence_tropical = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_subsistence_tropical
+	}
+}
+
+pmg_base_building_subsistence_arctic = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_subsistence_arctic
+	}
+}
+
+pmg_base_building_subsistence_dry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_subsistence_dry
+	}
+}
+
+pmg_base_building_subsistence_middle_eastern = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_subsistence_middle_eastern
+	}
+}
+
+

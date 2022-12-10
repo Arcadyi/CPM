@@ -1,0 +1,35 @@
+﻿si_automation_method = {
+	default = si_economic_system_automation
+	si_economic_system_automation = {
+        
+    }
+	si_laissez_faire_automation = {
+        
+    }
+    si_command_economy_automation = {
+        
+    }
+    si_interventionism_automation = {
+        
+    }
+}
+
+si_automation_time_prefrence = {
+	default = si_medium_time_prefrence
+
+	si_short_time_prefrence = {
+        
+    }
+    si_vanilla_time_prefrence = {
+        
+    }	
+    si_medium_time_prefrence = {
+        
+    }
+    si_long_time_prefrence = {
+        
+    }
+    si_infinite_time_prefrence = {
+        
+    }
+}

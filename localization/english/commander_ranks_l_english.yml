@@ -6,17 +6,17 @@
   # _fallback = suffix for if no dynamic description trigger matches
   
  commander_rank_1:0 "Commander Rank 1"
- commander_rank_1_general:0 "Brigadier General"
+ commander_rank_1_general:0 "Brigadier"
  commander_rank_1_admiral:0 "Commodore"
  commander_rank_1_fallback:0 "$commander_rank_1_general$ / $commander_rank_1_admiral$?"
  
  commander_rank_2:0 "Commander Rank 2"
- commander_rank_2_general:0 "Major General"
+ commander_rank_2_general:0 "Major"
  commander_rank_2_admiral:0 "Rear Admiral"
  commander_rank_2_fallback:0 "$commander_rank_2_general$ / $commander_rank_2_admiral$?"
  
  commander_rank_3:0 "Commander Rank 3"
- commander_rank_3_general:0 "Lieutenant General"
+ commander_rank_3_general:0 "Lieutenant"
  commander_rank_3_admiral:0 "Vice Admiral"
  commander_rank_3_fallback:0 "$commander_rank_3_general$ / $commander_rank_3_admiral$?"
  

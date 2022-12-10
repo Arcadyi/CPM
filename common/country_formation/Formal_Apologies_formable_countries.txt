@@ -1,0 +1,253 @@
+﻿CRH = 
+{
+	states = 
+	{
+		STATE_GELRE
+		STATE_FRIESLAND
+		STATE_HOLLAND
+		STATE_WESTPHALIA
+		STATE_RHINELAND
+		STATE_NORTH_RHINE
+		STATE_HESSE
+		STATE_HANNOVER
+		STATE_BADEN
+		STATE_WALLONIA
+		STATE_FLANDERS
+		STATE_ALSACE_LORRAINE
+		STATE_EAST_SWITZERLAND
+		STATE_WEST_SWITZERLAND
+	}
+	
+	required_states_fraction = 0.70	
+	
+	ai_will_do = { always = no }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = pan-nationalism
+	}
+}
+BXN = 
+{
+	states = 
+	{
+		STATE_GELRE
+		STATE_FRIESLAND
+		STATE_HOLLAND
+		STATE_WALLONIA
+		STATE_FLANDERS
+	}
+	
+	required_states_fraction = 0.85	
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = nationalism
+	}
+}
+GRS = 
+{
+	states = 
+	{
+		STATE_BRANDENBURG
+		STATE_MECKLENBURG
+		STATE_POMERANIA
+		STATE_WEST_PRUSSIA
+		STATE_EAST_PRUSSIA
+		STATE_POSEN
+		STATE_SILESIA
+		STATE_SAXONY
+		STATE_ANHALT
+		STATE_ELBE
+		STATE_HANNOVER
+		STATE_BRUNSWICK
+		STATE_ALSACE_LORRAINE
+		STATE_WESTPHALIA
+		STATE_NORTH_RHINE
+		STATE_GELRE
+		STATE_FRIESLAND
+		STATE_HOLLAND
+		STATE_FRANCHE_COMTE
+		STATE_WALLONIA
+		STATE_FLANDERS
+		STATE_BADEN
+		STATE_WEST_SWITZERLAND
+		STATE_EAST_SWITZERLAND
+		STATE_WURTTEMBERG
+		STATE_RHINELAND
+		STATE_FRANCONIA
+		STATE_HESSE
+		STATE_BAVARIA
+		STATE_TYROL
+		STATE_SOUTH_TYROL
+		STATE_STYRIA
+		STATE_AUSTRIA
+		STATE_ISTRIA
+		STATE_SLOVENIA
+		STATE_CROATIA
+		STATE_SLAVONIA
+		STATE_DALMATIA
+		STATE_BOSNIA
+		STATE_BOHEMIA
+		STATE_MORAVIA
+		STATE_WEST_GALICIA
+		STATE_EAST_GALICIA
+		STATE_SCHLESWIG_HOLSTEIN
+		STATE_JUTLAND
+		STATE_ZEALAND
+		STATE_CENTRAL_HUNGARY
+		STATE_TRANSDANUBIA
+		STATE_DELVIDEK
+		STATE_BEKES
+		STATE_BANAT
+		STATE_WEST_SLOVAKIA
+		STATE_EAST_SLOVAKIA
+		STATE_NORTHERN_TRANSYLVANIA
+		STATE_SOUTHERN_TRANSYLVANIA
+		STATE_SCANIA
+		STATE_LITHUANIA
+		STATE_LATVIA
+		STATE_ESTONIA
+		STATE_MAZOVIA
+		STATE_BREST
+		STATE_VOLHYNIA
+		STATE_GREATER_POLAND
+		STATE_LESSER_POLAND
+		STATE_INGRIA
+		STATE_GOTLAND
+		STATE_ALAND
+		STATE_MONTENEGRO
+		STATE_CHAMPAGNE
+		STATE_SAVOY
+		STATE_LOMBARDY
+		STATE_VENETIA
+	}
+	
+	required_states_fraction = 0.95
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = pan-nationalism
+	}
+}
+BLI = 
+{
+	states = 
+	{
+		STATE_UGANDA
+		STATE_TANGANYIKA
+		STATE_RIFT_VALLEY
+	}
+	
+	required_states_fraction = 0.35
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = centralization
+	}
+}
+SML = 
+{	
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = yes
+	
+	possible = 
+	{
+		has_technology_researched = centralization
+	}
+}
+TMR = 
+{	
+	states = 
+	{
+		STATE_TURKMENIA
+		STATE_UZBEKIA
+		STATE_KHIVA
+		STATE_URALSK
+		STATE_AKMOLINSK
+		STATE_SEMIRECHE
+		STATE_MAZANDARAN
+		STATE_ISFAHAN
+		STATE_IRAKAJEMI
+		STATE_KHORASAN
+		STATE_BALUCHISTAN
+		STATE_WESTERN_AFGHANISTAN
+		STATE_EASTERN_AFGHANISTAN
+		STATE_PUNJAB
+		STATE_BALUCHISTAN
+		STATE_KASHMIR
+		STATE_PASHTUNISTAN
+		STATE_TAJIKISTAN
+		STATE_KIRGHIZIA
+		STATE_KHORASAN
+		STATE_ILI
+	}
+	required_states_fraction = 0.70
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = nationalism
+	}
+}
+GOI = 
+{	
+	states = 
+	{
+		STATE_LEINSTER
+		STATE_ULSTER
+		STATE_MUNSTER
+		STATE_CONNAUGHT
+		STATE_LOWLANDS
+		STATE_HIGHLANDS
+	}
+	required_states_fraction = 0.80
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = nationalism
+	}
+}
+BYH = 
+{	
+	states = 
+	{
+		STATE_WALES
+		STATE_BRITTANY
+		STATE_WEST_COUNTRY
+	}
+	required_states_fraction = 0.80
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = nationalism
+	}
+}

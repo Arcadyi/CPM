@@ -5,6 +5,7 @@
 	start_quality_of_life = 20
 	wage_weight = 6
 	literacy_target = 0.70
+	education_access = 0.25 #was none
 	dependent_wage = 0.0	# per year
 	unemployment = yes
 	
@@ -24,7 +25,7 @@
 				}
 				value = 1
 			}		
-		}	
+		}
 		
 		multiply = {
 			desc = "POP_WORKPLACE"
@@ -35,7 +36,7 @@
 				}
 				value = 0.75
 			}
-		}		
+		}
 	}	
 	
 	qualifications_growth_desc = "CAPITALISTS_QUALIFICATIONS_DESC"
@@ -44,6 +45,7 @@
 			limit = {
 				is_peasant_under_serfdom = no 
 				wealth > 10
+				literacy_rate > 0.2 #Was none
 			}
 			# baseline: ( wealth - 10 ) / 10 + ( literacy * 2 ), norm 2 for Wealth 20 and Literacy 50%
 			add = {
@@ -54,15 +56,33 @@
 			}
 			add = {
 				value = literacy_rate
-				multiply = 2
+				multiply = 5
 				desc = "QUALIFICATIONS_LITERACY_FACTOR"
+			}
+			if = {
+				limit = {
+					is_pop_type = aristocrats
+				}
+				multiply = {
+					value = 5 #was none
+					desc = "QUALIFICATIONS_FAVORED_TYPE"
+				}
+			}
+			if = {
+				limit = {
+					is_pop_type = bureaucrats
+				}
+				multiply = {
+					value = 5 #was none
+					desc = "QUALIFICATIONS_FAVORED_TYPE"
+				}
 			}
 			if = {
 				limit = {
 					is_pop_type = shopkeepers
 				}
 				multiply = {
-					value = 5
+					value = 10 #was 10
 					desc = "QUALIFICATIONS_FAVORED_TYPE"
 				}
 			}
@@ -71,7 +91,7 @@
 					is_pop_type = engineers
 				}
 				multiply = {
-					value = 5
+					value = 10 #was 10
 					desc = "QUALIFICATIONS_FAVORED_TYPE"
 				}
 			}
@@ -80,7 +100,7 @@
 					culture_accepted = no
 				}
 				multiply = {
-					value = 0.1
+					value = 0.01 #was 0.1
 					desc = "QUALIFICATIONS_CULTURAL_DISCRIMINATION"
 				}
 			}

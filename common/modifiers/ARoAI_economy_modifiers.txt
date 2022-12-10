@@ -1,0 +1,56 @@
+﻿ec_10_percent_accelerated_construction = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_construction_mult = 0.10
+}
+
+ec_20_percent_accelerated_construction = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_construction_mult = 0.20
+}
+
+ec_30_percent_accelerated_construction = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_construction_mult = 0.30
+}
+
+ec_40_percent_accelerated_construction = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_construction_mult = 0.40
+}
+
+ec_50_percent_accelerated_construction = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_construction_mult = 0.50
+}
+
+ec_autobuild_settings = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+}
+
+ec_wartime_spending = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+}
+
+ec_government_administration_cooldown = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+}
+
+ec_construction_sector_cooldown = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+}
+
+ec_university_cooldown = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+}
+
+ec_port_cooldown = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+}
+
+ec_barracks_cooldown = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+}
+
+ec_naval_base_cooldown = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+}

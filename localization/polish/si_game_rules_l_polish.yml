@@ -1,0 +1,25 @@
+﻿l_polish:
+ rule_si_automation_method:0 "Improved Automation: Zasady automatyzacji"
+ setting_si_economic_system_automation:0 "Zależne od systemu gospodarczego"
+ setting_si_economic_system_automation_desc:0 "DOMYŚLNA: Auto Expand będzie miało inne zasady ekspansji, gdy twoja gospodarka to Laissez Faire, Command lub Interventionist. Ten tryb sprawi, że różne ekonomie będą wyglądać inaczej"
+ setting_si_laissez_faire_automation:0 "Laissez Faire Logika"
+ setting_si_laissez_faire_automation_desc:0 "Auto Expand użyje zasad Laissez Faire do automatycznej ekspansji, sprawdzając, czy obecny budynek ma wystarczającą ilość pieniędzy, dochód netto i wszelkie inne modyfikatory specyficzne dla budynku."
+ setting_si_command_economy_automation:0 "Ekonomia poleceń Logika"
+ setting_si_command_economy_automation_desc:0 "Auto Expand użyje zasad Ekonomia poleceń do automatycznej rozbudowy, sprawdzając tylko, czy budynek ma dotacje i wszelkie inne modyfikatory specyficzne dla budynku."
+ setting_si_interventionism_automation:0 "interwencjonizm Logika"
+ setting_si_interventionism_automation_desc:0 "Auto Expand użyje zasad interwencjonizmu do automatycznej rozbudowy, sprawdzając, czy obecny budynek ma wystarczającą ilość pieniędzy lub jest dotowany, ma dochód netto i wszelkie inne modyfikatory specyficzne dla budynku."
+ 
+ rule_si_automation_time_prefrence:0 "Improved Automation: Preferencja czasu automatyzacji"
+ setting_si_short_time_prefrence:0 "Preferencja krótkiego czasu"
+ setting_si_short_time_prefrence_desc:0 "Auto Expand nie uruchomi się, chyba że trwa mniej niż 15 tygodni budowy. Produkcja w toku. To najmniej opóźnione podejście."
+ setting_si_vanilla_time_prefrence:0 "Preferencja oryginalna czasu"
+ setting_si_vanilla_time_prefrence_desc:0 "Auto Expand nie uruchomi się, chyba że trwa mniej niż 26 tygodni budowy. Produkcja w toku. To jest ideał Paradoxu."
+ setting_si_medium_time_prefrence:0 "Preferencja średnia czasu"
+ setting_si_medium_time_prefrence_desc:0 "DOMYŚLNA: Auto Expand nie uruchomi się, chyba że trwa mniej niż 30 tygodni budowy. Produkcja w toku. To jest wybór społeczności."
+ setting_si_long_time_prefrence:0 "Preferencja długiego czasu"
+ setting_si_long_time_prefrence_desc:0 "Auto Expand nie uruchomi się, chyba że trwa mniej niż 100 tygodni budowy. Produkcja w toku. Jest to mniej opóźniona wersja Preferencja Nieskończona czasu."
+ setting_si_infinite_time_prefrence:0 "Preferencja Nieskończona czasu"
+ setting_si_infinite_time_prefrence_desc:0 "Auto Expand sprawdzi, czy trwa produkcja. To najbardziej opóźnione podejście."
+
+ NOT_TRIGGER_MARKET_ACCESS_EQUAL:0 "Nie ma 100% dostępu do rynku"
+ 

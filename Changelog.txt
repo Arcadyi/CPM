@@ -1,4 +1,5 @@
 The Community Project Mod Changelog
+## Rework branch, All non-UI flavor mods will be directly integrated
 Credit: All mods / mod ideas used linked below:
 		#QOL Mods
 		State transfer tool - https://steamcommunity.com/sharedfiles/filedetails/?id=2880446671
@@ -155,3 +156,23 @@ Credit: All mods / mod ideas used linked below:
 		- Fixed not being able to play as CSA when ACW starts.
 		- Fixes to Heightmap and terrain, some provinces should look more realistic now.
 		- Dense Market Details & Dense trade Routes fixed.
+      # v.2.4 
+		- Better Decrees
+		- Better and Flavorful Laws
+		- Cities: skylines
+		- Realistic Power Plants (and additional mesh fixes)
+		- Historical Population Growth & Resources
+		- More spreadsheets 
+		- Dense military tab
+		- Ultra historical research
+		- Minor Economy Modifications
+		- Improved building grid
+		- Navy Needs Fuel
+		- Improved Australia
+		- Improved automation
+		- Construction Queue with States
+		- ARoAI + com patches for RPP & N&M
+		- Newspapers & magazines
+		- Visible pop needs
+
+

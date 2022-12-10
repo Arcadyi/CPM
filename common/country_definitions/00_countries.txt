@@ -187,15 +187,15 @@ GRI = {
 	capital = STATE_AMAZONAS
 }
 
-JAP = {
-	color = { 194 53 60 }
-	country_type = unrecognized
-	
-	tier = empire
-	
-	cultures = { japanese }
-	capital = STATE_KANSAI
-}
+#JAP = {
+#	color = { 194 53 60 }
+#	country_type = unrecognized
+#	
+#	tier = empire
+#	
+#	cultures = { japanese }
+#	capital = STATE_KANSAI
+#}
 
 ITA = {
 	color = { 125  171  84 }
@@ -807,17 +807,17 @@ CRI = {
 	is_named_from_capital = yes
 }
 
-EST = {
-	color = { 179  29  100 }
-	
-	country_type = recognized
-
-	tier = principality
-	
-	cultures = { estonian }
-	capital = STATE_ESTONIA
-	is_named_from_capital = yes
-}
+#EST = {
+#	color = { 179  29  100 }
+#	
+#	country_type = recognized
+#
+#	tier = principality
+#	
+#	cultures = { estonian }
+#	capital = STATE_ESTONIA
+#	is_named_from_capital = yes
+#}
 
 HUN = {
 	color = { 152  85  92 }
@@ -1049,16 +1049,16 @@ MON = {
 	is_named_from_capital = yes
 }
 
-ROM = {
-	color = { 21  96  178 }
-	
-	country_type = recognized
-
-	tier = kingdom
-	
-	capital = STATE_WALLACHIA
-	cultures = { romanian }
-}
+#ROM = {
+#	color = { 21  96  178 }
+#	
+#	country_type = recognized
+#
+#	tier = kingdom
+#	
+#	capital = STATE_WALLACHIA
+#	cultures = { romanian }
+#}
 
 SER = {
 	color = { 166  72  57 }
@@ -2092,19 +2092,19 @@ HAI = {
 	capital = STATE_HAITI
 }
 
-MEX = {
-	color = { 56 143 53 }
-	
-	country_type = colonial
-	
-	#173  242  175
-
-	tier = kingdom
-	
-	cultures = { mexican }
-	capital = STATE_MEXICO
-	is_named_from_capital = yes
-}
+#MEX = {
+#	color = { 56 143 53 }
+#	
+#	country_type = colonial
+#	
+#	#173  242  175
+#
+#	tier = kingdom
+#	
+#	cultures = { mexican }
+#	capital = STATE_MEXICO
+#	is_named_from_capital = yes
+#}
 
 MTC = {
 	color = { 221  186  163 }

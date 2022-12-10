@@ -1,0 +1,25 @@
+﻿l_turkish:
+ rule_si_automation_method:0 "Improved Automation: Otomasyon Kuralları"
+ setting_si_economic_system_automation:0 "Ekonomik Sisteme Bağlıdır"
+ setting_si_economic_system_automation_desc:0 "VARSAYILAN: Ekonominiz Laissez Faire, Planlı Ekonomi veya Müdahalecilik olduğunda, Otomatik Genişlet'in büyümek için farklı kuralları olacaktır. Bu mod, farklı Ekonomilerin farklı hissetmesini sağlayacaktır."
+ setting_si_laissez_faire_automation:0 "Laissez Faire Mantık"
+ setting_si_laissez_faire_automation_desc:0 "Otomatik Genişlet, otomatik genişletme için Laissez Faire kurallarını kullanarak mevcut binanın yeterli parası olup olmadığını, net geliri olup olmadığını ve binaya özgü diğer değiştiricileri kontrol edecektir."
+ setting_si_command_economy_automation:0 "Planlı Ekonomi Mantık"
+ setting_si_command_economy_automation_desc:0 "Otomatik Genişlet, otomatik genişleme için Komuta Ekonomisi kurallarını kullanacak ve yalnızca binanın oturması ve diğer binaya özgü değiştiriciler olup olmadığını kontrol edecektir."
+ setting_si_interventionism_automation:0 "Müdahalecilik Mantık"
+ setting_si_interventionism_automation_desc:0 "Otomatik Genişlet, mevcut binanın yeterli paraya sahip olup olmadığını veya sübvanse edilip edilmediğini, net geliri olup olmadığını ve binaya özgü diğer değiştiricileri kontrol ederek otomatik genişleme için Müdahalecilik kurallarını kullanacaktır."
+ 
+ rule_si_automation_time_prefrence:0 "Improved Automation: Otomasyon Zaman Tercihi"
+ setting_si_short_time_prefrence:0 "Kısa Süre Tercihi"
+ setting_si_short_time_prefrence_desc:0 "Otomatik Genişlet, 15 haftadan daha kısa bir süre içinde inşaat ve Üretim devam etmedikçe devreye girmeyecektir. Bu en az gecikmeli yaklaşımdır."
+ setting_si_vanilla_time_prefrence:0 "Orijinal Time Preference"
+ setting_si_vanilla_time_prefrence_desc:0 "Otomatik Genişlet, 26 haftadan daha kısa bir süre içinde üretim devam eden inşaat olmadıkça ateşlenmeyecektir. Bu, Paradox'un idealdir."
+ setting_si_medium_time_prefrence:0 "Orta Süre Tercihi"
+ setting_si_medium_time_prefrence_desc:0 "VARSAYILAN: Otomatik Genişlet, 30 haftadan daha kısa bir süre içinde inşaat Üretimi devam etmedikçe ateşlenmeyecektir. Bu topluluk seçimi."
+ setting_si_long_time_prefrence:0 "Uzun Süre Tercihi"
+ setting_si_long_time_prefrence_desc:0 "Otomatik Genişlet, 100 haftadan daha kısa bir süre içerisinde yapım ve üretim devam etmedikçe devreye girmeyecektir. Bu, Sonsuz Zaman tercihinin daha az gecikmeli versiyonudur."
+ setting_si_infinite_time_prefrence:0 "Sonsuz Süre Tercihi"
+ setting_si_infinite_time_prefrence_desc:0 "Otomatik Genişlet üretim olup olmadığını kontrol edecektir. Bu en gecikmeli yaklaşımdır."
+
+ NOT_TRIGGER_MARKET_ACCESS_EQUAL:0 "%100 Pazar Erişimi Yok"
+ 

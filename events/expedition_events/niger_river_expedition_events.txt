@@ -56,43 +56,131 @@ expedition_events.2 = { #Choose commander
 	}
 
 	immediate = {
-		random_scope_character = {
+		if = {
 			limit = {
-				is_ruler = no
-				OR = {
-					has_role = general
-					has_role = admiral
+				any_scope_character = {
+					is_ruler = no
+					OR = {
+						has_role = general
+						has_role = admiral
+					}
+					has_trait = explorer
 				}
 			}
-			save_scope_as = expedition_leader_1
+			random_scope_character = {
+				limit = {
+					is_ruler = no
+					OR = {
+						has_role = general
+						has_role = admiral
+					}
+					has_trait = explorer
+				}
+				save_scope_as = expedition_leader_1
+			}
 		}
-		random_scope_character = {
-			limit = {
-				is_ruler = no
-				OR = {
-					has_role = general
-					has_role = admiral
+		else = {
+			random_scope_character = {
+				limit = {
+					is_ruler = no
+					OR = {
+						has_role = general
+						has_role = admiral
+					}
 				}
-				NOT = {
-					this = scope:expedition_leader_1
-				}
-
+				save_scope_as = expedition_leader_1
 			}
-			save_scope_as = expedition_leader_2
 		}
-		random_scope_character = {
+		if = {
 			limit = {
-				is_ruler = no
-				OR = {
-					has_role = general
-					has_role = admiral
-				}
-				NOR = {
-					this = scope:expedition_leader_1
-					this = scope:expedition_leader_2
+				any_scope_character = {
+					is_ruler = no
+					OR = {
+						has_role = general
+						has_role = admiral
+					}
+					NOT = {
+						this = scope:expedition_leader_1
+					}
+					has_trait = explorer
 				}
 			}
-			save_scope_as = expedition_leader_3
+			random_scope_character = {
+				limit = {
+					is_ruler = no
+					OR = {
+						has_role = general
+						has_role = admiral
+					}
+					NOT = {
+						this = scope:expedition_leader_1
+					}
+					has_trait = explorer
+				}
+				save_scope_as = expedition_leader_2
+			}
+		}
+		else = {
+			random_scope_character = {
+				limit = {
+					is_ruler = no
+					OR = {
+						has_role = general
+						has_role = admiral
+					}
+					NOT = {
+						this = scope:expedition_leader_1
+					}
+				}
+				save_scope_as = expedition_leader_2
+			}
+		}
+		if = {
+			limit = {
+				any_scope_character = {
+					is_ruler = no
+					OR = {
+						has_role = general
+						has_role = admiral
+					}
+					NOR = {
+						this = scope:expedition_leader_1
+						this = scope:expedition_leader_2
+					}
+					has_trait = explorer
+				}
+			}
+			random_scope_character = {
+				limit = {
+					is_ruler = no
+					OR = {
+						has_role = general
+						has_role = admiral
+					}
+					NOR = {
+						this = scope:expedition_leader_1
+						this = scope:expedition_leader_2
+					}
+					has_trait = explorer
+				}
+				save_scope_as = expedition_leader_3
+			}
+		}
+		else = {
+			random_scope_character = {
+				limit = {
+					is_ruler = no
+					OR = {
+						has_role = general
+						has_role = admiral
+					}
+					NOR = {
+						this = scope:expedition_leader_1
+						this = scope:expedition_leader_2
+					}
+				}
+				save_scope_as = expedition_leader_3
+			}
 		}
 		set_variable = niger_river_expedition_var
 		set_variable = {
@@ -236,6 +324,7 @@ expedition_events.11 = { #Successful expedition
 		scope:expedition_leader = {
 			add_trait = explorer
 			set_character_busy = no
+			remove_variable = expedition_leader_var 
 		}
 		add_modifier = {
 			name = modifier_niger_river_expedition_complete
@@ -1114,6 +1203,14 @@ expedition_events.110 = { #Leader dies
 			save_scope_as = dead_expedition_leader
 			remove_variable = expedition_leader_var
 		}
+		if = {
+			limit = {
+				scope:dead_expedition_leader = {
+					exists = yes
+				}
+			}
+			set_variable = character_killed
+		}
 		create_character = {
 			ig_leader = no
 			female = no
@@ -1138,14 +1235,28 @@ expedition_events.110 = { #Leader dies
 			limit = { has_variable = central_africa_expedition_var }
 			central_africa_location_effect = yes
 		}
+		else_if = {
+			limit = { has_variable = congo_river_expedition_var }
+			congo_river_expedition_location = yes
+		}
+		else_if = {
+			limit = { has_variable = west_america_expedition_var }
+			west_america_expedition_location = yes
+		}
 	}
 
 	option = {
 		name = expedition_events.110.a
 		default_option = yes
-		scope:dead_expedition_leader = {
-			set_character_busy = no
-			kill_character = yes
+		if = {
+			limit = {
+				has_variable = character_killed
+			}
+			scope:dead_expedition_leader = {
+				set_character_busy = no
+				kill_character = yes
+			}
+			remove_variable = character_killed
 		}
 		show_as_tooltip = {
 			scope:current_expedition_location = {

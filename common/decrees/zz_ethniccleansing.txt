@@ -18,7 +18,7 @@
 		state_conversion_mult = 2
 	}
 	
-	cost = 200
+	cost = 150
 
 	ai_weight = {
 		value = 1000

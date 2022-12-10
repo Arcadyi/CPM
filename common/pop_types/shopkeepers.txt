@@ -4,7 +4,8 @@
 	strata = middle
 	start_quality_of_life = 10
 	wage_weight = 2
-	literacy_target = 0.20
+	literacy_target = 0.50
+	education_access = 0.10 #was none
 	dependent_wage = 0.5	# per year
 	unemployment = yes
 	
@@ -58,6 +59,15 @@
 		}
 		if = {
 			limit = {
+				is_pop_type = capitalists
+			}
+			multiply = {
+				value = 5
+				desc = "QUALIFICATIONS_FAVORED_TYPE"
+			}
+		}
+		if = {
+			limit = {
 				is_pop_type = farmers
 			}
 			multiply = {
@@ -72,6 +82,15 @@
 			multiply = {
 				desc = "QUALIFICATIONS_PEASANTS_UNDER_SERFDOM"
 				value = 0
+			}
+		}
+		if = {
+			limit = {
+				culture_accepted = no
+			}
+			multiply = {
+				value = 0.5 #was none
+				desc = "QUALIFICATIONS_CULTURAL_DISCRIMINATION"
 			}
 		}
 	}
