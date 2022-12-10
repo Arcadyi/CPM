@@ -1,0 +1,10 @@
+﻿l_english:
+ africa_colonial_events.52.d:0 "One of our colonial expeditions in [SCOPE.sState('african_colony_state_recipient').GetName] has encountered [SCOPE.sC('african_colony_conflict_sender').GetAdjectiveNoFormatting] troops in the region. [SCOPE.sC('african_colony_conflict_sender').GetName] demands we turn back and abandon our designs on [SCOPE.sState('african_colony_state_recipient').GetName]."
+ 
+ industrial_accident_events.3.f:0 "Come all you rounders, if you want to hear a story all about a brave engineer..."
+ 
+ rights_of_women_laws.5.f:0 "Of course 95% of the protesters are peaceful, but all it takes is one radical element to set things off and before you know it we have a whole mob whipped up into a frenzy."
+ 
+ womens_rights_rally:0 "Women’s Suffrage Rally"
+ womens_rights_peaceful_rally:0 "Extra Women’s Suffrage Rallies"
+ womens_rights_violent_rally:0 "Women’s Suffrage Rally Violence"

@@ -1,9 +1,0 @@
-﻿canada_tgnxxx = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
-}
-canada_tgnxxx_quebec = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
-}
-canada_tgnxxx_ontario = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
-}

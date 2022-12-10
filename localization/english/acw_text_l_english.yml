@@ -21,7 +21,7 @@
  acw_events.4.t:0 "The Forgotten Event"
 
  acw_events.5.t:0 "Bleeding [SCOPE.sState('bleeding_kansas').GetName]"
- acw_events.5.d:0 "Abolitionists and proponents of slavery have been pouring into [SCOPE.sState('bleeding_kansas').GetName], hoping to shape the territory's government to their liking. Paramilitary groups have begun committing acts of violence against each other and civilians."
+ #acw_events.5.d:0 "Abolitionists and proponents of slavery have been pouring into [SCOPE.sState('bleeding_kansas').GetName], hoping to shape the territory's government to their liking. Paramilitary groups have begun committing acts of violence against each other and civilians."
  acw_events.5.f:0 ""Before God and in the presence of these witnesses, from this time, I consecrate my life to the destruction of slavery. The crimes of this guilty land can never be purged away but with blood."" # two separate quotes by John Brown.
  acw_events.5.a:0 "Border ruffians cannot dictate law! [SCOPE.sState('bleeding_kansas').GetName] must be a free state."
  acw_events.5.b:0 "Jayhawkers do not decide what is right! [SCOPE.sState('bleeding_kansas').GetName] will be a slave state."

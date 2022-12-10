@@ -1,0 +1,28 @@
+﻿battle_condition_dug_in = { #defender only
+	icon = "gfx/interface/icons/battle_conditions/battle_condition_dug_in.dds"
+
+	modifier = {
+		#unit_army_offense_mult = 0.2
+		unit_army_defense_mult = 0.2
+	}
+	
+	possible = {
+		scope:is_advancing_side = no
+		exists = scope:character
+		scope:character = { 
+			has_role = general 
+		}
+	}
+
+
+	weight = {
+		value = 1
+		multiply = {
+			value = 1
+			scope:character = {
+				add = modifier:character_battle_condition_dug_in_mult
+			}
+			min = 0
+		}
+	}
+}

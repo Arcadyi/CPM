@@ -1,0 +1,141 @@
+﻿# Root = Character
+on_character_death = {
+	effect = {
+		if = {
+			limit = {
+				is_ruler = yes
+				exists = c:HAW
+				owner = c:HAW
+				owner = {
+					has_law = law_type:law_monarchy
+					NOT = { has_variable = death_of_kamehameha }
+					NOT = { has_global_variable = gp_hawaii_interest }
+				}
+			}
+			owner = {
+				trigger_event = hawaii_events.1
+			}
+		}
+		
+		if = {
+			limit = {
+				has_variable = expedition_leader_var
+				owner = {
+					NOT = {
+						has_journal_entry = je_antarctica
+					}
+				}
+			}
+			owner = {
+				trigger_event = expedition_events.110
+			}
+		}
+		
+		
+	}
+}
+
+# Root = Diplomatic Play
+on_diplo_play_back_down = {
+	effect = {
+		post_notification = diplo_play_back_down_notification
+		if = {
+			limit = {
+				scope:notification_target = {
+					is_player = yes
+				}
+				scope:actor = {
+					is_player = no
+				}
+			}
+			set_global_variable = achievement_mightier_than_the_sword
+		}
+		if = {
+			limit = {
+				scope:actor = {
+					is_player = no
+				}
+			}
+			scope:actor = {
+				set_variable = {
+					name = backed_down
+					days = 365
+					value = yes
+				}
+			}
+		}
+		
+	}
+}
+
+# Root = Country
+on_peace_agreement_signed_war_leader = {
+	effect = {
+		post_notification = peace_agreement_signed_war_leader
+		if = {
+			limit = {
+					is_player = no
+			}
+			set_variable = {
+				name = backed_down
+				days = 365
+				value = yes
+			}
+		}
+	}
+}
+
+# Root = Country
+on_peace_agreement_signed_war_participant = {
+	effect = {
+		post_notification = peace_agreement_signed_war_participant
+		if = {
+			limit = {
+					is_player = no
+			}
+			set_variable = {
+				name = backed_down
+				days = 365
+				value = yes
+			}
+		}
+	}
+}
+
+# Root = Country
+on_peace_agreement_signed_non_participant = {
+	effect = {
+		post_notification = peace_agreement_signed_non_participant
+		if = {
+			limit = {
+					is_player = no
+			}
+			set_variable = {
+				name = backed_down
+				days = 365
+				value = yes
+			}
+		}
+	}
+}
+
+# Root = Country
+on_self_capitulated_notification = {
+	effect = {
+		post_notification = self_capitulated
+		set_variable = {
+			name = recent_capitulation
+			months = short_modifier_time
+		}
+		if = {
+			limit = {
+					is_player = no
+			}
+			set_variable = {
+				name = backed_down
+				days = 365
+				value = yes
+			}
+		}
+	}
+}
