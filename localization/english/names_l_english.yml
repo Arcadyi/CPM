@@ -45,9 +45,6 @@
  von_Sachsen-Weimar-Eisenach:0 "von Sachsen-Weimar-Eisenach"
  von_Schlieffen:0 "von Schlieffen"
  von_Schwarzburg:0 "von Schwarzburg"
- Waterboer:0 "Waterboer"
- Jonker:0 "Jonker"
- Afrikaner:0 "Afrikaner"
  von_Spee:0 "von Spee"
  von_Tirpitz:0 "von Tirpitz"
  von_Waldeck_und_Pyrmont:0 "von Waldeck und Pyrmont"
@@ -91,25 +88,6 @@
  de_Constant_Rebecque:0 "de Constant Rebecque"
  van_Culemborg:0 "van Culemborg"
  de_Eerens:0 "de Eerens"
- Sobhuza_I:0 "Subhuza I"
- Mswati_II:0 "Mswati II"
- Dlamini:0 "Dlamini"
- Sarhili:0 "Sarhili"
- Kahintsa:0 "Kahintsa"
- Sigcawu:0 "Sigcawu"
- Kasarhili:0 "Kasarhili"
- Changamire:0 "Changamire"
- Tohwechipi:0 "Towechipi"
- Moshoeshoe_I:0 "Moshoeshoe I"
- Letsie_I:0 "Letsie I"
- Moshoeshoe:0 "Moshoeshoe"
- Tregardt:0 "Tregardt"
- Marthinus:0 "Marthinus"
- Josias:0 "Josias"
- Hoffman:0 "Hoffman"
- KaZikode:0 "KaZikode"
- Soshangane:0 "Shoshangane"
- Bamokoteli:0 "Bamokoteli"
  de_Kock:0 "de Kock"
  den_Beer_Poortugael:0 "den Beer Poortugael"
  van_Diemen:0 "van Diemen"
@@ -3820,7 +3798,6 @@
  Walley:0 "Walley"
  Young:0 "Young"
  Zook:0 "Zook"
-  #
  Atticus:0 "Atticus"
  Alpheus:0 "Alpheus"
  Alfred:0 "Alfred"
@@ -4212,7 +4189,6 @@
  Hill:0 "Hill"
  Barnes:0 "Barnes"
  Babcock:0 "Babcock"
-  #
  Adelheid:0 "Adelheid"
  Armgard:0 "Armgard"
  Adolphine:0 "Adolphine"
@@ -4246,7 +4222,6 @@
  Sophie_Albertine:0 "Sophie Albertine"
  Therese:0 "Therese"
  Viktoria:0 "Viktoria"
-  #
  Adelgunde:0 "Adelgunde"
  Alexandra:0 "Alexandra"
  Dietlinde:0 "Dietlinde"
@@ -4264,7 +4239,6 @@
  von_Wrede:0 "von Wrede"
  Sailer:0 "Sailer"
  Zeller:0 "Zeller"
-  #
  Adele:0 "Adele"
  Aloisia:0 "Aloisia"
  Auguste:0 "Auguste"
@@ -4284,7 +4258,6 @@
  Walburga:0 "Walburga"
  von_Scherer:0 "von Scherer"
  von_Thurnberg:0 "von Thurnberg"
-  #
  Angela:0 "Angela"
  Berta:0 "Berta"
  Minna:0 "Minna"
@@ -4299,7 +4272,6 @@
  von_Neumann:0 "von Neumann"
  Oppenheim:0 "Oppenheim"
  Zuckerkandl:0 "Zuckerkandl"
-  #
  Eduardus:0 "Eduardus"
  Richardus:0 "Richardus"
  Aletta:0 "Aletta"
@@ -4334,7 +4306,6 @@
  van_Lyere:0 "van Lyere"
  van_den_Velden:0 "van den Velden"
  de_Vos_van_Steenwijk:0 "de Vos van Steenwijk"
-  #
  Margarete:0 "Margarete"
  Austerlitz:0 "Austerlitz"
  Clementine:0 "Clementine"
@@ -4362,7 +4333,6 @@
  de_Watervliet:0 "de Watervliet"
  van_Zuylen_van_Nyevelt:0 "van Zuylen van Nyevelt"
  Quarles_van_Ufford:0 "Quarles van Ufford"
-  #
  Amelie:0 "Amélie"
  Andree:0 "Andrée"
  Cecilia_2:0 "Cécilia"
@@ -4380,7 +4350,6 @@
  de_Laguiche:0 "de Laguiche"
  d_Ursel:0 "d'Ursel"
  d_Udekem:0 "d'Udekem"
-  #
  Adrianus:0 "Adrianus"
  Hermanus:0 "Hermanus"
  Jacobus:0 "Jacobus"
@@ -4540,7 +4509,6 @@
  Thorberg:0 "Thorberg"
  Thordersen:0 "Thordersen"
  Vidalin:0 "Vídalín"
-  #
  Klinckowstrom:0 "Klinckowström"
  Goeoes:0 "Göös"
  Jaegerhorn:0 "Jägerhorn"
@@ -5088,7 +5056,6 @@
  Wentworth-FitzWilliam:0 "Wentworth-FitzWilliam"
  Waldegrave:0 "Waldegrave"
  Withers-Lancashire:0 "Withers-Lancashire"
-  #
  de_Olazabal:0 "de Olazábal"
  Maria_2:0 "María"
  Concepcion:0 "Concepción"
@@ -8025,7 +7992,6 @@
  Lefevre:0 "Lefevre"
  Leprohon:0 "Leprohon"
  Mackenzie:0 "Mackenzie"
- MacKenzie:0 "MacKenzie"
  MacNab:0 "MacNab"
  Maitland:0 "Maitland"
  McDonald:0 "McDonald"
@@ -8188,7 +8154,6 @@
  Sturm:0 "Sturm"
  z_Barenstamma:0 "z Barenstamma"
  z_Friedenfelsa:0 "z Friedenfelsa"
-  #
  Travis:0 "Travis"
  Houston:0 "Houston"
  Cilliers:0 "Cilliers"
@@ -16198,4 +16163,3 @@
  Valvassori:0 "Valvassori"
  Vicari:0 "Vicari"
  Zirio:0 "Zirio"
- 

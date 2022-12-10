@@ -1,0 +1,40 @@
+﻿namespace = test
+
+test.100 = {
+   type = country_event
+    # placement = top
+
+   duration = -1
+   trigger = { always = no }
+   cancellation_trigger = { always = no }
+
+    option = {
+        name = "Missing option name"
+		every_scope_character = {
+			limit = { has_variable = expedition_leader_var }
+			remove_variable = expedition_leader_var
+			set_character_busy = no
+		}
+   }
+}
+
+test.101 = {
+   type = country_event
+    # placement = top
+
+   #duration = -1
+   trigger = { always = no }
+   cancellation_trigger = { always = no }
+	
+	hidden = yes
+	
+	immediate = { 
+		every_country = { 
+			add_era_researched = era_1
+		}
+	}
+	
+    #option = {
+       # name = "Missing option name"
+   #}
+}

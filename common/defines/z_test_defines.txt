@@ -1,0 +1,112 @@
+﻿NEconomy = {
+	MAX_WEEKLY_CONSTRUCTION_PROGRESS = 50 #20				# Max construction progress per week on a single project
+	
+	DOWNSIZE_BUILDING_POP_TYPE_RADICALIZATION_SHARED_FACTOR = 0 #0.05 # This percentage of a pop becomes radicalized when a building they would have ownership shares in is downsized in the state (multiplied by per-pop shares)
+	
+	FIRED_POP_RADICALIZATION_BASE_FRACTION = 0 #0.2		# This percentage of a pop becomes radicalized when they lose their job, for instance due to a building being downsized
+	
+	FIRED_POP_RADICALIZATION_SHARES_FACTOR = 0 #0.1		# Additional percentage of pop that becomes radicalized they lost their job for each per-pop share they had in the building			
+	
+	TRADE_ROUTE_MAX_LEVEL = 1000 #100							# Trade routes cannot be higher level than this
+	
+	BASE_RESOURCE_DISCOVER_CHANCE = 0.1 #0.02 		# Per day (1.0 = 1%)
+}
+
+
+NMilitary = {
+
+	BATTLE_PLAN_ADVANCE_PROGRESS_TO_LAUNCH = 70 #100 			# required accumulated advance progress to launch
+	
+	DEFENSIVE_PROVINCES_RETAKEN_MAX_DEPTH = 3 #1					# Maximum distance from battle provinces that provinces can be retaken in defensive battle
+	
+	BATTLE_PROVINCES_TAKEN_THEATER_UNIT_SCALE = 1 #2			# Scales number of provinces captured by theater-provinces / ( units-in-theater * this-define )
+	
+	BATTLE_PROVINCES_TAKEN_THEATER_MIN_SCALE = 1 #0.5			# Number of provinces captured cannot be multiplied by less than this due to the above
+	
+	BATTLE_LETHALITY_MIN = 0.005 #0.001
+	
+	BATTLE_BASE_MAX_PROVINCES_TAKEN = 300 #30
+	
+	GENERAL_TRAVEL_PIXELS_TO_DAYS_SCALE = 0.025 #0.045     # Used to convert a travel distance from pixels to days. Example: a travel of 500px becomes 500 * 0.05 = 25 days
+	
+    GENERAL_TRAVEL_CAP = 1 #50                         # Limits the travel time to GENERAL_TRAVEL_CAP days. The overseas penalty (GENERAL_TRAVEL_OVERSEAS_SCALE) is still applied.
+	
+	GENERAL_TRAVEL_AUTO_REASSIGN_INSTANTLY = 50 #15		# If General is being auto reassigned (front destruction for example) and travel time is below this number of days make them travel instantly
+}
+
+NCommands = {
+	MIN_REINFORCE_FACTOR = 1 #0.02
+	MAX_REINFORCE_FACTOR = 1 #0.10
+
+}
+
+NAI = {
+
+	DIPLO_PLAY_BACK_DOWN_GUARANTEED_ESCALATION = 80 #95 # Above this escalation, AI will always back down if it's supposed to
+
+	DIPLO_PLAY_CONFIDENCE_FROM_GOLD_RESERVES = 0 #15	 # At 100% gold reserves, add this amount of confidence
+	
+	AI_PEACE_DESIRE_FROM_GOLD_RESERVES = 0 #-50 # Subtract this amount of peace desire at 100% gold reserves
+	
+	AI_PEACE_AGREEMENT_ENEMY_WARGOAL_SELF_FACTOR = -30 #-50 # For each wargoal that the enemy is pressing against us
+	
+	AI_MONTHS_OF_REDUCED_PEACE_DESIRE = 6 #10 # Before this amount of months, reduce AI peace desire
+	
+	FRONT_MIN_MORALE_TO_ATTACK = 0.75 #0.5
+	
+	BASE_AGGRESSION = 2.5 #0.5 # Base chance that AI will consider starting a diplo play each time the goal is checked (1 = 1%)
+	
+	ADMIRAL_ORDERS_ESCORT_CONVOYS_ACTIVE_RAIDERS_MULT = 10 #2.0				# Score for shipping lanes that are being actively raided by the enemy is multiplied by this
+	
+	UNIFICATION_AGGRESSION_MULT_SAME_TIER = 20 #0.1 # AI aggression is multiplied by this for calculating whether they should try to start a unification/leadership play, if the country would end up forming a nation of the same tier
+
+	PRODUCTION_METHOD_PROFIT_FACTOR = 2 #1 # Per pound of profit the produced goods would generate
+	
+	PRODUCTION_METHOD_CHANCE_TO_CHANGE = 1 #0.1 # Chance that the AI will consider changing a production method when evaluating methods
+	
+	CONSCRIPTION_ESTIMATED_MILITARY_POWER_MULT = 0.2 #0.5 		# AI multiplies the value of conscriptable battalions by this to estimate potential combat power
+}
+
+NDiplomacy = {
+
+	WAR_GOAL_INFAMY_DIPLO_PLAY_BACK_DOWN_REFUND = -1 #-0.75 # Refund of infamy for war goals that are dropped due to one side backing down in a diplo play (applied to initiator/target)
+	
+	WAR_GOAL_INFAMY_RETURN_STATE = 0 #2.0
+	
+	WAR_GOAL_INFAMY_ANNEX_COUNTRY = 0 #5.0
+	
+}
+
+NWar = { 
+	WAR_EXHAUSTION_KIA_FACTOR = 200 #25.0
+	
+	WAR_EXHAUSTION_TURMOIL_FACTOR = 5 #2.0 # At 100% turmoil
+	
+	WAR_EXHAUSTION_CONTESTED_ENEMY_WARGOALS = 5 #2.0
+}
+
+NPops = {
+	ECONOMIC_MIGRATION_BASE = 0.002 #0.02								# Base amount of a pop that wants to move for economic reasons
+	
+	ECONOMIC_MIGRATION_STATE_POPULATION_THRESHOLD = 500000 #100000				# States with less pops than this have reduced economic emigration numbers to avoid total depopulation
+	
+	MIGRATION_MAX_PER_STATE_UNEMPLOYMENT_ORIGIN_FRACTION = 0.2 #0.05	# The amount of unemployed workers in a state * this value is added to how many people can move from it
+	
+	MIGRATION_MAX_PER_STATE_UNEMPLOYMENT_TARGET_FRACTION = 0.2 #0.05	# The amount of unemployed workers in a state * this value is removed from how many people can move to it
+	
+	MIGRATION_CULTURE_TARGET_MIN_ARABLE_LAND = 0 #30		# A state must have at least this much arable land to be a mass migration target
+	
+	ASSIMILATION_RATE = 0.01 #0.002					# Percentage of pops who will Assimilate into a different Culture each month, if eligible
+	
+	MIN_ASSIMILATION = 100 #10						# If there is any assmiliation at least this many people will assimilate
+	
+	CONVERSION_RATE = 0.01 #0.002						# Percentage of pops who will Convert into a different Religion each month, if eligible
+	
+	MIN_CONVERSION = 100 #10						# If there is any conversion at least this many people will convert
+	
+	WORKING_ADULT_RATIO_SKEW_MAXIMUM = 20 #2.0		# When the ratio of working adults to dependents is skewed, it tends to correct itself, this value clamps the maximum effect of this
+}
+
+NBattle = {
+	CASUALTY_ROLL_MIN = 200 #50							# min ...
+}

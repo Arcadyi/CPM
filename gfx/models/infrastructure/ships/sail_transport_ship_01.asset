@@ -66,6 +66,8 @@ entity = {
 	pdxmesh = "sail_transport_ship_01_mesh"
 	locator = { name = "test" position = { 0 3 0 } }
 
+	scale = 0.35
+	
 	default_state = "moving"
 	state = {
 		name = "moving"
@@ -83,6 +85,4 @@ entity = {
 		#event = { time = 0 node = "test" particle = "infrastructure/ship_chimney" trigger_once = yes}
 		start_event = { sound  = { soundeffect = "event:/SFX/Vehicles/ships/ship_transport" } keep_sound = yes }
 	}
-	
-	scale = 0.5
 }

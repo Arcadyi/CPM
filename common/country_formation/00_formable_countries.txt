@@ -316,13 +316,13 @@ POL = {
 	ai_will_do = { always = yes }
 }
 
-ROM = {
-	use_culture_states = yes
-
-	required_states_fraction = 0.375 # Romania has 8 possible homeland states total, 3 are required.
-
-	ai_will_do = { always = yes }
-}
+#ROM = {
+#	use_culture_states = yes
+#
+#	required_states_fraction = 0.375 # Romania has 8 possible homeland states total, 3 are required.
+#
+#	ai_will_do = { always = yes }
+#}
 
 
 ARA = {

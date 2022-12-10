@@ -41,7 +41,7 @@ ONT = { # Upper Canada or Ontario
 		allow_overlord_canton = yes	
 		priority = 600
 		trigger = { 
-			has_global_variable = tgn_stage1_of_the_dominion_completed
+			has_global_variable = cpm_stage1_of_the_dominion_completed
 		}
 	}
 }
@@ -78,7 +78,7 @@ QUE = { # Lower Canada
 		allow_overlord_canton = yes
 		priority = 600
 		trigger = { 
-			 has_global_variable = tgn_stage1_of_the_dominion_completed
+			 has_global_variable = cpm_stage1_of_the_dominion_completed
 		}
 	}
 }

@@ -141,6 +141,8 @@ entity = {
 	pdxmesh = "generic_ship_cargo_01_mesh"	
 	default_state = "moving"
 	
+	scale = 0.35
+
 	state = {
 		name = "moving"
 		animation = "moving_animation"
@@ -157,9 +159,8 @@ entity = {
 		
 		event = { time = 0 node = "locator_top_body_chimney_01" particle = "infrastructure/ship_chimney" trigger_once = yes}
 		event = { time = 0 node = "locator_top_body_chimney_02" particle = "infrastructure/ship_chimney" trigger_once = yes}
-		start_event = { sound  = { soundeffect = "event:/SFX/Vehicles/ships/ship_cargo" } keep_sound = yes }		
+		start_event = { sound  = { soundeffect = "event:/SFX/Vehicles/ships/ship_cargo" } keep_sound = yes }
+				
 		
 	}
-	
-	scale = 0.5
 }

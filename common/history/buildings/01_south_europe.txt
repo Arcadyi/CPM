@@ -210,6 +210,12 @@
 	s:STATE_UMBRIA={
 		region_state:PAP={
 			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+			create_building={
 				building="building_fishing_wharf"
 				level=2
 				reserves=1
@@ -634,6 +640,12 @@
 	s:STATE_ROMAGNA={
 		region_state:PAP={
 			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+			create_building={
 				building="building_textile_mills"
 				level=1
 				reserves=1
@@ -661,6 +673,12 @@
 	}
 	s:STATE_LAZIO={
 		region_state:PAP={
+			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
 			create_building={
 				building="building_arts_academy"
 				level=1

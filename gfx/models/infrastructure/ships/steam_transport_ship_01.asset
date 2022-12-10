@@ -116,6 +116,8 @@ entity = {
 	name = "steam_transport_ship_01_entity"
 	pdxmesh = "steam_transport_ship_01_mesh"
 
+	scale = 0.35
+
 	default_state = "moving"
 	state = {
 		name = "moving"
@@ -154,6 +156,4 @@ entity = {
 
 		start_event = { sound  = { soundeffect = "event:/SFX/Vehicles/ships/steamboat" } keep_sound = yes }
 	}
-	
-	scale = 0.5
 }

@@ -14,16 +14,62 @@ je_hungarian_revolution = {
 			}
 			hidden_trigger = {
 				NOT = {
-					has_variable = hungarian_revolution
+					has_global_variable = hungarian_revolution_ended
 				}
 			}
 		}
 	}
 	immediate = {
+		c:AUS = {
+			save_scope_as = austriascope
+		}
+		cu:hungarian = {
+			save_scope_as = hungarianscope
+		}
+
 		set_variable = {
 			name = hungarian_revolution_countdown_var
 			value = 0
 		}
+		custom_tooltip = {
+			text = austriaturmoiltooltip
+		}
+		hidden_effect = {
+		s:STATE_TRANSDANUBIA.region_state:AUS = {
+			add_modifier = austriaturmoil
+			save_scope_as = austriaturmoilscope
+		}
+		s:STATE_CENTRAL_HUNGARY.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_WEST_SLOVAKIA.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_EAST_SLOVAKIA.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_BEKES.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_NORTHERN_TRANSYLVANIA.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_SOUTHERN_TRANSYLVANIA.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_BANAT.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_DELVIDEK.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_SLAVONIA.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+		s:STATE_CROATIA.region_state:AUS = {
+			add_modifier = austriaturmoil
+		}
+	}
 	}
 	on_monthly_pulse = {
 		effect = {
@@ -34,16 +80,21 @@ je_hungarian_revolution = {
 		}
 	}
 	possible = {
+		hidden_trigger = {
 		NOT = {
-			has_variable = hungarian_revolution
+			has_global_variable = hungarian_revolution_begun
+			has_global_variable = hungarian_revolution_ended
 		}
+		}
+		OR = {
 		year >= 1847
+		has_technology_researched = nationalism
+		}
+		
 		THIS = {
 			owner = {
-				any_scope_state = {
-					limit = {
-							is_homeland = cu:hungarian
-					}
+				any_scope_state.region_state:AUS = {
+					is_homeland = cu:hungarian
 				}
 			}
 		}
@@ -52,47 +103,58 @@ je_hungarian_revolution = {
 		value = root.var:hungarian_revolution_countdown_var
 	}
 	goal_add_value = {
-		value = 12
+		value = 6
 	}
 	on_complete = {
 		trigger_event = { 
 			id = hungarian_revolution.1 
 			popup = yes
 		}
-		set_variable = hungarian_revolution
-		s:STATE_TRANSDANUBIA.region_state:AUS = {
+		c:AUS = {
+			save_scope_as = austriascope
+		}
+		cu:hungarian = {
+			save_scope_as = hungarianscope
+		}
+		custom_tooltip = {
+			text = austriaturmoiltooltipwin
+		}
+		set_global_variable = hungarian_revolution_begun
+		hidden_effect = {
+		s:STATE_TRANSDANUBIA.region_state:HUN = {
 			remove_modifier = austriaturmoil
 		}
-		s:STATE_CENTRAL_HUNGARY.region_state:AUS = {
+		s:STATE_CENTRAL_HUNGARY.region_state:HUN = {
 			remove_modifier = austriaturmoil
 		}
-		s:STATE_WEST_SLOVAKIA.region_state:AUS = {
+		s:STATE_WEST_SLOVAKIA.region_state:HUN = {
 			remove_modifier = austriaturmoil
 		}
-		s:STATE_EAST_SLOVAKIA.region_state:AUS = {
+		s:STATE_EAST_SLOVAKIA.region_state:HUN = {
 			remove_modifier = austriaturmoil
 		}
-		s:STATE_BEKES.region_state:AUS = {
+		s:STATE_BEKES.region_state:HUN = {
 			remove_modifier = austriaturmoil
 		}
-		s:STATE_NORTHERN_TRANSYLVANIA.region_state:AUS = {
+		s:STATE_NORTHERN_TRANSYLVANIA.region_state:HUN = {
 			remove_modifier = austriaturmoil
 		}
-		s:STATE_SOUTHERN_TRANSYLVANIA.region_state:AUS = {
+		s:STATE_SOUTHERN_TRANSYLVANIA.region_state:HUN = {
 			remove_modifier = austriaturmoil
 		}
-		s:STATE_BANAT.region_state:AUS = {
+		s:STATE_BANAT.region_state:HUN = {
 			remove_modifier = austriaturmoil
 		}
-		s:STATE_DELVIDEK.region_state:AUS = {
+		s:STATE_DELVIDEK.region_state:HUN = {
 			remove_modifier = austriaturmoil
 		}
-		s:STATE_SLAVONIA.region_state:AUS = {
+		s:STATE_SLAVONIA.region_state:HUN = {
 			remove_modifier = austriaturmoil
 		}
-		s:STATE_CROATIA.region_state:AUS = {
+		s:STATE_CROATIA.region_state:HUN = {
 			remove_modifier = austriaturmoil
 		}
+	}
 	}
 	complete = {
 		AND = {
@@ -102,8 +164,64 @@ je_hungarian_revolution = {
 			scope:journal_entry = {
 				is_goal_complete = yes
 			}
+			OR = {
 			year >= 1847
+			has_technology_researched = nationalism
+		}
 		}
 	}
 	weight = 100
+}
+je_hungarian_revolution_2 = {
+    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	should_be_pinned_by_default = yes
+	progressbar = yes
+	is_shown_when_inactive = {
+		AND = {
+			this = c:AUS
+			hidden_trigger = {
+					has_global_variable = hungarian_revolution_begun
+				NOT = {
+					has_global_variable = hungarian_revolution_ended
+				}
+			}
+		}
+	}
+	immediate = {
+		c:AUS = {
+			save_scope_as = austriascope
+		}
+		cu:hungarian = {
+			save_scope_as = hungarianscope
+		}
+	}
+	possible = {
+		this = c:AUS
+		hidden_trigger = {
+			has_global_variable = hungarian_revolution_begun
+		NOT = {
+			has_global_variable = hungarian_revolution_ended
+		}
+		}
+	}
+	on_complete = {
+		trigger_event = { 
+			id = hungarian_revolution.7
+			popup = yes
+		}
+	}
+	complete = {
+		hidden_effect = {
+		AND = {
+		has_global_variable = hungarian_revolution_begun
+			not = {
+				exists = c:HUN
+			}
+		}
+	}
+	custom_tooltip = {
+		text = hungarianrevolutionover
+	}
+	weight = 100
+}
 }
