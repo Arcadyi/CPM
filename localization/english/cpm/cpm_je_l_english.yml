@@ -3,7 +3,11 @@
 je_hungarian_revolution:0 "Hungarian Revolution"
 je_hungarian_revolution_reason:0 "Hungarian nobles are lining up and preparing for future emancipation, should this come to pass revolution will become inevitable."
 je_hungarian_revolution_goal:0 "Does not have the Hungarian Revolution"
-
+# Oriental Crisis
+je_oriental_crisis1:0 "The Oriental Crisis"
+je_oriental_crisis1_reason:0 "The preceding decades have brought on catastrophe upon catastrophe upon the [SCOPE.sCountry('turkey_scope').GetName] . First Egypt, and then the Levant. If our empire is to ever reclaim its rightful place upon the world stage we must look to reclaiming these lands."
+je_oriental_crisis1_goal:0 "[GetPlayer.GetName] owns all lands taken by [SCOPE.sCountry('egypt_scope').GetName] in the preceding years."
+je_oriental_crisis2:0 "The Syrian War"
 #Carlist Rebellion
 je_carlist_victory:0 "Winning The Carlist War"
 je_carlist_victory_reason:0 "After years of fighting we must bring the war to an end, install our rightful king to the throne, and celebrate a new and better Spain!"

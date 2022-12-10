@@ -20,3 +20,6 @@ russiarejectsshelp:0 "[SCOPE.sCountry('russia_scope').GetName] will refuse to se
 #
 ai_hungary_gain_independence:0 "Gain Independence"
 ai_hungary_gain_independence_desc:0 "This nation seeks to gain independence and will not back down from a fight with its overlord."
+# Oriental Crisis
+willtakebackalllandtur:0 "[SCOPE.sCountry('turkey_scope').GetName] will immediately declare war on [SCOPE.sCountry('egypt_scope').GetName] to reclaim their lost lands in Syria and the Levant."
+ottomansloseclaim:0 "[SCOPE.sCountry('turkey_scope').GetName] will lose all claims to Syria and the Levant."
