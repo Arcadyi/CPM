@@ -373,12 +373,12 @@ types MilitaryPanelCharacters {
 
 					dynamicgridbox = {
 						datamodel = "[Character.AccessTraits]"
-						flipdirection = no
-						datamodel_wrap = 1
+						flipdirection = yes
+						datamodel_wrap = 7
 						item = {
 							flowcontainer = {
 								
-								margin = { 1 0 }
+								margin = { 0 0 }
 								
 								tooltipwidget = {
 									FancyTooltip_CharacterTrait = {}

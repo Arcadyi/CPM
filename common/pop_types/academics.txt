@@ -99,7 +99,7 @@
 					culture_accepted = no
 				}
 				multiply = {
-					value = 0.01 #Was 0.1
+					value = 0.025 #Was 0.1
 					desc = "QUALIFICATIONS_CULTURAL_DISCRIMINATION"
 				}
 			}

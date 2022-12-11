@@ -20,7 +20,7 @@ remove_homeland_events.100 = {
 	duration = 3
 
 	trigger = {
-		has_decree = decree_homeland_removal
+		has_decree = decree_genocide
 		any_scope_culture = { 
 			has_homeland = prev
 			NOT = { is_primary_culture_of = root.owner }					
@@ -68,7 +68,7 @@ remove_homeland_events.101 = {
 	duration = 3
 
 	trigger = {
-		has_decree = decree_homeland_removal
+		has_decree = decree_genocide
 		any_scope_culture = { 
 			has_homeland = prev
 			NOT = { is_primary_culture_of = root.owner }					
@@ -117,7 +117,7 @@ remove_homeland_events.102 = {
 	duration = 3
 
 	trigger = {
-		has_decree = decree_homeland_removal
+		has_decree = decree_genocide
 		any_scope_culture = { 
 			has_homeland = prev
 			NOT = { is_primary_culture_of = root.owner }					
@@ -166,7 +166,7 @@ remove_homeland_events.103 = {
 	duration = 3
 
 	trigger = {
-		has_decree = decree_homeland_removal
+		has_decree = decree_genocide
 		any_scope_culture = { 
 			has_homeland = root
 			NOT = { is_primary_culture_of = root.owner }					
@@ -216,7 +216,7 @@ remove_homeland_events.104 = {
 	duration = 3
 
 	trigger = {
-		has_decree = decree_homeland_removal
+		has_decree = decree_genocide
 		NOT = {
 			any_scope_culture = { 
 				has_homeland = root
@@ -264,7 +264,7 @@ remove_homeland_events.2 = {
 	duration = 3
 	
 	trigger = {
-		has_decree = decree_homeland_removal
+		has_decree = decree_genocide
 		any_scope_culture = { 
 			has_homeland = root
 			NOT = { is_primary_culture_of = root.owner }					
@@ -320,9 +320,9 @@ remove_homeland_events.3 = {
 	
 	trigger = {
 		is_incorporated = yes
-		NOT = { has_decree = decree_homeland_removal }
+		NOT = { has_decree = decree_genocide }
 		any_neighbouring_state = {
-			has_decree = decree_homeland_removal 
+			has_decree = decree_genocide 
 		}
 		any_scope_pop = {
 			culture = {
@@ -405,7 +405,7 @@ remove_homeland_events.4 = {
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	
 	trigger = {
-		has_decree = decree_homeland_removal
+		has_decree = decree_genocide
 		owner = { 
 			any_scope_building = {
 				is_building_type = building_arts_academy
@@ -515,7 +515,7 @@ remove_homeland_events.5 = {
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	
 	trigger = {
-		has_decree = decree_homeland_removal
+		has_decree = decree_genocide
 		any_scope_culture = { 
 			has_homeland = root
 			NOT = { is_primary_culture_of = root.owner }					
@@ -635,7 +635,7 @@ remove_homeland_events.6 = {
 			has_homeland = root
 			NOT = { is_primary_culture_of = root.owner }					
 		}
-		has_decree = decree_homeland_removal
+		has_decree = decree_genocide
 		has_modifier = homeland_university_modifier
 	}
 	
@@ -707,7 +707,7 @@ remove_homeland_events.7 = {
 			has_homeland = root
 			NOT = { is_primary_culture_of = root.owner }					
 		}
-		has_decree = decree_homeland_removal
+		has_decree = decree_genocide
 		NOT = {
 			OR = {
 				has_modifier = linguistic_discrimination
@@ -788,7 +788,7 @@ remove_homeland_events.8 = {
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	trigger = {
-		has_decree = decree_homeland_removal
+		has_decree = decree_genocide
 		any_scope_culture = { 
 			has_homeland = root
 			NOT = { is_primary_culture_of = root.owner }					
@@ -894,7 +894,7 @@ remove_homeland_events.9 = {
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	trigger = {
-		has_decree = decree_homeland_removal
+		has_decree = decree_genocide
 		any_scope_culture = { 
 			has_homeland = root
 			NOT = { is_primary_culture_of = root.owner }					
@@ -979,7 +979,7 @@ remove_homeland_events.10 = {
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	trigger = {
-		has_decree = decree_homeland_removal
+		has_decree = decree_genocide
 		any_scope_culture = { 
 			has_homeland = root
 			NOT = { is_primary_culture_of = root.owner }					
@@ -1073,7 +1073,7 @@ remove_homeland_events.11 = {
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	trigger = {
-		has_decree = decree_homeland_removal
+		has_decree = decree_genocide
 		any_scope_culture = { 
 			has_homeland = root
 			NOT = { is_primary_culture_of = root.owner }					
@@ -1167,7 +1167,7 @@ remove_homeland_events.12 = {
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	trigger = {
-		has_decree = decree_homeland_removal
+		has_decree = decree_genocide
 		any_scope_culture = { 
 			has_homeland = root
 			NOT = { is_primary_culture_of = root.owner }					
@@ -1270,7 +1270,7 @@ remove_homeland_events.13 = {
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	trigger = {
-		has_decree = decree_homeland_removal
+		has_decree = decree_genocide
 		any_scope_culture = { 
 			has_homeland = root
 			NOT = { is_primary_culture_of = root.owner }					

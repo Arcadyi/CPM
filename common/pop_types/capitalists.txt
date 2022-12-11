@@ -27,16 +27,19 @@
 			}		
 		}
 		
-		multiply = {
-			desc = "POP_WORKPLACE"
-			value = 1
-			if = {
-				limit = { 
-					pop_employment_building_group = bg_trade
-				}
-				value = 0.75
-			}
-		}
+		#multiply = {
+		#	desc = "POP_WORKPLACE"
+
+		#	if = {
+		#		limit = { 
+		#			pop_employment_building_group = bg_trade
+		#		}
+		#		value = 0.75
+		#	}
+		#	else = {
+		#		value = 1
+		#	}
+		#}
 	}	
 	
 	qualifications_growth_desc = "CAPITALISTS_QUALIFICATIONS_DESC"
@@ -45,7 +48,7 @@
 			limit = {
 				is_peasant_under_serfdom = no 
 				wealth > 10
-				literacy_rate > 0.2 #Was none
+				literacy_rate > 0.1 #Was none
 			}
 			# baseline: ( wealth - 10 ) / 10 + ( literacy * 2 ), norm 2 for Wealth 20 and Literacy 50%
 			add = {
@@ -100,7 +103,7 @@
 					culture_accepted = no
 				}
 				multiply = {
-					value = 0.01 #was 0.1
+					value = 0.025 #was 0.1
 					desc = "QUALIFICATIONS_CULTURAL_DISCRIMINATION"
 				}
 			}

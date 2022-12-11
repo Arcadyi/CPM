@@ -1,4 +1,22 @@
-﻿state_mortality_wealth_mult = {
+﻿state_loyalists_from_sol_change_mult = {
+	good = yes
+	percent = yes
+	num_decimals = 1
+}
+
+state_radicals_from_sol_change_mult = {
+	good = no
+	percent = yes
+	num_decimals = 1
+}
+
+state_education_access_add = {
+	good = yes
+	percent = yes
+	num_decimals = 1
+}
+
+state_mortality_wealth_mult = {
 	good = no
 	percent = yes
 	num_decimals = 1

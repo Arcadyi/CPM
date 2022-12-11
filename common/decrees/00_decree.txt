@@ -6,7 +6,7 @@
 # valid												A trigger in state context that determines if the Decree is permitted or not; should invalidate the Decree on a weekly basis if found invalid 
 # ai_weight											Scripted value which determines the chance of getting the Decree by AI
 
-decree_promote_efficient_administration = {
+decree_road_maintenance = {
 	texture = "gfx/interface/icons/state_status_icons/incorporated_state.dds"
 	modifier = {
 		state_infrastructure_mult = 0.25
@@ -40,7 +40,7 @@ decree_promote_efficient_administration = {
 				OR = {
 					relative_infrastructure < 0.5
 					AND = {
-						has_decree = decree_promote_efficient_administration
+						has_decree = decree_road_maintenance
 						relative_infrastructure < 0.75
 					}
 				}
@@ -54,7 +54,7 @@ decree_promote_efficient_administration = {
 				OR = {
 					relative_infrastructure < 0.25 
 					AND = {
-						has_decree = decree_promote_efficient_administration
+						has_decree = decree_road_maintenance
 						relative_infrastructure < 0.5
 					}
 				}
@@ -68,7 +68,7 @@ decree_promote_efficient_administration = {
 				OR = {
 					relative_infrastructure >= 1.25
 					AND = {
-						has_decree = decree_promote_efficient_administration
+						has_decree = decree_road_maintenance
 						relative_infrastructure >= 1.5
 					}
 				}
@@ -97,7 +97,7 @@ decree_encourage_construction = {
 				OR = {
 					relative_infrastructure < 1 
 					AND = {
-						has_decree = decree_promote_efficient_administration
+						has_decree = decree_road_maintenance
 						relative_infrastructure < 1.25
 					}
 				}
@@ -111,7 +111,7 @@ decree_encourage_construction = {
 				OR = {
 					relative_infrastructure < 0.5
 					AND = {
-						has_decree = decree_promote_efficient_administration
+						has_decree = decree_road_maintenance
 						relative_infrastructure < 0.75
 					}
 				}
@@ -125,7 +125,7 @@ decree_encourage_construction = {
 				OR = {
 					relative_infrastructure < 0.25 
 					AND = {
-						has_decree = decree_promote_efficient_administration
+						has_decree = decree_road_maintenance
 						relative_infrastructure < 0.5
 					}
 				}
@@ -139,7 +139,7 @@ decree_encourage_construction = {
 				OR = {
 					relative_infrastructure >= 1.25
 					AND = {
-						has_decree = decree_promote_efficient_administration
+						has_decree = decree_road_maintenance
 						relative_infrastructure >= 1.5
 					}
 				}
@@ -873,7 +873,7 @@ decree_genocide = {
 		state_assimilation_mult = 0.1
 		state_conversion_mult = 0.1
 		state_migration_pull_mult = -0.2
-	    state_accepted_birth_rate_mult = 9
+	    state_accepted_birth_rate_mult = 6.5
 	    state_birth_rate_mult = -1
         state_mortality_mult = 8
 		state_standard_of_living_add = -1

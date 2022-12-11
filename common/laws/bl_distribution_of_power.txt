@@ -47,7 +47,7 @@ law_oligarchy = {
 		country_legitimacy_ideological_incoherence_mult = 0.75
 		country_aristocrats_pol_str_mult = 0.5
 		country_capitalists_pol_str_mult = 0.25
-		country_authority_add = 100
+		country_authority_add = 150
 	}
 	
 	possible_political_movements = {

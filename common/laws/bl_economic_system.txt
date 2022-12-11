@@ -225,7 +225,6 @@ law_command_economy = {
 		state_tax_capacity_mult = 0.25	
 		country_authority_mult = 0.25
 		country_bureaucrats_pol_str_mult = 0.25
-		country_government_wages_mult = 0.25
 	}
 	
 	possible_political_movements = {

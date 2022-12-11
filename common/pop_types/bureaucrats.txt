@@ -27,16 +27,19 @@
 			}		
 		}
 
-		multiply = {
-			desc = "POP_WORKPLACE"
-			value = 1
-			if = {
-				limit = { 
-					pop_employment_building_group = bg_trade
-				}
-				value = 0.5
-			}
-		}
+		#multiply = {
+		#	desc = "POP_WORKPLACE"
+
+		#	if = {
+		#		limit = { 
+		#			pop_employment_building_group = bg_trade
+		#		}
+		#		value = 0.5
+		#	}
+		#	else = {
+		#		value = 1
+		#	}
+		#}
 	}
 	
 	qualifications_growth_desc = "BUREAUCRATS_QUALIFICATIONS_DESC"
@@ -104,7 +107,7 @@
 					culture_accepted = no
 				}
 				multiply = {
-					value = 0.01 #was 0.1
+					value = 0.025 #was 0.1
 					desc = "QUALIFICATIONS_CULTURAL_DISCRIMINATION"
 				}
 			}

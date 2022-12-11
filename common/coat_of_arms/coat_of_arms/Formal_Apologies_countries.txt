@@ -502,5 +502,266 @@ BYH =
 		}
 	}
 }
+CSF = 
+{
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem =
+	{
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue"
+		instance =
+		{
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+}
+ANF = 
+{
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem =
+	{
+		texture = "ce_stripes_10.dds"
+		color1 = "blue"
+		instance =
+		{
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+	colored_emblem =
+	{
+		texture = "ce_canton.dds"
+		color1 = "white"
+		instance =
+		{
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+	colored_emblem =
+	{
+		texture = "ce_canton.dds"
+		color1 = "red_light"
+		instance =
+		{
+			scale = { 1 1 }
+			position = { 0.5 1 }
+			rotation = { 0 }
+		}
+	}
+	colored_emblem =
+	{
+		texture = "ce_canton.dds"
+		color1 = "red_light"
+		instance =
+		{
+			scale = { 1 1 }
+			position = { 1 1 }
+			rotation = { 0 }
+		}
+	}
+	colored_emblem =
+	{
+		texture = "ce_wreath_peru.dds"
+		color1 = "green"
+		color2 = "red"
+		instance =
+		{
+			scale = { 0.5 0.5 }
+			position = { 0.25 0.25 }
+			rotation = { 0 }
+		}
+	}
+	colored_emblem =
+	{
+		texture = "ce_sun_peru.dds"
+		color1 = "yellow"
+		instance =
+		{
+			scale = { 0.3 0.3 }
+			position = { 0.25 0.25 }
+			rotation = { 0 }
+		}
+	}
+}
+RIO = 
+{
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem =
+	{
+		texture = "ce_tribar.dds"
+		color1 = "white"
+		color2 = "blue"
+		color3 = "light_blue"
+		instance =
+		{
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+	colored_emblem =
+	{
+		texture = "ce_star_05_pinwheeled.dds"
+		color1 = "white"
+		instance =
+		{
+			scale = { 0.3 0.3 }
+			position = { 0.17 0.2 }
+			rotation = { 0 }
+		}
+	}
+	colored_emblem =
+	{
+		texture = "ce_star_05_pinwheeled.dds"
+		color1 = "white"
+		instance =
+		{
+			scale = { 0.3 0.3 }
+			position = { 0.17 0.5 }
+			rotation = { 0 }
+		}
+	}
+	colored_emblem =
+	{
+		texture = "ce_star_05_pinwheeled.dds"
+		color1 = "white"
+		instance =
+		{
+			scale = { 0.3 0.3 }
+			position = { 0.17 0.8 }
+			rotation = { 0 }
+		}
+	}
+}
+NRG = 
+{
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	
+	colored_emblem =
+	{
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "white"
+		color2 = "green"
+		instance =
+		{
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+}
+CHD = 
+{
+	pattern = "pattern_solid.tga"
+	color1 = "brown"
+	
+	colored_emblem =
+	{
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "yellow_dark"
+		color2 = "green"
+		instance =
+		{
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+	colored_emblem =
+	{
+		texture = "ce_crescent_star_05_pale.dds"
+		color1 = "white"
+		instance =
+		{
+			scale = { 0.5 0.5 }
+			position = { 0.5 0.25 }
+			rotation = { 0 }
+		}
+	}
+	colored_emblem =
+	{
+		texture = "ce_crossed_scimitars.dds"
+		color1 = "white"
+		instance =
+		{
+			scale = { 0.6 0.6 }
+			position = { 0.5 0.65 }
+			rotation = { 0 }
+		}
+	}
+}
+HIS = 
+{
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem =
+	{
+		texture = "ce_border_compony.dds"
+		color1 = "red"
+		color2 = "red"
+		instance =
+		{
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+	colored_emblem =
+	{
+		texture = "ce_tricolor_fimbriated_large.dds"
+		color1 = "yellow"
+		color2 = "white"
+		color3 = "green_light"
+		instance =
+		{
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+	textured_emblem =
+	{
+		texture = "te_coa_colombia_lesser.dds"
+		instance =
+		{
+			scale = { 0.7 0.7 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+	textured_emblem =
+	{
+		texture = "te_coa_spanish_republic.dds"
+		instance =
+		{
+			scale = { 0.6 0.6 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+	textured_emblem =
+	{
+		texture = "te_coa_portugal.dds"
+		instance =
+		{
+			scale = { 0.6 0.6 }
+			position = { 0.5 0.55 }
+			rotation = { 0 }
+		}
+	}
+}
 
 

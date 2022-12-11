@@ -6,7 +6,7 @@
 
 	tier = hegemony
 	
-	cultures = { dutch north_german south_german swiss flemish wallonian }
+	cultures = { dutch swiss flemish wallonian }
 	capital = STATE_WESTPHALIA
 }
 BXN = 
@@ -28,7 +28,7 @@ RMN =
 
 	tier = hegemony
 	
-	cultures = { north_italian south_italian maltese spanish catalan portuguese french occitan albanian romanian armenian greek georgian north_caucasian }
+	cultures = { north_italian south_italian maltese greek albanian }
 	capital = STATE_LAZIO
 }
 IPF = 
@@ -39,7 +39,7 @@ IPF =
 
 	tier = hegemony
 	
-	cultures = { british scottish welsh irish dixie yankee afro_american cajun australian maltese anglo_canadian franco-canadian boer bengali manipuri bihari telegu tamil malayalam afro_caribbean afro_antillean nez_perce navajo metis athabaskan caddoan paiute siouan salish dakota cherokee muskogean inuit cree rajput maori aborigine sindi marathi sinhala oriya dayak gujarati burmese nepali kachin assamese karen pashtun kashmiri kannada panjabi }
+	cultures = { british }
 	capital = STATE_HOME_COUNTIES
 }
 GRS = 
@@ -118,5 +118,71 @@ BYH =
 	
 	cultures = { welsh breton }
 	capital = STATE_WALES
+}
+CSF = 
+{
+	color = { 52 49 95 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { french }
+	capital = STATE_ILE_DE_FRANCE
+}
+ANF = 
+{
+	color = { 215 84 75 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { south_andean quechua platinean amazonian aimara guarani patagonian }
+	capital = STATE_LOS_RIOS
+}
+RIO = 
+{
+	color = { 125 156 222 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { platinean guarani patagonian }
+	capital = STATE_BUENOS_AIRES
+}
+NRG = 
+{
+	color = { 58 158 68 }
+	
+	country_type = unrecognized
+
+	tier = empire
+	
+	cultures = { hausa yoruba equatorial_bantu fulbe edo ibo tiv fon kanuri ibibio }
+	capital = STATE_YORUBA
+}
+CHD = 
+{
+	color = { 186 144 54 }
+	
+	country_type = unrecognized
+
+	tier = empire
+	
+	cultures = { teda fur kanuri tuareg sara baguirmi }
+	capital = STATE_WADDAI
+}
+HIS = 
+{
+	color = { 215 202 103 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { spanish caribeno portuguese mexican north_andean south_andean central_american quechua platinean }
+	capital = STATE_ANDALUSIA
 }
 	

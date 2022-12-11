@@ -1,0 +1,3 @@
+﻿NPops = {
+	SUBSISTENCE_DIVIDENDS_MULT = 1
+}
