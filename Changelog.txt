@@ -157,6 +157,23 @@ Credit: All mods / mod ideas used linked below:
 		- Fixes to Heightmap and terrain, some provinces should look more realistic now.
 		- Dense Market Details & Dense trade Routes fixed.
       # v.2.4
-		-
+		- Hungarian Revolution event chain finalized.
+		- Lowered AI's chance for backing down from diplomatic plays, especially if fighting an independence war.
+		- Government Legitimacy fixed, should be harder to maintain legitimacy now.
+		- Updated to work with patch 1.1.1
+		- Made Egypt a puppet of the Ottomans & Laid initial foundations for future Oriental Crisis event chain.
+		- Integrated Miniature World.
+		- Integrated Cities Skylines.
+		- Integrated Ottoman Realism Mod.
+		- Integrated Realistic Power Plants & ARoAI Patch.
+		- Integrated More Spreadsheets.
+		- Integrated Dense Military Tabs.
+		- Integrated Ultra Historical Research.
+		- Integrated Improved Building Grid.
+		- Integrated Navy Needs Fuel.
+		- Integrated Improved Australia.
+	
+		- Updated Extra Topbar Info.
+		- Updated Visual Leaders
 
 
