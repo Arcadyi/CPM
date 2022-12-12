@@ -271,7 +271,7 @@ GML = { # Gamilaraay
 }
 
 AST = {
-	color = { 77  139  106 }
+	color = { 3  94  45 }
 	
 	country_type = colonial
 	
