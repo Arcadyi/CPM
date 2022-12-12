@@ -1,4 +1,4 @@
-The Community Project Mod Changelog
+#The Community Project Mod Changelog
 ## Rework branch, All non-UI flavor mods will be directly integrated
 Credit: All mods / mod ideas used linked below:
 		#QOL Mods
@@ -27,11 +27,19 @@ Credit: All mods / mod ideas used linked below:
 		More Oil States - https://steamcommunity.com/sharedfiles/filedetails/?id=2890057319&searchtext=More+Oil+States
 		Production Methods Auto Conversion - https://steamcommunity.com/sharedfiles/filedetails/?id=2892482848&searchtext=Production+Methods+Auto+Conversion.
 		Plantations can use fertilizers and tools - https://steamcommunity.com/sharedfiles/filedetails/?id=2890945087&searchtext=Plantations+can+use+fertilizers+and+tools
+		Navy Needs Fuel - https://steamcommunity.com/sharedfiles/filedetails/?id=2888552925
+		Realistic Power Plants - https://steamcommunity.com/sharedfiles/filedetails/?id=2893414529
+		Additional Building Mesh Fixes - https://steamcommunity.com/sharedfiles/filedetails/?id=2896192666
+		Ultra Historical Research & Education - https://steamcommunity.com/sharedfiles/filedetails/?id=2897378189
+		More Spreadsheets - https://steamcommunity.com/sharedfiles/filedetails/?id=2884035975
+
 		
 		# Graphical Mods
 		Vibrant Water - https://steamcommunity.com/sharedfiles/filedetails/?id=2883041137&searchtext=Vibrant+Water
 		Smaller Cities - https://steamcommunity.com/sharedfiles/filedetails/?id=2885459992&searchtext=Smaller+Cities
 		Mediterranean Architecture - https://steamcommunity.com/sharedfiles/filedetails/?id=2880034288
+		Miniature World - https://steamcommunity.com/workshop/browse/?appid=529340&searchtext=Miniature+World&childpublishedfileid=0&browsesort=textsearch&section=
+		Cities: Skylines - https://steamcommunity.com/sharedfiles/filedetails/?id=2885199207
 		
 		#Flavor Mods
 		Norton's Flavor Mod - https://steamcommunity.com/sharedfiles/filedetails/?id=2882805006&searchtext=%09%09Norton%27s+Flavor+Mod+-+
@@ -49,8 +57,9 @@ Credit: All mods / mod ideas used linked below:
 		Historical Austrian Politicians & Generals - https://steamcommunity.com/sharedfiles/filedetails/?id=2891503735&searchtext=%09%09Historical+Austiran+Policitians+%26+Generals
 		Historical French Politicians & Generals - https://steamcommunity.com/sharedfiles/filedetails/?id=2883226066&searchtext=%09%09Historical+Austiran+Policitians+%26+Generals
 		Southern Africa Rework 1.2.0 - https://steamcommunity.com/sharedfiles/filedetails/?id=2892080578&searchtext=South+African+rework
-		
-		#CPM Additions
+		Ottoman Realism Mod - https://steamcommunity.com/id/arcadyy/myworkshopfiles/?appid=529340&browsefilter=mysubscriptions
+
+		##CPM Additions
 		Army & Navy Institutions
 		Ethnic Removal for Ethnostates
 		Reworked Literacy Rates
@@ -65,13 +74,13 @@ Credit: All mods / mod ideas used linked below:
 		Hungarian Revolution events & journal entry added
 		
 		#Changelogs
-			# v.1.0
+			## v.1.0
 		- Reduced worldwide literacy rate to reflect historical figures.
 		- Added option to recruit 3 commanders instead of 2.
 		- Plantations can now use fertilizers and tools.
 		- Building staffing percentage is now visible from build menu.
 		- Fixed Navy Law not giving Navy Professionalism institutions
-			# v.1.1
+			## v.1.1
 		- Extra Topbar Info Integrated
 		- Atheism & decisions to enact State Atheism added for Council Republics.
 		- Added "Zollverein" opinion boost to inviting German countries to a customs union as Prussia, should make forming Germany far less painful for both AI and player.
@@ -81,7 +90,7 @@ Credit: All mods / mod ideas used linked below:
 		- Fixed countries not backing down.
 		- Updated Norton's Flavor Mod and integrated changes.
 		- Added a check that makes countries leave custom's unions if their market capital has less than 10% access.
-			# v.1.2	
+			## v.1.2	
 		- Integrated Production Methods Auto Conversion.
 		 - Conquered states should now adopt most common production method used in country. 
 		- Integrated Better War & Diplo Notifications.
@@ -91,7 +100,7 @@ Credit: All mods / mod ideas used linked below:
 		- Integrated Napoleonic Flavor mod.
 		- Integrated Romanian Flavor mod.
 		- Implemented a fix for expeditions getting stuck.			
-			# v.2.0
+			## v.2.0
 		- Fixed Oregon Dispute and Canadian Journal Entries.
 		- Fixed Canadian states and Strategic Region.
 		- Removed buggy or incomplete American events.
@@ -114,7 +123,7 @@ Credit: All mods / mod ideas used linked below:
 
 		This changelog does not cover all of the changes as there are far too many to list.
 		In total over 18,000 lines of code have been changed, resulting in a lowered error count from 140k to 1.5k. Should be far more stable now, especially for MP.
-			# v.2.1
+			## v.2.1
 		- Further Fixes to Oregon Treaty.
 		- Hong Kong Flag added.
 		- Fixes to Formosa.
@@ -127,7 +136,7 @@ Credit: All mods / mod ideas used linked below:
 		- Cosmopolitanism added as an Ideology, the only one that supports Multiculturalism at this moment.
 		- Bureaucracy added to countries with Army/Navy Institutions.
 		- DNA of various characters fixed.
-			# v.2.2
+			## v.2.2
 		- Certain Modifiers fixed
 		- Universal Names Integrated
 		- Historical population modifiers added so France, Germany, & Russia reach similar levels of growth to IRL.
@@ -143,7 +152,7 @@ Credit: All mods / mod ideas used linked below:
 		- Historical Figures integrated.
 		- Fixes to UI and other errors.
 		- Fixes to localization of South African Journal Entries.
-			# v.2.3
+			## v.2.3
 		- Updated to work with patch 1.1.
 		- ECCI Updated to latest version.
 		- Implemented a fix for Bureaucrats, Capitalists, & Shopkeepers not correctly gaining clout.
@@ -156,7 +165,7 @@ Credit: All mods / mod ideas used linked below:
 		- Fixed not being able to play as CSA when ACW starts.
 		- Fixes to Heightmap and terrain, some provinces should look more realistic now.
 		- Dense Market Details & Dense trade Routes fixed.
-      # v.2.4
+    	    ## v.2.4
 		- Hungarian Revolution event chain finalized.
 		- Lowered AI's chance for backing down from diplomatic plays, especially if fighting an independence war.
 		- Government Legitimacy fixed, should be harder to maintain legitimacy now.
