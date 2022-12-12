@@ -1,4 +1,4 @@
-#The Community Project Mod Changelog
+# The Community Project Mod Changelog
 ## Rework branch, All non-UI flavor mods will be directly integrated
 Credit: All mods / mod ideas used linked below:
 		#QOL Mods
@@ -34,14 +34,14 @@ Credit: All mods / mod ideas used linked below:
 		More Spreadsheets - https://steamcommunity.com/sharedfiles/filedetails/?id=2884035975
 
 		
-		# Graphical Mods
+		## Graphical Mods
 		Vibrant Water - https://steamcommunity.com/sharedfiles/filedetails/?id=2883041137&searchtext=Vibrant+Water
 		Smaller Cities - https://steamcommunity.com/sharedfiles/filedetails/?id=2885459992&searchtext=Smaller+Cities
 		Mediterranean Architecture - https://steamcommunity.com/sharedfiles/filedetails/?id=2880034288
 		Miniature World - https://steamcommunity.com/workshop/browse/?appid=529340&searchtext=Miniature+World&childpublishedfileid=0&browsesort=textsearch&section=
 		Cities: Skylines - https://steamcommunity.com/sharedfiles/filedetails/?id=2885199207
 		
-		#Flavor Mods
+		## Flavor Mods
 		Norton's Flavor Mod - https://steamcommunity.com/sharedfiles/filedetails/?id=2882805006&searchtext=%09%09Norton%27s+Flavor+Mod+-+
 		Better Flags Mod - https://steamcommunity.com/sharedfiles/filedetails/?id=2880777583&searchtext=Better+Flags+Mod
 		Playable Alaska - https://steamcommunity.com/sharedfiles/filedetails/?id=2881989523&searchtext=%09%09Playable+Alaska
@@ -59,7 +59,7 @@ Credit: All mods / mod ideas used linked below:
 		Southern Africa Rework 1.2.0 - https://steamcommunity.com/sharedfiles/filedetails/?id=2892080578&searchtext=South+African+rework
 		Ottoman Realism Mod - https://steamcommunity.com/id/arcadyy/myworkshopfiles/?appid=529340&browsefilter=mysubscriptions
 
-		##CPM Additions
+		## CPM Additions
 		Army & Navy Institutions
 		Ethnic Removal for Ethnostates
 		Reworked Literacy Rates
@@ -73,7 +73,7 @@ Credit: All mods / mod ideas used linked below:
 		Communist Germany name changed to "German Democratic Republic" and color changed to red.
 		Hungarian Revolution events & journal entry added
 		
-		#Changelogs
+		# Changelogs
 			## v.1.0
 		- Reduced worldwide literacy rate to reflect historical figures.
 		- Added option to recruit 3 commanders instead of 2.
