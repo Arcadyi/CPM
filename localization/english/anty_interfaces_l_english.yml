@@ -18,7 +18,7 @@
  ANTY_MILITARY_PANEL_HQ_UNITS_TOOLTIP:1 "#header [Hq.GetName] [concept_garrison]#!\nThere are currently [Hq.GetGarrisonUnitsHeader] in [Hq.GetNameNoFlag]\n\n[Hq.GetGarrisonUnitsPerCommanderDesc]"
  ANTY_MILITARY_PANEL_NOT_GARRISONED:0 "With General on Order"
  ANTY_MILITARY_PANEL_HQ_STATE_NAME_EXPAND:0 "[State.GetName]"
- ANTY_NAVAL_INVASION_GENERAL_STATUS
+ ANTY_NAVAL_INVASION_GENERAL_STATUS:0 "Naval Invasion in [State.GetName]"
  ANTY_MILITARY_PANEL_HQ_STATE_NAME_BUILD:0 "No Barracks in [State.GetName]"
  ANTY_NAVAL_INVASION_GENERAL_STATUS_WITHOUTDAYS:0 "#v Intercepted#! [Character.GetCommanderOrder.GetType.GetName] to [Character.GetCommanderOrder.GetState.GetName] - #v Waiting#! for Admiral"
  ANTY_NAVAL_INVASION_WAITING_FOR_ADMIRAL_IN_BATTLE:0 "#v Fighting off#! enemy interception in #o #bold [Character.GetBattle.GetName]#!#!"
