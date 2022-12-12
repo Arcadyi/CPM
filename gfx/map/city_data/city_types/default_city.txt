@@ -7,7 +7,7 @@ default_city = {
 	weight = -1 #default city is always down prioritized
 	
 	min_residential_buildings = 2
-	max_residential_buildings = 250
+	max_residential_buildings = 150
 	max_residence_points = 200
 
 	rich_building_meshes = {
@@ -58,6 +58,13 @@ default_city = {
 	building_synthetics_plants = {"glassworks_manufactory_01_mesh"}
 	building_electrics_industry = {"generic_manufactory_02_mesh"}
 	building_power_plant = {"generic_manufactory_01_mesh"}
+	building_hydroelectric_power_plant = {"generic_manufactory_01_mesh"}
+	building_refinery = {"colonial_manufactory_02_mesh"}
+	building_ironworks = {"colonial_manufactory_01_mesh"}
+	building_lead_refineries = {"colonial_manufactory_02_mesh"}
+	building_coal_refineries = {"colonial_manufactory_01_mesh"}
+	building_sulfur_refineries = {"colonial_manufactory_02_mesh"}
+	building_gold_refineries = {"colonial_manufactory_03_mesh"}
 
 	building_suez_canal = {"canal_suezcanal_01_mesh"}
 	building_panama_canal = {"canal_panamacanal_01_mesh"}

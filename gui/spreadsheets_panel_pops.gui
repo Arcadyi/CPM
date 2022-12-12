@@ -1,0 +1,953 @@
+@secondary_icon_size = 25
+@pop_type_height = 50
+@line_height = 35
+@item_height = 32
+@item_right_margin_inside = 8
+@item_right_margin_outside = 12
+
+types spreadsheets_panel_types
+{
+    type spreadsheets_panel_pops = vbox {
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = expanding
+
+		background = {
+			using = light_bg
+			alpha = 0.65
+
+			modify_texture = {
+				texture = "gfx/interface/masks/fade_vertical_center.dds"
+				spriteType = Corneredstretched
+				spriteborder = { 0 0 }
+				blend_mode = alphamultiply
+			}
+			modify_texture = {
+				texture = "gfx/interface/masks/fade_horizontal_less_left.dds"
+				spriteType = Corneredstretched
+				spriteborder = { 0 0 }
+				blend_mode = alphamultiply
+			}
+		}
+
+		vbox = {
+			margin = { 20 10 }
+			spacing = 5
+			layoutpolicy_horizontal = expanding
+			datamodel = "[AccessPlayer.AccessPopTypesSortedOnPolStr]"
+
+			item = {
+				vbox = {
+					layoutpolicy_horizontal = expanding
+
+					hbox = {
+						layoutpolicy_horizontal = expanding
+						icon = {
+							size = { @pop_type_height @pop_type_height }
+							texture = "[PopType.GetTexture]"
+							tooltip = "[PopType.GetDesc]"
+						}
+
+						widget = {
+							size = {15 0}
+						}
+
+						section_header_button = {
+							blockoverride "onclick" {
+								onclick = "[GetVariableSystem.Toggle( Concatenate( 'ms_pop_type_expand_', PopType.GetNameNoIconNoFormatting ) )]"
+							}
+
+							blockoverride "onclick_showmore" {
+								visible = "[Not(GetVariableSystem.Exists( Concatenate( 'ms_pop_type_expand_', PopType.GetNameNoIconNoFormatting )))]"
+							}
+
+							blockoverride "onclick_showless" {
+								visible = "[GetVariableSystem.Exists( Concatenate( 'ms_pop_type_expand_', PopType.GetNameNoIconNoFormatting ))]"
+							}
+
+							blockoverride "layout" {
+								layoutpolicy_horizontal = expanding
+								size = { 0 @pop_type_height }
+							}
+
+							blockoverride "arrow_position" {
+								parentanchor = left|vcenter
+							}
+
+							blockoverride "left_textbox" {
+								hbox = {
+									layoutpolicy_horizontal = expanding
+
+									textbox = {
+										layoutstretchfactor_horizontal = 1
+										layoutpolicy_horizontal = expanding
+										margin_left = 50
+										size = { 0 @pop_type_height }
+										text = "[PopType.GetNameNoIcon]"
+										using = fontsize_large
+										align = left|nobaseline
+
+										tooltipwidget = {
+											FancyTooltip_PopType = {}
+										}
+									}
+
+									widget = {
+										layoutstretchfactor_horizontal = 5
+										layoutpolicy_horizontal = expanding
+									}
+
+									textbox = {
+										layoutstretchfactor_horizontal = 1
+										layoutpolicy_horizontal = expanding
+										size = { 0 @pop_type_height }
+										margin_right = 10
+										text = "MS_POP_TOOLTIP"
+
+										align = right|nobaseline
+									}
+
+									textbox = {
+										layoutstretchfactor_horizontal = 1
+										layoutpolicy_horizontal = expanding
+										size = { 0 @pop_type_height }
+										text = "[PopType.GetPopulation(GetPlayer)|Kv]"
+										tooltip = ""
+
+										align = left|nobaseline
+									}
+
+									textbox = {
+										layoutstretchfactor_horizontal = 1
+										layoutpolicy_horizontal = expanding
+										size = { 0 @pop_type_height }
+										margin_right = 10
+										text = "MS_WORKFORCE_TOOLTIP"
+
+										align = right|nobaseline
+									}
+
+									textbox = {
+										layoutstretchfactor_horizontal = 1
+										layoutpolicy_horizontal = expanding
+										size = { 0 @pop_type_height }
+										text = "[PopType.GetWorkforce(GetPlayer)|K]"
+
+										align = left|nobaseline
+									}
+
+									textbox = {
+										layoutstretchfactor_horizontal = 1
+										layoutpolicy_horizontal = expanding
+										size = { 0 @pop_type_height }
+										margin_right = 10
+										text = "MS_DEPENDENTS_TOOLTIP"
+
+										align = right|nobaseline
+									}
+
+									textbox = {
+										layoutstretchfactor_horizontal = 1
+										layoutpolicy_horizontal = expanding
+										size = { 0 @pop_type_height }
+										text = "[PopType.GetDependents(GetPlayer)|K]"
+
+										align = left|nobaseline
+									}
+
+									textbox = {
+										layoutstretchfactor_horizontal = 1
+										layoutpolicy_horizontal = expanding
+										size = { 0 @pop_type_height }
+										margin_right = 10
+										text = "MS_POL_STR_TOOLTIP"
+
+										align = right|nobaseline
+									}
+
+									textbox = {
+										layoutstretchfactor_horizontal = 1
+										layoutpolicy_horizontal = expanding
+										size = { 0 @pop_type_height }
+										text = "[PopType.GetPolStr(GetPlayer)|Kv]"
+
+										align = left|nobaseline
+									}
+
+									textbox = {
+										layoutstretchfactor_horizontal = 1
+										layoutpolicy_horizontal = expanding
+										size = { 0 @pop_type_height }
+										margin_right = 10
+										text = "MS_POL_STR_PCT"
+
+										align = right|nobaseline
+									}
+
+									textbox = {
+										layoutstretchfactor_horizontal = 1
+										layoutpolicy_horizontal = expanding
+										size = { 0 @pop_type_height }
+										text = "[PopType.GetPolStrAsPercentage(GetPlayer)|2v]%"
+
+										align = left|nobaseline
+									}
+								}
+							}
+						}
+
+					}
+
+					ms_pop_list = {
+					}
+				}
+			}
+		}
+
+		# Push everything up
+		widget = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+		}
+	}
+
+
+	type ms_pop_list = vbox {
+		margin = { 0 10 }
+		visible = "[GetVariableSystem.Exists( Concatenate( 'ms_pop_type_expand_', PopType.GetNameNoIconNoFormatting ))]"
+		layoutpolicy_horizontal = expanding
+		datamodel = "[AccessPlayer.AccessStates]"
+
+		ms_pop_list_sort = {}
+
+		item = {
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				datamodel = "[State.AccessPopsList.AccessPopList]"
+
+				item = {
+					vbox = {
+						layoutpolicy_horizontal = expanding
+						# Filter each states pops to only appear when its their turn
+						visible = "[EqualTo_string(PopType.GetNameNoIconNoFormatting, PopListItem.GetPopType.GetNameNoIconNoFormatting)]"
+						datamodel = "[PopListItem.GetPops]"
+
+						item = {
+							ms_pop_list_entry = {
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	type ms_pop_list_sort = hbox {
+		layoutpolicy_horizontal = expanding
+
+		# IDENTIFICATION
+		# State
+		sort_button = {
+			layoutstretchfactor_horizontal = 4
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			onclick = "[AccessPlayer.SortStates('name')]"
+
+			text = "STATE_TITLE"
+			align = left|nobaseline
+
+			tooltip = STATE_EXPLAINER
+		}
+
+		# Building
+		sort_button = {
+			layoutstretchfactor_horizontal = 4
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_WORK_BUILDING"
+			tooltip = "MS_WORK_BUILDING_TOOLTIP"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Acceptance
+		sort_button = {
+			size = { @secondary_icon_size @item_height }
+			enabled = no
+
+			text = "MS_ACCEPTED"
+			tooltip = "MS_ACCEPTED_TOOLTIP"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Culture
+		sort_button = {
+			layoutstretchfactor_horizontal = 3
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_CULTURE"
+			tooltip = "CULTURE_TITLE"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Religion
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_RELIGION"
+			tooltip = "RELIGION_TITLE"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		vertical_divider = {}
+
+		# Total Pops
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_POP"
+			tooltip = "MS_POP_TOOLTIP"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Workforce
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_WORKFORCE"
+			tooltip = "MS_WORKFORCE_TOOLTIP"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Dependents
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_DEPENDENTS"
+			tooltip = "MS_DEPENDENTS_TOOLTIP"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Workforce Ratio
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_WORKFORCE_RATIO"
+			tooltip = "MS_WORKFORCE_RATIO_TOOLTIP"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Net Growth
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_GROWTH"
+			tooltip = "MS_GROWTH"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		vertical_divider = {}
+
+		# Sol
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_SOL"
+			tooltip = "MS_SOL"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Expected Sol
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_EXPEXCTED_SOL"
+			tooltip = "MS_EXPEXCTED_SOL_TOOLTIP"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Income
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_INCOME"
+			tooltip = "MS_INCOME_TOOLTIP"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Workforce Income
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_WORKFORCE_INCOME"
+			tooltip = "MS_WORKFORCE_INCOME_TOOLTIP"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Dependents Income
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_DEPENDENTS_INCOME"
+			tooltip = "MS_DEPENDENTS_INCOME_TOOLTIP"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Net Income
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_NET_INCOME"
+			tooltip = "MS_NET_INCOME_TOOLTIP"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Avg Annual Wage
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_AVG_ANNUAL_WAGE"
+			tooltip = "MS_AVG_ANNUAL_WAGE_TOOLTIP"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Wealth Progression
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_WEALTH_PROGRESSION"
+			tooltip = "MS_WEALTH_PROGRESSION_TOOLTIP"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		vertical_divider = {}
+
+		# Literacy
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_LITERACY"
+			tooltip = "LITERACY_TITLE"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Education Access
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_EDUCATION_ACCESS"
+			tooltip = "MS_EDUCATION_ACCESS_TOOLTIP"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Pol Strength
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_POL_STR"
+			tooltip = "MS_POL_STR_TOOLTIP"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Radicals
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_RADICAL"
+			tooltip = "MS_RADICAL"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		# Loyalist
+		sort_button = {
+			layoutstretchfactor_horizontal = 2
+			layoutpolicy_horizontal = expanding
+			size = { 0 @item_height }
+			enabled = no
+
+			text = "MS_LOYALIST"
+			tooltip = "MS_LOYALIST"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+
+		vertical_divider = {}
+		# IGs
+		sort_button = {
+			size = { 68 @item_height }
+			enabled = no
+
+			text = "MS_IGS"
+			tooltip = "MS_IGS"
+			align = right|nobaseline
+			using = fontsize_medium
+		}
+	}
+
+
+	type ms_pop_list_entry = button {
+		using = clean_button
+		layoutpolicy_horizontal = expanding
+		size = { 0 @line_height }
+		datacontext = "[PopListPopEntry.AccessPop]"
+		onclick = "[InformationPanelBar.OpenPopDetailsPanel( Pop.AccessSelf )]"
+		alwaystransparent = no
+
+		hbox = {
+			# IDENTIFICATION
+			# State
+			textbox = {
+				layoutstretchfactor_horizontal = 4
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_left = @item_right_margin_outside
+
+				align = left|nobaseline
+				text = "#bold [State.GetName]#!"
+
+				multiline = yes
+				tooltipwidget = {
+					FancyTooltip_State = {}
+				}
+			}
+
+			# Building
+			hbox = {
+				layoutstretchfactor_horizontal = 4
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				# Building icon
+				icon = {
+					visible = "[Pop.IsEmployed]"
+					size = { 22 22 }
+					texture = "[Pop.GetBuilding.GetTexture]"
+					tooltip = "[Pop.GetBuilding.GetTooltip]"
+				}
+
+				# Building name
+				textbox = {
+					visible = "[Pop.IsEmployed]"
+					layoutpolicy_horizontal = expanding
+					size = { 0 @item_height }
+
+					align = left|nobaseline
+					text = "[Pop.GetWorksAt]"
+					elide = right
+				}
+
+				# Unemployed
+				textbox = {
+					layoutpolicy_horizontal = expanding
+					size = { 0 @item_height }
+
+					text = "UNEMPLOYED"
+					align = left|nobaseline
+					visible = "[Not(Pop.IsEmployed)]"
+					alpha = 0.5
+					elide = right
+				}
+			}
+
+			# Acceptance
+			widget = {
+				size = { @secondary_icon_size @secondary_icon_size }
+				icon = {
+					tooltip = "DISCRIMINATION_TOOLTIP"
+					visible = "[Pop.IsDiscriminated]"
+					texture = "gfx/interface/icons/generic_icons/discriminated_icon.dds"
+					size = { @secondary_icon_size @secondary_icon_size }
+				}
+
+				icon = {
+					tooltip = "ACCEPTED_TOOLTIP"
+					visible = "[Not(Pop.IsDiscriminated)]"
+					texture = "gfx/interface/icons/generic_icons/accepted_icon.dds"
+					size = { @secondary_icon_size @secondary_icon_size }
+				}
+			}
+
+			# Culture
+			hbox = {
+				layoutstretchfactor_horizontal = 3
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				icon = {
+					visible = "[Pop.IsAssimilating]"
+					size = { @secondary_icon_size @secondary_icon_size }
+					texture = "gfx/interface/icons/generic_icons/assimilation.dds"
+					tooltip = "[Pop.GetPopAssimilationDesc]"
+				}
+
+				textbox = {
+					layoutpolicy_horizontal = expanding
+					margin = { 10 0 }
+					size = { 0 @item_height }
+					align = left|nobaseline
+					elide = right
+					text = "[Pop.GetCulture.GetName]"
+				}
+			}
+
+			# Religion
+			hbox = {
+				datacontext = "[Pop.GetReligion]"
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				icon = {
+					size = { @secondary_icon_size @secondary_icon_size }
+					texture = "[Religion.GetTexture]"
+					tooltip = "[Religion.GetName]"
+				}
+				icon = {
+					visible = "[Pop.IsConverting]"
+					size = { @secondary_icon_size @secondary_icon_size }
+					texture = "gfx/interface/icons/generic_icons/conversion.dds"
+					tooltip = "[Pop.GetPopConversionDesc]"
+				}
+
+				#textbox = {
+					#layoutpolicy_horizontal = expanding
+					#size = { 0 @item_height }
+					#align = left|nobaseline
+					#elide = right
+					#text = "[Religion.GetName]"
+				#}
+			}
+
+			vertical_divider = {}
+
+			# POPULATION
+			# Total pops
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "[Pop.GetTotalSize|Dv]"
+				using = pop_population_tooltip_with_graph
+			}
+
+			# Workforce
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "[Pop.GetNumWorkforce|Dv]"
+				tooltip = "POP_WORKFORCE_TOOLTIP"
+			}
+
+			# Dependents
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "[Pop.GetDependentsSize|Dv]"
+				tooltip = "POP_DEPENDENTS_TOOLTIP"
+			}
+
+			# Workforce Ratio
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "[Pop.GetWorkforceRatio|%1]"
+				tooltip = "[Pop.GetWorkforceRatioDesc]"
+			}
+
+			# Net Growth
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "#variable [Pop.GetPopGrowth|+=D]#!"
+				using = pop_population_tooltip_with_graph
+			}
+
+			vertical_divider = {}
+
+			# MONEY
+			# Sol
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "[Pop.GetFormattedStandardOfLiving|v]"
+				using = pop_sol_tooltip_with_graph
+			}
+
+			# Expected Sol
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "[Pop.GetExpectedStandardOfLiving|v]"
+				tooltip = "[Pop.GetExpectedStandardOfLivingDesc]"
+			}
+
+			# Income
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "@money![Pop.GetIncome|vD]"
+				tooltip = "[Pop.GetIncomeDesc]"
+			}
+
+			# Workforce Income
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "@money![Pop.GetWorkforceIncome|vD]"
+				tooltip = "[Pop.GetWorkforceIncomeDesc]"
+			}
+
+			# Dependents Income
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "@money![Pop.GetDependentIncome|vD]"
+				tooltip = "[Pop.GetDependentIncomeDesc]"
+			}
+
+			# Net income
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "#variable @money![Pop.GetMoney|D=+]#!"
+				tooltip = "TOOLTIP_POP_NET_INCOME"
+			}
+
+			# Avg Annual Wage
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "@money![Pop.GetAverageAnnualWage|Dv]"
+				tooltip = "TOOLTIP_POP_NET_INCOME"
+			}
+
+			# Wealth Progression
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "#v [Pop.GetWealthProgression|+=%0]#!"
+				tooltip = "TOOLTIP_POP_NET_INCOME"
+			}
+
+			vertical_divider = {}
+
+			# POLITICS
+			# Literacy
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "[Pop.GetLiteracyRate|%1v]"
+				tooltip = "POP_POPULATION_LITERACY"
+			}
+
+			# Education Access
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "[Pop.GetEducationAccess|%1]"
+				tooltip = "[Pop.GetEducationAccessDetailsDesc]"
+			}
+
+			# Pol Strength
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "[Pop.GetPoliticalStrength|Kv]"
+				using = pop_pol_str_tooltip_with_graph
+				alpha = "[TransparentIfZero(Pop.GetLargestInterestGroup.GetClout)]"
+			}
+
+			# Radicals
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "#variable [Pop.GetNumRadicals|D]#!"
+				tooltip = "RADICALS_TOOLTIP_POP"
+			}
+
+			# Loyalist
+			textbox = {
+				layoutstretchfactor_horizontal = 2
+				layoutpolicy_horizontal = expanding
+				size = { 0 @item_height }
+				margin_right = @item_right_margin_inside
+
+				align = right|nobaseline
+				text = "#variable [Pop.GetNumLoyalists|D]#!"
+				tooltip = "LOYALISTS_TOOLTIP_POP"
+			}
+
+			vertical_divider = {}
+			# IGs
+			hbox = {
+				margin = { @item_right_margin_inside 0 }
+				widget = {
+					size = { 52 @line_height }
+					scissor = yes
+					flowcontainer = {
+						parentanchor = vcenter
+						spacing = 2
+						datamodel = "[Pop.AccessSupportedInterestGroups]"
+
+						item = {
+							ig_button = {
+								size = { @secondary_icon_size @secondary_icon_size }
+								texture = "[InterestGroup.GetTexture]"
+								using = tooltip_above
+								blockoverride "tooltip" {}
+								tooltip = "POP_IG_ATTRACTION_HEADER"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

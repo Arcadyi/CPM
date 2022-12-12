@@ -13,7 +13,7 @@
 	weight = -1 #default port is always down prioritized
 	
 	min_residential_buildings = 2
-	max_residential_buildings = 150
+	max_residential_buildings = 100
 	max_residence_points = 100
 
 	rich_building_meshes = {
@@ -53,4 +53,5 @@
 	building_port = {}
 	building_naval_base = {"european_port_naval_base_01_mesh"}
 	building_shipyards = {}
+	building_military_shipyards = {}
 }

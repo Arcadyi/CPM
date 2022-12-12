@@ -1,0 +1,202 @@
+namespace = oriental_crisis
+oriental_crisis.1 = { #Oriental Crisis Begin, Ottoman option to attack or not
+    type = country_event
+    placement = ROOT
+    title = oriental_crisis.1.t
+    desc = oriental_crisis.1.d
+    flavor = oriental_crisis.1.f
+
+    event_image = {
+        video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+    }
+    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    immediate = {
+
+    }
+
+    trigger = {
+        #triggered by je_oriental_crisis1
+    }
+    option = {
+        name = oriental_crisis.1.a
+        default_option = yes
+        custom_tooltip = {
+            text = willtakebackalllandtur
+        }
+        hidden_effect = {
+            create_diplomatic_play = {
+                name = orientalcrisis_dp
+                escalation = 100
+                war = yes
+                initiator = c:TUR
+                type = dp_conquer_state
+                target_country = c:EGY
+                add_war_goal = {
+                    holder = c:TUR
+                    target_country = c:EGY
+                    type = conquer_state
+                    target_state = s.STATE_ADANA.region_state:EGY
+                }
+                add_war_goal = {
+                    holder = c:TUR
+                    target_country = c:EGY
+                    type = conquer_state
+                    target_state = s.s:STATE_ALEPPO.region_state:EGY
+                }
+                add_war_goal = {
+                    holder = c:TUR
+                    target_country = c:EGY
+                    type = conquer_state
+                    target_state = s.s:STATE_SYRIA.region_state:EGY
+                }
+                add_war_goal = {
+                    holder = c:TUR
+                    target_country = c:EGY
+                    type = conquer_state
+                    target_state = s.s:STATE_LEBANON.region_state:EGY
+                }
+                add_war_goal = {
+                    holder = c:TUR
+                    target_country = c:EGY
+                    type = conquer_state
+                    target_state = s.s:STATE_TRANSJORDAN.region_state:EGY
+                }
+                add_war_goal = {
+                    holder = c:TUR
+                    target_country = c:EGY
+                    type = conquer_state
+                    target_state = s.s:STATE_PALESTINE.region_state:EGY
+                }
+                add_war_goal = {
+                    holder = c:TUR
+                    target_country = c:EGY
+                    type = make_puppet
+                }
+            }
+            set_global_variable = orientalcrisisbegun
+            add_journal_entry = {
+                type = je_oriental_crisis2
+            }
+      }
+    }
+
+    option = {
+        name = oriental_crisis.1.b
+        custom_tooltip = {
+            text = ottomansloseclaim
+        }
+        hidden_effect = {
+            set_global_variable = ottomansgaveuporientalcrisis
+            s:STATE_ADANA = {
+                remove_claim = c:TUR
+            }
+            s:STATE_ALEPPO = {
+                remove_claim = c:TUR
+            }
+            s:STATE_SYRIA = {
+                remove_claim = c:TUR
+            }
+            s:STATE_LEBANON = {
+                remove_claim = c:TUR
+            }
+            s:STATE_TRANSJORDAN = {
+                remove_claim = c:TUR
+            }
+            s:STATE_PALESTINE = {
+                remove_claim = c:TUR
+            }
+        }
+      }
+}
+oriental_crisis.2 = { # Ottoman Fleet Defects
+    type = country_event
+    placement = ROOT
+    title = oriental_crisis.2.t
+    desc = oriental_crisis.2.d
+    flavor = oriental_crisis.2.f
+
+    event_image = {
+        video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+    }
+    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    duration = 3
+    immediate = {
+        set_variable = ottomanfleetdefects
+        any_scope_state = {
+            limit = {
+                    owner = c:TUR
+                    has_building = building_naval_base
+            }
+            add_modifier = {
+                name = ottomanfleetdefecting
+                months = 12
+            }
+        }
+    }
+
+    trigger = {
+        this = c:TUR
+        is_at_war = yes
+        has_global_variable = orientalcrisisbegun
+        NOT = {
+            has_variable = ottomanfleetdefects
+        }
+    }
+
+    option = {
+        name = oriental_crisis.2.a
+    }
+}
+oriental_crisis.3 = { # Great Powers Intervene(or not)
+    type = country_event
+    placement = ROOT
+    title = oriental_crisis.3.t
+    desc = oriental_crisis.3.d
+    flavor = oriental_crisis.3.f
+
+    event_image = {
+        video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+    }
+    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    duration = 5
+    immediate = {
+        set_global_variable = orientalcrisisintervention
+        }
+
+    trigger = {
+        OR = {
+            this = c:AUS
+            this = c:PRU
+            this = c:GBR
+            this = c:RUS
+        }
+        c:TUR = {
+            has_variable = ottomanfleetdefects
+        }
+        NOT = {
+            has_global_variable = orientalcrisisintervention
+        }
+        has_global_variable = orientalcrisisbegun
+        c:TUR = {
+            any_scope_war = {
+                is_war_participant = c:TUR
+                is_war_participant = c:EGY
+                has_war_support = {
+                    target = c:TUR
+                    value < 10
+                }
+            }
+        }
+        
+    }
+
+    option = {
+        name = oriental_crisis.3.a
+    }
+}
