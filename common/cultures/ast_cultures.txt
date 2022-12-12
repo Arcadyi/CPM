@@ -5,6 +5,7 @@
 	
 		obsessions = {
 		liquor
+		newspapers
 	}
 	
 	male_common_first_names={

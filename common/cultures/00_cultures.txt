@@ -2,6 +2,11 @@
 	color= rgb{ 62 77 100 }
 	religion = protestant
 	traits = { german_speaking european_heritage }
+
+	obsessions = {
+		newspapers
+	}
+
 	male_common_first_names={
 		Adelbert 
 		Adolf 
@@ -483,6 +488,11 @@ south_german={
 	color= hsv{ 0.50 0.43 0.45 }
 	religion = catholic
 	traits = { german_speaking european_heritage }
+
+	obsessions = {
+		newspapers
+	}
+
 	male_common_first_names={
 		Adolf 
 		Albrecht 
@@ -2722,6 +2732,7 @@ british={ # "English" in localization
 	
 	obsessions = {
 		tea
+		newspapers
 	}
 	
 	male_common_first_names={
@@ -2862,6 +2873,11 @@ irish={
 	religion = catholic
 	traits = { celtic_people european_heritage }
 	# could have anglophone but would make them non-discriminated in Britain
+
+	obsessions = {
+		newspapers
+	}
+
 	male_common_first_names={
 		Alexander
 		Arthur
@@ -11104,6 +11120,11 @@ japanese={
 	color= hsv{ 0 0 90 }
 	religion = mahayana
 	traits = { yamato east_asian_heritage }
+
+	obsessions = {
+		newspapers
+	}
+
 	male_common_first_names={
 		japanese_flavor_Katsushika_Hokusai_first
 		japanese_flavor_Kyokutei_Bakin_first
@@ -15365,6 +15386,11 @@ yankee={
 	color= rgb{ 135 206 235 } # Sky Blue
 	religion = protestant
 	traits = { anglophone european_heritage }
+
+	obsessions = {
+		newspapers
+	}
+
 	male_common_first_names = {
 		Albert Alexander Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Alvin August Abraham Abel Abijah Alonzo Ansel Amos Absalom
 		Benjamin Bartholomew Byron Benedict Barnabas Bildad
@@ -15490,6 +15516,11 @@ dixie={
 	color=rgb{ 204 154 91 } # Butternut
 	religion = protestant
 	traits = { anglophone european_heritage }
+
+	obsessions = {
+		newspapers
+	}
+
 	male_common_first_names = {
 		Andrew Alexander Atticus Alpheus Alfred Allen Arthur Augustus Archibald Algernon Ambrose Asa Arthur Angus Abner Auburn Archer Adam Arnold Amos Alben Alwyn
 		Braxton Basil Birkett Bushrod Benedict
@@ -21180,6 +21211,11 @@ anglo_canadian={
 	color= hsv{ 0.22 0.22 0.45 }
 	religion = protestant
 	traits = { anglophone european_heritage }
+
+	obsessions = {
+		newspapers
+	}
+
 	male_common_first_names={
 		Albert
 		Alexander
@@ -21387,6 +21423,11 @@ franco_canadian={
 	color= rgb{ 87 120 181 }
 	religion = catholic
 	traits = { francophone european_heritage }
+
+	obsessions = {
+		newspapers
+	}
+
 	male_common_first_names={
 		Adolphe
 		Alain

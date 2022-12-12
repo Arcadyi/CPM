@@ -104,9 +104,9 @@ NWar = {
 }
 
 NPops = {
-	ECONOMIC_MIGRATION_BASE = 0.002 #0.02								# Base amount of a pop that wants to move for economic reasons
+	ECONOMIC_MIGRATION_BASE = 0.001 #0.02								# Base amount of a pop that wants to move for economic reasons
 	
-	ECONOMIC_MIGRATION_STATE_POPULATION_THRESHOLD = 300000 #100000				# States with less pops than this have reduced economic emigration numbers to avoid total depopulation
+	ECONOMIC_MIGRATION_STATE_POPULATION_THRESHOLD = 250000 #100000				# States with less pops than this have reduced economic emigration numbers to avoid total depopulation
 	
 	MIGRATION_MAX_PER_STATE_UNEMPLOYMENT_ORIGIN_FRACTION = 0.2 #0.05	# The amount of unemployed workers in a state * this value is added to how many people can move from it
 	
