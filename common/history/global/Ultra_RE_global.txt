@@ -1,0 +1,1188 @@
+﻿# This is executed last among all history
+GLOBAL = {
+
+	### Add missing universities at game start
+	
+		## Japan
+	
+	s:STATE_KANTO={ # Komazawa University (1592)
+		region_state:JAP={ 
+			create_building={
+				building="building_university"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_KANSAI={ # Ryukoku University (1639)
+		region_state:JAP={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+		## Germany
+	
+	s:STATE_EAST_PRUSSIA={ #Königsberg University
+		region_state:PRU={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_SILESIA={ #Breslau University
+		region_state:PRU={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_NORTH_RHINE={ #Köln University
+		region_state:PRU={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_POMERANIA={ #Stettin University
+		region_state:PRU={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_BRANDENBURG={ #Berlin University missing lvls
+		region_state:PRU={
+			create_building={
+				building="building_university"
+				level=6
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_BAVARIA={ #Munich University missing lvls 
+		region_state:BAV={
+			create_building={
+				building="building_university"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_FRANCONIA={ #Nurnberg 
+		region_state:BAV={
+			create_building={
+				building="building_university"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_SAXONY={
+		region_state:SAX={ #Dresden University missing lvls
+			create_building={
+				building="building_university"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+		region_state:WEI = { #Weimar University
+			create_building={
+				building="building_university"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+		region_state:COB = { #Coburg University
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_HANNOVER={ #Hannover University missing lvls 
+		region_state:HAN={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_WURTTEMBERG={ #Stuttgart University missing lvls 
+		region_state:WUR={
+			create_building={
+				building="building_university"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_BADEN={ #Karlsruhe University missing lvls 
+		region_state:BAD={
+			create_building={
+				building="building_university"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_HESSE={ 
+		region_state:HES={ #Mainz University
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+		region_state:HEK={ # Fulda University
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_BRUNSWICK={ #Brunswick University
+		region_state:BRA={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+		region_state:HAN={
+			create_building={
+				building="building_university"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_SCHLESWIG_HOLSTEIN={ #Kiel University
+		region_state:HOL={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_MECKLENBURG={ #Rostock University
+		region_state:MEC={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_ANHALT={ #Magdeburg University
+		region_state:PRU={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+		## France
+		
+	s:STATE_ILE_DE_FRANCE={ #Paris University
+		region_state:FRA={
+			create_building={
+				building="building_university"
+				level=9
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+		
+	s:STATE_RHONE={ #Grenoble University
+		region_state:FRA={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_PICARDY={ #Lille University
+		region_state:FRA={
+			create_building={
+				building="building_university"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_ALSACE_LORRAINE={ #Strasbourg University
+		region_state:FRA={
+			create_building={
+				building="building_university"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_BURGUNDY={ #Dijon & Besançon Universities
+		region_state:FRA={
+			create_building={
+				building="building_university"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_AQUITAINE={ #Bordeaux university
+		region_state:FRA={
+			create_building={
+				building="building_university"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_PROVENCE={ #Marseilles University
+		region_state:FRA={
+			create_building={
+				building="building_university"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+		#Great Britain
+	
+	s:STATE_HOME_COUNTIES={ #Oxford & London Universities missing lvls
+		region_state:GBR={
+			create_building={
+				building="building_university"
+				level=9
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_EAST_ANGLIA={ # East Anglia Universities
+		region_state:GBR={
+			create_building={
+				building="building_university"
+				level=6
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_YORKSHIRE={ # York University
+		region_state:GBR={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_LOWLANDS={ # Scottish Universities
+		region_state:GBR={
+			create_building={
+				building="building_university"
+				level=6
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+		#Spain
+		
+	s:STATE_TOLEDO={ #Salamanca & Valadolid
+		region_state:SPA={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+		#Poland
+	
+	s:STATE_EAST_GALICIA={ #Lvow University
+		region_state:AUS={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_MAZOVIA={ #Warsaw University
+		region_state:RUS={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_LITHUANIA={ #Vilnius University
+		region_state:RUS={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+		#Russia
+	
+	s:STATE_ESTONIA={ #Dorpat University
+		region_state:RUS={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_KAZAN={ #Kazan University
+		region_state:RUS={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_LUHANSK={ #Kharkov University
+		region_state:RUS={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_INGRIA={ #St Pertersburg University
+		region_state:RUS={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	# Turkey
+	
+	s:STATE_EASTERN_THRACE={ #Early Constantinople University, low lvl because was in restructuration
+		region_state:TUR={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	# Serbia
+	
+	s:STATE_NORTHERN_SERBIA={ #Belgrade University
+		region_state:SER={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	#Portugal
+	
+	s:STATE_ESTREMADURA={ #Coimbra University
+		region_state:POR={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	#Canada
+	
+	s:STATE_ONTARIO={ #Windsor University, Toronto University
+		region_state:ONT={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_NEW_BRUNSWICK={ #Fredericton University
+		region_state:NBS={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_NEW_BRUNSWICK={ #Halifax University
+		region_state:NVS = {
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_QUEBEC={ #Montreal University
+		region_state:QUE={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	#India
+	
+	s:STATE_DELHI={ # Delhi University
+		region_state:BIC={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_SOUTH_BENGAL={ # Calcutta University
+		region_state:BIC={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	#Netherlands
+	
+	s:STATE_HOLLAND={ # Amsterdam University
+		region_state:NET={
+			create_building={
+				building="building_university"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_FRIESLAND={ # Groningen University
+		region_state:NET={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	#Belgium
+	
+	s:STATE_FLANDERS={ #Brussel University
+		region_state:BEL={
+			create_building={
+				building="building_university"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_WALLONIA={ #Liege University
+		region_state:BEL={
+			create_building={
+				building="building_university"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	#Austrian Empire
+	
+	s:STATE_AUSTRIA={ #Vienna University 
+		region_state:AUS={
+			create_building={
+				building="building_university"
+				level=18 #Biggest in the world
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_STYRIA={ #Graz University
+		region_state:AUS={
+			create_building={
+				building="building_university"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_BOHEMIA={ #Prag University
+		region_state:AUS={
+			create_building={
+				building="building_university"
+				level=6
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_MORAVIA={ #Brno University
+		region_state:AUS={
+			create_building={
+				building="building_university"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_CENTRAL_HUNGARY={ #Budapest University
+		region_state:AUS={
+			create_building={
+				building="building_university"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_TYROL={ #Innsbruck University
+		region_state:AUS={
+			create_building={
+				building="building_university"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+ #Denmark
+	
+	s:STATE_ZEALAND={ #Copenhagen University
+		region_state:DEN={
+			create_building={
+				building="building_university"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	#Sweden
+	
+	s:STATE_SVEALAND={ #Stockholm University
+		region_state:SWE={
+			create_building={
+				building="building_university"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_SCANIA={ #Lund University
+		region_state:SWE={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	#Norway
+	
+	s:STATE_EASTERN_NORWAY={ #Oslo University
+		region_state:NOR={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	#Finland
+	
+	s:STATE_SOUTHERN_FINLAND={ #Helsinky University
+		region_state:FIN={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	#USA
+	
+	s:STATE_OHIO={ # Marietta, Oberlin, Xavier, Denison, Capital, Case Western, Kenyon, Cincinnati
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=4 # was 11
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_GEORGIA={ # Oglethorpe, Mercer, LaGrange
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=2 #was 4
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_MICHIGAN={ # Albion, Kalamazoo, Michigan
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=1 #was 3
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_ALABAMA={ # West Alabama, Alabama, North Alabama, Spring Hill, Athens
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=2 #was 5
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_NORTH_CAROLINA={ # Wake Forest
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=1 #was 3
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_NEW_YORK={ # SUNY, New York, Rochester, New Paltz, Fredonia, Rensselaer, Cazenovia, Hobart and William Smith, Colgate
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=7 #was 14
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_LOUISIANA={ # Tulane, Centenary
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_ARKANSAS={ # Ozarks
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_PENNSYLVANIA={ # Haverford, Gettysburg, Lafayette, Thomas Jefferson
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=6 #was 12
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_MISSOURI={ #Stephens, Lindenwood, Saint Louis
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=1 #was 3
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_INDIANA={ # Wabash, Hanover, Bloomington
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=2 #was 4
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_MAINE={ # New England
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=1 #was 3
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_CONNECTICUT={ # Wesleyan, Trinity
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=2 #was 4
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_VERMONT={ # Vermont, Norwich
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=2 #was 5
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_VIRGINIA={ # Randolph-Macon, Richmond, Virginia
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=2 #was 5
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_ILLINOIS={ # Illinois, McKendree
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_MISSISSIPPI={ # Mississippi
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_SOUTH_CAROLINA={ # Furman, Medical
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=2 #was 5
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_MARYLAND={ # Maryland
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=2 #was 5
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_MASSACHUSETTS={ # MCPHS, Amherst
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=2 #was 5
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_TENNESSEE={ # Union, Maryville
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=2 #was 4
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_DISTRICT_OF_COLUMBIA={ # George Washington
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_KENTUCKY={ # Centre
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=2 #was 5
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_NEW_JERSEY={
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_RHODE_ISLAND={
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_NEW_HAMPSHIRE={
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_DELAWARE={
+		region_state:USA={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	
+	#Italy
+	
+	s:STATE_ROMAGNA={
+		region_state:PAP={
+			create_building={
+				building="building_university"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_EMILIA={
+		region_state:PAR={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+		region_state:MOD={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+		region_state:LUC={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_CAMPANIA={
+		region_state:SIC={
+			create_building={
+				building="building_university"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_TUSCANY={
+		region_state:TUS={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_UMBRIA={
+		region_state:PAP={
+			create_building={
+				building="building_university"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_LAZIO={
+		region_state:PAP={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_LOMBARDY={
+		region_state:AUS={
+			create_building={
+				building="building_university"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_PIEDMONT={
+		region_state:SAR={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_SICILY={
+		region_state:SIC={
+			create_building={
+				building="building_university"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	s:STATE_SARDINIA={
+		region_state:SAR={
+			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+	
+	
+	
+	
+ 
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

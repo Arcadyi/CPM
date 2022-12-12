@@ -1,6 +1,13 @@
 ﻿COUNTRIES = {
 	c:LUC = {
-		effect_starting_technology_tier_3_tech = yes
+		effect_starting_technology_tier_2_tech = yes
+		
+		activate_law = law_type:law_religious_schools #Was none
+		
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 1 #was none
+		}
 		
 		effect_starting_politics_reactionary = yes
 

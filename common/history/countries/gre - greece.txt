@@ -1,9 +1,10 @@
 ﻿COUNTRIES = {
 	c:GRE = {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology_tier_3_tech = yes #Was 4
 		add_technology_researched = urban_planning
 		add_technology_researched = law_enforcement
 		add_technology_researched = currency_standards
+		add_technology_researched = empiricism  #was none
 		
 		effect_starting_politics_conservative = yes
 		

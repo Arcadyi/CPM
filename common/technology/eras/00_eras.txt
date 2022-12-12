@@ -1,0 +1,19 @@
+﻿era_1 = { #Pre-1836
+	technology_cost = 4000 #was 5000 # for progress bonuses, use an approximate third: 1650 #Ultra_RE : countries have easier time catching up
+}
+
+era_2 = { #1836-1861
+	technology_cost = 7000 # was 7500 # for progress bonuses, use a third: 2500 #Ultra_RE : lowered a bit for consistancy
+}
+
+era_3 = { #1862-1886
+	technology_cost = 10000 # for progress bonuses, use an approximate third: 3000 #Ultra_RE : about 1 years for countries with max innovation
+}
+
+era_4 = { #1887-1911
+	technology_cost = 15000 # was 12500 # for progress bonuses, use an approximate third: 4000 #Ultra_RE : about 1.5 years for countries with max innovation
+}
+
+era_5 = { #1911-1936
+	technology_cost = 20000 # was 15000 # for progress bonuses, use a third: 5000 #Ultra_RE : about 2 years for countries with max innovation
+}
