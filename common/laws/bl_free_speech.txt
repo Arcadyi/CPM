@@ -9,11 +9,11 @@ law_outlawed_dissent = {
 	progressiveness = -50
 	
 	modifier = {
-		country_authority_add = 250
+		country_authority_add = 200
+		state_conversion_mult = 0.5
 		country_promotion_ig_attraction_mult = 0.5
 		country_suppression_ig_attraction_mult = -0.5
-		country_tech_spread_mult = -0.15
-		state_conversion_mult = 0.5
+		country_tech_spread_mult = -0.25
 		interest_group_ig_devout_pol_str_mult = 0.1
 	}
 	

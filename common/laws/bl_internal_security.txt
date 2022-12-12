@@ -13,7 +13,7 @@
 		state_conscription_rate_add = 0.005
 		political_movement_radicalism_mult = -0.1
 		state_turmoil_effects_mult = -0.05
-		interest_group_ig_armed_forces_pol_str_mult = 0.05
+		interest_group_ig_armed_forces_pol_str_mult = 0.1
 	}
 	
 	possible_political_movements = {

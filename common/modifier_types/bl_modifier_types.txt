@@ -1,4 +1,17 @@
-﻿state_loyalists_from_sol_change_mult = {
+﻿state_education_access_wealth_add = {
+	good = yes
+	percent = yes
+	num_decimals = 2
+	postfix = "per_wealth"
+}
+
+country_tech_spread_mult = {
+	good = yes
+	percent = yes
+	num_decimals = 1
+}
+
+state_loyalists_from_sol_change_mult = {
 	good = yes
 	percent = yes
 	num_decimals = 1
