@@ -1,0 +1,66 @@
+﻿state_education_access_wealth_add = {
+	good = yes
+	percent = yes
+	num_decimals = 2
+	postfix = "per_wealth"
+}
+
+country_tech_spread_mult = {
+	good = yes
+	percent = yes
+	num_decimals = 1
+}
+
+state_loyalists_from_sol_change_mult = {
+	good = yes
+	percent = yes
+	num_decimals = 1
+}
+
+state_radicals_from_sol_change_mult = {
+	good = no
+	percent = yes
+	num_decimals = 1
+}
+
+state_education_access_add = {
+	good = yes
+	percent = yes
+	num_decimals = 1
+}
+
+state_mortality_wealth_mult = {
+	good = no
+	percent = yes
+	num_decimals = 1
+}
+
+state_mortality_turmoil_mult = {
+	good = no
+	percent = yes
+	num_decimals = 1
+}
+
+state_birth_rate_mult = {
+	good = yes
+	percent = yes
+	num_decimals = 1
+}
+
+state_conscription_rate_add = {
+	good = yes
+	percent = yes
+	num_decimals = 1
+}
+
+state_working_adult_ratio_add = {
+	good = yes
+	percent = yes
+	num_decimals = 1
+}
+
+state_accepted_birth_rate_mult = {
+	good = yes
+	percent = yes
+	num_decimals = 1
+}

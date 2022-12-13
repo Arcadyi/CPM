@@ -1,4 +1,4 @@
-﻿# texture = filename								The icon that will show up in the Lens and on the map when this Focus is deployed
+# texture = filename								The icon that will show up in the Lens and on the map when this Focus is deployed
 # modifier											The effects this Decree has on its state
 # cost												The cost in AUT to set this Decree on a state (scales with Power Rank)
 # unlocking_technologies							A list of technologies, at least one of which must be known to the country to use this Focus

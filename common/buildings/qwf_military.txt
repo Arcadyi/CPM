@@ -1,0 +1,56 @@
+﻿############ BARRACKS
+
+building_fortifications = {
+	building_group = bg_fortifications
+	texture = "gfx/interface/icons/building_icons/building_fortifications.dds"
+	city_type = none
+	has_max_level = yes
+	downsizeable = yes
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		standing_army
+	}
+
+	production_method_groups = {
+		pmg_fortifications_building_structure
+		pmg_fortifications_battery
+		pmg_frontline_positions
+	}
+	
+	ai_value = 500
+
+	required_construction = construction_cost_medium
+}
+
+building_stuff_headquarters = {
+	building_group = bg_stuff
+	texture = "gfx/interface/icons/building_icons/building_stuff_headquarters.dds"
+	has_max_level = yes
+	city_type = none
+	downsizeable = no
+	levels_per_mesh = 5
+	
+	can_build = {	
+		error_check = {
+			severity = fail
+			is_capital = yes
+		}
+	}
+	
+	unlocking_technologies = {
+		general_staff
+	}
+
+	production_method_groups = {
+		pmg_military_staff_system
+		pmg_war_tactical_order
+		pmg_control_of_authority
+		pmg_order_transmission_method
+		pmg_logistics_supply
+	}
+	
+	ai_value = 2000
+
+	required_construction = construction_cost_medium
+}

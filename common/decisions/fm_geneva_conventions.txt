@@ -1,0 +1,58 @@
+﻿fm_join_geneva_conventions = {
+	is_shown = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+		NOT = { has_variable = in_geneva_conventions }
+	}
+	possible = {
+		is_at_war = no
+	}
+	when_taken = {
+		set_variable = { 
+			name = in_geneva_conventions		 		
+			value = 1
+		}
+		add_modifier = geneva_conventions_member_modifers
+	}
+	ai_chance = {
+		base = 0	
+		modifier = { #平等主义
+			trigger = { has_strategy = ai_strategy_egalitarian_agenda }
+			add = 30
+		}
+		modifier = { #反动主义
+			trigger = { has_strategy = ai_strategy_reactionary_agenda }
+			add = -50
+		}
+		modifier = { #保守主义
+			trigger = { has_strategy = ai_strategy_conservative_agenda }
+			add = -30
+		}
+		modifier = { #民族主义
+			trigger = { has_strategy = ai_strategy_nationalist_agenda }
+			add = -30
+		}
+		modifier = { #维系天命者
+			trigger = { has_strategy = ai_strategy_maintain_mandate_of_heaven }
+			add = -30
+		}
+		modifier = {
+			trigger = { has_strategy = ai_strategy_progressive_agenda }
+			add = 40
+		}		
+		modifier = {
+			trigger = { has_technology_researched = egalitarianism }
+			add = 30
+		}
+		modifier = {
+			trigger = { has_technology_researched = human_rights }
+			add = 50
+		}
+		modifier = {
+			trigger = { has_technology_researched = civilizing_mission }
+			add = 50
+		}
+	}
+}

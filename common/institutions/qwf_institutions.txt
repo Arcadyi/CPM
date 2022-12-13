@@ -1,0 +1,7 @@
+﻿institution_qwf_conscription = {
+	icon = "gfx/interface/icons/institution_icons/unused/conscription.dds"
+	background_texture = "gfx/interface/illustrations/institutions/police.dds"
+	modifier = {
+		state_building_fortifications_max_level_add = 5
+	}
+}

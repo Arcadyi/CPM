@@ -1,0 +1,214 @@
+﻿qwf_dissatisfaction_player_decision = {
+	is_shown = {
+		is_ai = no
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+		NOR = { 
+			has_global_variable = world_war_diplomatic_play 
+			has_global_variable = minor_world_war_diplomatic_play
+		}
+		NOR = {
+			has_variable = gw_side_1
+			has_variable = gw_side_2
+			has_modifier = qwf_order_keeper_modifier
+		}
+	}
+	possible = {
+		custom_tooltip = {
+			text = qwf_dissatisfaction_player_tooltip
+			NOT = { has_variable = qwf_dissatisfaction_player }
+			NOT = { has_variable = qwf_satisfaction_cooldown }
+		}
+		global_country_ranking <= 8
+		country_rank >= rank_value:great_power
+	}
+	when_taken = {
+		if = {
+			limit = {
+				NOT = { has_variable = qwf_dissatisfaction_player }
+			}
+			set_variable = qwf_dissatisfaction_player
+			set_variable = {
+				name = qwf_satisfaction_cooldown
+				years = 1
+			}
+		}
+		if = {
+			limit = {
+				has_variable = qwf_satisfaction_player
+			}
+			remove_variable = qwf_satisfaction_player
+		}
+	}
+}
+
+qwf_satisfaction_player_decision = {
+	is_shown = {
+		is_ai = no
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+		NOR = { 
+			has_global_variable = world_war_diplomatic_play 
+			has_global_variable = minor_world_war_diplomatic_play
+		}
+		NOR = {
+			has_variable = gw_side_1
+			has_variable = gw_side_2
+			has_modifier = qwf_order_challenger_modifier
+		}
+	}
+	possible = {
+		custom_tooltip = {
+			text = qwf_satisfaction_player_tooltip
+			NOT = { has_variable = qwf_satisfaction_player }
+			NOT = { has_variable = qwf_satisfaction_cooldown }
+		}
+		global_country_ranking <= 8
+		country_rank >= rank_value:great_power
+	}
+	when_taken = {
+		if = {
+			limit = {
+				NOT = { has_variable = qwf_satisfaction_player }
+			}
+			set_variable = qwf_satisfaction_player
+			set_variable = {
+				name = qwf_satisfaction_cooldown
+				years = 1
+			}
+		}
+		if = {
+			limit = {
+				has_variable = qwf_dissatisfaction_player
+			}
+			remove_variable = qwf_dissatisfaction_player
+		}
+	}
+}
+
+
+
+qwf_war_propaganda_decision = {
+	is_shown = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+		has_global_variable = world_war_diplomatic_play
+		OR = {
+			has_variable = gw_side_1
+			has_variable = gw_side_2
+		}
+	}
+	possible = {
+		is_at_war = yes
+		NOT = { has_modifier = qwf_war_propaganda }
+		custom_tooltip = {
+			text = qwf_war_propaganda_high
+			has_variable = national_discontent
+			var:national_discontent < 40
+		}
+	}
+	when_taken = {
+		if = {
+			limit = {
+				NOT = { has_technology_researched = war_propaganda }
+			}
+			every_scope_war = {
+				add_war_war_support = { target = ROOT value = 10 }
+			}
+		}
+		else_if = {
+			limit = {
+				has_technology_researched = war_propaganda
+			}
+			every_scope_war = {
+				add_war_war_support = { target = ROOT value = 25 }
+			}
+		}
+		add_modifier = {
+			name = qwf_war_propaganda
+			months = 6
+		}
+	}
+	ai_chance = {
+		base = 500
+	}
+}
+
+qwf_wartime_rationing_decision = {
+	is_shown = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+		has_global_variable = world_war_diplomatic_play
+		OR = {
+			has_variable = gw_side_1
+			has_variable = gw_side_2
+		}
+	}
+	possible = {
+		is_at_war = yes
+		NOT = { has_modifier = qwf_wartime_rationing }
+	}
+	when_taken = {
+		add_modifier = qwf_wartime_rationing
+	}
+	ai_chance = {
+		base = 500
+	}
+}
+
+
+qwf_suppressing_dissent_decision = {
+	is_shown = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+		has_global_variable = world_war_diplomatic_play
+		OR = {
+			has_variable = gw_side_1
+			has_variable = gw_side_2
+		}
+	}
+	possible = {
+		is_at_war = yes
+		NOT = { has_variable = qwf_suppressing_dissent }
+	}
+	when_taken = {
+		set_variable = qwf_suppressing_dissent
+	}
+	ai_chance = {
+		base = 500
+	}
+}
+
+qwf_focus_on_wartime_research_decision = {
+	is_shown = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+		has_global_variable = world_war_diplomatic_play
+		OR = {
+			has_variable = gw_side_1
+			has_variable = gw_side_2
+		}
+	}
+	possible = {
+		is_at_war = yes
+		NOT = { has_modifier = qwf_focus_on_wartime_research }
+	}
+	when_taken = {
+		add_modifier = qwf_focus_on_wartime_research
+	}
+	ai_chance = {
+		base = 500
+	}
+}

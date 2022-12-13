@@ -1,0 +1,644 @@
+﻿staff_officer_origin_commander = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/unused/engineer.dds"
+	
+	command_modifier = {
+		unit_offense_add = 10
+		unit_defense_add = 10
+		unit_supply_consumption_mult = -0.1
+	}
+	
+	possible = {
+		has_role = general
+		owner = {
+			has_technology_researched = general_staff
+		}
+		NOT = {
+			has_trait = bandit
+		}
+	}
+	
+	weight = {
+		value = 5
+		if = {
+			limit = { 
+				owner = {
+					any_scope_building = {
+						is_building_type = building_stuff_headquarters
+						has_active_production_method = pm_professional_staff_system
+					}
+				}
+			}
+			multiply = 5
+		}
+		else_if = {
+			limit = { 
+				owner = {
+					any_scope_building = {
+						is_building_type = building_stuff_headquarters
+						has_active_production_method = pm_complete_analysis_staff_system
+					}
+				}
+			}
+			multiply = 7.5
+		}
+		else = {
+			limit = { 
+				owner = {
+					any_scope_building = {
+						is_building_type = building_stuff_headquarters
+						has_active_production_method = pm_modern_command_system_staff_system
+					}
+				}
+			}
+			multiply = 10
+		}
+	}
+	
+	replace = {		
+	}
+	
+	value = 1
+}
+
+#原版
+stalwart_defender = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/stalwart_defender.dds"
+	
+	command_modifier = {
+		unit_defense_add = 10
+		character_battle_condition_careful_maneuver_mult = 0.5
+		character_battle_condition_surprise_maneuver_mult = 0.5
+	}
+	
+	possible = {
+		has_role = general
+		owner = {
+			has_technology_researched = field_works
+		}
+		NOR = {
+			has_trait = trench_rat
+			has_trait = defense_in_depth_specialist
+		}
+	}
+	
+	weight = {
+		value = 10
+		if = {
+			limit = { 
+				owner = {
+					any_scope_building = {
+						is_building_type = building_stuff_headquarters
+						has_active_production_method = pm_delaying_defense_war_order
+					}
+				}
+			}
+			multiply = 20
+		}
+	}
+	
+	replace = {
+	}
+	
+	value = 1
+}
+
+trench_rat = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/trench_rat.dds"
+	
+	command_modifier = {
+		unit_defense_add = 20
+		character_battle_condition_careful_maneuver_mult = 1.5
+		character_battle_condition_surprise_maneuver_mult = 1.5
+	}
+	
+	possible = {
+		has_trait = stalwart_defender
+		owner = {
+			has_technology_researched = trench_works
+		}
+	}
+	
+	weight = {
+		value = 10
+		if = {
+			limit = { 
+				commander_pm_usage = {
+					target = owner
+					production_method = pm_trench_infantry
+					value > 0.5
+				}
+			}
+			multiply = 5
+		}
+		if = {
+			limit = { 
+				owner = {
+					any_scope_building = {
+						is_building_type = building_stuff_headquarters
+						has_active_production_method = pm_delaying_defense_war_order
+					}
+				}
+			}
+			multiply = 20
+		}
+	}
+	
+	replace = {
+		stalwart_defender
+	}
+	
+	value = 2
+}
+
+defense_in_depth_specialist = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/defense_in_depth_specialist.dds"
+	
+	command_modifier = {
+		unit_defense_add = 30
+		character_battle_condition_careful_maneuver_mult = 3
+		character_battle_condition_surprise_maneuver_mult = 3
+	}
+	
+	possible = {
+		has_trait = trench_rat
+		owner = {
+			has_technology_researched = defense_in_depth
+		}
+	}
+	
+	weight = {
+		value = 10
+		if = {
+			limit = { 
+				OR = {
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_trench_infantry
+						value > 0.5
+					}
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_squad_infantry
+						value > 0.5
+					}
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_mechanized_infantry
+						value > 0.5
+					}
+				}
+			}
+			multiply = 5
+		}
+		if = {
+			limit = { 
+				owner = {
+					any_scope_building = {
+						is_building_type = building_stuff_headquarters
+						has_active_production_method = pm_delaying_defense_war_order
+					}
+				}
+			}
+			multiply = 20
+		}
+	}
+	
+	replace = {
+		trench_rat
+	}
+	
+	value = 3
+}
+
+basic_artillery_commander = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/basic_artillery_commander.dds"
+	
+	command_modifier = {
+		unit_offense_add = 10
+		character_battle_condition_aggressive_maneuver_mult = 1
+		character_battle_condition_mud_mult = 0.5
+	}
+	
+	possible = {
+		has_role = general
+		owner = {
+			has_technology_researched = artillery
+		}
+		NOR = {
+			has_trait = experienced_artillery_commander
+			has_trait = expert_artillery_commander
+		}
+	}
+	
+	weight = {
+		value = 2
+		if = {
+			limit = { 
+				commander_pm_usage = {
+					target = owner
+					production_method = pm_cannon_artillery
+					value > 0.5
+				}
+			}
+			multiply = 2
+		}
+		else_if = {
+			limit = { 
+				commander_pm_usage = {
+					target = owner
+					production_method = pm_mobile_artillery
+					value > 0.5
+				}
+			}
+			multiply = 5
+		}
+		else_if = {
+			limit = { 
+				commander_pm_usage = {
+					target = owner
+					production_method = pm_shrapnel_artillery
+					value > 0.5
+				}
+			}
+			multiply = 10
+		}
+		else_if = {
+			limit = { 
+				commander_pm_usage = {
+					target = owner
+					production_method = pm_siege_artillery
+					value > 0.5
+				}
+			}
+			multiply = 20
+		}
+		if = {
+			limit = { 
+				owner = {
+					any_scope_building = {
+						is_building_type = building_stuff_headquarters
+						has_active_production_method = pm_fire_support_war_order
+					}
+				}
+			}
+			multiply = 20
+		}
+	}
+	
+	replace = {
+	}
+	
+	value = 1
+}
+
+experienced_artillery_commander = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/experienced_artillery_commander.dds"
+	
+	command_modifier = {
+		unit_offense_add = 20
+		character_battle_condition_aggressive_maneuver_mult = 2
+		character_battle_condition_mud_mult = 0.5
+	}
+	
+	possible = {
+		has_trait = basic_artillery_commander
+	}
+	
+	weight = {
+		value = 5
+		if = {
+			limit = {
+				commander_pm_usage = {
+					target = owner
+					production_method = pm_mobile_artillery
+					value > 0.5
+				}
+			}
+			multiply = 5
+		}
+		else_if = {
+			limit = { 
+				commander_pm_usage = {
+					target = owner
+					production_method = pm_shrapnel_artillery
+					value > 0.5
+				}
+			}
+			multiply = 10
+		}
+		else_if = {
+			limit = { 
+				commander_pm_usage = {
+					target = owner
+					production_method = pm_siege_artillery
+					value > 0.5
+				}
+			}
+			multiply = 20
+		}
+		if = {
+			limit = { 
+				owner = {
+					any_scope_building = {
+						is_building_type = building_stuff_headquarters
+						has_active_production_method = pm_fire_support_war_order
+					}
+				}
+			}
+			multiply = 20
+		}
+	}
+	
+	replace = {
+		basic_artillery_commander
+	}
+	
+	value = 2
+}
+
+expert_artillery_commander = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/expert_artillery_commander.dds"
+	
+	command_modifier = {
+		unit_offense_add = 30
+		character_battle_condition_aggressive_maneuver_mult = 3
+		character_battle_condition_mud_mult = 0.5
+	}
+	
+	possible = {
+		has_trait = experienced_artillery_commander
+	}
+	
+	weight = {
+		value = 5
+		if = {
+			limit = { 
+				commander_pm_usage = {
+					target = owner
+					production_method = pm_shrapnel_artillery
+					value > 0.5
+				}
+			}
+			multiply = 10
+		}
+		else_if = {
+			limit = { 
+				commander_pm_usage = {
+					target = owner
+					production_method = pm_siege_artillery
+					value > 0.5
+				}
+			}
+			multiply = 20
+		}
+		if = {
+			limit = { 
+				owner = {
+					any_scope_building = {
+						is_building_type = building_stuff_headquarters
+						has_active_production_method = pm_fire_support_war_order
+					}
+				}
+			}
+			multiply = 20
+		}
+	}
+	
+	replace = {
+		experienced_artillery_commander
+	}
+	
+	value = 3
+}
+
+basic_offensive_planner = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/basic_offensive_planner.dds"
+	
+	command_modifier = {
+		unit_offense_mult = 0.1
+		character_battle_condition_surprise_maneuver_mult = 0.5
+	}
+	
+	possible = {
+		has_role = general
+		owner = {
+			has_technology_researched = napoleonic_warfare
+		}
+		NOR = {
+			has_trait = experienced_offensive_planner
+			has_trait = expert_offensive_planner
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = { 
+				owner = {
+					any_scope_building = {
+						is_building_type = building_stuff_headquarters
+						has_active_production_method = pm_forced_attack_war_order
+					}
+				}
+			}
+			multiply = 8
+		}
+	}
+	
+	replace = {
+	}
+	
+	value = 1
+}
+
+experienced_offensive_planner = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/experienced_offensive_planner.dds"
+	
+	command_modifier = {
+		unit_offense_mult = 0.2
+		character_battle_condition_surprise_maneuver_mult = 1
+	}
+	
+	possible = {
+		has_trait = basic_offensive_planner
+	}
+	
+	weight = {
+		value = 50
+		if = {
+			limit = { 
+				owner = {
+					any_scope_building = {
+						is_building_type = building_stuff_headquarters
+						has_active_production_method = pm_forced_attack_war_order
+					}
+				}
+			}
+			multiply = 4
+		}
+	}
+	
+	replace = {
+		basic_offensive_planner
+	}
+	
+	value = 2
+}
+
+expert_offensive_planner = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/expert_offensive_planner.dds"
+	
+	command_modifier = {
+		unit_offense_mult = 0.3
+		character_battle_condition_surprise_maneuver_mult = 2
+	}
+	
+	possible = {
+		has_trait = experienced_offensive_planner
+	}
+	
+	weight = {
+		value = 50
+		if = {
+			limit = { 
+				owner = {
+					any_scope_building = {
+						is_building_type = building_stuff_headquarters
+						has_active_production_method = pm_forced_attack_war_order
+					}
+				}
+			}
+			multiply = 4
+		}
+	}
+	
+	replace = {
+		experienced_offensive_planner
+	}
+	
+	value = 3
+}
+
+basic_defensive_strategist = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/basic_defensive_strategist.dds"
+	
+	command_modifier = {
+		unit_defense_mult = 0.1
+		character_battle_condition_dug_in_mult = 1
+		character_battle_condition_camouflaged_mult = 1
+	}
+	
+	possible = {
+		has_role = general
+		owner = {
+			has_technology_researched = military_drill
+		}
+		NOR = {
+			has_trait = experienced_defensive_strategist
+			has_trait = expert_defensive_strategist
+		}
+	}
+	
+	weight = {
+		value = 20
+		if = {
+			limit = { 
+				owner = {
+					any_scope_building = {
+						is_building_type = building_stuff_headquarters
+						has_active_production_method = pm_focus_defense_war_order
+					}
+				}
+			}
+			multiply = 8
+		}
+	}
+	
+	replace = {
+	}
+	
+	value = 1
+}
+
+experienced_defensive_strategist = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/experienced_defensive_strategist.dds"
+	
+	command_modifier = {
+		unit_defense_mult = 0.2
+		character_battle_condition_dug_in_mult = 2
+		character_battle_condition_camouflaged_mult = 2
+	}
+	
+	possible = {
+		has_trait = basic_defensive_strategist
+	}
+	
+	weight = {
+		value = 50
+		if = {
+			limit = { 
+				owner = {
+					any_scope_building = {
+						is_building_type = building_stuff_headquarters
+						has_active_production_method = pm_focus_defense_war_order
+					}
+				}
+			}
+			multiply = 4
+		}
+	}
+	
+	replace = {
+		basic_defensive_strategist
+	}
+	
+	value = 2
+}
+
+expert_defensive_strategist = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/expert_defensive_strategist.dds"
+	
+	command_modifier = {
+		unit_defense_mult = 0.3
+		character_battle_condition_dug_in_mult = 3
+		character_battle_condition_camouflaged_mult = 3
+	}
+	
+	possible = {
+		has_trait = experienced_defensive_strategist
+	}
+	
+	weight = {
+		value = 50
+		if = {
+			limit = { 
+				owner = {
+					any_scope_building = {
+						is_building_type = building_stuff_headquarters
+						has_active_production_method = pm_focus_defense_war_order
+					}
+				}
+			}
+			multiply = 4
+		}
+	}
+	
+	replace = {
+		experienced_defensive_strategist
+	}
+	
+	value = 3
+}

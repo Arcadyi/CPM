@@ -1,0 +1,7 @@
+﻿prussian_reform = {
+	# Unlocks Line Infantry PM in Barracks
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/prussian_reform.dds"
+	category = military
+	can_research = no
+}

@@ -1,4 +1,4 @@
-﻿# This is executed last among all history
+# This is executed last among all history
 GLOBAL = {
 
 	### Add missing universities at game start

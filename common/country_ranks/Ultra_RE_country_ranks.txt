@@ -1,4 +1,4 @@
-﻿unrecognized_major_power = {
+unrecognized_major_power = {
 	rank_value = 5
 	icon_index = 3
 	

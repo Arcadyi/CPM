@@ -2,7 +2,17 @@
 	color= rgb{ 62 77 100 }
 	religion = protestant
 	traits = { german_speaking european_heritage }
+
+	obsessions = {
+		newspapers
+	}
+
 	male_common_first_names={
+		Adelbert
+		Adolf
+		Albrecht
+		Alexander
+		Alfred
 		Adelbert
 		Adolf
 		Albrecht
@@ -18,11 +28,22 @@
 		Erich
 		Ernst
 		Erwin
+		Eduard
+		Edwin
+		Erich
+		Ernst
+		Erwin
 		Esaias
 		Florian
 		Franz
 		Friedrich
+		Florian
+		Franz
+		Friedrich
 		Fritz
+		Georg
+		Gustav
+		Gunther
 		Georg
 		Gustav
 		Gunther
@@ -37,9 +58,15 @@
 		Ignatz
 		Joachim
 		Johann
+		Joachim
+		Johann
 		Jurgen
 		Karl
+		Karl
 		Konrad
+		Leonhard
+		Leopold
+		Ludwig
 		Leonhard
 		Leopold
 		Ludwig
@@ -48,19 +75,30 @@
 		Maximilian
 		Markus
 		Michael
+		Manfred
+		Maximilian
+		Markus
+		Michael
 		Moritz
 		Nikolaus
 		Otto
+		Otto
 		Oskar
+		Pascal
+		Paul
+		Peter
 		Pascal
 		Paul
 		Peter
 		Philipp
 		Reinhard
 		Rudolf
+		Reinhard
+		Rudolf
 		Ruprecht
 		Stefan
 		Theodor
+		Wilhelm
 		Wilhelm
 		Wolfgang
 	}
@@ -70,7 +108,7 @@
 		Charlotte Cecilia Caroline Christina Clara
 		Dorothea_Sophia Dorothea
 		Elisabeth Erika
-		Friederike 
+		Friederike
 		Hilda Henriette Hedwig
 		Ingeborg
 		Julia Johanna
@@ -153,13 +191,13 @@
 		von_Schwarzburg
 		von_Spee
 		von_Tirpitz
-		zu_Stolberg-Wernigerode 
-		von_Sybel 
-		von_Solms-Laubach 
-		von_Stein 
-		von_StO_ssert 
+		zu_Stolberg-Wernigerode
+		von_Sybel
+		von_Solms-Laubach
+		von_Stein
+		von_StO_ssert
 		von_Spesshardt
-		Treusch_von_Butlar 
+		Treusch_von_Butlar
 		von_Tirpitz von_ThU_nen
 		von_Vahlkampf
 		von_Waldeck_und_Pyrmont
@@ -169,13 +207,14 @@
 		von_Watzdorf 
 		Waitz_von_Eschen
 		von_Zieten
+		von_Zieten
 		von_dem_Knesebeck
 		von_Zwierlein
-		
+
 		von_Jons
 		zur_Lippe
 		von_Willich
-	}	
+	}
 	common_last_names={
 		Abegg
 		Anger
@@ -316,16 +355,16 @@
 		Ludendorff
 		Lehmkuhl
 		Olbers
-		Laist 
-		Lamberts 
-		Landfermann 
-		Leue 
-		Lingmann 
-		Lintz 
-		Lederer 
-		Lehne 
-		Lotheissen 
-		Leisler 
+		Laist
+		Lamberts
+		Landfermann
+		Leue
+		Lingmann
+		Lintz
+		Lederer
+		Lehne
+		Lotheissen
+		Leisler
 		Lang
 		Mittwoch
 		Moll
@@ -338,15 +377,15 @@
 		Manecke 
 		Marktscheffel 
 		Mappes
-		NettstrA_tter 
-		Neuerburg 
-		Neunzig 
+		NettstrA_tter
+		Neuerburg
+		Neunzig
 		Nohl
-		Olbers 
+		Olbers
 		Oetker
 		Pelz 
 		Pax 
-		Peiser
+		Peiser 
 		Plange 
 		Pagenstecher 
 		Peters 
@@ -360,8 +399,8 @@
 		Preusser 
 		Pogge 
 		Pohle
-		Rehfisch
-		Roepke
+		Rehfisch 
+		Roepke 
 		RU_ckert 
 		Ronge 
 		Reichensperger 
@@ -377,11 +416,11 @@
 		Reh 
 		Runge 
 		Reinganum
-		Scherfke
-		Schimmelfennig
-		Schmidt
-		Schree
-		Schurz
+		Scherfke 
+		Schimmelfennig 
+		Schmidt 
+		Schree 
+		Schurz 
 		Schnitter 
 		SchlO_ffel 
 		Stahlschmidt 
@@ -413,20 +452,20 @@
 		Stever 
 		Sonnenkalb 
 		Souchay
-		Treibe
+		Treibe 
 		TU_rke 
 		Theyssen 
 		Thilmany 
 		Trombetta
 		Umbscheiden
-		Venedy 
-		Vogt 
-		Volhard 
-		Varrentrapp 
+		Venedy
+		Vogt
+		Volhard
+		Varrentrapp
 		Vorwerck
-		Weydemeyer
-		Wittfeld
-		Woehlert
+		Weydemeyer 
+		Wittfeld 
+		Woehlert 
 		Wiesner 
 		Wislicenus 
 		Wachendorf 
@@ -444,7 +483,7 @@
 		Wippermann 
 		Wentorp 
 		Wendhausen
-		Zerrahn
+		Zerrahn 
 		ZO_ller 
 		Zell 
 		Zimmermann 
@@ -483,24 +522,29 @@ south_german={
 	color= hsv{ 0.50 0.43 0.45 }
 	religion = catholic
 	traits = { german_speaking european_heritage }
+
+	obsessions = {
+		newspapers
+	}
+
 	male_common_first_names={
-		Adolf
-		Albrecht
-		Alexander
-		Alfons
-		Alois
-		Anton
-		Arthur
+		Adolf 
+		Albrecht 
+		Alexander 
+		Alfons 
+		Alois 
+		Anton 
+		Arthur 
 		Albert 
 		Arnulf
 		Bernhard
 		Benignus
 		Christian
-		Edmund
-		Eduard
-		Engelbert
-		Ernst
-		Erwin
+		Edmund 
+		Eduard 
+		Engelbert 
+		Ernst 
+		Erwin 
 		Emil 
 		Eugen 
 		Emanuel
@@ -523,9 +567,9 @@ south_german={
 		Johann
 		Joseph
 		Julius
-		Karl
-		Konrad
-		Kurt
+		Karl 
+		Konrad 
+		Kurt 
 		Kasimir 
 		Klemens
 		Leonhard
@@ -534,30 +578,30 @@ south_german={
 		Lothar
 		Ludwig
 		Luitpold
-		Maximilian
-		Michael
+		Maximilian 
+		Michael 
 		Martin 
 		Moritz
-		Nikolaus 
+		Nikolaus
 		Nepomuk
 		Otto
-		Peter 
+		Peter
 		Paul
 		Reinhold
 		Rudolf
 		Rupprecht
 		Stefan
 		Siegmund
-		Theodor
+		Theodor 
 		Thomas 
 		Theophil
 		Valentin
 		Viktor
 		Vitus
 		Veit
-		Walter
-		Werner
-		Wilhelm
+		Walter 
+		Werner 
+		Wilhelm 
 		Wolfgang 
 		Walther
 		Xaver
@@ -576,17 +620,17 @@ south_german={
 		Therese
 		Ulrike
 		Wiltrud Wilhelmine
-	}	
+	}
 	noble_last_names = {
 		d_Aspre_von_Hoobreuk
 		Schnorr_von_Carolsfeld
-		von_Adelmann 
+		von_Adelmann
 		von_Andlaw-Birseck
-		von_Baader
-		von_Baden
-		von_Benedek
-		von_Brudermann
-		von_Bohm-Ermolli
+		von_Baader 
+		von_Baden 
+		von_Benedek 
+		von_Brudermann 
+		von_Bohm-Ermolli 
 		von_Bissingen-Nippenburg 
 		von_Berlichingen 
 		von_Binder 
@@ -601,26 +645,26 @@ south_german={
 		von_Bibra 
 		von_Baligand
 		Cotton_von_Cottendorf 
-		von_Clam-Gallas
+		von_Clam-Gallas 
 		von_Closen 
 		von_Crailsheim
-		von_Denis
-		von_Dietrich
+		von_Denis 
+		von_Dietrich 
 		von_Diemar 
 		von_Deroy 
 		von_DU_rckheim-Montmartin 
 		von_DU_well
 		von_Endres
-		von_Fleischmann 
-		von_Fray 
-		von_Freyen-Seyboltstorff 
-		von_Fels 
-		von_Froberg-Montjoye 
-		von_Freyberg-Eisenberg 
-		von_Fleury_auf_Hilling 
+		von_Fleischmann
+		von_Fray
+		von_Freyen-Seyboltstorff
+		von_Fels
+		von_Froberg-Montjoye
+		von_Freyberg-Eisenberg
+		von_Fleury_auf_Hilling
 		von_Fritsch
-		von_Gablenz
-		von_Grunne
+		von_Gablenz 
+		von_Grunne 
 		von_Giech 
 		von_Geldern 
 		von_Greis 
@@ -634,14 +678,14 @@ south_german={
 		von_Grossschedel 
 		von_GO_riz 
 		von_Gyssling
-		von_Hartmann
-		von_Haynau
-		von_Helmholtz
-		von_Hertel
-		von_Hess
-		von_Hohenhausen
-		von_Hortstein
-		von_Hotzendorf
+		von_Hartmann 
+		von_Haynau 
+		von_Helmholtz 
+		von_Hertel 
+		von_Hess 
+		von_Hohenhausen 
+		von_Hortstein 
+		von_Hotzendorf 
 		zu_Hohenlohe 
 		von_Habsburg 
 		von_Hegnenberg-Dux 
@@ -660,17 +704,17 @@ south_german={
 		von_Itzstein
 		von_Jeetze
 		Kress_von_Kressenstein 
-		von_Kirbach
-		von_Kobratin
+		von_Kirbach 
+		von_Kobratin 
 		von_Kettner 
 		Keller_von_Schleitheim
-		Leutrum_von_Ertingen 
-		von_Lotzbeck 
-		von_Lepel 
-		von_Leonrod 
-		von_Lindheimer 
+		Leutrum_von_Ertingen
+		von_Lotzbeck
+		von_Lepel
+		von_Leonrod
+		von_Lindheimer
 		von_Lossow
-		von_Maffei
+		von_Maffei 
 		von_Mayersbach 
 		von_Montgelas 
 		von_Mohl 
@@ -680,14 +724,14 @@ south_german={
 		von_Madroux 
 		von_Maillinger 
 		von_Menz
-		von_Neipperg 
-		von_Nesselrode-Hugenpoet 
-		von_Neubeck 
-		von_Nagel_zu_Aichberg 
+		von_Neipperg
+		von_Nesselrode-Hugenpoet
+		von_Neubeck
+		von_Nagel_zu_Aichberg
 		von_Mieg
 		von_Oettigen-Wallerstein
 		Poschinger_von_Frauenau 
-		von_Pauli
+		von_Pauli 
 		von_Pfeufer 
 		von_Pranckh 
 		von_Parseval 
@@ -697,20 +741,20 @@ south_german={
 		zu_Pappenheim 
 		von_Pillement
 		von_Quadt-Wykradt-Isny
-		von_Rotenhan 
-		von_Zu_Rhein 
-		von_Rinecker 
-		von_RO_mer 
-		von_Rechberg 
-		von_La_Roche-Starkenfels 
-		Rinck_von_Baldenstein 
-		von_Rochau 
-		RU_dt_von_Collenberg 
-		von_Ruckteschell 
-		von_Reichlin-Meldegg 
+		von_Rotenhan
+		von_Zu_Rhein
+		von_Rinecker
+		von_RO_mer
+		von_Rechberg
+		von_La_Roche-Starkenfels
+		Rinck_von_Baldenstein
+		von_Rochau
+		RU_dt_von_Collenberg
+		von_Ruckteschell
+		von_Reichlin-Meldegg
 		von_Reysing
 		Schnorr_von_Carolsfeld 
-		von_Schonburg
+		von_Schonburg 
 		von_Scherer 
 		von_Struve 
 		von_sch_Onborn-Wiesentheid 
@@ -739,7 +783,7 @@ south_german={
 		von_Habsburg
 		von_Mayersbach
 		von_Scherer
-		von_Thurnberg
+		von_Thurnberg 
 		von_TA_uffenbach 
 		von_der_Tann-Rathsamhausen
 		von_Uchatius
@@ -749,11 +793,11 @@ south_german={
 		von_Zahringen von_Zandt von_Zwanziger
 	}
 	common_last_names={
-		Auerbach 
+		Auerbach
 		Aldinger
-		Bachmann
-		Beck-Rzikowsky
-		Blos
+		Bachmann 
+		Beck-Rzikowsky 
+		Blos 
 		Barchet 
 		Bantlin 
 		Bech 
@@ -763,13 +807,13 @@ south_german={
 		Bleidorn 
 		Beckmund 
 		Bedall
-		Christmann 
-		CarovE_ 
-		Correck 
+		Christmann
+		CarovE_
+		Correck
 		Cella
-		Dankl
-		Dauer
-		Dollmann
+		Dankl 
+		Dauer 
+		Dollmann 
 		Depre 
 		Doll 
 		Deusch 
@@ -777,44 +821,44 @@ south_german={
 		Deuringer 
 		Denzler 
 		Deppert
-		Eisner
-		Eppelsheimer
-		Exter
+		Eisner 
+		Eppelsheimer 
+		Exter 
 		Eppelsheim 
 		Eisenmann 
 		Edel 
 		Ermarth 
 		Ehrensberger 
 		Eder
-		Foerderreuther
-		Frauendorfer
-		Friedel
-		Frommknecht
+		Foerderreuther 
+		Frauendorfer 
+		Friedel 
+		Frommknecht 
 		Federer 
 		Fetzer 
 		Frueth 
 		Fallenstein 
 		Frech 
 		Fasbender
-		Geiss
-		Gerber
-		Goering
-		Gollwitzer
-		Graff
-		Groeschel
-		Groth
+		Geiss 
+		Gerber 
+		Goering 
+		Gollwitzer 
+		Graff 
+		Groeschel 
+		Groth 
 		Grohe 
 		Gervinus 
 		GA_tschenberger 
 		Gloss_ Gruny
-		Hainisch
-		Haus
-		Held
-		Hellpach
-		Helmerich
-		Hoffmann
-		Homberger
-		Hummel
+		Hainisch 
+		Haus 
+		Held 
+		Hellpach 
+		Helmerich 
+		Hoffmann 
+		Homberger 
+		Hummel 
 		Hepp 
 		HA_gelin 
 		Hagen 
@@ -831,8 +875,8 @@ south_german={
 		Hebberling
 		Ipfelkofer
 		Junghannss
-		Kessler
-		Kohler
+		Kessler 
+		Kohler 
 		Kolb 
 		Keil 
 		KO_lliker 
@@ -842,11 +886,11 @@ south_german={
 		Killermann 
 		Kiessling 
 		Krazeisen
-		Lakner 
-		Lehmkuhl 
+		Lakner
+		Lehmkuhl
 		LanghA_user
-		Mergenthaler
-		Miklas
+		Mergenthaler 
+		Miklas 
 		MO_gling 
 		Mohl 
 		Murschel 
@@ -855,14 +899,14 @@ south_german={
 		Mez 
 		Mittermaier 
 		Margreither
-		Nebenius
+		Nebenius 
 		Neumann 
 		Neuffer
-		Olbers 
-		Orff 
+		Olbers
+		Orff
 		Obermair
-		Platner
-		Prang
+		Platner 
+		Prang 
 		Press 
 		Platner 
 		Pfaff 
@@ -871,9 +915,9 @@ south_german={
 		Pfluegl 
 		Pesenecker
 		Quitzmann
-		Rahl
-		Remmele
-		Rosenhaupt
+		Rahl 
+		Remmele 
+		Rosenhaupt 
 		Riedl 
 		RO_dinger 
 		Reyscher 
@@ -881,13 +925,13 @@ south_german={
 		Rau 
 		Richter 
 		Reisterer
-		Schmitt
-		Schobber
-		Seitz
-		Steeb
-		Stolzer
-		Strauss
-		Sailer
+		Schmitt 
+		Schobber 
+		Seitz 
+		Steeb 
+		Stolzer 
+		Strauss 
+		Sailer 
 		Spatz 
 		Schott 
 		Seeger 
@@ -904,19 +948,19 @@ south_german={
 		Seekirchner 
 		Schmauss 
 		Schmidtler
-		Trient
-		Trunk
+		Trient 
+		Trunk 
 		Teutsch 
 		Titus 
 		Tafel
-		Unglaub
+		Unglaub 
 		Uhland 
 		Ullrich 
 		Usselmann
 		Voelcker
 		Veiel
-		Wagner
-		Wittmann
+		Wagner 
+		Wittmann 
 		Willich 
 		Wolf 
 		Wiedmann 
@@ -927,9 +971,9 @@ south_german={
 		Werner 
 		Winter 
 		Weiss-Jonak
-		Zeller
-		Zenger
-		Zink
+		Zeller 
+		Zenger 
+		Zink 
 		Zentner 
 		Zittel 
 		Zerreiss
@@ -973,7 +1017,7 @@ south_german={
 ashkenazi={
 	color= hsv{ 0.13 0.80 0.99 }
 	religion = jewish
-	traits = { jewish_group european_heritage } 
+	traits = { jewish_group european_heritage }
 	# could have German-speaking, but would make them not discriminated which would be very ahistorical
 	male_common_first_names={
 		Abraham
@@ -1011,7 +1055,7 @@ ashkenazi={
 		Minna Margarete
 		Regine
 		Zoe
-	}	
+	}
 	noble_last_names = {
 		Auerbach Austerlitz
 		von_Bleichroeder
@@ -1152,10 +1196,10 @@ dutch={
 		Louise Lessina
 		Maria Martha Margaretha
 		Pauline Petronella
-		Roosje 
+		Roosje
 		Suzanna Sjoukje Sara
 		Wilhelmina
-	}	
+	}
 	noble_last_names = {
 		van_Boetzelaer
 		van_Coeverden
@@ -1393,7 +1437,7 @@ flemish={
 		Marie Mathilde
 		Nathalie
 		Stefanie
-	}	
+	}
 	noble_last_names = {
 		van_Asseliers
 		van_Boisschot du_Bois_de_Vroylande
@@ -1409,7 +1453,7 @@ flemish={
 		de_Watervliet
 		van_Zuylen_van_Nyevelt
 		Quarles_van_Ufford
-		
+
 		Annez_de_Zillebroeck
 		Boucqueau_de_Villeraye
 		Desmanet_de_Biesme
@@ -1659,7 +1703,7 @@ wallonian={
 		Emile
 	}
 	female_common_first_names = {
-		Alix Amelie Andree 
+		Alix Amelie Andree
 		Catherine Cecilia_2
 		Francoise
 		Helene
@@ -1670,7 +1714,7 @@ wallonian={
 		Sophie
 		Vincentia
 		Yvonne
-	}	
+	}
 	noble_last_names = {
 		de_Croy
 		Goubau
@@ -1679,7 +1723,7 @@ wallonian={
 		de_Merode
 		de_Thezan_Poujol
 		d_Ursel d_Udekem
-		
+
 		de_Selys_Longchamps
 		de_Coppin_de_Falaen
 		de_Theux_de_Meylandt
@@ -1863,7 +1907,7 @@ boer={
 		Petrus
 		Piet
 		Pieter
-		Racheltjie 
+		Racheltjie
 		Rudolf
 		Sarel
 		Siener
@@ -1873,7 +1917,7 @@ boer={
 		Josias
 	}
 	female_common_first_names = {
-		Adriana 
+		Adriana
 		Anna
 		Belinda
 		Brenda
@@ -1885,8 +1929,8 @@ boer={
 		Elmarie
 		Elsje
 		Evelyn
-		Gezina 
-		Heiletje 
+		Gezina
+		Heiletje
 		Jacoba
 		Lizelle
 		Maria
@@ -1897,7 +1941,7 @@ boer={
 		Sophia
 		Wilhelmina
 		Yolandi
-	}	
+	}
 	noble_last_names = {
 		Burger
 		Kruger
@@ -2011,7 +2055,7 @@ swiss={
 		Lydia
 		Maria
 		Rosalie
-	}	
+	}
 	noble_last_names = { # mostly patrician families of Bern
 		Effinger
 		de_Gingins
@@ -2112,7 +2156,7 @@ swedish={
 		Sofie Sanna Stina Sofia Sara
 		Ulrika
 		Wilhelmina
-	}	
+	}
 	noble_last_names = {
 		Almqvist
 		af_Ugglas af_Klint af_RosenschO_ld
@@ -2248,13 +2292,13 @@ danish={
 		Thyra
 		Ulrikke
 		Vilhelmine
-	}	
+	}
 	noble_last_names = {
 		af_Danneskiold-Samsoe
 		Barnekow
 		Bernstorff
 		de_Neergaard
-		Gyldenstierne 
+		Gyldenstierne
 		Kaas
 		Reventlow
 		Rosenkrantz
@@ -2263,7 +2307,7 @@ danish={
 		Trolle
 		Valkendorf
 		von_Baudissin
-		von_Falkenskiold 
+		von_Falkenskiold
 		von_Holstein
 		von_Krogh
 		von_Oldenburg
@@ -2348,7 +2392,7 @@ norwegian={
 		Jacob Johan Johannes J_Orgen Jon
 		Karl Knud
 		Lauritz Ludvig
-		Magne Mathias 
+		Magne Mathias
 		Nils
 		Ogmund Olaf Olav Ole Osvald Otto
 		Palme Peter Petter
@@ -2376,7 +2420,7 @@ norwegian={
 		Ragnhild
 		Sara Sophie Susanne Sanna Sigrid Siri
 		Thea Tora
-	}	
+	}
 	noble_last_names = {
 		Anker
 		Bagge Benkestok Bjelke Brodtkorb
@@ -2479,7 +2523,7 @@ icelandic={
 		Steinunn
 		Thorfhildur
 		Vilhelmina
-	}	
+	}
 	noble_last_names = {
 		Hielmstierne
 		Petursson
@@ -2571,7 +2615,7 @@ finnish={
 		Thorild
 		Ulrika
 		Sanna
-	}	
+	}
 	noble_last_names = {
 		Adlercreutz
 		Alfthan
@@ -2691,7 +2735,7 @@ sami={
 		Margareta
 		Marja
 		Nasti
-	}	
+	}
 	noble_last_names = {
 		Aeijih
 		Keskitalo
@@ -2719,11 +2763,12 @@ british={ # "English" in localization
 	color= rgb{ 210 156 140 }
 	religion = protestant
 	traits = { anglophone european_heritage }
-	
+
 	obsessions = {
 		tea
+		newspapers
 	}
-	
+
 	male_common_first_names={
 		Algernon Alexander Adam Andrew Albert Alphonse Arthur Augustus Anthony Archibald Adolphus Abel Alfred Acton Aylmer Ambrose Austen Adrian Alan Arnold Auberon Allen
 		Bruce Benedict Beauchamp Benjamin Byron Bartholomew Barnaby Basil Bertram Bertrand
@@ -2764,7 +2809,7 @@ british={ # "English" in localization
 		Nona Nora
 		Olivia
 		Phoebe Pauline
-		Rachel Rhoda Rosina Rosaline Regina Ruth 
+		Rachel Rhoda Rosina Rosaline Regina Ruth
 		Sarah Sophia Selina Sibella Susan
 		Theodora
 		Victoria Violet Virginia
@@ -2795,13 +2840,13 @@ british={ # "English" in localization
 		Woollcombe Wedderburn Whitbread Whitmore Willyams Whitworth Waterlow Williamson Wethered Wyllie Wheelhouse Whatman Waterhouse Walsh Winterbotham Weguelin Wedgwood Whitelaw Wheatley Wingate Willan Waugh Wisden
 		Young
 	}
-	
+
 	male_noble_first_names= {
 		# populate with names here
 	}
 	female_noble_first_names = {
 		# populate with names here
-	}	
+	}
 	noble_last_names = {
 		Agar-Ellis Althorp
 		Baden-Powell Brudenell-Bruce Bolingbroke Bridport Butler-Henderson Bowes-Lyon Bulwer-Lytton Bertie
@@ -2815,7 +2860,7 @@ british={ # "English" in localization
 		Keppel
 		Loyd-Lindsay Leveson-Gower Launceston Lane
 		Maynard Manningham-Buller Meynell-Ingram Montgomery-Cuninghame Mure-Campbell
-		Newport Newark 
+		Newport Newark
 		Orr-Ewing Ormsby-Gore
 		Pleydell-Bouverie Pelham-Clinton
 		Rosebery Ruggles-Brise Ramsay-Gibson-Maitland Rawdon-Hastings
@@ -2823,7 +2868,7 @@ british={ # "English" in localization
 		Thoroton-Hildyard Torrington Trevor Tadcaster Trematon Townsend
 		Walpole Williams-Wynn Wingfield-Baker Wilson-Patten Welby-Gregory Windsor-Clive Wentworth-FitzWilliam Waldegrave Withers-Lancashire
 	}
-	
+
 	male_regal_first_names = {
 		Alexander Albert Augustus
 		Edward Edmund
@@ -2849,8 +2894,8 @@ british={ # "English" in localization
 		FitzClarence
 		Rawdon-Hastings
 		Seymour
-	}	
-	
+	}
+
 	graphics = european
 	ethnicities = {
 		1 = caucasian
@@ -2862,6 +2907,11 @@ irish={
 	religion = catholic
 	traits = { celtic_people european_heritage }
 	# could have anglophone but would make them non-discriminated in Britain
+
+	obsessions = {
+		newspapers
+	}
+
 	male_common_first_names={
 		Alexander
 		Arthur
@@ -2928,7 +2978,7 @@ irish={
 		Rose
 		Sarah
 		Sophie
-	}	
+	}
 	noble_last_names = {
 		Beresford
 		Browne
@@ -3027,7 +3077,7 @@ irish={
 		White
 		Wilson
 	}
-	
+
 	graphics = european
 	ethnicities = {
 		1 = caucasian
@@ -3073,7 +3123,7 @@ australian={
 		Annie
 		Barbara
 		Bertha
-		Bridgetena 
+		Bridgetena
 		Caroline
 		Catherine
 		Charlotte
@@ -3100,7 +3150,7 @@ australian={
 		Theodosia
 		Zara
 		Zillah
-	}	
+	}
 	noble_last_names = {
 		Angas
 		Armstrong
@@ -3162,11 +3212,11 @@ north_italian={
 	color= hsv{ 0.38 0.27 0.86 }
 	religion = catholic
 	traits = { italophone european_heritage }
-	
+
 	obsessions = {
 		wine
-	}	
-	
+	}
+
 	male_common_first_names={
 		Alessandro
 		Alfonso
@@ -3177,10 +3227,10 @@ north_italian={
 		Antonio
 		Benito
 		Agostino
-		Bernardino 
-		Bartolomeo 
-		Benedetto 
-		Bonaventura 
+		Bernardino
+		Bartolomeo
+		Benedetto
+		Bonaventura
 		Bernardo
 		Camillo
 		Carlo
@@ -3220,6 +3270,9 @@ north_italian={
 		Ignazio 
 		Ippolito 
 		Ilario
+		Leopoldo
+		Luigi
+		Luca
 		Leopoldo
 		Luigi
 		Luca
@@ -3269,13 +3322,13 @@ north_italian={
 		Metilde
 		Sofia
 		Teresa
-	}	
+	}
 	noble_last_names = {
-		Avogadro_della_Motta 
-		d_Azeglio 
-		Annoni_di_Cerro 
-		Avogadro_di_Casanova 
-		d_Alberti_della_Briga 
+		Avogadro_della_Motta
+		d_Azeglio
+		Annoni_di_Cerro
+		Avogadro_di_Casanova
+		d_Alberti_della_Briga
 		d_Arcais
 		Borghese
 		di_Boglio 
@@ -3290,25 +3343,25 @@ north_italian={
 		Colli_di_Felizzano
 		Colonna
 		d_Azeglio
-		di_Calabiana 
-		Costa_de_Beauregard 
-		Costa_della_Torre 
-		De_Castro 
+		di_Calabiana
+		Costa_de_Beauregard
+		Costa_della_Torre
+		De_Castro
 		De_Chambost
 		Ferrero_La_Marmora 
 		De_Ferrari
 		de_Foresta 
 		Falqui_Pes 
 		Fecia_di_Cossato
-		Gebaix_de_Sonnaz 
+		Gebaix_de_Sonnaz
 		Girod_De_Montfalcon
 		d_Ittiri_LedA_
 		de_Launay
 		di_Boglio
 		di_Calabiana
 		Massimo
-		Massimo De_Marchi 
-		de_Martinel 
+		Massimo De_Marchi
+		de_Martinel
 		Moffa_di_Lisio_Gribaldi
 		Odescalchi
 		Orsini
@@ -3319,8 +3372,9 @@ north_italian={
 		Pernati_di_Momo 
 		Petitti_Bagliani_di_Roreto 
 		Ponzo_di_San_Martino
-		Ricardi_di_Netro 
+		Ricardi_di_Netro
 		di_Robilant
+		Sacchetti
 		Sacchetti
 		Toesca
 		Torelli
@@ -3332,8 +3386,8 @@ north_italian={
 		Santa_Croce_Villahermosa 
 		Solaroli_di_Briona 
 		Somis_di_Chavrie
-		Toesca 
-		Torelli 
+		Toesca
+		Torelli
 		Thaon_di_Revel
 		Baldassi
 	}
@@ -3397,38 +3451,38 @@ north_italian={
 		Cialdini
 		Cusani
 		Dezza
-		Cabella 
-		Caboni 
-		Cambieri 
-		Campana 
-		Canalis 
-		Cantara 
-		Capriolo 
-		Carquet 
-		Carta 
-		Casaretto 
-		Cassinis 
-		Castelli 
-		Cavalli 
-		Cavallini 
-		Chenal 
-		Chiaves 
-		ChiO_ 
-		Cobianchi 
-		Colli 
-		Cornero 
-		Correnti 
-		Corsi 
-		Costa 
-		Crosa 
+		Cabella
+		Caboni
+		Cambieri
+		Campana
+		Canalis
+		Cantara
+		Capriolo
+		Carquet
+		Carta
+		Casaretto
+		Cassinis
+		Castelli
+		Cavalli
+		Cavallini
+		Chenal
+		Chiaves
+		ChiO_
+		Cobianchi
+		Colli
+		Cornero
+		Correnti
+		Corsi
+		Costa
+		Crosa
 		Cugia
-		Dezza 
-		Demaria 
-		Depretis 
-		Durando 
-		Daziani 
-		Decandia 
-		Delfino 
+		Dezza
+		Demaria
+		Depretis
+		Durando
+		Daziani
+		Decandia
+		Delfino
 		Delitala
 		Emo
 		Fanti
@@ -3460,10 +3514,10 @@ north_italian={
 		Grixoni 
 		Guglianetti 
 		Guillet
-		Imperiali 
+		Imperiali
 		Isola
-		Lachenal 
-		Lanza 
+		Lachenal
+		Lanza
 		Louaraz
 		Malan 
 		La_Marmora
@@ -3494,9 +3548,9 @@ north_italian={
 		Monticelli 
 		Mossi 
 		Musso
-		Naytana 
-		Niccolini 
-		Nino 
+		Naytana
+		Niccolini
+		Nino
 		Notta
 		Orengo
 		Oytana
@@ -3559,12 +3613,12 @@ north_italian={
 		Spano 
 		Spinola 
 		Sulis
-		Tecchio 
-		Tegas 
-		Tola 
-		Torelli 
+		Tecchio
+		Tegas
+		Tola
+		Torelli
 		Tuveri
-		Vaccari
+		Vaccari 
 		Valerio 
 		Valvassori 
 		Vicari
@@ -3581,23 +3635,23 @@ south_italian={
 	color= rgb{ 97 77 117 }
 	religion = catholic
 	traits = { italophone european_heritage }
-	
+
 	obsessions = {
 		wine
-	}	
-	
+	}
+
 	male_common_first_names={
-		Alessandro
-		Armando
-		Augusto
+		Alessandro 
+		Armando 
+		Augusto 
 		Achille 
 		Antonio 
 		Agesilao
-		Bartolomeo 
+		Bartolomeo
 		Benedetto
-		Carlo
-		Cesare
-		Corrado
+		Carlo 
+		Cesare 
+		Corrado 
 		Cesidio 
 		Corradino 
 		Cristoforo 
@@ -3605,8 +3659,8 @@ south_italian={
 		Carmine
 		Domenico
 		Donato
-		Enrico
-		Enzo
+		Enrico 
+		Enzo 
 		Ettore 
 		Emanuele
 		Fabio
@@ -3614,27 +3668,27 @@ south_italian={
 		Ferdinando
 		Francesco
 		Fausto
-		Gaetano
-		Giacomo
-		Giovanni
-		Giulio
-		Giuseppe
-		Guglielmo
+		Gaetano 
+		Giacomo 
+		Giovanni 
+		Giulio 
+		Giuseppe 
+		Guglielmo 
 		GiosuE_ 
 		Goffredo 
 		Giorgio 
 		Giustino
 		Ignazio
-		Leopoldo
-		Lorenzo
-		Ludovico
-		Luca
+		Leopoldo 
+		Lorenzo 
+		Ludovico 
+		Luca 
 		Luigi 
 		Ludovico
-		Marcantonio
-		Marino
-		Mario
-		Matteo
+		Marcantonio 
+		Marino 
+		Mario 
+		Matteo 
 		Marco 
 		Monaldo 
 		Michele 
@@ -3642,14 +3696,14 @@ south_italian={
 		Nicola
 		Orazio
 		Oronzio
-		Pierfrancesco 
-		Paolo 
-		Pasquale 
-		Pietro 
+		Pierfrancesco
+		Paolo
+		Pasquale
+		Pietro
 		Pellegrino
-		Raimondo 
+		Raimondo
 		Raffaele
-		Sigismondo
+		Sigismondo 
 		Salvatore 
 		Sebastiano 
 		Saverio
@@ -3669,49 +3723,49 @@ south_italian={
 		Paolina
 		Sofia
 		Vittoria Violante
-	}	
+	}
 	noble_last_names = {
-		Afan_de_Rivera Antici 
+		Afan_de_Rivera Antici
 		d_Albergo d_Ayala
-		Barracco
-		Berlingieri
+		Barracco 
+		Berlingieri 
 		Bufalari 
 		Baccarini 
 		Di_Brocchetti
-		Caetani
+		Caetani 
 		CalA__Ulloa 
-		Caracciolo
+		Caracciolo 
 		de_Liguori
 		de_Riseis
 		della_Rovere
-		di_Cesare 
-		Ceccarini 
+		di_Cesare
+		Ceccarini
 		di_Crollalanza
 		Donnorso_di_Serracapriola
-		Ercolani 
+		Ercolani
 		d_Escamard
 		Filangieri
 		Galluppi
 		Giannuzzi-Savelli
 		della_Genga
-		Lanfranci
-		Lucifero
+		Lanfranci 
+		Lucifero 
 		de_Liguori 
 		Leopardi 
 		de_Luca
-		Montani_da_Pesaro 
+		Montani_da_Pesaro
 		Marchesani
-		Ondedei 
+		Ondedei
 		Osmani
 		Piccolomini
 		Pignatelli
 		del_Pezzo
-		de_Riseis 
-		della_Rovere 
-		De_Renzi 
-		de_Rilliet 
+		de_Riseis
+		della_Rovere
+		De_Renzi
+		de_Rilliet
 		del_Re
-		Sanfelice
+		Sanfelice 
 		Spinello 
 		de_Samuele_Cagnazzi 
 		Sgariglia 
@@ -3726,24 +3780,24 @@ south_italian={
 		Zurlo
 	}
 	common_last_names={
-		Anfora
+		Anfora 
 		Avitabile 
 		Alianelli 
 		Antonelli 
 		Assanti 
 		Acclavio
-		Barberini-Colonna
-		Bonaccorsi
-		Benci
+		Barberini-Colonna 
+		Bonaccorsi 
+		Benci 
 		Bozzelli 
 		Baldacchini 
 		Briganti 
 		Bausan 
 		Bianchini
-		Caraga
-		Cattaneo
-		Chigi
-		Clary
+		Caraga 
+		Cattaneo 
+		Chigi 
+		Clary 
 		Cosenz 
 		Cianciulli 
 		Cuoco 
@@ -3754,10 +3808,10 @@ south_italian={
 		Croce 
 		Carrascosa 
 		Colletta
-		Diaz
+		Diaz 
 		Durini 
 		Delfico
-		Ferrari
+		Ferrari 
 		Filangieri 
 		Filioli 
 		Fergola 
@@ -3765,9 +3819,9 @@ south_italian={
 		Forteguerri 
 		Ferri 
 		Fortunato
-		Gironda
-		Gravina
-		Grifeo
+		Gironda 
+		Gravina 
+		Grifeo 
 		Garzia 
 		Gagliardo 
 		Galdi 
@@ -3777,24 +3831,24 @@ south_italian={
 		Gio 
 		Giannuzzi 
 		Galletti
-		Imbriani 
+		Imbriani
 		Intonti
-		Lanza
-		Lombardo
-		Lunardi
+		Lanza 
+		Lombardo 
+		Lunardi 
 		Landi 
 		Lanza 
 		Longobardi
-		Molinelli
+		Molinelli 
 		Mezzacapo 
 		Milano 
 		Morelli
-		Nunziante 
+		Nunziante
 		Naselli
 		Orsini
 		Ottaviani
 		Oliva
-		Pironti
+		Pironti 
 		Pepe 
 		Poerio 
 		Palmieri 
@@ -3806,13 +3860,13 @@ south_italian={
 		Pionati 
 		Parisio
 		Quandel
-		Ritucci 
-		Ruggiero 
-		Romano 
-		Rosaroll 
-		Ricciardi 
+		Ritucci
+		Ruggiero
+		Romano
+		Rosaroll
+		Ricciardi
 		Rosica
-		Scammacca
+		Scammacca 
 		Scovazzo 
 		Sansone 
 		Sannia 
@@ -3822,8 +3876,8 @@ south_italian={
 		Scialoja 
 		Statella 
 		Santangelo
-		Torlonia
-		Turrisi
+		Torlonia 
+		Turrisi 
 		Troya 
 		Tommasi 
 		Tenore 
@@ -3831,7 +3885,7 @@ south_italian={
 		Torelli 
 		Tardio 
 		Troisi
-		Vernazza
+		Vernazza 
 		Valiante 
 		Vignale 
 		Vecchione
@@ -3889,7 +3943,7 @@ maltese={
 		Marthese
 		Therese
 		Vittorja
-	}	
+	}
 	noble_last_names = {
 		Cachia
 		Micallef
@@ -3979,9 +4033,9 @@ basque={
 		Luisa
 		Maria
 		Martina
-		Mikaela 
+		Mikaela
 		Oneka
-	}	
+	}
 	noble_last_names = {
 		Arana
 		Arellano
@@ -4146,7 +4200,7 @@ spanish={
 		Rosa
 		Sabina
 		Teresa
-	}	
+	}
 	noble_last_names = {
 		Alvarez_de_Toledo de_Albornoz de_ArmendA_riz de_Almansa de_AlO_s de_Arteche
 		Barrionuevo de_Bohorques de_Bernuy de_Bago
@@ -4214,7 +4268,7 @@ spanish={
 		de_Orleans
 		de_Saboya
 		de_Wittelsbach
-	}	
+	}
 	graphics = european
 	ethnicities = {
 		1 = caucasian
@@ -4292,7 +4346,7 @@ catalan={
 		Maria
 		Rosa
 		Susana
-	}	
+	}
 	noble_last_names = {
 		d_Areny-Plandolit
 		de_Llauder_i_Dalmases
@@ -4468,7 +4522,7 @@ portuguese={
 		Rosa
 		Sofia
 		Teresa
-	}	
+	}
 	noble_last_names = {
 		Correia_de_Sa
 		da_Costa
@@ -4576,11 +4630,11 @@ french={
 	color= rgb{ 76 118 155 }
 	religion = catholic
 	traits = { francophone european_heritage }
-	
+
 	obsessions = {
 		wine
 	}
-	
+
 	male_common_first_names={
 		Achille Adolphe Adrien Aimable Alphonse Amedee Antoine Armand Auguste Augustin Alcide Andre Alexandre Athanase Abel Ambroise Aristide AlbE_ric Archambaud
 		Bertrand Bernardin Bernard Barthelemy
@@ -4619,7 +4673,7 @@ french={
 		SE_raphine Sibylle Sophie Stephanie Suzanne
 		Therese_2
 		Victoire Victorine Virginie
-	}	
+	}
 	noble_last_names = {
 		d_Aumont
 		Baraguey_d_Hilliers Bergeret de_Beauharnais de_Bussiere de_Broglie
@@ -4747,7 +4801,7 @@ occitan={
 		Romanilha Rostaing Renan
 		Sarran de_Salanovat
 		Tavan
-		VigE_r VerdiE_r Verlhac	
+		VigE_r VerdiE_r Verlhac
 	}
 
 	graphics = european
@@ -4800,7 +4854,7 @@ breton={
 		Pauline
 		Sophie
 		Tiphaine
-	}	
+	}
 	noble_last_names = {
 		Audren_de_Kerdrel
 		Berthois
@@ -4914,7 +4968,7 @@ croat={
 		Julka
 		Marija
 		Tereza
-	}	
+	}
 	noble_last_names = {
 		Alagovic
 		Draskovic
@@ -5060,7 +5114,7 @@ serb={
 		Stojna
 		Tomanija
 		Milica
-	}	
+	}
 	noble_last_names = {
 		Anastasijevic
 		Avakumovic
@@ -5140,7 +5194,7 @@ serb={
 		Karadordevic
 		Obrenovic
 		Petrovic_Njegos
-	}	
+	}
 	ethnicities = {
 		1 = slavic
 	}
@@ -5210,7 +5264,7 @@ bulgarian={
 		Sirma
 		Teodora
 		Todorka
-	}	
+	}
 	noble_last_names = {
 		Battemberg
 		Bogoridi
@@ -5346,7 +5400,7 @@ albanian={
 		Sadije
 		Senije
 		Valentina
-	}	
+	}
 	noble_last_names = {
 		Alizoti
 		Alltuni
@@ -5494,7 +5548,7 @@ slovene={
 		Vilibalda
 		Zofka
 		Zora
-	}	
+	}
 	noble_last_names = {
 		Barbo
 		Cobenzl
@@ -5631,7 +5685,7 @@ bosniak={
 		Ognjenka
 		Sabina
 		Samra
-	}	
+	}
 	noble_last_names = {
 		Izetbegovic
 		Kurtcehajic
@@ -5767,7 +5821,7 @@ romanian={
 		Lucretia
 		Maria
 		Maritica
-	}	
+	}
 	noble_last_names = {
 		Cantemir
 		Caradja
@@ -5922,7 +5976,7 @@ hungarian={
 		Terez
 		Vilma
 		Zsuzsanna
-	}	
+	}
 	noble_last_names = {
 		Andrassy
 		Deak
@@ -6067,7 +6121,7 @@ polish={
 		Teresa
 		Ursula
 		Zofia
-	}	
+	}
 	noble_last_names = {
 		Bor-Komorowski
 		Dunin
@@ -6213,7 +6267,7 @@ lithuanian={
 		Salomeja
 		Sofija
 		Justina
-	}	
+	}
 	noble_last_names = {
 		Cartoriskis
 		Glinskis
@@ -6364,7 +6418,7 @@ czech={
 		Tereza
 		Zdena
 		Zuzana
-	}	
+	}
 	noble_last_names = {
 		Albert
 		Clary_Aldringen
@@ -6505,7 +6559,7 @@ slovak={
 		Olga
 		Vilma
 		Terezia
-	}	
+	}
 	noble_last_names = {
 		Bernolak
 		Daxner
@@ -6610,7 +6664,7 @@ russian={
 		Varvara Vera Yekaterina Yulia
 		Xenia
 		Zinaida
-	}	
+	}
 	noble_last_names = {
 		Adlerberg
 		Barclay_de_Tolly Bestuzhev-Ryumin Bulatovich Buturlin
@@ -6641,14 +6695,14 @@ russian={
 		Ivanov
 		Kasso Kolchak Konev Konstantinov Kornilov Kuropatkin
 		Lazarev
-		Makarov Menshikov 
+		Makarov Menshikov
 		Nakhimov Nebogatov Nikolaevich
 		Ostrovsky
 		Pavlov Putyatin
 		Rozhestvensky
 		Shuvalov Skobelev Surkov Sorokin
 		Tukhachevsky
-		Vorontsov Voroshilov 
+		Vorontsov Voroshilov
 		Yegorov Yudenich
 		Zavoyko
 	}
@@ -6731,7 +6785,7 @@ byelorussian={
 		Tselina
 		Vera
 		Yelena
-	}	
+	}
 	noble_last_names = {
 		Bodganovich
 		Bonch-Bruyevich
@@ -6799,7 +6853,7 @@ ukrainian={
 		Mykola
 		Nikita
 		Oleksandr
-		Panteleimon 
+		Panteleimon
 		Pavel
 		Petro
 		Roman
@@ -6831,7 +6885,7 @@ ukrainian={
 		Valeriya
 		Xenia
 		Yevheniya
-	}	
+	}
 	noble_last_names = {
 		Chubynsky
 		Czajkowski
@@ -6905,15 +6959,15 @@ ugrian={
 		Margareta
 		Marja
 		Nasti
-	}	
+	}
 	noble_last_names = {
-		Ubmeje 
-		Nuorane 
-		Gajka 
-		Kaise 
-		Saiva 
-		Keite 
-		Magga 
+		Ubmeje
+		Nuorane
+		Gajka
+		Kaise
+		Saiva
+		Keite
+		Magga
 		Guoladat
 	}
 	common_last_names={
@@ -6989,12 +7043,12 @@ latvian={
 	}
 	female_common_first_names = {
 		Amida
-		Antonija 
+		Antonija
 		Benigna
 		Berta
 		Diana
-		Elfriede 
-		Elza 
+		Elfriede
+		Elza
 		Emilija
 		Inguna
 		Johanna
@@ -7009,7 +7063,7 @@ latvian={
 		Matilde
 		Regina
 		Roze
-	}	
+	}
 	noble_last_names = {
 		Krek
 		Penikis
@@ -7145,7 +7199,7 @@ estonian={
 		Jutta
 		Mari
 		Marta
-	}	
+	}
 	noble_last_names = {
 		Angelus
 		Brede
@@ -7232,17 +7286,17 @@ greek={
 	color= hsv{ 0.94 0.45 0.48 }
 	religion = orthodox
 	traits = { greek_culture european_heritage }
-	
+
 	obsessions = {
 		wine
-	}	
-	
+	}
+
 	male_common_first_names = {
-		Alexandros Angelos Anastasios Aristidis Antonios Aristovoulos Alexios Andreas Agamemnon Avgoustos Anthimos Adam Anagnostis 
+		Alexandros Angelos Anastasios Aristidis Antonios Aristovoulos Alexios Andreas Agamemnon Avgoustos Anthimos Adam Anagnostis
 		Beniamin
 		Charilaos Christos Christoforos Christodoulos
 		Dimitrios Dionysios Diomidis
-		Evangelos Eleftherios Efstathios Emmanouil Epameinontas 
+		Evangelos Eleftherios Efstathios Emmanouil Epameinontas
 		Filippos Frangiskos
 		Georgios Gerasimos Gregorios Germanos
 		Ilias Ioannis Iakovos Iraklis Iason
@@ -7251,7 +7305,7 @@ greek={
 		Militiadis Menelaos Markos Merkourios Makarios
 		Nikos Nikolaos
 		Odysseas
-		Panos Panagiotis Periklis Petros Pantelis Pantaleon Pavlos Panoutsos 
+		Panos Panagiotis Periklis Petros Pantelis Pantaleon Pavlos Panoutsos
 		Spyridon Sokratis Stamatios Sotiros Stephanos Stelios Stylianos Skarlatos Sofoklis
 		Theodoros Tilemachos Thomas Trifon Theodorakis Theophilos Thrasyvoulos Themistoklis
 		Vasilios Viktor
@@ -7293,7 +7347,7 @@ greek={
 
 	# some Hellenic forms of names from the "Livre d'Or de la Noblesse Ionienne"
 	# also added Souliotes
-	noble_last_names = { 
+	noble_last_names = {
 		Arvanitachi Argyropoulos
 		Benizelos Botsaris Boutzias Bousbos Boufis Bekas
 		Drakos Dousmanis Danglis
@@ -7321,7 +7375,7 @@ greek={
 		Fetsis Fetsios Frangoudis Frangopoulos Foustanos Farmakidis Freris Farmakidis Fotilas
 		Gennimatas Golemis Gerakeris Grigoriou Gouskos Georgiadis Gaitanos Grigoriadis Gneftos Gazis
 		Hatzidakis
-		Iatrou Iatridis 
+		Iatrou Iatridis
 		Karousou Karakatsanis Kafetzis Koletis Kostantinidis Konstantinou Karakalos Karvelas Karagiannopoulos Karasevdas Karagiannis Katravas Khatzis Kontos Koukoudakis Kourkoulas Kasdaglis Kallisperi Kanaris Konstantas
 		Lagoudakis Lavrentis Loverdos Loundras Langakis Levidis Lamprakis Laskaridis Lerias Liapis Logothetis
 		Merkatis Mouratis Masouris Mitropoulos Mikhailidis Moustakopoulos Morakis Mangourakis Markou Marnezos Mazoukas Mikhalopoulos Malokinis Mavrommatis Mavrogenes Mansolas
@@ -7415,13 +7469,13 @@ georgian={
 		Rusudan
 		Tekle
 		Vera
-	}	
+	}
 	noble_last_names = {
 		Abashidze
 		Dadeshkeliani
 		Dadiani
 		Guramishvili
-		Melikishvili 
+		Melikishvili
 		Nikoladze
 		Orbeliani
 		Tumanishvili
@@ -7545,7 +7599,7 @@ armenian={
 		Anna
 		Arshaluys
 		Diana
-		Hripsime 
+		Hripsime
 		Mari
 		Perchuhi
 		Satenik
@@ -7554,7 +7608,7 @@ armenian={
 		Virginia
 		Zabel
 		Zardar
-	}	
+	}
 	noble_last_names = {
 		Abamelik
 		Agadzhanian
@@ -7679,7 +7733,7 @@ sephardic={
 		Ruth
 		Sonia
 		Yosefa
-	}	
+	}
 	noble_last_names = {
 		Abrabanel
 		Camondo
@@ -7847,28 +7901,28 @@ azerbaijani={
 		Heyran
 		Izzet
 		Maryam
-		Munavvar 
+		Munavvar
 		Nasiba
 		Nesrin
 		Nuriyya
 		Sakina
 		Shargiyya
 		Shirin
-	}	
+	}
 	noble_last_names = {
-		Akhundzade 
+		Akhundzade
 		Ashurbeyov
 		Bahmani-Qajar
 		Bakikhanov
 		Kazembek
-		Kengerli 
+		Kengerli
 		Ibrahimbek
 		Javanshir
 		Kalantarli
 		Mammadbeyov
 		Mehmandarov
 		Nakhchivanski
-		Narimanbekov 
+		Narimanbekov
 		Qasimbek
 		Topchubashi
 	}
@@ -7918,7 +7972,7 @@ north_caucasian={
 		Nadia
 		Svetlana
 		Tamara
-	}	
+	}
 	noble_last_names = {
 		Cherkassky
 		Chetao
@@ -7987,7 +8041,7 @@ maghrebi={
 		Souhila
 		Touria
 		Zina
-	}	
+	}
 	noble_last_names = {
 		al-Alawi
 		ben_Gana
@@ -8106,7 +8160,7 @@ misri={
 		Salwa
 		Tafika
 		Zainab
-	}	
+	}
 	noble_last_names = {
 		Farid
 		Sabri
@@ -8202,7 +8256,7 @@ mashriqi={
 		Sulafa
 		Zeina
 		Zuhur
-	}	
+	}
 	noble_last_names = {
 		al-Ali
 		al-Atassi
@@ -8310,7 +8364,7 @@ bedouin={
 		Maha
 		Noura
 		Sultana
-	}	
+	}
 	noble_last_names = {
 		al_Hashimi
 		Al_Maktoum
@@ -8369,14 +8423,14 @@ berber={ # Amazigh
 		Malika
 		Tassadit
 		Zohra
-	}	
+	}
 	noble_last_names = {
 		el_Krim
 		Al-Khattabi
 	}
 	common_last_names={
 		Belkadi
-		Messaoudi 
+		Messaoudi
 		Mukrani
 		Imalayen
 		Iftaten
@@ -8400,9 +8454,9 @@ persian={
 	religion = shiite
 	traits = { iranian_turanian_culture_group middle_eastern_heritage }
 	male_common_first_names={
-		Abbas Abdolazim Abdolhossein Abdolsamad Abolghasem Ahmad Ali 
-		Bahram 
-		Ebrahim Esmail 
+		Abbas Abdolazim Abdolhossein Abdolsamad Abolghasem Ahmad Ali
+		Bahram
+		Ebrahim Esmail
 		Fath_Ali Fazlollah
 		Hamzeh Hasan Hossein
 		Kamran Karim
@@ -8418,13 +8472,13 @@ persian={
 		Ghazaleh
 		Marjane Marsha Maryam
 		Sedigheh
-	}	
+	}
 	noble_last_names = {
 		al-Saltaneh Alamir Astarabadi Ashtiani
 		Bakhtiari
 		Farmanfarma
 		Hakimi Hedayat
-		Khalatbari 
+		Khalatbari
 		Pirnia
 		Qajar
 	}
@@ -8501,7 +8555,7 @@ uzbek={
 		Tursunoy
 		Yulduz
 		Zilola
-	}	
+	}
 	noble_last_names = {
 		Kokand
 		Bahadur
@@ -8553,7 +8607,7 @@ kazak={
 		Demesh
 		Gulshat
 		Samal
-	}	
+	}
 	noble_last_names = {
 		Bukeikhanov
 		Beg
@@ -8594,17 +8648,17 @@ kirgiz={
 		Torokul
 		Turdakun
 		Vali
-		Zhurahon 
+		Zhurahon
 	}
 	female_common_first_names = {
-		Asylgul 
+		Asylgul
 		Kuluypa
 		Roza
 		Sabira
 		Tattybubu
-		Toktayum 
+		Toktayum
 		Zamira
-	}	
+	}
 	noble_last_names = {
 		Madali
 		Beg
@@ -8660,12 +8714,12 @@ tajik={
 	}
 	female_common_first_names = {
 		Guljahon
-		Khursheda 
-		Latofat 
-		Mavjuda 
+		Khursheda
+		Latofat
+		Mavjuda
 		Nizoramo
-		Zulfiya 
-	}	
+		Zulfiya
+	}
 	noble_last_names = {
 		Khan
 		Bek
@@ -8709,7 +8763,7 @@ uighur={
 		Gulimina
 		Gulnazar
 		Madina
-	}	
+	}
 	noble_last_names = {
 		Beg
 		Khan
@@ -8774,11 +8828,11 @@ pashtun={
 	female_common_first_names = {
 		Aisha
 		Ghazala
-		Gulrukh 
+		Gulrukh
 		Hazrat
 		Nazia
 		Nilofar
-	}	
+	}
 	noble_last_names = {
 		Damani
 		Durrani
@@ -8822,7 +8876,7 @@ baluchi={
 	female_common_first_names = {
 		Kiran
 		Shahlyla
-	}	
+	}
 	noble_last_names = {
 		Badini
 		Baloch
@@ -8863,7 +8917,7 @@ hazara={
 		Shaima
 		Shakardokht
 		Sima
-	}	
+	}
 	noble_last_names = {
 		Beg
 		Besudi
@@ -8907,7 +8961,7 @@ turkmen={
 		Medeniyet
 		Muza
 		Semsat
-	}	
+	}
 	noble_last_names = {
 		Beg
 		Khan
@@ -8951,7 +9005,7 @@ kurdish={
 		Mastoureh
 		Suhaylah
 		Zehra
-	}	
+	}
 	noble_last_names = {
 		Ardalan
 		Barzanji
@@ -8998,7 +9052,7 @@ tatar={
 		Masrura
 		Riza
 		Zeyneb
-	}	
+	}
 	noble_last_names = {
 		Mamleeva
 	}
@@ -9055,7 +9109,7 @@ mongol={
 		Oyuungerel
 		Sonomyn
 		Tuyaa
-	}	
+	}
 	noble_last_names = {
 		Gonchigjalzangiin
 		Togs-Ochiryn
@@ -9068,7 +9122,7 @@ mongol={
 		Damdinbazar
 		Genden
 		Jamyan
-		Murdorj 
+		Murdorj
 		Sukhbaatar
 		Tomorbaatar
 		Tserendorj
@@ -9110,7 +9164,7 @@ kalmyk={
 		Oyuungerel
 		Sonomyn
 		Tuyaa
-	}	
+	}
 	noble_last_names = {
 		Gonchigjalzangiin
 		Togs-Ochiryn
@@ -9123,7 +9177,7 @@ kalmyk={
 		Damdinbazar
 		Genden
 		Jamyan
-		Murdorj 
+		Murdorj
 		Sukhbaatar
 		Tomorbaatar
 		Tserendorj
@@ -9154,7 +9208,7 @@ siberian={
 	female_common_first_names = {
 		Galina
 		Sainkho
-	}	
+	}
 	noble_last_names = {
 		Khan
 	}
@@ -9193,7 +9247,7 @@ yakut={
 		Natalia
 		Sardana
 		Zoya
-	}	
+	}
 	noble_last_names = {
 		Anabar
 		Darkhan
@@ -9216,11 +9270,11 @@ yakut={
 tibetan={
 	color= rgb{ 132 121 86 }
 	religion = gelugpa
-	
+
 	obsessions = {
 		tea
 	}
-	
+
 	traits = { tibetan_language himalayan east_asian_heritage }
 	male_common_first_names={
 		Andruk
@@ -9241,7 +9295,7 @@ tibetan={
 		Ngawang
 		Phuntsog
 		Tsewang
-	}	
+	}
 	noble_last_names = {
 		Lhalu
 		Ngapoi
@@ -9281,11 +9335,11 @@ assamese={
 		Sudingphaa
 	}
 	female_common_first_names = {
-		Chandrakanti 
+		Chandrakanti
 		Dipali
 		Indira
 		Pushpalata
-	}	
+	}
 	noble_last_names = {
 		Khan
 		Singha
@@ -9386,7 +9440,7 @@ bihari={
 		Ganga
 		Nidhi
 		Rohini
-	}	
+	}
 	noble_last_names = {
 		Singh
 	}
@@ -9432,7 +9486,7 @@ manipuri={
 		Kuranganayani
 		Sheitamala
 		Yumsangbi
-	}	
+	}
 	noble_last_names = {
 		Ningthouja
 		Singh
@@ -9454,11 +9508,11 @@ nepali={
 	color= hsv{ 0.79 0.25 0.74 }
 	religion = hindu
 	traits = { himalayan south_asian_heritage }
-	
+
 	obsessions = {
 		tea
 	}
-	
+
 	male_common_first_names={
 		Amar
 		Bhakti
@@ -9473,14 +9527,14 @@ nepali={
 		Shamsher
 	}
 	female_common_first_names = {
-		Anuradha 
+		Anuradha
 		Divyeshwari
 		Durga
 		Lakshmi
 		Sangita
 		Sunita
-		Yogmaya 
-	}	
+		Yogmaya
+	}
 	noble_last_names = {
 		Basnyat
 		Bahadur_Rana
@@ -9530,7 +9584,7 @@ oriya={
 		Parbati
 		Ranjana
 		Sanjukta
-	}	
+	}
 	noble_last_names = {
 		Choudhury
 		Das
@@ -9569,11 +9623,11 @@ sinhala={
 		Rangammal
 		Upendramma
 		Yakada
-	}	
+	}
 	noble_last_names = {
 		Devi
 		Nayak
-		Nayakkar 
+		Nayakkar
 	}
 	common_last_names={
 		Dharmasurya
@@ -9608,12 +9662,12 @@ avadhi={
 	}
 	female_common_first_names = {
 		Rani
-		Rupamanjari 
+		Rupamanjari
 		Sampat
-		Sheorajvati 
-	}	
+		Sheorajvati
+	}
 	noble_last_names = {
-		Abaqati 
+		Abaqati
 		Ijtihadi
 		Naqvi
 	}
@@ -9649,7 +9703,7 @@ kanauji={
 	female_common_first_names = {
 		Dimple
 		Kamlesh
-	}	
+	}
 	noble_last_names = {
 		Singh
 	}
@@ -9696,7 +9750,7 @@ panjabi={
 		Riffat
 		Sada
 		Savita
-	}	
+	}
 	noble_last_names = {
 		Bahadur
 		Bhangi
@@ -9746,7 +9800,7 @@ kashmiri={
 		Kalsoom
 		Maryam
 		Tehmina
-	}	
+	}
 	noble_last_names = {
 		Ghafar_Khan
 		Khan
@@ -9787,7 +9841,7 @@ gujarati={
 		Lata
 		Meena
 		Usha
-	}	
+	}
 	noble_last_names = {
 		Chaudhari
 		Mangeshkar
@@ -9828,7 +9882,7 @@ marathi={
 		Venkatji
 	}
 	female_common_first_names = {
-		Ahilyabai 
+		Ahilyabai
 		Anandibai
 		Gangabai
 		Gopikabai
@@ -9836,7 +9890,7 @@ marathi={
 		Rani
 		Soyarabai
 		Umabai
-	}	
+	}
 	noble_last_names = {
 		Baji_Rao
 		Bhat
@@ -9888,7 +9942,7 @@ sindi={
 	}
 	female_common_first_names = {
 		Fahmida
-	}	
+	}
 	noble_last_names = {
 		Kalhoro
 		Memon
@@ -9951,7 +10005,7 @@ rajput={
 		Kishore
 		Maji
 		Marudhar
-	}	
+	}
 	noble_last_names = {
 		Gujar
 		Jethwa
@@ -10001,8 +10055,8 @@ kannada={
 	female_common_first_names = {
 		Chindodi
 		Manjula
-		Saraswati 
-	}	
+		Saraswati
+	}
 	noble_last_names = {
 		Hegde
 		Narayan
@@ -10048,9 +10102,9 @@ malayalam={
 		Fathima
 		Firoza
 		Sudhamani
-	}	
+	}
 	noble_last_names = {
-		Ittyanath 
+		Ittyanath
 		Perumal
 		Rama_Varma
 		Thampuran
@@ -10090,7 +10144,7 @@ tamil={
 		Rani
 		Rasamanohari
 		Thangamma
-	}	
+	}
 	noble_last_names = {
 		Bahadur
 		Rao
@@ -10132,7 +10186,7 @@ telegu={
 	female_common_first_names = {
 		Anjali
 		Lakshmi
-	}	
+	}
 	noble_last_names = {
 		Nayak
 		Salarjung
@@ -10175,7 +10229,7 @@ vietnamese={
 		Mai_Loan
 		Thanh
 		Yen
-	}	
+	}
 	noble_last_names = {
 		Le
 		Ngo_Dinh
@@ -10224,7 +10278,7 @@ khmer={
 		Ros
 		Vanthy
 		Vara
-	}	
+	}
 	noble_last_names = {
 		Ang
 		Varman
@@ -10261,7 +10315,7 @@ batak={
 		Fatin
 		Sari
 		Sharena
-	}	
+	}
 	noble_last_names = {
 		Manisia
 		Marga_Sinambela
@@ -10318,7 +10372,7 @@ dayak={
 		Fatin
 		Sari
 		Sharena
-	}	
+	}
 	noble_last_names = {
 		al_Qadri
 		Bahau
@@ -10382,7 +10436,7 @@ malagasy={
 		Razafinandriamanitra
 		Ranavalona
 		Tahina
-	}	
+	}
 	noble_last_names = {
 		Bemihisatra
 		Ramavo
@@ -10435,7 +10489,7 @@ filipino={
 		Librada
 		Teodora
 		Trinidad
-	}	
+	}
 	noble_last_names = {
 		Aguainaldo
 		Bonifacio
@@ -10517,7 +10571,7 @@ moro={
 		Sulafa
 		Zeina
 		Zuhur
-	}	
+	}
 	noble_last_names = {
 		Mastura
 		Pagayawan
@@ -10577,7 +10631,7 @@ javan={
 		Siti Soimah Sunarti Soepiah
 		Tatiek
 		Yayuk
-	}	
+	}
 	noble_last_names = {
 		Cakraningrat
 		Djajadiningrat Djojohadikusumo
@@ -10601,7 +10655,7 @@ javan={
 		Duksina Dorodjatun
 		Gathot_Menol
 		Ibnu_Jarot
-		Kuseini 
+		Kuseini
 		Malikis_Solikin Mustojo Murtejo
 		Sapardan Sugandi Sundoro Surojo Sujana Sujadi Subadya Sayyidin_Malikul_Kusna
 	}
@@ -10629,9 +10683,9 @@ moluccan={
 		Sonny
 	}
 	female_common_first_names = {
-		Bellaetrix 
+		Bellaetrix
 		Fatimah
-	}	
+	}
 	noble_last_names = {
 		Kolano
 		Sjah
@@ -10674,15 +10728,15 @@ thai={
 		Rama
 		Piyararangsit
 		Rangsit
-		Sirivongse 
+		Sirivongse
 		Sanidh_Prayurasakdi
-		Tuam 
+		Tuam
 		Traidos
 		Vajiravudh
 		Yod
 	}
 	female_common_first_names = {
-		Adorndibyanibha 
+		Adorndibyanibha
 		Abbhantripaja
 		Bandhavanna
 		Bismai
@@ -10695,7 +10749,7 @@ thai={
 		Thao
 		Valaya Vichitra
 		Yaovabha
-	}	
+	}
 	noble_last_names = {
 		Chakri
 		Praya_Siri
@@ -10706,7 +10760,7 @@ thai={
 		Devahastin
 		Hutasingha
 		Inswang
-		Kridakorn 
+		Kridakorn
 		Nitithada
 		Phonphayuhasena
 		Phahonyothin 
@@ -10747,7 +10801,7 @@ mon={
 		Nokiang
 		Tuu
 		Thiha
-	}	
+	}
 	noble_last_names = {
 		Chakri
 	}
@@ -10788,7 +10842,7 @@ khmu={
 		Pheng
 		Samathi
 		Thongsy
-	}	
+	}
 	noble_last_names = {
 		Luang_Phrabang
 		Ong
@@ -10835,7 +10889,7 @@ lao={
 		Pheng
 		Samathi
 		Thongsy
-	}	
+	}
 	noble_last_names = {
 		Luang_Phrabang
 		Ong
@@ -10882,7 +10936,7 @@ shan={
 	female_common_first_names = {
 		Charm
 		Hearn
-	}	
+	}
 	noble_last_names = {
 		Sao
 	}
@@ -10933,7 +10987,7 @@ burmese={
 		Chandra
 		Hsinbyumashin
 		Supayalat
-	}	
+	}
 	noble_last_names = {
 		Konbaung
 		Sao
@@ -10972,7 +11026,7 @@ kachin={
 		Bawk_Ja
 		Thaung
 		Thin
-	}	
+	}
 	noble_last_names = {
 		Shatam
 		Mungchi
@@ -11014,7 +11068,7 @@ karen={
 		Nang_Khin
 		Naw_Ohn
 		Naw_Paw
-	}	
+	}
 	noble_last_names = {
 		Aung
 		Kantarawadi
@@ -11044,6 +11098,11 @@ japanese={
 	color= hsv{ 0 0 90 }
 	religion = mahayana
 	traits = { yamato east_asian_heritage }
+
+	obsessions = {
+		newspapers
+	}
+
 	male_common_first_names={
 		japanese_flavor_Katsushika_Hokusai_first
 		japanese_flavor_Kyokutei_Bakin_first
@@ -11853,7 +11912,7 @@ japanese={
 		Teru
 		Toyoko
 		Tsuneko
-	}	
+	}
 	noble_last_names = {
 		Hayashi
 		Ito
@@ -12000,7 +12059,7 @@ japanese={
 		Teru
 		Toyoko
 		Tsuneko
-	}	
+	}
 	ethnicities = {
 		1 = asian
 	}
@@ -12035,7 +12094,7 @@ manchu={
 		Wanrong
 		Wengjing
 		Xingzhen
-	}	
+	}
 	noble_last_names = { # Qing princely peerages
 		An
 		Cheng
@@ -12132,7 +12191,7 @@ han={
 		Xuanjiao
 		Yu
 		Yunmei
-	}	
+	}
 	noble_last_names = {
 		Cui
 		Li
@@ -12216,7 +12275,7 @@ korean={
 
 	noble_last_names = {
 		Bak
-		Chang Choe 
+		Chang Choe
 		Gang Gim Gwon
 		Han Hong
 		Jo
@@ -12273,7 +12332,7 @@ ainu={
 		Tahkonanna
 		Umeko
 		Yaeko
-	}	
+	}
 	noble_last_names = {
 		Nakamura
 		Peramonkoro
@@ -12337,7 +12396,7 @@ hakka={
 		Xuanjiao
 		Yu
 		Yunmei
-	}	
+	}
 	noble_last_names = {
 		Cui
 		Li
@@ -12400,7 +12459,7 @@ miao={
 		Xuanjiao
 		Yu
 		Yunmei
-	}	
+	}
 	noble_last_names = {
 		Cui
 		Li
@@ -12465,7 +12524,7 @@ min={
 		Xuanjiao
 		Yu
 		Yunmei
-	}	
+	}
 	noble_last_names = {
 		Cui
 		Li
@@ -12521,7 +12580,7 @@ zhuang={
 		Xuanjiao
 		Yu
 		Yunmei
-	}	
+	}
 	noble_last_names = {
 		Cui
 		Li
@@ -12592,7 +12651,7 @@ yi={
 		Xuanjiao
 		Yu
 		Yunmei
-	}	
+	}
 	noble_last_names = {
 		Cui
 		Li
@@ -12670,7 +12729,7 @@ yue={
 		Xuanjiao
 		Yu
 		Yunmei
-	}	
+	}
 	noble_last_names = {
 		Cui
 		Li
@@ -12733,7 +12792,7 @@ polynesian={
 		Mary
 		Pane
 		Pauahi
-	}	
+	}
 	noble_last_names = {
 		Keliimaikai
 		Kalakaua
@@ -12756,7 +12815,7 @@ polynesian={
 	graphics = generic
 }
 
-hawaiian={ # 
+hawaiian={ #
 	color= hsv{ 0.29 0.26 0.60 }
 	religion = protestant
 	traits = { polynesian_group indigenous_oceanic_heritage }
@@ -12776,7 +12835,7 @@ hawaiian={ #
 		Beniamina
 		Dani_ela
 		_Enoka Ehu
-		Hekekia Hairama Hugo 
+		Hekekia Hairama Hugo
 		Iosepa Ioane Iona Iosua Io_ela Ieremia Isaac
 		Kawika Keoni Kepano Keoki Kimo Kolomona
 		Lewi Luka Lakalo
@@ -12790,7 +12849,7 @@ hawaiian={ #
 	female_common_first_names = {
 		Abigail Ahia Ana Analea
 		Elizabeth
-		Haupa Hana Haleloke 
+		Haupa Hana Haleloke
 		Inaina
 		Kala Kina'u Kaliko Kamamalu Kamaikui Kekahili Kekelaokalani Kauwahine Kalukuna Kipa Kahiliopua Kauwa Kaha
 		Lucy Laura Lanihau
@@ -12798,16 +12857,16 @@ hawaiian={ #
 		Naomi Namahana Namokuelua Na_awa
 		Pane Pauahi Papapaunauapu
 		Rahela
-	}	
+	}
 	noble_last_names = {
 		Aholo
 		Hua Hoapili
 		Keliimaikai Kalakaua Kalaniana_ole Kamehameha Kawananakoa Keoua Kaneakua Ka_auwai Keawe Kalakaua Kanoa Kapeau Kina_u Kanehoa Kekaaniau Kamamali Ka_eo
-		La_anui Loeau Leleiohoku 
+		La_anui Loeau Leleiohoku
 		Moehonua Maheha Mahoe
 		Nakuina Nohomualani Namakeha Naea
 		Olohana
-		Pi_ikoi Peleioholani Palekaluhi Papaiahiahi Pahulemu 
+		Pi_ikoi Peleioholani Palekaluhi Papaiahiahi Pahulemu
 	}
 	common_last_names={
 		Akaka Apoliona Aki Akina Apaka Alapai
@@ -12815,7 +12874,7 @@ hawaiian={ #
 		Hanaike Hakuole Hiwauli Ho_opi_i Haili Hohopa
 		Iaukea _I_i
 		Kahanawai Kahanamoku Kanahele Kekumano Kawelo Kapena Kapaa Kamauoha Kamakau Kapahu Kaunamano Koahou Kaluna Kauhi Kaai Kekuku Kalama Kahauolopua Kaapana Kamakahi
-		Lilikalani Lahilahi 
+		Lilikalani Lahilahi
 		Muolo Maikai Momoa Mahealani Makalua Malo
 		Nawahi Nowlein Napuaelua Nahakuelua Nahinu Nahaolelua Nainoa
 		Piianaia Pua Pukui Punahoa Pavao
@@ -12857,7 +12916,7 @@ melanesian={
 		Salote
 		Sarojini
 		Tauta
-	}	
+	}
 	noble_last_names = {
 		Dovi
 		Sukuna
@@ -12888,7 +12947,7 @@ micronesian={
 	male_common_first_names={
 		Aghurubw
 		Aweijeda
-		Deireragea 
+		Deireragea
 		Hakana
 		Hakapeke
 		Maehua
@@ -12907,7 +12966,7 @@ micronesian={
 		Eigamoiya
 		Eomien
 		Jacinta
-	}	
+	}
 	noble_last_names = {
 		Elato
 		Emea
@@ -12965,7 +13024,7 @@ maori={
 		Te_Kona
 		Tuhikura
 		Whakaawi
-	}	
+	}
 	noble_last_names = {
 		Herangi
 		Heke
@@ -13014,7 +13073,7 @@ aborigine={ # Aboriginal
 		Mindup
 		Naata
 		Yamup
-	}	
+	}
 	noble_last_names = {
 		Agwamin
 		Ayabakan
@@ -13093,7 +13152,7 @@ zapotec={
 		Lina
 		Sofia
 		Violeta
-	}	
+	}
 	noble_last_names = {
 		Charis
 		Cortes
@@ -13184,7 +13243,7 @@ mayan={
 		Rigoberta
 		Rosalina
 		Thelma
-	}	
+	}
 	noble_last_names = {
 		Ay
 		Ceel
@@ -13280,7 +13339,7 @@ nahua={
 		Matilde
 		Modesta
 		Ramona
-	}	
+	}
 	noble_last_names = {
 		Altamirano
 		Cortes
@@ -13377,7 +13436,7 @@ tarascan={
 		Matilde
 		Modesta
 		Ramona
-	}	
+	}
 	noble_last_names = {
 		Calderon
 		Cristobal_2
@@ -13465,7 +13524,7 @@ quechua={
 		Nilda
 		Savina
 		Silvia
-	}	
+	}
 	noble_last_names = {
 		Collahuazo
 		Duchicela
@@ -13560,7 +13619,7 @@ guarani={
 		Sara
 		Ubalda
 		Veronica
-	}	
+	}
 	noble_last_names = {
 		Anzoategui
 		Campero
@@ -13749,7 +13808,7 @@ amazonian={
 		Cristina
 		Maria
 		Teresa
-	}	
+	}
 	noble_last_names = {
 		Aikana
 		Amahuaca
@@ -13841,7 +13900,7 @@ patagonian={
 		Maria
 		Rosario
 		Ximena
-	}	
+	}
 	noble_last_names = {
 		Calfucura
 		Colipi
@@ -13929,7 +13988,7 @@ guajiro={
 	female_common_first_names = {
 		Lido
 		Patricia
-	}	
+	}
 	noble_last_names = {
 		Aapashuna
 		Epieyu
@@ -14003,13 +14062,13 @@ tupinamba={
 		Joana
 		Margarida
 		Maria
-	}	
+	}
 	noble_last_names = {
 		Caiubi
 		Jaguaranha
 		Maracaiaguacu
 		Paraguacu
-		Piquerobi 
+		Piquerobi
 		Rodelas
 		Tibirica
 	}
@@ -14047,14 +14106,14 @@ metis={
 		Blance
 		Charlotte
 		Helene_2
-		Josephte 
+		Josephte
 		Julie
 		Laura
 		Maria
 		Marie-Anne
 		Michele
 		Rosalie
-	}	
+	}
 	noble_last_names = {
 		Lepine
 		Riel
@@ -14100,7 +14159,7 @@ dakota={
 		Wakanmaniwin
 		Wakantakawin
 		Wakhan_Inazin_Win
-	}	
+	}
 	noble_last_names = {
 		Hakadah
 		Ohiya_S-a
@@ -14155,7 +14214,7 @@ cherokee={
 		Sharon
 		Virginia
 		Wahnenauhi
-	}	
+	}
 	noble_last_names = {
 		Boudinot
 		Christie
@@ -14216,7 +14275,7 @@ muskogean={ # Creek and Seminole
 		Martha
 		Polly Polikissut
 		Yulaka
-	}	
+	}
 	noble_last_names = {
 		Ahhajumba
 		Bowlegs Brim
@@ -14277,7 +14336,7 @@ pueblo={
 		Ramita
 		Susan
 		Vera
-	}	
+	}
 	noble_last_names = {
 		Abeita
 		Herrera
@@ -14331,7 +14390,7 @@ inuit={
 		Mina
 		Mitiarjuk
 		Sheila
-	}	
+	}
 	noble_last_names = {
 		Atagotaaluk
 		Tullaugaq
@@ -14389,7 +14448,7 @@ cree={
 		Shirley
 		Tishynah Tuhbenahneequay Tekarihogen
 		Verna
-	}	
+	}
 	noble_last_names = {
 		Ahenakew
 		Ahtahkakoop
@@ -14438,7 +14497,7 @@ navajo={
 		Maria
 		Pablita
 		Theresa
-	}	
+	}
 	noble_last_names = {
 		Begay
 		Dodge
@@ -14493,7 +14552,7 @@ athabaskan={
 		Mina
 		Mitiarjuk
 		Sheila
-	}	
+	}
 	noble_last_names = {
 		Atagotaaluk
 		Tullaugaq
@@ -14552,7 +14611,7 @@ salish={ # Tlingit and Haida merged together, forgive me
 		K-woiyang
 		Qawkuna
 		Skil_Kew_Wat
-	}	
+	}
 	noble_last_names = {
 		Gispwudwada
 		Idinsaw
@@ -14594,7 +14653,7 @@ nez_perce={ # Nez Perce
 		Claudia
 		Heyoon_Yoyikt
 		Khapkhaponimi
-	}	
+	}
 	noble_last_names = {
 		Alpowai
 		Lamatta
@@ -14634,7 +14693,7 @@ siouan={
 		Wakanmaniwin
 		Wakantakawin
 		Wakhan_Inazin_Win
-	}	
+	}
 	noble_last_names = {
 		Hakadah
 		Ohiya_S-a
@@ -14683,7 +14742,7 @@ comanche={
 		Naduah
 		Topsannah Toepay Tonarcy
 		Weakeah
-	}	
+	}
 	noble_last_names = {
 		Hois
 		Kwahadi Kotsoteka
@@ -14712,13 +14771,13 @@ algonquian={
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
 		Catecahassa Cottawamago Cheeseekau
-		Gakiiwegwanebi 
+		Gakiiwegwanebi
 		Hokoleskwa
 		Kekewepelethy
 		Lalawethika Lawoughqua
 		MihS_ihkinaahkwa Moluntha Mahthela Muscquaconocah
 		Puckenshinwa Penagashea Pepquannakek Paxinosa Peteusha PepekitaakamhS_i
-		Quatawapea 
+		Quatawapea
 		Spemica_Lawba Shemanetoo
 		Wawahchepaehai Weyapiersenwah WeS_ihS_imo Wiliwi
 	}
@@ -14736,7 +14795,7 @@ algonquian={
 		Kispokotha KaskE_
 		Mecoce
 		Opessa
-		Pekowi Peckuwe 
+		Pekowi Peckuwe
 		ShipakA_kamithagI_
 		Thawikila
 	}
@@ -14756,7 +14815,7 @@ iroquoian={
 		Hadawa-ko Hayonhwonhish Honayawas Hutgohsodoneh
 		Kaintwakon
 		Skenandoa Sganyodaiyo Sakokwenionkwas Sagoyewatha Sayenqueraghta Sigwaahdohgwih Sosondowa
-		Tanacharison Thaonawyuthe Tejonihokarawa Taignoagny Tewahangarahken 
+		Tanacharison Thaonawyuthe Tejonihokarawa Taignoagny Tewahangarahken
 	}
 	female_common_first_names = {
 		Akat Alliquippa
@@ -14863,7 +14922,7 @@ paiute={ # Ute and Shoshone
 		Pearl
 		Shawsheen
 		Wenega
-	}	
+	}
 	noble_last_names = {
 		House
 		Timbimboo
@@ -14913,7 +14972,7 @@ hokan={
 		Mineru
 		Omesia
 		Pamahas
-	}	
+	}
 	noble_last_names = {
 		Ahwahne
 		Chochenyo
@@ -14961,7 +15020,7 @@ apache={
 		Grace
 		Nampeyo
 		Otellie
-	}	
+	}
 	noble_last_names = {
 		Begaye
 		Katchongva
@@ -15010,7 +15069,7 @@ oodham={
 		Rosa
 		Rowena
 		Sadie
-	}	
+	}
 	noble_last_names = {
 		Crane
 		Ross
@@ -15081,7 +15140,7 @@ mixtec={
 		Rigoberta
 		Rosalina
 		Thelma
-	}	
+	}
 	noble_last_names = {
 		Ay
 		Ceel
@@ -15154,7 +15213,7 @@ muisca={
 		Tinima
 		Yahima
 		Yuisa
-	}	
+	}
 	noble_last_names = {
 		Baitiquiri
 		de_Iguanama
@@ -15181,7 +15240,7 @@ miskito = {
 	color={ 240 240 100 }
 	religion = animist
 	traits = { indigenous_american_heritage native_mesoamerican_culture_group }
-	
+
 	male_common_first_names={
 		Alexander Albert
 		Bedford
@@ -15214,7 +15273,7 @@ miskito = {
 		George
 		Jeremy
 		Peter
-		Robert 
+		Robert
 	}
 	female_regal_first_names = {
 		Agnes Anne
@@ -15245,7 +15304,7 @@ miskito = {
 		Robinson Rivera
 		Warren Wood Weaver
 	}
-	
+
 	ethnicities = {
 		1 = native_american
 	}
@@ -15256,7 +15315,7 @@ cariban={ # Hispanicized. Also includes some Garifuna and Warao names.
 	color={ 52 120 25 }
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
-	
+
 	male_common_first_names={
 		Antonio Aurelio
 		Brigido
@@ -15279,7 +15338,7 @@ cariban={ # Hispanicized. Also includes some Garifuna and Warao names.
 		Maria
 		Patricia
 		Woryi
-	}	
+	}
 	noble_last_names = {
 		Chatoyer
 		Kalina
@@ -15300,11 +15359,16 @@ cariban={ # Hispanicized. Also includes some Garifuna and Warao names.
 	}
 	graphics = generic
 }
-	
+
 yankee={
 	color= rgb{ 135 206 235 } # Sky Blue
 	religion = protestant
 	traits = { anglophone european_heritage }
+
+	obsessions = {
+		newspapers
+	}
+
 	male_common_first_names = {
 		Albert Alexander Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Alvin August Abraham Abel Abijah Alonzo Ansel Amos Absalom
 		Benjamin Bartholomew Byron Benedict Barnabas Bildad
@@ -15318,7 +15382,7 @@ yankee={
 		Joshua Joseph John James Jacob Jesse Joel Jeremiah Jeffrey Judah Jonas Jedediah Jonathan Josiah
 		Kermit Kenner
 		Lemuel Lysander Lawrence Lewis Lorenzo Leland Levi Leonard_2 Lucius
-		Micah Marcellus Mark Michael Millard Matthew Matthias Montgomery Maxwell Milton 
+		Micah Marcellus Mark Michael Millard Matthew Matthias Montgomery Maxwell Milton
 		Nicholas Noah Nathaniel Newton Nelson
 		Obadiah Othniel Oswald Orson Orville Oscar Otis Oliver Orrin Owen Ormsby
 		Peter Paul Patrick Philip Phineas Philemon Purley Palmetus Philetus
@@ -15330,7 +15394,7 @@ yankee={
 		Victor Valentine_2
 		William Walter Winfield Wesley Wilbur Wendell
 		Zebulon Zachary Zalmon Zadok
-		
+
 	}
 	female_common_first_names = {
 		Amanda Anna Alice Adaline Adelaide Augusta Antoinette Alida Addie Ariel Ada Agnes Agatha Almira Arlevia Azubah
@@ -15430,6 +15494,11 @@ dixie={
 	color=rgb{ 204 154 91 } # Butternut
 	religion = protestant
 	traits = { anglophone european_heritage }
+
+	obsessions = {
+		newspapers
+	}
+
 	male_common_first_names = {
 		Andrew Alexander Atticus Alpheus Alfred Allen Arthur Augustus Archibald Algernon Ambrose Asa Arthur Angus Abner Auburn Archer Adam Arnold Amos Alben Alwyn
 		Braxton Basil Birkett Bushrod Benedict
@@ -15462,7 +15531,7 @@ dixie={
 		Hetty
 		Izora Isabella
 		Lepha Lettice Lillie Louisa Lydia Loreta Louetta
-		Mary Margaret Monimia 
+		Mary Margaret Monimia
 		Nancy Nora
 		Olivia Otelia
 		Pauline Phoebe Penelope
@@ -15478,7 +15547,7 @@ dixie={
 		Dandridge Dudley Duke Duvall Drayton Davis
 		Eldridge Eden
 		Fairfax Farrar Fitzhugh Fendall
-		Gooch Greenberry 
+		Gooch Greenberry
 		Hopkins Harrison Hammond Hollis Hampton Harbert
 		Jenings
 		Key
@@ -15497,7 +15566,7 @@ dixie={
 		Ashby Ammen Anderson Armistead Alford Allison Asboth
 		Bulloch Benjamin Barbour Battelle Barton Bell Beall Boggs Botts Borst Bragg Brockenbrough Brown Buchanan Baker Bankhead Brantley Badger Bland Branscomb Burgess Baxley Boyanton Benefield
 		Crutchfield Crump Cutshaw Chambliss Cobb Checote Clay Cruikshank Curry Clopton Call Coles Claiborne Craig Cary Chiles Cargile Caudle Chancellor Cliett
-		Dargan Dawson Dickinson Donelson Deas DeBardeleben Deshley Dowdell Dromgoole 
+		Dargan Dawson Dickinson Donelson Deas DeBardeleben Deshley Dowdell Dromgoole
 		Early Eggborn Epes Evans Ewell Edmondson Echols Elmore Eldrige
 		Foster Forrest Forney Fry Finegan Featherston Fiser Friley Fitzgerald Flournoy
 		Grattan Grigsby Grimsley Gray Gildersleeve Gilham Glassel Garnett Gantt Garrott Goodwyn Gracie Guild Galbraith Gettis Gholson Govan Graves Goggin Gridley Goggans
@@ -15633,7 +15702,7 @@ mexican={
 		Mercedes
 		Rita
 		Teodora
-	}	
+	}
 	noble_last_names = {
 		Diaz_2
 		Huarte
@@ -15826,7 +15895,7 @@ central_american={
 		Miriam
 		Paula
 		Rigoberta
-	}	
+	}
 	noble_last_names = {
 		Barrios
 		Escalon
@@ -15960,7 +16029,7 @@ caribeno={
 		Trinidad
 		Ulpiana
 		Victoria
-	}	
+	}
 	noble_last_names = {
 		Batista
 		Colon
@@ -16101,7 +16170,7 @@ north_andean={
 		Rosa
 		Teresa
 		Zoila
-	}	
+	}
 	noble_last_names = {
 		de_Herrera
 		de_Mosquera
@@ -16240,7 +16309,7 @@ south_andean={
 		Sara
 		Teresa
 		Zoila
-	}	
+	}
 	noble_last_names = {
 		de_la_Santa_Cruz
 		de_Santa_Cruz
@@ -16372,7 +16441,7 @@ platinean={
 		Martina
 		Robustiana
 		Sara
-	}	
+	}
 	noble_last_names = {
 		de_Alvear
 		de_Goyeneche
@@ -16511,7 +16580,7 @@ brazilian={
 		Teresa
 		Veridiana
 		Violanta
-	}	
+	}
 	noble_last_names = {
 		Boaventura
 		de_Beaurepaire-Rohan
@@ -16709,7 +16778,7 @@ afro_caribbean={
 		Vanessa
 		Vera
 		Violet
-	}	
+	}
 	noble_last_names = {
 		Cotton
 		Duperly
@@ -16810,7 +16879,7 @@ afro_caribeno={
 		Trinidad
 		Ulpiana
 		Victoria
-	}	
+	}
 	noble_last_names = {
 		Batista
 		Colon
@@ -16916,7 +16985,7 @@ afro_brazilian={
 		Teresa
 		Veridiana
 		Violanta
-	}	
+	}
 	noble_last_names = {
 		Boaventura
 		de_Beaurepaire-Rohan
@@ -17058,7 +17127,7 @@ afro_antillean={
 		Simone
 		Suzanne
 		Timemenne
-	}	
+	}
 	noble_last_names = {
 		Bonheur
 		Breda
@@ -17149,7 +17218,7 @@ akan={
 		Kalsoume
 		Serwaa_Nyarko
 		Yaa_Akyaa
-	}	
+	}
 	noble_last_names = {
 		Asante
 		Bonoman
@@ -17205,7 +17274,7 @@ bambara={
 		Sy
 		Touty
 		Youma
-	}	
+	}
 	noble_last_names = {
 		Bari
 		Bo
@@ -17279,7 +17348,7 @@ dyula={
 		Mafory
 		Mahawa
 		Niara
-	}	
+	}
 	noble_last_names = {
 		Salim-Suwari
 		Sere-Burlay
@@ -17320,7 +17389,7 @@ edo={
 	female_common_first_names = {
 		Emose
 		Orrorro
-	}	
+	}
 	noble_last_names = {
 		Akenzua
 		Idahosa
@@ -17366,7 +17435,7 @@ ewe={
 		Afua
 		Akua
 		Mawuena
-	}	
+	}
 	noble_last_names = {
 		Adadevoh
 		Baeta
@@ -17410,7 +17479,7 @@ fon={
 	female_common_first_names = {
 		Hangbe
 		Hwanjile
-	}	
+	}
 	noble_last_names = {
 		Agonglo
 		Aladaxonou
@@ -17459,7 +17528,7 @@ fulbe={
 		Hadiza
 		Saraki
 		Turai
-	}	
+	}
 	noble_last_names = {
 		Bayero
 		dan_Fodio
@@ -17499,7 +17568,7 @@ haratin={
 		Souhila
 		Touria
 		Zina
-	}	
+	}
 	noble_last_names = {
 		al-Alawi
 		ben_Gana
@@ -17543,7 +17612,7 @@ hausa={
 		Halima
 		Maryam
 		Safiya
-	}	
+	}
 	noble_last_names = {
 		Agalawa
 		Dantata
@@ -17591,7 +17660,7 @@ ibibio={
 		Ifeoma
 		Nwametu
 		Obianuju
-	}	
+	}
 	noble_last_names = {
 		Mgbokpo
 		Nnubi
@@ -17659,7 +17728,7 @@ ibo={
 		Nwaozichi
 		Nwanyieze
 		Ugboaku
-	}	
+	}
 	noble_last_names = {
 		Nnofo
 		Nri
@@ -17702,7 +17771,7 @@ kissi={
 		Nwaozichi
 		Nwanyieze
 		Ugboaku
-	}	
+	}
 	noble_last_names = {
 		Keita
 		Leno
@@ -17756,7 +17825,7 @@ kru={
 		Mary
 		Musue
 		Regina
-	}	
+	}
 	noble_last_names = {
 		Twe
 	}
@@ -17808,7 +17877,7 @@ mande={
 		Moussa
 		Safiya
 		Tamara
-	}	
+	}
 	noble_last_names = {
 		Conde
 		Sankoh
@@ -17867,7 +17936,7 @@ maures={
 	female_common_first_names = {
 		Fatima
 		Sayyida
-	}	
+	}
 	noble_last_names = {
 		Battuta
 		al-Zahrawi
@@ -17926,7 +17995,7 @@ mossi={
 	female_common_first_names = {
 		Fatimah
 		Koudpoko
-	}	
+	}
 	noble_last_names = {
 		Kandi
 		Kwande
@@ -17979,7 +18048,7 @@ senufo={
 	}
 	female_common_first_names = {
 		Fatima
-	}	
+	}
 	noble_last_names = {
 		Ba_Traore
 	}
@@ -18024,7 +18093,7 @@ songhai={
 	female_common_first_names = {
 		Aisha
 		Fatimah
-	}	
+	}
 	noble_last_names = {
 		Askia
 		Attikou
@@ -18060,7 +18129,7 @@ tiv={
 	}
 	female_common_first_names = {
 		Igirgi
-	}	
+	}
 	noble_last_names = {
 		Akahan
 		Akaagerger
@@ -18103,7 +18172,7 @@ tuareg={
 		Malika
 		Nina
 		Safia
-	}	
+	}
 	noble_last_names = {
 		Ag_Alhabib
 		Ikhia
@@ -18147,7 +18216,7 @@ wolof={
 		Fatoumata
 		Ndate_Yalla
 		Njembot
-	}	
+	}
 	noble_last_names = {
 		Cisse
 		Mbodj
@@ -18213,7 +18282,7 @@ yoruba={
 		Oluremi
 		Opo_Olu
 		Tejumade
-	}	
+	}
 	noble_last_names = {
 		Adelana
 		Ademola
@@ -18270,7 +18339,7 @@ bakongo={
 		Isabel
 		Maria
 		Kimpa_Vita
-	}	
+	}
 	noble_last_names = {
 		Kimpanzu
 		Kinlaza
@@ -18316,7 +18385,7 @@ baguirmi={
 		Hadje
 		Salma
 		Zenab
-	}	
+	}
 	noble_last_names = {
 		Kenga
 		Mahamat
@@ -18386,7 +18455,7 @@ fang={
 		Channa
 		Dossou
 		Mferri
-	}	
+	}
 	noble_last_names = {
 		Badjogo
 		Bongo
@@ -18430,7 +18499,7 @@ kanuri={
 	female_common_first_names = {
 		Aissa
 		Maryam
-	}	
+	}
 	noble_last_names = {
 		Duguwa
 		Imam
@@ -18474,7 +18543,7 @@ luba={
 		Bulanda
 		Mabela
 		Tshiambuaya
-	}	
+	}
 	noble_last_names = {
 		Futa
 		Ilunga
@@ -18521,7 +18590,7 @@ lunda={
 		Bulanda
 		Mabela
 		Tshiambuaya
-	}	
+	}
 	noble_last_names = {
 		Futa
 		Ilunga
@@ -18595,7 +18664,7 @@ mongo={
 		Bulanda
 		Mabela
 		Tshiambuaya
-	}	
+	}
 	noble_last_names = {
 		Bokondji
 		Bolamba
@@ -18637,7 +18706,7 @@ sara={
 		Dadji
 		Salma
 		Zenab
-	}	
+	}
 	noble_last_names = {
 		Ngakoutou
 		Tombalbaye
@@ -18672,7 +18741,7 @@ teda={
 	}
 	female_common_first_names = {
 		Fatime
-	}	
+	}
 	noble_last_names = {
 		Habre
 		Kichidemi
@@ -18717,7 +18786,7 @@ equatorial_bantu={ # Gabon + Cameroon + CAR
 		Edzimbi
 		Nizpah
 		Soukda
-	}	
+	}
 	noble_last_names = {
 		a_Doo
 		a_Ewale
@@ -18727,7 +18796,7 @@ equatorial_bantu={ # Gabon + Cameroon + CAR
 		Douala
 		Njoya
 		Sankre
-	}	
+	}
 	common_last_names = {
 		Atabong
 		Beyala
@@ -18768,7 +18837,7 @@ fluvian_bantu = { # DRC
 		Mudima
 		Mwanakitata
 		Neema
-	}	
+	}
 	noble_last_names = {
 		Alenga
 		Bukuru
@@ -18804,7 +18873,7 @@ nilotic = {
 	female_common_first_names = {
 		Kabon
 		Zahra
-	}	
+	}
 	noble_last_names = {
 		arap_Chebii
 		arap_Moi
@@ -18850,7 +18919,7 @@ amhara={
 		Sehin_Mikael
 		Tsehai
 		Zenebework
-	}	
+	}
 	noble_last_names = {
 		Ali_Aba_Deyas
 		Cherecha
@@ -18890,7 +18959,7 @@ afar={
 	female_common_first_names = {
 		Fatimah
 		Medina
-	}	
+	}
 	noble_last_names = {
 		Jasa
 		Kadafo
@@ -18927,7 +18996,7 @@ azande={
 	}
 	female_common_first_names = {
 		Catarina
-	}	
+	}
 	noble_last_names = {
 		Dericoyard
 		Vungara
@@ -18980,7 +19049,7 @@ baganda={
 		Nawaguma
 		Nfambe
 		Samali
-	}	
+	}
 	noble_last_names = {
 		Abalasangeye
 		Bagalayze
@@ -19026,7 +19095,7 @@ beja={
 	female_common_first_names = {
 		Fatimah
 		Medina
-	}	
+	}
 	noble_last_names = {
 		Aliab
 		Busati
@@ -19073,7 +19142,7 @@ dinka={
 		Aluat
 		Ataui
 		Nyandeng
-	}	
+	}
 	noble_last_names = {
 		Deng
 		Zenab
@@ -19125,7 +19194,7 @@ fur={
 	female_common_first_names = {
 		Emtithal
 		Halima
-	}	
+	}
 	noble_last_names = {
 		Keira
 		al-Mahdi
@@ -19185,7 +19254,7 @@ kikuyu={
 		Wambui
 		Wangu
 		Wawira
-	}	
+	}
 	noble_last_names = {
 		wa_Gakure
 		wa_Gathecha
@@ -19245,7 +19314,7 @@ luo={
 		Anyango
 		Habiba
 		Opondo
-	}	
+	}
 	noble_last_names = {
 		Adhiambo
 		Odinga
@@ -19286,7 +19355,7 @@ maasai={
 	female_common_first_names = {
 		Nailantei
 		Sianto
-	}	
+	}
 	noble_last_names = {
 		Arap_Koilege
 		Arap_Samoei
@@ -19326,7 +19395,7 @@ nuer={
 	female_common_first_names = {
 		Kabon
 		Zahra
-	}	
+	}
 	noble_last_names = {
 		arap_Chebii
 		arap_Moi
@@ -19376,7 +19445,7 @@ nuba={
 	female_common_first_names = {
 		Kabon
 		Zahra
-	}	
+	}
 	noble_last_names = {
 		al_Suwaylih
 		El_Din
@@ -19423,7 +19492,7 @@ oromo={
 		Kameria
 		Maryam
 		Tirunesh
-	}	
+	}
 	noble_last_names = {
 		Dinagde
 		Safo
@@ -19472,7 +19541,7 @@ ruanda={
 		Nyirakabuga
 		Nyiramakomali
 		Soraya
-	}	
+	}
 	noble_last_names = {
 		Abanyiginya
 		Hindiro
@@ -19542,7 +19611,7 @@ rundi={
 		Niyakire
 		Ngenzahayo
 		Ririkumutima
-	}	
+	}
 	noble_last_names = {
 		Abaganwa
 		Ntwero
@@ -19589,7 +19658,7 @@ sidama={
 		Kameria
 		Maryam
 		Tirunesh
-	}	
+	}
 	noble_last_names = {
 		Damot
 		Dinagde
@@ -19638,7 +19707,7 @@ somali={
 		Hasna
 		Ilhan
 		Jawahir
-	}	
+	}
 	noble_last_names = {
 		Diiriye
 		Gareen Gobroon
@@ -19697,7 +19766,7 @@ sudanese={
 		Khalida
 		Miriam
 		Noura
-	}	
+	}
 	noble_last_names = {
 		Ali
 		Zubayr
@@ -19766,7 +19835,7 @@ sukuma={
 		Khalila
 		Wema
 		Yobnesh
-	}	
+	}
 	noble_last_names = {
 		Kasanda
 		Watuta
@@ -19838,7 +19907,7 @@ swahili={
 		Shariffa
 		Siti
 		Sughiya
-	}	
+	}
 	noble_last_names = {
 		al-Barwani
 		Al_Said
@@ -19913,7 +19982,7 @@ tigray={
 	female_common_first_names = {
 		Balgada
 		Silass
-	}	
+	}
 	noble_last_names = {
 		Agame
 		Engida
@@ -19985,7 +20054,7 @@ unyamwezi={
 		Khalila
 		Wema
 		Yobnesh
-	}	
+	}
 	noble_last_names = {
 		Kasanda
 		Watuta
@@ -20055,7 +20124,7 @@ lacustrine_bantu={ # Lake Victoria + Lake Tanganyika + Lake Malawi
 		Khalila
 		Wema
 		Yobnesh
-	}	
+	}
 	noble_last_names = {
 		Kasanda
 		Watuta
@@ -20124,7 +20193,7 @@ chewa={
 		Taonere
 		Tapiwa
 		Temwa
-	}	
+	}
 	noble_last_names = {
 		Banda
 		Chisakamzondi
@@ -20191,8 +20260,8 @@ herero={
 		Raimi
 		Razi
 		Reth
-		Vekuii 
-		Vipuakuje 
+		Vekuii
+		Vipuakuje
 		Samuel
 	}
 	female_common_first_names = {
@@ -20200,7 +20269,7 @@ herero={
 		Penehupifo
 		Neshani
 		Tsakana
-	}	
+	}
 	noble_last_names = {
 		Hoveka
 		Kambazembi
@@ -20325,7 +20394,7 @@ lomwe={
 		Taonere
 		Tapiwa
 		Temwa
-	}	
+	}
 	noble_last_names = {
 		Banda
 		Chisakamzondi
@@ -20395,7 +20464,7 @@ makua={
 		Taonere
 		Tapiwa
 		Temwa
-	}	
+	}
 	noble_last_names = {
 		Banda
 		Chisakamzondi
@@ -20442,7 +20511,7 @@ nguni={
 		Makhado
 		Matola
 		Mbemchapa
-		Mbulaeni 
+		Mbulaeni
 		Mburu
 		Mhavanginonya
 		Mputa
@@ -20455,7 +20524,7 @@ nguni={
 		Sentambandu
 		Soshangane
 		Songea
-		Tshilidzi 
+		Tshilidzi
 		Uawula
 		Ulanga
 		Wasesse
@@ -20469,7 +20538,7 @@ nguni={
 		Nthatisi
 		Ntlo-Kholo
 		Tsakane
-	}	
+	}
 	noble_last_names = {
 		Bakgatla
 		kaJama
@@ -20524,7 +20593,7 @@ ovimbundu={
 		Mussasa
 		Njinga
 		Tembandumba
-	}	
+	}
 	noble_last_names = {
 		Kaza
 		Matamba
@@ -20600,7 +20669,7 @@ sena={
 		Taonere
 		Tapiwa
 		Temwa
-	}	
+	}
 	noble_last_names = {
 		Banda
 		Chisakamzondi
@@ -20649,7 +20718,7 @@ shona={
 		Charwe
 		Danai
 		Nyamazana
-	}	
+	}
 	noble_last_names = {
 		Hungwe
 		Nzou
@@ -20729,7 +20798,7 @@ sotho={
 		Nomaka
 		Nthomeng
 		Senate
-	}	
+	}
 	noble_last_names = {
 		Bamokoteli
 		Masupha
@@ -20801,7 +20870,7 @@ tonga={
 		Taonere
 		Tapiwa
 		Temwa
-	}	
+	}
 	noble_last_names = {
 		Banda
 		Chisakamzondi
@@ -20850,7 +20919,7 @@ tswana={
 	female_common_first_names = {
 		Thandi
 		Tshepo
-	}	
+	}
 	noble_last_names = {
 		Kgosiemang
 		Mogale
@@ -20901,7 +20970,7 @@ xhosa={
 		Nozamile
 		Thobeka
 		Vuyiswa
-	}	
+	}
 	noble_last_names = {
 		kaGcaleka
 		kaHintsa
@@ -21028,7 +21097,7 @@ zulu={
 		Ngqumbazi
 		Mthethwa
 		Sibusile
-	}	
+	}
 	noble_last_names = {
 		Buthelezei
 		kaDinuzulu
@@ -21083,7 +21152,7 @@ kavango_bantu={ # Angola + Namibia
 		Mussasa
 		Njinga
 		Tembandumba
-	}	
+	}
 	noble_last_names = {
 		Kaza
 		Matamba
@@ -21120,6 +21189,11 @@ anglo_canadian={
 	color= hsv{ 0.22 0.22 0.45 }
 	religion = protestant
 	traits = { anglophone european_heritage }
+
+	obsessions = {
+		newspapers
+	}
+
 	male_common_first_names={
 		Albert
 		Alexander
@@ -21200,7 +21274,7 @@ anglo_canadian={
 		Sarah
 		Victoria
 		Virna
-	}	
+	}
 	noble_last_names = {
 		Abbott
 		Acheson
@@ -21327,6 +21401,11 @@ franco_canadian={
 	color= rgb{ 87 120 181 }
 	religion = catholic
 	traits = { francophone european_heritage }
+
+	obsessions = {
+		newspapers
+	}
+
 	male_common_first_names={
 		Adolphe
 		Alain
@@ -21422,7 +21501,7 @@ franco_canadian={
 		Raymonde
 		Sophie
 		Yvette
-	}	
+	}
 	noble_last_names = {
 		Bedard
 		Bellemare
@@ -21525,7 +21604,7 @@ sorb={
 		Roza
 		Sofija
 		Tanja
-	}	
+	}
 	noble_last_names = {
 		Bart-Cisinski
 		Sturm
@@ -21599,7 +21678,7 @@ tuvan={
 	}
 
 	noble_last_names = {
-		
+
 	}
 	common_last_names={
 		Kuular
@@ -21709,7 +21788,7 @@ corsican = {
 		Sofia
 		Teresa
 
-	}	
+	}
 	noble_last_names = {
 			Borghese
 		Capodilista
@@ -21829,7 +21908,7 @@ yemenite={
 		Sulafa
 		Zeina
 		Zuhur
-	}	
+	}
 	noble_last_names = {
 		al-Ali
 		al-Atassi

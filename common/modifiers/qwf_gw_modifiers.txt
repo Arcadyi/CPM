@@ -1,0 +1,90 @@
+geneva_conventions_member_modifers = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	unit_kill_rate_add = -0.2
+	country_prestige_mult = 0.1
+	country_war_exhaustion_casualties_mult = -0.1
+}
+diplomatic_play_world_war_modifers = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_max_declared_interests_mult = 0.2
+	country_infamy_decay_mult = 0.5
+}
+diplomatic_explosive_point_modifers = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
+	country_allow_multiple_alliances = yes
+	country_diplomatic_play_maneuvers_add = 50
+}
+
+dominating_world_order = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_loyalists_from_sol_change_mult = 0.1
+	country_influence_mult = 0.2
+	country_prestige_mult = 0.1
+	country_trade_route_quantity_mult = 0.25
+	country_trade_route_competitiveness_mult = 0.1
+}
+
+qwf_order_challenger_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_influence_mult = 0.2
+	country_prestige_mult = 0.1
+}
+
+qwf_order_keeper_modifier = {
+	icon = gfx/interface/icons/sol_icons/wealthy.dds
+	country_influence_mult = 0.2
+	country_prestige_mult = 0.1
+}
+
+the_recast_orderly = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	country_diplomatic_play_maneuvers_add = 200
+	country_infamy_decay_mult = 5.0
+}
+
+major_defeat = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_influence_mult = -0.1
+}
+
+major_won = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_influence_mult = 0.1
+}
+major_leader_defeat = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_influence_mult = -0.2
+}
+
+major_leader_won = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_influence_mult = 0.2
+}
+
+qwf_war_propaganda = {
+	icon = gfx/interface/icons/invention_icons/war_propaganda.dds
+	country_war_exhaustion_casualties_mult = -0.15
+}
+
+qwf_wartime_rationing = {
+	icon = gfx/interface/icons/invention_icons/logistics_tech.dds
+	country_military_wages_mult = -0.2
+	building_mobilization_cost_mult = -0.2
+	state_radicals_from_sol_change_mult = 0.2
+	state_loyalists_from_sol_change_mult = -0.2
+}
+
+qwf_focus_on_wartime_research = {
+	icon = gfx/interface/icons/invention_icons/wargaming.dds
+	country_military_weekly_innovation_mult = 0.5
+	country_society_weekly_innovation_mult = -0.5
+	country_production_weekly_innovation_mult = -0.5
+}
+
+national_discontent_modifier = {
+	icon = gfx/interface/icons/alert_icons/radicalized.dds
+	state_radicals_from_sol_change_mult = 0.01
+	state_loyalists_from_sol_change_mult = -0.01
+	unit_offense_mult = -0.005
+	unit_defense_mult = -0.005
+}

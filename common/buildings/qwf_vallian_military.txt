@@ -1,0 +1,28 @@
+﻿############ BARRACKS
+
+building_barracks = {
+	building_group = bg_army
+	recruits_combat_unit = combat_unit_regular
+	texture = "gfx/interface/icons/building_icons/building_barracks.dds"
+	city_type = city
+	
+	has_max_level = yes
+	
+	levels_per_mesh = 25
+
+	unlocking_technologies = {
+		standing_army
+	}
+
+	production_method_groups = {
+		pmg_organization
+		pmg_artillery
+		pmg_reconaissance
+		pmg_specialist_companies
+		pmg_medical_aid
+		pmg_war_order		
+		pmg_training_methods
+	}
+
+	required_construction = construction_cost_very_low
+}

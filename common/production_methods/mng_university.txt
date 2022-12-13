@@ -1,0 +1,58 @@
+﻿pm_military_academy = {
+	texture = "gfx/interface/icons/production_method_icons/military_academy.dds"
+
+	unlocking_technologies = {
+		military_statistics
+		prussian_reform
+	}
+	
+	unlocking_laws = {
+		law_professional_army
+	}	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = -1
+		}		
+	}
+	state_modifiers = {
+		unscaled = {
+			unit_army_defense_mult = 0.1
+			unit_army_offense_mult = 0.1
+		}
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_officers_add = 1000
+			building_employment_academics_add = 1000
+		}
+	}			
+}
+pm_prussian_military_academy = {
+	texture = "gfx/interface/icons/production_method_icons/squad_infantry.dds"
+
+	unlocking_technologies = {
+		prussian_reform
+		military_statistics
+	}
+	
+	unlocking_laws = {
+		law_professional_army
+	}	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = -1
+		}		
+	}
+	state_modifiers = {
+		unscaled = {
+			unit_army_offense_mult = 0.15
+			unit_army_defense_mult = 0.05
+		}
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_officers_add = 1000
+			building_employment_academics_add = 1000
+		}
+	}			
+}

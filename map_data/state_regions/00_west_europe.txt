@@ -1472,4 +1472,3 @@ STATE_MECKLENBURG = {
     }
     naval_exit_id = 3019
 }
-

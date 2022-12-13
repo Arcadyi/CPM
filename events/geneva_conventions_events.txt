@@ -1,0 +1,76 @@
+﻿namespace = geneva_conventions
+
+geneva_conventions.1 = { 
+	type = country_event
+
+	title = geneva_conventions.1.t
+	desc = geneva_conventions.1.d
+	flavor = geneva_conventions.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_capitalists_meeting.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/city_center"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+		set_global_variable = {
+			name = league_of_nations_setup
+			value = c:SWI.capital
+		}
+		every_country = {
+			limit = {
+				global_country_ranking = 1
+			}
+			save_scope_as = country_ranking_1
+		}
+		set_global_variable = {
+			name = permanent_members_1
+			value = scope:country_ranking_1
+		}
+		every_country = {
+			limit = {
+				global_country_ranking = 2
+			}
+			save_scope_as = country_ranking_2
+		}
+		set_global_variable = {
+			name = permanent_members_2
+			value = scope:country_ranking_2
+		}
+		every_country = {
+			limit = {
+				global_country_ranking = 3
+			}
+			save_scope_as = country_ranking_3
+		}
+		set_global_variable = {
+			name = permanent_members_3
+			value = scope:country_ranking_3
+		}
+		every_country = {
+			limit = {
+				global_country_ranking = 4
+			}
+			save_scope_as = country_ranking_4
+		}
+		set_global_variable = {
+			name = permanent_members_4
+			value = scope:country_ranking_4
+		}
+	}
+
+	option = {
+		name = geneva_conventions.1.a
+        default_option = yes
+	}
+}
+

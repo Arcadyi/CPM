@@ -1,0 +1,19 @@
+﻿# This is executed last among all history
+GLOBAL = {
+	every_country = {
+		effect_starting_tactics = yes
+		if = {
+			limit = {
+				OR = {
+					is_country_type = recognized
+					is_country_type = colonial
+				}
+			}
+			add_journal_entry = { type = je_world_tension }
+		}
+	}
+	set_global_variable = { name = world_tension value = 0 }
+	c:PRU = {
+		add_journal_entry = { type = prussian_reform_action }
+	}
+}

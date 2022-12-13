@@ -1,0 +1,38 @@
+﻿prussian_reform_action = {
+	icon = "gfx/interface/icons/war_goals/unify_germany.dds"
+
+	possible = {		
+		has_law = law_type:law_professional_army
+		ig:ig_landowners = {
+			is_powerful = yes
+			is_in_government = yes
+		}
+	}
+
+	complete = {
+		has_technology_researched = logistics
+		has_technology_researched = general_staff
+		has_technology_researched = rifling
+	}
+
+	on_complete = {
+		add_technology_researched = prussian_reform
+		show_as_tooltip = {			
+			add_loyalists = {
+				value = 0.1
+				pop_type = officers
+			}
+			add_loyalists = {
+				value = 0.1
+				pop_type = soldiers
+			}
+		}
+	}
+
+	invalid = {
+		NOT = { has_law = law_type:law_professional_army }
+	}
+
+	weight = 100
+	should_be_pinned_by_default = yes
+}

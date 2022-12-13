@@ -1,0 +1,287 @@
+﻿pm_fortifications_no_battery = {
+	texture = "gfx/interface/icons/production_method_icons/no_artillery.dds"
+}
+
+pm_fortifications_cannon_battery = {
+	texture = "gfx/interface/icons/production_method_icons/cannon_artillery.dds"
+
+	unlocking_technologies = {
+		artillery
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_artillery_add = 1
+		}
+		level_scaled = {
+			building_employment_officers_add = 50
+			building_employment_soldiers_add = 450
+			
+		}
+		unscaled = {
+			unit_fortress_strength_add = 2.5
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 1
+		}
+	}
+}
+
+pm_fortifications_shell_gun_battery = {
+	texture = "gfx/interface/icons/production_method_icons/mobile_artillery.dds"
+
+	unlocking_technologies = {
+		shell_gun
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_artillery_add = 1
+			building_input_ammunition_add = 0.5
+			building_input_tools_add = 0.5
+		}
+		level_scaled = {
+			building_employment_officers_add = 50
+			building_employment_soldiers_add = 450
+		}
+		unscaled = {
+			unit_fortress_strength_add = 5
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 2
+		}
+	}
+}
+
+pm_fortifications_shrapnel_battery = {
+	texture = "gfx/interface/icons/production_method_icons/shrapnel_artillery.dds"
+
+	unlocking_technologies = {
+		breech_loading_artillery
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_artillery_add = 1
+			building_input_ammunition_add = 1
+			building_input_tools_add = 1
+		}
+		level_scaled = {
+			building_employment_officers_add = 50
+			building_employment_soldiers_add = 450
+		}
+		unscaled = {
+			unit_fortress_strength_add = 10
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 3
+		}
+	}
+}
+
+pm_fortifications_siege_battery = {
+	texture = "gfx/interface/icons/production_method_icons/siege_artillery.dds"
+
+	unlocking_technologies = {
+		wargaming
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_artillery_add = 2
+			building_input_ammunition_add = 2
+			building_input_tools_add = 1
+		}
+		level_scaled = {
+			building_employment_officers_add = 50
+			building_employment_soldiers_add = 450
+		}
+		unscaled = {
+			unit_fortress_strength_add = 15
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 4
+		}
+	}
+}
+
+pm_fortifications_brick_and_stone = {
+	texture = "gfx/interface/icons/invention_icons/centralization.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_fabric_add = 4
+			building_input_wood_add = 5
+			building_input_tools_add = 1
+		}
+		level_scaled = {
+			building_employment_officers_add = 50
+			building_employment_soldiers_add = 450
+			unit_fortress_strength_add = 1
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 1
+		}
+	}
+}
+
+pm_fortifications_steel_reinforced_concrete = {
+	texture = "gfx/interface/icons/invention_icons/reinforced_concrete.dds"
+
+	unlocking_technologies = {
+		reinforced_concrete
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_steel_add = 5
+			building_input_explosives_add = 1
+			building_input_tools_add = 4
+		}
+		level_scaled = {
+			building_employment_officers_add = 50
+			building_employment_soldiers_add = 450
+			unit_fortress_strength_add = 1
+		}
+		unscaled = {
+			unit_fortress_strength_mult = 0.5
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 2
+		}
+	}
+}
+
+pm_fortifications_semi_underground_concrete = {
+	texture = "gfx/interface/icons/invention_icons/concrete_fortifications.dds"
+
+	unlocking_technologies = {
+		concrete_fortifications
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_steel_add = 10
+			building_input_explosives_add = 2
+			building_input_tools_add = 8
+		}
+		level_scaled = {
+			building_employment_officers_add = 50
+			building_employment_soldiers_add = 450
+			unit_fortress_strength_add = 1
+		}
+		unscaled = {
+			unit_fortress_strength_mult = 1.0
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 4
+		}
+	}
+}
+
+pm_fortifications_no_frontline_defence = {
+	texture = "gfx/interface/icons/invention_icons/centralization.dds"
+}
+
+pm_fortifications_shooting_slopes = {
+	texture = "gfx/interface/icons/invention_icons/field_works.dds"
+
+	unlocking_technologies = {
+		field_works
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tools_add = 2
+		}
+		level_scaled = {
+			building_employment_officers_add = 50
+			building_employment_soldiers_add = 450
+		}
+		unscaled = {
+			unit_fortress_strength_mult = 0.1
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 1
+		}
+	}
+}
+
+pm_fortifications_barbed_wire = {
+	texture = "gfx/interface/icons/invention_icons/defense_in_depth.dds"
+
+	unlocking_technologies = {
+		trench_works
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tools_add = 2
+			building_input_steel_add = 2
+		}
+		level_scaled = {
+			building_employment_officers_add = 50
+			building_employment_soldiers_add = 450
+		}
+		unscaled = {
+			unit_fortress_strength_mult = 0.2
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 1.5
+		}
+	}
+}
+		
+pm_fortifications_outer_bunker_complex = {
+	texture = "gfx/interface/icons/invention_icons/trench_works.dds"
+
+	unlocking_technologies = {
+		defense_in_depth
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tools_add = 5
+			building_input_steel_add = 5
+		}
+		level_scaled = {
+			building_employment_officers_add = 50
+			building_employment_soldiers_add = 450
+		}
+		unscaled = {
+			unit_fortress_strength_mult = 0.3
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 2
+		}
+	}
+}

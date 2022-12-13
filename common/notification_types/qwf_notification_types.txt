@@ -1,0 +1,7 @@
+﻿invalid_building_stuff_headquarters = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/military.dds"
+
+	notification_type = feed
+	days = 21
+}

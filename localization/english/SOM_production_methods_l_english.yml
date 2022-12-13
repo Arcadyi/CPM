@@ -1,0 +1,75 @@
+﻿l_english:
+  
+  # Common
+
+ pmg_base_building_subsistence_intensive:1 "$pm_base$"
+
+  # Subsistence
+  
+ pm_subsistence:0 "Subsistence Farming"
+ pm_shifting_cultivation_building_subsistence_farms:1 "Shifting Cultivation"
+ pm_subsistence_orchard_building_subsistence_orchards:1 "Subsistence Orchards"
+ pm_pastoral_nomadism_building_subsistence_pastures:1 "Pastoral Nomadism"
+ pm_intensive_subsistence_building_subsistence_intensive:1 "Intensive Subsistence Farming"
+
+ pm_manoralism:0 "Manoralism"
+ pm_manoralism_building_subsistence_farms:1 "$pm_manoralism$"
+ pm_manoralism_building_subsistence_orchards:1 "$pm_manoralism$"
+ pm_ranching_building_subsistence_pastures:1 "Ranching"
+ pm_manoralism_building_subsistence_intensive:1 "$pm_manoralism$"
+ 
+ pm_tennant_farming:0 "Tennant Farming"
+ pm_tennant_farming_building_subsistence_farms:1 "$pm_tennant_farming$"
+ pm_tennant_farming_building_subsistence_orchards:1 "$pm_tennant_farming$"
+ pm_tennant_ranching_building_subsistence_pastures:1 "Tennant Ranching"
+ pm_tennant_farming_building_subsistence_intensive:1 "$pm_tennant_farming$"
+
+  # Home Workshops
+  
+ pmg_home_workshops:0 "Home Workshops"
+ pmg_home_workshops_building_subsistence_farms:1 "$pmg_home_workshops$"
+ pmg_home_workshops_building_subsistence_orchards:1 "$pmg_home_workshops$"
+ pmg_home_workshops_building_subsistence_pastures:1 "$pmg_home_workshops$"
+ pmg_home_workshops_building_subsistence_intensive:1 "$pmg_home_workshops$"
+
+ pm_home_workshops:0 "Home Workshops"
+ pm_home_workshops_building_subsistence_farms:1 "$pm_home_workshops$"
+ pm_home_workshops_building_subsistence_orchards:1 "$pm_home_workshops$"
+ pm_home_workshops_building_subsistence_pastures:1 "$pm_home_workshops$"
+ pm_home_workshops_building_subsistence_intensive:1 "$pm_home_workshops$"
+
+ pm_home_workshops_no:0 "No Home Workshops"
+ pm_home_workshops_no_building_subsistence_farms:1 "$pm_home_workshops_no$"
+ pm_home_workshops_no_building_subsistence_orchards:1 "$pm_home_workshops_no$"
+ pm_home_workshops_no_building_subsistence_pastures:1 "$pm_home_workshops_no$"
+ pm_home_workshops_no_building_subsistence_intensive:1 "$pm_home_workshops_no$"
+ 
+ pm_cottage_industry:0 "Cottage Industries"
+ pm_cottage_industry_building_subsistence_farms:1 "$pm_cottage_industry$"
+ pm_cottage_industry_building_subsistence_orchards:1 "$pm_cottage_industry$"
+ pm_cottage_industry_building_subsistence_pastures:1 "$pm_cottage_industry$"
+ pm_cottage_industry_building_subsistence_intensive:1 "$pm_cottage_industry$"
+ 
+  # Subsistence Hunting
+  
+ pmg_hunting:0 "Hunting Rights"
+ pmg_hunting_building_subsistence:1 "$pmg_hunting$"
+ pmg_hunting_building_subsistence_intensive:1 "$pmg_hunting$"
+  
+ pm_hunting:0 "Hunting Allowed"
+ pm_hunting_building_subsistence:1 "$pm_hunting$"
+ pm_hunting_building_subsistence_intensive:1 "$pm_hunting$"
+  
+ pm_hunting_no:0 "Hunting Restricted"
+ pm_hunting_no_building_subsistence:1 "$pm_hunting_no$"
+ pm_hunting_no_building_subsistence_intensive:1 "$pm_hunting_no$"
+ 
+  # Ownership
+
+ pmg_ownership_building_subsistence:0 "$pmg_ownership$"
+ pm_privately_owned_building_subsistence:0 "$pm_privately_owned$"
+ pm_worker_cooperative_building_subsistence:0 "$pm_worker_cooperative$"
+ 
+ pmg_ownership_building_subsistence_intensive:0 "$pmg_ownership$"
+ pm_privately_owned_building_subsistence_intensive:0 "$pm_privately_owned$"
+ pm_worker_cooperative_building_subsistence_intensive:0 "$pm_worker_cooperative$"

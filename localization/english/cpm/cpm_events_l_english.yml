@@ -617,6 +617,7 @@ hungarian_revolution.2.f:0 ""The house of Habsburg-Lorraine, perjured in the sig
 hungarian_revolution.2.a:0 "Perhaps the Genderme of Europe can assist us..."
 hungarian_revolution.2.b:0 "The Kaiser does not beg."
 hungarian_revolution.3.t:0 "Austria asks us for help"
+hungarian_revolution.3.t:0 "Austria asks us for help"
 hungarian_revolution.3.d:0 " [SCOPE.sCountry('austriascope').GetName] has requested assistance in dealing with their recent #bold Hungarian #! Revolts, while it would be advantageous and Austria would forever be in our favour if we interviene perhaps out attention could be better used elsewhere."
 hungarian_revolution.3.a:0 "We accept. To War!"
 hungarian_revolution.3.b:0 "Why do we care again?"

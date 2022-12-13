@@ -1,0 +1,59 @@
+﻿concept_league_of_nations = {
+	texture = "gfx/interface/icons/invention_icons/civilizing_mission.dds"
+	is_loading_tip = yes
+}
+concept_sanction = {
+	texture = "gfx/interface/icons/topbar/income_power_icon.dds"
+}
+
+concept_great_war_reparations = {
+	texture = "gfx/interface/icons/topbar/income_power_icon.dds"
+}
+
+concept_order_challenger = {
+	texture = "gfx/interface/icons/invention_icons/pan_nationalism.dds"
+}
+
+concept_qwf_order_keeper = {
+	texture = "gfx/interface/icons/invention_icons/pan_nationalism.dds"
+}
+
+concept_qwf_great_war = {
+	texture = "gfx/interface/icons/alert_icons/secession.dds"
+}
+
+concept_unit_artillery_support_forces_add = {
+	texture = "gfx/interface/icons/production_method_icons/siege_artillery.dds"
+}
+
+concept_unit_fortress_strength_add = {
+	texture = "gfx/interface/icons/invention_icons/concrete_fortifications.dds"
+}
+
+concept_unit_fortress_strength_mult = {
+	texture = "gfx/interface/icons/invention_icons/concrete_fortifications.dds"
+}
+
+concept_order_transmission_method = {
+	texture = "gfx/interface/icons/production_method_icons/cavalry.dds"
+}
+
+concept_war_order = {
+	texture = "gfx/interface/icons/production_method_icons/cavalry.dds"
+}
+
+concept_not_attack_complex_terrain_war_order = {
+	texture = "gfx/interface/icons/battle_conditions/battle_condition_mud.dds"
+}
+
+concept_not_far_from_coastline_war_order = {
+	texture = "gfx/interface/icons/commander_order_icons/patrol_coast.dds"
+}
+
+concept_attack_city_area_war_order = {
+	texture = "gfx/interface/icons/production_method_icons/unused/stock_exchange.dds"
+}
+
+concept_attack_supply_lines_war_order = {
+	texture = "gfx/interface/icons/battle_conditions/battle_condition_broken_supply_line.dds"
+}

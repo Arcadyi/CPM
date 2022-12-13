@@ -1,0 +1,581 @@
+﻿on_battle_started = {
+	on_actions = {
+		fort_effect_for_battle
+		artillery_fire_support_for_battle
+		advanced_ship_advantages_for_battle
+	}
+}
+
+on_monthly_pulse_country = {
+	on_actions = {
+		remove_invalid_building_stuff_headquarters
+	}
+}
+
+on_battle_ended = {
+	on_actions = {
+		#remove_advanced_ship_advantages_for_battle
+	}
+}
+
+on_war_end = {
+	on_actions = {
+		#remove_artillery_fire_support_for_battle_country
+	}
+}
+
+on_monthly_pulse_character = {
+	on_actions = {
+		#advanced_ship_advantages_for_battle
+	}
+}
+
+fort_effect_for_battle = {
+	effect = {
+		if = {
+			limit = {
+				exists = scope:attacker
+				scope:state = {
+					NOT = { has_modifier = destroyed_fort }
+					any_scope_building = {
+						is_building_type = building_fortifications
+					}
+				}
+				scope:state.qwf_state_fort_value < scope:attacker.qwf_army_attack_fort_value
+			}
+			scope:state = {
+				add_modifier = {
+					name = destroyed_fort
+					months = 12
+				}
+			}
+		}
+	}
+}
+
+artillery_fire_support_for_battle = {
+	effect = {
+		if = {
+			limit = {
+				exists = scope:attacker
+				exists = scope:defender
+				scope:attacker = {
+					NOT = { has_modifier = artillery_1 }
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_cannon_artillery
+						value > 0.5
+					}
+				}
+				scope:defender.qwf_defender_artillery_fire_support_for_battle_value < scope:attacker.qwf_attacker_artillery_fire_support_for_battle_value
+			}
+			scope:attacker = {
+				add_modifier = {
+					name = artillery_1
+					months = 6
+				}
+				remove_modifier = artillery_2
+				remove_modifier = artillery_3
+				remove_modifier = artillery_4
+			}
+			scope:defender = {
+				add_modifier = {
+					name = artillery_suppressed
+					months = 6
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:attacker
+				exists = scope:defender
+				scope:attacker = {
+					NOT = { has_modifier = artillery_2 }
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_mobile_artillery
+						value > 0.5
+					}
+				}
+				scope:defender.qwf_defender_artillery_fire_support_for_battle_value < scope:attacker.qwf_attacker_artillery_fire_support_for_battle_value
+			}
+			scope:attacker = {
+				add_modifier = {
+					name = artillery_2
+					months = 6
+				}
+				remove_modifier = artillery_1
+				remove_modifier = artillery_3
+				remove_modifier = artillery_4
+			}
+			scope:defender = {
+				add_modifier = {
+					name = artillery_suppressed
+					months = 6
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:attacker
+				exists = scope:defender
+				scope:attacker = {
+					NOT = { has_modifier = artillery_3 }
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_shrapnel_artillery
+						value > 0.5
+					}
+				}
+				scope:defender.qwf_defender_artillery_fire_support_for_battle_value < scope:attacker.qwf_attacker_artillery_fire_support_for_battle_value
+			}
+			scope:attacker = {
+				add_modifier = {
+					name = artillery_3
+					months = 6
+				}
+				remove_modifier = artillery_1
+				remove_modifier = artillery_2
+				remove_modifier = artillery_4
+			}
+			scope:defender = {
+				add_modifier = {
+					name = artillery_suppressed
+					months = 6
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:attacker
+				exists = scope:defender
+				scope:attacker = {
+					NOT = { has_modifier = artillery_4 }
+					has_role = general
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_siege_artillery
+						value > 0.5
+					}
+				}
+				scope:defender.qwf_defender_artillery_fire_support_for_battle_value < scope:attacker.qwf_attacker_artillery_fire_support_for_battle_value
+			}
+			scope:attacker = {
+				add_modifier = {
+					name = artillery_4
+					months = 6
+				}
+				remove_modifier = artillery_1
+				remove_modifier = artillery_2
+				remove_modifier = artillery_3
+			}
+			scope:defender = {
+				add_modifier = {
+					name = artillery_suppressed
+					months = 6
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = scope:attacker
+				exists = scope:defender
+				scope:defender = {
+					NOT = { has_modifier = artillery_1 }
+					has_role = general
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_cannon_artillery
+						value > 0.5
+					}
+				}
+				scope:defender.qwf_defender_artillery_fire_support_for_battle_value > scope:attacker.qwf_attacker_artillery_fire_support_for_battle_value
+			}
+			scope:defender = {
+				add_modifier = {
+					name = artillery_1
+					months = 6
+				}
+				remove_modifier = artillery_2
+				remove_modifier = artillery_3
+				remove_modifier = artillery_4
+			}
+			scope:attacker = {
+				add_modifier = {
+					name = artillery_suppressed
+					months = 6
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:attacker
+				exists = scope:defender
+				scope:defender = {
+					NOT = { has_modifier = artillery_2 }
+					has_role = general
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_mobile_artillery
+						value > 0.5
+					}
+				}
+				scope:defender.qwf_defender_artillery_fire_support_for_battle_value > scope:attacker.qwf_attacker_artillery_fire_support_for_battle_value
+			}
+			scope:defender = {
+				add_modifier = {
+					name = artillery_2
+					months = 6
+				}
+				remove_modifier = artillery_1
+				remove_modifier = artillery_3
+				remove_modifier = artillery_4
+			}
+			scope:attacker = {
+				add_modifier = {
+					name = artillery_suppressed
+					months = 6
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:attacker
+				exists = scope:defender
+				scope:defender = {
+					NOT = { has_modifier = artillery_3 }
+					has_role = general
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_shrapnel_artillery
+						value > 0.5
+					}
+				}
+				scope:defender.qwf_defender_artillery_fire_support_for_battle_value > scope:attacker.qwf_attacker_artillery_fire_support_for_battle_value
+			}
+			scope:defender = {
+				add_modifier = {
+					name = artillery_3
+					months = 6
+				}
+				remove_modifier = artillery_1
+				remove_modifier = artillery_2
+				remove_modifier = artillery_4
+			}
+			scope:attacker = {
+				add_modifier = {
+					name = artillery_suppressed
+					months = 6
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:attacker
+				exists = scope:defender
+				scope:defender = {
+					NOT = { has_modifier = artillery_4 }
+					has_role = general
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_siege_artillery
+						value > 0.5
+					}
+				}
+				scope:defender.qwf_defender_artillery_fire_support_for_battle_value > scope:attacker.qwf_attacker_artillery_fire_support_for_battle_value
+			}
+			scope:defender = {
+				add_modifier = {
+					name = artillery_4
+					months = 6
+				}
+				remove_modifier = artillery_1
+				remove_modifier = artillery_2
+				remove_modifier = artillery_3
+			}
+			scope:attacker = {
+				add_modifier = {
+					name = artillery_suppressed
+					months = 6
+				}
+			}
+		}
+	}
+}
+
+advanced_ship_advantages_for_battle = {
+	effect = {
+		if = {
+			limit = {
+				exists = scope:attacker
+				exists = scope:defender
+				scope:attacker = {
+					NOT = { has_modifier = advanced_ship_1 }
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_ironclads
+						value > 0.5
+					}
+				}
+				scope:defender.qwf_defender_advanced_ship_advantages_for_battle_value < scope:attacker.qwf_attacker_advanced_ship_advantages_for_battle_value
+			}
+			scope:attacker = {
+				add_modifier = {
+					name = advanced_ship_1
+					months = 10
+				}
+				remove_modifier = advanced_ship_2
+				remove_modifier = advanced_ship_3
+				remove_modifier = advanced_ship_4
+			}
+			scope:defender = {
+				add_modifier = {
+					name = advanced_ship_suppressed
+					months = 10
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:attacker
+				exists = scope:defender
+				scope:attacker = {
+					NOT = { has_modifier = advanced_ship_2 }
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_monitors
+						value > 0.5
+					}
+				}
+				scope:defender.qwf_defender_advanced_ship_advantages_for_battle_value < scope:attacker.qwf_attacker_advanced_ship_advantages_for_battle_value
+			}
+			scope:attacker = {
+				add_modifier = {
+					name = advanced_ship_2
+					months = 10
+				}
+				remove_modifier = advanced_ship_1
+				remove_modifier = advanced_ship_3
+				remove_modifier = advanced_ship_4
+			}
+			scope:defender = {
+				add_modifier = {
+					name = advanced_ship_suppressed
+					months = 10
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:attacker
+				exists = scope:defender
+				scope:attacker = {
+					NOT = { has_modifier = advanced_ship_3 }
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_dreadnoughts
+						value > 0.5
+					}
+				}
+				scope:defender.qwf_defender_advanced_ship_advantages_for_battle_value < scope:attacker.qwf_attacker_advanced_ship_advantages_for_battle_value
+			}
+			scope:attacker = {
+				add_modifier = {
+					name = advanced_ship_3
+					months = 10
+				}
+				remove_modifier = advanced_ship_1
+				remove_modifier = advanced_ship_2
+				remove_modifier = advanced_ship_4
+			}
+			scope:defender = {
+				add_modifier = {
+					name = advanced_ship_suppressed
+					months = 10
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:attacker
+				exists = scope:defender
+				scope:attacker = {
+					NOT = { has_modifier = advanced_ship_4 }
+					has_role = general
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_battleships
+						value > 0.5
+					}
+				}
+				scope:defender.qwf_defender_advanced_ship_advantages_for_battle_value < scope:attacker.qwf_attacker_advanced_ship_advantages_for_battle_value
+			}
+			scope:attacker = {
+				add_modifier = {
+					name = advanced_ship_4
+					months = 10
+				}
+				remove_modifier = advanced_ship_1
+				remove_modifier = advanced_ship_2
+				remove_modifier = advanced_ship_3
+			}
+			scope:defender = {
+				add_modifier = {
+					name = advanced_ship_suppressed
+					months = 10
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = scope:attacker
+				exists = scope:defender
+				scope:defender = {
+					NOT = { has_modifier = advanced_ship_1 }
+					has_role = general
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_ironclads
+						value > 0.5
+					}
+				}
+				scope:defender.qwf_defender_advanced_ship_advantages_for_battle_value > scope:attacker.qwf_attacker_advanced_ship_advantages_for_battle_value
+			}
+			scope:defender = {
+				add_modifier = {
+					name = advanced_ship_1
+					months = 10
+				}
+				remove_modifier = advanced_ship_2
+				remove_modifier = advanced_ship_3
+				remove_modifier = advanced_ship_4
+			}
+			scope:attacker = {
+				add_modifier = {
+					name = advanced_ship_suppressed
+					months = 10
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:attacker
+				exists = scope:defender
+				scope:defender = {
+					NOT = { has_modifier = advanced_ship_2 }
+					has_role = general
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_monitors
+						value > 0.5
+					}
+				}
+				scope:defender.qwf_defender_advanced_ship_advantages_for_battle_value > scope:attacker.qwf_attacker_advanced_ship_advantages_for_battle_value
+			}
+			scope:defender = {
+				add_modifier = {
+					name = advanced_ship_2
+					months = 10
+				}
+				remove_modifier = advanced_ship_1
+				remove_modifier = advanced_ship_3
+				remove_modifier = advanced_ship_4
+			}
+			scope:attacker = {
+				add_modifier = {
+					name = advanced_ship_suppressed
+					months = 10
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:attacker
+				exists = scope:defender
+				scope:defender = {
+					NOT = { has_modifier = advanced_ship_3 }
+					has_role = general
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_dreadnoughts
+						value > 0.5
+					}
+				}
+				scope:defender.qwf_defender_advanced_ship_advantages_for_battle_value > scope:attacker.qwf_attacker_advanced_ship_advantages_for_battle_value
+			}
+			scope:defender = {
+				add_modifier = {
+					name = advanced_ship_3
+					months = 10
+				}
+				remove_modifier = advanced_ship_1
+				remove_modifier = advanced_ship_2
+				remove_modifier = advanced_ship_4
+			}
+			scope:attacker = {
+				add_modifier = {
+					name = advanced_ship_suppressed
+					months = 10
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:attacker
+				exists = scope:defender
+				scope:defender = {
+					NOT = { has_modifier = advanced_ship_4 }
+					has_role = general
+					commander_pm_usage = {
+						target = owner
+						production_method = pm_battleships
+						value > 0.5
+					}
+				}
+				scope:defender.qwf_defender_advanced_ship_advantages_for_battle_value > scope:attacker.qwf_attacker_advanced_ship_advantages_for_battle_value
+			}
+			scope:defender = {
+				add_modifier = {
+					name = advanced_ship_4
+					months = 10
+				}
+				remove_modifier = advanced_ship_1
+				remove_modifier = advanced_ship_2
+				remove_modifier = advanced_ship_3
+			}
+			scope:attacker = {
+				add_modifier = {
+					name = advanced_ship_suppressed
+					months = 10
+				}
+			}
+		}
+	}
+}
+
+remove_invalid_building_stuff_headquarters = {
+	effect = {
+		if = {
+			limit = {
+				any_scope_state = {
+					any_scope_building = {
+						is_building_type = building_stuff_headquarters
+						level >= 1
+					}
+					is_capital = no
+				}
+			}
+			every_scope_state = {
+				limit = {
+					is_capital = no
+				}
+				remove_building = building_stuff_headquarters
+			}
+			post_notification = invalid_building_stuff_headquarters
+		}
+	}
+}
+
+
+
+

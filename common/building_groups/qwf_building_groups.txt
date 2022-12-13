@@ -1,0 +1,25 @@
+﻿bg_qwf_military = {
+	category = development
+
+	always_possible = yes
+	
+	is_government_funded = yes
+	
+	lens = military
+	
+	urbanization = 2
+}
+
+bg_fortifications = {
+	parent_group = bg_qwf_military
+}
+
+bg_stuff = {
+	parent_group = bg_qwf_military
+	#is_military = yes
+}
+
+bg_local_stuff = {
+	parent_group = bg_qwf_military
+	#is_military = yes
+}
