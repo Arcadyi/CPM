@@ -3,65 +3,65 @@
 	religion = protestant
 	traits = { german_speaking european_heritage }
 	male_common_first_names={
-		Adelbert 
-		Adolf 
-		Albrecht 
-		Alexander 
-		Alfred 
+		Adelbert
+		Adolf
+		Albrecht
+		Alexander
+		Alfred
 		August
-		Bernhard 
-		Burkhard 
+		Bernhard
+		Burkhard
 		Bruno		
 		Dieter
-		Eduard 
-		Edwin 
-		Erich 
-		Ernst 
-		Erwin 
+		Eduard
+		Edwin
+		Erich
+		Ernst
+		Erwin
 		Esaias
-		Florian 
-		Franz 
-		Friedrich 
+		Florian
+		Franz
+		Friedrich
 		Fritz
-		Georg 
-		Gustav 
-		Gunther 
+		Georg
+		Gustav
+		Gunther
 		Giesebert
-		Hasso 
-		Heinrich 
-		Helmuth 
-		Hermann 
-		Hugo 
+		Hasso
+		Heinrich
+		Helmuth
+		Hermann
+		Hugo
 		Haubold 
 		Hillart
 		Ignatz
-		Joachim 
-		Johann 
+		Joachim
+		Johann
 		Jurgen
-		Karl 
+		Karl
 		Konrad
-		Leonhard 
-		Leopold 
-		Ludwig 
+		Leonhard
+		Leopold
+		Ludwig
 		Lukas
-		Manfred 
-		Maximilian 
-		Markus 
-		Michael 
+		Manfred
+		Maximilian
+		Markus
+		Michael
 		Moritz
 		Nikolaus
-		Otto 
+		Otto
 		Oskar
-		Pascal 
-		Paul 
-		Peter 
+		Pascal
+		Paul
+		Peter
 		Philipp
-		Reinhard 
-		Rudolf 
+		Reinhard
+		Rudolf
 		Ruprecht
 		Stefan
 		Theodor
-		Wilhelm 
+		Wilhelm
 		Wolfgang
 	}
 	female_common_first_names = {
@@ -84,73 +84,73 @@
 		Herwarth_von_Bittenfeld
 		Vogel_von_Falkenstein
 		von_Falkenstein
-		von_Alten 
-		von_Anhalt 
-		von_Arentschildt 
+		von_Alten
+		von_Anhalt
+		von_Arentschildt
 		von_Arens
-		von_Bismarck-Bohlen 
-		von_Bittenfeld 
-		von_Blomberg 
-		von_Blumenthal 
-		von_Borries 
-		von_Boyen 
-		von_Braunschweig 
-		von_Breitenbach 
-		von_Bulow 
+		von_Bismarck-Bohlen
+		von_Bittenfeld
+		von_Blomberg
+		von_Blumenthal
+		von_Borries
+		von_Boyen
+		von_Braunschweig
+		von_Breitenbach
+		von_Bulow
 		von_Boyneburg-Lengsfeld 
 		von_Breidbach-BUrresheim
-		von_Clemm 
+		von_Clemm
 		von_Cramm
-		von_Doenhoff 
+		von_Doenhoff
 		von_Dieskau
 		von_Eck
-		von_Fritsch 
+		von_Fritsch
 		Firnhaber_von_Eberstein
-		von_Gebser 
+		von_Gebser
 		von_Gagern 
 		de_Greiff 
 		von_GO_rtz 
 		von_GU_nderrode 
 		von_der_Gabelentz
-		von_Halkett 
-		von_Hannover 
-		von_Hessen-Darmstadt 
-		von_Hessen-Kassel 
-		von_Hindenburg 
-		von_Hohenzollern 
-		von_Holstein-Gottorp 
+		von_Halkett
+		von_Hannover
+		von_Hessen-Darmstadt
+		von_Hessen-Kassel
+		von_Hindenburg
+		von_Hohenzollern
+		von_Holstein-Gottorp
 		von_Hennig 
 		von_der_Heydt 
 		von_Haupt von_Heyden
 		von_Isenburg-BU_dingen-Meerholz
-		von_Kleefeld 
-		von_Knorr 
+		von_Kleefeld
+		von_Knorr
 		von_dem_Knesebeck
 		zur_Lippe
 		MU_ller_von_KO_nigswinter 
-		von_Manteuffel 
-		von_Mecklenburg-Schwerin 
-		von_Mecklenburg-Strelitz 
-		von_Moltke 
+		von_Manteuffel
+		von_Mecklenburg-Schwerin
+		von_Mecklenburg-Strelitz
+		von_Moltke
 		von_Madai
-		von_Niezychowski 
+		von_Niezychowski
 		von_Nordeck_zur_Rabenau
 		von_Oldenburg
 		von_PlO_nnies
 		Riedesel_zu_Eisenbach 
-		von_Rauch 
-		von_Ravensberg 
-		von_Reuter 
-		von_Richthofen 
-		von_Roon 
+		von_Rauch
+		von_Ravensberg
+		von_Reuter
+		von_Richthofen
+		von_Roon
 		von_Radowitz 
 		von_Reichenbach
-		von_Sachsen-Altenburg 
-		von_Sachsen-Coburg-Gotha 
-		von_Sachsen-Meiningen 
-		von_Sachsen-Weimar-Eisenach 
-		von_Schlieffen 
-		von_Schwarzburg 
+		von_Sachsen-Altenburg
+		von_Sachsen-Coburg-Gotha
+		von_Sachsen-Meiningen
+		von_Sachsen-Weimar-Eisenach
+		von_Schlieffen
+		von_Schwarzburg
 		von_Spee
 		von_Tirpitz
 		zu_Stolberg-Wernigerode 
@@ -162,13 +162,13 @@
 		Treusch_von_Butlar 
 		von_Tirpitz von_ThU_nen
 		von_Vahlkampf
-		von_Waldeck_und_Pyrmont 
-		von_Wettin 
-		von_Wrangel 
+		von_Waldeck_und_Pyrmont
+		von_Wettin
+		von_Wrangel
 		von_Willich 
 		von_Watzdorf 
 		Waitz_von_Eschen
-		von_Zieten 
+		von_Zieten
 		von_dem_Knesebeck
 		von_Zwierlein
 		
@@ -177,16 +177,16 @@
 		von_Willich
 	}	
 	common_last_names={
-		Abegg 
-		Anger 
-		Arendt 
+		Abegg
+		Anger
+		Arendt
 		Ackermann 
 		Arntz
-		Behncke 
-		Boermel 
-		Borsig 
-		Brill 
-		Brommy 
+		Behncke
+		Boermel
+		Borsig
+		Brill
+		Brommy
 		Blum 
 		Baltzer 
 		Bever 
@@ -208,9 +208,9 @@
 		Bolten 
 		Briegleb 
 		Bardorf
-		Clebsch 
-		Cordemann 
-		Culemeyer 
+		Clebsch
+		Cordemann
+		Culemeyer
 		Caspers 
 		Cetto 
 		Clossett 
@@ -220,19 +220,19 @@
 		Cretzschmar 
 		Cratz 
 		Cropp
-		Dahlmann 
-		Dieffenbach 
-		Diestel 
-		Dreyer 
-		Droste 
-		Depre 
+		Dahlmann
+		Dieffenbach
+		Diestel
+		Dreyer
+		Droste
+		Depre
 		Dietze 
 		Detering 
 		Dietz 
 		DuprE_ 
 		Dresel
-		Ehlert 
-		Eichelbaum 
+		Ehlert
+		Eichelbaum
 		Eckert 
 		Eisenstuck 
 		Eissengarthen 
@@ -240,8 +240,8 @@
 		Emmerling 
 		Ettlinger 
 		Erichson
-		Feyerabend 
-		Fritsch 
+		Feyerabend
+		Fritsch
 		Friedenthal 
 		Fabarius 
 		Forst 
@@ -249,27 +249,27 @@
 		Freudentheil 
 		Felsing 
 		FlU_gge
-		Garbe 
-		Gerlach 
-		Gloger 
-		Goerdeler 
-		Goetz 
-		Grebe 
-		Groener 
-		Groth 
+		Garbe
+		Gerlach
+		Gloger
+		Goerdeler
+		Goetz
+		Grebe
+		Groener
+		Groth
 		Gerlich 
 		Giersberg 
 		Glaubrech 
 		Gail 
 		GU_lich
-		Hagen 
-		Harkort 
-		Harych 
-		Hassenpflug 
-		Heppendorf 
-		Hirschfeld 
-		Hoffmann 
-		Hubatsch 
+		Hagen
+		Harkort
+		Harych
+		Hassenpflug
+		Heppendorf
+		Hirschfeld
+		Hoffmann
+		Hubatsch
 		Hammer 
 		Hecker 
 		Herrmann 
@@ -285,20 +285,20 @@
 		Hoffmann 
 		HU_gel 
 		Hollandt
-		Jastrow 
-		Johow 
+		Jastrow
+		Johow
 		Junghans 
 		Jahn 
 		Jordan 
 		Jungbluth 
 		Jungblutte 
 		Jucho
-		Katz 
-		Kempner 
-		Kirchweger 
-		Koffka 
-		Krohn 
-		Krummnow 
+		Katz
+		Kempner
+		Kirchweger
+		Koffka
+		Krohn
+		Krummnow
 		Knocke 
 		Kehl 
 		Keiffenheim 
@@ -310,10 +310,10 @@
 		Kierulff 
 		Kriegk 
 		Kugler
-		Lasker 
-		Leistikow 
-		Leonhardt 
-		Ludendorff 
+		Lasker
+		Leistikow
+		Leonhardt
+		Ludendorff
 		Lehmkuhl
 		Olbers
 		Laist 
@@ -327,8 +327,8 @@
 		Lotheissen 
 		Leisler 
 		Lang
-		Mittwoch 
-		Moll 
+		Mittwoch
+		Moll
 		Mallmann 
 		Marcks 
 		Maurer 
@@ -346,7 +346,7 @@
 		Oetker
 		Pelz 
 		Pax 
-		Peiser 
+		Peiser
 		Plange 
 		Pagenstecher 
 		Peters 
@@ -360,8 +360,8 @@
 		Preusser 
 		Pogge 
 		Pohle
-		Rehfisch 
-		Roepke 
+		Rehfisch
+		Roepke
 		RU_ckert 
 		Ronge 
 		Reichensperger 
@@ -377,11 +377,11 @@
 		Reh 
 		Runge 
 		Reinganum
-		Scherfke 
-		Schimmelfennig 
-		Schmidt 
-		Schree 
-		Schurz 
+		Scherfke
+		Schimmelfennig
+		Schmidt
+		Schree
+		Schurz
 		Schnitter 
 		SchlO_ffel 
 		Stahlschmidt 
@@ -413,7 +413,7 @@
 		Stever 
 		Sonnenkalb 
 		Souchay
-		Treibe 
+		Treibe
 		TU_rke 
 		Theyssen 
 		Thilmany 
@@ -424,9 +424,9 @@
 		Volhard 
 		Varrentrapp 
 		Vorwerck
-		Weydemeyer 
-		Wittfeld 
-		Woehlert 
+		Weydemeyer
+		Wittfeld
+		Woehlert
 		Wiesner 
 		Wislicenus 
 		Wachendorf 
@@ -444,7 +444,7 @@
 		Wippermann 
 		Wentorp 
 		Wendhausen
-		Zerrahn 
+		Zerrahn
 		ZO_ller 
 		Zell 
 		Zimmermann 
@@ -484,58 +484,58 @@ south_german={
 	religion = catholic
 	traits = { german_speaking european_heritage }
 	male_common_first_names={
-		Adolf 
-		Albrecht 
-		Alexander 
-		Alfons 
-		Alois 
-		Anton 
-		Arthur 
+		Adolf
+		Albrecht
+		Alexander
+		Alfons
+		Alois
+		Anton
+		Arthur
 		Albert 
 		Arnulf
-		Bernhard 
+		Bernhard
 		Benignus
 		Christian
-		Edmund 
-		Eduard 
-		Engelbert 
-		Ernst 
-		Erwin 
+		Edmund
+		Eduard
+		Engelbert
+		Ernst
+		Erwin
 		Emil 
 		Eugen 
 		Emanuel
-		Ferdinand 
-		Franz 
-		Friedrich 
+		Ferdinand
+		Franz
+		Friedrich
 		Felix
-		Gebhard 
-		Gerhard 
-		Gottfried 
-		Gustav 
-		Gunther 
+		Gebhard
+		Gerhard
+		Gottfried
+		Gustav
+		Gunther
 		Gottleib
-		Heinrich 
-		Hermann 
-		Horst 
+		Heinrich
+		Hermann
+		Horst
 		Hugo
-		Jakob 
-		Joachim 
-		Johann 
-		Joseph 
+		Jakob
+		Joachim
+		Johann
+		Joseph
 		Julius
-		Karl 
-		Konrad 
-		Kurt 
+		Karl
+		Konrad
+		Kurt
 		Kasimir 
 		Klemens
-		Leonhard 
-		Leopold 
-		Lorenz 
-		Lothar 
-		Ludwig 
+		Leonhard
+		Leopold
+		Lorenz
+		Lothar
+		Ludwig
 		Luitpold
-		Maximilian 
-		Michael 
+		Maximilian
+		Michael
 		Martin 
 		Moritz
 		Nikolaus 
@@ -543,21 +543,21 @@ south_german={
 		Otto
 		Peter 
 		Paul
-		Reinhold 
-		Rudolf 
+		Reinhold
+		Rudolf
 		Rupprecht
-		Stefan 
+		Stefan
 		Siegmund
-		Theodor 
+		Theodor
 		Thomas 
 		Theophil
-		Valentin 
-		Viktor 
-		Vitus 
+		Valentin
+		Viktor
+		Vitus
 		Veit
-		Walter 
-		Werner 
-		Wilhelm 
+		Walter
+		Werner
+		Wilhelm
 		Wolfgang 
 		Walther
 		Xaver
@@ -582,11 +582,11 @@ south_german={
 		Schnorr_von_Carolsfeld
 		von_Adelmann 
 		von_Andlaw-Birseck
-		von_Baader 
-		von_Baden 
-		von_Benedek 
-		von_Brudermann 
-		von_Bohm-Ermolli 
+		von_Baader
+		von_Baden
+		von_Benedek
+		von_Brudermann
+		von_Bohm-Ermolli
 		von_Bissingen-Nippenburg 
 		von_Berlichingen 
 		von_Binder 
@@ -601,11 +601,11 @@ south_german={
 		von_Bibra 
 		von_Baligand
 		Cotton_von_Cottendorf 
-		von_Clam-Gallas 
+		von_Clam-Gallas
 		von_Closen 
 		von_Crailsheim
-		von_Denis 
-		von_Dietrich 
+		von_Denis
+		von_Dietrich
 		von_Diemar 
 		von_Deroy 
 		von_DU_rckheim-Montmartin 
@@ -619,8 +619,8 @@ south_german={
 		von_Freyberg-Eisenberg 
 		von_Fleury_auf_Hilling 
 		von_Fritsch
-		von_Gablenz 
-		von_Grunne 
+		von_Gablenz
+		von_Grunne
 		von_Giech 
 		von_Geldern 
 		von_Greis 
@@ -634,14 +634,14 @@ south_german={
 		von_Grossschedel 
 		von_GO_riz 
 		von_Gyssling
-		von_Hartmann 
-		von_Haynau 
-		von_Helmholtz 
-		von_Hertel 
-		von_Hess 
-		von_Hohenhausen 
-		von_Hortstein 
-		von_Hotzendorf 
+		von_Hartmann
+		von_Haynau
+		von_Helmholtz
+		von_Hertel
+		von_Hess
+		von_Hohenhausen
+		von_Hortstein
+		von_Hotzendorf
 		zu_Hohenlohe 
 		von_Habsburg 
 		von_Hegnenberg-Dux 
@@ -660,8 +660,8 @@ south_german={
 		von_Itzstein
 		von_Jeetze
 		Kress_von_Kressenstein 
-		von_Kirbach 
-		von_Kobratin 
+		von_Kirbach
+		von_Kobratin
 		von_Kettner 
 		Keller_von_Schleitheim
 		Leutrum_von_Ertingen 
@@ -670,7 +670,7 @@ south_german={
 		von_Leonrod 
 		von_Lindheimer 
 		von_Lossow
-		von_Maffei 
+		von_Maffei
 		von_Mayersbach 
 		von_Montgelas 
 		von_Mohl 
@@ -687,7 +687,7 @@ south_german={
 		von_Mieg
 		von_Oettigen-Wallerstein
 		Poschinger_von_Frauenau 
-		von_Pauli 
+		von_Pauli
 		von_Pfeufer 
 		von_Pranckh 
 		von_Parseval 
@@ -710,7 +710,7 @@ south_german={
 		von_Reichlin-Meldegg 
 		von_Reysing
 		Schnorr_von_Carolsfeld 
-		von_Schonburg 
+		von_Schonburg
 		von_Scherer 
 		von_Struve 
 		von_sch_Onborn-Wiesentheid 
@@ -727,19 +727,19 @@ south_german={
 		von_Schuh 
 		von_Le_Suire 
 		von_Saporta
-		von_Tegetthoff 
+		von_Tegetthoff
 		von_Uchatius
 		von_Weigert
 		von_Wittelsbach
 		von_Wurttemberg
 		von_Zahringen
-		von_der_Tann 
+		von_der_Tann
 		zu_Hohenlohe
 		von_Wrede
 		von_Habsburg
 		von_Mayersbach
 		von_Scherer
-		von_Thurnberg 
+		von_Thurnberg
 		von_TA_uffenbach 
 		von_der_Tann-Rathsamhausen
 		von_Uchatius
@@ -751,9 +751,9 @@ south_german={
 	common_last_names={
 		Auerbach 
 		Aldinger
-		Bachmann 
-		Beck-Rzikowsky 
-		Blos 
+		Bachmann
+		Beck-Rzikowsky
+		Blos
 		Barchet 
 		Bantlin 
 		Bech 
@@ -767,9 +767,9 @@ south_german={
 		CarovE_ 
 		Correck 
 		Cella
-		Dankl 
-		Dauer 
-		Dollmann 
+		Dankl
+		Dauer
+		Dollmann
 		Depre 
 		Doll 
 		Deusch 
@@ -777,44 +777,44 @@ south_german={
 		Deuringer 
 		Denzler 
 		Deppert
-		Eisner 
-		Eppelsheimer 
-		Exter 
+		Eisner
+		Eppelsheimer
+		Exter
 		Eppelsheim 
 		Eisenmann 
 		Edel 
 		Ermarth 
 		Ehrensberger 
 		Eder
-		Foerderreuther 
-		Frauendorfer 
-		Friedel 
-		Frommknecht 
+		Foerderreuther
+		Frauendorfer
+		Friedel
+		Frommknecht
 		Federer 
 		Fetzer 
 		Frueth 
 		Fallenstein 
 		Frech 
 		Fasbender
-		Geiss 
-		Gerber 
-		Goering 
-		Gollwitzer 
-		Graff 
-		Groeschel 
-		Groth 
+		Geiss
+		Gerber
+		Goering
+		Gollwitzer
+		Graff
+		Groeschel
+		Groth
 		Grohe 
 		Gervinus 
 		GA_tschenberger 
 		Gloss_ Gruny
-		Hainisch 
-		Haus 
-		Held 
-		Hellpach 
-		Helmerich 
-		Hoffmann 
-		Homberger 
-		Hummel 
+		Hainisch
+		Haus
+		Held
+		Hellpach
+		Helmerich
+		Hoffmann
+		Homberger
+		Hummel
 		Hepp 
 		HA_gelin 
 		Hagen 
@@ -831,8 +831,8 @@ south_german={
 		Hebberling
 		Ipfelkofer
 		Junghannss
-		Kessler 
-		Kohler 
+		Kessler
+		Kohler
 		Kolb 
 		Keil 
 		KO_lliker 
@@ -845,8 +845,8 @@ south_german={
 		Lakner 
 		Lehmkuhl 
 		LanghA_user
-		Mergenthaler 
-		Miklas 
+		Mergenthaler
+		Miklas
 		MO_gling 
 		Mohl 
 		Murschel 
@@ -855,14 +855,14 @@ south_german={
 		Mez 
 		Mittermaier 
 		Margreither
-		Nebenius 
+		Nebenius
 		Neumann 
 		Neuffer
 		Olbers 
 		Orff 
 		Obermair
-		Platner 
-		Prang 
+		Platner
+		Prang
 		Press 
 		Platner 
 		Pfaff 
@@ -871,9 +871,9 @@ south_german={
 		Pfluegl 
 		Pesenecker
 		Quitzmann
-		Rahl 
-		Remmele 
-		Rosenhaupt 
+		Rahl
+		Remmele
+		Rosenhaupt
 		Riedl 
 		RO_dinger 
 		Reyscher 
@@ -881,13 +881,13 @@ south_german={
 		Rau 
 		Richter 
 		Reisterer
-		Schmitt 
-		Schobber 
-		Seitz 
-		Steeb 
-		Stolzer 
-		Strauss 
-		Sailer 
+		Schmitt
+		Schobber
+		Seitz
+		Steeb
+		Stolzer
+		Strauss
+		Sailer
 		Spatz 
 		Schott 
 		Seeger 
@@ -904,19 +904,19 @@ south_german={
 		Seekirchner 
 		Schmauss 
 		Schmidtler
-		Trient 
-		Trunk 
+		Trient
+		Trunk
 		Teutsch 
 		Titus 
 		Tafel
-		Unglaub 
+		Unglaub
 		Uhland 
 		Ullrich 
 		Usselmann
-		Voelcker 
+		Voelcker
 		Veiel
-		Wagner 
-		Wittmann 
+		Wagner
+		Wittmann
 		Willich 
 		Wolf 
 		Wiedmann 
@@ -927,9 +927,9 @@ south_german={
 		Werner 
 		Winter 
 		Weiss-Jonak
-		Zeller 
-		Zenger 
-		Zink 
+		Zeller
+		Zenger
+		Zink
 		Zentner 
 		Zittel 
 		Zerreiss
@@ -3168,13 +3168,13 @@ north_italian={
 	}	
 	
 	male_common_first_names={
-		Alessandro 
-		Alfonso 
-		Ambrogio 
-		Amedeo 
-		Andrea 
-		Angelo 
-		Antonio 
+		Alessandro
+		Alfonso
+		Ambrogio
+		Amedeo
+		Andrea
+		Angelo
+		Antonio
 		Benito
 		Agostino
 		Bernardino 
@@ -3182,90 +3182,90 @@ north_italian={
 		Benedetto 
 		Bonaventura 
 		Bernardo
-		Camillo 
-		Carlo 
-		Cesare 
-		Costanzo 
+		Camillo
+		Carlo
+		Cesare
+		Costanzo
 		Casimiro 
 		Cristoforo
-		Davide 
+		Davide
 		Domenico 
 		Damiano
-		Enrico 
-		Enzo 
-		Ettore 
+		Enrico
+		Enzo
+		Ettore
 		Efisio 
 		Emiliano 
 		Ernesto
-		Fabrizio 
-		Faustino 
-		Federico 
-		Felice 
-		Ferdinando 
-		Fiorenzo 
-		Francesco 
+		Fabrizio
+		Faustino
+		Federico
+		Felice
+		Ferdinando
+		Fiorenzo
+		Francesco
 		Filippo 
 		Filiberto
-		Gaetano 
-		Gennaro 
-		Girolamo 
-		Giulio 
-		Giuseppe 
-		Guglielmo 
+		Gaetano
+		Gennaro
+		Girolamo
+		Giulio
+		Giuseppe
+		Guglielmo
 		Giacomo 
 		Giorgio 
 		Gaspare 
 		Gaetano
-		Innocenzo 
+		Innocenzo
 		Ignazio 
 		Ippolito 
 		Ilario
-		Leopoldo 
-		Luigi 
-		Luca 
+		Leopoldo
+		Luigi
+		Luca
 		Lorenzo
-		Marco 
-		Massimo 
-		Matteo 
+		Marco
+		Massimo
+		Matteo
 		Maurizio 
 		Massimo
 		Nicola
-		Oreste 
+		Oreste
 		Ottavio
-		Paolo 
-		Pasquale 
-		Pietro 
+		Paolo
+		Pasquale
+		Pietro
 		Prospero
-		Raffaele 
-		Roberto 
-		Ruggiero 
+		Raffaele
+		Roberto
+		Ruggiero
 		Romualdo
-		Scipione 
-		Silvio 
-		Simone 
+		Scipione
+		Silvio
+		Simone
 		Serafino 
 		Secondo 
 		Sebastiano
-		Tancredi 
+		Tancredi
 		Tommaso
-		Ugo 
-		Umberto 
+		Ugo
+		Umberto
 		Urbano
-		Vincenzo 
+		Vincenzo
 		Vittorio
 	}
 	female_common_first_names = {
 		Beatrice
-		Camilla 
-		Cassandra 
+		Camilla
+		Cassandra
 		Cristina
 		Giovannella
-		Livia 
-		Lucrezia 
+		Livia
+		Lucrezia
 		Luisa
-		Maddalena 
-		Maria 
-		Melania 
+		Maddalena
+		Maria
+		Melania
 		Metilde
 		Sofia
 		Teresa
@@ -3277,7 +3277,7 @@ north_italian={
 		Avogadro_di_Casanova 
 		d_Alberti_della_Briga 
 		d_Arcais
-		Borghese 
+		Borghese
 		di_Boglio 
 		Baldassi 
 		Bon_Compagni_di_Mombello 
@@ -3285,9 +3285,9 @@ north_italian={
 		Boyl_di_Putifigari 
 		Bronzini_Zapelloni 
 		De_Benedetti
-		Capodilista 
-		Carniani 
-		Colli_di_Felizzano 
+		Capodilista
+		Carniani
+		Colli_di_Felizzano
 		Colonna
 		d_Azeglio
 		di_Calabiana 
@@ -3296,7 +3296,7 @@ north_italian={
 		De_Castro 
 		De_Chambost
 		Ferrero_La_Marmora 
-		De_Ferrari 
+		De_Ferrari
 		de_Foresta 
 		Falqui_Pes 
 		Fecia_di_Cossato
@@ -3310,9 +3310,9 @@ north_italian={
 		Massimo De_Marchi 
 		de_Martinel 
 		Moffa_di_Lisio_Gribaldi
-		Odescalchi 
+		Odescalchi
 		Orsini
-		Pallavicino 
+		Pallavicino
 		Pacoret_de_Saint_Bon 
 		Pecori-Giraldi 
 		Pellion_di_Persano 
@@ -3321,12 +3321,12 @@ north_italian={
 		Ponzo_di_San_Martino
 		Ricardi_di_Netro 
 		di_Robilant
-		Sacchetti 
+		Sacchetti
 		Toesca
 		Torelli
 		di_Robilant
-		di_Savoia 
-		di_Savoia-Aosta 
+		di_Savoia
+		di_Savoia-Aosta
 		Solaro_della_Margarita 
 		di_Salmour 
 		Santa_Croce_Villahermosa 
@@ -3338,8 +3338,8 @@ north_italian={
 		Baldassi
 	}
 	common_last_names={
-		Acton 
-		Albricci 
+		Acton
+		Albricci
 		Agnes 
 		Airenti 
 		Amaretti 
@@ -3351,12 +3351,12 @@ north_italian={
 		Astengo 
 		Avigdor 
 		Avondo
-		Badoglio 
-		Baldissera 
-		Baratieri 
-		Bava-Beccaris 
-		Baldassi 
-		Benci 
+		Badoglio
+		Baldissera
+		Baratieri
+		Bava-Beccaris
+		Baldassi
+		Benci
 		Baino 
 		Barbier 
 		BeldI_ 
@@ -3388,14 +3388,14 @@ north_italian={
 		Buffa 
 		Buraggi 
 		Buttini
-		Cadorna 
-		Cagni 
-		Canevaro 
-		Capello 
-		Caviglia 
-		Ceccherini 
-		Cialdini 
-		Cusani 
+		Cadorna
+		Cagni
+		Canevaro
+		Capello
+		Caviglia
+		Ceccherini
+		Cialdini
+		Cusani
 		Dezza
 		Cabella 
 		Caboni 
@@ -3431,17 +3431,17 @@ north_italian={
 		Delfino 
 		Delitala
 		Emo
-		Fanti 
-		Fara 
-		Filomarino 
+		Fanti
+		Fara
+		Filomarino
 		Fara 
 		Farina 
 		Farini 
 		Ferraciu 
 		Fescot
-		Garibaldi 
-		Giardino 
-		Govone 
+		Garibaldi
+		Giardino
+		Govone
 		Gallenga 
 		Gallisai 
 		Gallo 
@@ -3466,9 +3466,9 @@ north_italian={
 		Lanza 
 		Louaraz
 		Malan 
-		La_Marmora 
-		Mambretti 
-		Menabrea 
+		La_Marmora
+		Mambretti
+		Menabrea
 		Mozzoni 
 		Mameli 
 		Mamiani 
@@ -3498,16 +3498,16 @@ north_italian={
 		Niccolini 
 		Nino 
 		Notta
-		Orengo 
+		Orengo
 		Oytana
 		Pacoret_de_Saint_Bon
 		Pecori-Giraldi
 		Pellion_di_Persano
-		Pelloux 
-		Perruchetti 
-		Pianelli 
-		Porro 
-		Presbitero 
+		Pelloux
+		Perruchetti
+		Pianelli
+		Porro
+		Presbitero
 		Paleocapa 
 		Pallavicino 
 		Pallieri 
@@ -3525,8 +3525,8 @@ north_italian={
 		Porqueddu 
 		Pugioni
 		Quaglia
-		Ramorino 
-		Ricotti-Magnani 
+		Ramorino
+		Ricotti-Magnani
 		Rattazzi 
 		Ravina 
 		Rezasco 
@@ -3539,10 +3539,10 @@ north_italian={
 		Rodini 
 		Rossi 
 		Rubin
-		Sacchi 
-		Saletta 
-		Sanna 
-		Solari 
+		Sacchi
+		Saletta
+		Sanna
+		Solari
 		Sanguineti 
 		Sanna_Denti 
 		Sanna_Sanna 
@@ -3564,11 +3564,11 @@ north_italian={
 		Tola 
 		Torelli 
 		Tuveri
-		Vaccari 
+		Vaccari
 		Valerio 
 		Valvassori 
 		Vicari
-		Zupelli 
+		Zupelli
 		Zirio
 	}
 	graphics = european
@@ -3587,60 +3587,60 @@ south_italian={
 	}	
 	
 	male_common_first_names={
-		Alessandro 
-		Armando 
-		Augusto 
+		Alessandro
+		Armando
+		Augusto
 		Achille 
 		Antonio 
 		Agesilao
 		Bartolomeo 
 		Benedetto
-		Carlo 
-		Cesare 
-		Corrado 
+		Carlo
+		Cesare
+		Corrado
 		Cesidio 
 		Corradino 
 		Cristoforo 
 		Carcano 
 		Carmine
-		Domenico 
+		Domenico
 		Donato
-		Enrico 
-		Enzo 
+		Enrico
+		Enzo
 		Ettore 
 		Emanuele
-		Fabio 
-		Fabrizio 
-		Ferdinando 
-		Francesco 
+		Fabio
+		Fabrizio
+		Ferdinando
+		Francesco
 		Fausto
-		Gaetano 
-		Giacomo 
-		Giovanni 
-		Giulio 
-		Giuseppe 
-		Guglielmo 
+		Gaetano
+		Giacomo
+		Giovanni
+		Giulio
+		Giuseppe
+		Guglielmo
 		GiosuE_ 
 		Goffredo 
 		Giorgio 
 		Giustino
 		Ignazio
-		Leopoldo 
-		Lorenzo 
-		Ludovico 
-		Luca 
+		Leopoldo
+		Lorenzo
+		Ludovico
+		Luca
 		Luigi 
 		Ludovico
-		Marcantonio 
-		Marino 
-		Mario 
-		Matteo 
+		Marcantonio
+		Marino
+		Mario
+		Matteo
 		Marco 
 		Monaldo 
 		Michele 
 		Melchiorre
 		Nicola
-		Orazio 
+		Orazio
 		Oronzio
 		Pierfrancesco 
 		Paolo 
@@ -3649,7 +3649,7 @@ south_italian={
 		Pellegrino
 		Raimondo 
 		Raffaele
-		Sigismondo 
+		Sigismondo
 		Salvatore 
 		Sebastiano 
 		Saverio
@@ -3673,14 +3673,14 @@ south_italian={
 	noble_last_names = {
 		Afan_de_Rivera Antici 
 		d_Albergo d_Ayala
-		Barracco 
-		Berlingieri 
+		Barracco
+		Berlingieri
 		Bufalari 
 		Baccarini 
 		Di_Brocchetti
-		Caetani 
+		Caetani
 		CalA__Ulloa 
-		Caracciolo 
+		Caracciolo
 		de_Liguori
 		de_Riseis
 		della_Rovere
@@ -3691,11 +3691,11 @@ south_italian={
 		Ercolani 
 		d_Escamard
 		Filangieri
-		Galluppi 
-		Giannuzzi-Savelli 
+		Galluppi
+		Giannuzzi-Savelli
 		della_Genga
-		Lanfranci 
-		Lucifero 
+		Lanfranci
+		Lucifero
 		de_Liguori 
 		Leopardi 
 		de_Luca
@@ -3703,15 +3703,15 @@ south_italian={
 		Marchesani
 		Ondedei 
 		Osmani
-		Piccolomini 
-		Pignatelli 
+		Piccolomini
+		Pignatelli
 		del_Pezzo
 		de_Riseis 
 		della_Rovere 
 		De_Renzi 
 		de_Rilliet 
 		del_Re
-		Sanfelice 
+		Sanfelice
 		Spinello 
 		de_Samuele_Cagnazzi 
 		Sgariglia 
@@ -3726,24 +3726,24 @@ south_italian={
 		Zurlo
 	}
 	common_last_names={
-		Anfora 
+		Anfora
 		Avitabile 
 		Alianelli 
 		Antonelli 
 		Assanti 
 		Acclavio
-		Barberini-Colonna 
-		Bonaccorsi 
-		Benci 
+		Barberini-Colonna
+		Bonaccorsi
+		Benci
 		Bozzelli 
 		Baldacchini 
 		Briganti 
 		Bausan 
 		Bianchini
-		Caraga 
-		Cattaneo 
-		Chigi 
-		Clary 
+		Caraga
+		Cattaneo
+		Chigi
+		Clary
 		Cosenz 
 		Cianciulli 
 		Cuoco 
@@ -3754,10 +3754,10 @@ south_italian={
 		Croce 
 		Carrascosa 
 		Colletta
-		Diaz 
+		Diaz
 		Durini 
 		Delfico
-		Ferrari 
+		Ferrari
 		Filangieri 
 		Filioli 
 		Fergola 
@@ -3765,9 +3765,9 @@ south_italian={
 		Forteguerri 
 		Ferri 
 		Fortunato
-		Gironda 
-		Gravina 
-		Grifeo 
+		Gironda
+		Gravina
+		Grifeo
 		Garzia 
 		Gagliardo 
 		Galdi 
@@ -3779,22 +3779,22 @@ south_italian={
 		Galletti
 		Imbriani 
 		Intonti
-		Lanza 
-		Lombardo 
-		Lunardi 
+		Lanza
+		Lombardo
+		Lunardi
 		Landi 
 		Lanza 
 		Longobardi
-		Molinelli 
+		Molinelli
 		Mezzacapo 
 		Milano 
 		Morelli
 		Nunziante 
 		Naselli
-		Orsini 
-		Ottaviani 
+		Orsini
+		Ottaviani
 		Oliva
-		Pironti 
+		Pironti
 		Pepe 
 		Poerio 
 		Palmieri 
@@ -3812,7 +3812,7 @@ south_italian={
 		Rosaroll 
 		Ricciardi 
 		Rosica
-		Scammacca 
+		Scammacca
 		Scovazzo 
 		Sansone 
 		Sannia 
@@ -3822,8 +3822,8 @@ south_italian={
 		Scialoja 
 		Statella 
 		Santangelo
-		Torlonia 
-		Turrisi 
+		Torlonia
+		Turrisi
 		Troya 
 		Tommasi 
 		Tenore 
@@ -3831,11 +3831,11 @@ south_italian={
 		Torelli 
 		Tardio 
 		Troisi
-		Vernazza 
+		Vernazza
 		Valiante 
 		Vignale 
 		Vecchione
-		Zunica 
+		Zunica
 		Zurlo
 	}
 	graphics = european
@@ -7720,148 +7720,88 @@ turkish={
 	color= hsv{ 0.99 0.48 0.80 }
 	religion = sunni
 	traits = { turkic middle_eastern_heritage }
-	obsessions = {
-		tea
+	obsessions = { # Tea drinking was initially encouraged as an alternative to coffee after the dissolution of the Ottoman Empire.
+		coffee
 	}
 	male_common_first_names={
-		Abdulhamid
-		Abdulkerim
-		Abdullah
-		Abdulrahim
-		Ahmet
-		Akif
-		Ali
-		Arif
-		Bahaeddin
-		Bekir
-		Celaleddin
-		Cemal
-		Cevad
-		Cevdet
-		Daud
-		Edhem
-		Emin
-		Enver
-		Fahri
-		Ferid
-		Fevzi
-		Fuat
-		Hafiz
-		Halil
-		Halim
-		Hamza
-		Hasan
-		Hayrullah
-		Husrev
-		Ibrahim
-		Iskender
-		Ismet
-		Izzet
-		Kamil
-		Kazim
-		Kemal
-		Lutfi
-		Mahmut
-		Mehmet
-		Mithat
-		Muhtar
-		Murat
-		Musa
-		Mustafa
-		Namik
-		Nazim
-		Numan
-		Nurettin
-		Nuri
-		Omar
-		Osman
-		Pertev
-		Rauf
-		Receb
-		Refet
-		Reshad
-		Rifat
-		Riza
-		Sabaheddin
-		Said
-		Selim
-		Shevket
-		Shukru
-		Suleyman
-		Talat
-		Tevfik
-		Vefik
-		Yunus
-		Yusuf
-		Ziya
-		Ziyauddin
+		Abdulhak_Adnan 
+		Abdulhak_Hamit 
+		Abdulhalik_Nasuhi 
+		Abdulkadir_Abdullah 
+		Abdullah_Avni 
+		Abdullah_Azmi 
+		Abdullah_Faik 
+		Abdullah_Hilmi
+		Abdulmecid 
+		Abdulvahap 
+		Abdurrahman_Nureddin 
+		Abdurrahman_Sami 
+		Abdurrahman_Seref 
+		Abdurrahman_Vasfi 
+		Abdurrezzak 
+		Adil 
+		Ahmed
+		Ahmed_Arifi Ahmed_Cevad Ahmed_Esad Ahmed_Fevzi Ahmed_Hamdi Ahmed_Hilmi Ahmed_Kemal Ahmed_Muhtar Ahmed_Munir Ahmed_Naim
+		Ahmed_Remzi Ahmed_Sefik Ahmed_Selahaddin Ahmed_Sukru Ahmed_Tayyar Ahmed_Vefik Ahmed_Celal Ahmed_Ferit Ahmed_Izzet Ahmed_Muhtar Ahmed_Rifat
+		Ahmed_Rustem Ahmed_Tevfik Ahmed_Ziya Alaeddin_Ali Ali_Galib Ali_Haydar Ali_Kabuli Ali_Munif Ali_Naki Ali_Riza Ali_Sefik Ali_Sukru
+		Arif_Fazil Arif_Hikmet Asaf_Suleyman Asim Aziz_Ahmed Bahir_Mustafa Bayezid Bayram Bekir_Sami Bekir_Sitki Bekri_Mustafa Cavit Celal_Nuri
+		Celalettin_Arif Cevad_Sakir Cevat_Abbas Davud Dervis_Mehmed Dilaver Ekrem Husrev Emin Esref Ethem Fakih Fakih_Yusuf Faruk_Sami Fazil Fazil_Ahmed
+		Fazil_Mustafa Ferhat Feyzi Fuad Fuat Haci Haci_Ahmed Haci_Ali Haci_Bekir Haci_Halil Haci_Huseyin Haci_Salih Haci_Veli Hafiz_Ahmed Hafiz_Ismail
+		Hakki Hakki_Behic Halid_Ziya Halil Halil_Hamid Halil_Hayreddin Halil_Hulki Halil_Rifat Halim Halit Hamza Hamza_Hamid Hasan Hasan_Fehmi Hasan_Hayri
+		Hasan_Izzet Hasan_Riza Hasan_Sezai Hasan_Tahsin Haydar Hayreddin Hursid Hursid_Ahmed Huseyin Huseyin_Avni Huseyin_Baki Huseyin_Cahit Huseyin_Hilmi
+		Huseyin_Husnu Huseyin_Kazim Huseyin_Rauf Huseyin_Sirri Husrev Husrev_Mehmed Ibrahim Ibrahim_Edhem Ibrahim_Faik Ibrahim_Hakki Ibrahim_Halil
+		Ibrahim_Hayrullah Ibrahim_Hilmi Ibrahim_Ismet Ibrahim_Refet Ibrahim_Sarim Ibrahim_Sureyya Irfan Ishak Ismail Ismail_Fazil Ismail_Hakki
+		Ismail_Sitki Ismet Izzet_Fuat Izzet_Mehmed Kamil Kasim_Nuri Kazim Kazim_Nuri Kemal Kemaleddin Lutfi Lutfi_Fikri Mahir Mahir_Hamza Mahir_Said
+		Mahmud Mahmud_Edhem Mahmud_Ekrem Mahmud_Nedim Mahmud_Server Mahmut_Celalettin Mahmut_Mahir Mahmut_Naci Mazhar_Mufit Mehmed Mehmed_Abdulhalim
+		Mehmed_Ali Mehmed_Asim Mehmed_Behim Mehmed_Besim Mehmed_Cavid Mehmed_Celal Mehmed_Cemal Mehmed_Emin Mehmed_Esad Mehmed_Ferid Mehmed_Fuat
+		Mehmed_Haci Mehmed_Hadi Mehmed_Halet Mehmed_Kadri Mehmed_Kani Mehmed_Namik Mehmed_Nizamuddin Mehmed_Ragip Mehmed_Raif Mehmed_Rauf 
+		Mehmed_Remzi Mehmed_Rusdi Mehmed_Sadik Mehmed_Sahib Mehmed_Said Mehmed_Sakir Mehmed_Sekib Mehmed_Selim Mehmed_Serafettin Mehmed_Sukru
+		Mehmed_Talat Mehmed_Tevfik Mehmed_Vehbi Mehmed_Ziyaeddin Mehmed_Galip Mehmed_Habip Mehmed_Kamil Mehmed_Meded Mehmed_Muzaffer Mehmed_Sadik
+		Mehmed_Tahir Mehmed_Vasfi Mehmed_Ziya Mehmed_Zulfu Memis Mithat Mithat_Sukru Muhammed_Emin Muhiddin Muhittin Munip Musa Musa_Kasim Musa_Kazim
+		Mustafa Mustafa_Arif Mustafa_Asim Mustafa_Ferhad Mustafa_Fevzi Mustafa_Hayri Mustafa_Hilmi Mustafa_Hulusi Mustafa_Nail Mustafa_Nuri 
+		Mustafa_Rahmi Mustafa_Resid Mustafa_Sabri Mustafa_Salih Mustafa_Vasif Mustafa_Zihni Namik Nasuh Nizamuddin Nizamuddin_Ahmed Numan Omer_Azmi
+		Omer_Fevzi Omer_Lutfi Omer_Mumtaz Omer_Rusdu Omer_Vehbi Osman_Fevzi Osman_Kadri Osman_Nuri Ragip Rahmi Rasim Rauf_Ahmed Recep Resat_Hikmet
+		Resid_Akif Resid_Mehmed Rifat Riza_Tevfik Ruhittin Rustem Rustu Sadullah_Fevzi Sahin_Ali Said_Galip Said_Halim Said_Mehmed Said_Servet
+		Salih Salih_Hulusi Sefik Selim_Sirri Semsi Semsi_Ahmed Serif_Hasan Sevket Sevki_Mustafa Seyyid_Ali Sinan Sinanuddin Sinanuddin_Fakih Siyavus
+		Suat Sukru_Nasih Suleyman Suleyman_Necati Suleyman_Necmi Tahir Tahir_Hayreddin Tayyar Tayyar_Mehmed Ubeydullah Vasfi Veli_Mahmud Yahya Yahya_Naci
+		Yavuz Yavuz_Ali Yunus Yunus_Nadi Yusuf Yusuf_Bahri Yusuf_Kamil Yusuf_Kemal Yusuf_Talat Yusuf_Ziya Yusuf_Ziyauddin Zeki Zihni Ziya
 	}
 	female_common_first_names = {
-		Ayse
-		Emina
-		Fatma
-		Hatice
-		Kap-Ipha
-		Mihrengiz
-		Nurefsun 
-		Sadika Samiye Saffet Sefika Seniye
-		Zeliha
+		Abide Adile Afife Alime Aliye Arife Arzu Asiye Ayse Bahariye Belkis Cemile Cennet Elif Emine Esma Fahriye Fatma Feride Fikriye Gonca Gulsum Hacer Hamide
+		Hanife Hatice Havva Hilmiye Huma Huriye Ismihan Kadriye Kezban Latife Mahpeyker Makbule Meftune Melek Meryem Munteha Muslime Nazli Neslihan Nuriye Rabia
+		Rahime Raziye Refika Reyhan Rukiye Safiye Saime Sakine Saliha Salime Sanem Saniye Selvi Serife Sukriye Sultan Ummu Vahide Zahide Zehra Zeliha Zeynep 
+		Zuleyha Zulfiye
 	}	
 	noble_last_names = {
-		Ankuap
-		Arpazli
-		Balyan
-		Benderli
-		Cengic
-		Cihci
-		Karaosmanoglu
-		Koprulu
-		Maan
-		Marshan
-		Osmanoglu
-		Shakir
-		Talhosten
-		Vocibe
+		# Same with the common last names
 	}
 	common_last_names={
-		Akbas
-		Burhan
-		Cakin
-		Eczacibashi
-		Engineri
-		Ercman
-		Hasagasi
-		Koc
-		Kosalay
-		Manas
-		Mulos
-		Oezal
-		Sabanci
-		Taymur
-		Yalaz
-		#
-		Bey
-		Pasha
+		Abalizade Abdulkadirzade Abdullahzade Abdurrahmanzade Agazade Ahmedzade Akifzade Aksarayli Alemdarzade Alizade Altunizade Amasyali Amcazade Arabacizade 
+		Arifzade Asimzade Avlonyali Ayasli Aynizade Babanzade Bacanakzade Bagdatli Bahadirzade Bahaizade Baltacizade Bayburtlu Bayraktarzade Benderli Biyikli
+		Bolukbasizade Bostancibasi Bostancibasizade Bozoklu Burdurlu Burhanzade Bursali Caferzade Cagaloglu Camasli Candarli Carhacizade Cavusbasizade Cebecizade
+		Celebizade Cemaleddinzade Cenanizade Cezayirli Copurzade Corlulu Curuksulu Daltaban Damatzade Danismendzade Darendeli Degirmencizade Derviszade Dimetokali 
+		Divitdarzade Durrizade Eczacibasi Elmalili Elmaszade Eminzade Erzurumlu Evliyazade Evrenoszade Eyubzade Fazlizade Fescizade Germiyanoglu Gevelizade
+		Giritli Goncuzade Gozcuoglu Gumulcineli Gurcuzade Guzelcezade Hacibekirzade Hacikemalettinzade Halidzade Halimzade Halitzade Hasanagazade Hasanzade
+		Hatipzade Hattatzade Haydarzade Hayrullahzade Hazinedarzade Hekimoglu Helvacizade Hersekzade Hezarpare Hocazade Hotinli Huseyinzade Husnuzade
+		Ibrahimzade Imamzade Ipekcizade Ismailzade Ispartali Ispirzade Istankoylu Ivazzade Izmirli Kabaagaçlizade Kadirbeyzade Kadizade Kalafatzade Kalaylizade
+		Karahisarli Karamanzade Karaoglu Karavezirzade Kavanozzade Kayserili Kececizade Kemankeszade Kethudazade Kibrisli Koprulu Kosezade Kostenceli Kozanli
+		Kutahyalizade Kuyucuzade Ladikli Lefkeli Mahmudoglu Mahmudzade Malkocoglu Manastirli Mansurizade Manyasizade Marasli Mekkelizade Melekzade Menekselizade
+		Menemencizade Menemenlizade Mercimekzade Mersinli Merzifonlu Mevlevi Mihrizade Miraszade Mollazade Morali Muderriszade Muezzinzade Muftuzade Muhaddeszade
+		Muhsinzade Musabalizade Musazade Muslihiddinzade Mustafazade Mutercimzade Nailizade Nasuhizade Nevesinli Nevsehirli Nisancizade Ohrili Osmancikli
+		Osmanzade Ozdemiroglu Pirincciizade Pirizade Plevneli Ramizade Raufzade Recaizade Reiszade Resitzade Ridvanbeyzade Rizazade Ruscuklu Safranbolulu 
+		Saidmehmedzade Sakizli Samipasazade Sapancali Saraczade Sarizade Saruhanli Satircizade Sehlazade Selanikli Serdarzade Serefbeyzade Serifzade Sevkizade 
+		Seyyidzade Silahdarzade Sirkatibizade Sirvanizade Sofuzade Sokolluzade Suhrabli Suleymanzade Sultanzade Surmeli Tarakcizade Tarhuncu Tascizade Tatlizade 
+		Tekeli Tekirdagli Tevkiizade Tezkerecizade Tiryakizade Tokadizade Topalzade Topçuzade Toydanzade Tunali Tunuslu Turnacizade Urguplu Uryanizade Vasifzade
+		Yagcizade Yaglikcizade Yenisehirlizade Yirmisekizzade Zekeriyazade
 	}
 	male_regal_first_names = {
-		Abdulaziz Abdulmejid Abdulhamid Ahmet
-		Bayezid
-		Celaleddin
-		Kemaleddin
-		Murad Mehmet
-		Nizameddin Nureddin
-		Osman
-		Suleyman
+		Abdulaziz Abdulhamid Abdulmecid Ahmed Bayezid Ibrahim Isa Mahmud Mehmed Murad Musa Mustafa Orhan Osman Selim Suleyman
 	}
 	female_regal_first_names = {
-		Atiye
-		Cemile
-		DU_zdidil
-		Edadil Emine
-		Fatma
-		Mihrimah 
-		Pertevniyal 
-		S_ehsuvar Saliha
+		Adile Atiye Ayse Cemile Emine Fatma Hamide Hatice Hayriye Mihrimah Munire Refia Saliha Zeynep
+	}
+	regal_last_names = {
+		Osmanoglu
 	}
 
 	ethnicities = {
@@ -10718,19 +10658,19 @@ thai={
 	religion = theravada
 	traits = { tai southeast_asian_heritage }
 	male_common_first_names={
-		Chao 
-		Chulalongkorn 
+		Chao
+		Chulalongkorn
 		Charoon
 		Kashemsri
 		Isariyalongkorn
-		Mongkut 
+		Mongkut
 		Mahidol
-		Nangklao 
-		Naritsaranuwatiwong 
+		Nangklao
+		Naritsaranuwatiwong
 		Nuam
-		Phya 
-		Plaek 
-		Prajadhipok 
+		Phya
+		Plaek
+		Prajadhipok
 		Rama
 		Piyararangsit
 		Rangsit
@@ -10744,9 +10684,9 @@ thai={
 	female_common_first_names = {
 		Adorndibyanibha 
 		Abbhantripaja
-		Bandhavanna 
+		Bandhavanna
 		Bismai
-		Chandra 
+		Chandra
 		Chudharatana
 		Debsirindra
 		Javalit
@@ -10768,13 +10708,13 @@ thai={
 		Inswang
 		Kridakorn 
 		Nitithada
-		Phonphayuhasena 
+		Phonphayuhasena
 		Phahonyothin 
 		Praband 
 		Polphantin
 		Rabibadhana
-		Saovabha 
-		Suriyawongse 
+		Saovabha
+		Suriyawongse
 		Sinhaseni 
 		Sumontame 
 		Silpikul

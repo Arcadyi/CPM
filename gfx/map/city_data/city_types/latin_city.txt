@@ -5,7 +5,7 @@
 	center_building_size = { 2 2 }
 	
 	min_residential_buildings = 2
-	max_residential_buildings = 250
+	max_residential_buildings = 150
 	max_residence_points = 200
 	
 	rich_building_meshes = {
@@ -56,6 +56,13 @@
 	building_synthetics_plants = {"latin_glassworks_manufactory_01_mesh"}
 	building_electrics_industry = {"latin_manufactory_02_mesh"}
 	building_power_plant = {"latin_manufactory_01_mesh"}
+	building_hydroelectric_power_plant = {}
+	building_refinery = {"latin_colonial_manufactory_02_mesh"}
+	building_ironworks = {"latin_manufactory_01_mesh"}
+	building_lead_refineries = {"latin_manufactory_02_mesh"}
+	building_coal_refineries = {"latin_colonial_manufactory_01_mesh"}
+	building_sulfur_refineries = {"latin_colonial_manufactory_02_mesh"}
+	building_gold_refineries = {"latin_colonial_manufactory_03_mesh"}
 
 	building_suez_canal = {"canal_suezcanal_01_mesh"}
 	building_panama_canal = {"canal_panamacanal_01_mesh"}

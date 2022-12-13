@@ -43,11 +43,11 @@ types politics_panel_types
 								using = texture_velvet
 							}
 						}
-						
+
 						textbox = {
 							layoutpolicy_horizontal = expanding
 							size = { 0 30 }
-							text = "#v [Party.GetName]#!"
+							text = "#v [Party.GetName]#! ([concept_votes] [Party.GetCurrentVotingPowerShare|%1v])"
 							align = right|nobaseline
 							block "highlight_name" {}
 							elide = right
@@ -506,6 +506,19 @@ types politics_panel_types
 							using = fontsize_xxl
 							margin_left = 5
 						}
+
+						textbox = {
+							visible = "[And(AccessPlayer.HasElections, Not(AccessPlayer.IsInElectionCampaignPeriod))]"
+							text = "NEXT_ELECTION_DATE"
+							align = right|nobaseline
+							using = fontsize_large
+						}
+						textbox = {
+							visible = "[And(AccessPlayer.HasElections, AccessPlayer.IsInElectionCampaignPeriod)]"
+							text = "ELECTION_REMAINING_DAYS"
+							align = right|nobaseline
+							using = fontsize_large
+						}
 					}
 					
 					politics_panel_ruler_item = {}
@@ -538,10 +551,228 @@ types politics_panel_types
 						}
 					}
 
+					### LAWS HEADER
+					section_header_button = {
+						datacontext = "[GetPlayer.GetLawBeingEnacted]"
+						blockoverride "layout" {
+							size = { 0 38 }
+							layoutpolicy_horizontal = expanding
+							layoutpolicy_vertical = preferred
+						}
+						blockoverride "left_text" {
+							text = "concept_enactment_of_laws"
+						}
+						blockoverride "right_text" {
+							textbox = {
+								visible = "[Law.IsBeingEnacted]"
+								text = "ENACTING_TO_LAW"
+								align = right|nobaseline
+								using = fontsize_large
+							}
+							textbox = {
+								visible = "[Not(Law.IsBeingEnacted)]"
+								text = "NO_LAW_BEING_ENACTED"
+								align = right|nobaseline
+								using = fontsize_large
+							}
+						}
+						blockoverride "onclick" {
+							onclick = "[GetVariableSystem.Toggle('visual_leaders_laws')]"
+						}
+						blockoverride "onclick_showmore" {
+							visible = "[Not(GetVariableSystem.Exists('visual_leaders_laws'))]"
+						}
+						blockoverride "onclick_showless" {
+							visible = "[GetVariableSystem.Exists('visual_leaders_laws')]"
+						}
+					}
+
+					### REFORM
+					vbox = {
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = preferred
+						visible = "[And(GetVariableSystem.Exists('visual_leaders_laws'), Law.IsBeingEnacted)]"
+						datacontext = "[GetPlayer.GetLawBeingEnacted]"
+
+						button = {
+							layoutpolicy_horizontal = expanding
+							layoutpolicy_vertical = preferred
+							visible = "[And(GetVariableSystem.Exists('visual_leaders_laws'), Law.IsBeingEnacted)]"
+
+							size = { 0 80 }
+							using = default_button
+							onclick = "[InformationPanelBar.OpenChangeLaw(Law.AccessSelf)]"
+
+							hbox = {
+								layoutpolicy_horizontal = expanding
+								margin = { 40 0 }
+								spacing = 40
+
+								law_enactment_progress = {
+									size = { 75 75 }
+								}
+
+								vbox = {
+									layoutpolicy_horizontal = expanding
+
+									textbox = {
+										size = { 0 30 }
+										text = "LAW_FROM_TO"
+										align = center|nobaseline
+										using = fontsize_large
+										fontsize_min = 14
+									}
+
+									hbox = {
+										textbox = {
+											size = { 0 30 }
+											text = "OUTCOME_SUCCESS"
+											align = center|nobaseline
+										}
+										textbox = {
+											size = { 0 30 }
+											text = "OUTCOME_ADVANCE"
+											align = center|nobaseline
+										}
+										textbox = {
+											size = { 0 30 }
+											text = "OUTCOME_DEBATE"
+											align = center|nobaseline
+										}
+										textbox = {
+											size = { 0 30 }
+											text = "OUTCOME_STALL"
+											align = center|nobaseline
+										}
+									}
+								}
+							}
+						}
+					}
+
+					### POTENTIAL REFORMS
+					vbox = {
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = expanding
+						datacontext = "[GetPlayer.GetLawBeingEnacted]"
+						visible = "[And( Not(Law.IsBeingEnacted), GetVariableSystem.Exists('visual_leaders_laws'))]"
+
+						textbox = {
+							visible = "[Not(GreaterThanOrEqualTo_int32(Country.GetGovernmentLegitimacy, '(int32)25'))]"
+							minimumsize = { 0 200 }
+							align = hcenter|nobaseline
+							using = fontsize_xxl
+							text = "modifier_country_cannot_enact_laws"
+							default_format = "#title"
+						}
+
+						fullscreen_scrollarea = {
+							blockoverride "scrollarea_content" {
+								vbox = {
+									layoutpolicy_horizontal = expanding
+									layoutpolicy_vertical = expanding
+
+									hbox = {
+										layoutpolicy_horizontal = expanding
+
+										dynamicgridbox = {
+											datamodel = "[AccessPlayer.AccessLawsWithGovernmentOrMovementSupport]"
+
+											item = {
+												container = {
+													visible = "[And(Law.IsVisible, IsValid(Law.StartEnacting))]"
+													minimumsize = { 0 100 }
+
+													flowcontainer = {
+														direction = vertical
+
+														flowcontainer = {
+															direction = horizontal
+															minimumsize = { 0 80 }
+															margin = { 10 10 }
+															spacing = 5
+
+															background = {
+																using = entry_bg_simple
+															}
+
+															law_icon = {
+																size = { 70 70 }
+															}
+
+															flowcontainer = {
+																parentanchor = vcenter
+																direction = vertical
+
+																textbox = {
+																	text = "[Law.GetGroup.GetNameNoFormatting]"
+																	size = { 320 20 }
+																	align = left|nobaseline
+																}
+
+																textbox = {
+																	text = "LAW"
+																	size = { 320 30 }
+																	align = left|nobaseline
+																	using = fontsize_xl
+																}
+															}
+
+															expand = {}
+
+															approval_info_small = {
+																parentanchor = vcenter
+																blockoverride "progressbar_size" {
+																	size = { 70 9 }
+																}
+															}
+
+															button = {
+																visible = "[And(Not(Law.IsBeingEnacted), IsValid(Law.StartEnacting))]"
+																parentanchor = vcenter
+																size = { 160 60 }
+
+																using = default_button
+																tooltip = "TOOLTIP_ENACT_LAW"
+
+																flowcontainer = {
+																	parentanchor = center
+																	direction = vertical
+
+																	textbox = {
+																		text = "POLITICS_PANEL_HEADER_CHANGE_LAW"
+																		align = center|nobaseline
+																		size = { 0 20 }
+																	}
+																	textbox = {
+																		text = "[Law.GetCheckpointSuccessChance|v0%]"
+																		align = center|nobaseline
+																		size = { 0 20 }
+																	}
+																}
+
+																enabled = "[IsValid(Law.StartEnacting)]"
+																onclick = "[Execute(Law.StartEnacting)]"
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+
+									expand = {}
+								}
+							}
+						}
+					}
+
 					### IGs
 					hbox = {
 						layoutpolicy_horizontal = expanding
 						layoutpolicy_vertical = expanding
+						datacontext = "[GetPlayer.GetLawBeingEnacted]"
+						visible = "[Or( Law.IsBeingEnacted, Not(GetVariableSystem.Exists('visual_leaders_laws')))]"
 
 						### GOVERNMENT
 						vbox = {
@@ -679,6 +910,8 @@ types politics_panel_types
 							}
 						}
 					}
+
+					expand = {}
 				}
 			}
 		}
@@ -738,35 +971,51 @@ types politics_panel_types
 								margin_left = 5
 							}
 
-							### IG CLOUT GRAPH TOGGLE BUTTON
+							### EXTRA DATA SWITCH BUTTONS
 							widget = {
 								size = { 30 30 }
 
-								button_icon_round_toggle = {
-									size = { 29 29 }
-									parentanchor = right|vcenter
-
-									blockoverride "on_click" {
-										onclick = "[GetVariableSystem.Toggle('visual_leaders_show_clout')]"
-									}
-									blockoverride "view_1" {
-										visible = "[Not(GetVariableSystem.Exists('visual_leaders_show_clout'))]"
-									}
-									blockoverride "view_2" {
-										visible = "[GetVariableSystem.Exists('visual_leaders_show_clout')]"
-									}
-									blockoverride "icon_1" {
+								button_icon_round = {
+									blockoverride "icon" {
 										texture = "gfx/interface/buttons/button_icons/piecharts.dds"
 									}
-									blockoverride "icon_2" {
+									visible = "[Not(GetVariableSystem.HasValue('visual_leaders_extra', 'clout'))]"
+									onclick = "[GetVariableSystem.Set('visual_leaders_extra', 'clout')]"
+									tooltip = "CLOUT"
+									using = tooltip_above
+								}
+								button_icon_round = {
+									blockoverride "icon" {
 										texture = "gfx/interface/buttons/button_icons/back.dds"
 									}
-									blockoverride "tooltip_1" {
-										tooltip = "CLOUT"
+									visible = "[GetVariableSystem.HasValue('visual_leaders_extra', 'clout')]"
+									onclick = "[GetVariableSystem.Clear('visual_leaders_extra')]"
+									tooltip = "BACK"
+									using = tooltip_above
+								}
+							}
+
+							widget = {
+								visible = no		# hide temporarily
+								size = { 30 30 }
+
+								button_icon_round = {
+									blockoverride "icon" {
+										texture = "gfx/interface/buttons/button_icons/areacharts.dds"
 									}
-									blockoverride "tooltip_2" {
-										tooltip = "BACK"
+									visible = "[Not(GetVariableSystem.HasValue('visual_leaders_extra', 'support'))]"
+									onclick = "[GetVariableSystem.Set('visual_leaders_extra', 'support')]"
+									tooltip = "SUPPORT"
+									using = tooltip_above
+								}
+								button_icon_round = {
+									blockoverride "icon" {
+										texture = "gfx/interface/buttons/button_icons/back.dds"
 									}
+									visible = "[GetVariableSystem.HasValue('visual_leaders_extra', 'support')]"
+									onclick = "[GetVariableSystem.Clear('visual_leaders_extra')]"
+									tooltip = "BACK"
+									using = tooltip_above
 								}
 							}
 						}
@@ -783,30 +1032,22 @@ types politics_panel_types
 									minimumsize = { 250 395 }
 									datacontext = "[InterestGroup.AccessLeader]"
 
-									tooltipwidget = {
-										FancyTooltip_Character = {}
-									}
-
 									flowcontainer = {
 										direction = vertical
 										parentanchor = hcenter
 
-										### LEADER PORTRAIT
-										character_portrait_large_torso = {
+										container = {
 											parentanchor = hcenter
-											blockoverride "show_hat" {}
-											blockoverride "highlight" {}
-											blockoverride "portrait_icons" {}
 
-											### IG CLOUT GRAPH
-											visual_leaders_plotline = {
-												visible = "[GetVariableSystem.Exists('visual_leaders_show_clout')]"
-												parentanchor = center
-												position = { 0 25 }
-												blockoverride "size" {
-													size = { 130 60 }
+											### LEADER PORTRAIT
+											character_portrait_large_torso = {
+												blockoverride "show_hat" {}
+												blockoverride "highlight" {}
+												blockoverride "portrait_icons" {}
+
+												tooltipwidget = {
+													FancyTooltip_Character = {}
 												}
-												blockoverride "multiitem" {}
 											}
 
 											### IG ICON
@@ -841,15 +1082,6 @@ types politics_panel_types
 												using = fontsize_large
 											}
 
-											### IG IN GOVERNMENT
-											icon = {
-												parentanchor = bottom|left
-												visible = "[InterestGroup.IsInGovernment]"
-												texture = "gfx/interface/icons/generic_icons/in_government_icon.dds"
-												position = { 5 -5 }
-												size = { 40 40 }
-											}
-
 											### IG SUPPRESSED / BOLSTERED
 											icon = {
 												parentanchor = top|right
@@ -868,82 +1100,128 @@ types politics_panel_types
 												size = { 35 35 }
 											}
 
-											### IDEOLOGY
-											icon = {
-												parentanchor = bottom|right
-												position = { -5 -5 }
-												size = { 40 40 }
-												datacontext = "[Character.GetIdeology]"
-												texture = "[Ideology.GetTexture]"
-												tooltipwidget = {
-													FancyTooltip_Ideology = {}
+											### IG CLOUT GRAPH
+											visual_leaders_plotline = {
+												visible = "[GetVariableSystem.HasValue('visual_leaders_extra', 'clout')]"
+												parentanchor = center
+												position = { 0 25 }
+												blockoverride "size" {
+													size = { 130 60 }
 												}
+												blockoverride "multiitem" {}
 											}
 
-											### POPULARITY
+											### IG SUPPORT LIST
 											textbox = {
-												parentanchor = bottom|hcenter
-												position = { 0 -40 }
-												text = "[Character.GetPopularity|v+0]"
-												tooltip = "POPULARITY_BREAKDOWN"
-												maximumsize = { 50 20 }
-												minimumsize = { 50 20 }
-												align = nobaseline|center
-												using = fontsize_large
+												visible = "[GetVariableSystem.HasValue('visual_leaders_extra', 'support')]"
+												parentanchor = center
+												position = { 0 20 }
+												maximumsize = { 210 185 }
+												minimumsize = { 210 185 }
+												multiline = yes
+												align = center
+												text = "[InterestGroup.GetSupportingPopTypesDesc]"
 												background = {
 													using = dark_area
-													alpha = 0.3
+													alpha = 0.7
+												}
+											}
+
+											widget = {
+												visible = "[Not(GetVariableSystem.HasValue('visual_leaders_extra', 'support'))]"
+												size = { 100% 100% }
+
+												### IG IN GOVERNMENT
+												icon = {
+													parentanchor = bottom|left
+													visible = "[InterestGroup.IsInGovernment]"
+													texture = "gfx/interface/icons/generic_icons/in_government_icon.dds"
+													position = { 5 -5 }
+													size = { 40 40 }
+												}
+
+												### IDEOLOGY
+												icon = {
+													parentanchor = bottom|right
+													position = { -5 -5 }
+													size = { 40 40 }
+													datacontext = "[Character.GetIdeology]"
+													texture = "[Ideology.GetTexture]"
+													tooltipwidget = {
+														FancyTooltip_Ideology = {}
+													}
+												}
+
+												### POPULARITY
+												textbox = {
+													parentanchor = bottom|hcenter
+													position = { 0 -40 }
+													text = "[Character.GetPopularity|v+0]"
+													tooltip = "POPULARITY_BREAKDOWN"
+													maximumsize = { 50 20 }
+													minimumsize = { 50 20 }
+													align = nobaseline|center
+													using = fontsize_large
+													background = {
+														using = dark_area
+														alpha = 0.3
+													}
 												}
 											}
 										}
 
-										### IG NAME
-										textbox = {
+										flowcontainer = {
+											direction = vertical
 											parentanchor = hcenter
-											text = "[Character.GetInterestGroup.GetNameNoIcon]"
-											maximumsize = { 240 -1 }
-											minimumsize = { 240 -1 }
-											autoresize = yes
-											elide = right
-											align = nobaseline|center
-										}
 
-										### LEADER NAME
-										textbox = {
-											parentanchor = hcenter
-											text = "[Character.GetCustom('GetUniversalFullNameNoFormatting')], [Character.GetAge]"
-											maximumsize = { 240 44 }
-											minimumsize = { 240 44 }
-											autoresize = yes
-											elide = right
-											align = nobaseline|center
-											fontsize_min = 14
-											background = {
-												using = default_header_bg_faded
+											### IG NAME
+											textbox = {
+												parentanchor = hcenter
+												text = "[Character.GetInterestGroup.GetNameNoIcon]"
+												maximumsize = { 240 -1 }
+												minimumsize = { 240 -1 }
+												autoresize = yes
+												elide = right
+												align = nobaseline|center
 											}
-										}
 
-										spacer = {
-											size = { 0 5 }
-										}
+											### LEADER NAME
+											textbox = {
+												parentanchor = hcenter
+												text = "[Character.GetCustom('GetUniversalFullNameNoFormatting')], [Character.GetAge]"
+												maximumsize = { 240 44 }
+												minimumsize = { 240 44 }
+												autoresize = yes
+												elide = right
+												align = nobaseline|center
+												fontsize_min = 14
+												background = {
+													using = default_header_bg_faded
+												}
+											}
 
-										### LEADER TRAITS
-										dynamicgridbox = {
-											parentanchor = top|hcenter
-											flipdirection = yes
-											datamodel = "[Character.AccessTraits]"
+											spacer = {
+												size = { 0 5 }
+											}
 
-											item = {
-												widget = {
-													size = { 32 42 }
+											### LEADER TRAITS
+											dynamicgridbox = {
+												parentanchor = top|hcenter
+												flipdirection = yes
+												datamodel = "[Character.AccessTraits]"
 
-													icon = {
-														size = { 30 42 }
-														texture = "[CharacterTrait.GetTexture]"
-														using = tooltip_above
+												item = {
+													widget = {
+														size = { 32 42 }
 
-														tooltipwidget = {
-															FancyTooltip_CharacterTrait = {}
+														icon = {
+															size = { 30 42 }
+															texture = "[CharacterTrait.GetTexture]"
+															using = tooltip_above
+
+															tooltipwidget = {
+																FancyTooltip_CharacterTrait = {}
+															}
 														}
 													}
 												}

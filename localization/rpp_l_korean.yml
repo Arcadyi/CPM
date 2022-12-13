@@ -1,0 +1,37 @@
+﻿l_korean:
+
+ building_hydroelectric_power_plant:0 "수력 발전소"
+ 
+ pmg_base_building_hydroelectric_power_plant:0 "수력 발전"
+ pm_hydroelectric_plant:0 "수력 발전"
+ 
+ pm_transmission_method:0 "송전 방법"
+ pm_transmission_method_direct_current:0 "직류"
+ pm_transmission_method_alternating_current:0 "교류"
+ 
+ modifier_state_building_hydroelectric_power_plant_max_level_add:0 "$building_hydroelectric_power_plant$ 최고 단계"
+ modifier_state_building_hydroelectric_power_plant_max_level_add_desc:0 "$building_hydroelectric_power_plant$ 건물 최고 단계에 대한 보너스 또는 불이익"
+ modifier_building_hydroelectric_power_plant_throughput_mult:0 "$building_hydroelectric_power_plant$ 건물 [concept_throughput]"
+ modifier_building_hydroelectric_power_plant_throughput_mult_desc:0 "$building_hydroelectric_power_plant$의 투입량과 산출량 양측에 대한 보너스 또는 불이익"
+ 
+ state_trait_hangang_river:0 "한강"
+ state_trait_daedong_river:0 "대동강"
+ state_trait_geumgang_river:0 "금강"
+ state_trait_nakdong_river:0 "낙동강"
+ 
+ state_trait_arakawa_river:0 "아라카와강"
+ state_trait_yodo_river:0 "요도강"
+ state_trait_hirose_river:0 "히로세강"
+ 
+ state_trait_meuse_river:0 "뫼즈강"
+ state_trait_gironde_river:0 "지롱드강"
+ state_trait_capital_of_white_coal:0 "백탄의 수도"
+ 
+ state_trait_jotunheimen_river:0 "요툰헤이멘강"
+ state_trait_glomma_river:0 "글로마강"
+ state_trait_nordfjella_river:0 "노르드펠라강"
+ 
+ state_trait_magdalena_river:0 "마그달레나강"
+ state_trait_orinoco_river:0 "오리노코강"
+ 
+ state_trait_colorado_river:0 "콜로라도강"
