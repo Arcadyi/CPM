@@ -21,6 +21,8 @@ law_traditionalism = {
 	modifier = {
 		state_bureaucracy_population_base_cost_factor_mult = -0.25
 		state_tax_capacity_mult = -0.25
+		country_government_wages_mult = -0.25
+		country_authority_mult = -0.25
 		
 		country_subsidies_bg_infrastructure = yes
 		country_subsidies_bg_trade = yes
@@ -55,15 +57,14 @@ law_interventionism = {
 	
 	unlocking_technologies = {
 		manufacturies
-	}
+	}	
 	
 	modifier = {
-		state_aristocrats_investment_pool_contribution_add = 0.05
+		interest_group_ig_petty_bourgeoisie_pop_attraction_mult = 0.25
+		state_shopkeepers_investment_pool_contribution_add = 0.25	
 		state_capitalists_investment_pool_contribution_add = 0.25
 			
 		country_subsidies_all = yes
-		
-		state_bureaucrats_investment_pool_contribution_add = 0.90
 	}
 
 	build_from_investment_pool = {
@@ -102,15 +103,16 @@ law_agrarianism = {
 	}
 	
 	modifier = {
-		state_aristocrats_investment_pool_contribution_add = 0.25	
+		state_farmers_investment_pool_contribution_add = 0.5
+		state_aristocrats_investment_pool_contribution_add = 0.25
+		state_clergymen_investment_pool_contribution_add = 0.25		
+		interest_group_ig_rural_folk_pop_attraction_mult = 0.25
 		
 		country_subsidies_bg_agriculture = yes
 		country_subsidies_bg_ranching = yes
 		country_subsidies_bg_plantations = yes
 		country_subsidies_bg_infrastructure = yes
 		country_subsidies_bg_trade = yes
-		
-		state_bureaucrats_investment_pool_contribution_add = 0.90
 	}
 
 	build_from_investment_pool = {
@@ -156,13 +158,11 @@ law_laissez_faire = {
 	
 	modifier = {
 		country_loan_interest_rate_mult = -0.25
-		
+		interest_group_ig_industrialists_pop_attraction_mult = 0.25
 		state_capitalists_investment_pool_contribution_add = 0.5	
 		
 		country_subsidies_bg_infrastructure = yes
 		country_subsidies_bg_trade = yes
-		
-		state_bureaucrats_investment_pool_contribution_add = 0.90
 	}
 
 	build_from_investment_pool = {
@@ -202,27 +202,29 @@ law_command_economy = {
 	on_activate = {
 	}
 	
+	tax_modifier_very_low = {
+		tax_dividends_add = 0.25
+	}	
+	tax_modifier_low = {
+		tax_dividends_add = 0.25
+	}
+	tax_modifier_medium = {
+		tax_dividends_add = 0.25
+	}	
+	tax_modifier_high = {
+		tax_dividends_add = 0.25
+	}
+	tax_modifier_very_high = {
+		tax_dividends_add = 0.25
+	}
+	
 	modifier = {
 		country_mandate_subsidies = yes
 		
+		state_construction_mult = 0.25
 		state_tax_capacity_mult = 0.25	
-		country_authority_mult = 0.25								
-		
-		state_bureaucrats_investment_pool_contribution_add = 0.95						
-	}
-
-	build_from_investment_pool = {
-		bg_agriculture
-		bg_plantations
-		bg_ranching
-		bg_manufacturing
-		bg_mining
-		bg_logging
-		bg_rubber
-		bg_whaling
-		bg_fishing
-		bg_oil_extraction
-		bg_infrastructure
+		country_authority_mult = 0.25
+		country_bureaucrats_pol_str_mult = 0.25
 	}
 	
 	possible_political_movements = {

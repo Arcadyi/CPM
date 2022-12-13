@@ -1,0 +1,70 @@
+﻿pmg_ownership_land_building_rye_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned
+		pm_publicly_traded
+		pm_government_run
+		pm_worker_cooperative_farm
+		pm_merchant_guilds_aggriculture
+	}
+}
+
+pmg_ownership_land_building_wheat_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned
+		pm_publicly_traded
+		pm_government_run
+		pm_worker_cooperative_farm
+		pm_hereditary_owned
+		pm_merchant_guilds_aggriculture
+	}
+}
+
+pmg_ownership_land_building_rice_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned
+		pm_publicly_traded
+		pm_government_run
+		pm_worker_cooperative_farm
+		pm_hereditary_owned 
+		pm_merchant_guilds_aggriculture
+	}
+}
+
+pmg_ownership_land_building_maize_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned
+		pm_publicly_traded
+		pm_government_run
+		pm_worker_cooperative_farm
+		pm_hereditary_owned 
+		pm_merchant_guilds_aggriculture
+	}
+}
+
+pmg_ownership_land_building_millet_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned
+		pm_publicly_traded
+		pm_government_run
+		pm_worker_cooperative_farm
+		pm_hereditary_owned 
+		pm_merchant_guilds_aggriculture
+	}
+}
+
+pmg_ownership_land_building_livestock_ranch = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned
+		pm_publicly_traded
+		pm_government_run
+		pm_worker_cooperative_farm
+		pm_hereditary_owned 
+		pm_merchant_guilds_aggriculture
+	}
+}
