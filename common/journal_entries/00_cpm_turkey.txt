@@ -1,7 +1,7 @@
 je_oriental_crisis1 = {
     icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	should_be_pinned_by_default = yes
-	progressbar = yes
+	progressbar = no
 	is_shown_when_inactive = {
 		AND = {
 			c:TUR = this
@@ -26,10 +26,6 @@ je_oriental_crisis1 = {
 	}
 	
 	immediate = {
-		set_variable = {
-			name = oriental_crisis_countdown_var
-			value = 0
-		}
 		c:TUR = {
 			save_scope_as = turkey_scope
 		}
@@ -38,15 +34,6 @@ je_oriental_crisis1 = {
 		}
 	}
 	
-	on_monthly_pulse = {
-		effect = {
-			change_variable = {
-				name = oriental_crisis_countdown_var
-				add = 1
-			}
-		}
-	}
-
 	possible = {
 		AND = {
 			c:TUR = this
@@ -68,51 +55,45 @@ je_oriental_crisis1 = {
 			}
 		}
 	}
-	current_value = {
-		value = root.var:oriental_crisis_countdown_var
-	}
-	goal_add_value = {
-		value = 12
-	}
 	complete = {
-				scope:journal_entry = {
-					is_goal_complete = yes
-				}
+		c:TUR = {
+			owns_entire_state_region = STATE_ADANA
+			owns_entire_state_region = STATE_ALEPPO
+			owns_entire_state_region = STATE_SYRIA
+			owns_entire_state_region = STATE_LEBANON
+			owns_entire_state_region = STATE_TRANSJORDAN
+			owns_entire_state_region = STATE_PALESTINE
+			c:EGY = {
+				is_subject_of = c:TUR
+			}
+		}
 	}
 	on_complete = {
-		trigger_event = oriental_crisis.1
 	}
-}
-
-je_oriental_crisis2 = {
-	should_be_pinned_by_default = yes
-	is_shown_when_inactive = {
-		AND = {
-			c:TUR = this
-			c:TUR = {
-				NOT = {
-				owns_entire_state_region = STATE_ADANA
-				owns_entire_state_region = STATE_ALEPPO
-				owns_entire_state_region = STATE_SYRIA
-				owns_entire_state_region = STATE_LEBANON
-				owns_entire_state_region = STATE_TRANSJORDAN
-				owns_entire_state_region = STATE_PALESTINE
-				}
-			}
-			hidden_trigger = {
-				NOT = {
-					has_global_variable = orientalcrisisended
-				}
-			}
-			#year >= 1838
-		}
-	}
-	immediate = {
+	fail = {
 		c:TUR = {
-			save_scope_as = turkey_scope
-		}
-		c:EGY = {
-			save_scope_as = egypt_scope
+			NOT = {
+			owns_entire_state_region = STATE_ADANA
+			owns_entire_state_region = STATE_ALEPPO
+			owns_entire_state_region = STATE_SYRIA
+			owns_entire_state_region = STATE_LEBANON
+			owns_entire_state_region = STATE_TRANSJORDAN
+			owns_entire_state_region = STATE_PALESTINE
+			c:EGY = {
+				is_subject_of = c:TUR
+			}
+			}
 		}
 	}
+	on_fail = {
+		trigger_event = {
+			id = oriental_crisis.1
+		}
+	}
+	on_timeout = {
+		trigger_event = {
+			id = oriental_crisis.1
+		}
+	}
+	timeout = 30 # 1300
 }

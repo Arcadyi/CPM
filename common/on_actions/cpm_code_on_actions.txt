@@ -10,5 +10,13 @@ on_monthly_pulse_country = {
 		hungarian_revolution.4
 		hungarian_revolution.5
 		hungarian_revolution.6
+		oriental_crisis.2
+		oriental_crisis.3
+		oriental_crisis.4 
+		oriental_crisis.5
+		oriental_crisis.6
+		oriental_crisis.7
+		oriental_crisis.8
+		oriental_crisis.9 
 	}
 }

@@ -23,3 +23,6 @@ ai_hungary_gain_independence_desc:0 "This nation seeks to gain independence and 
 # Oriental Crisis
 willtakebackalllandtur:0 "[SCOPE.sCountry('turkey_scope').GetName] will immediately declare war on [SCOPE.sCountry('egypt_scope').GetName] to reclaim their lost lands in Syria and the Levant."
 ottomansloseclaim:0 "[SCOPE.sCountry('turkey_scope').GetName] will lose all claims to Syria and the Levant."
+egyptultimatumsend:0 "[GetPlayer.GetNameNoFlag] along with other delegates participating in the Convention of London will send an ultimatum to [SCOPE.sCountry('egypt_scope').GetNameNoFlag]"
+willcauseinterventionoc:0 "Rejecting may cause Convention of London members to declare war on [SCOPE.sCountry('egypt_scope').GetNameNoFlag]"
+willcausesurrenderoc:0 "Accepting will cause us to surrender to the [SCOPE.sCountry('turkey_scope').GetName] and give up all claimed lands immediately"
