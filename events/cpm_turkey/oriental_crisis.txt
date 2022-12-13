@@ -805,6 +805,7 @@ oriental_crisis.9 = { # Oriental Crisis over / Egypt loses
         }
     }
     immediate = {
+        set_global_variable = orientalcrisisended
         c:EGY = {
             save_scope_as = egypt_scope
             every_state = {
