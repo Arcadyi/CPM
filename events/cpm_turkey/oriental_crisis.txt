@@ -80,6 +80,9 @@ oriental_crisis.1 = { #Oriental Crisis Begin, Ottoman option to attack or not
                 type = je_oriental_crisis2
             }
       }
+      ai_chance = {
+        base = 70
+      }
     }
 
     option = {
@@ -108,7 +111,10 @@ oriental_crisis.1 = { #Oriental Crisis Begin, Ottoman option to attack or not
                 remove_claim = c:TUR
             }
         }
-      }
+        ai_chance = {
+            base = 30
+        }
+    }
 }
 oriental_crisis.2 = { # Ottoman Fleet Defects
     type = country_event
@@ -145,7 +151,7 @@ oriental_crisis.2 = { # Ottoman Fleet Defects
                     level = 10
                 }
             }
-            
+            save_scope_as = egypt_scope
         }
     }
 
@@ -160,6 +166,9 @@ oriental_crisis.2 = { # Ottoman Fleet Defects
 
     option = {
         name = oriental_crisis.2.a
+        ai_chance = {
+            base = 100
+        }
     }
 }
 oriental_crisis.3 = { # Great Powers Intervene(or not)
@@ -290,16 +299,23 @@ oriental_crisis.8 = { # Egypt Receives Ultimatum
     trigger = {
         has_global_variable = orientalcrisisintervention
         c:EGY = {
+            OR = {
             NOT = {
                 has_variable = receivedultimatumAUS
+            }
+            NOT = {
                 has_variable = receivedultimatumPRU
+            }
+            NOT = {
                 has_variable = receivedultimatumGBR
+            }
+            NOT = {
                 has_variable = receivedultimatumRUS
             }
         }
+        }
             AND = {
-                this = c:EGY
-                has_variable = orientalcrisisintervention
+                root = c:EGY
                 NOT = {
                     has_war_with = c:AUS
                     has_war_with = c:PRU
@@ -361,6 +377,9 @@ oriental_crisis.8 = { # Egypt Receives Ultimatum
         custom_tooltip = {
             text = willcauseinterventionoc
         }
+        ai_chance = {
+            base = 70
+        }
     }
     option = { #Egypt Accepts
         name = oriental_crisis.8.b
@@ -393,6 +412,9 @@ oriental_crisis.8 = { # Egypt Receives Ultimatum
                     country = c:EGY
                     type = puppet
                 }
+            }
+            ai_chance = {
+                base = 30
             }
     }
 }
@@ -470,6 +492,9 @@ oriental_crisis.4 = { # Austria Intervenes
                         type = return_state
                         target_state = s:STATE_PALESTINE.region_state:EGY
                     }
+                }
+                ai_chance = {
+                    base = 100
                 }
 
     }
@@ -549,7 +574,9 @@ oriental_crisis.5 = { # Prussia Intervenes
                         target_state = s:STATE_PALESTINE.region_state:EGY
                     }
                 }
-
+                ai_chance = {
+                    base = 100
+                }
     }
 }
 oriental_crisis.6 = { # Great Britain Intervenes
@@ -627,7 +654,9 @@ oriental_crisis.6 = { # Great Britain Intervenes
                         target_state = s:STATE_PALESTINE.region_state:EGY
                     }
                 }
-
+                ai_chance = {
+                    base = 100
+                }
     }
 }
 oriental_crisis.7 = { # Russia Intervenes
@@ -655,9 +684,6 @@ oriental_crisis.7 = { # Russia Intervenes
         }
         c:EGY = {
                 has_variable = receivedultimatumRUS
-                NOT = {
-                    has_varia
-                }
         }
     }
     immediate = {
@@ -708,7 +734,9 @@ oriental_crisis.7 = { # Russia Intervenes
                         target_state = s:STATE_PALESTINE.region_state:EGY
                     }
                 }
-
+                ai_chance = {
+                    base = 100
+                }
     }
 }
 
@@ -798,5 +826,8 @@ oriental_crisis.9 = { # Oriental Crisis over / Egypt loses
         }
         option = {
             name = oriental_crisis.9.a
+            ai_chance = {
+                base = 100
+            }
         }
 }
