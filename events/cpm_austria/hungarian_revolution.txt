@@ -393,23 +393,25 @@ hungarian_revolution.4 = { #Hungary Wins
     icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
     trigger = {
+       and = {
+        exists = c:HUN
+        exists = c:AUS
+       }
         OR = {
             AND = {
-                ROOT = c:AUS
-                EXISTS = c:AUS
+                THIS = c:HUN
             }
             AND = {
-                ROOT = c:HUN
-                EXISTS = c:HUN
+                THIS = c:AUS
             }
         }
         c:HUN = {
-            is_at_war = NO
-            is_subject = NO
-            has_global_variable = hungarian_revolution_begun
-            NOT = {
-                has_global_variable = hungarian_revolution_ended
-            }
+            is_at_war = no
+            is_subject = no
+        }
+        has_global_variable = hungarian_revolution_begun
+        NOT = {
+            has_global_variable = hungarian_revolution_ended
         }
     }
    immediate = {
@@ -417,11 +419,12 @@ hungarian_revolution.4 = { #Hungary Wins
    }
    option = {
         name = hungarian_revolution.4.a
-            c:HUN = {
+            scope.c:HUN = {
                 country_prestige_add = 100
             }
         } 
 }
+
 hungarian_revolution.7 = {
     type = country_event
     placement = ROOT
