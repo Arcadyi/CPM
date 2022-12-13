@@ -397,3 +397,4 @@ In total over 18,000 lines of code have been changed, resulting in a lowered err
 - Rebalanced Historical Pop Growth figures.
 - Removed Flavorful laws.
 - Lowered Mod size.
+- All Quiet on the Western Front integrated.

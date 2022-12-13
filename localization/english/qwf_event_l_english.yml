@@ -1,6 +1,6 @@
 ﻿l_english:
  geneva_conventions.2.t:0 "Challengers of Order"
- geneva_conventions.1.t:0 "The creation of League of Nations"
+ geneva_conventions.1.t:0 "The Creation of the League of Nations"
  geneva_conventions.1.d:0 "As more and more countries acceded to the Geneva Conventions, the Powers decided to create a joint international organisation with the main purpose of preserving peace, reducing armaments and imposing mandates, and settling international disputes peacefully. With [SCOPE.sCountry('country_ranking_1').GetName], [SCOPE.sCountry('country_ranking_2').GetName], [SCOPE.sCountry('country_ranking_3').GetName] and [SCOPE.sCountry('country_ranking_4').GetName] were elected as permanent members and the League of Nations was officially proclaimed."
  qwf_gw.0002.t:0 "Challengers of Order"
  qwf_gw.0002.d:0 "With the current international situation on the brink, any [concept_great_power] initiation of a war footing would lead to an uproar. And with [SCOPE.sC('great_power_troublemakers').GetName] now filling that role, our country has long been rendered the [concept_order_challenger] of the current world order, and this is certainly a good opportunity to reshuffle the current order."

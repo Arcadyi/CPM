@@ -5,6 +5,7 @@
 			is_country_type = colonial
 		}
 		NOT = { has_variable = in_geneva_conventions }
+		has_technology_researched = human_rights
 	}
 	possible = {
 		is_at_war = no

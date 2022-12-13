@@ -21,7 +21,7 @@ je_oriental_crisis1 = {
 					has_global_variable = orientalcrisisbegun
 				}
 			}
-			#year >= 1838
+			year >= 1838
 		}
 	}
 	
