@@ -382,3 +382,18 @@ In total over 18,000 lines of code have been changed, resulting in a lowered err
 - Updated Extra Topbar Info.
 
 - Updated Visual Leaders
+<br/>
+    ## v.2.5
+- Fixed and completed Oriental Crisis event chain.
+- Ethnic cleansing is now more clear on its effects.
+- Hungarian Revolution event chain fixed.
+- Tweaks to Pop Growth.
+- Tweaks to Farming.
+- Several formable nations added.
+- Fixed Errors caused by duplicate entries/files.
+- Integrated Newspapers & Magazines.
+- Additional River Traits fixed.
+- Integrated Military Improvements.
+- Rebalanced Historical Pop Growth figures.
+- Removed Flavorful laws.
+- Lowered Mod size.
