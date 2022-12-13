@@ -1,0 +1,178 @@
+﻿
+#骑兵传令
+pm_cavalry_order_transmission = {
+	texture = "gfx/interface/icons/production_method_icons/cavalry.dds"
+	
+	building_modifiers = {
+		level_scaled = {
+		}
+	}
+}
+#电报传令
+pm_electric_telegraph_order_transmission = {
+	texture = "gfx/interface/icons/production_method_icons/electric_engines.dds"
+	
+	unlocking_technologies = {
+		electric_telegraph
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tools_add = 1
+			building_input_electricity_add = 1
+		}
+		level_scaled = {
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 1
+		}
+	}
+}
+#电话传令
+pm_telephone_order_transmission = {
+	texture = "gfx/interface/icons/production_method_icons/telephone_switchboards.dds"
+	
+	unlocking_technologies = {
+		telephone
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_telephones_add = 1
+			building_input_electricity_add = 3
+		}
+		level_scaled = {
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 2
+		}
+	}
+}
+#无线电传令
+pm_radio_order_transmission = {
+	texture = "gfx/interface/icons/production_method_icons/unused/radio_stations.dds"
+	
+	unlocking_technologies = {
+		radio
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_radios_add = 1
+			building_input_electricity_add = 5
+		}
+		level_scaled = {
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 3
+		}
+	}
+}
+
+pm_balanced_war_order = {
+	texture = "gfx/interface/icons/battle_conditions/unused/battle_condition_risky_maneuver.dds"
+}
+pm_not_attack_complex_terrain_war_order = {
+	texture = "gfx/interface/icons/battle_conditions/battle_condition_mud.dds"
+	disallowing_laws = {
+		law_peasant_levies
+	}
+}
+pm_not_far_from_coastline_war_order = {
+	texture = "gfx/interface/icons/commander_order_icons/patrol_coast.dds"
+	disallowing_laws = {
+		law_peasant_levies
+	}
+}
+pm_attack_city_area_war_order = {
+	texture = "gfx/interface/icons/production_method_icons/unused/stock_exchange.dds"
+	disallowing_laws = {
+		law_peasant_levies
+	}
+}
+pm_attack_supply_lines_war_order = {
+	texture = "gfx/interface/icons/battle_conditions/battle_condition_broken_supply_line.dds"
+	disallowing_laws = {
+		law_peasant_levies
+	}
+}
+##训练
+pm_minimal_training = {
+	texture = "gfx/interface/icons/production_method_icons/no_specialists.dds"
+
+	building_modifiers = {
+		unscaled = {
+			unit_army_offense_mult = -0.2
+			unit_army_defense_mult = -0.2
+			building_training_rate_mult = 0.2
+		}
+	}
+	state_modifiers = {
+		
+	}
+}
+pm_initial_training = {
+	texture = "gfx/interface/icons/production_method_icons/unused/guns.dds"
+	is_default = yes
+	unlocking_technologies = {
+		army_reserves
+	}
+
+	building_modifiers = {
+		unscaled = {
+			unit_army_offense_mult = -0.1
+			unit_army_defense_mult = -0.1
+			building_training_rate_mult = 0.1
+		}
+	}
+	state_modifiers = {
+		
+	}
+}
+pm_professional_training = {
+	texture = "gfx/interface/icons/production_method_icons/unused/skirmish_infantry_old.dds"
+
+	unlocking_technologies = {
+		logistics
+	}
+	
+	unlocking_laws = {
+		law_professional_army
+		law_national_militia
+		law_mass_conscription
+	}
+
+	building_modifiers = {
+		level_scaled = {
+		}
+	}
+}
+pm_elite_training = {
+	texture = "gfx/interface/icons/production_method_icons/squad_infantry.dds"
+
+	unlocking_technologies = {
+		wargaming
+		prussian_reform
+	}
+	
+	unlocking_laws = {
+		law_professional_army
+	}
+
+	building_modifiers = {
+		unscaled = {
+			unit_army_offense_mult = 0.2
+			unit_army_defense_mult = 0.2
+			building_training_rate_mult = -0.2
+		}
+	}
+	state_modifiers = {
+		
+	}
+}

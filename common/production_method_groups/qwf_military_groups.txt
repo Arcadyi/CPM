@@ -1,0 +1,132 @@
+﻿pmg_fortifications_building_structure = {
+	ai_selection = most_productive
+	
+	production_methods = {
+		pm_fortifications_brick_and_stone
+		pm_fortifications_steel_reinforced_concrete
+		pm_fortifications_semi_underground_concrete
+	}
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+}
+
+pmg_fortifications_battery = {
+	ai_selection = most_productive
+	
+	production_methods = {
+		pm_fortifications_no_battery
+		pm_fortifications_cannon_battery
+		pm_fortifications_shell_gun_battery
+		pm_fortifications_shrapnel_battery
+		pm_fortifications_siege_battery
+	}
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+}
+
+pmg_frontline_positions = {
+	ai_selection = most_productive
+	
+	production_methods = {
+		pm_fortifications_no_frontline_defence
+		pm_fortifications_shooting_slopes
+		pm_fortifications_barbed_wire
+		pm_fortifications_outer_bunker_complex
+	}
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+}
+#总参谋部系统
+pmg_military_staff_system = {
+	ai_selection = most_productive
+	
+	production_methods = {
+		pm_no_staff_system
+		pm_professional_staff_system
+		pm_complete_analysis_staff_system
+		pm_modern_command_system_staff_system
+	}
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+}
+#后勤补给
+pmg_logistics_supply = {
+	ai_selection = most_productive
+	
+	production_methods = {
+		pm_logistics_supply_low
+		pm_logistics_supply_normal
+		pm_logistics_supply_train_transportation
+		pm_logistics_supply_aircraft_transportation
+	}
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+}
+#传令方式
+pmg_order_transmission_method = {
+	ai_selection = most_productive
+	
+	production_methods = {
+		pm_cavalry_order_transmission
+		pm_electric_telegraph_order_transmission
+		pm_telephone_order_transmission
+		pm_radio_order_transmission
+	}
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+}
+#情报分析/废案
+#pmg_intelligence_analysis_system = {
+#	ai_selection = most_productive
+#	
+#	production_methods = {
+#		pm_cavalry_order_transmission
+#		pm_electric_telegraph_order_transmission
+#		pm_telephone_order_transmission
+#		pm_radio_order_transmission
+#	}
+#}
+#战术侧重
+pmg_war_tactical_order = {
+	ai_selection = most_productive
+	
+	production_methods = {
+		pm_balanced_war_tactical_order
+		pm_focus_defense_war_order
+		pm_forced_attack_war_order
+		pm_delaying_defense_war_order
+		pm_fire_support_war_order
+	}
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+}
+#军队指挥权
+pmg_control_of_authority = {
+	ai_selection = most_productive
+	
+	production_methods = {
+		pm_aristocrats_ownership
+		pm_concil_ownership
+		pm_officers_ownership
+		pm_independent_ownership
+	}
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+}
+#训练方式
+pmg_training_methods = {
+	ai_selection = most_productive
+	
+	production_methods = {
+		pm_minimal_training
+		pm_initial_training
+		pm_professional_training
+		pm_elite_training
+	}
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+}
+#军团指令
+pmg_war_order = {
+	ai_selection = most_productive
+	
+	production_methods = {
+		pm_balanced_war_order
+		pm_not_attack_complex_terrain_war_order
+		pm_not_far_from_coastline_war_order
+		pm_attack_city_area_war_order
+		pm_attack_supply_lines_war_order
+	}
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+}

@@ -1,0 +1,440 @@
+﻿on_diplomatic_play_started = {
+	effect = {
+		if = {
+			limit = { 
+				scope:diplomatic_play = {
+					is_diplomatic_play_type = dp_reshape_order_mng
+					global_var:world_tension >= 80
+				}
+			}
+			set_global_variable = world_war_diplomatic_play
+		}
+		else_if = {
+			limit = { 
+				scope:diplomatic_play = {
+					is_diplomatic_play_type = dp_reshape_order_mng
+					global_var:world_tension < 80
+				}
+			}
+			set_global_variable = minor_world_war_diplomatic_play
+		}
+		every_diplomatic_play = {
+			limit = {
+				is_diplomatic_play_type = dp_reshape_order_mng
+				global_var:world_tension >= 80
+			}
+			initiator = {
+				set_variable = gw_side_1
+			}
+			target = {
+				set_variable = gw_side_2
+			}
+		}
+		every_diplomatic_play = {
+			limit = {
+				is_diplomatic_play_type = dp_reshape_order_mng
+				global_var:world_tension >= 60
+				global_var:world_tension < 80
+			}
+			initiator = {
+				set_variable = rom_side_1
+			}
+			target = {
+				set_variable = rom_side_2
+			}
+		}
+	}
+}
+
+on_diplo_play_back_down = {
+	effect = {
+		post_notification = diplo_play_back_down_notification
+		if = {
+			limit = {
+				scope:notification_target = {
+					is_player = yes
+				}
+				scope:actor = {
+					is_player = no
+				}
+			}
+			set_global_variable = achievement_mightier_than_the_sword
+		}
+		if = {
+			limit = { 
+				scope:actor = {
+					#has_modifier = country_humiliated
+					has_variable = rom_side_1
+				}
+			}
+			initiator = {
+				save_scope_as = great_power_leader_lose
+				trigger_event = { id = qwf_gw.2007 days = 1 }
+			}
+			target = {
+				save_scope_as = great_power_leader_won
+				trigger_event = { id = qwf_gw.2008 days = 1 }
+			}
+		}
+		else_if = {
+			limit = { 
+				scope:actor = {
+					#has_modifier = country_humiliated
+					has_variable = rom_side_2
+				}
+			}
+			target = {
+				save_scope_as = great_power_leader_lose
+				trigger_event = { id = qwf_gw.2007 days = 1 }
+			}
+			initiator = {
+				save_scope_as = great_power_leader_won
+				trigger_event = { id = qwf_gw.2008 days = 1 }
+			}
+		}
+		if = {
+			limit = { 
+				scope:actor = {
+					#has_modifier = country_humiliated
+					has_variable = gw_side_1
+				}
+			}
+			initiator = {
+				save_scope_as = great_power_leader_lose
+				trigger_event = { id = qwf_gw.2005 days = 1 }
+			}
+			target = {
+				save_scope_as = great_power_leader_won
+				trigger_event = { id = qwf_gw.2006 days = 1 }
+			}
+			every_country = {
+				limit = {
+					is_ai = no
+					NOR = {
+						has_variable = rom_side_1
+						has_variable = gw_side_1
+						has_variable = rom_side_2
+						has_variable = gw_side_2
+					}
+				}
+				trigger_event = { id = qwf_gw.1003 days = 3 }
+			}
+		}
+		else_if = {
+			limit = { 
+				scope:actor = {
+					#has_modifier = country_humiliated
+					has_variable = gw_side_2
+				}
+			}
+			target = {
+				save_scope_as = great_power_leader_lose
+				trigger_event = { id = qwf_gw.2005 days = 1 }
+			}
+			initiator = {
+				save_scope_as = great_power_leader_won
+				trigger_event = { id = qwf_gw.2006 days = 1 }
+			}
+			every_country = {
+				limit = {
+					is_ai = no
+					NOR = {
+						has_variable = rom_side_1
+						has_variable = gw_side_1
+						has_variable = rom_side_2
+						has_variable = gw_side_2
+					}
+				}
+				trigger_event = { id = qwf_gw.1003 days = 3 }
+			}
+		}
+	}
+}
+
+on_diplo_play_war_start = {
+	effect = {
+		post_notification = diplo_play_war_start_notification
+		post_notification = diplo_play_war_start_third_party_notification
+		if = {
+			limit = { 
+				initiator = { country_rank >= rank_value:great_power }
+				target = { country_rank < rank_value:great_power }
+			}
+			change_global_variable = { name = world_tension add = 1 }
+		}
+		if = {
+			limit = { 
+				initiator = { country_rank >= rank_value:great_power }
+				target = { country_rank >= rank_value:great_power }
+			}
+			change_global_variable = { name = world_tension add = 2 }
+		}
+		if = {
+			limit = { 
+				global_var:world_tension >= 80
+				NOR = { 
+					has_global_variable = world_war_diplomatic_play 
+					has_global_variable = minor_world_war_diplomatic_play
+					has_global_variable = world_war_diplomatic_play_event_going
+				}
+				initiator = {
+					country_rank >= rank_value:great_power
+				}
+			}
+			initiator = {
+				trigger_event = { id = qwf_gw.0001 days = 0 }
+			}
+		}
+		every_diplomatic_play = {
+			limit = {
+				is_diplomatic_play_type = dp_reshape_order_mng
+				global_var:world_tension >= 80
+			}
+			every_scope_initiator_ally = {
+				set_variable = gw_side_1
+			}
+			every_scope_target_ally = {
+				set_variable = gw_side_2
+			}
+			initiator = {
+				set_variable = gw_side_1
+			}
+			target = {
+				set_variable = gw_side_2
+			}
+		}
+		every_diplomatic_play = {
+			limit = {
+				is_diplomatic_play_type = dp_reshape_order_mng
+				global_var:world_tension < 80
+			}
+			initiator = {
+				set_variable = rom_side_1
+			}
+			target = {
+				set_variable = rom_side_2
+			}
+		}
+	}
+}
+
+on_war_end = {
+	effect = {
+		if = {
+			limit = { 
+				scope:actor = {
+					has_modifier = country_humiliated
+					has_variable = gw_side_1
+					OR = {
+						has_global_variable = world_war_diplomatic_play
+						has_global_variable = minor_world_war_diplomatic_play
+					}
+				}
+				scope:target = {
+					NOT = { has_modifier = country_humiliated }
+				}
+				#global_var:world_tension >= 80
+			}
+			every_country = { 
+				limit = {
+					has_variable = gw_side_1
+				}
+				trigger_event = { id = qwf_gw.2001 days = 1 }
+			}
+			every_country = { 
+				limit = {
+					has_variable = gw_side_2
+				}
+				trigger_event = { id = qwf_gw.2002 days = 1 }
+			}
+			every_country = {
+				limit = {
+					is_ai = no
+					NOR = {
+						has_variable = rom_side_1
+						has_variable = gw_side_1
+						has_variable = rom_side_2
+						has_variable = gw_side_2
+					}
+				}
+				trigger_event = { id = qwf_gw.1003 days = 3 }
+			}
+			scope:actor = {
+				save_scope_as = great_power_leader_lose
+			}
+			scope:target = {
+				save_scope_as = great_power_leader_won
+			}
+		}
+		else_if = {
+			limit = { 
+				scope:target = {
+					has_modifier = country_humiliated
+					has_variable = gw_side_2
+					OR = {
+						has_global_variable = world_war_diplomatic_play
+						has_global_variable = minor_world_war_diplomatic_play
+					}
+				}
+				scope:actor = {
+					NOT = { has_modifier = country_humiliated }
+				}
+				#global_var:world_tension >= 80
+			}
+			every_country = { 
+				limit = {
+					has_variable = gw_side_2
+				}
+				trigger_event = { id = qwf_gw.2001 days = 1 }
+			}
+			every_country = { 
+				limit = {
+					has_variable = gw_side_1
+				}
+				trigger_event = { id = qwf_gw.2002 days = 1 }
+			}
+			every_country = {
+				limit = {
+					is_ai = no
+					NOR = {
+						has_variable = rom_side_1
+						has_variable = gw_side_1
+						has_variable = rom_side_2
+						has_variable = gw_side_2
+					}
+				}
+				trigger_event = { id = qwf_gw.1003 days = 3 }
+			}
+			scope:actor = {
+				save_scope_as = great_power_leader_won
+			}
+			scope:target = {
+				save_scope_as = great_power_leader_lose
+			}
+		}
+		if = {
+			limit = { 
+				scope:actor = {
+					has_modifier = country_humiliated
+					NOT = { has_variable = gw_side_1 }
+					OR = {
+						has_global_variable = world_war_diplomatic_play
+						has_global_variable = minor_world_war_diplomatic_play
+					}
+				}
+				scope:target = {
+					NOT = { has_modifier = country_humiliated }
+				}
+				#global_var:world_tension >= 80
+			}
+			scope:actor = {
+				save_scope_as = great_power_leader_lose
+				trigger_event = { id = qwf_gw.2003 days = 1 }
+			}
+			scope:target = {
+				save_scope_as = great_power_leader_won
+				trigger_event = { id = qwf_gw.2004 days = 1 }
+			}
+		}
+		else_if = {
+			limit = { 
+				scope:target = {
+					has_modifier = country_humiliated
+					NOT = { has_variable = gw_side_2 }
+					OR = {
+						has_global_variable = world_war_diplomatic_play
+						has_global_variable = minor_world_war_diplomatic_play
+					}
+				}
+				scope:actor = {
+					NOT = { has_modifier = country_humiliated }
+				}
+				#global_var:world_tension >= 80
+			}
+			scope:target = {
+				save_scope_as = great_power_leader_lose
+				trigger_event = { id = qwf_gw.2003 days = 1 }
+			}
+			scope:actor = {
+				save_scope_as = great_power_leader_won
+				trigger_event = { id = qwf_gw.2004 days = 1 }
+			}
+		}
+		if = {
+			limit = { 
+				scope:actor = {
+					has_modifier = country_humiliated
+					OR = {
+						has_global_variable = world_war_diplomatic_play
+						has_global_variable = minor_world_war_diplomatic_play
+					}
+					OR = {
+						has_variable = rom_side_1
+						has_variable = gw_side_1
+						has_variable = rom_side_2
+						has_variable = gw_side_2
+					}
+				}
+				scope:target = {
+					has_modifier = country_humiliated
+					OR = {
+						has_variable = rom_side_1
+						has_variable = gw_side_1
+						has_variable = rom_side_2
+						has_variable = gw_side_2
+					}
+				}
+				#global_var:world_tension >= 80
+			}
+			every_country = {
+				limit = {
+					OR = {
+						has_variable = rom_side_1
+						has_variable = gw_side_1
+						has_variable = rom_side_2
+						has_variable = gw_side_2
+					}
+				}
+				trigger_event = { id = qwf_gw.1006 days = 1 }
+			}
+		}
+		if = {
+			limit = { 
+				scope:actor = {
+					NOT = { has_modifier = country_humiliated }
+					OR = {
+						has_global_variable = world_war_diplomatic_play
+						has_global_variable = minor_world_war_diplomatic_play
+					}
+					OR = {
+						has_variable = rom_side_1
+						has_variable = gw_side_1
+						has_variable = rom_side_2
+						has_variable = gw_side_2
+					}
+				}
+				scope:target = {
+					NOT = { has_modifier = country_humiliated }
+					OR = {
+						has_variable = rom_side_1
+						has_variable = gw_side_1
+						has_variable = rom_side_2
+						has_variable = gw_side_2
+					}
+				}
+				#global_var:world_tension >= 80
+			}
+			every_country = {
+				limit = {
+					OR = {
+						has_variable = rom_side_1
+						has_variable = gw_side_1
+						has_variable = rom_side_2
+						has_variable = gw_side_2
+					}
+				}
+				trigger_event = { id = qwf_gw.1006 days = 1 }
+			}
+		}
+	}
+}

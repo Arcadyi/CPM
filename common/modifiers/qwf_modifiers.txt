@@ -1,0 +1,61 @@
+﻿destroyed_fort = {
+	icon = "gfx/interface/icons/production_method_icons/shrapnel_artillery.dds"
+	state_infrastructure_add = -5
+}
+
+artillery_1 = {
+	icon = "gfx/interface/icons/production_method_icons/artillery_production.dds"
+	unit_army_offense_mult = 0.05
+	unit_army_defense_mult = 0.05
+}
+artillery_2 = {
+	icon = "gfx/interface/icons/production_method_icons/artillery_production.dds"
+	unit_army_offense_mult = 0.08
+	unit_army_defense_mult = 0.08
+}
+artillery_3 = {
+	icon = "gfx/interface/icons/production_method_icons/artillery_production.dds"
+	unit_army_offense_mult = 0.12
+	unit_army_defense_mult = 0.12
+}
+artillery_4 = {
+	icon = "gfx/interface/icons/production_method_icons/artillery_production.dds"
+	unit_army_offense_mult = 0.15
+	unit_army_defense_mult = 0.15
+}
+
+advanced_ship_1 = {
+	icon = "gfx/interface/icons/production_method_icons/mahanian_thought.dds"
+	unit_navy_offense_mult = 0.1
+	unit_navy_defense_mult = 0.1
+}
+
+advanced_ship_2 = {
+	icon = "gfx/interface/icons/production_method_icons/mahanian_thought.dds"
+	unit_navy_offense_mult = 0.15
+	unit_navy_defense_mult = 0.15
+}
+
+advanced_ship_3 = {
+	icon = "gfx/interface/icons/production_method_icons/mahanian_thought.dds"
+	unit_navy_offense_mult = 0.2
+	unit_navy_defense_mult = 0.2
+}
+
+advanced_ship_4 = {
+	icon = "gfx/interface/icons/production_method_icons/mahanian_thought.dds"
+	unit_navy_offense_mult = 0.25
+	unit_navy_defense_mult = 0.25
+}
+
+artillery_suppressed = {
+	icon = "gfx/interface/icons/production_method_icons/siege_artillery.dds"
+	unit_army_offense_mult = -0.15
+	unit_army_defense_mult = -0.15
+}
+
+advanced_ship_suppressed = {
+	icon = "gfx/interface/icons/production_method_icons/man_o_wars.dds"
+	unit_navy_offense_mult = -0.25
+	unit_navy_defense_mult = -0.25
+}

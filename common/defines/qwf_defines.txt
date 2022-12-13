@@ -1,0 +1,17 @@
+﻿NDiplomacy = {
+	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER_MAX_PER_STATE = 5 # Infamy population multiplier can't be higher than this for each state affected
+	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER_MAX_TOTAL = 15 # Infamy population multiplier can't be higher than this, regardless of number of states affected
+}
+
+NAI = {
+	DIPLO_PLAY_BACK_DOWN_CHANCE_THRESHOLD = -30 # If ( confidence + boldness ) is less than this, consider backing down 
+	DIPLO_PLAY_BACK_DOWN_CHANCE_ESCALATION = 30 # Above this escalation, AI will consider backing down
+	DIPLO_PLAY_BACK_DOWN_GUARANTEED_THRESHOLD = -80 #-50 # If ( confidence + boldness ) is less than this, always back down before the play goes to war
+	DIPLO_PLAY_BACK_DOWN_GUARANTEED_ESCALATION = 95 # Above this escalation, AI will always back down if it's supposed to
+	DIPLO_PLAY_BACK_DOWN_CHANCE_LOW_ESCALATION = 0.1 # 1.0 = 1% (chance each tick) - used before countdown to war starts
+	DIPLO_PLAY_BACK_DOWN_CHANCE_HIGH_ESCALATION = 0.5 # 1.0 = 1% (chance each tick) - used after countdown to war starts
+	DIPLO_PLAY_BACK_DOWN_CHANCE_WAR_LOSSES_MULT = 0.01 #0.05 # Multiply chance of backing down due to additional wargoal demands ( 1 + this * relative impact of additional wargoals )
+	DIPLO_PLAY_BACK_DOWN_CHANCE_WAR_LOSSES_MAX = 1.0 #3.0 # Max multiplier for impact of additional wargoal demands (including the base of 1)
+	DIPLO_PLAY_TAKE_SIDES_MIN_BOLDNESS = 50 # Boldness must be at least this for AI to want to take a side with no gain
+	DIPLO_PLAY_ADD_WARGOAL_THRESHOLD = 5
+}

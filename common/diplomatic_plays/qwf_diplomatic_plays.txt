@@ -1,0 +1,117 @@
+﻿dp_reshape_order_mng = {
+	war_goal = humiliation
+	#allow_negotiated_peace = no
+	mirror_war_goal = yes
+	requires_interest_marker = no
+	is_epic = yes
+	texture = "gfx/interface/icons/war_goals/liberate_subject.dds"
+	
+	#selectable_in_lens = {
+	#	always = no
+	#}
+	
+	possible = {	
+		global_var:world_tension >= 60		
+		NOT = { has_modifier = country_humiliated }
+		scope:target = {
+			NOT = { has_modifier = country_humiliated }
+		}
+		NOT = {
+			any_diplomatic_play = {
+				is_diplomatic_play_type = dp_humiliation
+				target_is = root
+			}
+		}
+		NOT = {
+			any_diplomatic_play = {
+				is_diplomatic_play_type = dp_humiliation
+				target_is = scope:target
+			}
+		}
+		OR = {
+			custom_tooltip = {
+				text = qwf_order_challenger
+				has_modifier = qwf_order_challenger_modifier
+			}
+			custom_tooltip = {
+				text = qwf_order_great_power_dissatisfaction
+				has_variable = great_power_dissatisfaction
+			}
+		}
+		scope:target = {
+			global_country_ranking = 1
+		}
+		custom_tooltip = {
+			text = je_great_war_on_going
+			NOR = { 
+				has_global_variable = world_war_diplomatic_play 
+				has_global_variable = minor_world_war_diplomatic_play
+			}
+		}
+		custom_tooltip = {
+			text = je_great_war_event_on_going
+			NOT = { has_global_variable = world_war_diplomatic_play_event_going }
+		}
+	}
+	
+	additional_involvement_trigger = {
+		OR = {
+			country_rank >= rank_value:great_power
+			AND = {
+				country_rank = rank_value:major_power
+				has_diplomatic_pact = {
+					who = scope:initiator
+					type = qwf_interest_alliance
+				}
+			}
+			AND = {
+				country_rank = rank_value:major_power
+				has_diplomatic_pact = {
+					who = scope:target
+					type = qwf_interest_alliance
+				}
+			}
+		}
+	}
+	
+	on_weekly_pulse = {
+		if = {
+			limit = {
+				escalation >= 7
+				escalation < 21
+			}
+			add_escalation = -6
+		}
+	}
+	
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_humiliation = {
+	war_goal = humiliation
+	
+	texture = "gfx/interface/icons/war_goals/humiliation.dds"
+	
+	possible = {	
+		aggressive_diplomatic_plays_permitted = yes		
+		custom_tooltip = {
+			text = je_great_war_on_going
+			NOR = { 
+				has_global_variable = world_war_diplomatic_play 
+				has_global_variable = minor_world_war_diplomatic_play
+			}
+		}
+		custom_tooltip = {
+			text = je_great_war_event_on_going
+			NOT = { has_global_variable = world_war_diplomatic_play_event_going }
+		}
+	}
+	
+	on_weekly_pulse = {}
+	
+	on_war_begins = {}
+
+	on_war_end = {}
+}

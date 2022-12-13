@@ -1,0 +1,655 @@
+﻿qwf_army_attack_fort_value = {
+	value = 10
+	if = {
+		limit = {
+			exists = scope:attacker
+			scope:attacker = {
+				commander_pm_usage = {
+					target = scope:attacker.owner 
+					production_method = pm_no_artillery
+					value > 0.5
+				}
+			}
+		}
+		multiply = 0
+	}
+	else_if = {
+		limit = {
+			exists = scope:attacker
+			scope:attacker = {
+				commander_pm_usage = {
+					target = scope:attacker.owner 
+					production_method = pm_cannon_artillery
+					value > 0.5
+				}
+			}
+		}
+		multiply = 1
+	}
+	else_if = {
+		limit = {
+			exists = scope:attacker
+			scope:attacker = {
+				commander_pm_usage = {
+					target = scope:attacker.owner 
+					production_method = pm_mobile_artillery
+					value > 0.5
+				}
+			}
+		}
+		multiply = 3
+	}
+	else_if = {
+		limit = {
+			exists = scope:attacker
+			scope:attacker = {
+				commander_pm_usage = {
+					target = scope:attacker.owner 
+					production_method = pm_shrapnel_artillery
+					value > 0.5
+				}
+			}
+		}
+		multiply = 6
+	}
+	else_if = {
+		limit = {
+			exists = scope:attacker
+			scope:attacker = {
+				commander_pm_usage = {
+					target = scope:attacker.owner 
+					production_method = pm_siege_artillery
+					value > 0.5
+				}
+			}
+		}
+		multiply = 10
+	}
+}
+
+qwf_state_fort_value = {
+	value = qwf_state_fort_total_value
+}
+
+qwf_state_fort_total_value = {
+	if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 1
+			}
+		}
+		add = 1
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 2
+			}
+		}
+		add = 2
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 3
+			}
+		}
+		add = 3
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 4
+			}
+		}
+		add = 4
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 5
+			}
+		}
+		add = 5
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 6
+			}
+		}
+		add = 6
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 7
+			}
+		}
+		add = 7
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 8
+			}
+		}
+		add = 8
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 9
+			}
+		}
+		add = 9
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 10
+			}
+		}
+		add = 10
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 11
+			}
+		}
+		add = 11
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 12
+			}
+		}
+		add = 12
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 13
+			}
+		}
+		add = 13
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 14
+			}
+		}
+		add = 14
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 15
+			}
+		}
+		add = 15
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 16
+			}
+		}
+		add = 16
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 17
+			}
+		}
+		add = 17
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 18
+			}
+		}
+		add = 18
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 19
+			}
+		}
+		add = 19
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 20
+			}
+		}
+		add = 20
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 21
+			}
+		}
+		add = 21
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 22
+			}
+		}
+		add = 22
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 23
+			}
+		}
+		add = 23
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 24
+			}
+		}
+		add = 24
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level = 25
+			}
+		}
+		add = 25
+	}
+	else = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				level > 25
+			}
+		}
+		add = 26
+	}
+	if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				has_active_production_method = pm_fortifications_cannon_battery
+			}
+		}
+		add = 2.5
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				has_active_production_method = pm_fortifications_shell_gun_battery
+			}
+		}
+		add = 5
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				has_active_production_method = pm_fortifications_shrapnel_battery
+			}
+		}
+		add = 10
+	}
+	else = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				has_active_production_method = pm_fortifications_siege_battery
+			}
+		}
+		add = 15
+	}
+	if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				has_active_production_method = pm_fortifications_shooting_slopes
+			}
+		}
+		multiply = 1.1
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				has_active_production_method = pm_fortifications_barbed_wire
+			}
+		}
+		multiply = 1.2
+	}
+	else = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				has_active_production_method = pm_fortifications_outer_bunker_complex
+			}
+		}
+		multiply = 1.3
+	}
+	if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				has_active_production_method = pm_fortifications_steel_reinforced_concrete
+			}
+		}
+		multiply = 1.5
+	}
+	else_if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				has_active_production_method = pm_fortifications_semi_underground_concrete
+			}
+		}
+		multiply = 2
+	}
+	if = {
+		limit = {
+			any_scope_building = {
+				is_building_type = building_fortifications
+				building_has_goods_shortage = yes
+			}
+		}
+		multiply = 0.5
+	}
+}
+
+qwf_attacker_artillery_fire_support_for_battle_value = {
+	value = 1
+	if = {
+		limit = {
+			scope:attacker = {
+				commander_pm_usage = {
+					target = scope:attacker.owner 
+					production_method = pm_no_artillery
+					value > 0.5
+				}
+			}
+		}
+		multiply = 1
+	}
+	else_if = {
+		limit = {
+			scope:attacker = {
+				commander_pm_usage = {
+					target = scope:attacker.owner 
+					production_method = pm_cannon_artillery
+					value > 0.5
+				}
+			}
+		}
+		multiply = 5
+	}
+	else_if = {
+		limit = {
+			scope:attacker = {
+				commander_pm_usage = {
+					target = scope:attacker.owner 
+					production_method = pm_mobile_artillery
+					value > 0.5
+				}
+			}
+		}
+		multiply = 10
+	}
+	else_if = {
+		limit = {
+			scope:attacker = {
+				commander_pm_usage = {
+					target = scope:attacker.owner 
+					production_method = pm_shrapnel_artillery
+					value > 0.5
+				}
+			}
+		}
+		multiply = 20
+	}
+	else_if = {
+		limit = {
+			scope:attacker = {
+				commander_pm_usage = {
+					target = scope:attacker.owner 
+					production_method = pm_siege_artillery
+					value > 0.5
+				}
+			}
+		}
+		multiply = 25
+	}
+}
+
+qwf_defender_artillery_fire_support_for_battle_value = {
+	value = 1
+	if = {
+		limit = {
+			scope:defender = {
+				commander_pm_usage = {
+					target = scope:defender.owner 
+					production_method = pm_no_artillery
+					value > 0.5
+				}
+			}
+		}
+		multiply = 1
+	}
+	else_if = {
+		limit = {
+			scope:defender = {
+				commander_pm_usage = {
+					target = scope:defender.owner 
+					production_method = pm_cannon_artillery
+					value > 0.5
+				}
+			}
+		}
+		multiply = 5
+	}
+	else_if = {
+		limit = {
+			scope:defender = {
+				commander_pm_usage = {
+					target = scope:defender.owner 
+					production_method = pm_mobile_artillery
+					value > 0.5
+				}
+			}
+		}
+		multiply = 10
+	}
+	else_if = {
+		limit = {
+			scope:defender = {
+				commander_pm_usage = {
+					target = scope:defender.owner 
+					production_method = pm_shrapnel_artillery
+					value > 0.5
+				}
+			}
+		}
+		multiply = 20
+	}
+	else_if = {
+		limit = {
+			scope:defender = {
+				commander_pm_usage = {
+					target = scope:defender.owner 
+					production_method = pm_siege_artillery
+					value > 0.5
+				}
+			}
+		}
+		multiply = 25
+	}
+}
+
+qwf_attacker_advanced_ship_advantages_for_battle_value = {
+	value = 1
+	if = {
+		limit = {
+			scope:attacker = {
+				commander_pm_usage = {
+					target = scope:attacker.owner 
+					production_method = pm_man_o_wars
+					value > 0.5
+				}
+			}
+		}
+		multiply = 1
+	}
+	else_if = {
+		limit = {
+			scope:attacker = {
+				commander_pm_usage = {
+					target = scope:attacker.owner 
+					production_method = pm_ironclads
+					value > 0.5
+				}
+			}
+		}
+		multiply = 5
+	}
+	else_if = {
+		limit = {
+			scope:attacker = {
+				commander_pm_usage = {
+					target = scope:attacker.owner 
+					production_method = pm_monitors
+					value > 0.5
+				}
+			}
+		}
+		multiply = 10
+	}
+	else_if = {
+		limit = {
+			scope:attacker = {
+				commander_pm_usage = {
+					target = scope:attacker.owner 
+					production_method = pm_dreadnoughts
+					value > 0.5
+				}
+			}
+		}
+		multiply = 20
+	}
+	else_if = {
+		limit = {
+			scope:attacker = {
+				commander_pm_usage = {
+					target = scope:attacker.owner 
+					production_method = pm_battleships
+					value > 0.5
+				}
+			}
+		}
+		multiply = 25
+	}
+}
+
+qwf_defender_advanced_ship_advantages_for_battle_value = {
+	value = 1
+	if = {
+		limit = {
+			scope:defender = {
+				commander_pm_usage = {
+					target = scope:defender.owner 
+					production_method = pm_man_o_wars
+					value > 0.5
+				}
+			}
+		}
+		multiply = 1
+	}
+	else_if = {
+		limit = {
+			scope:defender = {
+				commander_pm_usage = {
+					target = scope:defender.owner 
+					production_method = pm_ironclads
+					value > 0.5
+				}
+			}
+		}
+		multiply = 5
+	}
+	else_if = {
+		limit = {
+			scope:defender = {
+				commander_pm_usage = {
+					target = scope:defender.owner 
+					production_method = pm_monitors
+					value > 0.5
+				}
+			}
+		}
+		multiply = 10
+	}
+	else_if = {
+		limit = {
+			scope:defender = {
+				commander_pm_usage = {
+					target = scope:defender.owner 
+					production_method = pm_dreadnoughts
+					value > 0.5
+				}
+			}
+		}
+		multiply = 20
+	}
+	else_if = {
+		limit = {
+			scope:defender = {
+				commander_pm_usage = {
+					target = scope:defender.owner 
+					production_method = pm_battleships
+					value > 0.5
+				}
+			}
+		}
+		multiply = 25
+	}
+}

@@ -1,0 +1,369 @@
+﻿#无参谋系统
+pm_no_staff_system = {
+	texture = "gfx/interface/icons/production_method_icons/unused/no_org.dds"
+}
+#专职设立
+pm_professional_staff_system = {
+	texture = "gfx/interface/icons/production_method_icons/unused/officer_training.dds"
+
+	unlocking_technologies = {
+		general_staff
+	}
+	
+	unlocking_laws = {
+		law_professional_army
+		law_national_militia
+		law_mass_conscription
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_officers_add = 200
+			building_employment_soldiers_add = 800
+		}
+		workforce_scaled = {
+			building_input_paper_add = 10
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			unit_army_offense_add = 2
+			unit_army_defense_add = 2
+			unit_morale_damage_mult = 0.01
+			unit_morale_recovery_mult = 0.01
+			country_military_wages_mult = 0.01
+		}
+	}
+}
+
+#完备分析系统
+pm_complete_analysis_staff_system = {
+	texture = "gfx/interface/icons/production_method_icons/unused/census.dds"
+
+	unlocking_technologies = {
+		wargaming
+	}
+	
+	unlocking_laws = {
+		law_professional_army
+		law_national_militia
+		law_mass_conscription
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_officers_add = 400
+			building_employment_academics_add = 200
+			building_employment_soldiers_add = 800
+		}
+		workforce_scaled = {
+			building_input_paper_add = 20
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			unit_army_offense_add = 3
+			unit_army_defense_add = 3
+			unit_morale_damage_mult = 0.02
+			unit_morale_recovery_mult = 0.02
+			country_military_wages_mult = 0.02
+		}
+	}
+}
+#现代指挥体系
+pm_modern_command_system_staff_system = {
+	texture = "gfx/interface/icons/production_method_icons/unused/advanced_officer_training.dds"
+	
+	unlocking_technologies = {
+		nco_training
+	}
+	
+	unlocking_laws = {
+		law_professional_army
+		law_national_militia
+		law_mass_conscription
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_officers_add = 800
+			building_employment_academics_add = 400
+			building_employment_soldiers_add = 800
+		}
+		workforce_scaled = {
+			building_input_paper_add = 30
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			unit_army_offense_add = 5
+			unit_army_defense_add = 5
+			unit_morale_damage_mult = 0.03
+			unit_morale_recovery_mult = 0.03
+			country_military_wages_mult = 0.03
+		}
+	}
+}
+#指挥
+pm_aristocrats_ownership = {
+	texture = "gfx/interface/icons/law_icons/autocracy.dds"
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_bureaucrats_add = 100
+			building_employment_officers_add = -100
+		}
+	}
+	country_modifiers = {
+		unscaled = {
+			country_bureaucrats_pol_str_mult = 0.1
+			country_aristocrats_pol_str_mult = 0.1
+			country_legitimacy_headofstate_add = 5
+			country_authority_add = 50
+			country_military_goods_cost_mult = 0.1
+		}
+	}
+}
+pm_concil_ownership = {
+	texture = "gfx/interface/icons/law_icons/parliamentary_republic.dds"
+	
+	unlocking_laws = {
+		law_presidential_republic
+		law_parliamentary_republic
+	}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_aristocrats_add = 50
+			building_employment_capitalists_add = 50
+			building_employment_officers_add = -100
+		}
+	}
+	country_modifiers = {
+		unscaled = {
+			country_capitalists_pol_str_mult = 0.1
+			country_aristocrats_pol_str_mult = 0.05
+			country_legitimacy_govt_total_clout_add = 0.1
+		}
+	}
+}
+pm_officers_ownership = {
+	texture = "gfx/interface/icons/law_icons/professional_army.dds"
+	
+	unlocking_laws = {
+		law_professional_army
+		law_mass_conscription
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_officers_add = 200
+		}
+	}
+	country_modifiers = {
+		unscaled = {
+			country_officers_pol_str_mult = 0.1
+			unit_army_offense_mult = 0.1
+			unit_army_defense_mult = 0.1
+		}
+	}
+}
+pm_independent_ownership = {
+	texture = "gfx/interface/icons/law_icons/council_republic.dds"
+	
+	disallowing_laws = {
+		law_autocracy
+		law_oligarchy
+	}
+	
+	unlocking_laws = {
+		law_council_republic
+	}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_academics_add = 50
+			building_employment_bureaucrats_add = 50
+			building_employment_officers_add = -100
+		}
+	}
+
+	country_modifiers = {
+		unscaled = {
+			country_machinists_pol_str_mult = 0.1
+			country_farmers_pol_str_mult = 0.1
+			political_movement_radicalism_mult = -0.05
+		}
+	}
+}
+
+#战术侧重
+#平衡
+pm_balanced_war_tactical_order = {
+	texture = "gfx/interface/icons/battle_conditions/battle_condition_blunder.dds"
+}
+#聚焦防御
+pm_focus_defense_war_order = {
+	texture = "gfx/interface/icons/battle_conditions/battle_condition_dug_in.dds"
+	country_modifiers = {
+		unscaled = {
+			unit_army_offense_mult = -0.1
+			unit_provinces_captured_mult = -0.25
+			unit_army_defense_mult = 0.2
+			unit_provinces_lost_mult = -0.1
+		}
+	}
+}
+#火力支援
+pm_fire_support_war_order = {
+	texture = "gfx/interface/icons/production_method_icons/battlefleet_tactics.dds"
+	unlocking_technologies = {
+		electric_telegraph
+	}
+	
+	country_modifiers = {
+		unscaled = {
+			unit_army_offense_mult = 0.2
+			unit_morale_damage_mult = 0.2
+			unit_kill_rate_add = 0.1
+			unit_army_defense_mult = 0.1
+			unit_devastation_mult = 0.3
+		}
+	}
+}
+#弹性防御
+pm_delaying_defense_war_order = {
+	texture = "gfx/interface/icons/production_method_icons/unused/advanced_officer_training.dds"
+	unlocking_technologies = {
+		defense_in_depth
+	}
+	
+	country_modifiers = {
+		unscaled = {
+			unit_army_offense_mult = 0.1
+			unit_morale_damage_mult = 0.1
+			unit_morale_protection_mult = 0.2
+			unit_army_defense_mult = 0.2
+			unit_devastation_mult = 0.2
+		}
+	}
+}
+#鲁莽进攻
+pm_forced_attack_war_order = {
+	texture = "gfx/interface/icons/battle_conditions/battle_condition_aggressive_maneuver.dds"
+	
+	country_modifiers = {
+		unscaled = {
+			unit_army_offense_mult = 0.2
+			unit_provinces_captured_mult = 0.25
+			unit_army_defense_mult = -0.2
+		}
+	}
+}
+
+#后勤体系
+pm_logistics_supply_low = {
+	texture = "gfx/interface/icons/production_method_icons/unused/wartime1.dds"
+
+	unlocking_technologies = {
+	}
+	
+	unlocking_laws = {
+		law_professional_army
+		law_national_militia
+		law_mass_conscription
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_laborers_add = 800
+		}
+		workforce_scaled = {
+		}
+	}
+	country_modifiers = {
+		unscaled = {
+			unit_army_offense_mult = -0.10
+			unit_army_defense_mult = -0.10
+			country_military_goods_cost_mult = -0.2
+		}
+	}
+}
+pm_logistics_supply_normal = {
+	texture = "gfx/interface/icons/production_method_icons/unused/wartime2.dds"
+
+	unlocking_technologies = {
+	}
+	
+	unlocking_laws = {
+		law_professional_army
+		law_national_militia
+		law_mass_conscription
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_laborers_add = 1000
+		}
+		workforce_scaled = {
+		}
+	}
+	country_modifiers = {
+		unscaled = {
+		}
+	}
+}
+pm_logistics_supply_train_transportation = {
+	texture = "gfx/interface/icons/production_method_icons/trains_steam.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+	
+	unlocking_laws = {
+		law_professional_army
+		law_national_militia
+		law_mass_conscription
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_laborers_add = 200
+		}
+		workforce_scaled = {
+			building_input_transportation_add = 30
+			building_input_engines_add = 10
+		}
+	}
+	country_modifiers = {
+		unscaled = {
+		}
+	}
+}
+pm_logistics_supply_aircraft_transportation = {
+	texture = "gfx/interface/icons/production_method_icons/aeroplanes.dds"
+
+	unlocking_technologies = {
+		military_aviation
+	}
+	
+	unlocking_laws = {
+		law_professional_army
+		law_national_militia
+		law_mass_conscription
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_laborers_add = 200
+		}
+		workforce_scaled = {
+			building_input_transportation_add = 30
+			building_input_aeroplanes_add = 5
+		}
+	}
+	country_modifiers = {
+		unscaled = {
+		}
+	}
+}

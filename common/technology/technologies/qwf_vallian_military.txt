@@ -1,0 +1,100 @@
+﻿### ERA 1
+
+standing_army = {
+	# Unlocks Barracks building
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	modifier = {
+		state_building_fortifications_max_level_add = 1
+	}
+}
+
+### ERA 2
+
+general_staff = {
+	# Unlocks Skirmish Infantry PM in Barracks / Conscription Centers
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/general_staff.dds"
+	category = military
+	
+	modifier = {
+		state_building_stuff_headquarters_max_level_add = 1
+	}
+	
+	unlocking_technologies = {	
+		army_reserves
+	}
+}
+
+### ERA 3
+
+military_statistics = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/military_statistics.dds"
+	category = military
+	
+	modifier = {
+		building_mobilization_cost_mult = -0.2
+		country_institution_qwf_conscription_max_investment_add = 1
+		state_building_stuff_headquarters_max_level_add = 1
+	}
+	
+	unlocking_technologies = {	
+		electric_telegraph
+		general_staff
+	}
+}
+
+### ERA 4
+trench_works = {
+	# Unlocks Officer Training PM in Barracks
+	# Unlocks Barbed Wire Fences in Livestock Ranches
+	# Unlocks Trench Infantry
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/trench_works.dds"
+	category = military
+	
+	modifier = {
+		state_building_stuff_headquarters_max_level_add = 1
+	}
+	
+	unlocking_technologies = {
+		general_staff
+		electric_telegraph
+	}
+}
+
+wargaming = {
+	# #todo#! Does nothing yet
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/wargaming.dds"
+	category = military
+	
+	modifier = {
+		unit_morale_loss_mult = -0.05
+		state_building_stuff_headquarters_max_level_add = 1
+		country_institution_qwf_conscription_max_investment_add = 1
+    }
+	
+	unlocking_technologies = {
+		military_statistics
+	}
+}
+
+### ERA 5
+nco_training = {
+	# Unlocks Advanced Officer Training PM in Barracks
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/nco_training.dds"
+	category = military
+	
+	modifier = {
+		state_building_stuff_headquarters_max_level_add = 1
+	}
+	
+	unlocking_technologies = {
+		military_statistics
+		trench_works
+	}
+}

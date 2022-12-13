@@ -1,0 +1,162 @@
+﻿great_power_value_geneva_conventions = {	
+	every_country = {
+		limit = {
+			country_rank >= rank_value:great_power
+			has_variable = in_geneva_conventions
+		}
+		add = 1
+	}
+}
+#国联
+league_of_nations_members_value = {	
+	every_country = {
+		limit = {
+			has_variable = in_geneva_conventions
+		}
+		add = 1
+	}
+}
+
+national_inflation_value = {
+	if = {
+		limit = { has_variable = national_inflation }
+		add = root.var:national_inflation
+	}
+}
+
+great_power_dissatisfaction_with_order = {	
+	value = 0
+	if = {
+		limit = { 
+			NOT = { has_modifier = dominating_world_order }
+		}
+		add = 35
+	}
+	if = {
+		limit = { 
+			NOT = { has_modifier = dominating_world_order }
+			global_country_ranking <= 3
+		}
+		add = 50
+	}
+	if = {
+		limit = { 
+			any_country = {
+				global_country_ranking <= 3
+				has_modifier = dominating_world_order
+				country_and_subjects_population_global_share > 0.25
+			}
+			NOT = { has_modifier = qwf_order_keeper_modifier }
+		}
+		add = 20
+	}
+	if = {
+		limit = { 
+			NOT = { has_modifier = qwf_order_keeper_modifier }
+			navy_size > scope:country_ranking_1.navy_size
+		}
+		add = 15
+	}
+	if = {
+		limit = { 
+			NOT = { has_modifier = qwf_order_keeper_modifier }
+			army_size > scope:country_ranking_1.army_size
+		}
+		add = 15
+	}
+	
+	if = {
+		limit = { 
+			root.great_power_with_order_total > 4
+		}
+		add = {
+			value = root.great_power_with_order_total
+			subtract = 4
+			multiply = 10
+		}
+	}
+	if = {
+		limit = { 
+			has_modifier = qwf_order_keeper_modifier
+		}
+		multiply = 0
+	}
+	if = {
+		limit = { 
+			has_variable = qwf_dissatisfaction_player
+		}
+		add = 100
+	}
+	if = {
+		limit = { 
+			has_variable = qwf_satisfaction_player
+		}
+		multiply = 0
+	}
+}
+
+great_power_dissatisfaction_percent = {
+	value = great_power_dissatisfaction
+	divide = great_power_total
+}
+
+great_power_dissatisfaction = {
+	every_country = {
+		limit = {
+			country_rank >= rank_value:great_power
+			has_variable = great_power_dissatisfaction
+		}
+		add = 1
+	}
+}
+
+great_power_total = {
+	every_country = {
+		limit = {
+			country_rank >= rank_value:great_power
+		}
+		add = 1
+	}
+	min = 1
+}
+
+
+great_power_with_order_total = {
+	every_country = {
+		limit = {
+			country_rank >= rank_value:great_power
+			has_modifier = dominating_world_order
+		}
+		add = 1
+	}
+}
+
+tilt_of_the_situation = {	
+	every_country = {
+		limit = {
+			OR = {
+				has_diplomatic_pact = {
+					who = scope:actor
+					type = alliance
+				}
+				has_diplomatic_pact = {
+					who = scope:actor
+					type = qwf_interest_alliance
+				}
+			}
+		}
+		add = 1
+	}
+}
+
+small_amount_reparations_total = {
+	every_country = {
+		limit = {
+			has_diplomatic_pact = {
+				who = scope:target_country
+				type = qwf_great_war_small_amount_reparations
+			}
+		}
+		add = 1
+	}
+}

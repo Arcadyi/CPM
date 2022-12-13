@@ -1,0 +1,7 @@
+﻿l_english:
+ concept_league_of_nations:0 "League of Nations"
+ concept_league_of_nations_short:0 "League of Nations"
+ concept_league_of_nations_desc:0 "An international organisation that can sanction infamous countries, mediate wars, etc."
+ concept_sanction:0 "Economic sanctions"
+ concept_sanction_short:0 "Sanctions"
+ concept_sanction_desc:0 "When a country is sanction by [Concept('concept_league_of_nations', '$concept_league_of_nations_short$')],[Concept('concept_league_of_nations', '$concept_league_of_nations_short$')]'s members are obliged to initiate [concept_embargo] against this country."

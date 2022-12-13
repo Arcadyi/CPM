@@ -1,0 +1,7 @@
+﻿concept_league_of_nations = {
+	texture = "gfx/interface/icons/invention_icons/civilizing_mission.dds"
+	is_loading_tip = yes
+}
+concept_sanction = {
+	texture = "gfx/interface/icons/topbar/income_power_icon.dds"
+}

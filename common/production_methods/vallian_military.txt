@@ -1,0 +1,149 @@
+﻿pm_no_artillery = {
+	texture = "gfx/interface/icons/production_method_icons/no_artillery.dds"
+
+	timed_modifiers = {
+		pm_offense_defense_readjustment
+	}
+}
+
+pm_cannon_artillery = {
+	texture = "gfx/interface/icons/production_method_icons/cannon_artillery.dds"
+
+	unlocking_technologies = {
+		artillery
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_artillery_add = 0.5
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 10
+			unit_defense_add = 10
+			unit_artillery_support_forces_add = 10
+		}
+
+		unscaled = {
+			unit_morale_damage_mult = 0.1
+			unit_kill_rate_add = 0.1
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 1
+		}
+	}
+	timed_modifiers = {
+		pm_offense_defense_readjustment
+	}
+}
+
+pm_mobile_artillery = {
+	texture = "gfx/interface/icons/production_method_icons/mobile_artillery.dds"
+
+	unlocking_technologies = {
+		napoleonic_warfare
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_artillery_add = 1
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 15
+			unit_defense_add = 15
+			unit_artillery_support_forces_add = 30
+		}
+
+		unscaled = {
+			unit_morale_damage_mult = 0.15
+			unit_kill_rate_add = 0.1
+			unit_provinces_captured_mult = 0.1
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 3
+		}
+	}
+	timed_modifiers = {
+		pm_offense_defense_readjustment
+	}
+}
+
+pm_shrapnel_artillery = {
+	texture = "gfx/interface/icons/production_method_icons/shrapnel_artillery.dds"
+
+	unlocking_technologies = {
+		breech_loading_artillery
+	}
+	disallowing_laws = {
+		law_peasant_levies
+	}		
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_artillery_add = 1
+			building_input_ammunition_add = 1
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 30
+			unit_defense_add = 30
+			unit_artillery_support_forces_add = 60
+		}
+
+		unscaled = {
+			unit_morale_damage_mult = 0.2
+			unit_kill_rate_add = 0.3
+			unit_devastation_mult = 0.25
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 5
+		}
+	}
+	timed_modifiers = {
+		pm_offense_defense_readjustment
+	}
+}
+
+pm_siege_artillery = {
+	texture = "gfx/interface/icons/production_method_icons/siege_artillery.dds"
+
+	unlocking_technologies = {
+		wargaming
+	}
+	disallowing_laws = {
+		law_peasant_levies
+	}	
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_artillery_add = 2
+			building_input_ammunition_add = 2
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 40
+			unit_defense_add = 30
+			unit_artillery_support_forces_add = 100
+		}
+
+		unscaled = {
+			unit_morale_damage_mult = 0.4
+			unit_kill_rate_add = 0.25
+			unit_devastation_mult = 0.5
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 7
+		}
+	}
+	timed_modifiers = {
+		pm_offense_defense_readjustment
+	}
+}

@@ -1,0 +1,1246 @@
+﻿je_world_tension = {
+	icon = "gfx/interface/icons/state_status_icons/has_devastation.dds"
+
+	is_shown_when_inactive = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+		#NOT = { has_global_variable = lon_is_formed_with_absolute_dominance_of_great_powers }
+	}
+	immediate = {
+		
+	}
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+
+	complete = {
+		
+	}
+
+	on_complete = {
+		
+	}
+
+	invalid = {
+		#custom_tooltip = {
+		#	text = je_un_is_formed_with_absolute_dominance
+		#	has_global_variable = lon_is_formed_with_absolute_dominance_of_great_powers
+		#}
+	}
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_world_tension_stability
+				trigger = {
+					global_var:world_tension >= 0
+					global_var:world_tension < 20
+				}
+			}
+			triggered_desc = {
+				desc = je_world_tension_low
+				trigger = {
+					global_var:world_tension >= 20
+					global_var:world_tension < 40
+				}
+			}
+			triggered_desc = {
+				desc = je_world_tension_hight
+				trigger = {
+					global_var:world_tension >= 40
+					global_var:world_tension < 60
+				}
+			}
+			triggered_desc = {
+				desc = je_world_tension_highter
+				trigger = {
+					global_var:world_tension >= 60
+					global_var:world_tension < 80
+				}
+			}
+			triggered_desc = {
+				desc = je_world_tension_hightest
+				trigger = {
+					global_var:world_tension >= 80
+					NOT = { has_global_variable = world_war_diplomatic_play }
+				}
+			}
+			triggered_desc = {
+				desc = je_world_tension_war_diplomatic_play
+				trigger = {
+					has_global_variable = world_war_diplomatic_play
+				}
+			}
+			triggered_desc = {
+				desc = je_world_tension_minor_war_diplomatic_play
+				trigger = {
+					has_global_variable = minor_world_war_diplomatic_play
+				}
+			}
+		}
+	}
+	# a script value computing the goal completion metric
+	current_value = {
+		value = global_var:world_tension
+	}
+
+	on_weekly_pulse = {
+		effect = {
+			clamp_global_variable = { name = world_tension max = 100 min = 0 }
+			if = {
+				limit = {
+					global_var:world_tension >= 60
+					country_rank >= rank_value:great_power
+					NOT = { has_modifier = diplomatic_play_world_war_modifers }
+				}
+				add_modifier = {
+					name = diplomatic_play_world_war_modifers
+				}
+			}
+			else_if = {
+				limit = {
+					global_var:world_tension < 60
+					country_rank >= rank_value:great_power
+					has_modifier = diplomatic_play_world_war_modifers
+				}
+				remove_modifier = diplomatic_play_world_war_modifers
+			}
+			if = {
+				limit = {
+					global_var:world_tension >= 80
+					country_rank >= rank_value:great_power
+					NOT = { has_modifier = diplomatic_explosive_point_modifers }
+				}
+				add_modifier = {
+					name = diplomatic_explosive_point_modifers
+				}
+			}
+			else_if = {
+				limit = {
+					global_var:world_tension < 80
+					country_rank >= rank_value:great_power
+					has_modifier = diplomatic_explosive_point_modifers
+				}
+				remove_modifier = diplomatic_explosive_point_modifers
+			}
+			random_country = {
+				limit = {
+					global_country_ranking = 1
+				}
+				save_scope_as = country_ranking_1
+			}
+			random_country = {
+				limit = {
+					global_country_ranking = 2
+				}
+				save_scope_as = country_ranking_2
+			}
+			random_country = {
+				limit = {
+					global_country_ranking = 3
+				}
+				save_scope_as = country_ranking_3
+			}
+			random_country = {
+				limit = {
+					global_country_ranking = 4
+				}
+				save_scope_as = country_ranking_4
+			}
+			random_country = {
+				limit = {
+					global_country_ranking = 5
+				}
+				save_scope_as = country_ranking_5
+			}
+			random_country = {
+				limit = {
+					global_country_ranking = 6
+				}
+				save_scope_as = country_ranking_6
+			}
+			random_country = {
+				limit = {
+					global_country_ranking = 7
+				}
+				save_scope_as = country_ranking_7
+			}
+			random_country = {
+				limit = {
+					global_country_ranking = 8
+				}
+				save_scope_as = country_ranking_8
+			}
+			if = {
+				limit = {
+					country_rank >= rank_value:great_power
+					great_power_dissatisfaction_with_order >= 50
+					global_country_ranking = 1
+				}
+				set_global_variable = {
+					name = great_power_dissatisfaction_1
+					value = scope:country_ranking_1
+				}
+				remove_global_variable = great_power_satisfaction_1
+				set_variable = great_power_dissatisfaction
+				remove_variable = great_power_satisfaction
+			}
+			if = {
+				limit = {
+					country_rank >= rank_value:great_power
+					great_power_dissatisfaction_with_order >= 50
+					global_country_ranking = 2
+				}
+				set_global_variable = {
+					name = great_power_dissatisfaction_2
+					value = scope:country_ranking_2
+				}
+				remove_global_variable = great_power_satisfaction_2
+				set_variable = great_power_dissatisfaction
+				remove_variable = great_power_satisfaction
+			}
+			if = {
+				limit = {
+					country_rank >= rank_value:great_power
+					great_power_dissatisfaction_with_order >= 50
+					global_country_ranking = 3
+				}
+				set_global_variable = {
+					name = great_power_dissatisfaction_3
+					value = scope:country_ranking_3
+				}
+				remove_global_variable = great_power_satisfaction_3
+				set_variable = great_power_dissatisfaction
+				remove_variable = great_power_satisfaction
+			}
+			if = {
+				limit = {
+					country_rank >= rank_value:great_power
+					great_power_dissatisfaction_with_order >= 50
+					global_country_ranking = 4
+				}
+				set_global_variable = {
+					name = great_power_dissatisfaction_4
+					value = scope:country_ranking_4
+				}
+				remove_global_variable = great_power_satisfaction_4
+				set_variable = great_power_dissatisfaction
+				remove_variable = great_power_satisfaction
+			}
+			if = {
+				limit = {
+					country_rank >= rank_value:great_power
+					great_power_dissatisfaction_with_order >= 50
+					global_country_ranking = 5
+				}
+				set_global_variable = {
+					name = great_power_dissatisfaction_5
+					value = scope:country_ranking_5
+				}
+				remove_global_variable = great_power_satisfaction_5
+				set_variable = great_power_dissatisfaction
+				remove_variable = great_power_satisfaction
+			}
+			if = {
+				limit = {
+					country_rank >= rank_value:great_power
+					great_power_dissatisfaction_with_order >= 50
+					global_country_ranking = 6
+				}
+				set_global_variable = {
+					name = great_power_dissatisfaction_6
+					value = scope:country_ranking_6
+				}
+				remove_global_variable = great_power_satisfaction_6
+				set_variable = great_power_dissatisfaction
+				remove_variable = great_power_satisfaction
+			}
+			if = {
+				limit = {
+					country_rank >= rank_value:great_power
+					great_power_dissatisfaction_with_order >= 50
+					global_country_ranking = 7
+				}
+				set_global_variable = {
+					name = great_power_dissatisfaction_7
+					value = scope:country_ranking_7
+				}
+				remove_global_variable = great_power_satisfaction_7
+				set_variable = great_power_dissatisfaction
+				remove_variable = great_power_satisfaction
+			}
+			if = {
+				limit = {
+					country_rank >= rank_value:great_power
+					great_power_dissatisfaction_with_order >= 50
+					global_country_ranking = 8
+				}
+				set_global_variable = {
+					name = great_power_dissatisfaction_8
+					value = scope:country_ranking_8
+				}
+				remove_global_variable = great_power_satisfaction_8
+				set_variable = great_power_dissatisfaction
+				remove_variable = great_power_satisfaction
+			}
+			if = {
+				limit = {
+					country_rank >= rank_value:great_power
+					great_power_dissatisfaction_with_order < 50
+					global_country_ranking = 1
+				}
+				set_global_variable = {
+					name = great_power_satisfaction_1
+					value = scope:country_ranking_1
+				}
+				remove_global_variable = great_power_dissatisfaction_1
+				set_variable = great_power_satisfaction
+				remove_variable = great_power_dissatisfaction
+			}
+			if = {
+				limit = {
+					country_rank >= rank_value:great_power
+					great_power_dissatisfaction_with_order < 50
+					global_country_ranking = 2
+				}
+				set_global_variable = {
+					name = great_power_satisfaction_2
+					value = scope:country_ranking_2
+				}
+				remove_global_variable = great_power_dissatisfaction_2
+				set_variable = great_power_satisfaction
+				remove_variable = great_power_dissatisfaction
+			}
+			if = {
+				limit = {
+					country_rank >= rank_value:great_power
+					great_power_dissatisfaction_with_order < 50
+					global_country_ranking = 3
+				}
+				set_global_variable = {
+					name = great_power_satisfaction_3
+					value = scope:country_ranking_3
+				}
+				remove_global_variable = great_power_dissatisfaction_3
+				set_variable = great_power_satisfaction
+				remove_variable = great_power_dissatisfaction
+			}
+			if = {
+				limit = {
+					country_rank >= rank_value:great_power
+					great_power_dissatisfaction_with_order < 50
+					global_country_ranking = 4
+				}
+				set_global_variable = {
+					name = great_power_satisfaction_4
+					value = scope:country_ranking_4
+				}
+				remove_global_variable = great_power_dissatisfaction_4
+				set_variable = great_power_satisfaction
+				remove_variable = great_power_dissatisfaction
+			}
+			if = {
+				limit = {
+					country_rank >= rank_value:great_power
+					great_power_dissatisfaction_with_order < 50
+					global_country_ranking = 5
+				}
+				set_global_variable = {
+					name = great_power_satisfaction_5
+					value = scope:country_ranking_5
+				}
+				remove_global_variable = great_power_dissatisfaction_5
+				set_variable = great_power_satisfaction
+				remove_variable = great_power_dissatisfaction
+			}
+			if = {
+				limit = {
+					country_rank >= rank_value:great_power
+					great_power_dissatisfaction_with_order < 50
+					global_country_ranking = 6
+				}
+				set_global_variable = {
+					name = great_power_satisfaction_6
+					value = scope:country_ranking_6
+				}
+				remove_global_variable = great_power_dissatisfaction_6
+				set_variable = great_power_satisfaction
+				remove_variable = great_power_dissatisfaction
+			}
+			if = {
+				limit = {
+					country_rank >= rank_value:great_power
+					great_power_dissatisfaction_with_order < 50
+					global_country_ranking = 7
+				}
+				set_global_variable = {
+					name = great_power_satisfaction_7
+					value = scope:country_ranking_7
+				}
+				remove_global_variable = great_power_dissatisfaction_7
+				set_variable = great_power_satisfaction
+				remove_variable = great_power_dissatisfaction
+			}
+			if = {
+				limit = {
+					country_rank >= rank_value:great_power
+					great_power_dissatisfaction_with_order < 50
+					global_country_ranking = 8
+				}
+				set_global_variable = {
+					name = great_power_satisfaction_8
+					value = scope:country_ranking_8
+				}
+				remove_global_variable = great_power_dissatisfaction_8
+				set_variable = great_power_satisfaction
+				remove_variable = great_power_dissatisfaction
+			}
+			if = {
+				limit = {
+					has_variable = great_power_dissatisfaction
+					global_country_ranking = 1
+					NOT = { has_modifier = qwf_order_challenger_modifier }
+				}
+				set_global_variable = {
+					name = qwf_order_challenger
+					value = scope:country_ranking_1
+				}
+				add_modifier = qwf_order_challenger_modifier
+				every_country = {
+					limit = {
+						has_modifier = qwf_order_challenger_modifier
+						global_country_ranking > 1
+					}
+					remove_modifier = qwf_order_challenger_modifier
+				}
+			}
+			else_if = {
+				limit = {
+					has_variable = great_power_dissatisfaction
+					global_country_ranking = 2
+					NOR = { 
+						has_global_variable = great_power_dissatisfaction_1
+						has_modifier = qwf_order_challenger_modifier
+					}
+				}
+				set_global_variable = {
+					name = qwf_order_challenger
+					value = scope:country_ranking_2
+				}
+				add_modifier = qwf_order_challenger_modifier
+				every_country = {
+					limit = {
+						has_modifier = qwf_order_challenger_modifier
+						global_country_ranking > 2
+					}
+					remove_modifier = qwf_order_challenger_modifier
+				}
+			}
+			else_if = {
+				limit = {
+					has_variable = great_power_dissatisfaction
+					global_country_ranking = 3
+					NOR = { 
+						has_global_variable = great_power_dissatisfaction_1 
+						has_global_variable = great_power_dissatisfaction_2
+						has_modifier = qwf_order_challenger_modifier
+					}
+				}
+				set_global_variable = {
+					name = qwf_order_challenger
+					value = scope:country_ranking_3
+				}
+				add_modifier = qwf_order_challenger_modifier
+				every_country = {
+					limit = {
+						has_modifier = qwf_order_challenger_modifier
+						global_country_ranking > 3
+					}
+					remove_modifier = qwf_order_challenger_modifier
+				}
+			}
+			else_if = {
+				limit = {
+					has_variable = great_power_dissatisfaction
+					global_country_ranking = 4
+					NOR = { 
+						has_global_variable = great_power_dissatisfaction_1 
+						has_global_variable = great_power_dissatisfaction_2
+						has_global_variable = great_power_dissatisfaction_3
+						has_modifier = qwf_order_challenger_modifier
+					}
+				}
+				set_global_variable = {
+					name = qwf_order_challenger
+					value = scope:country_ranking_4
+				}
+				add_modifier = qwf_order_challenger_modifier
+				every_country = {
+					limit = {
+						has_modifier = qwf_order_challenger_modifier
+						global_country_ranking > 4
+					}
+					remove_modifier = qwf_order_challenger_modifier
+				}
+			}
+			else_if = {
+				limit = {
+					has_variable = great_power_dissatisfaction
+					global_country_ranking = 5
+					NOR = { 
+						has_global_variable = great_power_dissatisfaction_1 
+						has_global_variable = great_power_dissatisfaction_2
+						has_global_variable = great_power_dissatisfaction_3
+						has_global_variable = great_power_dissatisfaction_4
+						has_modifier = qwf_order_challenger_modifier
+					}
+				}
+				set_global_variable = {
+					name = qwf_order_challenger
+					value = scope:country_ranking_5
+				}
+				add_modifier = qwf_order_challenger_modifier
+				every_country = {
+					limit = {
+						has_modifier = qwf_order_challenger_modifier
+						global_country_ranking > 5
+					}
+					remove_modifier = qwf_order_challenger_modifier
+				}
+			}
+			else_if = {
+				limit = {
+					has_variable = great_power_dissatisfaction
+					global_country_ranking = 6
+					NOR = { 
+						has_global_variable = great_power_dissatisfaction_1 
+						has_global_variable = great_power_dissatisfaction_2
+						has_global_variable = great_power_dissatisfaction_3
+						has_global_variable = great_power_dissatisfaction_4
+						has_global_variable = great_power_dissatisfaction_5
+						has_modifier = qwf_order_challenger_modifier
+					}
+				}
+				set_global_variable = {
+					name = qwf_order_challenger
+					value = scope:country_ranking_6
+				}
+				add_modifier = qwf_order_challenger_modifier
+				every_country = {
+					limit = {
+						has_modifier = qwf_order_challenger_modifier
+						global_country_ranking > 6
+					}
+					remove_modifier = qwf_order_challenger_modifier
+				}
+			}
+			else_if = {
+				limit = {
+					has_variable = great_power_dissatisfaction
+					global_country_ranking = 7
+					NOR = { 
+						has_global_variable = great_power_dissatisfaction_1 
+						has_global_variable = great_power_dissatisfaction_2
+						has_global_variable = great_power_dissatisfaction_3
+						has_global_variable = great_power_dissatisfaction_4
+						has_global_variable = great_power_dissatisfaction_5
+						has_global_variable = great_power_dissatisfaction_6
+						has_modifier = qwf_order_challenger_modifier
+					}
+				}
+				set_global_variable = {
+					name = qwf_order_challenger
+					value = scope:country_ranking_7
+				}
+				add_modifier = qwf_order_challenger_modifier
+				every_country = {
+					limit = {
+						has_modifier = qwf_order_challenger_modifier
+						global_country_ranking > 7
+					}
+					remove_modifier = qwf_order_challenger_modifier
+				}
+			}
+			else_if = {
+				limit = {
+					has_variable = great_power_dissatisfaction
+					global_country_ranking = 8
+					NOR = { 
+						has_global_variable = great_power_dissatisfaction_1 
+						has_global_variable = great_power_dissatisfaction_2
+						has_global_variable = great_power_dissatisfaction_3
+						has_global_variable = great_power_dissatisfaction_4
+						has_global_variable = great_power_dissatisfaction_5
+						has_global_variable = great_power_dissatisfaction_6
+						has_global_variable = great_power_dissatisfaction_7
+						has_modifier = qwf_order_challenger_modifier
+					}
+				}
+				set_global_variable = {
+					name = qwf_order_challenger
+					value = scope:country_ranking_8
+				}
+				add_modifier = qwf_order_challenger_modifier
+				every_country = {
+					limit = {
+						has_modifier = qwf_order_challenger_modifier
+						global_country_ranking > 8
+					}
+					remove_modifier = qwf_order_challenger_modifier
+				}
+			}
+			if = {
+				limit = {
+					has_variable = great_power_satisfaction
+					global_country_ranking = 1
+					NOT = { has_modifier = qwf_order_keeper_modifier }
+				}
+				set_global_variable = {
+					name = qwf_order_keeper
+					value = scope:country_ranking_1
+				}
+				add_modifier = qwf_order_keeper_modifier
+				every_country = {
+					limit = {
+						has_modifier = qwf_order_keeper_modifier
+						global_country_ranking > 1
+					}
+					remove_modifier = qwf_order_keeper_modifier
+				}
+			}
+			else_if = {
+				limit = {
+					has_variable = great_power_satisfaction
+					global_country_ranking = 2
+					NOR = { 
+						has_global_variable = great_power_satisfaction_1
+						has_modifier = qwf_order_keeper_modifier
+					}
+				}
+				set_global_variable = {
+					name = qwf_order_keeper
+					value = scope:country_ranking_2
+				}
+				add_modifier = qwf_order_keeper_modifier
+				every_country = {
+					limit = {
+						has_modifier = qwf_order_keeper_modifier
+						global_country_ranking > 2
+					}
+					remove_modifier = qwf_order_keeper_modifier
+				}
+			}
+			else_if = {
+				limit = {
+					has_variable = great_power_satisfaction
+					global_country_ranking = 3
+					NOR = { 
+						has_global_variable = great_power_satisfaction_1 
+						has_global_variable = great_power_satisfaction_2
+						has_modifier = qwf_order_keeper_modifier
+					}
+				}
+				set_global_variable = {
+					name = qwf_order_keeper
+					value = scope:country_ranking_3
+				}
+				add_modifier = qwf_order_keeper_modifier
+				every_country = {
+					limit = {
+						has_modifier = qwf_order_keeper_modifier
+						global_country_ranking > 3
+					}
+					remove_modifier = qwf_order_keeper_modifier
+				}
+			}
+			else_if = {
+				limit = {
+					has_variable = great_power_satisfaction
+					global_country_ranking = 4
+					NOR = { 
+						has_global_variable = great_power_satisfaction_1 
+						has_global_variable = great_power_satisfaction_2
+						has_global_variable = great_power_satisfaction_3
+						has_modifier = qwf_order_keeper_modifier
+					}
+				}
+				set_global_variable = {
+					name = qwf_order_keeper
+					value = scope:country_ranking_4
+				}
+				add_modifier = qwf_order_keeper_modifier
+				every_country = {
+					limit = {
+						has_modifier = qwf_order_keeper_modifier
+						global_country_ranking > 4
+					}
+					remove_modifier = qwf_order_keeper_modifier
+				}
+			}
+			else_if = {
+				limit = {
+					has_variable = great_power_satisfaction
+					global_country_ranking = 5
+					NOR = { 
+						has_global_variable = great_power_satisfaction_1 
+						has_global_variable = great_power_satisfaction_2
+						has_global_variable = great_power_satisfaction_3
+						has_global_variable = great_power_satisfaction_4
+						has_modifier = qwf_order_keeper_modifier
+					}
+				}
+				set_global_variable = {
+					name = qwf_order_keeper
+					value = scope:country_ranking_5
+				}
+				add_modifier = qwf_order_keeper_modifier
+				every_country = {
+					limit = {
+						has_modifier = qwf_order_keeper_modifier
+						global_country_ranking > 5
+					}
+					remove_modifier = qwf_order_keeper_modifier
+				}
+			}
+			else_if = {
+				limit = {
+					has_variable = great_power_satisfaction
+					global_country_ranking = 6
+					NOR = { 
+						has_global_variable = great_power_satisfaction_1 
+						has_global_variable = great_power_satisfaction_2
+						has_global_variable = great_power_satisfaction_3
+						has_global_variable = great_power_satisfaction_4
+						has_global_variable = great_power_satisfaction_5
+						has_modifier = qwf_order_keeper_modifier
+					}
+				}
+				set_global_variable = {
+					name = qwf_order_keeper
+					value = scope:country_ranking_6
+				}
+				add_modifier = qwf_order_keeper_modifier
+				every_country = {
+					limit = {
+						has_modifier = qwf_order_keeper_modifier
+						global_country_ranking > 6
+					}
+					remove_modifier = qwf_order_keeper_modifier
+				}
+			}
+			else_if = {
+				limit = {
+					has_variable = great_power_satisfaction
+					global_country_ranking = 7
+					NOR = { 
+						has_global_variable = great_power_satisfaction_1 
+						has_global_variable = great_power_satisfaction_2
+						has_global_variable = great_power_satisfaction_3
+						has_global_variable = great_power_satisfaction_4
+						has_global_variable = great_power_satisfaction_5
+						has_global_variable = great_power_satisfaction_6
+						has_modifier = qwf_order_keeper_modifier
+					}
+				}
+				set_global_variable = {
+					name = qwf_order_keeper
+					value = scope:country_ranking_7
+				}
+				add_modifier = qwf_order_keeper_modifier
+				every_country = {
+					limit = {
+						has_modifier = qwf_order_keeper_modifier
+						global_country_ranking > 7
+					}
+					remove_modifier = qwf_order_keeper_modifier
+				}
+			}
+			else_if = {
+				limit = {
+					has_variable = great_power_satisfaction
+					global_country_ranking = 8
+					NOR = { 
+						has_global_variable = great_power_satisfaction_1 
+						has_global_variable = great_power_satisfaction_2
+						has_global_variable = great_power_satisfaction_3
+						has_global_variable = great_power_satisfaction_4
+						has_global_variable = great_power_satisfaction_5
+						has_global_variable = great_power_satisfaction_6
+						has_global_variable = great_power_satisfaction_7
+						has_modifier = qwf_order_keeper_modifier
+					}
+				}
+				set_global_variable = {
+					name = qwf_order_keeper
+					value = scope:country_ranking_8
+				}
+				add_modifier = qwf_order_keeper_modifier
+				every_country = {
+					limit = {
+						has_modifier = qwf_order_keeper_modifier
+						global_country_ranking > 8
+					}
+					remove_modifier = qwf_order_keeper_modifier
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						country_rank < rank_value:great_power
+						global_country_ranking > 8
+					}
+				}
+				remove_variable = great_power_satisfaction
+				remove_variable = great_power_dissatisfaction
+				remove_modifier = qwf_order_keeper_modifier
+				remove_modifier = qwf_order_challenger_modifier
+			}
+			if = {
+				limit = {
+					OR = {
+						has_modifier = qwf_order_challenger_modifier
+						has_variable = great_power_dissatisfaction
+					}
+				}
+				remove_modifier = qwf_order_keeper_modifier
+			}
+			if = {
+				limit = {
+					OR = {
+						has_modifier = qwf_order_keeper_modifier
+						has_variable = great_power_satisfaction
+					}
+				}
+				remove_modifier = qwf_order_challenger_modifier
+			}
+			if = {
+				limit = {
+					has_modifier = qwf_order_keeper_modifier
+					has_modifier = qwf_order_challenger_modifier
+				}
+				remove_modifier = qwf_order_challenger_modifier
+				remove_modifier = qwf_order_keeper_modifier
+			}
+		}
+	}
+	on_yearly_pulse = {
+		effect = {
+			if = {
+				limit = {
+					global_country_ranking = 1
+				}
+				change_global_variable = { name = world_tension add = -1 }
+			}
+			if = {
+				limit = {
+					NOT = {
+						any_country = {
+							is_country_type = decentralized
+						}
+					}
+					global_country_ranking = 1
+				}
+				change_global_variable = { name = world_tension add = 1 }
+			}
+			if = {
+				limit = {
+					any_country = {
+						OR = {
+							is_country_type = unrecognized
+							is_country_type = decentralized
+						}
+						percent < 0.1
+					}
+					global_country_ranking = 1
+				}
+				change_global_variable = { name = world_tension add = 1 }
+			}
+			if = {
+				limit = {
+					great_power_dissatisfaction_percent >= 0.5
+					global_country_ranking = 1
+				}
+				change_global_variable = { name = world_tension add = 5 }
+			}
+			if = {
+				limit = {
+					has_global_variable = geneva_conventions_setup
+					global_country_ranking = 1
+				}
+				change_global_variable = { name = world_tension add = -1 }
+			}
+		}
+	}
+	
+	weight = 100
+	should_be_pinned_by_default = yes
+}
+
+je_great_war = {
+	icon = "gfx/interface/icons/invention_icons/pan_nationalism.dds"
+
+	is_shown_when_inactive = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+		has_global_variable = world_war_diplomatic_play
+		OR = {
+			has_variable = gw_side_1
+			has_variable = gw_side_2
+		}
+	}
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_variable = national_discontent }
+			}
+			set_variable = {
+				name = national_discontent
+				value = 0
+			}
+		}
+	}
+
+	possible = {
+		OR = {
+			is_country_type = recognized
+			is_country_type = colonial
+		}
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_great_war_end
+			NOT = { has_global_variable = world_war_diplomatic_play }
+		}
+	}
+
+	on_complete = {
+		remove_variable = qwf_suppressing_dissent
+		remove_modifier = qwf_wartime_rationing
+		remove_modifier = qwf_war_propaganda
+		remove_modifier = qwf_focus_on_wartime_research
+		remove_modifier = national_discontent_modifier
+	}
+
+	invalid = {
+
+	}
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_great_war_national_discontent_stability
+				trigger = {
+					var:national_discontent >= 0
+					var:national_discontent < 20
+				}
+			}
+			triggered_desc = {
+				desc = je_great_war_national_discontent_low
+				trigger = {
+					var:national_discontent >= 20
+					var:national_discontent < 40
+				}
+			}
+			triggered_desc = {
+				desc = je_great_war_national_discontent_hight
+				trigger = {
+					var:national_discontent >= 40
+					var:national_discontent < 60
+				}
+			}
+			triggered_desc = {
+				desc = je_great_war_national_discontent_highter
+				trigger = {
+					var:national_discontent >= 60
+					var:national_discontent < 80
+				}
+			}
+			triggered_desc = {
+				desc = je_great_war_national_discontent_hightest
+				trigger = {
+					var:national_discontent >= 80
+				}
+			}
+		}
+	}
+	# a script value computing the goal completion metric
+	current_value = {
+		value = var:national_discontent
+	}
+	
+	on_monthly_pulse = {
+		effect = {
+			clamp_variable = { name = national_discontent max = 100 min = 0 }
+			if = {
+				limit = {
+					NOT = { has_variable = national_discontent }
+				}
+				set_variable = {
+					name = national_discontent
+					value = 0
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						radical_fraction = {
+							value > 0.5
+							pop_type = academics
+						}
+						radical_fraction = {
+							value > 0.5
+							pop_type = engineers
+						}
+						radical_fraction = {
+							value > 0.5
+							pop_type = bureaucrats
+						}
+					}
+				}
+				change_variable = { name = national_discontent add = 2 }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						radical_fraction = {
+							value > 0.25
+							pop_type = academics
+						}
+						radical_fraction = {
+							value > 0.25
+							pop_type = engineers
+						}
+						radical_fraction = {
+							value > 0.25
+							pop_type = bureaucrats
+						}
+					}
+				}
+				change_variable = { name = national_discontent add = 1 }
+			}
+			if = {
+				limit = {
+					OR = {
+						radical_fraction = {
+							value > 0.5
+							pop_type = shopkeepers
+						}
+						
+						radical_fraction = {
+							value > 0.5
+							pop_type = clergymen
+						}
+					}
+				}
+				change_variable = { name = national_discontent add = 2 }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						radical_fraction = {
+							value > 0.25
+							pop_type = shopkeepers
+						}
+						
+						radical_fraction = {
+							value > 0.25
+							pop_type = clergymen
+						}
+					}
+				}
+				change_variable = { name = national_discontent add = 1 }
+			}
+			if = {
+				limit = {
+					OR = {
+						radical_fraction = {
+							value > 0.3
+							pop_type = officers
+						}
+						
+						radical_fraction = {
+							value > 0.3
+							pop_type = soldiers
+						}
+					}
+				}
+				change_variable = { name = national_discontent add = 2 }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						radical_fraction = {
+							value > 0.15
+							pop_type = officers
+						}
+						
+						radical_fraction = {
+							value > 0.15
+							pop_type = soldiers
+						}
+					}
+				}
+				change_variable = { name = national_discontent add = 1 }
+			}
+			if = {
+				limit = {
+					OR = {
+						radical_fraction = {
+							value > 0.3
+							pop_type = aristocrats
+						}
+						
+						radical_fraction = {
+							value > 0.3
+							pop_type = capitalists
+						}
+					}
+				}
+				change_variable = { name = national_discontent add = 2 }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						radical_fraction = {
+							value > 0.15
+							pop_type = aristocrats
+						}
+						
+						radical_fraction = {
+							value > 0.15
+							pop_type = capitalists
+						}
+					}
+				}
+				change_variable = { name = national_discontent add = 1 }
+			}
+			if = {
+				limit = {
+					OR = {
+						radical_fraction = {
+							value > 0.5
+							pop_type = laborers
+						}
+						radical_fraction = {
+							value > 0.5
+							pop_type = machinists
+						}
+						radical_fraction = {
+							value > 0.5
+							pop_type = peasants
+						}
+						radical_fraction = {
+							value > 0.5
+							pop_type = clerks
+						}
+						radical_fraction = {
+							value > 0.5
+							pop_type = farmers
+						}
+					}
+				}
+				change_variable = { name = national_discontent add = 2 }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						radical_fraction = {
+							value > 0.25
+							pop_type = laborers
+						}
+						radical_fraction = {
+							value > 0.25
+							pop_type = machinists
+						}
+						radical_fraction = {
+							value > 0.25
+							pop_type = peasants
+						}
+						radical_fraction = {
+							value > 0.25
+							pop_type = clerks
+						}
+						radical_fraction = {
+							value > 0.25
+							pop_type = farmers
+						}
+					}
+				}
+				change_variable = { name = national_discontent add = 1 }
+			}
+			if = {
+				limit = {
+					has_modifier = qwf_war_propaganda
+					var:national_discontent >= 0
+				}
+				change_variable = { name = national_discontent add = -3 }
+			}
+			if = {
+				limit = {
+					has_variable = qwf_suppressing_dissent
+					var:national_discontent >= 0
+				}
+				change_variable = { name = national_discontent add = -5 }
+			}
+			if = {
+				limit = {
+					has_modifier = qwf_wartime_rationing
+				}
+				change_variable = { name = national_discontent add = 2 }
+			}
+			if = {
+				limit = {
+					any_scope_war = {
+						num_country_casualties = { target = root value > 200000 }
+					}
+				}
+				change_variable = { name = national_discontent add = 1 }
+			}
+			if = {
+				limit = {
+					any_scope_war = {
+						num_country_casualties = { target = root value > 400000 }
+					}
+				}
+				change_variable = { name = national_discontent add = 2 }
+			}
+			if = {
+				limit = {
+					any_scope_war = {
+						num_country_casualties = { target = root value > 800000 }
+					}
+				}
+				change_variable = { name = national_discontent add = 3 }
+			}
+			if = {
+				limit = {
+					any_scope_war = {
+						num_country_casualties = { target = root value > 1500000 }
+					}
+				}
+				change_variable = { name = national_discontent add = 4 }
+			}
+			remove_modifier = national_discontent_modifier
+			add_modifier = {
+				name = national_discontent_modifier
+				multiplier = var:national_discontent
+			}
+		}
+	}
+
+	# a script value determining how much should be added onto current_value when journal entry is granted to set the goal
+	goal_add_value = {
+		value = 100
+	}
+
+	progressbar = yes
+	weight = 100
+	should_be_pinned_by_default = yes
+}
