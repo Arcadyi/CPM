@@ -31,7 +31,7 @@
 		if = {
 			limit = { 
 				AND = {
-					c:HUN = {
+					scope.c:HUN = {
 						is_subject_of = c:AUS
 					}
 				}
@@ -82,7 +82,7 @@
 		
 		if = {
 			limit = { 
-				c:HUN = {
+				scope.c:HUN = {
 					has_attitude = {
 						who = c:AUS 
 						attitude = rebellious
