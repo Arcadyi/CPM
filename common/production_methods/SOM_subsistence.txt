@@ -1,0 +1,1037 @@
+﻿pm_shifting_cultivation_building_subsistence_farms = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+	
+	unlocking_laws = {
+		law_traditionalism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 74
+			building_output_grain_add = 1.5 # 30
+			building_output_fabric_add = 0.5 # 10
+			building_output_wood_add = 0.5 # 10
+			building_output_services_add = 0.3 # 9
+			building_output_liquor_add = 0.5 # 15
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 6000
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 5
+			building_clergymen_shares_add = 2
+			building_subsistence_output_add = 3
+		}
+	}
+}
+
+pm_manoralism_building_subsistence_farms = {
+	texture = "gfx/interface/icons/production_method_icons/soil_enriching_farming.dds"
+	
+	disallowing_laws = {
+		law_traditionalism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 74
+			building_output_grain_add = 1.5 # 30
+			building_output_fabric_add = 0.5 # 10
+			building_output_wood_add = 0.5 # 10
+			building_output_services_add = 0.3 # 9
+			building_output_liquor_add = 0.5 # 15
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 6000
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 5
+			building_clergymen_shares_add = 2
+			building_subsistence_output_add = 4
+		}
+	}
+}
+
+pm_tennant_farming_building_subsistence_farms = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+	
+	disallowing_laws = {
+		law_traditionalism
+		law_serfdom
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 100
+			building_output_grain_add = 2.5 # 50
+			building_output_fabric_add = 0.5 # 10
+			building_output_wood_add = 0.5 # 10
+			building_output_services_add = 0.5 # 15
+			building_output_liquor_add = 0.5 # 15
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 4750
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 5
+			building_clergymen_shares_add = 2
+			building_subsistence_output_add = 4
+		}
+	}
+}
+
+pm_homesteading_building_subsistence_farms = {
+	texture = "gfx/interface/icons/production_method_icons/no_serfdom.dds"
+	
+	disallowing_laws = {
+		law_traditionalism
+		law_serfdom
+		law_command_economy
+	}
+	
+	unlocking_laws = {
+		law_colonial_resettlement
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 100
+			building_output_grain_add = 2.5 # 50
+			building_output_fabric_add = 0.5 # 10
+			building_output_wood_add = 0.5 # 10
+			building_output_services_add = 0.5 # 15
+			building_output_liquor_add = 0.5 # 15
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 2375 #Halved Labor Requirement
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 1
+			building_clergymen_shares_add = 1
+			building_peasant_shares_add = 1 #Added dividends to Peasants
+			building_subsistence_output_add = 5
+		}
+	}
+	state_modifiers = {
+		unscaled = {
+			state_migration_pull_mult = 0.5  #Increases migration attraciton to states with homesteading, meant to be OP
+		}
+	}
+}
+
+pm_forced_labor_building_subsistence_farms = {
+	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
+	
+	disallowing_laws = {
+		law_traditionalism
+		law_laissez_faire
+	}
+	
+	unlocking_laws = {
+		law_colonial_exploitation
+	}
+	
+	ai_weight = -1.0 #The AI doesn't weigh subsistence output when deciding PMs, so too often it starves itself with this.
+	
+	building_modifiers = {
+		workforce_scaled = { # 145, 45% higher than tennant farming
+			building_output_grain_add = 3.5 # 70
+			building_output_fabric_add = 0.75 # 15
+			building_output_wood_add = 0.75 # 15
+			building_output_services_add = 0.75 # 22.5
+			building_output_liquor_add = 0.75 # 22.5
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 4750
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 5
+			building_clergymen_shares_add = 2
+			building_subsistence_output_add = 1 #Terrible subsistence output, to make up for the 45% increase in output
+			building_peasants_mortality_mult = 0.2
+		}
+	}
+}
+
+pm_home_workshops_no_building_subsistence_farms = {
+	texture = "gfx/interface/icons/production_method_icons/no_home_workshops.dds"
+	unlocking_laws = {
+		law_command_economy
+		law_chiefdom
+	}
+	
+	building_modifiers = { # 45
+		unscaled = {
+			building_output_grain_add = 1.0  # 20
+			building_output_fabric_add = 0.5  # 10
+			building_output_wood_add = 0.3 # 6
+			building_output_liquor_add = 0.3 # 9
+		}
+	}				
+}			
+
+pm_home_workshops_building_subsistence_farms = {
+	texture = "gfx/interface/icons/production_method_icons/home_workshops.dds"
+	disallowing_laws = {
+		law_command_economy
+		law_chiefdom
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 8
+			building_output_clothes_add = 0.5 # 4
+			building_output_furniture_add = 0.5 # 4
+		}
+	}
+}
+
+pm_cottage_industry_building_subsistence_farms = {
+	texture = "gfx/interface/icons/production_method_icons/luxury_furniture.dds"
+	disallowing_laws = {
+		law_command_economy
+		law_chiefdom
+	}
+	unlocking_production_methods = {
+		pm_tennant_farming_building_subsistence_farms
+		#pm_homesteading_building_subsistence_farms
+		#pm_forced_labor_building_subsistence_farms
+	}
+	building_modifiers = {
+		workforce_scaled = { # 26
+			building_output_clothes_add = 0.4 # 10
+			building_output_furniture_add = 0.4 # 10
+			building_output_luxury_furniture_add = 0.1 # 6
+		}
+	}
+}
+
+pm_hunting_building_subsistence = {
+	texture = "gfx/interface/icons/production_method_icons/unused/guns.dds"
+	unlocking_laws = {
+		law_national_militia
+		law_mass_conscription
+	}
+	building_modifiers = {
+		workforce_scaled = { # 3
+			building_output_meat_add = 0.3 # 9
+			building_input_small_arms_add = 0.1 #-6
+		}
+		unscaled = {
+			building_subsistence_output_add = 1
+		}
+	}
+	
+}
+
+pm_hunting_no_building_subsistence = {
+	texture = "gfx/interface/icons/production_method_icons/unused/disabled.dds"
+}
+
+pm_intensive_subsistence_building_subsistence_intensive = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+	
+	unlocking_laws = {
+		law_traditionalism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 296, 8x scale version of normal farms
+			building_output_grain_add = 6.0 # 120
+			building_output_fabric_add = 2.0 # 40
+			building_output_wood_add = 2.0 # 40
+			building_output_services_add = 1.2 # 36
+			building_output_liquor_add = 2.0 # 60
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 24000
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 5
+			building_clergymen_shares_add = 2
+			building_subsistence_output_add = 3
+		}
+	}
+}
+
+pm_manoralism_building_subsistence_intensive = {
+	texture = "gfx/interface/icons/production_method_icons/soil_enriching_farming.dds"
+	
+	disallowing_laws = {
+		law_traditionalism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 296, 8x scale version of normal farms
+			building_output_grain_add = 6.0 # 120
+			building_output_fabric_add = 2.0 # 40
+			building_output_wood_add = 2.0 # 40
+			building_output_services_add = 1.2 # 36
+			building_output_liquor_add = 2.0 # 60
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 24000
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 5
+			building_clergymen_shares_add = 2
+			building_subsistence_output_add = 4
+		}
+	}
+}
+
+pm_tennant_farming_building_subsistence_intensive = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+	
+	disallowing_laws = {
+		law_traditionalism
+		law_serfdom
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 800
+			building_output_grain_add = 10.0 # 200
+			building_output_fabric_add = 2.0 # 40
+			building_output_wood_add = 2.0 # 40
+			building_output_services_add = 2.0 # 60
+			building_output_liquor_add = 2.0 # 60
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 19000
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 5
+			building_clergymen_shares_add = 2
+			building_subsistence_output_add = 4
+		}
+	}
+}
+
+pm_homesteading_building_subsistence_intensive = {
+	texture = "gfx/interface/icons/production_method_icons/no_serfdom.dds"
+	
+	disallowing_laws = {
+		law_traditionalism
+		law_serfdom
+		law_command_economy
+	}
+	
+	unlocking_laws = {
+		law_colonial_resettlement
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 800
+			building_output_grain_add = 10.0 # 200
+			building_output_fabric_add = 2.0 # 40
+			building_output_wood_add = 2.0 # 40
+			building_output_services_add = 2.0 # 60
+			building_output_liquor_add = 2.0 # 60
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 9500 #Halved
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 3.0
+			building_clergymen_shares_add = 1.0
+			building_peasant_shares_add = 1.0 #Added dividends to Peasants
+			building_subsistence_output_add = 5.0
+		}
+	}
+	state_modifiers = {
+		unscaled = {
+			state_migration_pull_mult = 0.5  #Increases migration attraciton to states with homesteading, meant to be OP
+		}
+	}
+}
+
+pm_forced_labor_building_subsistence_intensive = {
+	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
+	
+	disallowing_laws = {
+		law_traditionalism
+		law_laissez_faire
+	}
+	
+	ai_weight = -1.0 #The AI doesn't weigh subsistence output when deciding PMs, so too often it starves itself with this.
+	
+	unlocking_laws = {
+		law_colonial_exploitation
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 1200
+			building_output_grain_add = 15.0  #300
+			building_output_fabric_add = 3.0 # 60
+			building_output_wood_add = 3.0 # 60
+			building_output_services_add = 3.0 # 120
+			building_output_liquor_add = 3.0 # 120
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 19000
+		}
+				
+		unscaled = {
+			building_aristocrats_shares_add = 5
+			building_clergymen_shares_add = 2
+			building_subsistence_output_add = 1 #Terrible subsistence output, to make up for the 50% increase in output
+			building_peasants_mortality_mult = 0.2
+		}
+	}
+}
+
+pm_home_workshops_no_building_subsistence_intensive = {
+	texture = "gfx/interface/icons/production_method_icons/no_home_workshops.dds"
+	unlocking_laws = {
+		law_command_economy
+		law_chiefdom
+	}
+	
+	building_modifiers = { # 360
+		unscaled = {
+			building_output_grain_add = 4.0  # 80
+			building_output_fabric_add = 2.0  # 40
+			building_output_wood_add = 1.2 # 24
+			building_output_liquor_add = 1.2 # 36
+		}
+	}				
+}			
+
+pm_home_workshops_building_subsistence_intensive = {
+	texture = "gfx/interface/icons/production_method_icons/home_workshops.dds"
+	disallowing_laws = {
+		law_command_economy
+		law_chiefdom
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 96
+			building_output_clothes_add = 2.0 # 48
+			building_output_furniture_add = 2.0 # 48
+		}
+	}
+}
+
+pm_cottage_industry_building_subsistence_intensive = {
+	texture = "gfx/interface/icons/production_method_icons/ceramics.dds"
+	disallowing_laws = {
+		law_command_economy
+		law_chiefdom
+	}
+	unlocking_production_methods = {
+		pm_tennant_farming_building_subsistence_intensive
+		#pm_homesteading_building_subsistence_intensive
+		#pm_forced_labor_building_subsistence_intensive
+	}
+	building_modifiers = {
+		workforce_scaled = { # 155
+			building_output_clothes_add = 1.6 # 60
+			building_output_furniture_add = 1.6 # 60
+			building_output_porcelain_add = 0.5 # 35
+		}
+	}
+}
+
+pm_hunting_building_subsistence_intensive = {
+	texture = "gfx/interface/icons/production_method_icons/unused/guns.dds"
+	unlocking_laws = {
+		law_national_militia
+		law_mass_conscription
+	}
+
+	building_modifiers = {
+		workforce_scaled = { # 12
+			building_output_meat_add = 1.2 # 36
+			building_input_small_arms_add = 0.4 #-24
+		}
+		unscaled = {
+			building_subsistence_output_add = 1
+		}
+	}
+	
+}
+
+pm_hunting_no_building_subsistence_intensive = {
+	texture = "gfx/interface/icons/production_method_icons/unused/disabled.dds"
+}
+
+
+#pm_serfdom_no = {
+#	texture = "gfx/interface/icons/production_method_icons/no_serfdom.dds"
+#	unlocking_laws = {
+#		law_serfdom_banned
+#		law_regulatory_bodies
+#		law_worker_protections
+#	}
+#	
+#	building_modifiers = {					
+#		unscaled = {
+#			building_subsistence_output_add = 4
+#		}
+#	}
+#}
+
+#pm_serfdom = {
+#	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
+#	unlocking_laws = {
+#		law_serfdom
+#	}				
+#	building_modifiers = {
+#		workforce_scaled = {
+#			building_output_grain_add = 0.5 # 10
+#		}
+#
+#		unscaled = {
+#			building_subsistence_output_add = 3
+#		}		
+#	}
+#}		
+
+pm_subsistence_orchard_building_subsistence_orchards = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+	
+	unlocking_laws = {
+		law_traditionalism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 74
+			building_output_fruit_add = 1 # 30
+			building_output_fabric_add = 0.25 # 5
+			building_output_wood_add = 0.75 # 15
+			building_output_services_add = 0.3 # 9
+			building_output_liquor_add = 0.5 # 15
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 6000
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 5
+			building_clergymen_shares_add = 2
+			building_subsistence_output_add = 3
+		}
+	}
+}
+
+pm_manoralism_building_subsistence_orchards = {
+	texture = "gfx/interface/icons/production_method_icons/soil_enriching_farming.dds"
+	
+	disallowing_laws = {
+		law_traditionalism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 74
+			building_output_fruit_add = 1 # 30
+			building_output_fabric_add = 0.25 # 5
+			building_output_wood_add = 0.75 # 15
+			building_output_services_add = 0.3 # 9
+			building_output_liquor_add = 0.5 # 15
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 6000
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 5
+			building_clergymen_shares_add = 2
+			building_subsistence_output_add = 4
+		}
+	}
+}
+
+pm_tennant_farming_building_subsistence_orchards = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+	
+	disallowing_laws = {
+		law_traditionalism
+		law_serfdom
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 95
+			building_output_fruit_add = 1.5 # 45
+			building_output_fabric_add = 0.25 # 5
+			building_output_wood_add = 0.75 # 15
+			building_output_services_add = 0.5 # 15
+			building_output_liquor_add = 0.5 # 15
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 4750
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 5
+			building_clergymen_shares_add = 2
+			building_subsistence_output_add = 4
+		}
+	}
+}
+
+pm_homesteading_building_subsistence_orchards = {
+	texture = "gfx/interface/icons/production_method_icons/no_serfdom.dds"
+	
+	disallowing_laws = {
+		law_traditionalism
+		law_serfdom
+		law_command_economy
+	}
+	
+	unlocking_laws = {
+		law_colonial_resettlement
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 95
+			building_output_fruit_add = 1.5 # 45
+			building_output_fabric_add = 0.25 # 5
+			building_output_wood_add = 0.75 # 15
+			building_output_services_add = 0.5 # 15
+			building_output_liquor_add = 0.5 # 15
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 2375 #Halved Labor Requirement
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 3
+			building_clergymen_shares_add = 1
+			building_peasant_shares_add = 1 #Added dividends to Peasants
+			building_subsistence_output_add = 5
+		}
+	}
+	state_modifiers = {
+		unscaled = {
+			state_migration_pull_mult = 0.5  #Increases migration attraciton to states with homesteading, meant to be OP
+		}
+	}
+}
+
+pm_forced_labor_building_subsistence_orchards = {
+	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
+	
+	disallowing_laws = {
+		law_traditionalism
+		law_laissez_faire
+	}
+	
+	unlocking_laws = {
+		law_colonial_exploitation
+	}
+	
+	ai_weight = -1.0 #The AI doesn't weigh subsistence output when deciding PMs, so too often it starves itself with this.
+	
+	building_modifiers = {
+		workforce_scaled = { # 142.5
+			building_output_fruit_add = 2.25 # 67.5
+			building_output_fabric_add = 0.5 # 10
+			building_output_wood_add = 1.0 # 20
+			building_output_services_add = 0.75 # 22.5
+			building_output_liquor_add = 0.75 # 22.5
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 4750
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 5
+			building_clergymen_shares_add = 2
+			building_subsistence_output_add = 1 #Terrible subsistence output, to make up for the 45% increase in output
+			building_peasants_mortality_mult = 0.2
+		}
+	}
+}
+
+pm_home_workshops_no_building_subsistence_orchards = {
+	texture = "gfx/interface/icons/production_method_icons/no_home_workshops.dds"
+	unlocking_laws = {
+		law_command_economy
+		law_chiefdom
+	}
+	
+	building_modifiers = { # 47.5
+		unscaled = {
+			building_output_fruit_add = .75  # 22.5
+			building_output_fabric_add = 0.5  # 10
+			building_output_wood_add = 0.3 # 6
+			building_output_liquor_add = 0.3 # 9
+		}
+	}				
+}			
+
+pm_home_workshops_building_subsistence_orchards = {
+	texture = "gfx/interface/icons/production_method_icons/home_workshops.dds"
+	disallowing_laws = {
+		law_command_economy
+		law_chiefdom
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 8
+			building_output_clothes_add = 0.5 # 4
+			building_output_furniture_add = 0.5 # 4
+		}
+	}
+}
+
+pm_cottage_industry_building_subsistence_orchards = {
+	texture = "gfx/interface/icons/production_method_icons/orchards.dds"
+	disallowing_laws = {
+		law_command_economy
+		law_chiefdom
+	}
+	unlocking_production_methods = {
+		pm_tennant_farming_building_subsistence_orchards
+		#pm_homesteading_building_subsistence_farms
+		#pm_forced_labor_building_subsistence_farms
+	}
+	building_modifiers = {
+		workforce_scaled = { # 44
+			building_output_clothes_add = 0.4 # 10
+			building_output_furniture_add = 0.4 # 10
+			building_output_sugar_add = 0.1 # 6
+		}
+	}
+}
+
+#pm_serfdom_building_subsistence_orchards = {
+#	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
+#	unlocking_laws = {
+#		law_serfdom
+#	}				
+#	building_modifiers = {
+#		workforce_scaled = {
+#			building_output_fruit_add = 0.33 # 10
+#		}
+#
+#		unscaled = {
+#			building_subsistence_output_add = 3
+#		}			
+#	}
+#}		
+
+pm_pastoral_nomadism_building_subsistence_pastures = {
+	texture = "gfx/interface/icons/production_method_icons/unused/subsistence_pastures.dds"
+	
+	unlocking_laws = {
+		law_traditionalism
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 74
+			building_output_meat_add = 1 # 30
+			building_output_wood_add = 0.25 # 5
+			building_output_fabric_add = 0.75 # 15
+			building_output_services_add = 0.3 # 9
+			building_output_liquor_add = 0.5 # 15
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 6000
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 5
+			building_clergymen_shares_add = 2
+			building_subsistence_output_add = 3
+		}
+	}
+}
+
+pm_ranching_building_subsistence_pastures = {
+	texture = "gfx/interface/icons/production_method_icons/simple_ranching.dds"
+	
+	disallowing_laws = {
+		law_traditionalism
+		law_serfdom_banned
+		law_regulatory_bodies
+		law_worker_protections
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 74
+			building_output_meat_add = 1 # 30
+			building_output_wood_add = 0.25 # 5
+			building_output_fabric_add = 0.75 # 15
+			building_output_services_add = 0.3 # 9
+			building_output_liquor_add = 0.5 # 15
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 6000
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 5
+			building_clergymen_shares_add = 2
+			building_subsistence_output_add = 4
+		}
+	}
+}
+
+pm_tennant_ranching_building_subsistence_pastures = {
+	texture = "gfx/interface/icons/production_method_icons/intensive_grazing.dds"
+	
+	disallowing_laws = {
+		law_traditionalism
+		law_serfdom
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 95
+			building_output_meat_add = 1.5 # 45
+			building_output_wood_add = 0.25 # 5
+			building_output_fabric_add = 0.75 # 15
+			building_output_services_add = 0.5 # 15
+			building_output_liquor_add = 0.5 # 15
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 4750
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 5
+			building_clergymen_shares_add = 2
+			building_subsistence_output_add = 4
+		}
+	}
+}
+
+pm_freehold_ranching_building_subsistence_pastures = {
+	texture = "gfx/interface/icons/production_method_icons/no_serfdom.dds"
+	
+	disallowing_laws = {
+		law_traditionalism
+		law_serfdom
+		law_command_economy
+	}
+	
+	unlocking_laws = {
+		law_colonial_resettlement
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 95
+			building_output_meat_add = 1.5 # 45
+			building_output_wood_add = 0.25 # 5
+			building_output_fabric_add = 0.75 # 15
+			building_output_services_add = 0.5 # 15
+			building_output_liquor_add = 0.5 # 15
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 2375 #Halved Labor Requirement
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 3
+			building_clergymen_shares_add = 1
+			building_peasant_shares_add = 1 #Added dividends to Peasants
+			building_subsistence_output_add = 5
+		}
+	}
+	state_modifiers = {
+		unscaled = {
+			state_migration_pull_mult = 0.5  #Increases migration attraciton to states with homesteading, meant to be OP
+		}
+	}
+}
+
+pm_forced_labor_building_subsistence_pastures = {
+	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
+	
+	disallowing_laws = {
+		law_traditionalism
+		law_laissez_faire
+	}
+	
+	unlocking_laws = {
+		law_colonial_exploitation
+	}
+	
+	ai_weight = -1.0 #The AI doesn't weigh subsistence output when deciding PMs, so too often it starves itself with this.
+	
+	building_modifiers = {
+		workforce_scaled = { # 142.5
+			building_output_meat_add = 2.25 # 67.5
+			building_output_wood_add = 0.5 # 10
+			building_output_fabric_add = 1.0 # 20
+			building_output_services_add = 0.75 # 22.5
+			building_output_liquor_add = 0.75 # 22.5
+		}
+
+
+		level_scaled = {
+			building_employment_peasants_add = 4750
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 5
+			building_clergymen_shares_add = 2
+			building_subsistence_output_add = 1 #Terrible subsistence output, to make up for the 45% increase in output
+			building_peasants_mortality_mult = 0.2
+		}
+	}
+}
+
+pm_home_workshops_no_building_subsistence_pastures = {
+	texture = "gfx/interface/icons/production_method_icons/no_home_workshops.dds"
+	unlocking_laws = {
+		law_command_economy
+		law_chiefdom
+	}
+	
+	building_modifiers = { # 47.5
+		unscaled = {
+			building_output_meat_add = .75  # 22.5
+			building_output_fabric_add = 0.5  # 10
+			building_output_wood_add = 0.3 # 6
+			building_output_liquor_add = 0.3 # 9
+		}
+	}				
+}			
+
+pm_home_workshops_building_subsistence_pastures = {
+	texture = "gfx/interface/icons/production_method_icons/home_workshops.dds"
+	disallowing_laws = {
+		law_command_economy
+		law_chiefdom
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 8
+			building_output_clothes_add = 0.5 # 4
+			building_output_furniture_add = 0.5 # 4
+		}
+	}
+}
+
+pm_cottage_industry_building_subsistence_pastures = {
+	texture = "gfx/interface/icons/production_method_icons/craftsman_sewing.dds"
+	disallowing_laws = {
+		law_command_economy
+		law_chiefdom
+	}
+	unlocking_production_methods = {
+		pm_tennant_ranching_building_subsistence_pastures
+		#pm_homesteading_building_subsistence_farms
+		#pm_forced_labor_building_subsistence_farms
+	}
+	building_modifiers = {
+		workforce_scaled = { # 44
+			building_output_clothes_add = 0.4 # 10
+			building_output_furniture_add = 0.4 # 10
+			building_output_luxury_clothes_add = 0.1 # 6
+		}
+	}
+}
+
+pm_privately_owned_building_subsistence = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+	
+	disallowing_laws = {
+		law_council_republic
+	}
+	
+	building_modifiers = { 
+		level_scaled = {
+			building_employment_clergymen_add = 150
+			building_employment_aristocrats_add = 100
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
+		}
+	}
+}
+
+pm_worker_cooperative_building_subsistence = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+
+	unlocking_laws = {
+		law_council_republic
+	}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_peasants_add = 250
+		}
+		unscaled = {
+			building_peasant_shares_add = 1
+		}
+	}
+}
+
+pm_privately_owned_building_subsistence_intensive = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+	
+	disallowing_laws = {
+		law_council_republic
+	}
+	
+	building_modifiers = { 
+		level_scaled = {
+			building_employment_clergymen_add = 1200
+			building_employment_aristocrats_add = 800
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
+		}
+	}
+}
+
+pm_worker_cooperative_building_subsistence_intensive = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+
+	unlocking_laws = {
+		law_council_republic
+	}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_peasants_add = 2000
+		}
+		unscaled = {
+			building_peasant_shares_add = 1
+		}
+	}
+}
