@@ -1,0 +1,305 @@
+﻿cb_state_has_free_workforce = {
+	OR = {
+		state_unemployment_rate >= 0.02
+		AND = {
+			any_scope_pop = {
+				is_pop_type = peasants
+				OR = {
+					pop_employment_building_group =	bg_subsistence_agriculture
+					pop_employment_building_group =	bg_subsistence_ranching
+				}
+			}
+			any_scope_building = {
+				is_subsistence_building = yes
+				level > 0
+				occupancy >= 0.02
+			}
+		}
+	}
+}
+
+default_auto_expand_rule = { 
+	OR ={
+
+		trigger_if = { # Laissez Faire
+			limit = {
+				OR = {
+					AND = {
+						has_game_rule = si_economic_system_automation
+						owner = {
+							owner = { has_law = law_type:law_laissez_faire }
+						}
+					}
+					has_game_rule = si_laissez_faire_automation
+				}
+			}
+			AND ={ 
+				cash_reserves_ratio > 0.5
+				state = {
+					cb_state_has_free_workforce = yes
+				}
+				building_has_goods_shortage = no
+				trigger_if = {
+					limit = {
+						OR = {
+							owner = { has_law = law_type:law_mercantilism }
+							owner = { has_law = law_type:law_free_trade }						
+						}
+					}
+					state.market_access = 1.0
+				}				
+				occupancy >= 0.95
+				building_has_goods_shortage = no
+				weekly_profit > 1				
+			}
+		}
+		trigger_if = { # Agrarian Economy
+			limit = {
+				AND = {
+					has_game_rule = si_economic_system_automation
+					owner = { has_law = law_type:law_agrarianism }
+				}
+			}
+			AND ={ 
+				state = {
+					cb_state_has_free_workforce = yes
+				}
+				trigger_if = {
+					limit = {
+						OR = {
+							owner = { has_law = law_type:law_mercantilism }
+							owner = { has_law = law_type:law_free_trade }						
+						}
+					}
+					state.market_access = 1.0
+				}		
+				occupancy = 1
+				building_has_goods_shortage = no
+				cash_reserves_ratio = 1
+			}
+
+		}
+		trigger_if = { # Traditionalist
+			limit = {
+				AND = {
+					has_game_rule = si_economic_system_automation
+					owner = { has_law = law_type:law_traditionalism }
+				}
+			}
+			AND ={ 
+				state = {
+					cb_state_has_free_workforce = yes
+				}
+				occupancy = 1
+				building_has_goods_shortage = no
+				cash_reserves_ratio = 1
+			}
+
+		}
+		trigger_if = { # Interventionist
+			limit = {
+				OR = {
+					AND = {
+						has_game_rule = si_economic_system_automation
+						owner = { has_law = law_type:law_interventionism }
+					}
+					has_game_rule = si_interventionism_automation
+				}
+			}
+			AND ={ 
+				OR = {
+					is_subsidized = yes
+					weekly_profit > 1
+				}
+				occupancy >= 0.95
+				building_has_goods_shortage = no
+				cash_reserves_ratio > 0.75
+				trigger_if = {
+					limit = {
+						OR = {
+							owner = { has_law = law_type:law_mercantilism }
+							owner = { has_law = law_type:law_free_trade }						
+						}
+					}
+					state.market_access = 1.0
+				}
+				state = {
+					cb_state_has_free_workforce = yes
+				}
+			}
+
+		}
+		trigger_if = { # CMD Econ
+			limit = { 
+				OR = {
+					AND = {
+						has_game_rule = si_economic_system_automation
+						owner = {
+							owner = { has_law = law_type:law_command_economy }
+						}
+					}
+					has_game_rule = si_command_economy_automation
+				}
+			}
+			AND ={ 
+				trigger_if = {
+					limit = {
+						OR = {
+							owner = { has_law = law_type:law_mercantilism }
+							owner = { has_law = law_type:law_free_trade }						
+						}
+					}
+					state.market_access = 1.0
+				}
+				building_has_goods_shortage = no
+				is_subsidized = yes
+			}
+
+		}
+
+		trigger_if = { # Is Socialist
+			limit = {
+				owner = {
+					owner = { has_law = law_type:law_council_republic }
+				}
+			}
+			AND = {
+				OR = {
+					has_active_production_method = pm_worker_cooperative_building_food_industry
+					has_active_production_method = pm_worker_cooperative_building_textile_mills
+					has_active_production_method = pm_worker_cooperative_building_furniture_manufacturies
+					has_active_production_method = pm_worker_cooperative_building_glassworks
+					has_active_production_method = pm_worker_cooperative_building_tooling_workshops
+					has_active_production_method = pm_worker_cooperative_building_paper_mills
+					has_active_production_method = pm_worker_cooperative_building_shipyards
+					has_active_production_method = pm_worker_cooperative_building_arms_industry
+					has_active_production_method = pm_worker_cooperative_farm
+					has_active_production_method = pm_worker_cooperative_building_logging_camp
+					has_active_production_method = pm_worker_cooperative_building_fishing_wharf
+					has_active_production_method = pm_worker_cooperative_building_whaling_station
+					has_active_production_method = pm_worker_cooperative_plantation
+					has_active_production_method = pm_worker_cooperative_industry
+					has_active_production_method = pm_worker_cooperative_building_coal_mine
+					has_active_production_method = pm_worker_cooperative_building_iron_mine
+					has_active_production_method = pm_worker_cooperative_building_lead_mine
+					has_active_production_method = pm_worker_cooperative_building_sulfur_mine
+				}
+				occupancy = 1.00
+				state = {
+					cb_state_has_free_workforce = yes
+				}
+			}			
+		}
+	}
+	trigger_if = {
+		limit = {
+			has_game_rule = si_short_time_prefrence
+		}
+		owner.construction_queue_duration < 15
+	}
+	trigger_if = {
+		limit = {
+			has_game_rule = si_vanilla_time_prefrence
+		}
+		owner.construction_queue_duration < 26
+	}
+	trigger_if = {
+		limit = {
+			has_game_rule = si_medium_time_prefrence
+		}
+		owner.construction_queue_duration < 30
+	}
+	trigger_if = {
+		limit = {
+			has_game_rule = si_long_time_prefrence
+		}
+		owner.construction_queue_duration < 100
+	}
+	trigger_if = {
+		limit = {
+			has_game_rule = si_infinite_time_prefrence
+		}
+		#owner.construction_queue_duration < 30
+	}
+}
+
+should_auto_downsize = {
+	AND = {
+		is_subsidized = no
+		is_under_construction = no
+		AND = {
+			cash_reserves_ratio < 0.01
+			weekly_profit < 1
+		}
+	}
+}
+
+railway_expand_rule = {
+	state = {
+		cb_state_has_free_workforce = yes
+	}
+	occupancy = 1.00
+	trigger_if = {
+		limit = {
+			OR = {
+				AND = {
+					has_game_rule = si_economic_system_automation
+					owner = {
+						owner = { has_law = law_type:law_laissez_faire }
+					}
+				}
+				has_game_rule = si_laissez_faire_automation
+			}
+		}
+		AND ={ 
+			weekly_profit > 1
+			cash_reserves_ratio > 0.5
+			NOT = {state.market_access = 1.0}
+		}
+
+	}
+	trigger_if = {
+		limit = {
+			OR = {
+				AND = {
+					has_game_rule = si_economic_system_automation
+					NOT = {
+						OR = {
+							owner = { has_law = law_type:law_command_economy }
+							owner = { has_law = law_type:law_laissez_faire }
+						}
+					}
+				}
+				has_game_rule = si_interventionism_automation
+			}
+		}
+		AND ={ 
+			OR = {
+				is_subsidized = yes
+				weekly_profit > 1
+			}
+			cash_reserves_ratio > 0.75
+			NOT = {state.market_access = 1.0}
+		}
+
+	}
+	trigger_if = {
+		limit = {
+			OR = {
+				AND = {
+					has_game_rule = si_economic_system_automation
+					owner = {
+						owner = { has_law = law_type:law_command_economy }
+					}
+				}
+				has_game_rule = si_command_economy_automation
+			}
+		}
+		AND ={ 
+			NOT = {state.market_access = 1.0}
+			is_subsidized = yes
+		}
+
+	}
+	owner.construction_queue_duration < 30
+}

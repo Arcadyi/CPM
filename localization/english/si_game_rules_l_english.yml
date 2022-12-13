@@ -1,0 +1,25 @@
+﻿l_english:
+ rule_si_automation_method:0 "Improved Automation: Automation Rules"
+ setting_si_economic_system_automation:0 "Dependent On Economic System"
+ setting_si_economic_system_automation_desc:0 "DEFAULT: Auto Expand will have different rules for expansion when your economy is Laissez Faire, Command, or Interventionist. This mode will make different Economies feel different."
+ setting_si_laissez_faire_automation:0 "Laissez Faire Logic"
+ setting_si_laissez_faire_automation_desc:0 "Auto Expand will use the Laissez Faire rules for auto expansion, checking if the current building has enough money, has a net income, and any other building specific modifiers."
+ setting_si_command_economy_automation:0 "Command Economy Logic"
+ setting_si_command_economy_automation_desc:0 "Auto Expand will use the Command Economy rules for auto expansion, checking only if the building has subsidation, and any other building specific modifiers."
+ setting_si_interventionism_automation:0 "Interventionism Logic"
+ setting_si_interventionism_automation_desc:0 "Auto Expand will use the Interventionism rules for auto expansion, checking if the current building has enough money or is subsidized, has a net income, and any other building specific modifiers."
+ 
+ rule_si_automation_time_prefrence:0 "Improved Automation: Automation Time Preference"
+ setting_si_short_time_prefrence:0 "Short Time Preference"
+ setting_si_short_time_prefrence_desc:0 "Auto Expand will will not fire unless there are less than 15 weeks of construction Production underway. This is the least laggy approach."
+ setting_si_vanilla_time_prefrence:0 "Vanilla Time Preference"
+ setting_si_vanilla_time_prefrence_desc:0 "Auto Expand will not fire unless there are less than 26 weeks of construction Production underway. This is Paradox's ideal."
+ setting_si_medium_time_prefrence:0 "Medium Time Preference"
+ setting_si_medium_time_prefrence_desc:0 "DEFAULT: Auto Expand will not fire unless there are less than 30 weeks of construction Production underway. This is the community pick."
+ setting_si_long_time_prefrence:0 "Long Time Preference"
+ setting_si_long_time_prefrence_desc:0 "Auto Expand will not fire unless there are less than 100 weeks of construction Production underway. This is the less laggy version of Infinite Time preference."
+ setting_si_infinite_time_prefrence:0 "Infinite Time Preference"
+ setting_si_infinite_time_prefrence_desc:0 "Auto Expand will check if there's production underway. This is the most laggy approach."
+
+ NOT_TRIGGER_MARKET_ACCESS_EQUAL:0 "Does not have 100% Market Access"
+ 
