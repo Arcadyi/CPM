@@ -280,9 +280,6 @@ mexican_american_war = {
 			any_scope_state = {
 				owner = c:MEX
 			}
-		NOT = {
-			c:USA = { has_variable = mexican_american_war_started }
-		}
 	#	s:STATE_KANSAS = {
 	#		any_scope_state = {
 	#			owner = c:MEX
@@ -315,7 +312,7 @@ mexican_american_war = {
 				NOT = {
 			c:USA = { 
 				or = {
-				has_variable = mexican_american_war_started 
+
 				has_variable = mexican_american_war
 			}
 			}
@@ -404,11 +401,10 @@ manifest_destiny_conquest = { ##victory
 		exists = c:USA
 		root = c:USA
 		c:USA = {
-			has_variable = mexican_american_war_started
+
 			NOT = { has_variable = mexican_american_war_treaty }
 			OR = {
 			NOT = { has_variable = usa_western_purchase_var }
-				has_variable = usa_western_purchase_fail_var 
 			}
 		}
 	}
@@ -417,7 +413,7 @@ manifest_destiny_conquest = { ##victory
 		exists = c:USA
 		root = c:USA
 		c:USA = {
-			has_variable = mexican_american_war_started
+
 			NOT = { has_variable = mexican_american_war_treaty }
 		}
 		c:USA = {
@@ -449,7 +445,7 @@ manifest_destiny_rebuked = { ##victory
 		exists = c:MEX
 		root = c:MEX
 		c:USA = {
-			has_variable = mexican_american_war_started
+
 			NOT = { has_variable = mexican_american_war_treaty }
 			NOT = { has_variable = mexican_american_war_treaty_loss }
 		}
@@ -461,7 +457,7 @@ manifest_destiny_rebuked = { ##victory
 		is_diplomatic_play_committed_participant = no
  		is_at_war = no
 		c:USA = {
-			has_variable = mexican_american_war_started
+
 			NOT = { has_variable = mexican_american_war_treaty }
 			NOT = { has_variable = mexican_american_war_treaty_loss }
 		}

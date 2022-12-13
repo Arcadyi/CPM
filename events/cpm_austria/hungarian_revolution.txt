@@ -394,8 +394,14 @@ hungarian_revolution.4 = { #Hungary Wins
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
     trigger = {
         OR = {
-        this = c:AUS
-        this = c:HUN
+            AND = {
+                ROOT = c:AUS
+                EXISTS = c:AUS
+            }
+            AND = {
+                ROOT = c:HUN
+                EXISTS = c:HUN
+            }
         }
         c:HUN = {
             is_at_war = NO

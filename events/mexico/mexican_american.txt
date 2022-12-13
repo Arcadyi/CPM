@@ -161,7 +161,6 @@ mexican_american.2 = {
 		name = mexican_american.2.a
 		c:USA = {
 			trigger_event = { id = mexican_american.4  days = 0 popup = yes }
-			set_variable = usa_western_purchase_fail_var 
 		}
 		show_as_tooltip = {
 			change_relations = {

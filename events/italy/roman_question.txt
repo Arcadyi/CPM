@@ -112,10 +112,6 @@ roman_question.1 = {
 		trigger = {
 			religion = rel:catholic
 		}
-		custom_tooltip = {
-			text = roman_question.1.tt
-			set_global_variable = pope_exiled_var
-		}
 		every_interest_group = {
 			limit = {
 				law_stance = {
@@ -138,10 +134,6 @@ roman_question.1 = {
 			NOT = {
 				religion = rel:catholic
 			}
-		}
-		custom_tooltip = {
-			text = roman_question.1.tt
-			set_global_variable = pope_exiled_var
 		}
 		ig:ig_devout = {
 			add_modifier = {

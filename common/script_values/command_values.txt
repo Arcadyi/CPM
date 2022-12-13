@@ -283,7 +283,6 @@ land_battle_size = {
 	if = {
         limit = {
             exists = scope:province
-			NOT = { has_global_variable = vanilla_combat_width }
         }
 
 		max = {
@@ -303,7 +302,6 @@ land_battle_size = {
 	else_if = {
         limit = {
             exists = scope:province
-			has_global_variable = vanilla_combat_width
         }
 
 		max = {
