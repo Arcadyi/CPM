@@ -22,9 +22,7 @@
         chance = 100
     }
     on_created = {
-        set_variable = {
-            name = mxmod_variable_is_francisco_zalacosta
-        }				
+			
     }       
 }
 
@@ -53,9 +51,7 @@ mxmod_francisco_zalacosta_template = {
         chance = 100
     }
     on_created = {
-        set_variable = {
-            name = mxmod_variable_is_francisco_zalacosta
-        }				
+		
     }       
 }
 
@@ -84,9 +80,7 @@ mxmod_santiago_villanueva_template = {
         chance = 100
     }
     on_created = {
-        set_variable = {
-            name = mxmod_variable_is_santiago_villanueva
-        }				
+	
     }       
 }
 
@@ -116,9 +110,7 @@ mxmod_ricardo_flores_magon_template = {
         chance = 100
     }
     on_created = {
-        set_variable = {
-            name = mxmod_variable_is_ricardo_flores_magon
-        }				
+			
     }       
 }
 
@@ -147,9 +139,7 @@ mxmod_praxedis_guerrero_template = {
         chance = 100
     }
     on_created = {
-        set_variable = {
-            name = mxmod_variable_is_praxedis_guerrero
-        }				
+			
     }       
 }
 
@@ -178,9 +168,7 @@ mxmod_jose_luis_morones_template = {
         chance = 100
     }
     on_created = {
-        set_variable = {
-            name = mxmod_variable_is_jose_luis_morones
-        }				
+				
     }       
 }
 
@@ -209,9 +197,7 @@ mxmod_vicente_lombardo_toledano_template = {
         chance = 100
     }
     on_created = {
-        set_variable = {
-            name = mxmod_variable_is_jose_luis_morones
-        }				
+			
     }       
 }
 
@@ -634,9 +620,7 @@ mxmod_nicolas_bravo_character_template = {
         chance = 100
     }
     on_created = {
-        set_variable = {
-            name = mxmod_variable_is_nicolas_bravo
-        }				
+			
     }       
 }
 
@@ -676,9 +660,7 @@ mxmod_jose_maria_arteaga_character_template = {
         chance = 100
     }
     on_created = {
-        set_variable = {
-            name = mxmod_variable_is_jose_maria_arteaga
-        }				
+			
     }       
 }
 
@@ -709,9 +691,7 @@ mxmod_jesus_arriaga_template = {
         chance = 100
     }
     on_created = {
-        set_variable = {
-            name = mxmod_variable_is_jesus_arriaga
-        }				
+			
     }       
 }
 
@@ -741,9 +721,7 @@ mxmod_plotino_rhodakanaty_character_template = {
         chance = 100
     }
     on_created = {
-        set_variable = {
-            name = mxmod_variable_is_plotino_rhodakanaty
-        }				
+	
     }       
 }
 
@@ -783,9 +761,7 @@ mxmod_emiliano_zapata_template = {
         chance = 100
     }
     on_created = {
-        set_variable = {
-            name = mxmod_variable_is_emiliano_zapata
-        }				
+			
     }       
 }
 
@@ -825,9 +801,7 @@ mxmod_pancho_villa_template = {
         chance = 100
     }
     on_created = {
-        set_variable = {
-            name = mxmod_variable_is_pancho_villa
-        }				
+				
     }       
 }
 
@@ -866,8 +840,6 @@ mxmod_felipe_angeles_template = {
         chance = 100
     }
     on_created = {
-        set_variable = {
-            name = mxmod_variable_is_felipe_angeles
-        }				
+			
     }       
 }

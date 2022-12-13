@@ -1,4 +1,4 @@
-NGraphics = {
+﻿NGraphics = {
 	DYNAMIC_TERRAIN_ROAD_WIDTH = 2		# was 2.5
 }
 

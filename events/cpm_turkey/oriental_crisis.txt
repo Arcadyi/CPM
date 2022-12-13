@@ -133,13 +133,13 @@ oriental_crisis.2 = { # Ottoman Fleet Defects
             change_poptype = pop_type:farmers
         }
         c:EGY = {
-            s:STATE_LOWER_EGYPT = {
+            s:STATE_LOWER_EGYPT.region_state:EGY = {
                 create_building = {
                     building = building_naval_base
                     level = 10
                 }
             }
-            s:STATE_PALESTINE = {
+            s:STATE_PALESTINE.region_state:EGY = {
                 create_building = {
                     building = building_naval_base
                     level = 10
@@ -272,6 +272,128 @@ oriental_crisis.3 = { # Great Powers Intervene(or not)
         ai_chance = {
             base = 20
         }
+    }
+}
+oriental_crisis.8 = { # Egypt Receives Ultimatum 
+    type = country_event
+    placement = ROOT
+    title = oriental_crisis.8.t
+    desc = oriental_crisis.8.d
+    flavor = oriental_crisis.8.f
+    
+    event_image = {
+        video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+    }
+    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+    duration = 1
+    trigger = {
+        has_global_variable = orientalcrisisintervention
+        c:EGY = {
+            NOT = {
+                has_variable = receivedultimatumAUS
+                has_variable = receivedultimatumPRU
+                has_variable = receivedultimatumGBR
+                has_variable = receivedultimatumRUS
+            }
+        }
+            AND = {
+                this = c:EGY
+                has_variable = orientalcrisisintervention
+                NOT = {
+                    has_war_with = c:AUS
+                    has_war_with = c:PRU
+                    has_war_with = c:GBR
+                    has_war_with = c:RUS
+                }
+           }
+    }
+    immediate = {
+        if = {
+            limit = {
+                c:AUS = {
+                    has_variable = AUSorientalintervention
+                }
+            }
+            c:EGY = {
+            set_variable = receivedultimatumAUS
+            }
+        }
+        if = {
+            limit = {
+                c:PRU = {
+                    has_variable = PRUorientalintervention
+                }
+            }
+            c:EGY = {
+            set_variable = receivedultimatumPRU
+            }
+        }
+        if = {
+            limit = {
+                c:GBR = {
+                    has_variable = GBRorientalintervention
+                }
+            }
+            c:EGY = {
+            set_variable = receivedultimatumGBR
+            }
+        }
+        if = {
+            limit = {
+                c:RUS = {
+                    has_variable = GBRorientalintervention
+                }
+            }
+            c:EGY = {
+            set_variable = receivedultimatumRUS
+            }
+        }
+        c:EGY = {
+            save_scope_as = egypt_scope
+        }
+        c:TUR = {
+            save_scope_as = turkey_scope
+        }
+        }
+    option = { #Egypt Rejects
+        name = oriental_crisis.8.a
+        custom_tooltip = {
+            text = willcauseinterventionoc
+        }
+    }
+    option = { #Egypt Accepts
+        name = oriental_crisis.8.b
+        custom_tooltip = {
+            text = willcausesurrenderoc
+        }
+        set_global_variable = egyptacceptsultimatum
+            create_truce = {
+                country = c:TUR
+                months = 24
+            }
+
+            hidden_effect = {
+                every_diplomatic_play = {
+                    limit = {
+                        initiator_is = c:TUR
+                        target_is = c:EGY
+                    }
+                    end_play = yes
+                }
+                every_state = {
+                    limit = {
+                        has_claim_by = c:TUR
+                    }
+                    set_state_owner = c:TUR
+                }
+            }
+            c:TUR = {
+                create_diplomatic_pact = {
+                    country = c:EGY
+                    type = puppet
+                }
+            }
     }
 }
 oriental_crisis.4 = { # Austria Intervenes
@@ -589,128 +711,7 @@ oriental_crisis.7 = { # Russia Intervenes
 
     }
 }
-oriental_crisis.8 = { # Egypt Receives Ultimatum 
-    type = country_event
-    placement = ROOT
-    title = oriental_crisis.8.t
-    desc = oriental_crisis.8.d
-    flavor = oriental_crisis.8.f
-    
-    event_image = {
-        video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
-    }
-    icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-    duration = 1
-    trigger = {
-        has_global_variable = orientalcrisisintervention
-        c:EGY = {
-            NOT = {
-                has_variable = receivedultimatumAUS
-                has_variable = receivedultimatumPRU
-                has_variable = receivedultimatumGBR
-                has_variable = receivedultimatumRUS
-            }
-        }
-            AND = {
-                this = c:EGY
-                has_variable = orientalcrisisintervention
-                NOT = {
-                    has_war_with = c:AUS
-                    has_war_with = c:PRU
-                    has_war_with = c:GBR
-                    has_war_with = c:RUS
-                }
-           }
-    }
-    immediate = {
-        if = {
-            limit = {
-                c:AUS = {
-                    has_variable = AUSorientalintervention
-                }
-            }
-            c:EGY = {
-            set_variable = receivedultimatumAUS
-            }
-        }
-        if = {
-            limit = {
-                c:PRU = {
-                    has_variable = PRUorientalintervention
-                }
-            }
-            c:EGY = {
-            set_variable = receivedultimatumPRU
-            }
-        }
-        if = {
-            limit = {
-                c:GBR = {
-                    has_variable = GBRorientalintervention
-                }
-            }
-            c:EGY = {
-            set_variable = receivedultimatumGBR
-            }
-        }
-        if = {
-            limit = {
-                c:RUS = {
-                    has_variable = GBRorientalintervention
-                }
-            }
-            c:EGY = {
-            set_variable = receivedultimatumRUS
-            }
-        }
-        c:EGY = {
-            save_scope_as = egypt_scope
-        }
-        c:TUR = {
-            save_scope_as = turkey_scope
-        }
-        }
-    option = { #Egypt Rejects
-        name = oriental_crisis.8.a
-        custom_tooltip = {
-            text = willcauseinterventionoc
-        }
-    }
-    option = { #Egypt Accepts
-        name = oriental_crisis.8.b
-        custom_tooltip = {
-            text = willcausesurrenderoc
-        }
-        set_global_variable = egyptacceptsultimatum
-            create_truce = {
-                country = c:TUR
-                months = 24
-            }
 
-            hidden_effect = {
-                every_diplomatic_play = {
-                    limit = {
-                        initiator_is = c:TUR
-                        target_is = c:EGY
-                    }
-                    end_play = yes
-                }
-                every_state = {
-                    limit = {
-                        has_claim_by = c:TUR
-                    }
-                    set_state_owner = c:TUR
-                }
-            }
-            c:TUR = {
-                create_diplomatic_pact = {
-                    country = c:EGY
-                    type = puppet
-                }
-            }
-    }
-}
 oriental_crisis.9 = { # Oriental Crisis over / Egypt loses
     type = country_event
     placement = ROOT

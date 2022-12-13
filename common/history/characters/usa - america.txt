@@ -40,12 +40,8 @@
 				bigoted
 			}
 			on_created = {
-				set_variable = {
-					name = second_party_system_whig_var
-				}			
-				set_variable = {
-					name = henry_clay_var
-				}		
+		
+	
 			}
 		}
 
@@ -92,12 +88,8 @@
 				great_triumverate_trait 
 			}
 			on_created = {
-				set_variable = {
-					name = second_party_system_whig_var
-				}	
-				set_variable = {
-					name = daniel_webster_var
-				}				
+	
+		
 			}
 		}
 
@@ -117,9 +109,7 @@
     			first_term_trait
     			 }   
     		on_created = {
-				set_variable = {
-					name = second_party_system_whig_var
-				}				
+			
 			}
 		}
 

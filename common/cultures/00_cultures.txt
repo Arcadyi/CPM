@@ -7783,7 +7783,7 @@ turkish={
 		Divitdarzade Durrizade Eczacibasi Elmalili Elmaszade Eminzade Erzurumlu Evliyazade Evrenoszade Eyubzade Fazlizade Fescizade Germiyanoglu Gevelizade
 		Giritli Goncuzade Gozcuoglu Gumulcineli Gurcuzade Guzelcezade Hacibekirzade Hacikemalettinzade Halidzade Halimzade Halitzade Hasanagazade Hasanzade
 		Hatipzade Hattatzade Haydarzade Hayrullahzade Hazinedarzade Hekimoglu Helvacizade Hersekzade Hezarpare Hocazade Hotinli Huseyinzade Husnuzade
-		Ibrahimzade Imamzade Ipekcizade Ismailzade Ispartali Ispirzade Istankoylu Ivazzade Izmirli Kabaagaçlizade Kadirbeyzade Kadizade Kalafatzade Kalaylizade
+		Ibrahimzade Imamzade Ipekcizade Ismailzade Ispartali Ispirzade Istankoylu Ivazzade Izmirli Kabaagaclizade Kadirbeyzade Kadizade Kalafatzade Kalaylizade
 		Karahisarli Karamanzade Karaoglu Karavezirzade Kavanozzade Kayserili Kececizade Kemankeszade Kethudazade Kibrisli Koprulu Kosezade Kostenceli Kozanli
 		Kutahyalizade Kuyucuzade Ladikli Lefkeli Mahmudoglu Mahmudzade Malkocoglu Manastirli Mansurizade Manyasizade Marasli Mekkelizade Melekzade Menekselizade
 		Menemencizade Menemenlizade Mercimekzade Mersinli Merzifonlu Mevlevi Mihrizade Miraszade Mollazade Morali Muderriszade Muezzinzade Muftuzade Muhaddeszade
@@ -7791,7 +7791,7 @@ turkish={
 		Osmanzade Ozdemiroglu Pirincciizade Pirizade Plevneli Ramizade Raufzade Recaizade Reiszade Resitzade Ridvanbeyzade Rizazade Ruscuklu Safranbolulu 
 		Saidmehmedzade Sakizli Samipasazade Sapancali Saraczade Sarizade Saruhanli Satircizade Sehlazade Selanikli Serdarzade Serefbeyzade Serifzade Sevkizade 
 		Seyyidzade Silahdarzade Sirkatibizade Sirvanizade Sofuzade Sokolluzade Suhrabli Suleymanzade Sultanzade Surmeli Tarakcizade Tarhuncu Tascizade Tatlizade 
-		Tekeli Tekirdagli Tevkiizade Tezkerecizade Tiryakizade Tokadizade Topalzade Topçuzade Toydanzade Tunali Tunuslu Turnacizade Urguplu Uryanizade Vasifzade
+		Tekeli Tekirdagli Tevkiizade Tezkerecizade Tiryakizade Tokadizade Topalzade Topcuzade Toydanzade Tunali Tunuslu Turnacizade Urguplu Uryanizade Vasifzade
 		Yagcizade Yaglikcizade Yenisehirlizade Yirmisekizzade Zekeriyazade
 	}
 	male_regal_first_names = {

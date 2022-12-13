@@ -4,22 +4,22 @@
 #
 types map_list_panel_types {
     ### BUILD BUILDINGS
-    type build_building_map_list_panel = map_list_panel {
-        name = "build_building_map_list_panel"
-
-        blockoverride "headers" {
-            sort_button = {
-                align = center|nobaseline
-                tooltip = "BUILDING_MAP_LIST_PANEL_STATUS_HEADER_TOOLTIP"
-                size = { 55 20 }
-                onclick = "[MapListPanel.Sort('status')]"
-                button = {
-                    texture = "gfx/interface/buttons/sort_button_icons/sort_icon_status.dds"
-                    size = { 25 25 }
-                    parentanchor = center
-                    alwaystransparent = yes
-                }
-            }
+#    type build_building_map_list_panel = map_list_panel {
+#        name = "build_building_map_list_panel"
+#
+#        blockoverride "headers" {
+#            sort_button = {
+#                align = center|nobaseline
+#                tooltip = "BUILDING_MAP_LIST_PANEL_STATUS_HEADER_TOOLTIP"
+#                size = { 55 20 }
+#                onclick = "[MapListPanel.Sort('status')]"
+#                button = {
+#                    texture = "gfx/interface/buttons/sort_button_icons/sort_icon_status.dds"
+#                    size = { 25 25 }
+#                    parentanchor = center
+#                    alwaystransparent = yes
+#                }
+#            }
 
             #State
             sort_button = {

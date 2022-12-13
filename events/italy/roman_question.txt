@@ -43,7 +43,6 @@ roman_question.1 = {
 
 	immediate = {
 		set_global_variable = roman_question_var
-		set_variable = roman_question_country_var
 		random_scope_state = {
 			limit = {
 				state_region = s:STATE_LAZIO
