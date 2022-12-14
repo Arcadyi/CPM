@@ -784,9 +784,6 @@ oriental_crisis.9 = { # Oriental Crisis over / Egypt loses
         has_global_variable = orientalcrisisintervention
         has_global_variable = egyptacceptsultimatum
          }
-        NOT = {
-            has_global_variable = orientalcrisisended
-        }
         c:EGY = {
             is_at_war = no
             OR = {
@@ -802,10 +799,12 @@ oriental_crisis.9 = { # Oriental Crisis over / Egypt loses
                     }
                 }
             }
+            NOT = {
+                has_global_variable = orientalcrisisended
+            }
         }
     }
     immediate = {
-        set_global_variable = orientalcrisisended
         c:EGY = {
             save_scope_as = egypt_scope
             every_state = {
@@ -814,6 +813,7 @@ oriental_crisis.9 = { # Oriental Crisis over / Egypt loses
                 }
                 set_state_owner = c:TUR
             }
+            set_global_variable = orientalcrisisended
         }
         c:TUR = {
             save_scope_as = turkey_scope
@@ -827,6 +827,7 @@ oriental_crisis.9 = { # Oriental Crisis over / Egypt loses
         }
         option = {
             name = oriental_crisis.9.a
+            set_global_variable = orientalcrisisended
             ai_chance = {
                 base = 100
             }
