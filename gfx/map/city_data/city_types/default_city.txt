@@ -49,6 +49,7 @@ default_city = {
 	building_glassworks = {"glassworks_manufactory_01_mesh"}
 	building_tooling_workshops = {"tools_manufactory_01_mesh"}
 	building_paper_mills = {"generic_manufactory_02_mesh"}
+	building_publishing_house = {"generic_manufactory_02_mesh"}
 	building_chemical_plants = {"colonial_manufactory_01_mesh"}
 	building_steel_mills = {"generic_manufactory_01_mesh"}
 	building_arms_industry = {"colonial_manufactory_03_mesh"}

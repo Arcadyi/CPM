@@ -47,6 +47,7 @@
 	building_glassworks = {"asian_glassworks_manufactory_01_mesh"}
 	building_tooling_workshops = {"asian_tools_manufactory_01_mesh"}
 	building_paper_mills = {"asian_manufactory_02_mesh"}
+	building_publishing_house = {"asian_manufactory_02_mesh"}
 	building_chemical_plants = {"asian_colonial_manufactory_01_mesh"}
 	building_steel_mills = {"asian_manufactory_01_mesh"}
 	building_arms_industry = {"asian_colonial_manufactory_03_mesh"}
