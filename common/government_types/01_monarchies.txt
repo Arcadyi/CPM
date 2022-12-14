@@ -473,7 +473,7 @@ gov_monarchy = {
 		has_law = law_type:law_monarchy
 		NOT = {
 			 owner = { 
-				ruler = { 
+				scope.ruler = { 
 					has_variable = is_bonapartist 
 				} 
 			} 
@@ -503,7 +503,7 @@ gov_constitutional_monarchy = {
 		has_law = law_type:law_monarchy
 		NOT = { 
 			owner = { 
-				ruler = { 
+				scope.ruler = { 
 					has_variable = is_bonapartist 
 				} 
 			} 
