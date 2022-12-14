@@ -1,11 +1,8 @@
-﻿GLOBAL = {
+GLOBAL = {
 	c:USA = {
 		set_variable = initalized_usa_var
 		 c:USA = {every_scope_state = { 
-				save_scope_as = state_clout_adjust_scope
-			if = {limit = { is_incorporated = yes}
-				scope:state_clout_adjust_scope = {set_variable = american_state_variable }
-					} 
+				save_scope_as = state_clout_adjust_scope 
 				}
 			}
 			###Southern State Mods
