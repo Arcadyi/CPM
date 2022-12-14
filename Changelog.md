@@ -397,3 +397,11 @@ In total over 18,000 lines of code have been changed, resulting in a lowered err
 - Rebalanced Historical Pop Growth figures.
 - Removed Flavorful laws.
 - Lowered Mod size.
+<br/>
+    ## v.2.6
+- Made compatible with patch 1.1.2 .
+- Removed Redundant files.
+- Removed All Quiet on the Western Front.
+- Fixes to UI.
+- Various localization fixes
+- Fixed Turkish states.
