@@ -1,4 +1,4 @@
-# COPY-PASTED FOR NOW
+﻿# COPY-PASTED FOR NOW
 @panel_width_minus_10 = 530			# used to be 450
 @panel_width = 540  				# used to be 460
 @panel_width_half = 270				# used to be 230
@@ -841,92 +841,75 @@ types building_panels
 
 			flowcontainer = {
 				margin = { 5 0 }
-				spacing = 5
-				# Troop image on the left
-				widget = {
-					size = { 200 150 }
-					visible = "[GreaterThan_int32(Building.GetNumberOfCombatUnits, '(int32)0')]"
-
-					background = {
-						texture = "[Building.GetCombatUnitTexture]"
-						modify_texture = {
-							using = simple_frame_mask
-						}
-					}
-					icon = {
-						using = simple_frame
-						size = { 100% 100% }
-					}
-				}
+				spacing = 7
 
 				# Building info on the right
 				widget = {
-					size = { 330 150 }
-					vbox = {
-						textbox = {
-							position = { 2 15 }
-							text = "PRODUCTION_METHODS"
-							autoresize = yes
-							maximumsize = { 200 -1 }
-							align = left|nobaseline
-						}
+					size = { 500 150 }
+
+					textbox = {
+						position = { 2 15 }
+						text = "PRODUCTION_METHODS"
+						autoresize = yes
+						maximumsize = { 200 -1 }
+						align = left|nobaseline
+					}
 
 
-						### Production methods (copy from buildings panel)
-						dynamicgridbox = {
-							datamodel = "[Building.AccessProductionMethodGroups]"
-							spacing = 5
-							flipdirection = yes
-							datamodel_wrap = 5
-							item = {
-								widget = {
-									size = { 62 62 }
-									datacontext = "[Building.AccessProductionMethod(ProductionMethodGroup.Self)]"
-									datacontext = "[ProductionMethod]"
-									datacontext = "[Building]"
-									datacontext = "[ProductionMethodGroup]"
+					### Production methods (copy from buildings panel)
+					flowcontainer = {
+						datamodel = "[Building.AccessProductionMethodGroups]"
+						spacing =  7
+						parentanchor = vcenter
+
+						item = {
+							widget = {
+								size = { 62 62 }
+								datacontext = "[Building.AccessProductionMethod(ProductionMethodGroup.Self)]"
+								datacontext = "[ProductionMethod]"
+								datacontext = "[Building]"
+								datacontext = "[ProductionMethodGroup]"
+								using = tooltip_above
+								tooltip = "CHANGE_FROM_CURRENT_PRODUCTION_METHOD_TOOLTIP"
+
+								button = {
+									visible = "[NotEqualTo_int32( GetDataModelSize( ProductionMethodGroup.AccessBuildingProductionMethods( Building.Self ) ), '(int32)1' )]"
+									using = expand_button_bg_no_fade
+									enabled = "[Building.IsOwner( GetPlayer.Self )]"
+									size = { 100% 100% }
+									onclick = "[RightClickMenuManager.ToggleSwitchProductionMethodMenu(Building.AccessSelf, ProductionMethodGroup.AccessSelf, PdxGuiWidget.Self)]"
+								}
+
+								icon = {
+									size = { 47 47 }
+									parentanchor = center
+									texture = "[ProductionMethod.GetTexture]"
+								}
+
+								### new pm
+								has_new_pm_icon = {
+									position = { -2 2 }
+									parentanchor = bottom|left
+									blockoverride "visible" {
+										visible = "[And(Building.IsOwner( GetPlayer.Self ), GetPlayer.HasNewProductionMethodInSameGroup( Building.GetBuildingType.Self, ProductionMethod.Self ))]"
+									}
+								}
+
+								### nr available
+								textbox = {
+									text = "#P #bold [ProductionMethodGroup.GetNumAvailableOptions(Building.AccessSelf)]#!#!"
+									parentanchor = top|right
+									position = { -5 0 }
+									autoresize = yes
+									align = right|nobaseline
+									visible = "[NotEqualTo_int32( ProductionMethodGroup.GetNumAvailableOptions(Building.AccessSelf), '(int32)1')]"
+									tooltip = "PRODUCTION_METHOD_OPTIONS"
 									using = tooltip_above
-									tooltip = "CHANGE_FROM_CURRENT_PRODUCTION_METHOD_TOOLTIP"
+									using = fontsize_small
 
-									button = {
-										visible = "[NotEqualTo_int32( GetDataModelSize( ProductionMethodGroup.AccessBuildingProductionMethods( Building.Self ) ), '(int32)1' )]"
-										using = expand_button_bg_no_fade
-										enabled = "[Building.IsOwner( GetPlayer.Self )]"
-										size = { 100% 100% }
-										onclick = "[RightClickMenuManager.ToggleSwitchProductionMethodMenu(Building.AccessSelf, ProductionMethodGroup.AccessSelf, PdxGuiWidget.Self)]"
-									}
-
-									icon = {
-										size = { 47 47 }
-										parentanchor = center
-										texture = "[ProductionMethod.GetTexture]"
-									}
-
-									### new pm
-									has_new_pm_icon = {
-										position = { -2 2 }
-										parentanchor = bottom|left
-										blockoverride "visible" {
-											visible = "[And(Building.IsOwner( GetPlayer.Self ), GetPlayer.HasNewProductionMethodInSameGroup( Building.GetBuildingType.Self, ProductionMethod.Self ))]"
-										}
-									}
-
-									### nr available
-									textbox = {
-										text = "#P #bold [ProductionMethodGroup.GetNumAvailableOptions(Building.AccessSelf)]#!#!"
-										parentanchor = top|right
-										position = { -5 0 }
-										autoresize = yes
-										align = right|nobaseline
-										visible = "[NotEqualTo_int32( ProductionMethodGroup.GetNumAvailableOptions(Building.AccessSelf), '(int32)1')]"
-										tooltip = "PRODUCTION_METHOD_OPTIONS"
-										using = tooltip_above
-										using = fontsize_small
-
-										background = {
-											using = default_background
-											margin = { 8 4 }
-										}
+									background = {
+										using = default_background
+										margin = { 8 4 }
 									}
 								}
 							}
