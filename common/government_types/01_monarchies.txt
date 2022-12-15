@@ -447,8 +447,8 @@ gov_absolute_monarchy = {
 		has_law = law_type:law_monarchy
 		has_law = law_type:law_autocracy 
 		NOT = { 
-			owner = { 
-				ruler = { 
+			scope.owner = { 
+				scope.ruler = { 
 					has_variable = is_bonapartist 
 				} 
 			} 

@@ -284,7 +284,7 @@ acw_je_events.2 = {
 			}
 			every_scope_state = {
 				limit = {
-					#is_incorporated = yes
+					is_incorporated = yes
 					OR = {
 						AND = {
 							has_modifier = border_state_mod
@@ -311,7 +311,7 @@ acw_je_events.2 = {
 		else = {
 			every_scope_state = {
 				limit = {
-				#	is_incorporated = yes
+					is_incorporated = yes
 					state_region = {
 						is_homeland = cu:yankee
 						NOT = { is_homeland = cu:dixie }

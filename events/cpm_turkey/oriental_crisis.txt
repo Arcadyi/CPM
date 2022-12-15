@@ -380,6 +380,7 @@ oriental_crisis.8 = { # Egypt Receives Ultimatum
         }
     option = { #Egypt Rejects
         name = oriental_crisis.8.a
+        default_option = yes
         custom_tooltip = {
             text = willcauseinterventionoc
         }

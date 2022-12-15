@@ -216,6 +216,7 @@ hungarian_revolution.2 = {
    }
    option = {
         name = hungarian_revolution.2.a
+        default_option = yes
         custom_tooltip = askingrussiahungary
         hidden_effect = {
             c:RUS = {
@@ -262,6 +263,7 @@ hungarian_revolution.3 = { #Asking Russia for help
         option = {
             name = hungarian_revolution.3.a
             custom_tooltip = russiaacceptshelp
+            default_option = yes
             c:AUS = {
             change_relations = {
                 country = c:RUS
@@ -425,7 +427,7 @@ hungarian_revolution.4 = { #Hungary Wins
         } 
 }
 
-hungarian_revolution.7 = {
+hungarian_revolution.7 = { #Austria Wins
     type = country_event
     placement = ROOT
 
