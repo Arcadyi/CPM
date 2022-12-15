@@ -4,7 +4,7 @@
 	traits = { german_speaking european_heritage }
 
 	obsessions = {
-		newspapers
+		s
 	}
 
 	male_common_first_names={
@@ -500,7 +500,7 @@
 		Joachim
 		Oskar
 		Sigismund
-		Wilhelm Waldermar
+		Wilhelm Waldermarnewspaper
 	}
 	female_regal_first_names = {
 		Augusta
@@ -524,7 +524,7 @@ south_german={
 	traits = { german_speaking european_heritage }
 
 	obsessions = {
-		newspapers
+		s
 	}
 
 	male_common_first_names={
@@ -2766,7 +2766,7 @@ british={ # "English" in localization
 
 	obsessions = {
 		tea
-		newspapers
+		s
 	}
 
 	male_common_first_names={
@@ -2909,7 +2909,7 @@ irish={
 	# could have anglophone but would make them non-discriminated in Britain
 
 	obsessions = {
-		newspapers
+		s
 	}
 
 	male_common_first_names={
@@ -11100,7 +11100,7 @@ japanese={
 	traits = { yamato east_asian_heritage }
 
 	obsessions = {
-		newspapers
+		s
 	}
 
 	male_common_first_names={
@@ -15366,7 +15366,7 @@ yankee={
 	traits = { anglophone european_heritage }
 
 	obsessions = {
-		newspapers
+		s
 	}
 
 	male_common_first_names = {
@@ -15496,7 +15496,7 @@ dixie={
 	traits = { anglophone european_heritage }
 
 	obsessions = {
-		newspapers
+		s
 	}
 
 	male_common_first_names = {
@@ -21191,7 +21191,7 @@ anglo_canadian={
 	traits = { anglophone european_heritage }
 
 	obsessions = {
-		newspapers
+		s
 	}
 
 	male_common_first_names={
@@ -21403,7 +21403,7 @@ franco_canadian={
 	traits = { francophone european_heritage }
 
 	obsessions = {
-		newspapers
+		s
 	}
 
 	male_common_first_names={
