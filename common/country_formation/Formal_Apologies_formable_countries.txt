@@ -1310,7 +1310,7 @@ SKR =
 	
 	possible = 
 	{
-		has_technology_`researched = nationalism
+		has_technology_researched = nationalism
 		has_law = law_type:law_theocracy
 		has_law = law_type:law_state_religion
 		OR =
@@ -1344,7 +1344,7 @@ TNS =
 	
 	possible = 
 	{
-		has_technology_`researched = nationalism
+		has_technology_researched = nationalism
 		OR =
 		{
 		has_law = law_type:law_cultural_exclusion
@@ -1411,6 +1411,6 @@ HNH =
 	
 	possible = 
 	{
-		has_technology_`researched = nationalism
+		has_technology_researched = nationalism
 	}
 }
