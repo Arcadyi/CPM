@@ -39,7 +39,7 @@ law_regulatory_bodies = {
 
 	institution = institution_workplace_safety
 	institution_modifier = {
-		state_loyalists_from_sol_change_mult = 0.05
+		state_working_adult_ratio_add = 0.01
 		interest_group_ig_trade_unions_pol_str_mult = 0.05
 	}
 	
@@ -87,12 +87,12 @@ law_worker_protections = {
 	institution_modifier = {
 		building_minimum_wage_mult = 0.05
 		interest_group_ig_trade_unions_pol_str_mult = 0.1
-		state_loyalists_from_sol_change_mult = 0.05
+		state_working_adult_ratio_add = 0.01
 	}
 
 	modifier = {
 		building_minimum_wage_mult = 0.25
-		state_loyalists_from_sol_change_mult = 0.05
+		state_working_adult_ratio_add = 0.025
 	}
 	
 	pop_support = {

@@ -16,8 +16,8 @@ law_monarchy = {
 	modifier = {
 		interest_group_ig_landowners_pop_attraction_mult = 0.25
 		country_aristocrats_pol_str_mult = 0.25
-		country_legitimacy_headofstate_add = 50	
-		country_legitimacy_ideological_incoherence_mult = 0.5
+		country_legitimacy_headofstate_add = 50
+		country_legitimacy_ideological_incoherence_mult = 0.3
 		country_authority_add = 200
 	}
 	
@@ -70,7 +70,7 @@ law_presidential_republic = {
 	modifier = {
 		interest_group_ig_intelligentsia_pop_attraction_mult = 0.25
 		country_legitimacy_govt_total_votes_add = 20
-		country_legitimacy_headofstate_add = 10
+		country_legitimacy_headofstate_add = 20
 		country_legitimacy_ideological_incoherence_mult = 0.25
 		country_authority_add = 150
 	}
@@ -101,8 +101,9 @@ law_parliamentary_republic = {
 	modifier = {
 		interest_group_ig_intelligentsia_pop_attraction_mult = 0.125
 		interest_group_ig_trade_unions_pop_attraction_mult = 0.125
-		country_authority_add = 100
+		country_authority_add = 50
 		country_legitimacy_govt_total_votes_add = 20
+		country_legitimacy_govt_size_add = 1
 	}
 	
 	possible_political_movements = {
@@ -129,7 +130,7 @@ law_theocracy = {
 	}
 
 	modifier = {
-		country_legitimacy_headofstate_add = 50
+		country_legitimacy_headofstate_add = 75
 		country_legitimacy_ideological_incoherence_mult = 0.5
 		interest_group_ig_devout_pop_attraction_mult = 0.25
 		country_clergymen_pol_str_mult = 0.25
@@ -167,7 +168,7 @@ law_council_republic = {
 	}
 
 	modifier = {
-		country_authority_add = 50
+		country_legitimacy_govt_size_add = 1
 		country_legitimacy_ideological_incoherence_mult = -0.25
 		interest_group_ig_trade_unions_pop_attraction_mult = 0.25
 		country_machinists_pol_str_mult = 0.25
@@ -189,4 +190,3 @@ law_council_republic = {
 			}
 		}
 	}
-}
