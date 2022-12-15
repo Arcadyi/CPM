@@ -1,4 +1,4 @@
-﻿GLOBAL = {
+GLOBAL = {
 	c:USA = {
 		set_variable = initalized_usa_var
 		 c:USA = {every_scope_state = { 

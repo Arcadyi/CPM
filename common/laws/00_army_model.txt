@@ -48,8 +48,6 @@ law_professional_army = {
 		state_building_conscription_center_max_level_add = 50
 		country_institution_army_professionalism_max_investment_add = 5
 	}
-	
-	institution = institution_army_professionalism 
 
 	possible_political_movements = {
 		law_mass_conscription
@@ -104,8 +102,6 @@ law_mass_conscription = {
 		state_building_conscription_center_max_level_add = 100
 		country_institution_army_professionalism_max_investment_add = 5
 	}
-	
-	institution = institution_army_professionalism
 
 	possible_political_movements = {
 		law_mass_conscription

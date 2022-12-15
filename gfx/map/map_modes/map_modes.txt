@@ -486,6 +486,7 @@ mm_market_interaction = {
 	# Texture slots
 	secondary_color_red = @color_green					# Can Activate
 	secondary_color_green = @market_connection_active	# Active Connection
+	secondary_color_alpha = @color_red					# Cannot Activate, but is valid
 	alternate_color_green = @this_is_you				# This is you (player)
 
 	soundeffect = "snapshot:/Dynamic/low_pass_world"

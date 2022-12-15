@@ -19,6 +19,12 @@ oriental_crisis.1 = { #Oriental Crisis Begin, Ottoman option to attack or not
         c:EGY = {
             save_scope_as = egypt_scope
         }
+        c:TUR = {
+            save_scope_as = turkey_scope
+        }
+        c:EGY = {
+            save_scope_as = egypt_scope
+        }
     }
 
     trigger = {

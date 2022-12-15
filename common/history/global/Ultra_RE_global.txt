@@ -1173,7 +1173,30 @@ GLOBAL = {
 	}
 	
 	
-	
+	#### Give additional administration to compensate changes on starting education lvl
+
+
+	s:STATE_KANTO={ # Komazawa University (1592)
+		region_state:JAP={ 
+			create_building={
+				building="building_government_administration"
+				level=9
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+
+	s:STATE_KANSAI={ # Ryukoku University (1639)
+		region_state:JAP={
+			create_building={
+				building="building_government_administration"
+				level=12
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
 	
  
 	

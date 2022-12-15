@@ -1,4 +1,4 @@
-﻿gov_shogunate = {
+gov_shogunate = {
 	transfer_of_power = hereditary
 	
 	male_ruler = "RULER_TITLE_SHOGUN"
@@ -1052,4 +1052,3 @@ gov_windhoek = {
 		c:WNH = ROOT
 	}
 }
-
