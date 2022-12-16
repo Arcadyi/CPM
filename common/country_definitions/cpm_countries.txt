@@ -240,3 +240,39 @@ GEL = {
 	cultures = { dutch }
 	capital = STATE_GELRE
 }
+
+ABK = {
+	color = { 85 163 29 }
+	country_type = unrecognized
+
+	tier = principality
+	cultures = { north_caucasian }
+	capital = STATE_GREATER_CAUCASUS
+}
+
+OSS = {
+	color = { 29 99 163 }
+	country_type = unrecognized
+
+	tier = principality
+	cultures = { north_caucasian }
+	capital = STATE_GREATER_CAUCASUS
+}
+
+IME = {
+	color = { 79 58 156 }
+	country_type = unrecognized
+
+	tier = principality
+	cultures = { georgian north_caucasian }
+	capital = STATE_GREATER_CAUCASUS
+}
+
+CAU = {
+	color = { 59 58 156 }
+	country_type = unrecognized
+
+	tier = principality
+	cultures = { georgian azerbaijani armenian north_caucasian }
+	capital = STATE_GREATER_CAUCASUS
+}

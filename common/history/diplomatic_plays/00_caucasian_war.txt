@@ -1,0 +1,23 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:RUS = {
+		create_diplomatic_play = {
+			name = caucasian_war
+		
+			target_state = s:STATE_KUBAN.region_state:CIR
+			
+			war = yes
+			
+			type = dp_annex_war
+			add_target_backers = {
+				c:CHC
+			}
+			add_war_goal = {
+				holder = c:RUS
+				type = annex_country
+				target_state = s:STATE_DAGESTAN.region_state:CHC
+			}
+		}			
+	}
+}
+
+
