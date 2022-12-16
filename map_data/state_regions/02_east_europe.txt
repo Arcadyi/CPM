@@ -1,7 +1,7 @@
 ﻿STATE_INGRIA = {
     id = 131
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x0020E0" "x01A0E0" "x042A4F" "x0FEA4B" "x1AE461" "x246095" "x3266DE" "x57DF51" "x607A9E" "x6F9858" "x80A0E0" "x86F5A3" "x87C547" "x89D566" "x8F79E9" "x93FBC9" "x9A8A71" "xA577B1" "xA981B3" "xAEBDCB" "xB64167" "xB6C9C3" "xBA361B" "xBB73A3" "xCD164E" "xD0DA34" "xD14E99" "xD1CBDD" "xD7689F" "xDED975" "xDF3F5C" "xE7438E" "xE97616" "xF06F29" }
+    provinces = { "x0020E0" "x01A0E0" "x042A4F" "x0FEA4B" "x1AE461" "x246095" "x3266DE" "x57DF51" "x607A9E" "x6F9858" "x80A0E0" "x86F5A3" "x87C547" "x89D566" "x8F79E9" "x93FBC9" "x9A8A71" "xA577B1" "xA981B3" "xAEBDCB" "xB64167" "xB6C9C3" "xBA361B" "xBB73A3" "xCD164E" "xD0DA34" "xD14E99" "xD1CBDD" "xD7689F" "xDED975" "xE7438E" "xE97616" "xF06F29" }
     traits = { "state_trait_russian_forest" }
     city = "xCD164E"
     port = "xCD164E"
@@ -359,7 +359,7 @@ STATE_PERM = {
 STATE_ESTONIA = {
     id = 151
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x0121A0" "x01A021" "x1D7342" "x25CC83" "x297D54" "x5C8F48" "x6040E0" "x6D20F8" "x6D38BF" "x7AAA5C" "x80A021" "x8487D5" "x9884F2" "xA69127" "xB9FF4E" "xBCF2BB" "xBF6060" "xD29762" "xD5B5D2" "xD737E2" "xE87B15" "xFCA6F4" }
+    provinces = { "x0121A0" "x01A021" "x1D7342" "x25CC83" "x297D54" "x5C8F48" "x6040E0" "x6D20F8" "x6D38BF" "x7AAA5C" "x80A021" "x8487D5" "x9884F2" "xA69127" "xB9FF4E" "xBCF2BB" "xBF6060" "xD29762" "xD5B5D2" "xD737E2" "xDF3F5C" "xE87B15" "xFCA6F4" }
     city = "xD737E2"
     port = "x8487D5"
     farm = "x25CC83"
@@ -790,4 +790,3 @@ STATE_BESSARABIA = {
     }
     naval_exit_id = 3036
 }
-

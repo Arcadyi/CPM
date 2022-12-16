@@ -1134,3 +1134,195 @@ HNH =
 		}
 	}
 }
+BNA = 
+{
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	
+	colored_emblem =
+	{
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "white"
+		color2 = "yellow"
+		instance =
+		{
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+	textured_emblem =
+	{
+		texture = "te_united_fruit_company.png"
+		instance =
+		{
+			scale = { 0.4 0.4 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+}
+PYN = 
+{
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem =
+	{
+		texture = "ce_sun_waves.dds"
+		color1 = "white"
+		color2 = "blue_light"
+		instance =
+		{
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+	colored_emblem =
+	{
+		texture = "ce_southern_cross_variant.dds"
+		color1 = "white"
+		instance =
+		{
+			scale = { 0.3 0.3 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+}
+SHY = 
+{
+	pattern = "pattern_border_west_africa_05.dds"
+	color1 = "red_dark"
+	color2 = "yellow"
+	color3 = "red"
+	
+	colored_emblem =
+	{
+		texture = "ce_songhay_saltire.png"
+		color1 = "red_dark"
+		color2 = "yellow"
+		instance =
+		{
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+}
+AKA = 
+{
+	pattern = "pattern_border_west_africa_06.dds"
+	color1 = "green"
+	color2 = "yellow"
+	color3 = "white"
+
+	colored_emblem =
+	{
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "yellow"
+		instance =
+		{
+			scale = { 0.95 0.82 }
+			position = { 0.46 0.5 }
+			rotation = { 0 }
+		}
+	}
+	colored_emblem =
+	{
+		texture = "ce_coa_saf_shield.dds"
+		color1 = "yellow_dark"
+		color2 = "purple"
+		color3 = "green_light"
+		instance =
+		{
+			scale = { 0.8 0.8 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+	colored_emblem =
+	{
+		texture = "ce_hand.dds"
+		color1 = "white"
+		instance =
+		{
+			scale = { 0.5 0.5 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+}
+OMC = 
+{
+	pattern = "pattern_border_west_africa_06.dds"
+	color1 = "red"
+	color2 = "brown"
+	color3 = "blue"
+
+	colored_emblem =
+	{
+		texture = "ce_quarterly_per_fess_wavy.dds"
+		color1 = "red"
+		color2 = "red_dark"
+		color3 = "red_dark"
+		instance =
+		{
+			scale = { 0.95 0.82 }
+			position = { 0.46 0.5 }
+			rotation = { 0 }
+		}
+	}
+	colored_emblem =
+	{
+		texture = "ce_scimitar.dds"
+		color1 = "white"
+		instance =
+		{
+			scale = { 0.6 0.55 }
+			position = { 0.45 0.6 }
+			rotation = { 0 }
+		}
+	}
+	colored_emblem =
+	{
+		texture = "ce_omc_text.png"
+		color1 = "white"
+		instance =
+		{
+			scale = { 0.75 0.75 }
+			position = { 0.45 0.4 }
+			rotation = { 0 }
+		}
+	}
+}
+QJA = 
+{
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem =
+	{
+		texture = "ce_iran_tricolour.png"
+		color1 = "green_dark"
+		color2 = "purple"
+		instance =
+		{
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+	textured_emblem =
+	{
+		texture = "te_coa_iran_gold.png"
+		color1 = "red"
+		instance =
+		{
+			scale = { 0.3 0.3 }
+			position = { 0.5 0.5 }
+			rotation = { 0 }
+		}
+	}
+}

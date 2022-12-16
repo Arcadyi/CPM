@@ -19,6 +19,12 @@ oriental_crisis.1 = { #Oriental Crisis Begin, Ottoman option to attack or not
         c:EGY = {
             save_scope_as = egypt_scope
         }
+        c:TUR = {
+            save_scope_as = turkey_scope
+        }
+        c:EGY = {
+            save_scope_as = egypt_scope
+        }
     }
 
     trigger = {
@@ -374,6 +380,7 @@ oriental_crisis.8 = { # Egypt Receives Ultimatum
         }
     option = { #Egypt Rejects
         name = oriental_crisis.8.a
+        default_option = yes
         custom_tooltip = {
             text = willcauseinterventionoc
         }
@@ -827,6 +834,7 @@ oriental_crisis.9 = { # Oriental Crisis over / Egypt loses
         }
         option = {
             name = oriental_crisis.9.a
+            default_option = yes
             set_global_variable = orientalcrisisended
             ai_chance = {
                 base = 100

@@ -62,8 +62,8 @@ ideology_orleanist = {
 				scope:interest_group = {
 					is_interest_group_type = ig_armed_forces
 				}
-				owner = { 
-					ruler = { has_variable = is_orleanist }
+				scope.owner = { 
+					scope.ruler = { has_variable = is_orleanist }
 				}
 			}
 			add = 50

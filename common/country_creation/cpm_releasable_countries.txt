@@ -30,3 +30,46 @@ MNP = {
 	}
 	ai_will_do = { always = no }
 }
+
+ABK = {
+	provinces = {
+		x73A639 x40D001
+	}
+	ai_will_do {
+		always = no
+	}
+}
+
+OSS = {
+	provinces = {
+		xD1A8AF xD65AC8
+	}
+	ai_will_do {
+		always = no
+	}
+}
+
+IME = {
+	provinces = {
+		x011141 xC9B445 xC27075 x85DCE4 xD15CBD x74A861 x801000
+	}
+	ai_will_do {
+		always = no
+	}
+}
+
+CAU = {
+	states = {
+		STATE_GREATER_CAUCASUS
+		STATE_ARMENIA
+		STATE_AZERBAIJAN
+		STATE_GREATER_CAUCASUS
+	}
+#	provinces = {
+#		x327755 xC09080
+#	}
+	required_num_states = 3
+	ai_will_do {
+		always = no
+	}
+}

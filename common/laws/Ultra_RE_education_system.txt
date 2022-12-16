@@ -32,7 +32,7 @@ law_religious_schools = {
 
 	institution = institution_schools
 	institution_modifier = {
-		state_education_access_wealth_add = 0.0025 # + base 0.005  = 0.005 + 0.0125 = 0.0175 => 62.5% education (missing) at ~36 SoL
+		state_education_access_wealth_add = 0.001 # + base 0.005  = 0.005 + 0.005 = 0.01 => 62.5% education (missing) at ~63 SoL. Should be bad by design
 		state_assimilation_mult = 0.05 #was none
 		state_conversion_mult = 0.075
 		state_education_access_add = 0.075
@@ -141,7 +141,7 @@ law_private_schools = {
 	institution = institution_schools
 	institution_modifier = {
 		state_assimilation_mult = 0.075 #was none
-		state_education_access_wealth_add = 0.004 # + base 0.005 = 0.005+0.020 = 0.025 => 100% education at ~40% SoL #Only freaking rich people get education
+		state_education_access_wealth_add = 0.004 # + base 0.005 = 0.005+0.020 = 0.025 => 100% education at ~40% SoL #Only freaking rich people gets education
 		interest_group_ig_intelligentsia_pol_str_mult = 0.05 #was 0.1
 		interest_group_ig_landowners_pol_str_mult = 0.05 #was none
 		interest_group_ig_industrialists_pol_str_mult = 0.05 #was none
@@ -215,7 +215,7 @@ law_public_schools = {
 	institution = institution_schools
 	institution_modifier = {
 		state_assimilation_mult = 0.125
-		state_education_access_wealth_add = 0.002 # + base 0.005  = 0.005 + 0.01 = 0.015 => 37.5% education (missing) at 25 SoL
+		state_education_access_wealth_add = 0.0025 # + base 0.005  = 0.005 + 0.0125 = 0.0175 => 37.5% education (missing) at 21 SoL. Best by design
 		state_education_access_add = 0.125
 		interest_group_ig_intelligentsia_pol_str_mult = 0.1 #was none
 	}
