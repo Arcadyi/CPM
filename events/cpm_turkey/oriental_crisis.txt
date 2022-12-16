@@ -834,6 +834,7 @@ oriental_crisis.9 = { # Oriental Crisis over / Egypt loses
         }
         option = {
             name = oriental_crisis.9.a
+            default_option = yes
             set_global_variable = orientalcrisisended
             ai_chance = {
                 base = 100
