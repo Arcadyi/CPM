@@ -4,7 +4,6 @@ types building_item_types
 {
 	type improved_building_grid_header_building_item = flowcontainer {
 		direction = vertical
-		size = { @improved_building_grid_panel_width 120 }
 		widget = {
 			size = { @improved_building_grid_panel_width 40 }
 			button = {
@@ -97,7 +96,6 @@ types building_item_types
 					direction = vertical
 					flowcontainer = {
 						direction = horizontal
-						size = { 135 30 }
 						widget = {
 							parentanchor = vcenter|left
 							visible = "[Building.IsActive]"
