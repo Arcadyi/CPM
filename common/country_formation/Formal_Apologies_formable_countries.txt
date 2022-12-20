@@ -1,5 +1,4 @@
-CRH = 
-{
+CRH = {
 	states = 
 	{
 		STATE_GELRE
