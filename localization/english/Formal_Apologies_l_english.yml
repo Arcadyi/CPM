@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  CRH:0 "Greater Rhine"
  CRH_ADJ:0 "Rhinelander"
  BXN:0 "Benelux"
@@ -51,3 +51,15 @@
  TNS_ADJ:0 "Tiger Tibetan"
  HNH:0 "Hah'nunah" #Seneca Language
  HNH_ADJ:0 "Hahnunian"
+ BNA:0 "Banana Republic"
+ BNA_ADJ:0 "Central American"
+ PYN:0 "Polynesia"
+ PYN_ADJ:0 "Polynesian"
+ SHY:0 "Songhay"
+ SHY_ADJ:0 "Songhayan"
+ AKA:0 "Akan Coast"
+ AKA_ADJ:0 "Akan"
+ QJA:0 "Qajarid Caliphate"
+ QJA_ADJ:0 "Qajari Persian"
+ OMC:0 "Omani Monsoon Company"
+ OMC_ADJ:0 "Omani"

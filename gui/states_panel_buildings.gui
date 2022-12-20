@@ -104,7 +104,6 @@ types state_panel_types {
 			spacing = 15
 			flowcontainer = {
 				parentanchor = hcenter|vcenter
-				size = { 100 50 }
 				margin = { 0 0 }
 				direction = vertical
 				spacing = 4
@@ -123,7 +122,6 @@ types state_panel_types {
 					parentanchor = hcenter|vcenter
 					direction = horizontal
 					spacing = 2
-					size = { 100 35 }
 					button_icon_round_action = {
 						tooltip = "[StatesPanel.AccessBuilding('building_railway').GetQueueConstructionTooltip]"
 						size = { 32 32 }
@@ -146,7 +144,6 @@ types state_panel_types {
 			}
 			flowcontainer = {
 				parentanchor = hcenter|vcenter
-				size = { 100 50 }
 				margin = { 0 0 }
 				direction = vertical
 				spacing = 4
@@ -165,7 +162,6 @@ types state_panel_types {
 					parentanchor = hcenter|vcenter
 					direction = horizontal
 					spacing = 2
-					size = { 100 35 }
 					button_icon_round_action = {
 						tooltip = "[StatesPanel.AccessBuilding('building_government_administration').GetQueueConstructionTooltip]"
 						size = { 32 32 }

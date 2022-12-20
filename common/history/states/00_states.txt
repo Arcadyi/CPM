@@ -1,4 +1,4 @@
-﻿# "Why do some state entries have quote marks around them, when others don't?"
+# "Why do some state entries have quote marks around them, when others don't?"
 # "It's because of differing methods of editing throughout the production of the game. Quote marks are unnecessary, but harmless if present."
 
 
@@ -5263,6 +5263,7 @@ STATES = {
 	}
 	s:STATE_ARMENIA = {
 		create_state = {
+			country = c:CAU
 			country = c:CAU
 			owned_provinces = { x805000 xAB3AF1 xDC0812 x005000 x16A02D x30DF60 x3161E0 }
 			state_type = unincorporated

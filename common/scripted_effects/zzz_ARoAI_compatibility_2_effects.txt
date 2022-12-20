@@ -1,3 +1,6 @@
+
+### MODULAR COMPATIBILITY EFFECTS
+
 cp_create_building_type_array_2 = {
 	ec_add_building_type_to_array = { number = 102 priority = 4 }
 }
@@ -42,19 +45,19 @@ cp_collect_building_attributes_2 = {
 	if = { limit = { $number$ = 102 } ec_perform_building_construction = { building = hydroelectric_power_plant number = 102 dynamic = 0 branching = 1 depth = 1 workforce = 1 importance = 5 arable = 0 counter = 102 factor = 5 scaling = 1 singular = 0 cooldown = 0 } } 
 }
 cp_create_building_type_array_2 = {
-	ec_add_building_type_to_array = { number = 102 priority = 4 }
+	ec_add_building_type_to_array = { number = 102 priority = 4 counter = 44 arable = 0 }
 }
 
 cp_check_excessive_production_2 = {
-	ec_is_production_excessive = { building = hydroelectric_power_plant number = 102 }
+	ec_is_production_excessive = { building = building_hydroelectric_power_plant number = 102 }
 }
 
 cp_collect_building_level_data_2 = {
-	if = { limit = { is_building_type = building_hydroelectric_power_plant } ec_check_building_condition = { number = 102 } }
+	if = { limit = { is_building_type = building_hydroelectric_power_plant } ec_check_building_condition = { building = building_hydroelectric_power_plant number = 102 workforce = 1 } }
 }
 
 cp_sanitize_abandoned_buildings_2 = {
-	ec_recheck_abandoned_building = { building = hydroelectric_power_plant number = 102 }
+	ec_recheck_abandoned_building = { building = building_hydroelectric_power_plant number = 102 }
 }
 
 cp_clear_excessive_variables_2 = {
@@ -62,7 +65,7 @@ cp_clear_excessive_variables_2 = {
 }
 
 cp_downsize_production_buildings_2 = {
-	ec_perform_production_downsizing = { building = hydroelectric_power_plant number = 102 }
+	ec_perform_production_downsizing = { building = building_hydroelectric_power_plant number = 102 }
 }
 
 cp_clear_abandoned_variables_2 = {
@@ -70,19 +73,19 @@ cp_clear_abandoned_variables_2 = {
 }
 
 cp_country_level_building_analysis_2 = {
-	ec_check_priority_of_building = { building = hydroelectric_power_plant number = 102 dynamic = 0 arable = 0 importance = 5 } 
+	ec_check_priority_of_building = { building = building_hydroelectric_power_plant number = 102 dynamic = 0 importance = 5 } 
 }
 
 cp_state_level_building_analysis_2 = {
-	ec_manage_building_allocation = { building = hydroelectric_power_plant number = 102 counter = 102 factor = 5 dynamic = 0 singular = 0 depth = 1 importance = 5 }
+	ec_manage_building_allocation = { building = building_hydroelectric_power_plant number = 102 counter = 44 factor = 5 dynamic = 0 singular = 0 depth = 1 importance = 5 }
 }
 
-cp_create_building_priority_lists_2 = {
-	ec_add_building_to_priority_list = { number = 102 }
+cp_create_building_priority_arrays_2 = {
+	ec_add_building_to_priority_array = { number = 102 }
 }
 
 cp_collect_building_attributes_2 = {
-	if = { limit = { $number$ = 102 } ec_perform_building_construction = { building = hydroelectric_power_plant number = 102 dynamic = 0 branching = 1 depth = 1 workforce = 1 importance = 5 arable = 0 counter = 102 factor = 5 scaling = 1 singular = 0 cooldown = 0 } } 
+	if = { limit = { $number$ = 102 } ec_perform_building_construction = { building = building_hydroelectric_power_plant number = 102 dynamic = 0 branching = 1 depth = 1 workforce = 1 importance = 5 arable = 0 counter = 44 factor = 5 scaling = 1 singular = 0 cooldown = 0 } } 
 }
 
 cp_clear_technical_variables_2 = {

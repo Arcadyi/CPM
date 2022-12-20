@@ -1,4 +1,4 @@
-﻿CRH = 
+CRH = 
 {
 	states = 
 	{
@@ -294,6 +294,7 @@ RMN =
 		STATE_ADANA
 		STATE_DIYARBAKIR
 		STATE_KARS
+		STATE_ARMENIA
 		STATE_ARMENIA
 		STATE_AZERBAIJAN
 		STATE_GREATER_CAUCASUS
@@ -1412,5 +1413,563 @@ HNH =
 	possible = 
 	{
 		has_technology_researched = nationalism
+	}
+}
+BNA = 
+{
+	states = 
+	{
+		STATE_HONDURAS
+		STATE_GUATEMALA
+		STATE_SAN_SALVADOR
+		STATE_NICARAGUA
+		STATE_CHIAPAS
+	}
+	
+	required_states_fraction = 0.85	
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_law = law_type:law_laissez_faire
+			has_law = law_type:law_free_trade
+		AND = 
+		{
+			OR =
+			{
+				has_law = law_type:law_outlawed_dissent
+				has_law = law_type:law_censorship
+			}
+			OR =
+			{
+				has_law = law_type:law_secret_police
+				has_law = law_type:law_national_guard
+			}
+			OR =
+			{
+				has_law = law_type:law_autocracy
+				has_law = law_type:law_oligarchy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+}
+PYN = 
+{
+	states = 
+	{
+		STATE_NORTH_ISLAND
+		STATE_SOUTH_ISLAND
+		STATE_TONGA
+		STATE_NAURU
+		STATE_TAHITI
+		STATE_KANAK
+		STATE_BOUGAINVILLE
+		STATE_FIJI
+		STATE_VANUATU
+		STATE_EASTERN_NEW_GUINEA
+		STATE_WESTERN_NEW_GUINEA
+		STATE_SOLOMON_ISLANDS
+		STATE_EAST_MICRONESIA
+		STATE_WEST_MICRONESIA
+		STATE_HAWAIIAN_ISLANDS
+		STATE_MOLUCCAS
+	}
+	
+	required_states_fraction = 0.69	
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = nationalism
+	}
+}
+SHY = 
+{
+	states = 
+	{
+		STATE_SENEGAL
+		STATE_SIERRA_LEONE
+		STATE_GAMBIA
+		STATE_GUINEA
+		STATE_EASTERN_MALI
+		STATE_WESTERN_MALI
+		STATE_VOLTA
+		STATE_OUTER_HAUSALAND
+		STATE_DAHOMEY
+		STATE_HAUSALAND
+		STATE_GHANA
+		STATE_TOGO
+	}
+	
+	required_states_fraction = 0.70
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = nationalism
+	}
+}
+AKA = 
+{
+	states = 
+	{
+		STATE_GHANA
+		STATE_TOGO
+		STATE_DAHOMEY
+		STATE_HAUSALAND
+		STATE_LIBERIA
+		STATE_WINDWARD_COAST
+		STATE_IVORY_COAST
+		STATE_NIGER_DELTA
+		STATE_YORUBA_STATES
+		STATE_BENIN
+		STATE_EAST_HAUSALAND
+	}
+	
+	required_states_fraction = 0.80
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = nationalism
+	}
+}
+QJA = 
+{
+	states = 
+	{
+		STATE_MAZANDARAN
+		STATE_IRAKAJEMI
+		STATE_ISFAHAN
+		STATE_LARISTAN
+		STATE_SISTAN
+		STATE_KHUZESTAN
+		STATE_FARS
+		STATE_LURISTAN
+		STATE_AZERBAIJAN
+		STATE_ARMENIA
+		STATE_GREATER_CAUCASUS
+		STATE_TURKMENIA
+		STATE_KARS
+		STATE_KHORASAN
+		STATE_DIYARBAKIR
+		STATE_ADANA
+		STATE_ERZURUM
+		STATE_PASHTUNISTAN
+		STATE_PUNJAB
+		STATE_EASTERN_AFGHANISTAN
+		STATE_WESTERN_AFGHANISTAN
+		STATE_TABRIZ
+		STATE_BALUCHISTAN
+		STATE_DEIR_EZ_ZOR
+		STATE_ALEPPO
+		STATE_MOSUL
+		STATE_BASRA
+		STATE_BAGHDAD
+		STATE_NEJD
+		STATE_HAIL
+		STATE_ABU_DHABI
+		STATE_SYRIA
+		STATE_LEBANON
+		STATE_TRANSJORDAN
+		STATE_PALESTINE
+		STATE_SINAI
+		STATE_HEDJAZ
+		STATE_OMAN
+		STATE_YEMEN
+		STATE_KHIVA
+		STATE_UZBEKIA
+		STATE_TAJIKISTAN
+		STATE_KASHMIR
+		STATE_KIRGHIZIA
+		STATE_CYPRUS
+		STATE_SINDH
+		STATE_RAJPUTANA
+		STATE_DELHI
+		STATE_AWADH
+		STATE_KUBAN
+		STATE_DAGESTAN
+		STATE_TRABZON
+		STATE_ANKARA
+		STATE_KONYA
+		STATE_HUDAVENDIGAR
+		STATE_EAST_AEGEAN_ISLANDS
+		STATE_AYDIN
+		STATE_KASTAMONU
+	}
+	
+	required_states_fraction = 0.80
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = nationalism
+		has_law = law_type:law_state_religion
+	}
+}
+OMC = 
+{
+	states = 
+	{
+		STATE_OMAN
+		STATE_ZANZIBAR
+		STATE_ABU_DHABI
+		STATE_SOMALILAND
+		STATE_ERITREA
+		STATE_OROMIA
+		STATE_GONDER
+		STATE_AMHARA
+		STATE_KENYA
+		STATE_RIFT_VALLEY
+		STATE_TANGANYIKA
+		STATE_LINDI
+		STATE_MOCAMBIQUE
+		STATE_ZAMBEZIA
+		STATE_LOURENCO_MARQUES
+		STATE_NORTH_MADAGASCAR
+		STATE_SOUTH_MADAGASCAR
+		STATE_INDIAN_OCEAN_TERRITORY
+		STATE_ZULULAND
+		STATE_UGANDA
+		STATE_BLUE_NILE
+		STATE_NEJD
+		STATE_YEMEN
+		STATE_HEDJAZ
+		STATE_SINDH
+		STATE_PUNJAB
+		STATE_KASHMIR
+		STATE_PASHTUNISTAN
+		STATE_BALUCHISTAN
+		STATE_SISTAN
+		STATE_LARISTAN
+		STATE_WESTERN_AFGHANISTAN
+		STATE_EASTERN_AFGHANISTAN
+		STATE_TRAVANCORE
+		STATE_MYSORE
+		STATE_BOMBAY
+		STATE_CEYLON
+		STATE_KHORASAN
+		STATE_ISFAHAN
+		STATE_IRAKAJEMI
+		STATE_FARS
+		STATE_VRYSTAAT
+		STATE_ORANJE
+		STATE_EASTERN_CAPE
+	}
+	
+	required_states_fraction = 0.80
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = nationalism
+		has_law = law_type:law_free_trade
+		has_law = law_type:law_laissez_faire
+		NOT =
+		{
+			AND
+			{
+				has_law = law_type:law_anarchy
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+}
+BNA = 
+{
+	states = 
+	{
+		STATE_HONDURAS
+		STATE_GUATEMALA
+		STATE_SAN_SALVADOR
+		STATE_NICARAGUA
+		STATE_CHIAPAS
+	}
+	
+	required_states_fraction = 0.85	
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_law = law_type:law_laissez_faire
+			has_law = law_type:law_free_trade
+		AND = 
+		{
+			OR =
+			{
+				has_law = law_type:law_outlawed_dissent
+				has_law = law_type:law_censorship
+			}
+			OR =
+			{
+				has_law = law_type:law_secret_police
+				has_law = law_type:law_national_guard
+			}
+			OR =
+			{
+				has_law = law_type:law_autocracy
+				has_law = law_type:law_oligarchy
+				has_law = law_type:law_wealth_voting
+			}
+		}
+	}
+}
+PYN = 
+{
+	states = 
+	{
+		STATE_NORTH_ISLAND
+		STATE_SOUTH_ISLAND
+		STATE_TONGA
+		STATE_NAURU
+		STATE_TAHITI
+		STATE_KANAK
+		STATE_BOUGAINVILLE
+		STATE_FIJI
+		STATE_VANUATU
+		STATE_EASTERN_NEW_GUINEA
+		STATE_WESTERN_NEW_GUINEA
+		STATE_SOLOMON_ISLANDS
+		STATE_EAST_MICRONESIA
+		STATE_WEST_MICRONESIA
+		STATE_HAWAIIAN_ISLANDS
+		STATE_MOLUCCAS
+	}
+	
+	required_states_fraction = 0.69	
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = nationalism
+	}
+}
+SHY = 
+{
+	states = 
+	{
+		STATE_SENEGAL
+		STATE_SIERRA_LEONE
+		STATE_GAMBIA
+		STATE_GUINEA
+		STATE_EASTERN_MALI
+		STATE_WESTERN_MALI
+		STATE_VOLTA
+		STATE_OUTER_HAUSALAND
+		STATE_DAHOMEY
+		STATE_HAUSALAND
+		STATE_GHANA
+		STATE_TOGO
+	}
+	
+	required_states_fraction = 0.70
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = nationalism
+	}
+}
+AKA = 
+{
+	states = 
+	{
+		STATE_GHANA
+		STATE_TOGO
+		STATE_DAHOMEY
+		STATE_HAUSALAND
+		STATE_LIBERIA
+		STATE_WINDWARD_COAST
+		STATE_IVORY_COAST
+		STATE_NIGER_DELTA
+		STATE_YORUBA_STATES
+		STATE_BENIN
+		STATE_EAST_HAUSALAND
+	}
+	
+	required_states_fraction = 0.80
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = nationalism
+	}
+}
+QJA = 
+{
+	states = 
+	{
+		STATE_MAZANDARAN
+		STATE_IRAKAJEMI
+		STATE_ISFAHAN
+		STATE_LARISTAN
+		STATE_SISTAN
+		STATE_KHUZESTAN
+		STATE_FARS
+		STATE_LURISTAN
+		STATE_AZERBAIJAN
+		STATE_ARMENIA
+		STATE_GREATER_CAUCASUS
+		STATE_TURKMENIA
+		STATE_KARS
+		STATE_KHORASAN
+		STATE_DIYARBAKIR
+		STATE_ADANA
+		STATE_ERZURUM
+		STATE_PASHTUNISTAN
+		STATE_PUNJAB
+		STATE_EASTERN_AFGHANISTAN
+		STATE_WESTERN_AFGHANISTAN
+		STATE_TABRIZ
+		STATE_BALUCHISTAN
+		STATE_DEIR_EZ_ZOR
+		STATE_ALEPPO
+		STATE_MOSUL
+		STATE_BASRA
+		STATE_BAGHDAD
+		STATE_NEJD
+		STATE_HAIL
+		STATE_ABU_DHABI
+		STATE_SYRIA
+		STATE_LEBANON
+		STATE_TRANSJORDAN
+		STATE_PALESTINE
+		STATE_SINAI
+		STATE_HEDJAZ
+		STATE_OMAN
+		STATE_YEMEN
+		STATE_KHIVA
+		STATE_UZBEKIA
+		STATE_TAJIKISTAN
+		STATE_KASHMIR
+		STATE_KIRGHIZIA
+		STATE_CYPRUS
+		STATE_SINDH
+		STATE_RAJPUTANA
+		STATE_DELHI
+		STATE_AWADH
+		STATE_KUBAN
+		STATE_DAGESTAN
+		STATE_TRABZON
+		STATE_ANKARA
+		STATE_KONYA
+		STATE_HUDAVENDIGAR
+		STATE_EAST_AEGEAN_ISLANDS
+		STATE_AYDIN
+		STATE_KASTAMONU
+	}
+	
+	required_states_fraction = 0.80
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = nationalism
+		has_law = law_type:law_state_religion
+	}
+}
+OMC = 
+{
+	states = 
+	{
+		STATE_OMAN
+		STATE_ZANZIBAR
+		STATE_ABU_DHABI
+		STATE_SOMALILAND
+		STATE_ERITREA
+		STATE_OROMIA
+		STATE_GONDER
+		STATE_AMHARA
+		STATE_KENYA
+		STATE_RIFT_VALLEY
+		STATE_TANGANYIKA
+		STATE_LINDI
+		STATE_MOCAMBIQUE
+		STATE_ZAMBEZIA
+		STATE_LOURENCO_MARQUES
+		STATE_NORTH_MADAGASCAR
+		STATE_SOUTH_MADAGASCAR
+		STATE_INDIAN_OCEAN_TERRITORY
+		STATE_ZULULAND
+		STATE_UGANDA
+		STATE_BLUE_NILE
+		STATE_NEJD
+		STATE_YEMEN
+		STATE_HEDJAZ
+		STATE_SINDH
+		STATE_PUNJAB
+		STATE_KASHMIR
+		STATE_PASHTUNISTAN
+		STATE_BALUCHISTAN
+		STATE_SISTAN
+		STATE_LARISTAN
+		STATE_WESTERN_AFGHANISTAN
+		STATE_EASTERN_AFGHANISTAN
+		STATE_TRAVANCORE
+		STATE_MYSORE
+		STATE_BOMBAY
+		STATE_CEYLON
+		STATE_KHORASAN
+		STATE_ISFAHAN
+		STATE_IRAKAJEMI
+		STATE_FARS
+		STATE_VRYSTAAT
+		STATE_ORANJE
+		STATE_EASTERN_CAPE
+	}
+	
+	required_states_fraction = 0.80
+	
+	ai_will_do = { always = yes }
+	
+	use_culture_states = no
+	
+	possible = 
+	{
+		has_technology_researched = nationalism
+		has_law = law_type:law_free_trade
+		has_law = law_type:law_laissez_faire
+		NOT =
+		{
+			AND
+			{
+				has_law = law_type:law_anarchy
+				has_law = law_type:law_council_republic
+			}
+		}
 	}
 }
