@@ -9,6 +9,7 @@
 			# no idea about his age
 			interest_group = ig_devout
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Chhoki_Gyaltshen
 				persistent

@@ -8,6 +8,7 @@ fra_clemenceau_character_template = {
     ideology = ideology_radical
     interest_group = ig_intelligentsia
     birth_date = 1841.9.11
+    trait_generation = { set_variable = historical_figure }
     traits = {
     	concept_wikipedia_Georges_Clemenceau
         experienced_political_operator
@@ -37,6 +38,7 @@ gbr_o_connor_template = {
     ig_leader = yes
     interest_group = ig_intelligentsia
     ideology = ideology_radical
+    trait_generation = { set_variable = historical_figure }
     traits = {
     	concept_wikipedia_Feargus_O_Connor
         charismatic
@@ -69,6 +71,7 @@ gbr_wellington_character_template = {
     ideology = ideology_jingoist_leader
     interest_group = ig_armed_forces
     birth_date = 1769.5.1
+    trait_generation = { set_variable = historical_figure }
     traits = {
     	concept_wikipedia_Arthur_Wellesley
         celebrity_commander
@@ -101,6 +104,7 @@ gbr_disraeli_character_template = { # Disraeli, Jingoist, Landowners
     ideology = ideology_jingoist_leader
     interest_group = ig_landowners
     birth_date = 1804.1.1
+    trait_generation = { set_variable = historical_figure }
     traits = { 
     	concept_wikipedia_Benjamin_Disraeli
         expert_political_operator
@@ -130,6 +134,7 @@ gbr_gladstone_character_template = { # Gladstone, market liberal, intelligentsia
     ideology = ideology_market_liberal
     interest_group = ig_landowners
     birth_date = 1809.1.1
+    trait_generation = { set_variable = historical_figure }
     traits = {
     	concept_wikipedia_William_Gladstone
         expert_political_operator
@@ -159,6 +164,7 @@ gbr_temple_character_template = { # Viscount Palmerston
     ideology = ideology_market_liberal
     interest_group = ig_landowners
     birth_date = 1784.8.20
+    trait_generation = { set_variable = historical_figure }
     traits = {
     	concept_wikipedia_Henry_Temple
         experienced_diplomat
@@ -189,6 +195,7 @@ pru_bismarck_character_template = {
     ideology = ideology_royalist
     interest_group = ig_landowners
     birth_date = 1815.4.1
+    trait_generation = { set_variable = historical_figure }
     traits = {
     	concept_wikipedia_Otto_von_Bismarck
         experienced_political_operator
@@ -229,6 +236,7 @@ rus_witte_character_template = {
     ideology = ideology_reformer
     interest_group = ig_industrialists
     birth_date = 1849.6.29
+    trait_generation = { set_variable = historical_figure }
     traits = {
     	concept_wikipedia_Sergei_Witte
         experienced_political_operator
@@ -259,6 +267,7 @@ sar_benso_character_template = { # The Count of Cavour
     ideology = ideology_reformer
     interest_group = ig_industrialists
     birth_date = 1810.8.10
+    trait_generation = { set_variable = historical_figure }
     traits = {
     	concept_wikipedia_Camillo_Benso
         experienced_political_operator
@@ -290,6 +299,7 @@ tur_koca_mustafa_reshid_pasha = { # Damad (or Damat) Mehmed Asi Pasha, grand viz
     ideology = ideology_reformer
     interest_group = ig_intelligentsia
     birth_date = 1813.1.1
+    trait_generation = { set_variable = historical_figure }
     traits = {
     	concept_wikipedia_Damad_Mehmed_Ali
         tactful

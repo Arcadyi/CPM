@@ -9,6 +9,7 @@
 			age = 46
 			interest_group = ig_intelligentsia
 			ideology = ideology_reformer
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Leopold_von_Baden
 				cautious
@@ -27,6 +28,7 @@
 			age = 12
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ludwig_von_Baden
 				reserved
@@ -42,6 +44,7 @@
 			ig_leader = yes
 			interest_group = ig_intelligentsia
 			ideology = ideology_market_liberal
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ludwig_Georg_Winter
 				persistent
@@ -56,6 +59,7 @@
 			ig_leader = yes
 			interest_group = ig_landowners
 			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Friedrich_von_Blittersdorf
 				ambitious

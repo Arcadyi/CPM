@@ -18,10 +18,6 @@
         type = "bg_rubber"
         undiscovered_amount = 22
     }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
-    }
     naval_exit_id = 3091
 }
 
@@ -182,10 +178,6 @@ STATE_HAUSALAND = {
         type = "bg_rubber"
         undiscovered_amount = 20
     }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
-    }
 }
 
 STATE_BENIN = {
@@ -274,10 +266,6 @@ STATE_OUTER_HAUSALAND = {
         bg_coal_mining = 48
         bg_logging = 4
     }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
-    }
 }
 
 STATE_BORNU = {
@@ -332,10 +320,6 @@ STATE_EAST_HAUSALAND = {
     capped_resources = {
         bg_coal_mining = 72
         bg_logging = 18
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
     }
 }
 
@@ -564,10 +548,6 @@ STATE_OROMIA = {
     resource = {
         type = "bg_rubber"
         undiscovered_amount = 28
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
     }
 }
 
@@ -864,10 +844,6 @@ STATE_CONGO = {
         type = "bg_rubber"
         undiscovered_amount = 60
     }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
-    }
     naval_exit_id = 3104
 }
 
@@ -1070,10 +1046,6 @@ STATE_GABON = {
         type = "bg_rubber"
         undiscovered_amount = 24
     }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
-    }
     naval_exit_id = 3091
 }
 
@@ -1186,7 +1158,7 @@ STATE_HEREROLAND = {
 STATE_ZULULAND = {
     id = 257
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x11A090" "x1A084B" "x279045" "x3B4B19" "x3CED3D" "x41C070" "x552449" "x5B124F" "x7ACC38" "x85695F" "x88FAD4" "x904EBE" "x9E9742" "xB1F868" "xB6892A" "xBBCA32" "xBE6FEE" "xBFA16B" "xCD31DB" "xD121F1" "xDE0EDE" "xE0EB02" "xE1E455" "xE882CE" "xFF0EF1" }
+    provinces = { "x11A090" "x1A084B" "x279045" "x3B4B19" "x3CED3D" "x41C070" "x552449" "x5B124F" "x6DB7E8" "x7ACC38" "x85695F" "x88FAD4" "x8C39B6" "x904EBE" "x9E9742" "xB1F868" "xB6892A" "xBBCA32" "xBE6FEE" "xBFA16B" "xCD31DB" "xD121F1" "xDE0EDE" "xE0EB02" "xE1E455" "xE1EAA4" "xE882CE" "xF06050" "xFF0EF1" }
     traits = { "state_trait_malaria" }
     city = "x7ACC38"
     port = "x279045"
@@ -1228,7 +1200,7 @@ STATE_VRYSTAAT = {
 STATE_TRANSVAAL = {
     id = 259
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x04FA29" "x0591EA" "x1EFDDB" "x24A528" "x2917E2" "x336285" "x3A4578" "x3B06D4" "x3D3057" "x3DA2B5" "x3E338E" "x452304" "x4760DD" "x5078AD" "x50A011" "x5C4C78" "x6C1786" "x6E419C" "x7470A2" "x775CAE" "x7E986B" "x7F6508" "x8B4610" "x8BDC4D" "x8CD439" "x8DF37C" "x902190" "x9037B0" "x91CA59" "x927F5A" "x972FB2" "x9A137B" "x9EC141" "xA22DC2" "xA8089A" "xA84679" "xAFDF6D" "xB19AFE" "xB98B42" "xBD0AEB" "xBE553D" "xC74943" "xC9D165" "xCAEAEB" "xCBC63D" "xCF2BAB" "xD02011" "xD02190" "xD022FF" "xD0A010" "xD34CB1" "xD72273" "xD9521C" "xDABE56" "xDB7D32" "xDC7726" "xDF169D" "xF14024" "xF52530" "xF7F196" "xFF01F0" "xFF97A1" }
+    provinces = { "x04FA29" "x0591EA" "x1EFDDB" "x24A528" "x25A652" "x2917E2" "x336285" "x3A4578" "x3B06D4" "x3D3057" "x3DA2B5" "x3E338E" "x452304" "x4760DD" "x5078AD" "x50A011" "x5C4C78" "x6C1786" "x6E419C" "x73CDE8" "x7470A2" "x775CAE" "x7E986B" "x7F6508" "x884936" "x8B4610" "x8BDC4D" "x8CD439" "x8DF37C" "x902190" "x9037B0" "x90A090" "x91CA59" "x927F5A" "x972FB2" "x9A137B" "x9EC141" "xA22DC2" "xA30505" "xA8089A" "xA84679" "xAFDF6D" "xB19AFE" "xB98B42" "xBD0AEB" "xBE553D" "xC74943" "xC9D165" "xCAEAEB" "xCBC63D" "xCF2BAB" "xD02011" "xD02190" "xD022FF" "xD0A010" "xD34CB1" "xD72273" "xD9521C" "xDABE56" "xDB7D32" "xDC7726" "xDF169D" "xF14024" "xF52530" "xF7F196" "xFF01F0" "xFF97A1" }
     traits = { "state_trait_malaria" "state_trait_waterberg_coalfield" }
     city = "x04FA29"
     farm = "x50A011"
@@ -1348,47 +1320,3 @@ STATE_LOURENCO_MARQUES = {
     naval_exit_id = 3107
 }
 
-STATE_SWAZILAND = {
-    id = 584
-    subsistence_building = "building_subsistence_farms"
-    provinces = { "x25A652" "x73CDE8" "x884936" "x90A090" "xA30505" }
-    traits = { "state_trait_malaria" "state_trait_waterberg_coalfield" }
-    city = "x73CDE8"
-    farm = "x90A090"
-    mine = "x884936"
-    wood = "xA30505"
-    arable_land = 25
-    arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_banana_plantations" }
-    capped_resources = {
-        bg_coal_mining = 30
-        bg_iron_mining = 40
-        bg_logging = 3
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 4
-    }
-}
-STATE_BASUTOLAND = {
-    id = 589
-    subsistence_building = "building_subsistence_farms"
-    provinces = { "x6DB7E8" "x8C39B6" "xE1EAA4" "xF06050" }
-    traits = { "state_trait_malaria" "state_trait_waterberg_coalfield" }
-    city = "x6DB7E8"
-    farm = "xF06050"
-    mine = "xE1EAA4"
-    wood = "x8C39B6"
-    arable_land = 20
-    arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_banana_plantations" }
-    capped_resources = {
-        bg_coal_mining = 30
-        bg_iron_mining = 40
-        bg_logging = 3
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 4
-    }
-}

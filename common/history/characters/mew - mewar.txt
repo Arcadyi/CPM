@@ -9,6 +9,7 @@
 			age = 15
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Jawan_Singh_Sisodia
 				charismatic
@@ -24,6 +25,7 @@
 			age = 38
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Sardar_Singh
 				reserved

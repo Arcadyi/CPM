@@ -97,35 +97,6 @@ ecchi_fra_zola_character_template = {
     }
 }
 
-ecchi_fra_clemenceau_character_template = {
-    first_name = Georges
-    last_name = Clemenceau
-    culture = cu:french
-    female = no
-    religion = catholic
-    ideology = ideology_atheist
-    interest_group = ig_intelligentsia
-	dna = ecchi_dna_georges_clemenceau
-    birth_date = 1841.9.28
-    traits = { experienced_diplomat tactful cautious }
-    interest_group_leader_usage = {
-        country_trigger = {
-            exists = c:FRA
-            this = c:FRA
-        }
-        interest_group_trigger = {
-            is_marginal = no
-            OR = {
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_petty_bourgeoisie
-            }
-        }
-        earliest_usage_date = 1880.1.1
-        latest_usage_date = 1929.11.24
-        chance = 90
-    }
-}
-
 ecchi_fra_hugo_character_template = {
     first_name = Victor
     last_name = Hugo

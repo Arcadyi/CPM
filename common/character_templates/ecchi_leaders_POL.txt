@@ -142,7 +142,7 @@ ecchi_pol_conrad_character_template = {
     ideology = ideology_traditionalist
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_joseph_conrad
-    birth_date = 1885.4.13
+    birth_date = 1857.12.3
     traits = { reserved persistent explorer }
     interest_group_leader_usage = {
         country_trigger = {
@@ -166,8 +166,8 @@ ecchi_pol_conrad_character_template = {
                 is_interest_group_type = ig_petty_bourgeoisie
             }
         }
-        earliest_usage_date = 1915.1.1
-        latest_usage_date = 1971.6.4
+        earliest_usage_date = 1895.1.1
+        latest_usage_date = 1924.8.3
         chance = 25
     }
 }
@@ -189,15 +189,19 @@ ecchi_pol_luxemburg_character_template = {
                 AND = {
                     exists = c:PRU
                     this = c:PRU
-                    NOT = { exists = c:POL }
-					NOT = { exists = c:NGF }
-					NOT = { exists = c:GER }
+                    NOT = { 
+						exists = c:POL
+						exists = c:NGF
+						exists = c:GER
+					}
                 }
 				AND = {
                     exists = c:NGF
                     this = c:NGF
-                    NOT = { exists = c:POL }
-					NOT = { exists = c:GER }
+                    NOT = { 
+						exists = c:POL
+						exists = c:GER
+					}
                 }
 				AND = {
                     exists = c:GER

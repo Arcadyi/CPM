@@ -9,6 +9,7 @@
 			dna = dna_king_frederick_06
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Frederik_von_Oldenburg
 				imperious
@@ -26,6 +27,7 @@
 			birth_date = 1786.9.18
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Christian_von_Oldenburg
 				cautious
@@ -42,6 +44,7 @@
 			ig_leader = yes
 			interest_group = ig_landowners
 			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Otto_von_Moltke
 				cautious
@@ -54,6 +57,7 @@
 			last_name = Rye
 			age = 45
 			culture = cu:norwegian
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Olaf_Rye
 				mountain_commander

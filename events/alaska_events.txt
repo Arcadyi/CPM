@@ -27,9 +27,22 @@ alaska.1 = {
 		c:USA = {
 			save_scope_as = usa_scope
 		}
-		s:STATE_ALASKA.region_state:RUS = {
-			save_scope_as = alaska_scope
+		if = {
+			limit = {
+				c:RAC = {
+					owns_entire_state_region = STATE_ALASKA
+				}
+			}
+			s:STATE_ALASKA.region_state:RAC = {
+				save_scope_as = alaska_scope
+			}
 		}
+		else = {
+			s:STATE_ALASKA.region_state:RUS = {
+				save_scope_as = alaska_scope
+			}
+		}
+
 	}
 
 	option = {
@@ -44,9 +57,22 @@ alaska.1 = {
 			trigger_event = { id = alaska.2 days = 0 popup = yes }
 		}
 		show_as_tooltip = {
-			s:STATE_ALASKA.region_state:RUS = {
-				set_state_owner = c:USA
+			if = {
+				limit = {
+					c:RAC = {
+						owns_entire_state_region = STATE_ALASKA
+					}
+				}
+				s:STATE_ALASKA.region_state:RAC = {
+					set_state_owner = c:USA
+				}
 			}
+			else = {
+				s:STATE_ALASKA.region_state:RUS = {
+					set_state_owner = c:USA
+				}
+			}
+
 			change_relations = {
 				country = c:USA
 				value = 10
@@ -100,8 +126,20 @@ alaska.2 = {
 		c:RUS = {
 			save_scope_as = russia_scope
 		}
-		s:STATE_ALASKA.region_state:RUS = {
-			save_scope_as = alaska_scope
+		if = {
+			limit = {
+				c:RAC = {
+					owns_entire_state_region = STATE_ALASKA
+				}
+			}
+			s:STATE_ALASKA.region_state:RAC = {
+				save_scope_as = alaska_scope
+			}
+		}
+		else = {
+			s:STATE_ALASKA.region_state:RUS = {
+				save_scope_as = alaska_scope
+			}
 		}
 	}
 
@@ -112,9 +150,22 @@ alaska.2 = {
 			name = alaska_usa_big_money
 			months = 12
 		}
-		s:STATE_ALASKA.region_state:RUS = {
-			set_state_owner = c:USA
+		if = {
+			limit = {
+				c:RAC = {
+					owns_entire_state_region = STATE_ALASKA
+				}
+			}
+			s:STATE_ALASKA.region_state:RAC = {
+				set_state_owner = c:USA
+			}
 		}
+		else = {
+			s:STATE_ALASKA.region_state:RUS = {
+				set_state_owner = c:USA
+			}
+		}
+
 		change_relations = {
 			country = c:RUS
 			value = 10
@@ -149,8 +200,20 @@ alaska.3 = {
 		c:RUS = {
 			save_scope_as = russia_scope
 		}
-		s:STATE_ALASKA.region_state:RUS = {
-			save_scope_as = alaska_scope
+		if = {
+			limit = {
+				c:RAC = {
+					owns_entire_state_region = STATE_ALASKA
+				}
+			}
+			s:STATE_ALASKA.region_state:RAC = {
+				save_scope_as = alaska_scope
+			}
+		}
+		else = {
+			s:STATE_ALASKA.region_state:RUS = {
+				save_scope_as = alaska_scope
+			}
 		}
 	}
 
@@ -167,11 +230,10 @@ alaska.3 = {
         add_journal_entry = {
 			type = je_alaska
 		}
-		remove_global_variable = alaska_purchase_in_prog
 	}
 }
 
-# Making an Offer - USA to RUS
+# Making an Offer
 alaska.4 = {
 	type = country_event
 	placement = ROOT
@@ -198,8 +260,20 @@ alaska.4 = {
 		c:RUS = {
 			save_scope_as = russia_scope
 		}
-		s:STATE_ALASKA.region_state:RUS = {
-			save_scope_as = alaska_scope
+		if = {
+			limit = {
+				c:RAC = {
+					owns_entire_state_region = STATE_ALASKA
+				}
+			}
+			s:STATE_ALASKA.region_state:RAC = {
+				save_scope_as = alaska_scope
+			}
+		}
+		else = {
+			s:STATE_ALASKA.region_state:RUS = {
+				save_scope_as = alaska_scope
+			}
 		}
 	}
 
@@ -224,290 +298,5 @@ alaska.4 = {
 			base = 0
 		}
 		remove_variable = alaska_purchase_var
-		remove_global_variable = alaska_purchase_in_prog
-	}
-}
-
-#Making an offer - RUS to USA
-alaska.5 = {
-	type = country.event
-	placement = ROOT
-
-	title = alaska.5.t
-	desc = alaska.5.d
-	flavor = alaska.5.f
-
-	duration = 3
-
-	event_image = {
-		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
-	}
-	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
-
-	icon = "gfx/interface/icons/event_icons/event_map.dds"
-
-	trigger = {
-	}
-
-	immediate = {
-		c:USA = {
-			save_scope_as = usa_scope
-		}
-		c:RUS = {
-			save_scope_as = russia_scope
-		}
-		s:STATE_ALASKA.region_state:RUS = {
-			save_scope_as = alaska_scope
-		}
-	}
-
-	option = {
-		name = alaska.5.a
-		ai_chance = {
-			base = 1
-		}
-		custom_tooltip = alaska.5.tt1 # 3 million over a year
-		c:USA = {
-			trigger_event = {
-				id = alaska.6
-				days = 0
-				popup = yes
-			}
-		}
-	}
-	option = { # perhaps another time
-		name = alaska.5.b
-		default_option = yes
-		ai_chance = {
-			base = 0
-		}
-		remove_variable = alaska_purchase_var
-		remove_global_variable = alaska_purchase_in_prog
-	}
-}
-
-#Russia wants to sell alaska
-alaska.6 = {
-	type = country_event
-	placement = ROOT
-
-	title = alaska.6.t
-	desc = alaska.6.d
-	flavor = alaska.6.f
-
-	duration = 3
-
-	event_image = {
-		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
-	}
-
-	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
-
-	icon = "gfx/interface/icons/event_icons/event_map.dds"
-
-	trigger = {
-	}
-
-	immediate = {
-		c:USA = {
-			save_scope_as = usa_scope
-		}
-		c:RUS = {
-			save_scope_as = russia_scope
-		}
-		s:STATE_ALASKA.region_state:RUS = {
-			save_scope_as = alaska_scope
-		}
-	}
-
-	option = {
-		name = alaska.6.a
-		default_option = yes
-		add_modifier = {
-			name = alaska_usa_big_money
-			months = 12
-			is_decaying = no
-		}
-		c:RUS = {
-			trigger_event = { id = alaska.7 days = 0 popup = yes }
-		}
-		show_as_tooltip = {
-			change_relations = {
-				country = c:RUS
-				value = 10
-			}
-		}
-		ai_chance = {
-			base = 1
-		}
-	}
-	option = {
-		name = alaska.6.b
-		c:RUS = {
-			trigger_event = { id = alaska.8 days = 0 popup = yes }
-		}
-		show_as_tooltip = {
-			change_relations = {
-				country = c:RUS
-				value = -10
-			}
-		}
-		ai_chance = {
-			base = 0
-		}
-	}
-}
-
-alaska.7 = { #USA has accepted our offer
-	type = country_event
-	placement = ROOT
-
-	title = alaska.7.t
-	desc = alaska.7.d
-	flavor = alaska.7.f
-
-	duration = 3
-
-	event_image = {
-		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
-	}
-
-	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
-
-	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
-
-	trigger = {
-	}
-
-	immediate = {
-		c:USA = {
-			save_scope_as = usa_scope
-		}
-		c:RUS = {
-			save_scope_as = russia_scope
-		}
-		s:STATE_ALASKA.region_state:RUS = {
-			save_scope_as = alaska_scope
-		}
-	}
-
-	option = {
-		name = alaska.7.a
-		add_modifier = {
-			name = alaska_rus_big_money
-			months = 12
-			is_decaying = no
-		}
-		show_as_tooltip = {
-			s:STATE_ALASKA.region_state:RUS = {
-				set_state_owner = c:USA
-			}
-		}
-		change_relations = {
-			country = c:USA
-			value = 10
-		}
-		c:USA = {
-			trigger_event = {
-				id = alaska.9 days = 0 popup = yes
-			}
-		}
-		ai_chance = {
-			base = 1
-		}
-	}
-}
-
-alaska.8 = { #USA has refused our offer
-	type = country_event
-	placement = ROOT
-
-	title = alaska.8.t
-	desc = alaska.8.d
-	flavor = alaska.8.f
-
-	duration = 3
-
-	event_image = {
-		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
-	}
-
-	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
-
-	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
-
-	trigger = {
-	}
-
-	immediate = {
-		c:USA = {
-			save_scope_as = usa_scope
-		}
-		c:RUS = {
-			save_scope_as = russia_scope
-		}
-		s:STATE_ALASKA.region_state:RUS = {
-			save_scope_as = alaska_scope
-		}
-	}
-
-	option = {
-		name = alaska.8.a
-		change_relations = {
-			country = c:USA
-			value = -10
-		}
-		ai_chance = {
-			base = 1
-		}
-		remove_global_variable = alaska_purchase_in_prog
-	}
-}
-alaska.9 = { #RUS has transferred alaska
-	type = country_event
-	placement = ROOT
-
-	title = alaska.9.t
-	desc = alaska.9.d
-	flavor = alaska.9.f
-
-	duration = 3
-
-	event_image = {
-		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
-	}
-
-	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
-
-	icon = "gfx/interface/icons/event_icons/event_map.dds"
-
-	trigger = {
-	}
-
-	immediate = {
-		c:USA = {
-			save_scope_as = usa_scope
-		}
-		c:RUS = {
-			save_scope_as = russia_scope
-		}
-		s:STATE_ALASKA.region_state:RUS = {
-			save_scope_as = alaska_scope
-		}
-	}
-
-	option = {
-		name = alaska.9.a
-		s:STATE_ALASKA.region_state:RUS = {
-			set_state_owner = c:USA
-		}
-		ai_chance = {
-			base = 1
-		}
 	}
 }

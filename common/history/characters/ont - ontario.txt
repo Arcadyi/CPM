@@ -10,6 +10,7 @@
 			age = 43
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Francis_Bond_Head
 				arrogant
@@ -24,6 +25,7 @@
 			ig_leader = yes
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Robert_Baldwin
 				cautious
@@ -38,6 +40,7 @@
 			ig_leader = yes
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_John_Colborne
 				imperious
@@ -52,6 +55,7 @@
 			ig_leader = yes
 			interest_group = ig_intelligentsia
 			ideology = ideology_radical
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_William_Lyon_Mackenzie
 				charismatic

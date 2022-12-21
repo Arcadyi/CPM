@@ -1,4 +1,4 @@
-﻿
+
 snori_clothes_decision = {
 
 	is_shown = {
@@ -46,9 +46,6 @@ snori_clothes_decision = {
 			name = snori_clothes_decision_taken
 		}
 		
-	}
-	ai_chance = {
-		base = 100
 	}
 }
 

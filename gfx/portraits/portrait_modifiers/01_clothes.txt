@@ -28,20 +28,20 @@
         }
     }
 
-	default_clothes = {
+    default_clothes = {
         dna_modifiers = {   
-           # accessory = {
-           #     mode = add
-           #     gene = civilian_coats
-           #     template = all_civilian_coats
-           #     range = { 0 1 } # For the randomness to work correctly
-           # }
-           #accessory = {
-           #    mode = add
-           #    gene = legwear
-           #    template = european_legwear
-           #    range = { 0 1 } # For the randomness to work correctly
-           #}
+            accessory = {
+                mode = add
+                gene = outfits
+                template = peasant_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = peasants_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
         }
         weight = {
             base = 1
@@ -744,13 +744,25 @@
             base = 0
             modifier = {
                 add  = 1100
-
-                 AND = {
-                    OR = {
-                        soldier_clothes_pop_trigger = yes
-                        officers_clothes_pop_trigger = yes
-                    }   
-                }    
+                OR = {
+                    AND = {
+                        exists = scope:pop
+                        scope:pop = {
+                            culture = cu:japanese
+                        }
+                        OR = {
+                            soldier_clothes_pop_trigger = yes
+                            officers_clothes_pop_trigger = yes
+                        }   
+                    }
+                    AND = {
+                        exists = scope:character
+                        scope:character = {
+                            has_culture = cu:japanese
+                            monarchy_clothes_trigger = yes
+                        }
+                    }
+                }
             }
         }
     }
@@ -793,10 +805,8 @@
                 add  = 1200
                  AND = {
                     japanese_clothes_trigger = yes
-
                     OR = {
                         military_clothes_trigger = yes
-                        
                         AND = {
                             armed_forces_clothes_trigger = yes
                             politician_clothes_trigger = yes
@@ -873,6 +883,50 @@
 
         }
     }
+    
+    austrian_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = coats
+                template = austrian_coats
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+            # no aiguillettes because they don't work with double-breasted coats, which is all the Prussians have
+            #accessory = {
+            #    mode = add
+            #    gene = aiguillettes
+            #    template = all_aiguillettes
+            #    range = { 0 1 } # For the randomness to work correctly
+            #}
+
+            accessory = {
+                mode = add
+                gene = legwear
+                template = austrian_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 5000
+                exists = scope:character
+                scope:character = {
+                    owner = {
+                        exists = c:AUS
+                        c:AUS = this
+                    }
+                    OR = {
+                        military_clothes_trigger = yes
+                        monarchy_clothes_trigger = yes
+                    }
+                }
+            }
+        }
+    }
 
     prussian_clothes = {
         dna_modifiers = {
@@ -941,7 +995,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 1000
+                add = 2000
                 japanese_imperial_clothes_trigger = yes
             }
         }
@@ -1028,6 +1082,18 @@
             base = 0
             modifier = {
                 add = 100
+                AND = {
+                    exists = scope:character
+                    scope:character = {
+                        OR = {
+                            AND = {
+                                has_culture = cu:japanese
+                                monarchy_clothes_trigger = no
+                            }
+                            has_culture = cu:ainu
+                        }
+                    }
+                }
             }
         }
     }
@@ -2941,5 +3007,4 @@ buddhist_religious_clothes = {
             }
         }
     }
-}
 }

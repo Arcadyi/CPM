@@ -59,112 +59,15 @@ german_unification.1 = {
 			limit = {
 				country_has_primary_culture = cu:north_german
 				NOT = { exists = c:NGF }
-				OR = {
-					country_tier = kingdom
-					country_tier = principality
-				}
 			}
 			change_tag = NGF
-			every_country = {
-				limit = {
-					country_has_primary_culture = cu:north_german
-					is_player = no	
-					OR = {
-						has_diplomatic_pact = {
-							who = ROOT
-							type = customs_union
-						}
-						is_subject_of = ROOT
-					}
-					OR = {
-						is_subject = no
-						is_subject_of = ROOT
-					}
-					country_rank < root.country_rank #rank_value:major_power
-				}		
-				ROOT = { 
-					annex = PREV 
-				}
-			}
-			every_country = {
-				limit = {
-					NOT = { THIS = ROOT }
-				}
-				every_scope_state = {
-					limit = {
-						state_region = {
-							is_homeland = cu:north_german
-						}
-					}
-					state_region = {
-						add_claim = ROOT
-					}
-				}
-			}
-			every_country = {
-				limit = {
-					is_unification_candidate = GER
-					is_ai = yes
-				}
-				set_strategy = ai_strategy_unify_germany
-			}
-			add_journal_entry = { type = je_north_german_unification_NGF  }
 		}
 		else_if = {
 			limit = {
 				country_has_primary_culture = cu:south_german
 				NOT = { exists = c:SGF }
-				OR = {
-					country_tier = kingdom
-					country_tier = principality
-				}
 			}
 			change_tag = SGF
-			
-			every_country = {
-				limit = {
-					country_has_primary_culture = cu:south_german
-					is_player = no	
-					OR = {
-						has_diplomatic_pact = {
-							who = ROOT
-							type = customs_union
-						}
-						is_subject_of = ROOT
-					}
-					OR = {
-						is_subject = no
-						is_subject_of = ROOT
-					}
-					country_rank < root.country_rank #rank_value:major_power
-				}	
-				ROOT = { 
-					annex = PREV 
-				}
-			}
-			every_country = {
-				limit = {
-					NOT = { THIS = ROOT }
-				}
-				every_scope_state = {
-					limit = {
-						state_region = {
-							is_homeland = cu:south_german
-						}
-					}
-					state_region = {
-						add_claim = ROOT
-					}
-				}
-			}
-			add_journal_entry = { type = je_south_german_unification_SGF  }
-		}
-		every_country = {
-			limit = {
-				is_unification_candidate = GER
-				is_ai = yes
-			}
-			set_strategy = ai_strategy_unify_germany
 		}
 	}
 	option = {
@@ -177,118 +80,16 @@ german_unification.1 = {
 			limit = {
 				country_has_primary_culture = cu:north_german
 				NOT = { exists = c:NGF }
-				OR = {
-					country_tier = kingdom
-					country_tier = principality
-				}
 			}
 			change_tag = NGF
-			every_country = {
-				limit = {
-					country_has_primary_culture = cu:north_german
-					is_player = no	
-					OR = {
-						has_diplomatic_pact = {
-							who = ROOT
-							type = customs_union
-						}
-						is_subject_of = ROOT
-					}
-					OR = {
-						is_subject = no
-						is_subject_of = ROOT
-					}
-					country_rank < root.country_rank #rank_value:major_power
-				}	
-				ROOT = { 
-					annex = PREV 
-				}
-			}
-			every_country = {
-				limit = {
-					NOT = { THIS = ROOT }
-				}
-				every_scope_state = {
-					limit = {
-						state_region = {
-							is_homeland = cu:north_german
-						}
-					}
-					state_region = {
-						add_claim = ROOT
-					}
-				}
-			}
-			every_country = {
-				limit = {
-					is_unification_candidate = GER
-					is_ai = yes
-				}
-				set_strategy = ai_strategy_unify_germany
-			}
-			add_journal_entry = { type = je_north_german_unification_NGF  }
 		}
 		else_if = {
 			limit = {
 				country_has_primary_culture = cu:south_german
 				NOT = { exists = c:SGF }
-				OR = {
-					NOT = { exists = c:AUS }
-					NOT = { THIS = c:AUS }
-				}
-				OR = {
-					country_tier = kingdom
-					country_tier = principality
-				}
 			}
 			change_tag = SGF
-			
-			every_country = {
-				limit = {
-					country_has_primary_culture = cu:south_german
-					is_player = no	
-					OR = {
-						has_diplomatic_pact = {
-							who = ROOT
-							type = customs_union
-						}
-						is_subject_of = ROOT
-					}
-					OR = {
-						is_subject = no
-						is_subject_of = ROOT
-					}
-					country_rank < root.country_rank #rank_value:major_power
-				}	
-				ROOT = { 
-					annex = PREV 
-				}
-			}
-			every_country = {
-				limit = {
-					NOT = { THIS = ROOT }
-				}
-				every_scope_state = {
-					limit = {
-						state_region = {
-							is_homeland = cu:south_german
-						}
-					}
-					state_region = {
-						add_claim = ROOT
-					}
-				}
-			}
-			
 		}
-		every_country = {
-			limit = {
-				is_unification_candidate = GER
-				is_ai = yes
-			}
-			set_strategy = ai_strategy_unify_germany
-		}
-		add_journal_entry = { type = je_south_german_unification_SGF  }
 	}
 }
 
@@ -311,21 +112,15 @@ german_unification.2 = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
 	duration = 3
-
-	cooldown = { months = 4 }
-
+	
 	trigger = {
 		root.infamy < infamy_threshold:infamous
-		OR = {
-			country_tier = kingdom
-			country_tier = principality
-			AND = {
-				exists = c:GER
-				this = c:GER
-			}
+		country_rank >= rank_value:major_power
+		NOT = {
+			country_tier = empire
+			country_tier = hegemony
 		}
 		any_country = {
-			exists = yes
 			trigger_if = {
 				limit = {
 					has_technology_researched = pan-nationalism
@@ -351,19 +146,16 @@ german_unification.2 = {
 				}
 				country_has_primary_culture = cu:south_german
 			}
-			OR = {
-				has_diplomatic_pact = {
-					who = ROOT
-					type = customs_union
-				}
-				is_subject_of = ROOT
+			has_diplomatic_pact = {
+				who = ROOT
+				type = customs_union
 			}
 			OR = {
 				is_subject = no
 				is_subject_of = ROOT
 			}
-			country_rank < root.country_rank #rank_value:major_power
-			relations:root >= relations_threshold:amicable
+			country_rank < rank_value:major_power
+			relations:root >= relations_threshold:cordial
 			is_player = no
 			NOT = { has_variable = german_minor_dont_annex }
 		}
@@ -372,7 +164,6 @@ german_unification.2 = {
 	immediate = {
 		random_country = {
 			limit = {
-				exists = yes
 				trigger_if = {
 					limit = {
 						has_technology_researched = pan-nationalism
@@ -398,19 +189,16 @@ german_unification.2 = {
 					}
 					country_has_primary_culture = cu:south_german
 				}
-				OR = {
-					has_diplomatic_pact = {
-						who = ROOT
-						type = customs_union
-					}
-					is_subject_of = ROOT
+				has_diplomatic_pact = {
+					who = ROOT
+					type = customs_union
 				}
 				OR = {
 					is_subject = no
 					is_subject_of = ROOT
 				}
-				country_rank < root.country_rank #rank_value:major_power
-				relations:root >= relations_threshold:amicable
+				country_rank < rank_value:major_power
+				relations:root >= relations_threshold:cordial
 				is_player = no
 				NOT = { has_variable = german_minor_dont_annex }
 			}
@@ -421,20 +209,9 @@ german_unification.2 = {
 	option = {
 		name = german_unification.2.a
 		default_option = yes
-		create_incident = {
-			country = scope:german_annex_country
-			value = 3
-		}
 		annex = scope:german_annex_country
-		every_country = {
-				limit = {
-					is_unification_candidate = GER
-					is_ai = yes
-				}
-				set_strategy = ai_strategy_unify_germany
-			}
 		ai_chance = {
-			base = 1
+			base = 100
 		}
 	}
 	option = {
@@ -496,7 +273,6 @@ german_unification.3 = {
 			dna = dna_otto_von_bismarck
 			ideology = ideology_royalist
 			traits = {
-				concept_wikipedia_Otto_von_Bismarck
 				direct
 				cautious
 			}
@@ -523,7 +299,6 @@ german_unification.3 = {
 				birth_date = 1815.4.1
 				ideology = ideology_royalist
 				traits = {
-					concept_wikipedia_Otto_von_Bismarck
 					direct
 					cautious
 				}
@@ -538,13 +313,6 @@ german_unification.3 = {
 			name = realpolitik
 			months = normal_modifier_time
 		}
-		every_country = {
-				limit = {
-					is_unification_candidate = GER
-					is_ai = yes
-				}
-				set_strategy = ai_strategy_unify_germany
-			}
 	}
 	option = {
 		name = german_unification.3.b
@@ -560,7 +328,6 @@ german_unification.3 = {
 				birth_date = 1815.4.1
 				ideology = ideology_royalist
 				traits = {
-					concept_wikipedia_Otto_von_Bismarck
 					direct
 					cautious
 				}
@@ -575,13 +342,6 @@ german_unification.3 = {
 			name = germany_aggressive_expansion
 			months = normal_modifier_time
 		}
-		every_country = {
-				limit = {
-					is_unification_candidate = GER
-					is_ai = yes
-				}
-				set_strategy = ai_strategy_unify_germany
-			}
 	}
 }
 
@@ -616,14 +376,6 @@ german_unification.4 = {
 				name = german_unifier_ruler
 			}
 		}
-		every_country = {
-			limit = {
-				is_unification_candidate = GER
-				is_ai = yes
-			}
-			set_strategy = ai_strategy_unify_germany
-		}
-		add_journal_entry = { type = je_german_unification_GER  }
 	}
 	option = {
 		name = german_unification.4.b
@@ -635,13 +387,5 @@ german_unification.4 = {
 			value = 0.1
 			culture = cu:south_german
 		}
-		every_country = {
-				limit = {
-					is_unification_candidate = GER
-					is_ai = yes
-				}
-				set_strategy = ai_strategy_unify_germany
-			}
-			add_journal_entry = { type = je_german_unification_GER  }
 	}
 }

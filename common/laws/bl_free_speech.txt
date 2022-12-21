@@ -13,7 +13,8 @@ law_outlawed_dissent = {
 		state_conversion_mult = 0.5
 		country_promotion_ig_attraction_mult = 0.5
 		country_suppression_ig_attraction_mult = -0.5
-		country_tech_spread_mult = -0.25
+		country_tech_spread_mult = -0.15
+		country_weekly_innovation_mult = -0.15
 		interest_group_ig_devout_pol_str_mult = 0.1
 	}
 	
@@ -37,8 +38,8 @@ law_censorship = {
 		country_promotion_ig_attraction_mult = 0.4
 		country_suppression_ig_attraction_mult = -0.4
 		country_tech_spread_mult = -0.10
-		state_conversion_mult = 0.1
-		state_assimilation_mult = 0.1
+		country_weekly_innovation_mult = -0.10
+		state_conversion_mult = 0.25
 		interest_group_ig_petty_bourgeoisie_pol_str_mult = 0.1
 	}
 	
@@ -62,7 +63,6 @@ law_right_of_assembly = {
 		country_authority_add = 100
 		country_promotion_ig_attraction_mult = 0.3
 		country_suppression_ig_attraction_mult = -0.3
-		state_conversion_mult = -0.25
 		interest_group_ig_trade_unions_pol_str_mult = 0.1
 	}
 	
@@ -83,9 +83,10 @@ law_protected_speech = {
 	}
 	
 	modifier = {
-		country_authority_add = 50
 		country_tech_spread_mult = 0.25
-		state_conversion_mult = -0.5
+		country_weekly_innovation_mult = 0.25
+		state_conversion_mult = -0.25
+		state_assimilation_mult = 0.25
 		interest_group_ig_intelligentsia_pol_str_mult = 0.1
 	}
 	

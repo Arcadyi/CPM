@@ -15,6 +15,14 @@ ecchi_czh_palacky_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             OR = {
+				AND = {
+                    exists = c:KUK
+                    this = c:KUK
+					NOT = { 
+						exists = c:CZH
+						exists = c:BOH
+					}
+                }
                 AND = {
                     exists = c:CZH
                     this = c:CZH
@@ -49,6 +57,14 @@ ecchi_czh_masaryk_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             OR = {
+				AND = {
+                    exists = c:KUK
+                    this = c:KUK
+					NOT = { 
+						exists = c:CZH
+						exists = c:BOH
+					}
+                }
                 AND = {
                     exists = c:CZH
                     this = c:CZH
@@ -87,6 +103,14 @@ ecchi_czh_kafka_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             OR = {
+				AND = {
+                    exists = c:KUK
+                    this = c:KUK
+					NOT = { 
+						exists = c:CZH
+						exists = c:BOH
+					}
+                }
                 AND = {
                     exists = c:CZH
                     this = c:CZH
@@ -127,6 +151,14 @@ ecchi_czh_tiso_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             OR = {
+				AND = {
+                    exists = c:KUK
+                    this = c:KUK
+					NOT = { 
+						exists = c:CZH
+						exists = c:SLV
+					}
+                }
                 AND = {
                     exists = c:CZH
                     this = c:CZH
@@ -165,6 +197,14 @@ ecchi_czh_stefanik_character_template = {
     interest_group_leader_usage = {
         country_trigger = {
             OR = {
+				AND = {
+                    exists = c:KUK
+                    this = c:KUK
+					NOT = { 
+						exists = c:CZH
+						exists = c:SLV
+					}
+                }
                 AND = {
                     exists = c:CZH
                     this = c:CZH

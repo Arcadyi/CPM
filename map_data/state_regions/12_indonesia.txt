@@ -135,10 +135,6 @@ STATE_WEST_JAVA = {
         type = "bg_rubber"
         undiscovered_amount = 12
     }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
-    }
     naval_exit_id = 3052
 }
 
@@ -239,13 +235,8 @@ STATE_SOUTH_SUMATRA = {
         type = "bg_rubber"
         undiscovered_amount = 28
     }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
-    }
     naval_exit_id = 3120
 }
-
 
 STATE_ACEH = {
     id = 547
@@ -267,10 +258,6 @@ STATE_ACEH = {
     resource = {
         type = "bg_rubber"
         undiscovered_amount = 18
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
     }
     naval_exit_id = 3051
 }
@@ -295,10 +282,6 @@ STATE_WESTERN_NEW_GUINEA = {
     resource = {
         type = "bg_rubber"
         undiscovered_amount = 8
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
     }
     naval_exit_id = 3125
 }
@@ -371,10 +354,6 @@ STATE_EASTERN_NEW_GUINEA = {
         type = "bg_rubber"
         undiscovered_amount = 12
     }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
-    }
     naval_exit_id = 3129
 }
 
@@ -419,16 +398,10 @@ STATE_MINDANAO = {
         bg_iron_mining = 36
         bg_logging = 14
         bg_fishing = 8
-        bg_coal_mining = 2
     }
     resource = {
         type = "bg_rubber"
         undiscovered_amount = 10
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 1
     }
     naval_exit_id = 3055
 }
@@ -449,12 +422,6 @@ STATE_LUZON = {
         bg_iron_mining = 24
         bg_logging = 20
         bg_fishing = 12
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 2
-        discovered_amount = 1
     }
     resource = {
         type = "bg_rubber"
@@ -478,7 +445,6 @@ STATE_VISAYAS = {
         bg_iron_mining = 30
         bg_logging = 18
         bg_fishing = 10
-        bg_coal_mining = 3
     }
     resource = {
         type = "bg_rubber"

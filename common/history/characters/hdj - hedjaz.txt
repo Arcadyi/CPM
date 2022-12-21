@@ -10,6 +10,7 @@
 			interest_group = ig_devout
 			ideology = ideology_traditionalist
 			religion = rel:sunni
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Muhammad_al_Hashimi
 				ambitious
@@ -26,6 +27,7 @@
 			interest_group = ig_devout
 			ideology = ideology_traditionalist
 			religion = rel:sunni
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Abd_al_Muttalib_al_Hashimi
 				persistent

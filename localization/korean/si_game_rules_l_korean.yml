@@ -1,0 +1,25 @@
+﻿l_korean:
+ rule_si_automation_method:0 "Improved Automation: 자동화 규칙"
+ setting_si_economic_system_automation:0 "경제 시스템에 따라 다릅니다."
+ setting_si_economic_system_automation_desc:0 "디폴트: 자동 확장은 경제가 자유방임주의, 통제경제 또는 간섭주의일 때 확장 규칙이 다릅니다. 이 모드는 다른 경제가 다르게 느껴질 것입니다."
+ setting_si_laissez_faire_automation:0 "자유방임주의 논리"
+ setting_si_laissez_faire_automation_desc:0 "자동 확장은 자동 확장을 위해 자유방임주의 논리를 사용하여 현재 건물에 충분한 돈이 있는지, 순이익이 있는지, 기타 건물별 수정자를 확인합니다."
+ setting_si_command_economy_automation:0 "통제경제 논리"
+ setting_si_command_economy_automation_desc:0 "자동 확장은 자동 확장을 위해 통제경제 논리를 사용하여 건물에 침강이 있는지 확인하고 다른 건물별 수정자를 확인합니다."
+ setting_si_interventionism_automation:0 "간섭주의 논리"
+ setting_si_interventionism_automation_desc:0 "자동 확장은 자동 확장을 위해 간섭주의 논리를 사용하여 현재 건물에 충분한 돈이 있는지 또는 보조금을 받는지, 순이익이 있는지 및 기타 건물별 특정 수정자를 확인합니다."
+ 
+ rule_si_automation_time_prefrence:0 "Improved Automation: 자동화 시간 기본 설정"
+ setting_si_short_time_prefrence:0 "짧은 시간 선호"
+ setting_si_short_time_prefrence_desc:0 "자동 확장은 15주 미만의 건설 생산이 진행되지 않는 한 실행되지 않습니다. 이것은 가장 지연이 적은 접근 방식입니다."
+ setting_si_vanilla_time_prefrence:0 "원래 시간 선호도"
+ setting_si_vanilla_time_prefrence_desc:0 "자동 확장은 26주 미만의 건설 생산이 진행되지 않는 한 실행되지 않습니다. 이것이 Paradox의 이상입니다."
+ setting_si_medium_time_prefrence:0 "중간 시간 선호"
+ setting_si_medium_time_prefrence_desc:0 "디폴트: 자동 확장은 30주 미만의 건설 생산이 진행되지 않는 한 실행되지 않습니다. 이것은 커뮤니티 선택입니다."
+ setting_si_long_time_prefrence:0 "오랜 시간 선호"
+ setting_si_long_time_prefrence_desc:0 "자동 확장은 100주 미만의 건설 생산이 진행되지 않는 한 실행되지 않습니다. 이것은 덜 느린 무한 시간 선호 버전입니다."
+ setting_si_infinite_time_prefrence:0 "무한 시간 선호"
+ setting_si_infinite_time_prefrence_desc:0 "자동 확장은 진행중인 생산이 있는지 확인합니다. 이것은 가장 느린 접근 방식입니다."
+
+ NOT_TRIGGER_MARKET_ACCESS_EQUAL:0 "100% 시장 접근 권한이 없습니다."
+ 

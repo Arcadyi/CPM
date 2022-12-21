@@ -9,6 +9,7 @@ brz_admiral_inacio = {
 	interest_group = ig_armed_forces
 	ideology = ideology_royalist
 	birth_date = 1808.8.1
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Joaquim_Jose_Inacio
 		brave
@@ -36,6 +37,7 @@ brz_admiral_tamandare = {
 	interest_group = ig_armed_forces
 	ideology = ideology_royalist
 	birth_date = 1807.12.13
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Joaquim_Marques_Lisboa
 		brave
@@ -63,6 +65,7 @@ brz_general_alves_de_lima_e_silva = {
 	interest_group = ig_landowners
 	ideology = ideology_royalist
 	birth_date = 1803.8.25
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Luis_2_Alves_de_Lima_e_Silva
 		surveyor
@@ -90,6 +93,7 @@ chl_admiral_prat = {
 	interest_group = ig_petty_bourgeoisie
 	ideology = ideology_reformer
 	birth_date = 1848.4.3
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Arturo_Prat
 		brave
@@ -118,6 +122,7 @@ mex_general_diaz = {
 	interest_group = ig_armed_forces
 	ideology = ideology_reformer
 	birth_date = 1830.9.15
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Porfirio_DIaz
 		ambitious
@@ -145,6 +150,7 @@ mex_general_zaragoza = {
 	interest_group = ig_petty_bourgeoisie
 	ideology = ideology_radical
 	birth_date = 1829.3.24
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Ignacio_Zaragoza
 		stalwart_defender
@@ -173,6 +179,7 @@ par_general_solano_lopez = {
 	interest_group = ig_armed_forces
 	ideology = ideology_reformer
 	birth_date = 1827.7.24
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Francisco_Solano_Lopez
 		ambitious
@@ -201,6 +208,7 @@ peu_admiral_grau = {
 	interest_group = ig_armed_forces
 	ideology = ideology_reformer
 	birth_date = 1834.7.27
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Miguel_Grau_Seminario
 		brave
@@ -227,6 +235,7 @@ usa_general_jesup = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1788.12.16
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Thomas_Jesup
 		meticulous
@@ -250,6 +259,7 @@ usa_admiral_shubrick = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1790.10.31
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_William_Shubrick
 		experienced_naval_commander
@@ -275,6 +285,7 @@ usa_admiral_dewey = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1837.12.26
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_George_Dewey
 		experienced_naval_commander
@@ -302,6 +313,7 @@ usa_admiral_farragut = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1801.7.5
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_David_Farragut
 		experienced_naval_commander
@@ -329,6 +341,7 @@ usa_admiral_perry = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1794.4.10
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Matthew_Perry
 		innovative
@@ -356,6 +369,7 @@ usa_admiral_buchanan = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1800.9.17
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Franklin_Buchanan
 		experienced_naval_commander
@@ -392,6 +406,7 @@ usa_general_lee = {
 	commander_rank = default
 	interest_group = ig_landowners
 	birth_date = 1807.1.19
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Robert_Lee
 		experienced_defensive_strategist
@@ -428,6 +443,7 @@ usa_general_jackson = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1824.1.21
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Thomas_Jackson
 		surveyor
@@ -464,6 +480,7 @@ usa_general_longstreet = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1821.1.8
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_James_Longstreet
 		experienced_offensive_planner
@@ -500,6 +517,7 @@ usa_general_sherman = {
 	commander_rank = default
 	interest_group = ig_petty_bourgeoisie
 	birth_date = 1820.2.8
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_William_Tecumseh_Sherman
 		expert_offensive_planner
@@ -527,6 +545,7 @@ usa_general_chaffee = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1842.4.14
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Adna_Chaffee
 		innovative
@@ -553,6 +572,7 @@ usa_general_grant = {
 	commander_rank = default
 	interest_group = ig_petty_bourgeoisie
 	birth_date = 1822.1.21
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Ulysses_Grant
 		experienced_offensive_planner
@@ -580,6 +600,7 @@ usa_general_pershing = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1860.9.13
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_John_Pershing
 		experienced_offensive_planner
@@ -606,7 +627,8 @@ usa_general_sheridan = {
 	ideology = ideology_moderate
 	commander_rank = default
 	interest_group = ig_armed_forces
-	birth_date = 1860.9.13
+	birth_date = 1831.3.6
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Philip_Sheridan
 		experienced_offensive_planner
@@ -619,8 +641,8 @@ usa_general_sheridan = {
 			this = c:USA
 		}
 		role = general
-		earliest_usage_date = 1895.1.1
-		latest_usage_date = 1920.1.1	
+		earliest_usage_date = 1865.1.1
+		latest_usage_date = 1890.1.1	
 		chance = 50
 	}
 }

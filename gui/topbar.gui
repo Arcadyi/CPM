@@ -612,7 +612,7 @@ types topbar_components
 								button = {
 									using = glow_button					
 									size = { 100 40 }
-									tooltip = "CAPITAL_MONEY"
+									tooltip = "SULIUS_CAPITAL_MONEY"
 									using = tooltip_below
 									using = money_tooltip_with_graph
 									onclick = "[InformationPanelBar.OpenPanelTab('budget', 'overview')]"

@@ -10,6 +10,7 @@
 			dna = dna_king_mohammad_shah_qajar
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Mohammad_Shah_Qajar
 				imperious
@@ -24,6 +25,7 @@
 			birth_date = 1831.7.16
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Nasir_al-Din_Qajar
 				imperious
@@ -37,6 +39,7 @@
 			ig_leader = yes
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Mirza_Aqasi_Iravani
 				reckless

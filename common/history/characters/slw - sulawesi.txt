@@ -9,6 +9,7 @@
 			birth_date = 1779.1.12 # reigned from 1835 - 1845, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_La_Mappaseling_Bone
 			}
@@ -23,6 +24,7 @@
 			birth_date = 1806.10.9 # reigned from 1845 - 1857, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_La_Parenrengi_Bone
 			}

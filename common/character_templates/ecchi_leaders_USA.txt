@@ -489,7 +489,7 @@ ecchi_usa_wilson_character_template = {
     ideology = ideology_reformer
     interest_group = ig_rural_folk
     birth_date = 1856.12.28
-	dna = ecchi_dna_woodrow_wilson 
+	dna = ecchi_dna_woodrow_wilson
     traits = { bigoted masterful_diplomat }
     interest_group_leader_usage = {
         country_trigger = {
@@ -1643,6 +1643,65 @@ ecchi_usa_browning_character_template = {
         earliest_usage_date = 1880.1.1
         latest_usage_date = 1926.11.26
         chance = 90
+    }
+}
+
+ecchi_usa_bates_character_template = {
+    first_name = ecchi_Katharine_Lee
+    last_name = Bates
+    culture = cu:yankee
+    female = yes
+    religion = protestant
+    ideology = ideology_feminist
+    interest_group = ig_intelligentsia
+	dna = ecchi_dna_katharine_lee_bates
+    birth_date = 1859.8.12
+    traits = { romantic inspirational_orator }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    exists = c:USA
+                    this = c:USA
+                    NOT = { exists = c:NEN }
+                }
+                AND = {
+                    exists = c:NEN
+                    this = c:NEN
+                }
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1890.1.1
+        latest_usage_date = 1929.3.28
+        chance = 25
+    }
+}
+
+ecchi_usa_baum_character_template = {
+    first_name = ecchi_L_Frank
+    last_name = ecchi_Baum
+    culture = cu:yankee
+    female = no
+    religion = protestant
+    ideology = ideology_feminist
+    interest_group = ig_intelligentsia
+	dna = ecchi_dna_l_frank_baum
+    birth_date = 1856.5.15
+    traits = { bigoted pious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:USA
+            this = c:USA
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1985.1.1
+        latest_usage_date = 1919.5.6
+        chance = 25
     }
 }
 

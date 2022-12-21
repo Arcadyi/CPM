@@ -10,6 +10,7 @@
 			age = 58
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ranavalona_Hova
 				imperious

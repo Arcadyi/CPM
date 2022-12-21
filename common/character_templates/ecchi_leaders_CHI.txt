@@ -2,7 +2,7 @@
 
 ecchi_chi_cixi_character_template = {
     first_name = ecchi_Dowager_Cixi
-    last_name = Aisin_Gioro
+    last_name = ecchi_Yehe_Nara
     culture = cu:manchu
     female = yes
     religion = mahayana
@@ -507,7 +507,7 @@ ecchi_chi_xu_shicang_character_template = {
     ideology = ideology_moderate
     interest_group = ig_rural_folk
 	dna = ecchi_dna_xu_shichang
-    birth_date = 1883.10.8
+    birth_date = 1855.10.20
     traits = { cautious tactful }
     interest_group_leader_usage = {
         country_trigger = {

@@ -9,6 +9,7 @@
 			dna = dna_queen_isabella_02
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Isabel_de_Borbon
 			}
@@ -22,6 +23,7 @@
 			ig_leader = yes
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Juan_Mendizabal
 				meticulous
@@ -37,6 +39,7 @@
 			ig_leader = yes
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_radical
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Baldomero_Espartero
 				basic_diplomat
@@ -52,6 +55,7 @@
 			is_general = yes
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ramon_Maria_Narvaez
 				ambitious
@@ -65,6 +69,7 @@
 			ig_leader = yes
 			interest_group = ig_devout
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Victor_2_Saez
 				reserved
@@ -80,6 +85,7 @@
 			culture = cu:basque
 			interest_group = ig_rural_folk
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Nazario_EguI_a
 				scarred
@@ -93,6 +99,7 @@
 			first_name = Jose_Ramon
 			last_name = Rodil
 			birth_date = 1789.2.5
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Jose_Ramon_Rodil
 				surveyor

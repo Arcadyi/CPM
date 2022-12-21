@@ -1,0 +1,25 @@
+﻿l_simp_chinese:
+ rule_si_automation_method:0 "Improved Automation:自动化规则"
+ setting_si_economic_system_automation:0 "依赖于经济体系"
+ setting_si_economic_system_automation_desc:0 "默认:当你的经济体制是自由放任、计划经济或经济干预时，Improved Automation将有不同的扩张规则。这种模式将使不同的经济体感到不同。"
+ setting_si_laissez_faire_automation:0 "自由放任逻辑"
+ setting_si_laissez_faire_automation_desc:0 "Improved Automation将使用自由放任规则进行自动扩展，检查当前建筑是否有足够的资金、净收入以及任何其他特定于建筑的修改。"
+ setting_si_command_economy_automation:0 "计划经济逻辑"
+ setting_si_command_economy_automation_desc:0 "Improved Automation将使用计划经济规则进行自动扩展，仅检查建筑是否有子结构以及任何其他特定于建筑的修改器。"
+ setting_si_interventionism_automation:0 "经济干预逻辑"
+ setting_si_interventionism_automation_desc:0 "Improved Automation将使用经济干预规则进行自动扩展，检查当前建筑是否有足够的资金或补贴、是否有净收入以及任何其他特定于建筑的修改。"
+ 
+ rule_si_automation_time_prefrence:0 "Improved Automation:自动化时间检查"
+ setting_si_short_time_prefrence:0 "短时间优先"
+ setting_si_short_time_prefrence_desc:0 "除非已有施工时间少于15周，否则自动扩建将不会启动。这是最不滞后的方法。"
+ setting_si_vanilla_time_prefrence:0 "原版时间优先"
+ setting_si_vanilla_time_prefrence_desc:0 "除非已有施工时间少于26周，否则自动扩建不会启动。这是Paradox的想法。"
+ setting_si_medium_time_prefrence:0 "中等时间优先"
+ setting_si_medium_time_prefrence_desc:0 "默认:除非已有施工时间少于30周，否则自动扩建不会启动。这是社区用户的想法。"
+ setting_si_long_time_prefrence:0 "长时间优先"
+ setting_si_long_time_prefrence_desc:0 "除非已有施工时间少于100周，否则自动扩建不会启动。这是“无视时间优先”首选项的不太滞后的版本。"
+ setting_si_infinite_time_prefrence:0 "无视时间优先"
+ setting_si_infinite_time_prefrence_desc:0 "自动扩建将无视是否有施工正在进行。这是最滞后的方法。"
+
+ NOT_TRIGGER_MARKET_ACCESS_EQUAL:0 "没有100%的市场接入"
+ 

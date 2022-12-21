@@ -10,6 +10,7 @@
 			interest_group = ig_industrialists
 			ig_leader = yes
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_George_Simpson
 				bigoted

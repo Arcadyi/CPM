@@ -10,6 +10,7 @@
 			culture = cu:south_german
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Otto_von_Wittelsbach
 				romantic
@@ -26,6 +27,7 @@
 			ig_leader = yes
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Josef_Ludwig_von_Armansperg
 				reckless
@@ -37,6 +39,7 @@
 			first_name = Carl_Wilhelm
 			last_name = von_Heideck
 			age = 37
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Carl_Wilhelm_von_Heideck
 			#	romantic
@@ -49,6 +52,7 @@
 			first_name = Antonios 
 			last_name = Kriezis
 			age = 40
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Antonios_Kriezis
 			#	audacious

@@ -37,57 +37,6 @@ italian_unification.1 = {
 			name = italian_unifier_prestige
 			months = long_modifier_time
 		}
-		
-		every_country = {
-				limit = {
-					OR = {
-						country_has_primary_culture = cu:north_italian
-						country_has_primary_culture = cu:south_italian
-					}
-					is_player = no	
-					OR = {
-						has_diplomatic_pact = {
-							who = ROOT
-							type = customs_union
-						}
-						is_subject_of = ROOT
-					}
-					OR = {
-						is_subject = no
-						is_subject_of = ROOT
-					}
-					country_rank < root.country_rank
-				}	
-				ROOT = { 
-					annex = PREV 
-				}
-			}
-			every_country = {
-				limit = {
-					NOT = { THIS = ROOT }
-				}
-				every_scope_state = {
-					limit = {
-						state_region = {
-							OR = {
-								is_homeland = cu:north_italian
-								is_homeland = cu:south_italian
-							}
-						}
-					}
-					state_region = {
-						add_claim = ROOT
-					}
-				}
-			}
-			every_country = {
-				limit = {
-					this = c:ITA
-					is_ai = yes
-				}
-				set_strategy = ai_strategy_unify_italy
-			}
-			add_journal_entry = { type = je_italian_unification_ITA }
 	}
 	option = {
 		name = german_unification.1.b
@@ -98,56 +47,6 @@ italian_unification.1 = {
 				months = normal_modifier_time
 			}
 		}
-		every_country = {
-				limit = {
-					OR = {
-						country_has_primary_culture = cu:north_italian
-						country_has_primary_culture = cu:south_italian
-					}
-					is_player = no	
-					OR = {
-						has_diplomatic_pact = {
-							who = ROOT
-							type = customs_union
-						}
-						is_subject_of = ROOT
-					}
-					OR = {
-						is_subject = no
-						is_subject_of = ROOT
-					}
-					country_rank < root.country_rank
-				}	
-				ROOT = { 
-					annex = PREV 
-				}
-			}
-		every_country = {
-				limit = {
-					NOT = { THIS = ROOT }
-				}
-				every_scope_state = {
-					limit = {
-						state_region = {
-							OR = {
-								is_homeland = cu:north_italian
-								is_homeland = cu:south_italian
-							}
-						}
-					}
-					state_region = {
-						add_claim = ROOT
-					}
-				}
-			}
-		every_country = {
-			limit = {
-				this = c:ITA
-				is_ai = yes
-			}
-			set_strategy = ai_strategy_unify_italy
-		}
-		add_journal_entry = { type = je_italian_unification_ITA }
 	}
 }
 
@@ -182,15 +81,11 @@ italian_unification.2 = {
 					is_subject = no
 					is_subject_of = ROOT
 				}
-				OR = {
-					has_diplomatic_pact = {
-						who = ROOT
-						type = customs_union
-					}
-					is_subject_of = ROOT
+				has_diplomatic_pact = {
+					who = ROOT
+					type = customs_union
 				}
-				#country_rank < rank_value:minor_power
-				country_rank <= root.country_rank
+				country_rank <= rank_value:minor_power
 				relations:root >= relations_threshold:amicable
 				is_player = no
 				NOT = { has_variable = italian_minor_dont_annex }
@@ -210,14 +105,11 @@ italian_unification.2 = {
 						is_subject = no
 						is_subject_of = ROOT
 					}
-					OR = {
-						has_diplomatic_pact = {
-							who = ROOT
-							type = customs_union
-						}
-						is_subject_of = ROOT
+					has_diplomatic_pact = {
+						who = ROOT
+						type = customs_union
 					}
-					country_rank <= root.country_rank #rank_value:minor_power
+					country_rank <= rank_value:minor_power
 					relations:root >= relations_threshold:amicable
 					is_player = no
 					NOT = { has_variable = italian_minor_dont_annex }
@@ -237,15 +129,6 @@ italian_unification.2 = {
 			value = 10
 		}
 		annex = scope:italian_annex_country
-		
-		every_country = {
-				limit = {
-					is_unification_candidate = ITA
-					is_ai = yes
-				}
-				set_strategy = ai_strategy_unify_italy
-			}
-		
 		ai_chance = {
 			base = 1
 		}
@@ -311,6 +194,7 @@ italian_unification.3 = {
 			birth_date = 1807.7.4
 			dna = dna_giuseppe_garibaldi
 			ideology = ideology_republican_leader
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Giuseppe_Garibaldi
 				resupply_commander
@@ -323,13 +207,6 @@ italian_unification.3 = {
 				}
 			}
 		}
-		every_country = {
-				limit = {
-					is_unification_candidate = ITA
-					is_ai = yes
-				}
-				set_strategy = ai_strategy_unify_italy
-			}
 	}
 	option = {
 		name = italian_unification.3.b
@@ -342,6 +219,7 @@ italian_unification.3 = {
 			birth_date = 1807.7.4
 			dna = dna_giuseppe_garibaldi
 			ideology = ideology_republican_leader
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Giuseppe_Garibaldi
 				meticulous
@@ -353,13 +231,5 @@ italian_unification.3 = {
 				}
 			}
 		}
-		
-		every_country = {
-				limit = {
-					is_unification_candidate = ITA
-					is_ai = yes
-				}
-				set_strategy = ai_strategy_unify_italy
-			}
 	}
 }

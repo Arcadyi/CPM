@@ -1,7 +1,0 @@
-﻿l_english:
-
-change_combat_width_decision:0 "Change the mod to use the vanilla combat width."
-change_combat_width_decision_desc:0 "By default, the mod uses the larger modded combat width that scales based on number of troops on the front. Taking this decision will make the mod use the vanilla combat width instead."
-
-change_combat_width_2_decision:0 "Change the game to use the larger modded combat width."
-change_combat_width_2_decision_desc:0 "The mod is currently using the vanilla combat width. Taking this decision will cause it to use the modded combat width that scales based on number of troops on the front."

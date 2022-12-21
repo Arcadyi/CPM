@@ -1,0 +1,7 @@
+﻿l_english:
+ 
+ law_encouranging_childbirth:0 "Encouraging Childbirth"
+ law_encouranging_childbirth_desc:0 "For the sake of the people and the country, women will be prepared to fulfill their sacred duty and will enjoy the rights that come with it."
+ institution_childbirth_affairs:0 "Childbirth Promotion Affairs"
+ institution_childbirth_affairs_desc:0 "It is a ministry that encourages women to be fertility."
+ modifier_country_institution_childbirth_affairs_max_investment_add:0 "Max $institution_childbirth_affairs$ [concept_institution] Investment"

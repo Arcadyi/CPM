@@ -9,6 +9,7 @@
 			age = 46 # I have no idea how old he was, but his started his reign in 1818, probably.
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Sayaji_Rao_Gaekwad
 				arrogant
@@ -24,6 +25,7 @@
 			age = 22 # No idea how old he was! But he died in 1856.
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ganpat_Rao_Gaekwad
 				cautious

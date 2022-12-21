@@ -5,31 +5,62 @@
 		exists = c:CHI
 		THIS = c:CHI
 		NOT = {
-			has_variable = taiping_spawned
+			country_has_state_religion = rel:god_society
 		}
+		
 	}
 
 	possible = {
 		is_subject = no
 		any_scope_state = {
+    		state_region = { is_homeland = cu:han NOT = { is_homeland = cu:manchu } }
+			OR = {
+				any_neighbouring_state = {
+					is_treaty_port = yes
+					owner = {
+						OR = {
+							religion = rel:protestant
+							religion = rel:reformed
+							religion = rel:anglican
+						}
+					}
+				}
+				is_coastal = yes
+			}
+			any_neighbouring_state = { state_region = { is_homeland = cu:han NOT = { is_homeland = cu:manchu } } }
 			is_incorporated = yes
 			any_scope_pop = {
-				has_pop_religion = protestant
+				OR ={
+					has_pop_religion = god_society
+				}
+				
 			}
 			is_capital = no
 			turmoil > 0.15
-		}
-		NOT = {
-			has_variable = taiping_spawned
 		}
 	}
 
 	immediate = {
 		random_scope_state = {
 			limit = {
+    			state_region = { is_homeland = cu:han NOT = { is_homeland = cu:manchu } }
+				OR = {
+					any_neighbouring_state = {
+						is_treaty_port = yes
+						owner = {
+							OR = {
+								religion = rel:protestant
+								religion = rel:reformed
+								religion = rel:anglican
+							}
+						}
+					}
+					is_coastal = yes
+				}
+				any_neighbouring_state = { state_region = { is_homeland = cu:han NOT = { is_homeland = cu:manchu } } }
 				is_incorporated = yes
 				any_scope_pop = {
-					has_pop_religion = protestant
+					has_pop_religion = god_society
 				}
 				NOT = { is_capital = yes }
 			}
@@ -66,7 +97,7 @@
 		any_scope_state = {
 			has_modifier = god_worshippers
 			any_scope_pop = {
-				has_pop_religion = protestant
+				has_pop_religion = god_society
 				religion_accepted = no
 			}
 			turmoil >= 0.3
@@ -112,7 +143,7 @@ je_taiping = {
 			post_notification = warlord_china_explosion_point_add
 			change_variable = {
 				name = china_warlord_explosion
-				add = 1
+				add = 10
 			}
 		}
 	}

@@ -9,6 +9,7 @@
 			age = 50
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Mustafa_al_Husaini
 				reserved
@@ -24,6 +25,7 @@
 			age = 31
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ahmad_al_Husaini
 				ambitious

@@ -1,0 +1,74 @@
+﻿nationalism = {
+	# Unlocks the Immigration Controls Law in Migration
+	# New leaders may spawn with the Ethno-Nationalist Ideology
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/nationalism.dds"
+	category = society
+	
+	modifier = {
+		country_authority_mult = 0.1
+		country_institution_childbirth_affairs_max_investment_add = 1
+	}
+	
+	unlocking_technologies = {
+		mass_communication
+		international_relations
+	}
+}
+
+pan-nationalism = {
+	# Permits for the formation of a number of pan-nationalist countries
+	# Permits the Unify Germany and Unify Italy Diplomatic Plays
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/pan_nationalism.dds"
+	category = society
+	
+	modifier = {
+		country_authority_mult = 0.1
+		country_institution_childbirth_affairs_max_investment_add = 1
+	}
+	
+	unlocking_technologies = {
+		nationalism
+	}
+}
+
+political_agitation = {
+	# Unlocks Women's Suffrage - Rights of Women Law
+	# Increases political participation from poor pop types
+	# New leaders may spawn with the Feminist, Vanguardist Ideology
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/political_agitation.dds"
+	category = society
+	
+	modifier = {
+		state_expected_sol_from_literacy = 1
+		country_authority_mult = 0.1
+		country_institution_childbirth_affairs_max_investment_add = 1
+	}
+	
+	unlocking_technologies = {
+		anarchism
+		socialism
+		pan-nationalism
+	}
+}
+
+mass_propaganda = {
+	# Unlocks Better Radios PM in Electrics Industries
+	# New leaders may spawn with the Fascist Ideology
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/mass_propaganda.dds"
+	category = society
+	
+	modifier = {
+		country_authority_mult = 0.1
+		state_expected_sol_from_literacy = 1
+		country_institution_childbirth_affairs_max_investment_add = 1
+	}
+	
+	unlocking_technologies = {
+		political_agitation
+		film
+	}
+}

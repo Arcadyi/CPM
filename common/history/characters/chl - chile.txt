@@ -9,6 +9,7 @@
 			dna = dna_president_joaquin_prieto
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Jose_Joaquin_Prieto
 				persistent

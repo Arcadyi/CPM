@@ -47,13 +47,13 @@ raj.1 = {
 			limit = {
 				has_diplomatic_pact = {
 					who = c:BIC
-					type = dominion
+					type = chartered_company
 				}
 			}
 			hidden_effect = {
 				remove_diplomatic_pact = {
 					country = c:BIC
-					type = dominion
+					type = chartered_company
 				}
 			}
 			create_diplomatic_pact = {
@@ -583,7 +583,6 @@ raj.6 = {
 				interest_group = ig_armed_forces
 				ideology = ideology_jingoist_leader
 				traits = { 
-					concept_wikipedia_Bakht_Khan
 					stalwart_defender 
 					experienced_artillery_commander 
 				}
@@ -607,7 +606,6 @@ raj.6 = {
 					interest_group = ig_landowners
 					ideology = ideology_royalist
 					traits = { 
-						concept_wikipedia_Mirza_Mughal_Gurkani
 						resupply_commander 
 						basic_political_operator 
 					}
@@ -623,7 +621,6 @@ raj.6 = {
 					interest_group = ig_landowners
 					ideology = ideology_royalist
 					traits = { 
-						concept_wikipedia_Bahadur_Shah_Gurkani
 						reserved 
 						romantic 
 						expensive_tastes
@@ -640,7 +637,6 @@ raj.6 = {
 					interest_group = ig_landowners
 					ideology = ideology_royalist
 					traits = {
-						concept_wikipedia_Mirza_Fakhru_Gurkani
 					}
 				}
 			}
@@ -668,7 +664,6 @@ raj.6 = {
 					interest_group = ig_landowners
 					ideology = ideology_royalist
 					traits = { 
-						concept_wikipedia_Mirza_Mughal_Gurkani
 						resupply_commander 
 						basic_political_operator 
 					}
@@ -684,7 +679,6 @@ raj.6 = {
 					interest_group = ig_landowners
 					ideology = ideology_royalist
 					traits = { 
-						concept_wikipedia_Bahadur_Shah_Gurkani
 						reserved 
 						romantic 
 						expensive_tastes
@@ -701,7 +695,6 @@ raj.6 = {
 					interest_group = ig_landowners
 					ideology = ideology_royalist
 					traits = { 
-						concept_wikipedia_Mirza_Fakhru_Gurkani
 					}
 				}
 			}

@@ -47,6 +47,7 @@ meiji.1 = {
 				dna = dna_ninko
 				interest_group = ig_landowners # beholden to the Shogun
 				ideology = ideology_traditionalist
+				trait_generation = { set_variable = historical_figure }
 				traits = {
 					concept_wikipedia_Ninko_Yamato
 					reserved # not very active in affairs of state
@@ -59,6 +60,7 @@ meiji.1 = {
 				birth_date = 1831.1.1
 				dna = dna_emperor_komei
 				interest_group = ig_armed_forces
+				trait_generation = { set_variable = historical_figure }
 				traits = {
 					concept_wikipedia_Komei_Yamato
 					reserved # ditto
@@ -77,6 +79,7 @@ meiji.1 = {
 				birth_date = 1831.1.1
 				dna = dna_emperor_komei
 				interest_group = ig_armed_forces
+				trait_generation = { set_variable = historical_figure }
 				traits = {
 					concept_wikipedia_Komei_Yamato
 					reserved # ditto
@@ -89,6 +92,7 @@ meiji.1 = {
 				birth_date = 1852.1.1
 				dna = dna_emperor_meiji
 				interest_group = ig_industrialists
+				trait_generation = { set_variable = historical_figure }
 				traits = {
 					concept_wikipedia_Meiji_Yamato
 					innovative
@@ -108,6 +112,7 @@ meiji.1 = {
 				birth_date = 1852.1.1
 				dna = dna_emperor_meiji
 				interest_group = ig_industrialists
+				trait_generation = { set_variable = historical_figure }
 				traits = {
 					concept_wikipedia_Meiji_Yamato
 					innovative
@@ -120,6 +125,7 @@ meiji.1 = {
 				heir = yes
 				birth_date = 1879.1.1
 				interest_group = ig_industrialists
+				trait_generation = { set_variable = historical_figure }
 				traits = {
 					concept_wikipedia_Taisho_Yamato
 				}
@@ -136,6 +142,7 @@ meiji.1 = {
 				ruler = yes
 				birth_date = 1879.1.1
 				interest_group = ig_industrialists
+				trait_generation = { set_variable = historical_figure }
 				traits = {
 					concept_wikipedia_Taisho_Yamato
 				}
@@ -146,6 +153,7 @@ meiji.1 = {
 				heir = yes
 				birth_date = 1901.1.1
 				interest_group = ig_armed_forces
+				trait_generation = { set_variable = historical_figure }
 				traits = {
 					concept_wikipedia_Showa_Yamato
 				}
@@ -162,6 +170,7 @@ meiji.1 = {
 				heir = yes
 				birth_date = 1901.1.1
 				interest_group = ig_armed_forces
+				trait_generation = { set_variable = historical_figure }
 				traits = {
 					concept_wikipedia_Showa_Yamato
 				}
@@ -808,11 +817,6 @@ meiji.6 = {
 
 	trigger = {
 		NOT = { has_modifier = japan_production_tech_modifier }
-		OR = { 
-			country_rank >= rank_value:unrecognized_major_power 
-			country_rank >= rank_value:unrecognized_regional_power 
-			country_rank >= rank_value:unrecognized_power 
-		}
 		OR = {
 			AND = {
 				has_law = law_type:law_isolationism
@@ -840,7 +844,6 @@ meiji.6 = {
 			relations:root >= relations_threshold:neutral
 			NOT = { has_war_with = ROOT }
 			NOT = { is_owed_obligation_by = ROOT }
-			NOT = { THIS = ROOT }
 			ig:ig_industrialists = {
 				is_in_government = yes
 			}
@@ -852,7 +855,6 @@ meiji.6 = {
 			limit = {
 				country_rank >= rank_value:major_power
 				relations:root >= relations_threshold:neutral
-				NOT = { THIS = ROOT }
 				NOT = { has_war_with = ROOT }
 				NOT = { is_owed_obligation_by = ROOT }
 				ig:ig_industrialists = {

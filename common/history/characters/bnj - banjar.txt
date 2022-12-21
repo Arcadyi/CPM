@@ -9,6 +9,7 @@
 			birth_date = 1798.11.5 # reigned from 1825-1857, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Adam_Al_Watsiq_Billah_Banjar
 			}
@@ -23,6 +24,7 @@
 			birth_date = 1822.9.2 # reigned from 1857-1859, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Tamjidullah_al-Watsiqu_Billah_Banjar
 			}

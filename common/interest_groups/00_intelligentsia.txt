@@ -30,7 +30,7 @@
 	
 	pop_weight = {
 		value = 0
-	
+		
 		add = {
 			desc = "ACADEMIC_EMPLOYMENT"
 			if = {
@@ -60,7 +60,7 @@
 				limit = { 
 					is_pop_type = clerks
 				}
-				value = 100
+				value = 75
 			}
 		}		
 		
@@ -73,7 +73,7 @@
 				value = 100
 			}
 		}
-		
+
 		add = {
 			desc = "POP_ENGINEERS"
 			if = {
@@ -112,7 +112,7 @@
 					literacy_rate >= 0.50
 					literacy_rate < 0.60
 				}
-				add = 10
+				add = 5
 			}
 		}		
 
@@ -124,7 +124,7 @@
 					literacy_rate >= 0.60
 					literacy_rate < 0.70
 				}
-				add = 12
+				add = 10
 			}
 		}
 
@@ -136,7 +136,7 @@
 					literacy_rate >= 0.70
 					literacy_rate < 0.80
 				}
-				add = 14
+				add = 15
 			}
 		}		
 	
@@ -148,7 +148,7 @@
 					literacy_rate >= 0.80
 					literacy_rate < 0.90
 				}
-				add = 16
+				add = 20
 			}
 		}		
 
@@ -294,16 +294,15 @@
 				value = literacy_rate
 				multiply = 2
 			}
-		}	
+		}
 		
 		multiply = {
 			desc = "LEADER_POPULARITY"
 			scope:interest_group = {
 				leader = {
 					value = popularity
-					multiply = 0.0025
+					multiply = 0.005
 					add = 1
-					max = 1.25
 					min = 0.75
 				}
 			}

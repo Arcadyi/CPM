@@ -9,6 +9,7 @@
 			birth_date = 1791.3.5 # reigned from 1816-1845, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Aji_Muhammad_Salehuddin_Kutai
 			}

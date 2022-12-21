@@ -1078,36 +1078,6 @@ DAK = {
 	}
 }
 
-DEI = { 
-	flag_definition = {
-		coa = DEI
-		priority = 10
-	}
-	flag_definition = {
-		coa = DEI_subject
-		priority = 20
-		trigger = {
-			coa_def_colonial_ensign_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = DEI_independent
-		subject_canton = DEI_independent
-		priority = 500
-		trigger = {
-			coa_def_independent_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = DEI_subject_notNET
-		subject_canton = DEI_subject_notNET
-		allow_overlord_canton = yes
-		priority = 600
-		trigger = {
-			coa_def_no_NET_overlord_flag_trigger = yes
-		}
-	}
-}
 
 DFR = {
 	flag_definition = {

@@ -12,6 +12,7 @@
 			age = 64 # unknown age, but his father ruled from 1762 to 1801, so he was most probably born in the 18th century
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Parichhat_Singh_Bundela
 				reserved
@@ -27,6 +28,7 @@
 			age = 40 # unknown age, but he died in 1857
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Bijai_Singh_Bundela
 				cautious

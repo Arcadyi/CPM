@@ -9,6 +9,7 @@
 			age = 58
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Sahle_Dengel_Solomon
 				reserved
@@ -24,6 +25,7 @@
 			age = 39
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Yohannes_Solomon
 				reserved
@@ -39,6 +41,7 @@
 			ig_leader = yes
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ali_Yejju
 				ambitious

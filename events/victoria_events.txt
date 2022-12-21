@@ -40,6 +40,7 @@ victoria.1 = {
 				birth_date = 1771.6.5
 				interest_group = ig_landowners
 				ideology = ideology_royalist
+				trait_generation = { set_variable = historical_figure }
 				traits = {
 					concept_wikipedia_Ernest_Augustus_Hannover
 					basic_political_operator
@@ -54,6 +55,7 @@ victoria.1 = {
 				birth_date = 1819.5.27
 				interest_group = ig_landowners
 				ideology = ideology_royalist
+				trait_generation = { set_variable = historical_figure }
 				traits = {
 					concept_wikipedia_George_Hannover
 					arrogant

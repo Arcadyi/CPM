@@ -9,6 +9,7 @@
 			age = 28
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Nasr_Allah_Manghud
 				reckless
@@ -24,6 +25,7 @@
 			age = 6 # unknown age, but he was a son of Nasrullah Khan
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Muzaffar_al-Din_Manghud
 				reserved

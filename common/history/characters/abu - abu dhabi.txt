@@ -9,6 +9,7 @@
 			birth_date = 1807.6.2 # reigned from 1833–1845, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Khalifa_al_Nahyan
 				imperious
@@ -24,6 +25,7 @@
 			birth_date = 1821.3.1 # reigned from 1845–1855, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Saeed_al_Nahyan
 				reserved

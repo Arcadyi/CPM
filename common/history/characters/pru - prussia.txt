@@ -11,6 +11,7 @@
 			hq = region_north_germany
 			interest_group = ig_armed_forces
 			ideology= ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Friedrich_Wilhelm1_von_Hohenzollern
 				direct
@@ -26,9 +27,9 @@
 			last_name = "von_Hohenzollern"
 			heir = yes
 			age = 41
-			dna = dna_friedrich_wilhelm_iv
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Friedrich_Wilhelm2_von_Hohenzollern
 				reserved
@@ -43,10 +44,10 @@
 			first_name = Gustav
 			last_name = von_Rauch
 			age = 62
-			dna = dna_gustav_rauch
 			ig_leader = yes
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Gustav_von_Rauch
 				persistent
@@ -57,10 +58,10 @@
 			first_name = Friedrich
 			last_name = Ancillon
 			age = 69
-			dna = dna_friedrich_ancillon
 			ig_leader = yes
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Friedrich_Ancillon
 				imperious
@@ -72,10 +73,10 @@
 			first_name = Carl_Heinrich
 			last_name = von_Wylich_und_Lottum
 			age = 69
-			dna = dna_wylich_lottum
 			ig_leader = yes
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Carl_Heinrich_von_Wylich_und_Lottum
 				ambitious
@@ -87,10 +88,10 @@
 			first_name = Ludwig_Gustav
 			last_name = von_Thile
 			age = 55
-			dna = dna_ludwig_gustav_thile
 			ig_leader = yes
 			interest_group = ig_devout
 			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ludwig_Gustav_von_Thile
 				tactful
@@ -102,10 +103,10 @@
 			first_name = August
 			last_name = von_der_Heydt
 			age = 35
-			dna = dna_august_heydt
 			ig_leader = yes
 			interest_group = ig_industrialists
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_August_von_der_Heydt
 				persistent
@@ -119,7 +120,7 @@
 			last_name = von_Moltke
 			hq = region_north_germany
 			age = 36
-			dna = dna_moltke_elder
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Helmuth1_von_Moltke
 				expert_offensive_planner
@@ -133,9 +134,9 @@
 			first_name = Hans_Ernst_Karl
 			last_name = von_Zieten
 			age = 66
-			dna = dna_von_zieten
 			hq = region_poland
 			commander_rank = commander_rank_3
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Hans_Ernst_Karl_von_Zieten
 				plains_commander
@@ -160,7 +161,7 @@
 			hq = region_rhine
 			commander_rank = commander_rank_3
 			age = 62
-			dna = dna_von_krauseneck
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Wilhelm_von_Krauseneck
 				reserved
@@ -255,18 +256,4 @@
 #
 #		}
 	}
-		create_character = {
-			is_general = yes
-			first_name = Friedrich_Graf
-			last_name = von_Wrangel
-			commander_rank = commander_rank_3
-			age = 52
-			dna = dna_von_wrangel
-			traits = {
-				persistent
-				senile
-				expert_offensive_planner
-			}
-
-		}
-	}
+}

@@ -7,14 +7,14 @@
 			birth_date = 1773.10.6
 			dna = dna_king_louis_philippe_01
 			interest_group = ig_industrialists
-			ideology = ideology_orleanist
+			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Louis-Philippe_d_Orleans
 				tactful
 			}
 			on_created = {
 				set_variable = is_married
-				set_variable = is_orleanist
 			}
 		}
 
@@ -23,28 +23,24 @@
 			last_name = d_Orleans
 			heir = yes
 			birth_date = 1810.9.3
-			dna = dna_ferdinand_philippe
 			interest_group = ig_armed_forces
-			ideology = ideology_orleanist
+			ideology = ideology_jingoist_leader
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ferdinand_Philippe_d_Orleans
 				reserved
 			}
-			on_created = {
-				set_variable = is_orleanist
-			}
 		}
 
 		create_character = {
-			first_name = "Pierre-Antoine"
-			last_name = "Berryer"
-			birth_date = 1790.10.21
-			dna = dna_pa_berryer
+			first_name = "Victor"
+			last_name = "de_Broglie"
+			birth_date = 1785.11.28
 			ig_leader = yes
 			interest_group = ig_landowners
-			ideology = ideology_legitimist
+			ideology = ideology_reformer
+			trait_generation = { set_variable = historical_figure }
 			traits = {
-				direct
 				concept_wikipedia_Victor_de_Broglie
 				tactful
 			}
@@ -54,68 +50,27 @@
 			first_name = "Adolphe"
 			last_name = "Thiers"
 			birth_date = 1797.4.15
-			dna = dna_adolphe_thiers
 			ig_leader = yes
 			interest_group = ig_intelligentsia
-			ideology = ideology_reformer
+			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Adolphe_Thiers
 				charismatic
 			}
-			on_created = {
-				set_variable = is_adolphe_thiers_right
-			}
 		}
 
 		create_character = {
-			first_name = "Mathieu_2"
-			last_name = "Mole"
-			birth_date = 1781.1.24
-			dna = dna_mathieu_mole
+			first_name = "Jacques"
+			last_name = "Laffitte"
+			birth_date = 1767.10.24
 			ig_leader = yes
 			interest_group = ig_industrialists
-			ideology = ideology_orleanist
-			traits = {
-				experienced_political_operator
-				basic_diplomat
-			}
-		}
-		
-		create_character = {
-			first_name = "Antoine"
-			last_name = "d_Argout"
-			birth_date = 1782.8.28
-			dna = dna_antoine_argout
-			ig_leader = yes
-			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_reformer
+			trait_generation = { set_variable = historical_figure }
 			traits = {
-				meticulous
-			}
-		}
-		
-		create_character = {
-			first_name = "Odilon"
-			last_name = "Barrot"
-			birth_date = 1791.7.19
-			ig_leader = yes
-			interest_group = ig_rural_folk
-			ideology = ideology_moderate
-			traits = {
-				inspirational_orator
-			}
-		}
-		
-		create_character = {
-			first_name = "Hyacinthe_Louis"
-			last_name = "de_Quelen"
-			birth_date = 1778.10.8
-			dna = dna_de_quelen
-			ig_leader = yes
-			interest_group = ig_devout
-			ideology = ideology_traditionalist
-			traits = {
-				pious
+				concept_wikipedia_Jacques_Laffitte
+				reckless
 			}
 		}
 
@@ -123,12 +78,11 @@
 			first_name = "Jean-de-Dieu"
 			last_name = "Soult"
 			birth_date = 1769.3.29
-			dna = dna_marshal_soult
 			ig_leader = yes
 			interest_group = ig_armed_forces
-			ideology = ideology_orleanist
+			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
-				arrogant       
 				concept_wikipedia_Jean-de-Dieu_Soult
 			}
 		}
@@ -140,6 +94,7 @@
 			birth_date = 1784.10.15
 			hq = region_rhine
 			interest_group = ig_rural_folk
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Thomas_Bugeaud
 				ambitious
@@ -154,6 +109,7 @@
 			birth_date = 1772.12.12
 			hq = region_north_africa
 			interest_group = ig_armed_forces
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Bertrand_Clausel
 				wrathful
@@ -168,6 +124,7 @@
 			birth_date = 1775.2.20
 			hq = region_france
 			commander_rank = commander_rank_3
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Guy-Victor_Duperre
 				experienced_naval_commander
@@ -182,6 +139,7 @@
 			birth_date = 1784.7.21
 			hq = region_occitania
 			commander_rank = commander_rank_3
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Charles_Baudin
 				experienced_naval_commander
@@ -195,6 +153,7 @@
 			age = 61
 			hq = region_occitania
 			commander_rank = commander_rank_5
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Honore_Charles_Reille
 				brave
@@ -209,6 +168,7 @@
 			age = 61
 			hq = region_france
 			commander_rank = commander_rank_3
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Guillaume_Dode_de_la_Brunerie
 				trench_rat

@@ -1251,3 +1251,28 @@ ecchi_gbr_carlyle_character_template = {
         chance = 90
     }
 }
+
+ecchi_gbr_wood_character_template = {
+    first_name = ecchi_Jemmy
+    last_name = Wood
+    culture = cu:british
+    female = no
+    religion = protestant
+    ideology = ideology_traditionalist
+    interest_group = ig_industrialists
+	dna = ecchi_dna_jemmy_wood
+    birth_date = 1756.10.7
+    traits = { reserved imperious cautious }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:GBR
+            this = c:GBR
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1836.4.20
+        chance = 90
+    }
+}

@@ -10,6 +10,7 @@
 			dna = dna_francisco_de_paula_santander
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Francisco_de_Paula_Santander
 				persistent

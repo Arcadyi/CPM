@@ -9,6 +9,7 @@
 			age = 22
 			interest_group = ig_landowners
 			ideology = ideology_pacifist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Kamehameha_III_Kamehameha
 				direct
@@ -25,6 +26,7 @@
 			age = 2
 			interest_group = ig_landowners
 			ideology = ideology_theocrat
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Kamehameha_IV_Kamehameha
 				tactful
@@ -40,6 +42,7 @@
 			age = 39
 			interest_group = ig_devout
 			ideology = ideology_theocrat
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Asa_Thurston
 				reserved

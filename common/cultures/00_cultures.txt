@@ -2,11 +2,6 @@
 	color= rgb{ 62 77 100 }
 	religion = protestant
 	traits = { german_speaking european_heritage }
-
-	obsessions = {
-		newspapers
-	}
-
 	male_common_first_names={
 		Adelbert
 		Adolf
@@ -16,14 +11,13 @@
 		August
 		Bernhard
 		Burkhard
-		Bruno
+		
 		Dieter
 		Eduard
 		Edwin
 		Erich
 		Ernst
 		Erwin
-		Esaias
 		Florian
 		Franz
 		Friedrich
@@ -31,15 +25,11 @@
 		Georg
 		Gustav
 		Gunther
-		Giesebert
 		Hasso
 		Heinrich
 		Helmuth
 		Hermann
 		Hugo
-		Haubold
-		Hillart
-		Ignatz
 		Joachim
 		Johann
 		Jurgen
@@ -53,14 +43,11 @@
 		Maximilian
 		Markus
 		Michael
-		Moritz
 		Nikolaus
 		Otto
-		Oskar
 		Pascal
 		Paul
 		Peter
-		Philipp
 		Reinhard
 		Rudolf
 		Ruprecht
@@ -75,7 +62,7 @@
 		Charlotte Cecilia Caroline Christina Clara
 		Dorothea_Sophia Dorothea
 		Elisabeth Erika
-		Friederike
+		Friederike 
 		Hilda Henriette Hedwig
 		Ingeborg
 		Julia Johanna
@@ -92,7 +79,6 @@
 		von_Alten
 		von_Anhalt
 		von_Arentschildt
-		von_Arens
 		von_Bismarck-Bohlen
 		von_Bittenfeld
 		von_Blomberg
@@ -102,21 +88,10 @@
 		von_Braunschweig
 		von_Breitenbach
 		von_Bulow
-		von_Boyneburg-Lengsfeld
-		von_Breidbach-BUrresheim
 		von_Clemm
-		von_Cramm
 		von_Doenhoff
-		von_Dieskau
-		von_Eck
 		von_Fritsch
-		Firnhaber_von_Eberstein
 		von_Gebser
-		von_Gagern
-		de_Greiff
-		von_GO_rtz
-		von_GU_nderrode
-		von_der_Gabelentz
 		von_Halkett
 		von_Hannover
 		von_Hessen-Darmstadt
@@ -124,32 +99,19 @@
 		von_Hindenburg
 		von_Hohenzollern
 		von_Holstein-Gottorp
-		von_Hennig
-		von_der_Heydt
-		von_Haupt von_Heyden
-		von_Isenburg-BU_dingen-Meerholz
 		von_Kleefeld
 		von_Knorr
-		von_dem_Knesebeck
-		zur_Lippe
-		MU_ller_von_KO_nigswinter
 		von_Manteuffel
 		von_Mecklenburg-Schwerin
 		von_Mecklenburg-Strelitz
 		von_Moltke
-		von_Madai
 		von_Niezychowski
-		von_Nordeck_zur_Rabenau
 		von_Oldenburg
-		von_PlO_nnies
-		Riedesel_zu_Eisenbach
 		von_Rauch
 		von_Ravensberg
 		von_Reuter
 		von_Richthofen
 		von_Roon
-		von_Radowitz
-		von_Reichenbach
 		von_Sachsen-Altenburg
 		von_Sachsen-Coburg-Gotha
 		von_Sachsen-Meiningen
@@ -158,102 +120,37 @@
 		von_Schwarzburg
 		von_Spee
 		von_Tirpitz
-		zu_Stolberg-Wernigerode
-		von_Sybel
-		von_Solms-Laubach
-		von_Stein
-		von_StO_ssert
-		von_Spesshardt
-		Treusch_von_Butlar
-		von_Tirpitz von_ThU_nen
-		von_Vahlkampf
 		von_Waldeck_und_Pyrmont
 		von_Wettin
 		von_Wrangel
-		von_Willich
-		von_Watzdorf
-		Waitz_von_Eschen
 		von_Zieten
 		von_dem_Knesebeck
-		von_Zwierlein
-
 		von_Jons
 		zur_Lippe
 		von_Willich
-	}
+	}	
 	common_last_names={
 		Abegg
 		Anger
 		Arendt
-		Ackermann
-		Arntz
 		Behncke
 		Boermel
 		Borsig
 		Brill
 		Brommy
-		Blum
-		Baltzer
-		Bever
-		BA_hren
-		Bischoff
-		Brauweiler
-		BrockmU_ller
-		Broix
-		BU_rgers
-		BO_cking
-		Biedermann
-		BlO_de
-		BO_hler
-		Brockhaus
-		Bauer
-		Birnbaum
-		Brunck
-		Buff
-		Bolten
-		Briegleb
-		Bardorf
 		Clebsch
 		Cordemann
 		Culemeyer
-		Caspers
-		Cetto
-		Clossett
-		Colonius
-		Compes
-		Carriere
-		Cretzschmar
-		Cratz
-		Cropp
 		Dahlmann
 		Dieffenbach
 		Diestel
 		Dreyer
 		Droste
 		Depre
-		Dietze
-		Detering
-		Dietz
-		DuprE_
-		Dresel
 		Ehlert
 		Eichelbaum
-		Eckert
-		Eisenstuck
-		Eissengarthen
-		Elwert
-		Emmerling
-		Ettlinger
-		Erichson
 		Feyerabend
 		Fritsch
-		Friedenthal
-		Fabarius
-		Forst
-		Frings
-		Freudentheil
-		Felsing
-		FlU_gge
 		Garbe
 		Gerlach
 		Gloger
@@ -262,11 +159,6 @@
 		Grebe
 		Groener
 		Groth
-		Gerlich
-		Giersberg
-		Glaubrech
-		Gail
-		GU_lich
 		Hagen
 		Harkort
 		Harych
@@ -275,187 +167,36 @@
 		Hirschfeld
 		Hoffmann
 		Hubatsch
-		Hammer
-		Hecker
-		Herrmann
-		HO_nninghaus
-		Haustein
-		Hensel
-		Henkel
-		Hildebrand
-		Hallwachs
-		Heldmann
-		Hestermann
-		Hesse
-		Hoffmann
-		HU_gel
-		Hollandt
 		Jastrow
 		Johow
-		Junghans
-		Jahn
-		Jordan
-		Jungbluth
-		Jungblutte
-		Jucho
 		Katz
 		Kempner
 		Kirchweger
 		Koffka
 		Krohn
 		Krummnow
-		Knocke
-		Kehl
-		Keiffenheim
-		Kullich
-		KU_hne
-		Kahlert
-		Kinscherf
-		Kloch
-		Kierulff
-		Kriegk
-		Kugler
 		Lasker
 		Leistikow
 		Leonhardt
 		Ludendorff
 		Lehmkuhl
 		Olbers
-		Laist
-		Lamberts
-		Landfermann
-		Leue
-		Lingmann
-		Lintz
-		Lederer
-		Lehne
-		Lotheissen
-		Leisler
-		Lang
 		Mittwoch
 		Moll
-		Mallmann
-		Marcks
-		Maurer
-		MU_lhens
-		Minckwitz
-		Mohr
-		Manecke
-		Marktscheffel
-		Mappes
-		NettstrA_tter
-		Neuerburg
-		Neunzig
-		Nohl
-		Olbers
-		Oetker
-		Pelz
-		Pax
 		Peiser
-		Plange
-		Pagenstecher
-		Peters
-		Pfeiffer
-		Philippi
-		Prinzen
-		Proff
-		PflU_ger
-		Pitschaft
-		PrA_torius
-		Preusser
-		Pogge
-		Pohle
 		Rehfisch
 		Roepke
-		RU_ckert
-		Ronge
-		Reichensperger
-		Reinartz
-		Rittinghausen
-		Ritz
-		Rewitzer
-		Rauschenplat
-		RO_ssler
-		RU_hl
-		Ramspeck
-		Rauschers
-		Reh
-		Runge
-		Reinganum
 		Scherfke
 		Schimmelfennig
 		Schmidt
 		Schree
 		Schurz
-		Schnitter
-		SchlO_ffel
-		Stahlschmidt
-		Schwetschke
-		Schnake
-		Schneider
-		Schuchart
-		SchU_renberg
-		Schigard
-		Scheidt
-		Scherer
-		Schleicher
-		SchlO_sser
-		Schmitz
-		SchO_ller
-		Stapper
-		Stedmann
-		Strom
-		Schaffrath
-		SchlU_ter
-		Schnabel
-		Schwarzenberg
-		Steuernagel
-		Stoll
-		Strecker
-		Schleiden
-		Schlettwein
-		Schnelle
-		Stever
-		Sonnenkalb
-		Souchay
 		Treibe
-		TU_rke
-		Theyssen
-		Thilmany
-		Trombetta
 		Umbscheiden
-		Venedy
-		Vogt
-		Volhard
-		Varrentrapp
-		Vorwerck
 		Weydemeyer
 		Wittfeld
 		Woehlert
-		Wiesner
-		Wislicenus
-		Wachendorf
-		Waldschmidt
-		Weckbecker
-		Welcker
-		WerlE_
-		Wesendonck
-		Weilhelmi
-		Winneritz
-		Wirtz
-		Wolfermann
-		Wigard
-		Wuttke
-		Wippermann
-		Wentorp
-		Wendhausen
 		Zerrahn
-		ZO_ller
-		Zell
-		Zimmermann
-		ZachariA_
-		Zulauf
-		Zais
 	}
 
 	male_regal_first_names = {
@@ -488,11 +229,6 @@ south_german={
 	color= hsv{ 0.50 0.43 0.45 }
 	religion = catholic
 	traits = { german_speaking european_heritage }
-
-	obsessions = {
-		newspapers
-	}
-
 	male_common_first_names={
 		Adolf
 		Albrecht
@@ -501,33 +237,24 @@ south_german={
 		Alois
 		Anton
 		Arthur
-		Albert
-		Arnulf
 		Bernhard
-		Benignus
 		Christian
 		Edmund
 		Eduard
 		Engelbert
 		Ernst
 		Erwin
-		Emil
-		Eugen
-		Emanuel
 		Ferdinand
 		Franz
 		Friedrich
-		Felix
 		Gebhard
 		Gerhard
 		Gottfried
 		Gustav
 		Gunther
-		Gottleib
 		Heinrich
 		Hermann
 		Horst
-		Hugo
 		Jakob
 		Joachim
 		Johann
@@ -536,31 +263,18 @@ south_german={
 		Karl
 		Konrad
 		Kurt
-		Kasimir
-		Klemens
 		Leonhard
 		Leopold
 		Lorenz
 		Lothar
 		Ludwig
-		Luitpold
 		Maximilian
 		Michael
-		Martin
-		Moritz
-		Nikolaus
-		Nepomuk
 		Otto
-		Peter
-		Paul
 		Reinhold
 		Rudolf
-		Rupprecht
 		Stefan
-		Siegmund
 		Theodor
-		Thomas
-		Theophil
 		Valentin
 		Viktor
 		Vitus
@@ -568,9 +282,6 @@ south_german={
 		Walter
 		Werner
 		Wilhelm
-		Wolfgang
-		Walther
-		Xaver
 	}
 	female_common_first_names = {
 		Anna Adelgunde Alexandra Augusta
@@ -586,64 +297,20 @@ south_german={
 		Therese
 		Ulrike
 		Wiltrud Wilhelmine
-	}
+	}	
 	noble_last_names = {
 		d_Aspre_von_Hoobreuk
 		Schnorr_von_Carolsfeld
-		von_Adelmann
-		von_Andlaw-Birseck
 		von_Baader
 		von_Baden
 		von_Benedek
 		von_Brudermann
 		von_Bohm-Ermolli
-		von_Bissingen-Nippenburg
-		von_Berlichingen
-		von_Binder
-		von_Buss
-		von_Bosch
-		von_Bomhard
-		von_Bothmer
-		von_Brug
-		von_Berchem
-		von_Le_Bret-Nucourt
-		von_Benzino
-		von_Bibra
-		von_Baligand
-		Cotton_von_Cottendorf
 		von_Clam-Gallas
-		von_Closen
-		von_Crailsheim
 		von_Denis
 		von_Dietrich
-		von_Diemar
-		von_Deroy
-		von_DU_rckheim-Montmartin
-		von_DU_well
-		von_Endres
-		von_Fleischmann
-		von_Fray
-		von_Freyen-Seyboltstorff
-		von_Fels
-		von_Froberg-Montjoye
-		von_Freyberg-Eisenberg
-		von_Fleury_auf_Hilling
-		von_Fritsch
 		von_Gablenz
 		von_Grunne
-		von_Giech
-		von_Geldern
-		von_Greis
-		von_Gumppenberg
-		von_Grauvogl
-		von_Godin
-		von_Gonnermann
-		von_Gebsattel
-		von_Gravenreuth
-		von_Gramich
-		von_Grossschedel
-		von_GO_riz
-		von_Gyssling
 		von_Hartmann
 		von_Haynau
 		von_Helmholtz
@@ -652,91 +319,11 @@ south_german={
 		von_Hohenhausen
 		von_Hortstein
 		von_Hotzendorf
-		zu_Hohenlohe
-		von_Habsburg
-		von_Hegnenberg-Dux
-		von_Herder
-		von_Hafner
-		Hofer_von_Lobenstein
-		von_Hohenlohe-Langenburg
-		von_Hornstein-Bussmannshausen
-		von_Hohenlohe-O_hringen
-		von_Hertling
-		von_Hagens
-		von_Helvig
-		von_Horn
-		von_Hartz
-		von_Hoyos-Sprinzenstein
-		von_Itzstein
-		von_Jeetze
-		Kress_von_Kressenstein
 		von_Kirbach
 		von_Kobratin
-		von_Kettner
-		Keller_von_Schleitheim
-		Leutrum_von_Ertingen
-		von_Lotzbeck
-		von_Lepel
-		von_Leonrod
-		von_Lindheimer
-		von_Lossow
 		von_Maffei
-		von_Mayersbach
-		von_Montgelas
-		von_Mohl
-		von_Massenbach
-		von_Meldegg
-		von_MalaisE_
-		von_Madroux
-		von_Maillinger
-		von_Menz
-		von_Neipperg
-		von_Nesselrode-Hugenpoet
-		von_Neubeck
-		von_Nagel_zu_Aichberg
-		von_Mieg
-		von_Oettigen-Wallerstein
-		Poschinger_von_Frauenau
 		von_Pauli
-		von_Pfeufer
-		von_Pranckh
-		von_Parseval
-		von_Pechmann
-		von_Pfetten-Arnbach
-		von_Preysing-Moos
-		zu_Pappenheim
-		von_Pillement
-		von_Quadt-Wykradt-Isny
-		von_Rotenhan
-		von_Zu_Rhein
-		von_Rinecker
-		von_RO_mer
-		von_Rechberg
-		von_La_Roche-Starkenfels
-		Rinck_von_Baldenstein
-		von_Rochau
-		RU_dt_von_Collenberg
-		von_Ruckteschell
-		von_Reichlin-Meldegg
-		von_Reysing
-		Schnorr_von_Carolsfeld
 		von_Schonburg
-		von_Scherer
-		von_Struve
-		von_sch_Onborn-Wiesentheid
-		von_Seutter
-		von_Sternenfels
-		von_Soiron
-		von_Stockhorner-Starein
-		von_StO_sser
-		von_Speti
-		von_Stockum-Sternfels
-		von_SchO_nprunn
-		von_Seyssel_d_Aix
-		von_Safferling
-		von_Schuh
-		von_Le_Suire
-		von_Saporta
 		von_Tegetthoff
 		von_Uchatius
 		von_Weigert
@@ -750,62 +337,22 @@ south_german={
 		von_Mayersbach
 		von_Scherer
 		von_Thurnberg
-		von_TA_uffenbach
-		von_der_Tann-Rathsamhausen
-		von_Uchatius
-		Vogt_von_Hunoltstein von_VarnBU_ler von_Vallade
-		von_Weigert von_Wittelsbach von_Wurttemberg von_Wrede von_WA_chter von_Waechter-Spittler von_WO_llwarth von_Waldburg-Zeil von_Wirthmann von_WalderstO_tten von_Wallbrunn von_Welsch von_Winneberger
-		von_Xylander
-		von_Zahringen von_Zandt von_Zwanziger
+		# REVISIT
 	}
 	common_last_names={
-		Auerbach
-		Aldinger
 		Bachmann
 		Beck-Rzikowsky
 		Blos
-		Barchet
-		Bantlin
-		Bech
-		Bassermann
-		Baum
-		Bissing
-		Bleidorn
-		Beckmund
-		Bedall
-		Christmann
-		CarovE_
-		Correck
-		Cella
 		Dankl
 		Dauer
 		Dollmann
-		Depre
-		Doll
-		Deusch
-		Dennig
-		Deuringer
-		Denzler
-		Deppert
 		Eisner
 		Eppelsheimer
 		Exter
-		Eppelsheim
-		Eisenmann
-		Edel
-		Ermarth
-		Ehrensberger
-		Eder
 		Foerderreuther
 		Frauendorfer
 		Friedel
 		Frommknecht
-		Federer
-		Fetzer
-		Frueth
-		Fallenstein
-		Frech
-		Fasbender
 		Geiss
 		Gerber
 		Goering
@@ -813,10 +360,6 @@ south_german={
 		Graff
 		Groeschel
 		Groth
-		Grohe
-		Gervinus
-		GA_tschenberger
-		Gloss_ Gruny
 		Hainisch
 		Haus
 		Held
@@ -825,72 +368,16 @@ south_german={
 		Hoffmann
 		Homberger
 		Hummel
-		Hepp
-		HA_gelin
-		Hagen
-		HA_usser
-		Hecker
-		Helbing
-		Helmreich
-		Hoff
-		HO_genstaller
-		Horadam
-		Hinzler
-		Hitzen
-		Hopffer
-		Hebberling
-		Ipfelkofer
-		Junghannss
 		Kessler
 		Kohler
-		Kolb
-		Keil
-		KO_lliker
-		Kapp
-		KlU_ber
-		Kemmer
-		Killermann
-		Kiessling
-		Krazeisen
-		Lakner
-		Lehmkuhl
-		LanghA_user
 		Mergenthaler
 		Miklas
-		MO_gling
-		Mohl
-		Murschel
-		Mack
-		Mathy
-		Mez
-		Mittermaier
-		Margreither
 		Nebenius
-		Neumann
-		Neuffer
-		Olbers
-		Orff
-		Obermair
 		Platner
 		Prang
-		Press
-		Platner
-		Pfaff
-		Pauer
-		Prand
-		Pfluegl
-		Pesenecker
-		Quitzmann
 		Rahl
 		Remmele
 		Rosenhaupt
-		Riedl
-		RO_dinger
-		Reyscher
-		Ruoff
-		Rau
-		Richter
-		Reisterer
 		Schmitt
 		Schobber
 		Seitz
@@ -898,51 +385,15 @@ south_german={
 		Stolzer
 		Strauss
 		Sailer
-		Spatz
-		Schott
-		Seeger
-		Stierlen
-		Schweickhardt
-		SchU_bler
-		Sachs
-		Schaaff
-		Scheffold
-		Seltzam
-		Siegler
-		Speyerer
-		Solger
-		Seekirchner
-		Schmauss
-		Schmidtler
 		Trient
 		Trunk
-		Teutsch
-		Titus
-		Tafel
 		Unglaub
-		Uhland
-		Ullrich
-		Usselmann
 		Voelcker
-		Veiel
 		Wagner
 		Wittmann
-		Willich
-		Wolf
-		Wiedmann
-		Walchner
-		Welcker
-		Weller
-		Welte
-		Werner
-		Winter
-		Weiss-Jonak
 		Zeller
 		Zenger
 		Zink
-		Zentner
-		Zittel
-		Zerreiss
 		Depre
 		Lakner
 		Lehmkuhl
@@ -964,14 +415,7 @@ south_german={
 		Eugenie Elisabeth
 		Gisela
 		Maria_Theresia Maria_Josepha
-		Theresia
 		Sophie
-	}
-	regal_last_names={
-		von_Habsburg von_Hohenberg
-		von_Meran
-		von_Wittelsbach
-		von_Zahringen
 	}
 
 	graphics = european
@@ -983,7 +427,7 @@ south_german={
 ashkenazi={
 	color= hsv{ 0.13 0.80 0.99 }
 	religion = jewish
-	traits = { jewish_group european_heritage }
+	traits = { jewish_group european_heritage } 
 	# could have German-speaking, but would make them not discriminated which would be very ahistorical
 	male_common_first_names={
 		Abraham
@@ -1021,7 +465,7 @@ ashkenazi={
 		Minna Margarete
 		Regine
 		Zoe
-	}
+	}	
 	noble_last_names = {
 		Auerbach Austerlitz
 		von_Bleichroeder
@@ -1070,7 +514,7 @@ ashkenazi={
 
 dutch={
 	color= hsv{ 0.07 0.49 0.93 }
-	religion = protestant
+	religion = reformed
 	traits = { beneluxian_culture_group european_heritage }
 	male_common_first_names={
 		Abraham
@@ -1162,10 +606,10 @@ dutch={
 		Louise Lessina
 		Maria Martha Margaretha
 		Pauline Petronella
-		Roosje
+		Roosje 
 		Suzanna Sjoukje Sara
 		Wilhelmina
-	}
+	}	
 	noble_last_names = {
 		van_Boetzelaer
 		van_Coeverden
@@ -1403,7 +847,7 @@ flemish={
 		Marie Mathilde
 		Nathalie
 		Stefanie
-	}
+	}	
 	noble_last_names = {
 		van_Asseliers
 		van_Boisschot du_Bois_de_Vroylande
@@ -1419,7 +863,7 @@ flemish={
 		de_Watervliet
 		van_Zuylen_van_Nyevelt
 		Quarles_van_Ufford
-
+		
 		Annez_de_Zillebroeck
 		Boucqueau_de_Villeraye
 		Desmanet_de_Biesme
@@ -1669,7 +1113,7 @@ wallonian={
 		Emile
 	}
 	female_common_first_names = {
-		Alix Amelie Andree
+		Alix Amelie Andree 
 		Catherine Cecilia_2
 		Francoise
 		Helene
@@ -1680,7 +1124,7 @@ wallonian={
 		Sophie
 		Vincentia
 		Yvonne
-	}
+	}	
 	noble_last_names = {
 		de_Croy
 		Goubau
@@ -1689,7 +1133,7 @@ wallonian={
 		de_Merode
 		de_Thezan_Poujol
 		d_Ursel d_Udekem
-
+		
 		de_Selys_Longchamps
 		de_Coppin_de_Falaen
 		de_Theux_de_Meylandt
@@ -1844,7 +1288,7 @@ wallonian={
 
 boer={
 	color= hsv{ 0.10 0.80 0.86 }
-	religion = protestant
+	religion = reformed
 	traits = { beneluxian_culture_group african_settler european_heritage }
 	male_common_first_names={
 		Abraham
@@ -1868,22 +1312,20 @@ boer={
 		Koos
 		Louis
 		Martinus
-		Marthinus
 		Paul
 		Petrus
 		Piet
 		Pieter
-		Racheltjie
+		Racheltjie 
 		Rudolf
 		Sarel
 		Siener
 		Simeon
 		Stephanus
 		Willem
-		Josias
 	}
 	female_common_first_names = {
-		Adriana
+		Adriana 
 		Anna
 		Belinda
 		Brenda
@@ -1895,8 +1337,8 @@ boer={
 		Elmarie
 		Elsje
 		Evelyn
-		Gezina
-		Heiletje
+		Gezina 
+		Heiletje 
 		Jacoba
 		Lizelle
 		Maria
@@ -1907,7 +1349,7 @@ boer={
 		Sophia
 		Wilhelmina
 		Yolandi
-	}
+	}	
 	noble_last_names = {
 		Burger
 		Kruger
@@ -1915,8 +1357,6 @@ boer={
 		Retief
 		van_der_Merwe
 		Wessels
-		Tregardt
-		Hoffman
 	}
 	common_last_names={
 		Bosman
@@ -1939,10 +1379,8 @@ boer={
 		du_Toit
 		du_Preez
 		de_Villiers
-		Hoffman
 		de_Bruyn
 		de_Kock
-		Pretorius
 		de_Klerk
 		Malan
 		Rossouw
@@ -1950,7 +1388,6 @@ boer={
 		Schoeman
 		Jacobszoon
 		Burgers
-		Tregardt
 		Smit
 		Struben
 		Maritz
@@ -1973,7 +1410,7 @@ boer={
 
 swiss={
 	color= hsv{ 0.0 0.47 0.70 }
-	religion = protestant
+	religion = reformed
 	traits = { german_speaking francophone italophone european_heritage }
 	male_common_first_names={
 		Adolf
@@ -2021,7 +1458,7 @@ swiss={
 		Lydia
 		Maria
 		Rosalie
-	}
+	}	
 	noble_last_names = { # mostly patrician families of Bern
 		Effinger
 		de_Gingins
@@ -2122,7 +1559,7 @@ swedish={
 		Sofie Sanna Stina Sofia Sara
 		Ulrika
 		Wilhelmina
-	}
+	}	
 	noble_last_names = {
 		Almqvist
 		af_Ugglas af_Klint af_RosenschO_ld
@@ -2258,13 +1695,13 @@ danish={
 		Thyra
 		Ulrikke
 		Vilhelmine
-	}
+	}	
 	noble_last_names = {
 		af_Danneskiold-Samsoe
 		Barnekow
 		Bernstorff
 		de_Neergaard
-		Gyldenstierne
+		Gyldenstierne 
 		Kaas
 		Reventlow
 		Rosenkrantz
@@ -2273,7 +1710,7 @@ danish={
 		Trolle
 		Valkendorf
 		von_Baudissin
-		von_Falkenskiold
+		von_Falkenskiold 
 		von_Holstein
 		von_Krogh
 		von_Oldenburg
@@ -2358,7 +1795,7 @@ norwegian={
 		Jacob Johan Johannes J_Orgen Jon
 		Karl Knud
 		Lauritz Ludvig
-		Magne Mathias
+		Magne Mathias 
 		Nils
 		Ogmund Olaf Olav Ole Osvald Otto
 		Palme Peter Petter
@@ -2386,7 +1823,7 @@ norwegian={
 		Ragnhild
 		Sara Sophie Susanne Sanna Sigrid Siri
 		Thea Tora
-	}
+	}	
 	noble_last_names = {
 		Anker
 		Bagge Benkestok Bjelke Brodtkorb
@@ -2489,7 +1926,7 @@ icelandic={
 		Steinunn
 		Thorfhildur
 		Vilhelmina
-	}
+	}	
 	noble_last_names = {
 		Hielmstierne
 		Petursson
@@ -2525,216 +1962,15 @@ icelandic={
 	}
 }
 
-finnish={
-	color= hsv{ 0 0 0.86 }
-	religion = protestant
-	traits = { finnic scandinavian_culture_group european_heritage }
-	male_common_first_names={
-		Aatto
-		Abraham
-		Akseli
-		Aleksanteri
-		Anders
-		Aukusti
-		Edvard
-		Eemil
-		Erkki
-		Erno
-		Fabian
-		Fredrik
-		Fridolf
-		Georg
-		Gosta
-		Harald
-		Hjalmar
-		Hugo
-		Johannes
-		Juho
-		Kaarlo
-		Kurt
-		Lars
-		Martti
-		Mikko
-		Paavo
-		Petteri
-		Rudolf
-		Viktor
-		Vilho
-		Vaino
-	}
-	female_common_first_names = {
-		Agneta
-		Alexandra
-		Amanda
-		Anna
-		Brita
-		Caroline
-		Elisabeth
-		Hilda
-		Johanna
-		Josefina
-		Margareta
-		Maria
-		Mathilda
-		Ottaliana
-		Sofia
-		Thorild
-		Ulrika
-		Sanna
-	}
-	noble_last_names = {
-		Adlercreutz
-		Alfthan
-		Alopaeus
-		Antell
-		Armfelt
-		Arppe
-		Berbom
-		Berg
-		Carpelan
-		Cedercreutz
-		Edelfelt
-		Edelheim
-		Ehrnrooth
-		Finckenberg
-		Furuhjelm
-		Gadolin
-		Goeoes
-		Granfelt
-		Gripenberg
-		Hisinger
-		Jaegerhorn
-		Jarnefalt
-		Klick
-		Klinckowstrom
-		Mannerheim
-		Molander
-		Nordenswan
-		Pipping
-		Rosenkampff
-		Snellman
-		Tawaststjerna
-		Tudeer
-		von_Becker
-		von_Blom
-		von_Bonsdorff
-		von_Born
-		von_Chiewitz
-		von_Daehn
-		von_Etter
-		von_Fieandt
-		von_Haartman
-		von_Hellens
-		von_Hesse_Kassel
-		von_Kothen
-		von_Kraemer
-		von_Rajalin
-		von_Rechenberg
-		Walheim
-		Zilliacus
-	}
-	common_last_names={
-		Airo
-		Aspara
-		Cajander
-		Heinrichs
-		Heiskanen
-		Holsti
-		Ignatius
-		Koistinen
-		Kuusi
-		Kyander
-		Linder
-		Mechelin
-		Multamaki
-		Nenonen
-		Oesch
-		Paasikivi
-		Raappana
-		Ramsay
-		Sihvo
-		Siilasvuo
-		Stadius
-		Talvela
-		Thesleff
-		Tujulin
-		Tuompo
-		Walden
-		Wallenius
-		Wetzer
-		Oquist
-		Osterman
-		von_Schoultz
-		Nurmivaara
-		Valapuro
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-sami={
-	color= hsv{ 0.40 0.36 0.70 }
-	religion = protestant
-	traits = { finnic european_heritage }
-	# could have scandinavian_culture_group but that would make them ahistorically non-discriminated
-	male_common_first_names={
-		Aikia
-		Asllak
-		Biejas
-		Dure
-		Erke
-		Hanno
-		Iskko
-		Joha
-		Laras
-		Markkos
-		Mikko
-		Niillas
-		Osku
-		Quiwe
-		Uhkku
-	}
-	female_common_first_names = {
-		Aili
-		Margareta
-		Marja
-		Nasti
-	}
-	noble_last_names = {
-		Aeijih
-		Keskitalo
-		Magga
-		Nuorane
-		Nysto
-		Ukonsaari
-	}
-	common_last_names={
-		Dunfjeld
-		Haetta
-		Kappfjell
-		Kvitfjell
-		Magga
-		Somby
-		Turi
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
 british={ # "English" in localization
 	color= rgb{ 210 156 140 }
-	religion = protestant
+	religion = anglican
 	traits = { anglophone european_heritage }
-
+	
 	obsessions = {
 		tea
-		newspapers
 	}
-
+	
 	male_common_first_names={
 		Algernon Alexander Adam Andrew Albert Alphonse Arthur Augustus Anthony Archibald Adolphus Abel Alfred Acton Aylmer Ambrose Austen Adrian Alan Arnold Auberon Allen
 		Bruce Benedict Beauchamp Benjamin Byron Bartholomew Barnaby Basil Bertram Bertrand
@@ -2775,7 +2011,7 @@ british={ # "English" in localization
 		Nona Nora
 		Olivia
 		Phoebe Pauline
-		Rachel Rhoda Rosina Rosaline Regina Ruth
+		Rachel Rhoda Rosina Rosaline Regina Ruth 
 		Sarah Sophia Selina Sibella Susan
 		Theodora
 		Victoria Violet Virginia
@@ -2806,13 +2042,13 @@ british={ # "English" in localization
 		Woollcombe Wedderburn Whitbread Whitmore Willyams Whitworth Waterlow Williamson Wethered Wyllie Wheelhouse Whatman Waterhouse Walsh Winterbotham Weguelin Wedgwood Whitelaw Wheatley Wingate Willan Waugh Wisden
 		Young
 	}
-
+	
 	male_noble_first_names= {
 		# populate with names here
 	}
 	female_noble_first_names = {
 		# populate with names here
-	}
+	}	
 	noble_last_names = {
 		Agar-Ellis Althorp
 		Baden-Powell Brudenell-Bruce Bolingbroke Bridport Butler-Henderson Bowes-Lyon Bulwer-Lytton Bertie
@@ -2826,7 +2062,7 @@ british={ # "English" in localization
 		Keppel
 		Loyd-Lindsay Leveson-Gower Launceston Lane
 		Maynard Manningham-Buller Meynell-Ingram Montgomery-Cuninghame Mure-Campbell
-		Newport Newark
+		Newport Newark 
 		Orr-Ewing Ormsby-Gore
 		Pleydell-Bouverie Pelham-Clinton
 		Rosebery Ruggles-Brise Ramsay-Gibson-Maitland Rawdon-Hastings
@@ -2834,7 +2070,7 @@ british={ # "English" in localization
 		Thoroton-Hildyard Torrington Trevor Tadcaster Trematon Townsend
 		Walpole Williams-Wynn Wingfield-Baker Wilson-Patten Welby-Gregory Windsor-Clive Wentworth-FitzWilliam Waldegrave Withers-Lancashire
 	}
-
+	
 	male_regal_first_names = {
 		Alexander Albert Augustus
 		Edward Edmund
@@ -2860,8 +2096,8 @@ british={ # "English" in localization
 		FitzClarence
 		Rawdon-Hastings
 		Seymour
-	}
-
+	}	
+	
 	graphics = european
 	ethnicities = {
 		1 = caucasian
@@ -2873,11 +2109,6 @@ irish={
 	religion = catholic
 	traits = { celtic_people european_heritage }
 	# could have anglophone but would make them non-discriminated in Britain
-
-	obsessions = {
-		newspapers
-	}
-
 	male_common_first_names={
 		Alexander
 		Arthur
@@ -2944,7 +2175,7 @@ irish={
 		Rose
 		Sarah
 		Sophie
-	}
+	}	
 	noble_last_names = {
 		Beresford
 		Browne
@@ -3043,7 +2274,7 @@ irish={
 		White
 		Wilson
 	}
-
+	
 	graphics = european
 	ethnicities = {
 		1 = caucasian
@@ -3052,7 +2283,7 @@ irish={
 
 australian={
 	color= hsv{ 0.61 0.50 0.68 }
-	religion = protestant
+	religion = anglican
 	traits = { anglophone european_heritage }
 	male_common_first_names={
 		Adrian
@@ -3089,7 +2320,7 @@ australian={
 		Annie
 		Barbara
 		Bertha
-		Bridgetena
+		Bridgetena 
 		Caroline
 		Catherine
 		Charlotte
@@ -3116,7 +2347,7 @@ australian={
 		Theodosia
 		Zara
 		Zillah
-	}
+	}	
 	noble_last_names = {
 		Angas
 		Armstrong
@@ -3178,11 +2409,11 @@ north_italian={
 	color= hsv{ 0.38 0.27 0.86 }
 	religion = catholic
 	traits = { italophone european_heritage }
-
+	
 	obsessions = {
 		wine
-	}
-
+	}	
+	
 	male_common_first_names={
 		Alessandro
 		Alfonso
@@ -3192,27 +2423,14 @@ north_italian={
 		Angelo
 		Antonio
 		Benito
-		Agostino
-		Bernardino
-		Bartolomeo
-		Benedetto
-		Bonaventura
-		Bernardo
 		Camillo
 		Carlo
 		Cesare
 		Costanzo
-		Casimiro
-		Cristoforo
 		Davide
-		Domenico
-		Damiano
 		Enrico
 		Enzo
 		Ettore
-		Efisio
-		Emiliano
-		Ernesto
 		Fabrizio
 		Faustino
 		Federico
@@ -3220,34 +2438,21 @@ north_italian={
 		Ferdinando
 		Fiorenzo
 		Francesco
-		Filippo
-		Filiberto
 		Gaetano
 		Gennaro
 		Girolamo
 		Giulio
 		Giuseppe
 		Guglielmo
-		Giacomo
-		Giorgio
-		Gaspare
-		Gaetano
 		Innocenzo
-		Ignazio
-		Ippolito
-		Ilario
 		Leopoldo
 		Luigi
 		Luca
-		Lorenzo
 		Marco
 		Massimo
 		Matteo
-		Maurizio
-		Massimo
 		Nicola
 		Oreste
-		Ottavio
 		Paolo
 		Pasquale
 		Pietro
@@ -3255,18 +2460,12 @@ north_italian={
 		Raffaele
 		Roberto
 		Ruggiero
-		Romualdo
 		Scipione
 		Silvio
 		Simone
-		Serafino
-		Secondo
-		Sebastiano
 		Tancredi
-		Tommaso
 		Ugo
 		Umberto
-		Urbano
 		Vincenzo
 		Vittorio
 	}
@@ -3285,125 +2484,40 @@ north_italian={
 		Metilde
 		Sofia
 		Teresa
-	}
+	}	
 	noble_last_names = {
-		Avogadro_della_Motta
-		d_Azeglio
-		Annoni_di_Cerro
-		Avogadro_di_Casanova
-		d_Alberti_della_Briga
-		d_Arcais
 		Borghese
-		di_Boglio
-		Baldassi
-		Bon_Compagni_di_Mombello
-		Bottone_di_San_Giuseppe
-		Boyl_di_Putifigari
-		Bronzini_Zapelloni
-		De_Benedetti
 		Capodilista
 		Carniani
 		Colli_di_Felizzano
 		Colonna
 		d_Azeglio
-		di_Calabiana
-		Costa_de_Beauregard
-		Costa_della_Torre
-		De_Castro
-		De_Chambost
-		Ferrero_La_Marmora
 		De_Ferrari
-		de_Foresta
-		Falqui_Pes
-		Fecia_di_Cossato
-		Gebaix_de_Sonnaz
-		Girod_De_Montfalcon
-		d_Ittiri_LedA_
 		de_Launay
 		di_Boglio
 		di_Calabiana
 		Massimo
-		Massimo De_Marchi
-		de_Martinel
-		Moffa_di_Lisio_Gribaldi
 		Odescalchi
 		Orsini
 		Pallavicino
-		Pacoret_de_Saint_Bon
-		Pecori-Giraldi
-		Pellion_di_Persano
-		Pernati_di_Momo
-		Petitti_Bagliani_di_Roreto
-		Ponzo_di_San_Martino
-		Ricardi_di_Netro
-		di_Robilant
 		Sacchetti
 		Toesca
 		Torelli
 		di_Robilant
 		di_Savoia
 		di_Savoia-Aosta
-		Solaro_della_Margarita
-		di_Salmour
-		Santa_Croce_Villahermosa
-		Solaroli_di_Briona
-		Somis_di_Chavrie
-		Toesca
-		Torelli
 		Thaon_di_Revel
 		Baldassi
 	}
 	common_last_names={
 		Acton
 		Albricci
-		Agnes
-		Airenti
-		Amaretti
-		Ara
-		Arminjon
-		Arnulfo
-		Arrifo
-		Asproni
-		Astengo
-		Avigdor
-		Avondo
 		Badoglio
 		Baldissera
 		Baratieri
 		Bava-Beccaris
 		Baldassi
 		Benci
-		Baino
-		Barbier
-		BeldI_
-		Bellono
-		Benintendi
-		Berruti
-		Bersezio
-		Berti
-		Bertini
-		Bertoldi
-		Bezzi
-		Biancheri
-		Bianchetti
-		Bianchi
-		Billiet
-		Blanc
-		Bo
-		Bolmida
-		Bona
-		Borella
-		Botta
-		Bottero
-		Brignone
-		Brofferio
-		Brunati
-		Brunet
-		Brunier
-		Bruschetti
-		Buffa
-		Buraggi
-		Buttini
 		Cadorna
 		Cagni
 		Canevaro
@@ -3413,109 +2527,17 @@ north_italian={
 		Cialdini
 		Cusani
 		Dezza
-		Cabella
-		Caboni
-		Cambieri
-		Campana
-		Canalis
-		Cantara
-		Capriolo
-		Carquet
-		Carta
-		Casaretto
-		Cassinis
-		Castelli
-		Cavalli
-		Cavallini
-		Chenal
-		Chiaves
-		ChiO_
-		Cobianchi
-		Colli
-		Cornero
-		Correnti
-		Corsi
-		Costa
-		Crosa
-		Cugia
-		Dezza
-		Demaria
-		Depretis
-		Durando
-		Daziani
-		Decandia
-		Delfino
-		Delitala
 		Emo
 		Fanti
 		Fara
 		Filomarino
-		Fara
-		Farina
-		Farini
-		Ferraciu
-		Fescot
 		Garibaldi
 		Giardino
 		Govone
-		Gallenga
-		Gallisai
-		Gallo
-		Galvagno
-		Gastinelli
-		Genina
-		Gerbore
-		Germanetti
-		Geymet
-		Ghiglini
-		Gianolio
-		Gilardini
-		Ginet
-		Giovanola
-		Graffigna
-		Grixoni
-		Guglianetti
-		Guillet
-		Imperiali
-		Isola
-		Lachenal
-		Lanza
-		Louaraz
-		Malan
 		La_Marmora
 		Mambretti
 		Menabrea
-		Mozzoni
-		Mameli
-		Mamiani
-		Mantelli
-		Marassi
-		Mari
-		Marongiu
-		Martelli
-		Martin
-		Mathieu
-		Mautino
-		Mazza
-		Melegari
-		Mellana
-		Menabrea
-		Mezzena
-		Michelini
-		Miglietti
-		Miglioretti
-		Minoglio
-		Moia
-		Mongellaz
-		Monticelli
-		Mossi
-		Musso
-		Naytana
-		Niccolini
-		Nino
-		Notta
 		Orengo
-		Oytana
 		Pacoret_de_Saint_Bon
 		Pecori-Giraldi
 		Pellion_di_Persano
@@ -3524,68 +2546,14 @@ north_italian={
 		Pianelli
 		Porro
 		Presbitero
-		Paleocapa
-		Pallavicino
-		Pallieri
-		Pareto
-		Pateri
-		Pescatore
-		Peyrone
-		Pezzani
-		Piacenzi
-		Piane
-		Picinelli
-		Pistone
-		Polleri
-		Polto
-		Porqueddu
-		Pugioni
-		Quaglia
 		Ramorino
 		Ricotti-Magnani
-		Rattazzi
-		Ravina
-		Rezasco
-		Riccardi
-		Ricci
-		Richetta
-		Robecchi
-		Roberti
-		Rocci
-		Rodini
-		Rossi
-		Rubin
 		Sacchi
 		Saletta
 		Sanna
 		Solari
-		Sanguineti
-		Sanna_Denti
-		Sanna_Sanna
-		Sappa
-		Saracco
-		Sauli
-		Scano
-		Scapini
-		Sella
-		Serra
-		Sineo
-		Siotto_Pintor
-		Solari
-		Spano
-		Spinola
-		Sulis
-		Tecchio
-		Tegas
-		Tola
-		Torelli
-		Tuveri
 		Vaccari
-		Valerio
-		Valvassori
-		Vicari
 		Zupelli
-		Zirio
 	}
 	graphics = european
 	ethnicities = {
@@ -3597,78 +2565,42 @@ south_italian={
 	color= rgb{ 97 77 117 }
 	religion = catholic
 	traits = { italophone european_heritage }
-
+	
 	obsessions = {
 		wine
-	}
-
+	}	
+	
 	male_common_first_names={
 		Alessandro
 		Armando
 		Augusto
-		Achille
-		Antonio
-		Agesilao
-		Bartolomeo
-		Benedetto
 		Carlo
 		Cesare
 		Corrado
-		Cesidio
-		Corradino
-		Cristoforo
-		Carcano
-		Carmine
 		Domenico
-		Donato
 		Enrico
 		Enzo
-		Ettore
-		Emanuele
 		Fabio
 		Fabrizio
 		Ferdinando
 		Francesco
-		Fausto
 		Gaetano
 		Giacomo
 		Giovanni
 		Giulio
 		Giuseppe
 		Guglielmo
-		GiosuE_
-		Goffredo
-		Giorgio
-		Giustino
-		Ignazio
 		Leopoldo
 		Lorenzo
 		Ludovico
 		Luca
-		Luigi
-		Ludovico
 		Marcantonio
 		Marino
 		Mario
 		Matteo
-		Marco
-		Monaldo
-		Michele
-		Melchiorre
 		Nicola
 		Orazio
-		Oronzio
-		Pierfrancesco
-		Paolo
-		Pasquale
-		Pietro
-		Pellegrino
-		Raimondo
-		Raffaele
 		Sigismondo
-		Salvatore
-		Sebastiano
-		Saverio
 		Tommasso
 		Vincenzo
 	}
@@ -3676,183 +2608,60 @@ south_italian={
 		Anna Amalia Antonia Alfonsa Alssandra Alssandrina Augusta
 		Beatrice Bianca Barbara Benedetta
 		Clotilde Carlotta Carolina Caterina Cristina Cecilia Cornelia Costanza
-		Enrichetta Eleonora Eulalia Elena Emanuela Elisabetta
+		Enrichetta Eleonora Eulalia Elena Emanuela
 		Filippina Francesca
 		Giuseppina Giovanna Giulia Giustiniana
 		Isabella Ippolita
-		Luisa Luisa_Carlotta Lucrezia Laura Lucia Leonora
+		Luisa Luisa_Carlotta Lucrezia Laura
 		Maria Maria_Anna Maria_Luisa Maria_Enrichetta Mercedes Maria_Barbara Michela Margherita Marianna
-		Paolina
 		Sofia
 		Vittoria Violante
-	}
+	}	
 	noble_last_names = {
-		Afan_de_Rivera Antici
-		d_Albergo d_Ayala
 		Barracco
 		Berlingieri
-		Bufalari
-		Baccarini
-		Di_Brocchetti
 		Caetani
-		CalA__Ulloa
 		Caracciolo
 		de_Liguori
 		de_Riseis
 		della_Rovere
-		di_Cesare
-		Ceccarini
-		di_Crollalanza
-		Donnorso_di_Serracapriola
-		Ercolani
-		d_Escamard
 		Filangieri
 		Galluppi
 		Giannuzzi-Savelli
-		della_Genga
 		Lanfranci
 		Lucifero
-		de_Liguori
-		Leopardi
-		de_Luca
-		Montani_da_Pesaro
-		Marchesani
-		Ondedei
-		Osmani
 		Piccolomini
 		Pignatelli
-		del_Pezzo
-		de_Riseis
-		della_Rovere
-		De_Renzi
-		de_Rilliet
-		del_Re
 		Sanfelice
-		Spinello
-		de_Samuele_Cagnazzi
-		Sgariglia
-		Smeducci
-		Sammarruco
-		di_Sangro
-		de_Thomasis
-		d_Urso
-		Visconti
 		Winspeare
-		Zurlo Zorniotti
 		Zurlo
 	}
 	common_last_names={
 		Anfora
-		Avitabile
-		Alianelli
-		Antonelli
-		Assanti
-		Acclavio
 		Barberini-Colonna
 		Bonaccorsi
 		Benci
-		Bozzelli
-		Baldacchini
-		Briganti
-		Bausan
-		Bianchini
 		Caraga
 		Cattaneo
 		Chigi
 		Clary
-		Cosenz
-		Cianciulli
-		Cuoco
-		Costa
-		Campagna
-		Capocci
-		Capasso
-		Croce
-		Carrascosa
-		Colletta
 		Diaz
-		Durini
-		Delfico
 		Ferrari
-		Filangieri
-		Filioli
-		Fergola
-		Fardella
-		Forteguerri
-		Ferri
-		Fortunato
 		Gironda
 		Gravina
 		Grifeo
-		Garzia
-		Gagliardo
-		Galdi
-		Guarini
-		Genoino
-		Gussone
-		Gio
-		Giannuzzi
-		Galletti
-		Imbriani
-		Intonti
 		Lanza
 		Lombardo
 		Lunardi
-		Landi
-		Lanza
-		Longobardi
 		Molinelli
-		Mezzacapo
-		Milano
-		Morelli
-		Nunziante
-		Naselli
 		Orsini
 		Ottaviani
-		Oliva
 		Pironti
-		Pepe
-		Poerio
-		Palmieri
-		Persico
-		Parisi
-		PaternO_
-		Pianell
-		Pignatelli
-		Pionati
-		Parisio
-		Quandel
-		Ritucci
-		Ruggiero
-		Romano
-		Rosaroll
-		Ricciardi
-		Rosica
 		Scammacca
-		Scovazzo
-		Sansone
-		Sannia
-		Schipa
-		Silvati
-		Settimo
-		Scialoja
-		Statella
-		Santangelo
 		Torlonia
 		Turrisi
-		Troya
-		Tommasi
-		Tenore
-		Tafuri
-		Torelli
-		Tardio
-		Troisi
 		Vernazza
-		Valiante
-		Vignale
-		Vecchione
 		Zunica
-		Zurlo
 	}
 	graphics = european
 	ethnicities = {
@@ -3905,7 +2714,7 @@ maltese={
 		Marthese
 		Therese
 		Vittorja
-	}
+	}	
 	noble_last_names = {
 		Cachia
 		Micallef
@@ -3995,9 +2804,9 @@ basque={
 		Luisa
 		Maria
 		Martina
-		Mikaela
+		Mikaela 
 		Oneka
-	}
+	}	
 	noble_last_names = {
 		Arana
 		Arellano
@@ -4162,7 +2971,7 @@ spanish={
 		Rosa
 		Sabina
 		Teresa
-	}
+	}	
 	noble_last_names = {
 		Alvarez_de_Toledo de_Albornoz de_ArmendA_riz de_Almansa de_AlO_s de_Arteche
 		Barrionuevo de_Bohorques de_Bernuy de_Bago
@@ -4230,7 +3039,7 @@ spanish={
 		de_Orleans
 		de_Saboya
 		de_Wittelsbach
-	}
+	}	
 	graphics = european
 	ethnicities = {
 		1 = caucasian
@@ -4308,7 +3117,7 @@ catalan={
 		Maria
 		Rosa
 		Susana
-	}
+	}	
 	noble_last_names = {
 		d_Areny-Plandolit
 		de_Llauder_i_Dalmases
@@ -4484,7 +3293,7 @@ portuguese={
 		Rosa
 		Sofia
 		Teresa
-	}
+	}	
 	noble_last_names = {
 		Correia_de_Sa
 		da_Costa
@@ -4592,11 +3401,11 @@ french={
 	color= rgb{ 76 118 155 }
 	religion = catholic
 	traits = { francophone european_heritage }
-
+	
 	obsessions = {
 		wine
 	}
-
+	
 	male_common_first_names={
 		Achille Adolphe Adrien Aimable Alphonse Amedee Antoine Armand Auguste Augustin Alcide Andre Alexandre Athanase Abel Ambroise Aristide AlbE_ric Archambaud
 		Bertrand Bernardin Bernard Barthelemy
@@ -4635,7 +3444,7 @@ french={
 		SE_raphine Sibylle Sophie Stephanie Suzanne
 		Therese_2
 		Victoire Victorine Virginie
-	}
+	}	
 	noble_last_names = {
 		d_Aumont
 		Baraguey_d_Hilliers Bergeret de_Beauharnais de_Bussiere de_Broglie
@@ -4763,7 +3572,7 @@ occitan={
 		Romanilha Rostaing Renan
 		Sarran de_Salanovat
 		Tavan
-		VigE_r VerdiE_r Verlhac
+		VigE_r VerdiE_r Verlhac	
 	}
 
 	graphics = european
@@ -4816,7 +3625,7 @@ breton={
 		Pauline
 		Sophie
 		Tiphaine
-	}
+	}	
 	noble_last_names = {
 		Audren_de_Kerdrel
 		Berthois
@@ -4930,7 +3739,7 @@ croat={
 		Julka
 		Marija
 		Tereza
-	}
+	}	
 	noble_last_names = {
 		Alagovic
 		Draskovic
@@ -5076,7 +3885,7 @@ serb={
 		Stojna
 		Tomanija
 		Milica
-	}
+	}	
 	noble_last_names = {
 		Anastasijevic
 		Avakumovic
@@ -5156,7 +3965,7 @@ serb={
 		Karadordevic
 		Obrenovic
 		Petrovic_Njegos
-	}
+	}	
 	ethnicities = {
 		1 = slavic
 	}
@@ -5226,7 +4035,7 @@ bulgarian={
 		Sirma
 		Teodora
 		Todorka
-	}
+	}	
 	noble_last_names = {
 		Battemberg
 		Bogoridi
@@ -5362,7 +4171,7 @@ albanian={
 		Sadije
 		Senije
 		Valentina
-	}
+	}	
 	noble_last_names = {
 		Alizoti
 		Alltuni
@@ -5510,7 +4319,7 @@ slovene={
 		Vilibalda
 		Zofka
 		Zora
-	}
+	}	
 	noble_last_names = {
 		Barbo
 		Cobenzl
@@ -5647,7 +4456,7 @@ bosniak={
 		Ognjenka
 		Sabina
 		Samra
-	}
+	}	
 	noble_last_names = {
 		Izetbegovic
 		Kurtcehajic
@@ -5783,7 +4592,7 @@ romanian={
 		Lucretia
 		Maria
 		Maritica
-	}
+	}	
 	noble_last_names = {
 		Cantemir
 		Caradja
@@ -5865,7 +4674,7 @@ romanian={
 hungarian={
 	color= hsv{ 0.25 0.22 0.99 }
 	religion = catholic
-	traits = { hungarian_culture_group european_heritage }
+	traits = { ugric hungarian_culture_group european_heritage }
 	male_common_first_names={
 		Alajos
 		Albert
@@ -5938,7 +4747,7 @@ hungarian={
 		Terez
 		Vilma
 		Zsuzsanna
-	}
+	}	
 	noble_last_names = {
 		Andrassy
 		Deak
@@ -6083,7 +4892,7 @@ polish={
 		Teresa
 		Ursula
 		Zofia
-	}
+	}	
 	noble_last_names = {
 		Bor-Komorowski
 		Dunin
@@ -6229,7 +5038,7 @@ lithuanian={
 		Salomeja
 		Sofija
 		Justina
-	}
+	}	
 	noble_last_names = {
 		Cartoriskis
 		Glinskis
@@ -6380,7 +5189,7 @@ czech={
 		Tereza
 		Zdena
 		Zuzana
-	}
+	}	
 	noble_last_names = {
 		Albert
 		Clary_Aldringen
@@ -6521,7 +5330,7 @@ slovak={
 		Olga
 		Vilma
 		Terezia
-	}
+	}	
 	noble_last_names = {
 		Bernolak
 		Daxner
@@ -6626,7 +5435,7 @@ russian={
 		Varvara Vera Yekaterina Yulia
 		Xenia
 		Zinaida
-	}
+	}	
 	noble_last_names = {
 		Adlerberg
 		Barclay_de_Tolly Bestuzhev-Ryumin Bulatovich Buturlin
@@ -6657,14 +5466,14 @@ russian={
 		Ivanov
 		Kasso Kolchak Konev Konstantinov Kornilov Kuropatkin
 		Lazarev
-		Makarov Menshikov
+		Makarov Menshikov 
 		Nakhimov Nebogatov Nikolaevich
 		Ostrovsky
 		Pavlov Putyatin
 		Rozhestvensky
 		Shuvalov Skobelev Surkov Sorokin
 		Tukhachevsky
-		Vorontsov Voroshilov
+		Vorontsov Voroshilov 
 		Yegorov Yudenich
 		Zavoyko
 	}
@@ -6747,7 +5556,7 @@ byelorussian={
 		Tselina
 		Vera
 		Yelena
-	}
+	}	
 	noble_last_names = {
 		Bodganovich
 		Bonch-Bruyevich
@@ -6815,7 +5624,7 @@ ukrainian={
 		Mykola
 		Nikita
 		Oleksandr
-		Panteleimon
+		Panteleimon 
 		Pavel
 		Petro
 		Roman
@@ -6847,7 +5656,7 @@ ukrainian={
 		Valeriya
 		Xenia
 		Yevheniya
-	}
+	}	
 	noble_last_names = {
 		Chubynsky
 		Czajkowski
@@ -6902,49 +5711,6 @@ ukrainian={
 		1 = slavic
 	}
 	graphics = european
-}
-
-ugrian={
-	color= hsv{ 0.50 0.32 0.62 }
-	religion = animist
-	traits = { finnic european_heritage }
-	male_common_first_names={
-		Aleksandr
-		Dmitri
-		Ivan
-		Jukka
-		Santeri
-		Vladimir
-	}
-	female_common_first_names = {
-		Aili
-		Margareta
-		Marja
-		Nasti
-	}
-	noble_last_names = {
-		Ubmeje
-		Nuorane
-		Gajka
-		Kaise
-		Saiva
-		Keite
-		Magga
-		Guoladat
-	}
-	common_last_names={
-		Kokko
-		Likhachev
-		Mamin
-		Minin
-		Sibiriak
-		Tikhanov
-		Zubov
-	}
-	ethnicities = {
-		1 = circumpolar
-	}
-	graphics = generic
 }
 
 latvian={
@@ -7005,12 +5771,12 @@ latvian={
 	}
 	female_common_first_names = {
 		Amida
-		Antonija
+		Antonija 
 		Benigna
 		Berta
 		Diana
-		Elfriede
-		Elza
+		Elfriede 
+		Elza 
 		Emilija
 		Inguna
 		Johanna
@@ -7025,7 +5791,7 @@ latvian={
 		Matilde
 		Regina
 		Roze
-	}
+	}	
 	noble_last_names = {
 		Krek
 		Penikis
@@ -7095,170 +5861,21 @@ latvian={
 	graphics = european
 }
 
-estonian={
-	color= hsv{ 0.72 0.25 0.28 }
-	religion = protestant
-	traits = { finnic baltic_culture_group european_heritage }
-	male_common_first_names={
-		Aadu
-		Alar
-		Aleksander
-		Andrus
-		Artur
-		August
-		Bernard
-		Dmitri
-		Eduard
-		Eerik
-		Elmar
-		Ernst
-		Georg
-		Gustav
-		Haman
-		Harri
-		Heino
-		Hendrik
-		Hjalmar
-		Ivari
-		Jaan
-		Jakob
-		Johannes
-		Joosep
-		Juhan
-		Julius
-		Juri
-		Kaarel
-		Kalev
-		Konstantin
-		Lennart
-		Ludvig
-		Madis
-		Mart
-		Mikhel
-		Nigul
-		Olev
-		Paavo
-		Peeter
-		Pent
-		Ragnar
-		Siiri
-		Sven
-		Tarmo
-		Toomas
-		Tonis
-		Uno
-		Valmar
-		Villwm
-		Voldemar
-	}
-	female_common_first_names = {
-		Aino
-		Anna
-		Astrid
-		Caroline
-		Doris
-		Dorothea
-		Jutta
-		Mari
-		Marta
-	}
-	noble_last_names = {
-		Angelus
-		Brede
-		Kopp
-		Kukk
-		Leesment
-		Rahamagi
-		von_Ditmar
-		von_Schilling
-		von_Stackelberg
-		von_zur-Muhlen
-	}
-	common_last_names={
-		Aamisepp
-		Aavik
-		Adams
-		Anvel
-		Barbarus
-		Bornhohe
-		Eenpalu
-		Hint
-		Hurt
-		Irv
-		Jaakson
-		Jekelius
-		Jervan
-		Kalm
-		Kangro
-		Kint
-		Klaasen
-		Klumberg
-		Koern
-		Kogerman
-		Kotli
-		Kranig
-		Kumari
-		Kupine
-		Kuulmata
-		Kuusik
-		Koiv
-		Laidoner
-		Laretei
-		Leppik
-		Lipping
-		Lohk
-		Moora
-		Mae
-		Mannil
-		Natus
-		Nurkse
-		Nurmekund
-		Orkivu
-		Perna
-		Piiper
-		Poska
-		Puusepp
-		Pats
-		Poopuu
-		Rei
-		Reinman
-		Rank
-		Siinmaa
-		Sikkar
-		Sirk
-		Strandman
-		Tonisson
-		Uluots
-		Vaga
-		Veske
-		Vilbaste
-		Vilms
-		Warma
-		von_Uexkull
-		Okva
-		Opik
-	}
-	ethnicities = {
-		1 = slavic
-	}
-	graphics = european
-}
-
 greek={
 	color= hsv{ 0.94 0.45 0.48 }
 	religion = orthodox
 	traits = { greek_culture european_heritage }
-
+	
 	obsessions = {
 		wine
-	}
-
+	}	
+	
 	male_common_first_names = {
-		Alexandros Angelos Anastasios Aristidis Antonios Aristovoulos Alexios Andreas Agamemnon Avgoustos Anthimos Adam Anagnostis
+		Alexandros Angelos Anastasios Aristidis Antonios Aristovoulos Alexios Andreas Agamemnon Avgoustos Anthimos Adam Anagnostis 
 		Beniamin
 		Charilaos Christos Christoforos Christodoulos
 		Dimitrios Dionysios Diomidis
-		Evangelos Eleftherios Efstathios Emmanouil Epameinontas
+		Evangelos Eleftherios Efstathios Emmanouil Epameinontas 
 		Filippos Frangiskos
 		Georgios Gerasimos Gregorios Germanos
 		Ilias Ioannis Iakovos Iraklis Iason
@@ -7267,7 +5884,7 @@ greek={
 		Militiadis Menelaos Markos Merkourios Makarios
 		Nikos Nikolaos
 		Odysseas
-		Panos Panagiotis Periklis Petros Pantelis Pantaleon Pavlos Panoutsos
+		Panos Panagiotis Periklis Petros Pantelis Pantaleon Pavlos Panoutsos 
 		Spyridon Sokratis Stamatios Sotiros Stephanos Stelios Stylianos Skarlatos Sofoklis
 		Theodoros Tilemachos Thomas Trifon Theodorakis Theophilos Thrasyvoulos Themistoklis
 		Vasilios Viktor
@@ -7309,7 +5926,7 @@ greek={
 
 	# some Hellenic forms of names from the "Livre d'Or de la Noblesse Ionienne"
 	# also added Souliotes
-	noble_last_names = {
+	noble_last_names = { 
 		Arvanitachi Argyropoulos
 		Benizelos Botsaris Boutzias Bousbos Boufis Bekas
 		Drakos Dousmanis Danglis
@@ -7337,7 +5954,7 @@ greek={
 		Fetsis Fetsios Frangoudis Frangopoulos Foustanos Farmakidis Freris Farmakidis Fotilas
 		Gennimatas Golemis Gerakeris Grigoriou Gouskos Georgiadis Gaitanos Grigoriadis Gneftos Gazis
 		Hatzidakis
-		Iatrou Iatridis
+		Iatrou Iatridis 
 		Karousou Karakatsanis Kafetzis Koletis Kostantinidis Konstantinou Karakalos Karvelas Karagiannopoulos Karasevdas Karagiannis Katravas Khatzis Kontos Koukoudakis Kourkoulas Kasdaglis Kallisperi Kanaris Konstantas
 		Lagoudakis Lavrentis Loverdos Loundras Langakis Levidis Lamprakis Laskaridis Lerias Liapis Logothetis
 		Merkatis Mouratis Masouris Mitropoulos Mikhailidis Moustakopoulos Morakis Mangourakis Markou Marnezos Mazoukas Mikhalopoulos Malokinis Mavrommatis Mavrogenes Mansolas
@@ -7431,13 +6048,13 @@ georgian={
 		Rusudan
 		Tekle
 		Vera
-	}
+	}	
 	noble_last_names = {
 		Abashidze
 		Dadeshkeliani
 		Dadiani
 		Guramishvili
-		Melikishvili
+		Melikishvili 
 		Nikoladze
 		Orbeliani
 		Tumanishvili
@@ -7561,7 +6178,7 @@ armenian={
 		Anna
 		Arshaluys
 		Diana
-		Hripsime
+		Hripsime 
 		Mari
 		Perchuhi
 		Satenik
@@ -7570,7 +6187,7 @@ armenian={
 		Virginia
 		Zabel
 		Zardar
-	}
+	}	
 	noble_last_names = {
 		Abamelik
 		Agadzhanian
@@ -7695,7 +6312,7 @@ sephardic={
 		Ruth
 		Sonia
 		Yosefa
-	}
+	}	
 	noble_last_names = {
 		Abrabanel
 		Camondo
@@ -7819,10 +6436,10 @@ turkish={
 		Hatice
 		Kap-Ipha
 		Mihrengiz
-		Nurefsun
+		Nurefsun 
 		Sadika Samiye Saffet Sefika Seniye
 		Zeliha
-	}
+	}	
 	noble_last_names = {
 		Ankuap
 		Arpazli
@@ -7875,13 +6492,13 @@ turkish={
 		DU_zdidil
 		Edadil Emine
 		Fatma
-		Mihrimah
-		Pertevniyal
+		Mihrimah 
+		Pertevniyal 
 		S_ehsuvar Saliha
 	}
 
 	ethnicities = {
-		1 = turkish
+		1 = arab
 	}
 	graphics = mideast_indian
 }
@@ -7923,28 +6540,28 @@ azerbaijani={
 		Heyran
 		Izzet
 		Maryam
-		Munavvar
+		Munavvar 
 		Nasiba
 		Nesrin
 		Nuriyya
 		Sakina
 		Shargiyya
 		Shirin
-	}
+	}	
 	noble_last_names = {
-		Akhundzade
+		Akhundzade 
 		Ashurbeyov
 		Bahmani-Qajar
 		Bakikhanov
 		Kazembek
-		Kengerli
+		Kengerli 
 		Ibrahimbek
 		Javanshir
 		Kalantarli
 		Mammadbeyov
 		Mehmandarov
 		Nakhchivanski
-		Narimanbekov
+		Narimanbekov 
 		Qasimbek
 		Topchubashi
 	}
@@ -7964,7 +6581,7 @@ azerbaijani={
 		Zardabi
 	}
 	ethnicities = {
-		1 = turkish
+		1 = arab
 	}
 	graphics = mideast_indian
 }
@@ -7994,7 +6611,7 @@ north_caucasian={
 		Nadia
 		Svetlana
 		Tamara
-	}
+	}	
 	noble_last_names = {
 		Cherkassky
 		Chetao
@@ -8063,7 +6680,7 @@ maghrebi={
 		Souhila
 		Touria
 		Zina
-	}
+	}	
 	noble_last_names = {
 		al-Alawi
 		ben_Gana
@@ -8182,7 +6799,7 @@ misri={
 		Salwa
 		Tafika
 		Zainab
-	}
+	}	
 	noble_last_names = {
 		Farid
 		Sabri
@@ -8278,7 +6895,7 @@ mashriqi={
 		Sulafa
 		Zeina
 		Zuhur
-	}
+	}	
 	noble_last_names = {
 		al-Ali
 		al-Atassi
@@ -8386,7 +7003,7 @@ bedouin={
 		Maha
 		Noura
 		Sultana
-	}
+	}	
 	noble_last_names = {
 		al_Hashimi
 		Al_Maktoum
@@ -8445,14 +7062,14 @@ berber={ # Amazigh
 		Malika
 		Tassadit
 		Zohra
-	}
+	}	
 	noble_last_names = {
 		el_Krim
 		Al-Khattabi
 	}
 	common_last_names={
 		Belkadi
-		Messaoudi
+		Messaoudi 
 		Mukrani
 		Imalayen
 		Iftaten
@@ -8476,9 +7093,9 @@ persian={
 	religion = shiite
 	traits = { iranian_turanian_culture_group middle_eastern_heritage }
 	male_common_first_names={
-		Abbas Abdolazim Abdolhossein Abdolsamad Abolghasem Ahmad Ali
-		Bahram
-		Ebrahim Esmail
+		Abbas Abdolazim Abdolhossein Abdolsamad Abolghasem Ahmad Ali 
+		Bahram 
+		Ebrahim Esmail 
 		Fath_Ali Fazlollah
 		Hamzeh Hasan Hossein
 		Kamran Karim
@@ -8494,13 +7111,13 @@ persian={
 		Ghazaleh
 		Marjane Marsha Maryam
 		Sedigheh
-	}
+	}	
 	noble_last_names = {
 		al-Saltaneh Alamir Astarabadi Ashtiani
 		Bakhtiari
 		Farmanfarma
 		Hakimi Hedayat
-		Khalatbari
+		Khalatbari 
 		Pirnia
 		Qajar
 	}
@@ -8577,7 +7194,7 @@ uzbek={
 		Tursunoy
 		Yulduz
 		Zilola
-	}
+	}	
 	noble_last_names = {
 		Kokand
 		Bahadur
@@ -8629,7 +7246,7 @@ kazak={
 		Demesh
 		Gulshat
 		Samal
-	}
+	}	
 	noble_last_names = {
 		Bukeikhanov
 		Beg
@@ -8670,17 +7287,17 @@ kirgiz={
 		Torokul
 		Turdakun
 		Vali
-		Zhurahon
+		Zhurahon 
 	}
 	female_common_first_names = {
-		Asylgul
+		Asylgul 
 		Kuluypa
 		Roza
 		Sabira
 		Tattybubu
-		Toktayum
+		Toktayum 
 		Zamira
-	}
+	}	
 	noble_last_names = {
 		Madali
 		Beg
@@ -8736,12 +7353,12 @@ tajik={
 	}
 	female_common_first_names = {
 		Guljahon
-		Khursheda
-		Latofat
-		Mavjuda
+		Khursheda 
+		Latofat 
+		Mavjuda 
 		Nizoramo
-		Zulfiya
-	}
+		Zulfiya 
+	}	
 	noble_last_names = {
 		Khan
 		Bek
@@ -8785,7 +7402,7 @@ uighur={
 		Gulimina
 		Gulnazar
 		Madina
-	}
+	}	
 	noble_last_names = {
 		Beg
 		Khan
@@ -8850,11 +7467,11 @@ pashtun={
 	female_common_first_names = {
 		Aisha
 		Ghazala
-		Gulrukh
+		Gulrukh 
 		Hazrat
 		Nazia
 		Nilofar
-	}
+	}	
 	noble_last_names = {
 		Damani
 		Durrani
@@ -8898,7 +7515,7 @@ baluchi={
 	female_common_first_names = {
 		Kiran
 		Shahlyla
-	}
+	}	
 	noble_last_names = {
 		Badini
 		Baloch
@@ -8939,7 +7556,7 @@ hazara={
 		Shaima
 		Shakardokht
 		Sima
-	}
+	}	
 	noble_last_names = {
 		Beg
 		Besudi
@@ -8983,7 +7600,7 @@ turkmen={
 		Medeniyet
 		Muza
 		Semsat
-	}
+	}	
 	noble_last_names = {
 		Beg
 		Khan
@@ -8996,7 +7613,7 @@ turkmen={
 		Nurali
 	}
 	ethnicities = {
-		1 = turkish
+		1 = arab
 	}
 	graphics = asian
 }
@@ -9027,7 +7644,7 @@ kurdish={
 		Mastoureh
 		Suhaylah
 		Zehra
-	}
+	}	
 	noble_last_names = {
 		Ardalan
 		Barzanji
@@ -9074,7 +7691,7 @@ tatar={
 		Masrura
 		Riza
 		Zeyneb
-	}
+	}	
 	noble_last_names = {
 		Mamleeva
 	}
@@ -9131,7 +7748,7 @@ mongol={
 		Oyuungerel
 		Sonomyn
 		Tuyaa
-	}
+	}	
 	noble_last_names = {
 		Gonchigjalzangiin
 		Togs-Ochiryn
@@ -9144,7 +7761,7 @@ mongol={
 		Damdinbazar
 		Genden
 		Jamyan
-		Murdorj
+		Murdorj 
 		Sukhbaatar
 		Tomorbaatar
 		Tserendorj
@@ -9186,7 +7803,7 @@ kalmyk={
 		Oyuungerel
 		Sonomyn
 		Tuyaa
-	}
+	}	
 	noble_last_names = {
 		Gonchigjalzangiin
 		Togs-Ochiryn
@@ -9199,7 +7816,7 @@ kalmyk={
 		Damdinbazar
 		Genden
 		Jamyan
-		Murdorj
+		Murdorj 
 		Sukhbaatar
 		Tomorbaatar
 		Tserendorj
@@ -9230,7 +7847,7 @@ siberian={
 	female_common_first_names = {
 		Galina
 		Sainkho
-	}
+	}	
 	noble_last_names = {
 		Khan
 	}
@@ -9269,7 +7886,7 @@ yakut={
 		Natalia
 		Sardana
 		Zoya
-	}
+	}	
 	noble_last_names = {
 		Anabar
 		Darkhan
@@ -9292,11 +7909,11 @@ yakut={
 tibetan={
 	color= rgb{ 132 121 86 }
 	religion = gelugpa
-
+	
 	obsessions = {
 		tea
 	}
-
+	
 	traits = { tibetan_language himalayan east_asian_heritage }
 	male_common_first_names={
 		Andruk
@@ -9317,7 +7934,7 @@ tibetan={
 		Ngawang
 		Phuntsog
 		Tsewang
-	}
+	}	
 	noble_last_names = {
 		Lhalu
 		Ngapoi
@@ -9357,11 +7974,11 @@ assamese={
 		Sudingphaa
 	}
 	female_common_first_names = {
-		Chandrakanti
+		Chandrakanti 
 		Dipali
 		Indira
 		Pushpalata
-	}
+	}	
 	noble_last_names = {
 		Khan
 		Singha
@@ -9462,7 +8079,7 @@ bihari={
 		Ganga
 		Nidhi
 		Rohini
-	}
+	}	
 	noble_last_names = {
 		Singh
 	}
@@ -9508,7 +8125,7 @@ manipuri={
 		Kuranganayani
 		Sheitamala
 		Yumsangbi
-	}
+	}	
 	noble_last_names = {
 		Ningthouja
 		Singh
@@ -9530,11 +8147,11 @@ nepali={
 	color= hsv{ 0.79 0.25 0.74 }
 	religion = hindu
 	traits = { himalayan south_asian_heritage }
-
+	
 	obsessions = {
 		tea
 	}
-
+	
 	male_common_first_names={
 		Amar
 		Bhakti
@@ -9549,14 +8166,14 @@ nepali={
 		Shamsher
 	}
 	female_common_first_names = {
-		Anuradha
+		Anuradha 
 		Divyeshwari
 		Durga
 		Lakshmi
 		Sangita
 		Sunita
-		Yogmaya
-	}
+		Yogmaya 
+	}	
 	noble_last_names = {
 		Basnyat
 		Bahadur_Rana
@@ -9606,7 +8223,7 @@ oriya={
 		Parbati
 		Ranjana
 		Sanjukta
-	}
+	}	
 	noble_last_names = {
 		Choudhury
 		Das
@@ -9645,11 +8262,11 @@ sinhala={
 		Rangammal
 		Upendramma
 		Yakada
-	}
+	}	
 	noble_last_names = {
 		Devi
 		Nayak
-		Nayakkar
+		Nayakkar 
 	}
 	common_last_names={
 		Dharmasurya
@@ -9684,12 +8301,12 @@ avadhi={
 	}
 	female_common_first_names = {
 		Rani
-		Rupamanjari
+		Rupamanjari 
 		Sampat
-		Sheorajvati
-	}
+		Sheorajvati 
+	}	
 	noble_last_names = {
-		Abaqati
+		Abaqati 
 		Ijtihadi
 		Naqvi
 	}
@@ -9725,7 +8342,7 @@ kanauji={
 	female_common_first_names = {
 		Dimple
 		Kamlesh
-	}
+	}	
 	noble_last_names = {
 		Singh
 	}
@@ -9772,7 +8389,7 @@ panjabi={
 		Riffat
 		Sada
 		Savita
-	}
+	}	
 	noble_last_names = {
 		Bahadur
 		Bhangi
@@ -9822,7 +8439,7 @@ kashmiri={
 		Kalsoom
 		Maryam
 		Tehmina
-	}
+	}	
 	noble_last_names = {
 		Ghafar_Khan
 		Khan
@@ -9863,7 +8480,7 @@ gujarati={
 		Lata
 		Meena
 		Usha
-	}
+	}	
 	noble_last_names = {
 		Chaudhari
 		Mangeshkar
@@ -9904,7 +8521,7 @@ marathi={
 		Venkatji
 	}
 	female_common_first_names = {
-		Ahilyabai
+		Ahilyabai 
 		Anandibai
 		Gangabai
 		Gopikabai
@@ -9912,7 +8529,7 @@ marathi={
 		Rani
 		Soyarabai
 		Umabai
-	}
+	}	
 	noble_last_names = {
 		Baji_Rao
 		Bhat
@@ -9964,7 +8581,7 @@ sindi={
 	}
 	female_common_first_names = {
 		Fahmida
-	}
+	}	
 	noble_last_names = {
 		Kalhoro
 		Memon
@@ -10027,7 +8644,7 @@ rajput={
 		Kishore
 		Maji
 		Marudhar
-	}
+	}	
 	noble_last_names = {
 		Gujar
 		Jethwa
@@ -10077,8 +8694,8 @@ kannada={
 	female_common_first_names = {
 		Chindodi
 		Manjula
-		Saraswati
-	}
+		Saraswati 
+	}	
 	noble_last_names = {
 		Hegde
 		Narayan
@@ -10124,9 +8741,9 @@ malayalam={
 		Fathima
 		Firoza
 		Sudhamani
-	}
+	}	
 	noble_last_names = {
-		Ittyanath
+		Ittyanath 
 		Perumal
 		Rama_Varma
 		Thampuran
@@ -10166,7 +8783,7 @@ tamil={
 		Rani
 		Rasamanohari
 		Thangamma
-	}
+	}	
 	noble_last_names = {
 		Bahadur
 		Rao
@@ -10208,7 +8825,7 @@ telegu={
 	female_common_first_names = {
 		Anjali
 		Lakshmi
-	}
+	}	
 	noble_last_names = {
 		Nayak
 		Salarjung
@@ -10251,7 +8868,7 @@ vietnamese={
 		Mai_Loan
 		Thanh
 		Yen
-	}
+	}	
 	noble_last_names = {
 		Le
 		Ngo_Dinh
@@ -10300,7 +8917,7 @@ khmer={
 		Ros
 		Vanthy
 		Vara
-	}
+	}	
 	noble_last_names = {
 		Ang
 		Varman
@@ -10337,7 +8954,7 @@ batak={
 		Fatin
 		Sari
 		Sharena
-	}
+	}	
 	noble_last_names = {
 		Manisia
 		Marga_Sinambela
@@ -10394,7 +9011,7 @@ dayak={
 		Fatin
 		Sari
 		Sharena
-	}
+	}	
 	noble_last_names = {
 		al_Qadri
 		Bahau
@@ -10458,7 +9075,7 @@ malagasy={
 		Razafinandriamanitra
 		Ranavalona
 		Tahina
-	}
+	}	
 	noble_last_names = {
 		Bemihisatra
 		Ramavo
@@ -10511,7 +9128,7 @@ filipino={
 		Librada
 		Teodora
 		Trinidad
-	}
+	}	
 	noble_last_names = {
 		Aguainaldo
 		Bonifacio
@@ -10593,7 +9210,7 @@ moro={
 		Sulafa
 		Zeina
 		Zuhur
-	}
+	}	
 	noble_last_names = {
 		Mastura
 		Pagayawan
@@ -10653,7 +9270,7 @@ javan={
 		Siti Soimah Sunarti Soepiah
 		Tatiek
 		Yayuk
-	}
+	}	
 	noble_last_names = {
 		Cakraningrat
 		Djajadiningrat Djojohadikusumo
@@ -10677,7 +9294,7 @@ javan={
 		Duksina Dorodjatun
 		Gathot_Menol
 		Ibnu_Jarot
-		Kuseini
+		Kuseini 
 		Malikis_Solikin Mustojo Murtejo
 		Sapardan Sugandi Sundoro Surojo Sujana Sujadi Subadya Sayyidin_Malikul_Kusna
 	}
@@ -10705,9 +9322,9 @@ moluccan={
 		Sonny
 	}
 	female_common_first_names = {
-		Bellaetrix
+		Bellaetrix 
 		Fatimah
-	}
+	}	
 	noble_last_names = {
 		Kolano
 		Sjah
@@ -10736,69 +9353,31 @@ thai={
 	male_common_first_names={
 		Chao
 		Chulalongkorn
-		Charoon
-		Kashemsri
-		Isariyalongkorn
 		Mongkut
-		Mahidol
 		Nangklao
 		Naritsaranuwatiwong
-		Nuam
 		Phya
 		Plaek
 		Prajadhipok
 		Rama
-		Piyararangsit
-		Rangsit
-		Sirivongse
-		Sanidh_Prayurasakdi
-		Tuam
-		Traidos
 		Vajiravudh
-		Yod
 	}
 	female_common_first_names = {
-		Adorndibyanibha
-		Abbhantripaja
 		Bandhavanna
 		Bismai
 		Chandra
 		Chudharatana
-		Debsirindra
-		Javalit
-		Prabha Prabai Pun
-		Sirikit Sirabhorn
-		Thao
-		Valaya Vichitra
-		Yaovabha
-	}
+	}	
 	noble_last_names = {
 		Chakri
 		Praya_Siri
 	}
 	common_last_names={
-		Bunnag
 		Chichalerm
-		Devahastin
-		Hutasingha
-		Inswang
-		Kridakorn
 		Nitithada
 		Phonphayuhasena
-		Phahonyothin
-		Praband
-		Polphantin
-		Rabibadhana
 		Saovabha
 		Suriyawongse
-		Sinhaseni
-		Sumontame
-		Silpikul
-		Thephatsadin
-		Yuktanandana
-	}
-	male_regal_first_names={
-		Rama
 	}
 	ethnicities = {
 		1 = asian
@@ -10823,7 +9402,7 @@ mon={
 		Nokiang
 		Tuu
 		Thiha
-	}
+	}	
 	noble_last_names = {
 		Chakri
 	}
@@ -10864,7 +9443,7 @@ khmu={
 		Pheng
 		Samathi
 		Thongsy
-	}
+	}	
 	noble_last_names = {
 		Luang_Phrabang
 		Ong
@@ -10911,7 +9490,7 @@ lao={
 		Pheng
 		Samathi
 		Thongsy
-	}
+	}	
 	noble_last_names = {
 		Luang_Phrabang
 		Ong
@@ -10958,7 +9537,7 @@ shan={
 	female_common_first_names = {
 		Charm
 		Hearn
-	}
+	}	
 	noble_last_names = {
 		Sao
 	}
@@ -11009,7 +9588,7 @@ burmese={
 		Chandra
 		Hsinbyumashin
 		Supayalat
-	}
+	}	
 	noble_last_names = {
 		Konbaung
 		Sao
@@ -11048,7 +9627,7 @@ kachin={
 		Bawk_Ja
 		Thaung
 		Thin
-	}
+	}	
 	noble_last_names = {
 		Shatam
 		Mungchi
@@ -11090,7 +9669,7 @@ karen={
 		Nang_Khin
 		Naw_Ohn
 		Naw_Paw
-	}
+	}	
 	noble_last_names = {
 		Aung
 		Kantarawadi
@@ -11120,372 +9699,7 @@ japanese={
 	color= hsv{ 0 0 90 }
 	religion = mahayana
 	traits = { yamato east_asian_heritage }
-
-	obsessions = {
-		newspapers
-	}
-
 	male_common_first_names={
-		japanese_flavor_Katsushika_Hokusai_first
-		japanese_flavor_Kyokutei_Bakin_first
-		japanese_flavor_Tokugawa_Ienari_first
-		japanese_flavor_Hirata_Atsutane_first
-		japanese_flavor_Ninomiya_Sontoku_first
-		japanese_flavor_Tokugawa_Ieyoshi_first
-		japanese_flavor_Watanabe_Kazan_first
-		japanese_flavor_Mizuno_Tadakuni_first
-		japanese_flavor_Torii_Yozo_first
-		japanese_flavor_Utagawa_Hiroshige_first
-		japanese_flavor_Tokugawa_Nariaki_first
-		japanese_flavor_Egawa_Hidetatsu_first
-		japanese_flavor_Fujita_Toko_first
-		japanese_flavor_Tokugawa_Iesada_first
-		japanese_flavor_Tokugawa_Yoshinobu_first
-		japanese_flavor_Tokugawa_Iemochi_first
-		japanese_flavor_Togo_Heihachiro_first
-		japanese_flavor_Oshio_Heihachiro_first
-		japanese_flavor_Takano_Choei_first
-		japanese_flavor_Shimazu_Nariakira_first
-		japanese_flavor_Hotta_Masayoshi_first
-		japanese_flavor_Ogata_Koan_first
-		japanese_flavor_Ii_Naosuke_first
-		japanese_flavor_Shimazu_Hisamitsu_first
-		japanese_flavor_Abe_Masahiro_first
-		japanese_flavor_Mori_Takachika_first
-		japanese_flavor_Katsu_Kaishu_first
-		japanese_flavor_Oguri_Tadamasa_first
-		japanese_flavor_Saigo_Takamori_first
-		japanese_flavor_Yoshida_Shoin_first
-		japanese_flavor_Okubo_Toshimichi_first
-		japanese_flavor_Kido_Katayoshi_first
-		japanese_flavor_Kondo_Isami_first
-		japanese_flavor_Eto_Shinpei_first
-		japanese_flavor_Fukuzawa_Yukichi_first
-		japanese_flavor_Iwasaki_Yataro_first
-		japanese_flavor_Matsudaira_Katamori_first
-		japanese_flavor_Sakamoto_Ryoma_first
-		japanese_flavor_Inoue_Kaoru_first
-		japanese_flavor_Itagaki_Taisuke_first
-		japanese_flavor_Okuma_Shigenobu_first
-		japanese_flavor_Yamagata_Aritomo_first
-		japanese_flavor_Takasugi_Shinsaku_first
-		japanese_flavor_Kuroda_Kiyotaka_first
-		japanese_flavor_Shibusawa_Eiichi_first
-		japanese_flavor_Ito_Hirobumi_first
-		japanese_flavor_Tanaka_Shozo_first
-		japanese_flavor_Oyama_Iwao_first
-		japanese_flavor_Katsura_Taro_first
-		japanese_flavor_Saionji_Kinmochi_first
-		japanese_flavor_Nogi_Maresuke_first
-		japanese_flavor_Kodama_Gentaro_first
-		japanese_flavor_Takahashi_Korekiyo_first
-		japanese_flavor_Komura_Jutaro_first
-		japanese_flavor_Inukai_Tsuyoshi_first
-		japanese_flavor_Hara_Takashi_first
-		japanese_flavor_Ozaki_Yukio_first
-		japanese_flavor_Mori_Ogai_first
-		japanese_flavor_Nitobe_Inazo_first
-		japanese_flavor_Natsume_Soseki_first
-		japanese_flavor_Minobe_Tatsukichi_first
-		japanese_flavor_Yoshino_Sakuzo_first
-		japanese_flavor_Kita_Ikki_first
-		japanese_flavor_Ishiwara_Kanji_first
-		japanese_flavor_Akutagawa_Ryunosuke_first
-		japanese_flavor_Tokuda_Kyuichi_first
-		japanese_flavor_Katsushika_Hokusai_first
-		japanese_flavor_Zusho_Hirosato_first
-		japanese_flavor_Mamiya_Rinzo_first
-		japanese_flavor_Murata_Seifu_first
-		japanese_flavor_Shimazu_Narioki_first
-		japanese_flavor_Toyama_Kagemoto_first
-		japanese_flavor_Utagawa_Hiroshige_first
-		japanese_flavor_Takashima_Shuhan_first
-		japanese_flavor_Ikuta_Yorozu_first
-		japanese_flavor_Yokoi_Shonan_first
-		japanese_flavor_Sakuma_Shozan_first
-		japanese_flavor_Maki_Yasuomi_first
-		japanese_flavor_Nabeshima_Naomasa_first
-		japanese_flavor_Yoshida_Toyo_first
-		japanese_flavor_Date_Munenari_first
-		japanese_flavor_Okubo_Ichio_first
-		japanese_flavor_Ando_Nobumasa_first
-		japanese_flavor_Shimizu_Jirocho_first
-		japanese_flavor_Iwakura_Tomomi_first
-		japanese_flavor_Omura_Masujiro_first
-		japanese_flavor_John_Manjiro_first
-		japanese_flavor_Yamauchi_Yodo_first
-		japanese_flavor_Matsudaira_Shungaku_first
-		japanese_flavor_Soejima_Taneomi_first
-		japanese_flavor_Takechi_Zuizan_first
-		japanese_flavor_Nakamura_Masanao_first
-		japanese_flavor_Matsumoto_Ryojun_first
-		japanese_flavor_Otori_Keisuke_first
-		japanese_flavor_Maejima_Hisoka_first
-		japanese_flavor_Hijikata_Toshizo_first
-		japanese_flavor_Komatsu_Kiyokado_first
-		japanese_flavor_Matsukata_Masayoshi_first
-		japanese_flavor_Arisugawanomiya_Taruhito_first
-		japanese_flavor_Ito_Kashitaro_first
-		japanese_flavor_Enomoto_Takeaki_first
-		japanese_flavor_Godai_Tomoatsu_first
-		japanese_flavor_Yamaoka_Tesshu_first
-		japanese_flavor_Sanjo_Sanetomi_first
-		japanese_flavor_Okura_Kihachiro_first
-		japanese_flavor_Kabayama_Sukenori_first
-		japanese_flavor_Nakaoka_Shintaro_first
-		japanese_flavor_Goto_Shojiro_first
-		japanese_flavor_Okita_Soji_first
-		japanese_flavor_Niijima_Jo_first
-		japanese_flavor_Saigo_Judo_first
-		japanese_flavor_Saito_Hajime_first
-		japanese_flavor_Mutsu_Munemitsu_first
-		japanese_flavor_Komatsunomiya_Akihito_first
-		japanese_flavor_Mori_Arinori_first
-		japanese_flavor_Nakae_Chomin_first
-		japanese_flavor_Kitashirakawanomiya_Yoshihisa_first
-		japanese_flavor_Koizumi_Yakumo_first
-		japanese_flavor_Terauchi_Masatake_first
-		japanese_flavor_Kitazato_Shibasaburo_first
-		japanese_flavor_Toyama_Mitsuru_first
-		japanese_flavor_Kamio_Mitsuomi_first
-		japanese_flavor_Ueki_Emori_first
-		japanese_flavor_Goto_Shinpei_first
-		japanese_flavor_Dan_Takuma_first
-		japanese_flavor_Akiyama_Yoshifuru_first
-		japanese_flavor_Tsubouchi_Shoyo_first
-		japanese_flavor_Katayama_Sen_first
-		japanese_flavor_Kano_Jigoro_first
-		japanese_flavor_Shirase_Nobu_first
-		japanese_flavor_Uchimura_Kanzo_first
-		japanese_flavor_Makino_Tomitaro_first
-		japanese_flavor_Tokutomi_Soho_first
-		japanese_flavor_Tokugawa_Iesato_first
-		japanese_flavor_Tanaka_Giichi_first
-		japanese_flavor_Minakata_Kumagusu_first
-		japanese_flavor_Hiranuma_Kiichiro_first
-		japanese_flavor_Akiyama_Saneyuki_first
-		japanese_flavor_Yokoyama_Taikan_first
-		japanese_flavor_Nishida_Kitaro_first
-		japanese_flavor_Kotoku_Shusui_first
-		japanese_flavor_Sakai_Toshihiko_first
-		japanese_flavor_Yanagita_Kunio_first
-		japanese_flavor_Hayashi_Senjuro_first
-		japanese_flavor_Masaki_Jinzaburo_first
-		japanese_flavor_Noguchi_Hideyo_first
-		japanese_flavor_Araki_Sadao_first
-		japanese_flavor_Kawakami_Hajime_first
-		japanese_flavor_Nagata_Tetsuzan_first
-		japanese_flavor_Yamada_Kosaku_first
-		japanese_flavor_Okawa_Shumei_first
-		japanese_flavor_Kagawa_Toyohiko_first
-		japanese_flavor_Kikuchi_Kan_first
-		japanese_flavor_Miyazawa_Kenji_first
-		japanese_flavor_Kobayashi_Takiji_first
-		japanese_flavor_Nakahara_Chuya_first
-		japanese_flavor_Dazai_Osamu_first
-		japanese_flavor_Matsura_Kiyoshi_first
-		japanese_flavor_Sato_Nobuhiro_first
-		japanese_flavor_Suzuki_Bokushi_first
-		japanese_flavor_Matsuzaki_Kodo_first
-		japanese_flavor_Ban_Nobutomo_first
-		japanese_flavor_Zeniya_Gohe_first
-		japanese_flavor_Hoashi_Banri_first
-		japanese_flavor_Kunitomo_Ikkansai_first
-		japanese_flavor_Ryutei_Tanehiko_first
-		japanese_flavor_Iwasaki_Kanen_first
-		japanese_flavor_Yanagawa_Seigan_first
-		japanese_flavor_Sanada_Yukitsura_first
-		japanese_flavor_Ii_Naoaki_first
-		japanese_flavor_Chiba_Shusaku_first
-		japanese_flavor_Terakado_Seiken_first
-		japanese_flavor_Ohara_Yugaku_first
-		japanese_flavor_Udagawa_Yoan_first
-		japanese_flavor_Saito_Yakuro_first
-		japanese_flavor_Mitsukuri_Genpo_first
-		japanese_flavor_Tanaka_Hisashige_first
-		japanese_flavor_Totsuka_Seikai_first
-		japanese_flavor_Atobe_Yoshisuke_first
-		japanese_flavor_Shinmen_Tatsugoro_first
-		japanese_flavor_Kawaji_Toshiakira_first
-		japanese_flavor_Narabayashi_Soken_first
-		japanese_flavor_Takeda_Kounsai_first
-		japanese_flavor_Saito_Gesshin_first
-		japanese_flavor_Manabe_Akikatsu_first
-		japanese_flavor_Yamada_Hokoku_first
-		japanese_flavor_Nakayama_Tadayasu_first
-		japanese_flavor_Kunisada_Chuji_first
-		japanese_flavor_Murakami_Hidetoshi_first
-		japanese_flavor_Umeda_Unpin_first
-		japanese_flavor_Nijo_Nariyuki_first
-		japanese_flavor_Nagai_Naoyuki_first
-		japanese_flavor_Matsura_Takeshiro_first
-		japanese_flavor_Iwase_Tadanari_first
-		japanese_flavor_Hori_Toshihiro_first
-		japanese_flavor_Nagai_Uta_first
-		japanese_flavor_Nakamura_Naozo_first
-		japanese_flavor_Kuze_Hirochika_first
-		japanese_flavor_Kawazu_Sukekuni_first
-		japanese_flavor_Minomura_Rizaemon_first
-		japanese_flavor_Ogasawara_Nagamichi_first
-		japanese_flavor_Kurimoto_Joun_first
-		japanese_flavor_Hiraoka_Enshiro_first
-		japanese_flavor_Ichikawa_Seiryu_first
-		japanese_flavor_Shimooka_Renjo_first
-		japanese_flavor_Tsuji_Igaku_first
-		japanese_flavor_Sano_Tsunetami_first
-		japanese_flavor_Itakura_Kazukiyo_first
-		japanese_flavor_Motoki_Shozo_first
-		japanese_flavor_Kuninomiya_Asahiko_first
-		japanese_flavor_Rai_Mikisaburo_first
-		japanese_flavor_Hayashi_Kinbee_first
-		japanese_flavor_Momonoi_Shunzo_first
-		japanese_flavor_Oshima_Takato_first
-		japanese_flavor_Saisho_Atsushi_first
-		japanese_flavor_Kawai_Tsuginosuke_first
-		japanese_flavor_Sakai_Tadashige_first
-		japanese_flavor_Hirano_Kuniomi_first
-		japanese_flavor_Ijichi_Masaharu_first
-		japanese_flavor_Takenaka_Shigekata_first
-		japanese_flavor_Kanagaki_Robun_first
-		japanese_flavor_Yuri_Kimimasa_first
-		japanese_flavor_Nishi_Amane_first
-		japanese_flavor_Izumi_Yosuke_first
-		japanese_flavor_Yatabori_Ko_first
-		japanese_flavor_Kiyokawa_Hachiro_first
-		japanese_flavor_Kimura_Kaishu_first
-		japanese_flavor_Kondo_Makoto_first
-		japanese_flavor_Hayashi_Enri_first
-		japanese_flavor_Fukuba_Bisei_first
-		japanese_flavor_Itosu_Anko_first
-		japanese_flavor_Oki_Takato_first
-		japanese_flavor_Furukawa_Ichibee_first
-		japanese_flavor_Funatsu_Denjibei_first
-		japanese_flavor_Sasaki_Tadasaburo_first
-		japanese_flavor_Hashimoto_Sanai_first
-		japanese_flavor_Inaba_Masakuni_first
-		japanese_flavor_Maebara_Issei_first
-		japanese_flavor_Hirosawa_Saneomi_first
-		japanese_flavor_Tashiro_Eisuke_first
-		japanese_flavor_Kawaji_Toshiyoshi_first
-		japanese_flavor_Kawakami_Gensai_first
-		japanese_flavor_Inaba_Masakuni_first
-		japanese_flavor_Otaguro_Tomoo_first
-		japanese_flavor_Mishima_Michitsune_first
-		japanese_flavor_Kawamura_Sumiyoshi_first
-		japanese_flavor_Tani_Tateki_first
-		japanese_flavor_Ikeda_Nagaoki_first
-		japanese_flavor_Takamatsu_Ryoun_first
-		japanese_flavor_Ueno_Hikoma_first
-		japanese_flavor_Minami_Kiji_first
-		japanese_flavor_Shimaji_Mokurai_first
-		japanese_flavor_Yasuda_Zenjiro_first
-		japanese_flavor_Tamaoki_Hanemon_first
-		japanese_flavor_Shibusawa_Seichiro_first
-		japanese_flavor_Okada_Izo_first
-		japanese_flavor_Tanaka_Yoshio_first
-		japanese_flavor_Sanyutei_Encho_first
-		japanese_flavor_Sagara_Sozo_first
-		japanese_flavor_Komuro_Sinobu_first
-		japanese_flavor_Ogyu_Yuzuru_first
-		japanese_flavor_Kirino_Toshiaki_first
-		japanese_flavor_Matsudaira_Taro_first
-		japanese_flavor_Koga_Gengo_first
-		japanese_flavor_Nagakura_Shinpachi_first
-		japanese_flavor_Hoshi_Juntaro_first
-		japanese_flavor_Anegakoji_Kintomo_first
-		japanese_flavor_Kusaka_Genzui_first
-		japanese_flavor_Date_Kunishige_first
-		japanese_flavor_Konoike_Yukitomi_first
-		japanese_flavor_Fukuchi_Genichiro_first
-		japanese_flavor_Nozu_Michitsura_first
-		japanese_flavor_Akamatsu_Noriyoshi_first
-		japanese_flavor_Fujita_Denzaburo_first
-		japanese_flavor_Hayashi_Yuzo_first
-		japanese_flavor_Shinagawa_Yajiro_first
-		japanese_flavor_Sakai_Noritsune_first
-		japanese_flavor_Ito_Sukeyuki_first
-		japanese_flavor_Okochi_Masatada_first
-		japanese_flavor_Kataoka_Kenkichi_first
-		japanese_flavor_Kuroki_Tamemoto_first
-		japanese_flavor_Aoki_Shuzo_first
-		japanese_flavor_Kumoi_Tatsuo_first
-		japanese_flavor_Iba_Hachiro_first
-		japanese_flavor_Senge_Takatomi_first
-		japanese_flavor_Matsudaira_Sadachika_first
-		japanese_flavor_Furusawa_Shigeru_first
-		japanese_flavor_Oku_Yasutaka_first
-		japanese_flavor_Asano_Soichiro_first
-		japanese_flavor_Kamimura_Hikonojo_first
-		japanese_flavor_Kono_Hironaka_first
-		japanese_flavor_Orita_Hikoichi_first
-		japanese_flavor_Kiyoura_Keigo_first
-		japanese_flavor_Hoshi_Toru_first
-		japanese_flavor_Hasegawa_Yoshimichi_first
-		japanese_flavor_Kawamura_Kageaki_first
-		japanese_flavor_Yamamoto_Gonbee_first
-		japanese_flavor_Fukushima_Yasumasa_first
-		japanese_flavor_Ijuin_Goro_first
-		japanese_flavor_Takamine_Jokichi_first
-		japanese_flavor_Tatsuno_Kingo_first
-		japanese_flavor_Taguchi_Ukichi_first
-		japanese_flavor_Iguchi_Seigo_first
-		japanese_flavor_Ichinohe_Hyoe_first
-		japanese_flavor_Tojo_Hidenori_first
-		japanese_flavor_Hiraoka_Hiroshi_first
-		japanese_flavor_Uehara_Yusaku_first
-		japanese_flavor_Iwashita_Kiyochika_first
-		japanese_flavor_Tsuneto_Noritaka_first
-		japanese_flavor_Inoue_Enryo_first
-		japanese_flavor_Shimamura_Hayao_first
-		japanese_flavor_Saito_Makoto_first
-		japanese_flavor_Matsukawa_Toshitane_first
-		japanese_flavor_Yokoi_Tokiyoshi_first
-		japanese_flavor_Kato_Tomosaburo_first
-		japanese_flavor_Tanaka_Chigaku_first
-		japanese_flavor_Arima_Ryokitsu_first
-		japanese_flavor_Adachi_Kenzo_first
-		japanese_flavor_Koizumi_Matajiro_first
-		japanese_flavor_Abe_Isoo_first
-		japanese_flavor_Kaninnomiya_Kotohito_first
-		japanese_flavor_Kawaguchi_Ekai_first
-		japanese_flavor_Kaneko_Naokichi_first
-		japanese_flavor_Ninomiya_Chuhachi_first
-		japanese_flavor_Miyatake_Gaikotsu_first
-		japanese_flavor_Toyoda_Sakichi_first
-		japanese_flavor_Nakamura_Jusaku_first
-		japanese_flavor_Muto_Sanji_first
-		japanese_flavor_Ito_Chuta_first
-		japanese_flavor_Ugaki_Kazushige_first
-		japanese_flavor_Fukuzawa_Momosuke_first
-		japanese_flavor_Oyabe_Zenichiro_first
-		japanese_flavor_Kuhara_Fusanosuke_first
-		japanese_flavor_Morishita_Hiroshi_first
-		japanese_flavor_Kimura_Hisashi_first
-		japanese_flavor_Nakane_Naka_first
-		japanese_flavor_Deguchi_Onisaburo_first
-		japanese_flavor_Shiga_Kiyoshi_first
-		japanese_flavor_Kobayashi_Ichizo_first
-		japanese_flavor_Hasegawa_Nyozekan_first
-		japanese_flavor_Otani_Kozui_first
-		japanese_flavor_Okochi_Masatoshi_first
-		japanese_flavor_Yamakawa_Hitoshi_first
-		japanese_flavor_Ohara_Magosaburo_first
-		japanese_flavor_Ayukawa_Yoshisuke_first
-		japanese_flavor_Yamaoka_Mitsutaro_first
-		japanese_flavor_Goto_Keita_first
-		japanese_flavor_Kindaichi_Kyosuke_first
-		japanese_flavor_Shigeno_Kiyotake_first
-		japanese_flavor_Kitaoji_Rosanjin_first
-		japanese_flavor_Arima_Yoriyasu_first
-		japanese_flavor_Nakajima_Chikuhei_first
-		japanese_flavor_Tokugawa_Iemasa_first
-		japanese_flavor_Osugi_Sakae_first
-		japanese_flavor_Sugiyama_Genjiro_first
-		japanese_flavor_Ishihara_Hiroichiro_first
-		japanese_flavor_Aso_Hisashi_first
-		japanese_flavor_Akamatsu_Katsumaro_first
-		japanese_flavor_Minoda_Muneki_first
-		japanese_flavor_Edogawa_Ranpo_first
 		Aritomo
 		Gentaro
 		Gonnohyoe
@@ -11556,366 +9770,6 @@ japanese={
 		Yusaku
 	}
 	female_common_first_names = {
-		japanese_flavor_Katsushika_Hokusai_last
-		japanese_flavor_Kyokutei_Bakin_last
-		japanese_flavor_Tokugawa_Ienari_last
-		japanese_flavor_Hirata_Atsutane_last
-		japanese_flavor_Ninomiya_Sontoku_last
-		japanese_flavor_Tokugawa_Ieyoshi_last
-		japanese_flavor_Watanabe_Kazan_last
-		japanese_flavor_Mizuno_Tadakuni_last
-		japanese_flavor_Torii_Yozo_last
-		japanese_flavor_Utagawa_Hiroshige_last
-		japanese_flavor_Tokugawa_Nariaki_last
-		japanese_flavor_Egawa_Hidetatsu_last
-		japanese_flavor_Fujita_Toko_last
-		japanese_flavor_Tokugawa_Iesada_last
-		japanese_flavor_Tokugawa_Yoshinobu_last
-		japanese_flavor_Tokugawa_Iemochi_last
-		japanese_flavor_Togo_Heihachiro_last
-		japanese_flavor_Oshio_Heihachiro_last
-		japanese_flavor_Takano_Choei_last
-		japanese_flavor_Shimazu_Nariakira_last
-		japanese_flavor_Hotta_Masayoshi_last
-		japanese_flavor_Ogata_Koan_last
-		japanese_flavor_Ii_Naosuke_last
-		japanese_flavor_Shimazu_Hisamitsu_last
-		japanese_flavor_Abe_Masahiro_last
-		japanese_flavor_Mori_Takachika_last
-		japanese_flavor_Katsu_Kaishu_last
-		japanese_flavor_Oguri_Tadamasa_last
-		japanese_flavor_Saigo_Takamori_last
-		japanese_flavor_Yoshida_Shoin_last
-		japanese_flavor_Okubo_Toshimichi_last
-		japanese_flavor_Kido_Katayoshi_last
-		japanese_flavor_Kondo_Isami_last
-		japanese_flavor_Eto_Shinpei_last
-		japanese_flavor_Fukuzawa_Yukichi_last
-		japanese_flavor_Iwasaki_Yataro_last
-		japanese_flavor_Matsudaira_Katamori_last
-		japanese_flavor_Sakamoto_Ryoma_last
-		japanese_flavor_Inoue_Kaoru_last
-		japanese_flavor_Itagaki_Taisuke_last
-		japanese_flavor_Okuma_Shigenobu_last
-		japanese_flavor_Yamagata_Aritomo_last
-		japanese_flavor_Takasugi_Shinsaku_last
-		japanese_flavor_Kuroda_Kiyotaka_last
-		japanese_flavor_Shibusawa_Eiichi_last
-		japanese_flavor_Ito_Hirobumi_last
-		japanese_flavor_Tanaka_Shozo_last
-		japanese_flavor_Oyama_Iwao_last
-		japanese_flavor_Katsura_Taro_last
-		japanese_flavor_Saionji_Kinmochi_last
-		japanese_flavor_Nogi_Maresuke_last
-		japanese_flavor_Kodama_Gentaro_last
-		japanese_flavor_Takahashi_Korekiyo_last
-		japanese_flavor_Komura_Jutaro_last
-		japanese_flavor_Inukai_Tsuyoshi_last
-		japanese_flavor_Hara_Takashi_last
-		japanese_flavor_Ozaki_Yukio_last
-		japanese_flavor_Mori_Ogai_last
-		japanese_flavor_Nitobe_Inazo_last
-		japanese_flavor_Natsume_Soseki_last
-		japanese_flavor_Minobe_Tatsukichi_last
-		japanese_flavor_Yoshino_Sakuzo_last
-		japanese_flavor_Kita_Ikki_last
-		japanese_flavor_Ishiwara_Kanji_last
-		japanese_flavor_Akutagawa_Ryunosuke_last
-		japanese_flavor_Tokuda_Kyuichi_last
-		japanese_flavor_Katsushika_Hokusai_last
-		japanese_flavor_Zusho_Hirosato_last
-		japanese_flavor_Mamiya_Rinzo_last
-		japanese_flavor_Murata_Seifu_last
-		japanese_flavor_Shimazu_Narioki_last
-		japanese_flavor_Toyama_Kagemoto_last
-		japanese_flavor_Utagawa_Hiroshige_last
-		japanese_flavor_Takashima_Shuhan_last
-		japanese_flavor_Ikuta_Yorozu_last
-		japanese_flavor_Yokoi_Shonan_last
-		japanese_flavor_Sakuma_Shozan_last
-		japanese_flavor_Maki_Yasuomi_last
-		japanese_flavor_Nabeshima_Naomasa_last
-		japanese_flavor_Yoshida_Toyo_last
-		japanese_flavor_Date_Munenari_last
-		japanese_flavor_Okubo_Ichio_last
-		japanese_flavor_Ando_Nobumasa_last
-		japanese_flavor_Shimizu_Jirocho_last
-		japanese_flavor_Iwakura_Tomomi_last
-		japanese_flavor_Omura_Masujiro_last
-		japanese_flavor_John_Manjiro_last
-		japanese_flavor_Yamauchi_Yodo_last
-		japanese_flavor_Matsudaira_Shungaku_last
-		japanese_flavor_Soejima_Taneomi_last
-		japanese_flavor_Takechi_Zuizan_last
-		japanese_flavor_Nakamura_Masanao_last
-		japanese_flavor_Matsumoto_Ryojun_last
-		japanese_flavor_Otori_Keisuke_last
-		japanese_flavor_Maejima_Hisoka_last
-		japanese_flavor_Hijikata_Toshizo_last
-		japanese_flavor_Komatsu_Kiyokado_last
-		japanese_flavor_Matsukata_Masayoshi_last
-		japanese_flavor_Arisugawanomiya_Taruhito_last
-		japanese_flavor_Ito_Kashitaro_last
-		japanese_flavor_Enomoto_Takeaki_last
-		japanese_flavor_Godai_Tomoatsu_last
-		japanese_flavor_Yamaoka_Tesshu_last
-		japanese_flavor_Sanjo_Sanetomi_last
-		japanese_flavor_Okura_Kihachiro_last
-		japanese_flavor_Kabayama_Sukenori_last
-		japanese_flavor_Nakaoka_Shintaro_last
-		japanese_flavor_Goto_Shojiro_last
-		japanese_flavor_Okita_Soji_last
-		japanese_flavor_Niijima_Jo_last
-		japanese_flavor_Saigo_Judo_last
-		japanese_flavor_Saito_Hajime_last
-		japanese_flavor_Mutsu_Munemitsu_last
-		japanese_flavor_Komatsunomiya_Akihito_last
-		japanese_flavor_Mori_Arinori_last
-		japanese_flavor_Nakae_Chomin_last
-		japanese_flavor_Kitashirakawanomiya_Yoshihisa_last
-		japanese_flavor_Koizumi_Yakumo_last
-		japanese_flavor_Terauchi_Masatake_last
-		japanese_flavor_Kitazato_Shibasaburo_last
-		japanese_flavor_Toyama_Mitsuru_last
-		japanese_flavor_Kamio_Mitsuomi_last
-		japanese_flavor_Ueki_Emori_last
-		japanese_flavor_Goto_Shinpei_last
-		japanese_flavor_Dan_Takuma_last
-		japanese_flavor_Akiyama_Yoshifuru_last
-		japanese_flavor_Tsubouchi_Shoyo_last
-		japanese_flavor_Katayama_Sen_last
-		japanese_flavor_Kano_Jigoro_last
-		japanese_flavor_Shirase_Nobu_last
-		japanese_flavor_Uchimura_Kanzo_last
-		japanese_flavor_Makino_Tomitaro_last
-		japanese_flavor_Tokutomi_Soho_last
-		japanese_flavor_Tokugawa_Iesato_last
-		japanese_flavor_Tanaka_Giichi_last
-		japanese_flavor_Minakata_Kumagusu_last
-		japanese_flavor_Hiranuma_Kiichiro_last
-		japanese_flavor_Akiyama_Saneyuki_last
-		japanese_flavor_Yokoyama_Taikan_last
-		japanese_flavor_Nishida_Kitaro_last
-		japanese_flavor_Kotoku_Shusui_last
-		japanese_flavor_Sakai_Toshihiko_last
-		japanese_flavor_Yanagita_Kunio_last
-		japanese_flavor_Hayashi_Senjuro_last
-		japanese_flavor_Masaki_Jinzaburo_last
-		japanese_flavor_Noguchi_Hideyo_last
-		japanese_flavor_Araki_Sadao_last
-		japanese_flavor_Kawakami_Hajime_last
-		japanese_flavor_Nagata_Tetsuzan_last
-		japanese_flavor_Yamada_Kosaku_last
-		japanese_flavor_Okawa_Shumei_last
-		japanese_flavor_Kagawa_Toyohiko_last
-		japanese_flavor_Kikuchi_Kan_last
-		japanese_flavor_Miyazawa_Kenji_last
-		japanese_flavor_Kobayashi_Takiji_last
-		japanese_flavor_Nakahara_Chuya_last
-		japanese_flavor_Dazai_Osamu_last
-		japanese_flavor_Matsura_Kiyoshi_last
-		japanese_flavor_Sato_Nobuhiro_last
-		japanese_flavor_Suzuki_Bokushi_last
-		japanese_flavor_Matsuzaki_Kodo_last
-		japanese_flavor_Ban_Nobutomo_last
-		japanese_flavor_Zeniya_Gohe_last
-		japanese_flavor_Hoashi_Banri_last
-		japanese_flavor_Kunitomo_Ikkansai_last
-		japanese_flavor_Ryutei_Tanehiko_last
-		japanese_flavor_Iwasaki_Kanen_last
-		japanese_flavor_Yanagawa_Seigan_last
-		japanese_flavor_Sanada_Yukitsura_last
-		japanese_flavor_Ii_Naoaki_last
-		japanese_flavor_Chiba_Shusaku_last
-		japanese_flavor_Terakado_Seiken_last
-		japanese_flavor_Ohara_Yugaku_last
-		japanese_flavor_Udagawa_Yoan_last
-		japanese_flavor_Saito_Yakuro_last
-		japanese_flavor_Mitsukuri_Genpo_last
-		japanese_flavor_Tanaka_Hisashige_last
-		japanese_flavor_Totsuka_Seikai_last
-		japanese_flavor_Atobe_Yoshisuke_last
-		japanese_flavor_Shinmen_Tatsugoro_last
-		japanese_flavor_Kawaji_Toshiakira_last
-		japanese_flavor_Narabayashi_Soken_last
-		japanese_flavor_Takeda_Kounsai_last
-		japanese_flavor_Saito_Gesshin_last
-		japanese_flavor_Manabe_Akikatsu_last
-		japanese_flavor_Yamada_Hokoku_last
-		japanese_flavor_Nakayama_Tadayasu_last
-		japanese_flavor_Kunisada_Chuji_last
-		japanese_flavor_Murakami_Hidetoshi_last
-		japanese_flavor_Umeda_Unpin_last
-		japanese_flavor_Nijo_Nariyuki_last
-		japanese_flavor_Nagai_Naoyuki_last
-		japanese_flavor_Matsura_Takeshiro_last
-		japanese_flavor_Iwase_Tadanari_last
-		japanese_flavor_Hori_Toshihiro_last
-		japanese_flavor_Nagai_Uta_last
-		japanese_flavor_Nakamura_Naozo_last
-		japanese_flavor_Kuze_Hirochika_last
-		japanese_flavor_Kawazu_Sukekuni_last
-		japanese_flavor_Minomura_Rizaemon_last
-		japanese_flavor_Ogasawara_Nagamichi_last
-		japanese_flavor_Kurimoto_Joun_last
-		japanese_flavor_Hiraoka_Enshiro_last
-		japanese_flavor_Ichikawa_Seiryu_last
-		japanese_flavor_Shimooka_Renjo_last
-		japanese_flavor_Tsuji_Igaku_last
-		japanese_flavor_Sano_Tsunetami_last
-		japanese_flavor_Itakura_Kazukiyo_last
-		japanese_flavor_Motoki_Shozo_last
-		japanese_flavor_Kuninomiya_Asahiko_last
-		japanese_flavor_Rai_Mikisaburo_last
-		japanese_flavor_Hayashi_Kinbee_last
-		japanese_flavor_Momonoi_Shunzo_last
-		japanese_flavor_Oshima_Takato_last
-		japanese_flavor_Saisho_Atsushi_last
-		japanese_flavor_Kawai_Tsuginosuke_last
-		japanese_flavor_Sakai_Tadashige_last
-		japanese_flavor_Hirano_Kuniomi_last
-		japanese_flavor_Ijichi_Masaharu_last
-		japanese_flavor_Takenaka_Shigekata_last
-		japanese_flavor_Kanagaki_Robun_last
-		japanese_flavor_Yuri_Kimimasa_last
-		japanese_flavor_Nishi_Amane_last
-		japanese_flavor_Izumi_Yosuke_last
-		japanese_flavor_Yatabori_Ko_last
-		japanese_flavor_Kiyokawa_Hachiro_last
-		japanese_flavor_Kimura_Kaishu_last
-		japanese_flavor_Kondo_Makoto_last
-		japanese_flavor_Hayashi_Enri_last
-		japanese_flavor_Fukuba_Bisei_last
-		japanese_flavor_Itosu_Anko_last
-		japanese_flavor_Oki_Takato_last
-		japanese_flavor_Furukawa_Ichibee_last
-		japanese_flavor_Funatsu_Denjibei_last
-		japanese_flavor_Sasaki_Tadasaburo_last
-		japanese_flavor_Hashimoto_Sanai_last
-		japanese_flavor_Inaba_Masakuni_last
-		japanese_flavor_Maebara_Issei_last
-		japanese_flavor_Hirosawa_Saneomi_last
-		japanese_flavor_Tashiro_Eisuke_last
-		japanese_flavor_Kawaji_Toshiyoshi_last
-		japanese_flavor_Kawakami_Gensai_last
-		japanese_flavor_Inaba_Masakuni_last
-		japanese_flavor_Otaguro_Tomoo_last
-		japanese_flavor_Mishima_Michitsune_last
-		japanese_flavor_Kawamura_Sumiyoshi_last
-		japanese_flavor_Tani_Tateki_last
-		japanese_flavor_Ikeda_Nagaoki_last
-		japanese_flavor_Takamatsu_Ryoun_last
-		japanese_flavor_Ueno_Hikoma_last
-		japanese_flavor_Minami_Kiji_last
-		japanese_flavor_Shimaji_Mokurai_last
-		japanese_flavor_Yasuda_Zenjiro_last
-		japanese_flavor_Tamaoki_Hanemon_last
-		japanese_flavor_Shibusawa_Seichiro_last
-		japanese_flavor_Okada_Izo_last
-		japanese_flavor_Tanaka_Yoshio_last
-		japanese_flavor_Sanyutei_Encho_last
-		japanese_flavor_Sagara_Sozo_last
-		japanese_flavor_Komuro_Sinobu_last
-		japanese_flavor_Ogyu_Yuzuru_last
-		japanese_flavor_Kirino_Toshiaki_last
-		japanese_flavor_Matsudaira_Taro_last
-		japanese_flavor_Koga_Gengo_last
-		japanese_flavor_Nagakura_Shinpachi_last
-		japanese_flavor_Hoshi_Juntaro_last
-		japanese_flavor_Anegakoji_Kintomo_last
-		japanese_flavor_Kusaka_Genzui_last
-		japanese_flavor_Date_Kunishige_last
-		japanese_flavor_Konoike_Yukitomi_last
-		japanese_flavor_Fukuchi_Genichiro_last
-		japanese_flavor_Nozu_Michitsura_last
-		japanese_flavor_Akamatsu_Noriyoshi_last
-		japanese_flavor_Fujita_Denzaburo_last
-		japanese_flavor_Hayashi_Yuzo_last
-		japanese_flavor_Shinagawa_Yajiro_last
-		japanese_flavor_Sakai_Noritsune_last
-		japanese_flavor_Ito_Sukeyuki_last
-		japanese_flavor_Okochi_Masatada_last
-		japanese_flavor_Kataoka_Kenkichi_last
-		japanese_flavor_Kuroki_Tamemoto_last
-		japanese_flavor_Aoki_Shuzo_last
-		japanese_flavor_Kumoi_Tatsuo_last
-		japanese_flavor_Iba_Hachiro_last
-		japanese_flavor_Senge_Takatomi_last
-		japanese_flavor_Matsudaira_Sadachika_last
-		japanese_flavor_Furusawa_Shigeru_last
-		japanese_flavor_Oku_Yasutaka_last
-		japanese_flavor_Asano_Soichiro_last
-		japanese_flavor_Kamimura_Hikonojo_last
-		japanese_flavor_Kono_Hironaka_last
-		japanese_flavor_Orita_Hikoichi_last
-		japanese_flavor_Kiyoura_Keigo_last
-		japanese_flavor_Hoshi_Toru_last
-		japanese_flavor_Hasegawa_Yoshimichi_last
-		japanese_flavor_Kawamura_Kageaki_last
-		japanese_flavor_Yamamoto_Gonbee_last
-		japanese_flavor_Fukushima_Yasumasa_last
-		japanese_flavor_Ijuin_Goro_last
-		japanese_flavor_Takamine_Jokichi_last
-		japanese_flavor_Tatsuno_Kingo_last
-		japanese_flavor_Taguchi_Ukichi_last
-		japanese_flavor_Iguchi_Seigo_last
-		japanese_flavor_Ichinohe_Hyoe_last
-		japanese_flavor_Tojo_Hidenori_last
-		japanese_flavor_Hiraoka_Hiroshi_last
-		japanese_flavor_Uehara_Yusaku_last
-		japanese_flavor_Iwashita_Kiyochika_last
-		japanese_flavor_Tsuneto_Noritaka_last
-		japanese_flavor_Inoue_Enryo_last
-		japanese_flavor_Shimamura_Hayao_last
-		japanese_flavor_Saito_Makoto_last
-		japanese_flavor_Matsukawa_Toshitane_last
-		japanese_flavor_Yokoi_Tokiyoshi_last
-		japanese_flavor_Kato_Tomosaburo_last
-		japanese_flavor_Tanaka_Chigaku_last
-		japanese_flavor_Arima_Ryokitsu_last
-		japanese_flavor_Adachi_Kenzo_last
-		japanese_flavor_Koizumi_Matajiro_last
-		japanese_flavor_Abe_Isoo_last
-		japanese_flavor_Kaninnomiya_Kotohito_last
-		japanese_flavor_Kawaguchi_Ekai_last
-		japanese_flavor_Kaneko_Naokichi_last
-		japanese_flavor_Ninomiya_Chuhachi_last
-		japanese_flavor_Miyatake_Gaikotsu_last
-		japanese_flavor_Toyoda_Sakichi_last
-		japanese_flavor_Nakamura_Jusaku_last
-		japanese_flavor_Muto_Sanji_last
-		japanese_flavor_Ito_Chuta_last
-		japanese_flavor_Ugaki_Kazushige_last
-		japanese_flavor_Fukuzawa_Momosuke_last
-		japanese_flavor_Oyabe_Zenichiro_last
-		japanese_flavor_Kuhara_Fusanosuke_last
-		japanese_flavor_Morishita_Hiroshi_last
-		japanese_flavor_Kimura_Hisashi_last
-		japanese_flavor_Nakane_Naka_last
-		japanese_flavor_Deguchi_Onisaburo_last
-		japanese_flavor_Shiga_Kiyoshi_last
-		japanese_flavor_Kobayashi_Ichizo_last
-		japanese_flavor_Hasegawa_Nyozekan_last
-		japanese_flavor_Otani_Kozui_last
-		japanese_flavor_Okochi_Masatoshi_last
-		japanese_flavor_Yamakawa_Hitoshi_last
-		japanese_flavor_Ohara_Magosaburo_last
-		japanese_flavor_Ayukawa_Yoshisuke_last
-		japanese_flavor_Yamaoka_Mitsutaro_last
-		japanese_flavor_Goto_Keita_last
-		japanese_flavor_Kindaichi_Kyosuke_last
-		japanese_flavor_Shigeno_Kiyotake_last
-		japanese_flavor_Kitaoji_Rosanjin_last
-		japanese_flavor_Arima_Yoriyasu_last
-		japanese_flavor_Nakajima_Chikuhei_last
-		japanese_flavor_Tokugawa_Iemasa_last
-		japanese_flavor_Osugi_Sakae_last
-		japanese_flavor_Sugiyama_Genjiro_last
-		japanese_flavor_Ishihara_Hiroichiro_last
-		japanese_flavor_Aso_Hisashi_last
-		japanese_flavor_Akamatsu_Katsumaro_last
-		japanese_flavor_Minoda_Muneki_last
-		japanese_flavor_Edogawa_Ranpo_last
 		Asako
 		Chikako
 		Ginko
@@ -11934,7 +9788,7 @@ japanese={
 		Teru
 		Toyoko
 		Tsuneko
-	}
+	}	
 	noble_last_names = {
 		Hayashi
 		Ito
@@ -12011,77 +9865,6 @@ japanese={
 		Yashiro
 		Yui
 	}
-	male_regal_first_names = {
-
-		# Son of the 12th Shogun
-		japanese_flavor_Tokugawa_Yoshimasa_first
-
-		# The 13th Shogun, Tokugawa Iesada
-		japanese_flavor_Tokugawa_Iesada_first
-
-		# The 14th Shogun, Tokugawa Iemochi
-		japanese_flavor_Tokugawa_Iemochi_first
-
-		# The 15th Shogun, Tokugawa Yoshinobu (The Last Shogun)
-		japanese_flavor_Tokugawa_Yoshinobu_first
-
-		# The 16th Clan Head, Tokugawa Iesato (not Shogun)
-		japanese_flavor_Tokugawa_Iesato_first
-
-		# Son of the 12th Shogun
-		japanese_flavor_Tokugawa_Yoshimasa_first
-
-		# Given name from the 12th Shogun
-#		japanese_flavor_Tokugawa_Yoshitsugu_first
-#		japanese_flavor_Tokugawa_Yoshikatsu_first
-#		japanese_flavor_Tokugawa_Yoshiatsu_first
-#		japanese_flavor_Tokugawa_Yoshiyori_first
-#		japanese_flavor_Tokugawa_Yoshihisa_first
-#		japanese_flavor_Tokugawa_Yoshitomo_first
-#		japanese_flavor_Tokugawa_Yoshinori_first
-#		japanese_flavor_Date_Yoshikuni_first
-#		japanese_flavor_Maeda_Yoshiyasu_first
-#		japanese_flavor_Ikeda_Yoshiyasu_first
-#		japanese_flavor_Ikeda_Yoshitaka_first
-#		japanese_flavor_Ikeda_Yoshinori_first
-#		japanese_flavor_Ikeda_Yoshimasa_first
-#		japanese_flavor_Asano_Yoshiteru_first
-#		japanese_flavor_Hosokawa_Yoshichika_first
-
-		# Sons of the 11th Shogun
-#		japanese_flavor_Tokugawa_Nariyuki_first
-#		japanese_flavor_Tokugawa_Naritaka_first
-#		japanese_flavor_Tokugawa_Narikatsu_first
-#		japanese_flavor_Tokugawa_Narinori_first
-#		japanese_flavor_Ikeda_Narihiro_first
-#		japanese_flavor_Matsudaira_Naritami_first
-#		japanese_flavor_Matsudaira_Nariyoshi_first
-#		japanese_flavor_Hachisuka_Narihiro_first
-#		japanese_flavor_Matsudaira_Narisawa_first
-#		japanese_flavor_Matsudaira_Narisada_first
-#		japanese_flavor_Matsudaira_Narikoto_first
-#		japanese_flavor_Tokugawa_Nariharu_first
-	}
-	female_common_first_names = {
-		Asako
-		Chikako
-		Ginko
-		Gyokuran
-		Kaho
-		Kei
-		Kin
-		Kumehachi
-		Masako
-		Miki
-		Natsu
-		Nobu
-		Oi
-		Rengetsu
-		Sayoko
-		Teru
-		Toyoko
-		Tsuneko
-	}
 	ethnicities = {
 		1 = asian
 	}
@@ -12116,7 +9899,7 @@ manchu={
 		Wanrong
 		Wengjing
 		Xingzhen
-	}
+	}	
 	noble_last_names = { # Qing princely peerages
 		An
 		Cheng
@@ -12213,7 +9996,7 @@ han={
 		Xuanjiao
 		Yu
 		Yunmei
-	}
+	}	
 	noble_last_names = {
 		Cui
 		Li
@@ -12297,7 +10080,7 @@ korean={
 
 	noble_last_names = {
 		Bak
-		Chang Choe
+		Chang Choe 
 		Gang Gim Gwon
 		Han Hong
 		Jo
@@ -12354,7 +10137,7 @@ ainu={
 		Tahkonanna
 		Umeko
 		Yaeko
-	}
+	}	
 	noble_last_names = {
 		Nakamura
 		Peramonkoro
@@ -12418,7 +10201,7 @@ hakka={
 		Xuanjiao
 		Yu
 		Yunmei
-	}
+	}	
 	noble_last_names = {
 		Cui
 		Li
@@ -12481,7 +10264,7 @@ miao={
 		Xuanjiao
 		Yu
 		Yunmei
-	}
+	}	
 	noble_last_names = {
 		Cui
 		Li
@@ -12546,7 +10329,7 @@ min={
 		Xuanjiao
 		Yu
 		Yunmei
-	}
+	}	
 	noble_last_names = {
 		Cui
 		Li
@@ -12602,7 +10385,7 @@ zhuang={
 		Xuanjiao
 		Yu
 		Yunmei
-	}
+	}	
 	noble_last_names = {
 		Cui
 		Li
@@ -12673,7 +10456,7 @@ yi={
 		Xuanjiao
 		Yu
 		Yunmei
-	}
+	}	
 	noble_last_names = {
 		Cui
 		Li
@@ -12751,7 +10534,7 @@ yue={
 		Xuanjiao
 		Yu
 		Yunmei
-	}
+	}	
 	noble_last_names = {
 		Cui
 		Li
@@ -12814,7 +10597,7 @@ polynesian={
 		Mary
 		Pane
 		Pauahi
-	}
+	}	
 	noble_last_names = {
 		Keliimaikai
 		Kalakaua
@@ -12837,9 +10620,9 @@ polynesian={
 	graphics = generic
 }
 
-hawaiian={ #
+hawaiian={ # 
 	color= hsv{ 0.29 0.26 0.60 }
-	religion = protestant
+	religion = reformed
 	traits = { polynesian_group indigenous_oceanic_heritage }
 	male_noble_first_names = {
 		Alapa_imaloiki _Aikanaka
@@ -12857,7 +10640,7 @@ hawaiian={ #
 		Beniamina
 		Dani_ela
 		_Enoka Ehu
-		Hekekia Hairama Hugo
+		Hekekia Hairama Hugo 
 		Iosepa Ioane Iona Iosua Io_ela Ieremia Isaac
 		Kawika Keoni Kepano Keoki Kimo Kolomona
 		Lewi Luka Lakalo
@@ -12871,7 +10654,7 @@ hawaiian={ #
 	female_common_first_names = {
 		Abigail Ahia Ana Analea
 		Elizabeth
-		Haupa Hana Haleloke
+		Haupa Hana Haleloke 
 		Inaina
 		Kala Kina'u Kaliko Kamamalu Kamaikui Kekahili Kekelaokalani Kauwahine Kalukuna Kipa Kahiliopua Kauwa Kaha
 		Lucy Laura Lanihau
@@ -12879,16 +10662,16 @@ hawaiian={ #
 		Naomi Namahana Namokuelua Na_awa
 		Pane Pauahi Papapaunauapu
 		Rahela
-	}
+	}	
 	noble_last_names = {
 		Aholo
 		Hua Hoapili
 		Keliimaikai Kalakaua Kalaniana_ole Kamehameha Kawananakoa Keoua Kaneakua Ka_auwai Keawe Kalakaua Kanoa Kapeau Kina_u Kanehoa Kekaaniau Kamamali Ka_eo
-		La_anui Loeau Leleiohoku
+		La_anui Loeau Leleiohoku 
 		Moehonua Maheha Mahoe
 		Nakuina Nohomualani Namakeha Naea
 		Olohana
-		Pi_ikoi Peleioholani Palekaluhi Papaiahiahi Pahulemu
+		Pi_ikoi Peleioholani Palekaluhi Papaiahiahi Pahulemu 
 	}
 	common_last_names={
 		Akaka Apoliona Aki Akina Apaka Alapai
@@ -12896,7 +10679,7 @@ hawaiian={ #
 		Hanaike Hakuole Hiwauli Ho_opi_i Haili Hohopa
 		Iaukea _I_i
 		Kahanawai Kahanamoku Kanahele Kekumano Kawelo Kapena Kapaa Kamauoha Kamakau Kapahu Kaunamano Koahou Kaluna Kauhi Kaai Kekuku Kalama Kahauolopua Kaapana Kamakahi
-		Lilikalani Lahilahi
+		Lilikalani Lahilahi 
 		Muolo Maikai Momoa Mahealani Makalua Malo
 		Nawahi Nowlein Napuaelua Nahakuelua Nahinu Nahaolelua Nainoa
 		Piianaia Pua Pukui Punahoa Pavao
@@ -12938,7 +10721,7 @@ melanesian={
 		Salote
 		Sarojini
 		Tauta
-	}
+	}	
 	noble_last_names = {
 		Dovi
 		Sukuna
@@ -12969,7 +10752,7 @@ micronesian={
 	male_common_first_names={
 		Aghurubw
 		Aweijeda
-		Deireragea
+		Deireragea 
 		Hakana
 		Hakapeke
 		Maehua
@@ -12988,7 +10771,7 @@ micronesian={
 		Eigamoiya
 		Eomien
 		Jacinta
-	}
+	}	
 	noble_last_names = {
 		Elato
 		Emea
@@ -13046,7 +10829,7 @@ maori={
 		Te_Kona
 		Tuhikura
 		Whakaawi
-	}
+	}	
 	noble_last_names = {
 		Herangi
 		Heke
@@ -13095,7 +10878,7 @@ aborigine={ # Aboriginal
 		Mindup
 		Naata
 		Yamup
-	}
+	}	
 	noble_last_names = {
 		Agwamin
 		Ayabakan
@@ -13174,7 +10957,7 @@ zapotec={
 		Lina
 		Sofia
 		Violeta
-	}
+	}	
 	noble_last_names = {
 		Charis
 		Cortes
@@ -13265,7 +11048,7 @@ mayan={
 		Rigoberta
 		Rosalina
 		Thelma
-	}
+	}	
 	noble_last_names = {
 		Ay
 		Ceel
@@ -13361,7 +11144,7 @@ nahua={
 		Matilde
 		Modesta
 		Ramona
-	}
+	}	
 	noble_last_names = {
 		Altamirano
 		Cortes
@@ -13458,7 +11241,7 @@ tarascan={
 		Matilde
 		Modesta
 		Ramona
-	}
+	}	
 	noble_last_names = {
 		Calderon
 		Cristobal_2
@@ -13546,7 +11329,7 @@ quechua={
 		Nilda
 		Savina
 		Silvia
-	}
+	}	
 	noble_last_names = {
 		Collahuazo
 		Duchicela
@@ -13641,7 +11424,7 @@ guarani={
 		Sara
 		Ubalda
 		Veronica
-	}
+	}	
 	noble_last_names = {
 		Anzoategui
 		Campero
@@ -13830,7 +11613,7 @@ amazonian={
 		Cristina
 		Maria
 		Teresa
-	}
+	}	
 	noble_last_names = {
 		Aikana
 		Amahuaca
@@ -13922,7 +11705,7 @@ patagonian={
 		Maria
 		Rosario
 		Ximena
-	}
+	}	
 	noble_last_names = {
 		Calfucura
 		Colipi
@@ -14010,7 +11793,7 @@ guajiro={
 	female_common_first_names = {
 		Lido
 		Patricia
-	}
+	}	
 	noble_last_names = {
 		Aapashuna
 		Epieyu
@@ -14084,13 +11867,13 @@ tupinamba={
 		Joana
 		Margarida
 		Maria
-	}
+	}	
 	noble_last_names = {
 		Caiubi
 		Jaguaranha
 		Maracaiaguacu
 		Paraguacu
-		Piquerobi
+		Piquerobi 
 		Rodelas
 		Tibirica
 	}
@@ -14128,14 +11911,14 @@ metis={
 		Blance
 		Charlotte
 		Helene_2
-		Josephte
+		Josephte 
 		Julie
 		Laura
 		Maria
 		Marie-Anne
 		Michele
 		Rosalie
-	}
+	}	
 	noble_last_names = {
 		Lepine
 		Riel
@@ -14181,7 +11964,7 @@ dakota={
 		Wakanmaniwin
 		Wakantakawin
 		Wakhan_Inazin_Win
-	}
+	}	
 	noble_last_names = {
 		Hakadah
 		Ohiya_S-a
@@ -14210,7 +11993,7 @@ dakota={
 
 cherokee={
 	color= rgb{ 105 145 40 }
-	religion = protestant
+	religion = reformed
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
 		Andrew
@@ -14236,7 +12019,7 @@ cherokee={
 		Sharon
 		Virginia
 		Wahnenauhi
-	}
+	}	
 	noble_last_names = {
 		Boudinot
 		Christie
@@ -14275,7 +12058,7 @@ cherokee={
 
 muskogean={ # Creek and Seminole
 	color= hsv{ 0.27 0.2 0.67 }
-	religion = protestant
+	religion = reformed
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
 		Alexander
@@ -14297,7 +12080,7 @@ muskogean={ # Creek and Seminole
 		Martha
 		Polly Polikissut
 		Yulaka
-	}
+	}	
 	noble_last_names = {
 		Ahhajumba
 		Bowlegs Brim
@@ -14358,7 +12141,7 @@ pueblo={
 		Ramita
 		Susan
 		Vera
-	}
+	}	
 	noble_last_names = {
 		Abeita
 		Herrera
@@ -14412,7 +12195,7 @@ inuit={
 		Mina
 		Mitiarjuk
 		Sheila
-	}
+	}	
 	noble_last_names = {
 		Atagotaaluk
 		Tullaugaq
@@ -14470,7 +12253,7 @@ cree={
 		Shirley
 		Tishynah Tuhbenahneequay Tekarihogen
 		Verna
-	}
+	}	
 	noble_last_names = {
 		Ahenakew
 		Ahtahkakoop
@@ -14519,7 +12302,7 @@ navajo={
 		Maria
 		Pablita
 		Theresa
-	}
+	}	
 	noble_last_names = {
 		Begay
 		Dodge
@@ -14574,7 +12357,7 @@ athabaskan={
 		Mina
 		Mitiarjuk
 		Sheila
-	}
+	}	
 	noble_last_names = {
 		Atagotaaluk
 		Tullaugaq
@@ -14633,7 +12416,7 @@ salish={ # Tlingit and Haida merged together, forgive me
 		K-woiyang
 		Qawkuna
 		Skil_Kew_Wat
-	}
+	}	
 	noble_last_names = {
 		Gispwudwada
 		Idinsaw
@@ -14675,7 +12458,7 @@ nez_perce={ # Nez Perce
 		Claudia
 		Heyoon_Yoyikt
 		Khapkhaponimi
-	}
+	}	
 	noble_last_names = {
 		Alpowai
 		Lamatta
@@ -14715,7 +12498,7 @@ siouan={
 		Wakanmaniwin
 		Wakantakawin
 		Wakhan_Inazin_Win
-	}
+	}	
 	noble_last_names = {
 		Hakadah
 		Ohiya_S-a
@@ -14764,7 +12547,7 @@ comanche={
 		Naduah
 		Topsannah Toepay Tonarcy
 		Weakeah
-	}
+	}	
 	noble_last_names = {
 		Hois
 		Kwahadi Kotsoteka
@@ -14793,13 +12576,13 @@ algonquian={
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
 		Catecahassa Cottawamago Cheeseekau
-		Gakiiwegwanebi
+		Gakiiwegwanebi 
 		Hokoleskwa
 		Kekewepelethy
 		Lalawethika Lawoughqua
 		MihS_ihkinaahkwa Moluntha Mahthela Muscquaconocah
 		Puckenshinwa Penagashea Pepquannakek Paxinosa Peteusha PepekitaakamhS_i
-		Quatawapea
+		Quatawapea 
 		Spemica_Lawba Shemanetoo
 		Wawahchepaehai Weyapiersenwah WeS_ihS_imo Wiliwi
 	}
@@ -14817,7 +12600,7 @@ algonquian={
 		Kispokotha KaskE_
 		Mecoce
 		Opessa
-		Pekowi Peckuwe
+		Pekowi Peckuwe 
 		ShipakA_kamithagI_
 		Thawikila
 	}
@@ -14837,7 +12620,7 @@ iroquoian={
 		Hadawa-ko Hayonhwonhish Honayawas Hutgohsodoneh
 		Kaintwakon
 		Skenandoa Sganyodaiyo Sakokwenionkwas Sagoyewatha Sayenqueraghta Sigwaahdohgwih Sosondowa
-		Tanacharison Thaonawyuthe Tejonihokarawa Taignoagny Tewahangarahken
+		Tanacharison Thaonawyuthe Tejonihokarawa Taignoagny Tewahangarahken 
 	}
 	female_common_first_names = {
 		Akat Alliquippa
@@ -14944,7 +12727,7 @@ paiute={ # Ute and Shoshone
 		Pearl
 		Shawsheen
 		Wenega
-	}
+	}	
 	noble_last_names = {
 		House
 		Timbimboo
@@ -14994,7 +12777,7 @@ hokan={
 		Mineru
 		Omesia
 		Pamahas
-	}
+	}	
 	noble_last_names = {
 		Ahwahne
 		Chochenyo
@@ -15042,7 +12825,7 @@ apache={
 		Grace
 		Nampeyo
 		Otellie
-	}
+	}	
 	noble_last_names = {
 		Begaye
 		Katchongva
@@ -15091,7 +12874,7 @@ oodham={
 		Rosa
 		Rowena
 		Sadie
-	}
+	}	
 	noble_last_names = {
 		Crane
 		Ross
@@ -15162,7 +12945,7 @@ mixtec={
 		Rigoberta
 		Rosalina
 		Thelma
-	}
+	}	
 	noble_last_names = {
 		Ay
 		Ceel
@@ -15235,7 +13018,7 @@ muisca={
 		Tinima
 		Yahima
 		Yuisa
-	}
+	}	
 	noble_last_names = {
 		Baitiquiri
 		de_Iguanama
@@ -15262,7 +13045,7 @@ miskito = {
 	color={ 240 240 100 }
 	religion = animist
 	traits = { indigenous_american_heritage native_mesoamerican_culture_group }
-
+	
 	male_common_first_names={
 		Alexander Albert
 		Bedford
@@ -15295,7 +13078,7 @@ miskito = {
 		George
 		Jeremy
 		Peter
-		Robert
+		Robert 
 	}
 	female_regal_first_names = {
 		Agnes Anne
@@ -15326,7 +13109,7 @@ miskito = {
 		Robinson Rivera
 		Warren Wood Weaver
 	}
-
+	
 	ethnicities = {
 		1 = native_american
 	}
@@ -15337,7 +13120,7 @@ cariban={ # Hispanicized. Also includes some Garifuna and Warao names.
 	color={ 52 120 25 }
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
-
+	
 	male_common_first_names={
 		Antonio Aurelio
 		Brigido
@@ -15360,7 +13143,7 @@ cariban={ # Hispanicized. Also includes some Garifuna and Warao names.
 		Maria
 		Patricia
 		Woryi
-	}
+	}	
 	noble_last_names = {
 		Chatoyer
 		Kalina
@@ -15381,16 +13164,11 @@ cariban={ # Hispanicized. Also includes some Garifuna and Warao names.
 	}
 	graphics = generic
 }
-
+	
 yankee={
 	color= rgb{ 135 206 235 } # Sky Blue
-	religion = protestant
+	religion = reformed
 	traits = { anglophone european_heritage }
-
-	obsessions = {
-		newspapers
-	}
-
 	male_common_first_names = {
 		Albert Alexander Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Alvin August Abraham Abel Abijah Alonzo Ansel Amos Absalom
 		Benjamin Bartholomew Byron Benedict Barnabas Bildad
@@ -15404,7 +13182,7 @@ yankee={
 		Joshua Joseph John James Jacob Jesse Joel Jeremiah Jeffrey Judah Jonas Jedediah Jonathan Josiah
 		Kermit Kenner
 		Lemuel Lysander Lawrence Lewis Lorenzo Leland Levi Leonard_2 Lucius
-		Micah Marcellus Mark Michael Millard Matthew Matthias Montgomery Maxwell Milton
+		Micah Marcellus Mark Michael Millard Matthew Matthias Montgomery Maxwell Milton 
 		Nicholas Noah Nathaniel Newton Nelson
 		Obadiah Othniel Oswald Orson Orville Oscar Otis Oliver Orrin Owen Ormsby
 		Peter Paul Patrick Philip Phineas Philemon Purley Palmetus Philetus
@@ -15416,7 +13194,7 @@ yankee={
 		Victor Valentine_2
 		William Walter Winfield Wesley Wilbur Wendell
 		Zebulon Zachary Zalmon Zadok
-
+		
 	}
 	female_common_first_names = {
 		Amanda Anna Alice Adaline Adelaide Augusta Antoinette Alida Addie Ariel Ada Agnes Agatha Almira Arlevia Azubah
@@ -15514,13 +13292,8 @@ yankee={
 
 dixie={
 	color=rgb{ 204 154 91 } # Butternut
-	religion = protestant
+	religion = reformed
 	traits = { anglophone european_heritage }
-
-	obsessions = {
-		newspapers
-	}
-
 	male_common_first_names = {
 		Andrew Alexander Atticus Alpheus Alfred Allen Arthur Augustus Archibald Algernon Ambrose Asa Arthur Angus Abner Auburn Archer Adam Arnold Amos Alben Alwyn
 		Braxton Basil Birkett Bushrod Benedict
@@ -15553,7 +13326,7 @@ dixie={
 		Hetty
 		Izora Isabella
 		Lepha Lettice Lillie Louisa Lydia Loreta Louetta
-		Mary Margaret Monimia
+		Mary Margaret Monimia 
 		Nancy Nora
 		Olivia Otelia
 		Pauline Phoebe Penelope
@@ -15569,7 +13342,7 @@ dixie={
 		Dandridge Dudley Duke Duvall Drayton Davis
 		Eldridge Eden
 		Fairfax Farrar Fitzhugh Fendall
-		Gooch Greenberry
+		Gooch Greenberry 
 		Hopkins Harrison Hammond Hollis Hampton Harbert
 		Jenings
 		Key
@@ -15588,7 +13361,7 @@ dixie={
 		Ashby Ammen Anderson Armistead Alford Allison Asboth
 		Bulloch Benjamin Barbour Battelle Barton Bell Beall Boggs Botts Borst Bragg Brockenbrough Brown Buchanan Baker Bankhead Brantley Badger Bland Branscomb Burgess Baxley Boyanton Benefield
 		Crutchfield Crump Cutshaw Chambliss Cobb Checote Clay Cruikshank Curry Clopton Call Coles Claiborne Craig Cary Chiles Cargile Caudle Chancellor Cliett
-		Dargan Dawson Dickinson Donelson Deas DeBardeleben Deshley Dowdell Dromgoole
+		Dargan Dawson Dickinson Donelson Deas DeBardeleben Deshley Dowdell Dromgoole 
 		Early Eggborn Epes Evans Ewell Edmondson Echols Elmore Eldrige
 		Foster Forrest Forney Fry Finegan Featherston Fiser Friley Fitzgerald Flournoy
 		Grattan Grigsby Grimsley Gray Gildersleeve Gilham Glassel Garnett Gantt Garrott Goodwyn Gracie Guild Galbraith Gettis Gholson Govan Graves Goggin Gridley Goggans
@@ -15724,7 +13497,7 @@ mexican={
 		Mercedes
 		Rita
 		Teodora
-	}
+	}	
 	noble_last_names = {
 		Diaz_2
 		Huarte
@@ -15917,7 +13690,7 @@ central_american={
 		Miriam
 		Paula
 		Rigoberta
-	}
+	}	
 	noble_last_names = {
 		Barrios
 		Escalon
@@ -16051,7 +13824,7 @@ caribeno={
 		Trinidad
 		Ulpiana
 		Victoria
-	}
+	}	
 	noble_last_names = {
 		Batista
 		Colon
@@ -16192,7 +13965,7 @@ north_andean={
 		Rosa
 		Teresa
 		Zoila
-	}
+	}	
 	noble_last_names = {
 		de_Herrera
 		de_Mosquera
@@ -16331,7 +14104,7 @@ south_andean={
 		Sara
 		Teresa
 		Zoila
-	}
+	}	
 	noble_last_names = {
 		de_la_Santa_Cruz
 		de_Santa_Cruz
@@ -16463,7 +14236,7 @@ platinean={
 		Martina
 		Robustiana
 		Sara
-	}
+	}	
 	noble_last_names = {
 		de_Alvear
 		de_Goyeneche
@@ -16602,7 +14375,7 @@ brazilian={
 		Teresa
 		Veridiana
 		Violanta
-	}
+	}	
 	noble_last_names = {
 		Boaventura
 		de_Beaurepaire-Rohan
@@ -16669,7 +14442,7 @@ brazilian={
 
 afro_american={
 	color= hsv{ 0.10 0.10 0.24 }
-	religion = protestant
+	religion = reformed
 	traits = { anglophone african_heritage }
 	male_common_first_names={
 		Albert Abraham Alexander Anthony Adam
@@ -16747,7 +14520,7 @@ afro_american={
 
 afro_caribbean={
 	color= hsv{ 0.32 0.27 0.32 }
-	religion = protestant
+	religion = anglican
 	traits = { african_heritage anglophone }
 	male_common_first_names={
 		Anderson
@@ -16800,7 +14573,7 @@ afro_caribbean={
 		Vanessa
 		Vera
 		Violet
-	}
+	}	
 	noble_last_names = {
 		Cotton
 		Duperly
@@ -16901,7 +14674,7 @@ afro_caribeno={
 		Trinidad
 		Ulpiana
 		Victoria
-	}
+	}	
 	noble_last_names = {
 		Batista
 		Colon
@@ -17007,7 +14780,7 @@ afro_brazilian={
 		Teresa
 		Veridiana
 		Violanta
-	}
+	}	
 	noble_last_names = {
 		Boaventura
 		de_Beaurepaire-Rohan
@@ -17149,7 +14922,7 @@ afro_antillean={
 		Simone
 		Suzanne
 		Timemenne
-	}
+	}	
 	noble_last_names = {
 		Bonheur
 		Breda
@@ -17240,7 +15013,7 @@ akan={
 		Kalsoume
 		Serwaa_Nyarko
 		Yaa_Akyaa
-	}
+	}	
 	noble_last_names = {
 		Asante
 		Bonoman
@@ -17296,7 +15069,7 @@ bambara={
 		Sy
 		Touty
 		Youma
-	}
+	}	
 	noble_last_names = {
 		Bari
 		Bo
@@ -17370,7 +15143,7 @@ dyula={
 		Mafory
 		Mahawa
 		Niara
-	}
+	}	
 	noble_last_names = {
 		Salim-Suwari
 		Sere-Burlay
@@ -17411,7 +15184,7 @@ edo={
 	female_common_first_names = {
 		Emose
 		Orrorro
-	}
+	}	
 	noble_last_names = {
 		Akenzua
 		Idahosa
@@ -17457,7 +15230,7 @@ ewe={
 		Afua
 		Akua
 		Mawuena
-	}
+	}	
 	noble_last_names = {
 		Adadevoh
 		Baeta
@@ -17501,7 +15274,7 @@ fon={
 	female_common_first_names = {
 		Hangbe
 		Hwanjile
-	}
+	}	
 	noble_last_names = {
 		Agonglo
 		Aladaxonou
@@ -17550,7 +15323,7 @@ fulbe={
 		Hadiza
 		Saraki
 		Turai
-	}
+	}	
 	noble_last_names = {
 		Bayero
 		dan_Fodio
@@ -17590,7 +15363,7 @@ haratin={
 		Souhila
 		Touria
 		Zina
-	}
+	}	
 	noble_last_names = {
 		al-Alawi
 		ben_Gana
@@ -17634,7 +15407,7 @@ hausa={
 		Halima
 		Maryam
 		Safiya
-	}
+	}	
 	noble_last_names = {
 		Agalawa
 		Dantata
@@ -17682,7 +15455,7 @@ ibibio={
 		Ifeoma
 		Nwametu
 		Obianuju
-	}
+	}	
 	noble_last_names = {
 		Mgbokpo
 		Nnubi
@@ -17750,7 +15523,7 @@ ibo={
 		Nwaozichi
 		Nwanyieze
 		Ugboaku
-	}
+	}	
 	noble_last_names = {
 		Nnofo
 		Nri
@@ -17793,7 +15566,7 @@ kissi={
 		Nwaozichi
 		Nwanyieze
 		Ugboaku
-	}
+	}	
 	noble_last_names = {
 		Keita
 		Leno
@@ -17847,7 +15620,7 @@ kru={
 		Mary
 		Musue
 		Regina
-	}
+	}	
 	noble_last_names = {
 		Twe
 	}
@@ -17899,7 +15672,7 @@ mande={
 		Moussa
 		Safiya
 		Tamara
-	}
+	}	
 	noble_last_names = {
 		Conde
 		Sankoh
@@ -17958,7 +15731,7 @@ maures={
 	female_common_first_names = {
 		Fatima
 		Sayyida
-	}
+	}	
 	noble_last_names = {
 		Battuta
 		al-Zahrawi
@@ -18017,7 +15790,7 @@ mossi={
 	female_common_first_names = {
 		Fatimah
 		Koudpoko
-	}
+	}	
 	noble_last_names = {
 		Kandi
 		Kwande
@@ -18070,7 +15843,7 @@ senufo={
 	}
 	female_common_first_names = {
 		Fatima
-	}
+	}	
 	noble_last_names = {
 		Ba_Traore
 	}
@@ -18115,7 +15888,7 @@ songhai={
 	female_common_first_names = {
 		Aisha
 		Fatimah
-	}
+	}	
 	noble_last_names = {
 		Askia
 		Attikou
@@ -18151,7 +15924,7 @@ tiv={
 	}
 	female_common_first_names = {
 		Igirgi
-	}
+	}	
 	noble_last_names = {
 		Akahan
 		Akaagerger
@@ -18194,7 +15967,7 @@ tuareg={
 		Malika
 		Nina
 		Safia
-	}
+	}	
 	noble_last_names = {
 		Ag_Alhabib
 		Ikhia
@@ -18238,7 +16011,7 @@ wolof={
 		Fatoumata
 		Ndate_Yalla
 		Njembot
-	}
+	}	
 	noble_last_names = {
 		Cisse
 		Mbodj
@@ -18304,7 +16077,7 @@ yoruba={
 		Oluremi
 		Opo_Olu
 		Tejumade
-	}
+	}	
 	noble_last_names = {
 		Adelana
 		Ademola
@@ -18361,7 +16134,7 @@ bakongo={
 		Isabel
 		Maria
 		Kimpa_Vita
-	}
+	}	
 	noble_last_names = {
 		Kimpanzu
 		Kinlaza
@@ -18407,7 +16180,7 @@ baguirmi={
 		Hadje
 		Salma
 		Zenab
-	}
+	}	
 	noble_last_names = {
 		Kenga
 		Mahamat
@@ -18477,7 +16250,7 @@ fang={
 		Channa
 		Dossou
 		Mferri
-	}
+	}	
 	noble_last_names = {
 		Badjogo
 		Bongo
@@ -18521,7 +16294,7 @@ kanuri={
 	female_common_first_names = {
 		Aissa
 		Maryam
-	}
+	}	
 	noble_last_names = {
 		Duguwa
 		Imam
@@ -18565,7 +16338,7 @@ luba={
 		Bulanda
 		Mabela
 		Tshiambuaya
-	}
+	}	
 	noble_last_names = {
 		Futa
 		Ilunga
@@ -18612,7 +16385,7 @@ lunda={
 		Bulanda
 		Mabela
 		Tshiambuaya
-	}
+	}	
 	noble_last_names = {
 		Futa
 		Ilunga
@@ -18686,7 +16459,7 @@ mongo={
 		Bulanda
 		Mabela
 		Tshiambuaya
-	}
+	}	
 	noble_last_names = {
 		Bokondji
 		Bolamba
@@ -18728,7 +16501,7 @@ sara={
 		Dadji
 		Salma
 		Zenab
-	}
+	}	
 	noble_last_names = {
 		Ngakoutou
 		Tombalbaye
@@ -18763,7 +16536,7 @@ teda={
 	}
 	female_common_first_names = {
 		Fatime
-	}
+	}	
 	noble_last_names = {
 		Habre
 		Kichidemi
@@ -18808,7 +16581,7 @@ equatorial_bantu={ # Gabon + Cameroon + CAR
 		Edzimbi
 		Nizpah
 		Soukda
-	}
+	}	
 	noble_last_names = {
 		a_Doo
 		a_Ewale
@@ -18818,7 +16591,7 @@ equatorial_bantu={ # Gabon + Cameroon + CAR
 		Douala
 		Njoya
 		Sankre
-	}
+	}	
 	common_last_names = {
 		Atabong
 		Beyala
@@ -18859,7 +16632,7 @@ fluvian_bantu = { # DRC
 		Mudima
 		Mwanakitata
 		Neema
-	}
+	}	
 	noble_last_names = {
 		Alenga
 		Bukuru
@@ -18895,7 +16668,7 @@ nilotic = {
 	female_common_first_names = {
 		Kabon
 		Zahra
-	}
+	}	
 	noble_last_names = {
 		arap_Chebii
 		arap_Moi
@@ -18941,7 +16714,7 @@ amhara={
 		Sehin_Mikael
 		Tsehai
 		Zenebework
-	}
+	}	
 	noble_last_names = {
 		Ali_Aba_Deyas
 		Cherecha
@@ -18981,7 +16754,7 @@ afar={
 	female_common_first_names = {
 		Fatimah
 		Medina
-	}
+	}	
 	noble_last_names = {
 		Jasa
 		Kadafo
@@ -19018,7 +16791,7 @@ azande={
 	}
 	female_common_first_names = {
 		Catarina
-	}
+	}	
 	noble_last_names = {
 		Dericoyard
 		Vungara
@@ -19071,7 +16844,7 @@ baganda={
 		Nawaguma
 		Nfambe
 		Samali
-	}
+	}	
 	noble_last_names = {
 		Abalasangeye
 		Bagalayze
@@ -19117,7 +16890,7 @@ beja={
 	female_common_first_names = {
 		Fatimah
 		Medina
-	}
+	}	
 	noble_last_names = {
 		Aliab
 		Busati
@@ -19164,7 +16937,7 @@ dinka={
 		Aluat
 		Ataui
 		Nyandeng
-	}
+	}	
 	noble_last_names = {
 		Deng
 		Zenab
@@ -19216,7 +16989,7 @@ fur={
 	female_common_first_names = {
 		Emtithal
 		Halima
-	}
+	}	
 	noble_last_names = {
 		Keira
 		al-Mahdi
@@ -19276,7 +17049,7 @@ kikuyu={
 		Wambui
 		Wangu
 		Wawira
-	}
+	}	
 	noble_last_names = {
 		wa_Gakure
 		wa_Gathecha
@@ -19336,7 +17109,7 @@ luo={
 		Anyango
 		Habiba
 		Opondo
-	}
+	}	
 	noble_last_names = {
 		Adhiambo
 		Odinga
@@ -19377,7 +17150,7 @@ maasai={
 	female_common_first_names = {
 		Nailantei
 		Sianto
-	}
+	}	
 	noble_last_names = {
 		Arap_Koilege
 		Arap_Samoei
@@ -19417,7 +17190,7 @@ nuer={
 	female_common_first_names = {
 		Kabon
 		Zahra
-	}
+	}	
 	noble_last_names = {
 		arap_Chebii
 		arap_Moi
@@ -19467,7 +17240,7 @@ nuba={
 	female_common_first_names = {
 		Kabon
 		Zahra
-	}
+	}	
 	noble_last_names = {
 		al_Suwaylih
 		El_Din
@@ -19514,7 +17287,7 @@ oromo={
 		Kameria
 		Maryam
 		Tirunesh
-	}
+	}	
 	noble_last_names = {
 		Dinagde
 		Safo
@@ -19563,7 +17336,7 @@ ruanda={
 		Nyirakabuga
 		Nyiramakomali
 		Soraya
-	}
+	}	
 	noble_last_names = {
 		Abanyiginya
 		Hindiro
@@ -19633,7 +17406,7 @@ rundi={
 		Niyakire
 		Ngenzahayo
 		Ririkumutima
-	}
+	}	
 	noble_last_names = {
 		Abaganwa
 		Ntwero
@@ -19680,7 +17453,7 @@ sidama={
 		Kameria
 		Maryam
 		Tirunesh
-	}
+	}	
 	noble_last_names = {
 		Damot
 		Dinagde
@@ -19729,7 +17502,7 @@ somali={
 		Hasna
 		Ilhan
 		Jawahir
-	}
+	}	
 	noble_last_names = {
 		Diiriye
 		Gareen Gobroon
@@ -19788,7 +17561,7 @@ sudanese={
 		Khalida
 		Miriam
 		Noura
-	}
+	}	
 	noble_last_names = {
 		Ali
 		Zubayr
@@ -19857,7 +17630,7 @@ sukuma={
 		Khalila
 		Wema
 		Yobnesh
-	}
+	}	
 	noble_last_names = {
 		Kasanda
 		Watuta
@@ -19929,7 +17702,7 @@ swahili={
 		Shariffa
 		Siti
 		Sughiya
-	}
+	}	
 	noble_last_names = {
 		al-Barwani
 		Al_Said
@@ -20004,7 +17777,7 @@ tigray={
 	female_common_first_names = {
 		Balgada
 		Silass
-	}
+	}	
 	noble_last_names = {
 		Agame
 		Engida
@@ -20076,7 +17849,7 @@ unyamwezi={
 		Khalila
 		Wema
 		Yobnesh
-	}
+	}	
 	noble_last_names = {
 		Kasanda
 		Watuta
@@ -20146,7 +17919,7 @@ lacustrine_bantu={ # Lake Victoria + Lake Tanganyika + Lake Malawi
 		Khalila
 		Wema
 		Yobnesh
-	}
+	}	
 	noble_last_names = {
 		Kasanda
 		Watuta
@@ -20215,7 +17988,7 @@ chewa={
 		Taonere
 		Tapiwa
 		Temwa
-	}
+	}	
 	noble_last_names = {
 		Banda
 		Chisakamzondi
@@ -20282,8 +18055,8 @@ herero={
 		Raimi
 		Razi
 		Reth
-		Vekuii
-		Vipuakuje
+		Vekuii 
+		Vipuakuje 
 		Samuel
 	}
 	female_common_first_names = {
@@ -20291,7 +18064,7 @@ herero={
 		Penehupifo
 		Neshani
 		Tsakana
-	}
+	}	
 	noble_last_names = {
 		Hoveka
 		Kambazembi
@@ -20416,7 +18189,7 @@ lomwe={
 		Taonere
 		Tapiwa
 		Temwa
-	}
+	}	
 	noble_last_names = {
 		Banda
 		Chisakamzondi
@@ -20486,7 +18259,7 @@ makua={
 		Taonere
 		Tapiwa
 		Temwa
-	}
+	}	
 	noble_last_names = {
 		Banda
 		Chisakamzondi
@@ -20528,12 +18301,10 @@ nguni={
 		Kiwanga
 		Magobi
 		Mahengu
-		Sobhuza_I
-		Mswati_II
 		Makhado
 		Matola
 		Mbemchapa
-		Mbulaeni
+		Mbulaeni 
 		Mburu
 		Mhavanginonya
 		Mputa
@@ -20544,14 +18315,11 @@ nguni={
 		Schabruma
 		Sekonyela
 		Sentambandu
-		Soshangane
 		Songea
-		Tshilidzi
+		Tshilidzi 
 		Uawula
 		Ulanga
 		Wasesse
-		Mzilikazi
-		Lobengula
 	}
 	female_common_first_names = {
 		Fulu
@@ -20560,7 +18328,7 @@ nguni={
 		Nthatisi
 		Ntlo-Kholo
 		Tsakane
-	}
+	}	
 	noble_last_names = {
 		Bakgatla
 		kaJama
@@ -20568,9 +18336,6 @@ nguni={
 		kaXaba
 		Ntombazi
 		Vzasenzi
-		Dlamini
-		Khumalo
-		KaZikode
 	}
 	common_last_names={
 		Amari
@@ -20582,7 +18347,6 @@ nguni={
 		Mtemi
 		Mwanawalifa
 		Ngwale
-		Khumalo
 	}
 	ethnicities = {
 		1 = african
@@ -20615,7 +18379,7 @@ ovimbundu={
 		Mussasa
 		Njinga
 		Tembandumba
-	}
+	}	
 	noble_last_names = {
 		Kaza
 		Matamba
@@ -20691,7 +18455,7 @@ sena={
 		Taonere
 		Tapiwa
 		Temwa
-	}
+	}	
 	noble_last_names = {
 		Banda
 		Chisakamzondi
@@ -20734,20 +18498,18 @@ shona={
 		Tichawonna
 		Tohwechipi
 		Zuka
-		Changamire
 	}
 	female_common_first_names = {
 		Charwe
 		Danai
 		Nyamazana
-	}
+	}	
 	noble_last_names = {
 		Hungwe
 		Nzou
 		Rozwi
 		Tjilisamhulu
 		Torwa
-		Tohwechipi
 	}
 	common_last_names={
 		Kwenda
@@ -20758,7 +18520,6 @@ shona={
 		Muhuru
 		Mzilikazi
 		Soshangane
-		Tohwechipi
 	}
 	ethnicities = {
 		1 = african
@@ -20810,8 +18571,6 @@ sotho={
 		Raimi
 		Razi
 		Reth
-		Moshoeshoe_I
-		Letsie_I
 	}
 	female_common_first_names = {
 		Arabang
@@ -20820,7 +18579,7 @@ sotho={
 		Nomaka
 		Nthomeng
 		Senate
-	}
+	}	
 	noble_last_names = {
 		Bamokoteli
 		Masupha
@@ -20835,7 +18594,6 @@ sotho={
 		Matsaba
 		Moerane
 		Moshoeshoe
-		Bamokoteli
 	}
 	ethnicities = {
 		1 = african
@@ -20892,7 +18650,7 @@ tonga={
 		Taonere
 		Tapiwa
 		Temwa
-	}
+	}	
 	noble_last_names = {
 		Banda
 		Chisakamzondi
@@ -20941,7 +18699,7 @@ tswana={
 	female_common_first_names = {
 		Thandi
 		Tshepo
-	}
+	}	
 	noble_last_names = {
 		Kgosiemang
 		Mogale
@@ -20977,8 +18735,6 @@ xhosa={
 		Sipliwo
 		Thandiwe
 		Themba
-		Sarhili
-		Sigcawu
 		Uuka
 	}
 	female_common_first_names = {
@@ -20992,22 +18748,18 @@ xhosa={
 		Nozamile
 		Thobeka
 		Vuyiswa
-	}
+	}	
 	noble_last_names = {
 		kaGcaleka
 		kaHintsa
 		kaPhalo
 		Sigcawu
-		Kahintsa
-		Kasarhili
 	}
 	common_last_names={
 		Behle
 		Dlamini
 		Dosini
 		Gqunu
-		Kahintsa
-		Kasarhili
 		Gxarha
 		Hegebe
 		Khawatu
@@ -21119,7 +18871,7 @@ zulu={
 		Ngqumbazi
 		Mthethwa
 		Sibusile
-	}
+	}	
 	noble_last_names = {
 		Buthelezei
 		kaDinuzulu
@@ -21174,7 +18926,7 @@ kavango_bantu={ # Angola + Namibia
 		Mussasa
 		Njinga
 		Tembandumba
-	}
+	}	
 	noble_last_names = {
 		Kaza
 		Matamba
@@ -21209,13 +18961,8 @@ kavango_bantu={ # Angola + Namibia
 
 anglo_canadian={
 	color= hsv{ 0.22 0.22 0.45 }
-	religion = protestant
+	religion = anglican
 	traits = { anglophone european_heritage }
-
-	obsessions = {
-		newspapers
-	}
-
 	male_common_first_names={
 		Albert
 		Alexander
@@ -21296,7 +19043,7 @@ anglo_canadian={
 		Sarah
 		Victoria
 		Virna
-	}
+	}	
 	noble_last_names = {
 		Abbott
 		Acheson
@@ -21423,11 +19170,6 @@ franco_canadian={
 	color= rgb{ 87 120 181 }
 	religion = catholic
 	traits = { francophone european_heritage }
-
-	obsessions = {
-		newspapers
-	}
-
 	male_common_first_names={
 		Adolphe
 		Alain
@@ -21523,7 +19265,7 @@ franco_canadian={
 		Raymonde
 		Sophie
 		Yvette
-	}
+	}	
 	noble_last_names = {
 		Bedard
 		Bellemare
@@ -21626,7 +19368,7 @@ sorb={
 		Roza
 		Sofija
 		Tanja
-	}
+	}	
 	noble_last_names = {
 		Bart-Cisinski
 		Sturm
@@ -21700,7 +19442,7 @@ tuvan={
 	}
 
 	noble_last_names = {
-
+		
 	}
 	common_last_names={
 		Kuular
@@ -21810,7 +19552,7 @@ corsican = {
 		Sofia
 		Teresa
 
-	}
+	}	
 	noble_last_names = {
 			Borghese
 		Capodilista
@@ -21930,7 +19672,7 @@ yemenite={
 		Sulafa
 		Zeina
 		Zuhur
-	}
+	}	
 	noble_last_names = {
 		al-Ali
 		al-Atassi

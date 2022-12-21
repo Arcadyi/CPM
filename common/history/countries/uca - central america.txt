@@ -14,7 +14,11 @@
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_police
-		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_total_separation
+		
+		trigger_event = {
+			id = central_america.8
+		}
 
 		ig:ig_armed_forces = {
 			add_ideology = ideology_caudillismo
@@ -36,8 +40,5 @@
 			is_decaying = yes
 		}
 
-		add_journal_entry = {
-			type = central_america_falls_apart
-		}
 	}
 }

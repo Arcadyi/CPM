@@ -9,6 +9,7 @@
 			age = 60
 			interest_group = ig_armed_forces
 			ideology = ideology_jingoist_leader
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Jean-Pierre_Boyer
 				ambitious

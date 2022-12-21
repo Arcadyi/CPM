@@ -9,6 +9,7 @@
 			dna = dna_king_bagyidaw
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Bagyidaw_Konbaung
 				reckless
@@ -23,6 +24,7 @@
 			birth_date = 1787.3.14
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Tharrawaddy_Konbaung
 				ambitious

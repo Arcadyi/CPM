@@ -260,7 +260,7 @@ types production_methods
 	### autoexpand
 	type building_auto_expand = widget {
 		visible = "[IsPotential( Building.ToggleAutoExpand )]"
-		size = { 30 30 }
+		size = { 35 35 }
 		
 		icon = {
 			using = rotate_glow_blue
@@ -367,7 +367,7 @@ types production_methods
 
 		### TOP ITEM
 		widget = {
-			size = { @panel_width_plus_14 75 }
+			size = { @panel_width_plus_14 95 }
 
 			highlight_tutorial_ui = {
 	   			visible = "[BuildingType.IsBeingTutorialHighlighted]"
@@ -376,8 +376,8 @@ types production_methods
 			### DROPDOWN / EXPAND
 			section_header_button = {
 				parentanchor = left
-				position = { 85 0 }
-				size = { 440 28 }
+				position = { 110 0 }
+				size = { 440 38 }
 				
 				blockoverride "left_text" {
 					text = "#v [ProductionMethodsPanelEntry.GetBuildingType.GetNameNoFormatting]#!"
@@ -405,19 +405,19 @@ types production_methods
 			
 			### production methods grouped
 			container = {
-				position = { 170 0 }
+				position = { 135 0 }
 				parentanchor = bottom
 				name = "tutorial_highlight_production_methods"
 				
 				fixedgridbox = {
 					datamodel = "[ProductionMethodsPanelEntry.AccessBuildingType.AccessProductionMethodGroups]"
 					flipdirection = yes
-					addcolumn = 42
-					addrow = 40
+					addcolumn = 52
+					addrow = 50
 
 					item = {
 						widget = {
-							size = { 40 40 }
+							size = { 50 50 }
 							tooltip = "[ProductionMethodsPanelEntry.GetBulkChangeTooltip( ProductionMethodGroup.Self )]"
 							using = tooltip_above
 
@@ -482,7 +482,7 @@ types production_methods
 			icon = {
 				datacontext = "[ProductionMethodsPanelEntry.GetBuildingType]"
 				texture = "[ProductionMethodsPanelEntry.GetBuildingType.GetTexture]"
-				size = { 75 75 }
+				size = { 100 100 }
 				position = { 7 0 }
 				parentanchor = left|vcenter
 
@@ -499,7 +499,7 @@ types production_methods
 				
 				### expand
 				button_icon_round_map_interaction = {
-					size = { 35 35 }
+					size = { 40 40 }
 					blockoverride "icon" {
 						texture = "gfx/interface/buttons/button_icons/plus.dds"
 					}
@@ -512,7 +512,7 @@ types production_methods
 
 				### subsidize
 				widget = {
-					size = { 35 35 }
+					size = { 40 40 }
 					visible = "[ProductionMethodsPanelEntry.GetBuildingType.CanBeSubsidized]"
 					
 					icon = {
@@ -571,7 +571,7 @@ types production_methods
 
 				### auto expand
 				widget = {
-					size = { 35 35 }
+					size = { 40 40 }
 					visible = "[ProductionMethodsPanelEntry.GetBuildingType.CanBeAutoExpanded]"
 					
 					icon = {
@@ -647,15 +647,13 @@ types production_methods
 			using = expanded_list_bg
 			datamodel = "[ProductionMethodsPanelEntry.AccessBuildings]"
 			visible = "[ProductionMethodsPanelEntry.IsExpanded]"
-			spacing = 0
-			margin_top = 0
 
 			item = {
 				widget = {
 					highlight_tutorial_ui = {
 						visible = "[Building.IsBeingTutorialHighlighted]"
 					}
-					size = { @panel_width 85 }
+					size = { @panel_width 105 }
 					parentanchor = hcenter
 					
 					background = {
@@ -669,7 +667,7 @@ types production_methods
 					button = {
 						parentanchor = hcenter
 						position = { 0 5 }
-						size = { @panel_width_minus_10 28 }
+						size = { @panel_width_minus_10 38 }
 						using = default_button
 						
 						onclick = "[InformationPanelBar.OpenBuildingDetailsPanel(Building.AccessSelf)]"
@@ -679,141 +677,126 @@ types production_methods
 						tooltipwidget = {
 							FancyTooltip_Building = {}
 						}
-											
+						
 						textbox = {
 							position = { 15 0 }
 							text = "#v [Building.GetState.GetName]#!"
 							size = { 305 30 }
-							
 							align = left|nobaseline
 							elide = right
 							parentanchor = left|vcenter
 						}
 						
+						# % unemployed
+						#textbox = {
+						#	widgetid = "[Concatenate('productivity_value', Building.GetIDString)]"
+						#	visible = "[Not(Building.IsSubsistenceBuilding)]"
+						#	position = { -190 0 }
+						#	text = "[Building.GetEmploymentPercentage|0%] unemployed"
+						#	autoresize = yes
+						#	align = nobaseline
+						#	parentanchor = right|vcenter
+						#}
 						
-						
-						
-						### EMPLOYMENT
-						widget = {
-							#visible = "[LessThan_int32(Building.GetNoOfEmployed, Building.GetEmployeeCap)]"
-							size = { 125 15 }
-							tooltip = "TOOLTIP_BUILDING_EMPLOYMENT"
-							parentanchor = right|vcenter
-							position = {-150 0}
+						flowcontainer = {
+							parentanchor = center|vcenter
+							widgetid = "[Concatenate('productivity_value', Building.GetIDString)]"
+							visible = "[And(Not(Building.IsSubsistenceBuilding), And(EqualTo_int32(Building.GetState.GetNumSubsistenceWorkingAdults, '(int32)0'), EqualTo_int32(Building.GetState.GetNumUnemployedWorkingAdults, '(int32)0')))]"
 							
-							default_progressbar_horizontal = {
-								#tooltip = "TOOLTIP_BUILDING_EMPLOYMENT"
-								size = { 75% 100% }
-								parentanchor = right|vcenter
-
-								blockoverride "values" {
-									value = "[FixedPointToFloat(Building.GetEmploymentPercentage)]"
-									min = 0
-									max = 1
-								}
-								
-								flowcontainer = {
-									parentanchor = hcenter|vcenter
-									textbox = {
-										#text = EMPLOYMENT_BAR
-										#text = "[Building.GetEmploymentPercentage|0%]"
-										text = "[Building.GetNoOfEmployed|D]"
-										#text = "99.9K"
-										margin_bottom = 5
-										margin_top = 5
-										align = hcenter|nobaseline
-										autoresize = yes
-										parentanchor = vcenter
-										widgetanchor = vcenter
-									}
-
-									textbox = {
-										visible = "[LessThan_int32(Building.GetNoOfEmployed, Building.GetEmployeeCap)]"
-										text = "/#maximum [Building.GetEmployeeCap|D]#!"
-										#text = "/#maximum [Building.GetEmployeeCap|1*]#!"
-										#text = "/#maximum 99.9K#!"
-										align = hcenter|nobaseline
-										autoresize = yes
-										parentanchor = vcenter
-										widgetanchor = vcenter
-									}
-								}
+							icon = {
+								texture = "gfx/interface/icons/pops_icons/peasants.dds"
+								size = { 20 20 }
+								tooltip = "STATE_PEASANTS"
 							}
-
 							
-
-							icon = {
-								visible = "[And(Not(Building.IsSubsistenceBuilding), Building.HasFailedHires)]"
-								size = { 23 23 }
-								texture = "gfx/interface/icons/generic_icons/employment_not_full.dds"
-								parentanchor = left|vcenter
-								tooltip = "NOT_FULLY_EMPLOYED"
-								position = { 0 0 }
-							}
-
-							icon = {
-								visible = "[And(And(And(Not(Building.IsGovernmentFunded), Not(GreaterThan_CFixedPoint(Building.GetAverageAnnualEarningsPerEmployee, '(CFixedPoint)0'))) , Not(Building.IsSubsidized)), EqualTo_CFixedPoint(Building.GetCurrentCashReserves, '(CFixedPoint)0'))]"
-								size = { 23 23 }
-								texture = "gfx/interface/icons/generic_icons/employment_not_full.dds"
-								parentanchor = left|vcenter
-								tooltip = "NOT_HIRING"
-								position = { 0 0 }
-							}
-
-							icon = {
-								visible = "[And(And(And(And(Not(Building.IsSubsistenceBuilding), Not(Building.HasFailedHires)), Building.IsActive), LessThan_int32(Building.GetNoOfEmployed, Building.GetEmployeeCap)), GreaterThan_CFixedPoint(Building.GetAverageAnnualEarningsPerEmployee, '(CFixedPoint)0'))]"
-								size = { 23 23 }
-								parentanchor = left|vcenter
-								texture = "gfx/interface/icons/generic_icons/employment_not_full_hiring.dds"
-								tooltip = "TOOLTIP_BUILDING_HIRING"
-								position = { 0 0 }
+							textbox = {
+								autoresize = yes
+								align = right|nobaseline
+								margin_right = 8
+								minimumsize = { 48 -1 }
+								maximumsize = { 48 -1 }
+								text = "#!None"
+								tooltip = "STATE_PEASANTS"
 							}
 						}
 						
+						flowcontainer = {
+							parentanchor = center|vcenter
+							widgetid = "[Concatenate('productivity_value', Building.GetIDString)]"
+							visible = "[And(Not(Building.IsSubsistenceBuilding), And(GreaterThan_int32(Building.GetState.GetNumSubsistenceWorkingAdults, '(int32)0'), EqualTo_int32(Building.GetState.GetNumUnemployedWorkingAdults, '(int32)0')))]"
+							
+							icon = {
+								texture = "gfx/interface/icons/pops_icons/peasants.dds"
+								size = { 20 20 }
+								tooltip = "STATE_PEASANTS"
+							}
+							
+							textbox = {
+								autoresize = yes
+								align = right|nobaseline
+								margin_right = 8
+								minimumsize = { 48 -1 }
+								maximumsize = { 48 -1 }
+								text = "#![Building.GetState.GetNumSubsistenceWorkingAdults|*0]"
+								tooltip = "STATE_PEASANTS"
+							}
+						}
 						
-						### WEEKLY BALANCE
+						flowcontainer = {
+							parentanchor = center|vcenter
+							widgetid = "[Concatenate('productivity_value', Building.GetIDString)]"
+							visible = "[And(Not(Building.IsSubsistenceBuilding), And(GreaterThan_int32(Building.GetState.GetNumUnemployedWorkingAdults, '(int32)0'), EqualTo_int32(Building.GetState.GetNumSubsistenceWorkingAdults, '(int32)0')))]"
+						
+							icon = {
+								texture = "gfx/interface/icons/pops_icons/unemployed.dds"
+								size = { 20 20 }
+								tooltip = "STATE_UNEMPLOYED"
+							}
+							
+							textbox = {
+								autoresize = yes
+								align = right|nobaseline
+								margin_right = 8
+								minimumsize = { 48 -1 }
+								maximumsize = { 48 -1 }
+								text = "#![Building.GetState.GetNumUnemployedWorkingAdults|*0]"
+								tooltip = "STATE_UNEMPLOYED"
+							}
+						}
+						
+						flowcontainer = {
+							parentanchor = center|vcenter
+							widgetid = "[Concatenate('productivity_value', Building.GetIDString)]"
+							visible = "[And(Not(Building.IsSubsistenceBuilding), And(GreaterThan_int32(Building.GetState.GetNumSubsistenceWorkingAdults, '(int32)0'), GreaterThan_int32(Building.GetState.GetNumUnemployedWorkingAdults, '(int32)0')))]"
+							
+							icon = {
+								texture = "gfx/interface/icons/pops_icons/peasants.dds"
+								size = { 20 20 }
+								tooltip = "STATE_AVAILABLE_LABOR"
+							}
+							
+							textbox = {
+								autoresize = yes
+								align = right|nobaseline
+								margin_right = 8
+								minimumsize = { 48 -1 }
+								maximumsize = { 48 -1 }
+								text = "#![Add_int32(Building.GetState.GetNumSubsistenceWorkingAdults,Building.GetState.GetNumUnemployedWorkingAdults)|*0]"
+								tooltip = "STATE_AVAILABLE_LABOR"
+							}
+						}
+						
+						# % employed
 						textbox = {
-							widgetid = "[Concatenate('balance_value', Building.GetIDString)]"
-							visible = "[And(Not(Building.IsGovernmentFunded), Not(Building.IsSubsistenceBuilding))]"
-							position = { -70 0 }
-							text = "@money!#v [Building.GetBalance|D+=]#!"
-							tooltip = "[Building.GetBalanceDesc]"
+							widgetid = "[Concatenate('productivity_value', Building.GetIDString)]"
+							visible = "[Not(Building.IsSubsistenceBuilding)]"
+							position = { -100 0 }
+							text = "[Building.GetEmploymentPercentage|0%] staffed"
 							autoresize = yes
 							align = nobaseline
 							parentanchor = right|vcenter
 						}
-						
-						textbox = {
-							text = "#N @money!#bold -[Building.GetSubsidies|D]#!"
-							tooltip = "[Building.GetSubsidiesDesc]"
-							autoresize = yes
-							position = { -70 0 }
-							align = nobaseline
-							parentanchor = right|vcenter
-							visible = "[And(Building.GetBuildingType.CanBeSubsidized,Building.IsSubsidized)]"
-							alpha = 0
-							
-							state = {
-								name = _show
-								position_y = 15
-								alpha = 1
-								duration = 0.2
-								using = Animation_Curve_Default
-							}
-							state = {
-								name = _hide
-								alpha = 0
-								duration = 0.4
-								position_y = 0
-								using = Animation_Curve_Default
-							}
-						}
-						
-						# vertical_divider = {
-							# parentanchor = right|vcenter
-							# position = {-65 0}
-						# }
-						
+
 						### PROFITABLE
 						textbox = {
 							widgetid = "[Concatenate('productivity_value', Building.GetIDString)]"
@@ -824,117 +807,20 @@ types production_methods
 							align = nobaseline
 							parentanchor = right|vcenter
 						}
-						
 					}
-					
-					### STATE INFRASTRUCTURE AND UNEMPLOYMENT
-					flowcontainer = {
-						direction = vertical
-						position = { 85 33 }
-						parentanchor = top
-						datacontext = "[Building.GetState]"
-						
-						flowcontainer = {	
-							
-							icon = {
-								texture = "gfx/interface/icons/state_status_icons/state_infrastructure.dds"
-								size = { 20 20 }
-								tooltip = "STATE_INFRASTRUCTURE"
-							}
-							
-							textbox = {	
-								align = left|nobaseline
-								autoresize = yes
-								margin_left = 5
-								size = { 75 20 }	
-								text = "[State.GetInfrastructureBalance|*0]"
-								fontsize = 14
-								visible = "[GreaterThan_CFixedPoint(State.GetInfrastructureBalance, '(CFixedPoint)0')]"
-								tooltip = "STATE_INFRASTRUCTURE_DESC"
-							}
-							
-							textbox = {
-								align = left|nobaseline
-								autoresize = yes
-								margin_left = 5
-								size = { 75 20 }	
-								text = "[State.GetInfrastructureBalance|*0R]"
-								fontsize = 14
-								visible = "[Not(GreaterThan_CFixedPoint(State.GetInfrastructureBalance, '(CFixedPoint)0'))]"
-								tooltip = "STATE_INFRASTRUCTURE_DESC"				
-							}
-							
-							# icon = {
-								# texture = "gfx/interface/icons/state_status_icons/state_tax_capacity.dds"
-								# size = { 20 20 }
-								# tooltip = "STATE_TAX_CAPACITY_DESC"
-								# visible = "[Not(GreaterThan_CFixedPoint(State.CalcTaxCapacityBalance, '(CFixedPoint)0'))]"
-							# }
-							
-							# textbox = {	
-								# align = left|nobaseline
-								# autoresize = yes
-								# margin_left = 5
-								# size = { 75 20 }	
-								# text = "[State.CalcTaxCapacityBalance|*0]"
-								# fontsize = 14
-								# visible = "[GreaterThan_CFixedPoint(State.CalcTaxCapacityBalance, '(CFixedPoint)0')]"
-								# tooltip = "STATE_TAX_CAPACITY_DESC"
-							# }
-							
-							# textbox = {
-								# align = left|nobaseline
-								# autoresize = yes
-								# margin_left = 5
-								# size = { 75 20 }	
-								# text = "[State.CalcTaxCapacityBalance|*0R]"
-								# fontsize = 14
-								# visible = "[Not(GreaterThan_CFixedPoint(State.CalcTaxCapacityBalance, '(CFixedPoint)0'))]"
-								# tooltip = "STATE_TAX_CAPACITY_DESC"				
-							# }
-						}
-						
-						flowcontainer = {
-							#visible = "[Or(GreaterThan_int32(State.GetNumSubsistenceWorkingAdults, '(int32)0'), GreaterThan_int32(State.GetNumUnemployedWorkingAdults, '(int32)0'))]"
-							
-							icon = {
-								visible = "[GreaterThanOrEqualTo_int32(State.GetNumSubsistenceWorkingAdults,State.GetNumUnemployedWorkingAdults)]"
-								texture = "gfx/interface/icons/pops_icons/peasants.dds"
-								size = { 20 20 }
-								tooltip = "STATE_AVAILABLE_LABOR"
-							}
-							icon = {
-								visible = "[GreaterThan_int32(State.GetNumUnemployedWorkingAdults,State.GetNumSubsistenceWorkingAdults)]"
-								texture = "gfx/interface/icons/pops_icons/unemployed.dds"
-								size = { 20 20 }
-								tooltip = "STATE_AVAILABLE_LABOR"
-							}
-							
-							textbox = {
-								text = "[Add_int32(State.GetNumSubsistenceWorkingAdults,State.GetNumUnemployedWorkingAdults)|*0]"
-								align = left|nobaseline
-								margin_left = 5
-								autoresize = yes
-								size = { 75 20 }
-								fontsize = 14
-								tooltip = "STATE_AVAILABLE_LABOR"
-							}
-						}
-					}
-					
 					
 					### production methods single
 					fixedgridbox = {
-						position = { 165 -8 }
+						position = { 130 -5 }
 						parentanchor = bottom
 						datamodel = "[Building.AccessProductionMethodGroups]"
 						flipdirection = yes
-						addcolumn = 42
-						addrow = 40
+						addcolumn = 52
+						addrow = 50
 
 						item = {
 							widget = {
-								size = { 40 40 }
+								size = { 50 50 }
 								datacontext = "[Building.AccessProductionMethod(ProductionMethodGroup.Self)]"
 								datacontext = "[ProductionMethod]"
                                 datacontext = "[Building]"
@@ -985,142 +871,45 @@ types production_methods
 						}
 					}
 
-					### GOODS AND ACTION BUTTONS
+					### ACTION BUTTONS
 					flowcontainer = {
-						parentanchor = right|bottom
-						position = {-5 -1}
-						
-						#INPUT AND OUTPUT GOODS	
-						flowcontainer = {
-							parentanchor = bottom
-							margin_bottom = 5
-							margin_right = 5
-							#position = {-45 20}
-							
-							#CONSUMED GOODS
-							fixedgridbox = {
-								#parentanchor = right
-								#position = { -125 50 }
-								datamodel = "[Building.AccessConsumedGoods]"
-								addcolumn = 20
-								addrow = 20
-								datamodel_wrap = 2
-
-								item = {
-									widget = {
-										size = { 20 20 }
-										name = "tutorial_highlight_goods"
-										tooltipwidget = {
-											FancyTooltip_Goods = {}
-										}
-										
-										button = {
-											size = { 100% 100% }
-											position = { 0 0 }
-											parentanchor = vcenter
-											onclick = "[InformationPanelBar.OpenGoodsStatePanel(Building.GetState, Goods.Self)]"
-											onrightclick = "[RightClickMenuManager.ShowForGoods(Goods.AccessSelf)]"
-										}
-
-										icon = {
-											size = { 20 20 }
-											texture = "[Goods.GetTexture]"
-											position = { 3 0 }
-											parentanchor = left|vcenter
-										}
-
-										icon = {
-											size = { 12 12 }
-											visible = "[And(Not(Building.HasMaximumInputShortage(Goods.Self)),Building.HasInputShortage(Goods.Self))]"
-											texture = "gfx/interface/icons/generic_icons/goods_shortage.dds"
-											tooltip = "GOODS_INPUT_SHORTAGE_TOOLTIP"
-											parentanchor = bottom
-										}
-
-										icon = {
-											size = { 12 12 }
-											visible = "[Building.HasMaximumInputShortage(Goods.Self)]"
-											texture = "gfx/interface/icons/generic_icons/goods_shortage.dds"
-											tooltip = "GOODS_INPUT_SHORTAGE_MAX_TOOLTIP"
-											parentanchor = bottom
-										}
-									}
-								}
-							}
-							
-							#VERTICAL DIVIDER
-							vertical_divider = {
-								size = {10 100%}
-								visible = "[And(Not(IsDataModelEmpty(Building.AccessConsumedGoods)),Not(IsDataModelEmpty(Building.AccessProducedGoods)))]"
-								#parentanchor = right|vcenter
-								#position = {-40 0}
-							}
-							
-							#PRODUCED GOODS
-							fixedgridbox = {
-								visible = "[Not(IsDataModelEmpty(Building.AccessProducedGoods))]"
-								#parentanchor = right
-								#position = { -40 50 }
-								datamodel = "[Building.AccessProducedGoods]"
-								addcolumn = 20
-								addrow = 20
-								datamodel_wrap = 2
-
-								item = {
-									widget = {
-										size = { 20 20 }
-										name = "tutorial_highlight_goods"
-										tooltipwidget = {
-											FancyTooltip_Goods = {}
-										}
-										
-										button = {
-											size = { 100% 100% }
-											position = { 0 0 }
-											parentanchor = vcenter
-											onclick = "[InformationPanelBar.OpenGoodsStatePanel(Building.GetState, Goods.Self)]"
-											onrightclick = "[RightClickMenuManager.ShowForGoods(Goods.AccessSelf)]"
-										}
-
-										icon = {
-											size = { 20 20 }
-											texture = "[Goods.GetTexture]"
-											#position = { 3 0 }
-											parentanchor = left|vcenter
-										}
-
-										icon = {
-											size = { 12 12 }
-											visible = "[And(Not(Building.HasMaximumInputShortage(Goods.Self)),Building.HasInputShortage(Goods.Self))]"
-											texture = "gfx/interface/icons/generic_icons/goods_shortage.dds"
-											tooltip = "GOODS_INPUT_SHORTAGE_TOOLTIP"
-											parentanchor = bottom
-										}
-
-										icon = {
-											size = { 12 12 }
-											visible = "[Building.HasMaximumInputShortage(Goods.Self)]"
-											texture = "gfx/interface/icons/generic_icons/goods_shortage.dds"
-											tooltip = "GOODS_INPUT_SHORTAGE_MAX_TOOLTIP"
-											parentanchor = bottom
-										}
-									}
-								}
-							}
-						}					
-
-						### ACTION BUTTONS
+						parentanchor = bottom|right
+						position = { -5 -15 }
+						spacing = 5
+					
+						### subsidize
 						widget = {
-							size = {25 50}
-							visible = "[Or(IsPotential(Building.ToggleAutoExpand),Building.GetBuildingType.CanBeSubsidized)]"
-							#direction = vertical
-							#parentanchor = bottom|right
-							#position = { -5 -2 }
-							#spacing = 5
-						
-							### SUBSIDIZE							
+							size = { 80 35 }
+							
+							textbox = {
+								text = "#N @money!#bold -[Building.GetSubsidies|D]#!"
+								tooltip = "[Building.GetSubsidiesDesc]"
+								autoresize = yes
+								position = { 0 0 }
+								align = nobaseline
+								parentanchor = right|vcenter
+								visible = "[And(Building.GetBuildingType.CanBeSubsidized,Building.IsSubsidized)]"
+								alpha = 0
+								
+								state = {
+									name = _show
+									position_x = -42
+									alpha = 1
+									duration = 0.2
+									using = Animation_Curve_Default
+								}
+								state = {
+									name = _hide
+									alpha = 0
+									duration = 0.4
+									position_x = 0
+									using = Animation_Curve_Default
+								}
+							}
+							
 							widget = {
-								size = { 25 25 }
+								size = { 35 35 }
+								parentanchor = right
 								
 								icon = {
 									using = rotate_glow_blue
@@ -1161,31 +950,57 @@ types production_methods
 									}
 								}
 							}
-							
-							
-							### AUTOEXPAND
-							building_auto_expand = {
-								parentanchor = bottom
-								size = { 25 25 }
-							}
 						}
+						
+						### AUTOEXPAND
+						building_auto_expand = {}
 					}
 
-					### DOWNSIZE/EXPAND BUTTONS
 					flowcontainer = {
-						position = { 7 15 }
+						position = { 5 21 }
+						direction = vertical
 						spacing = 5
 						parentanchor = vcenter
-						
-						flowcontainer = {
-							direction = vertical
-							spacing = 5
-							parentanchor = vcenter
-							
+
+						### DOWNSIZE / EXPAND
+						container = {
+							minimumsize = { 110 35 }
+
+							### DOWNSIZE
+							button_icon_minus_action = {
+								size = { 35 35 }
+								parentanchor = vcenter
+								tooltip = "[Building.GetDownsizeTooltip]"
+								onclick = "[Execute( Building.Downsize )]"
+								enabled = "[IsValid( Building.Downsize )]"
+								visible = "[Not( ShouldAskConfirmation( Building.Downsize ) )]"
+								using = tooltip_below
+							}
+
+							### DOWNSIZE WITH CONFIRMATION
+							button_icon_minus_action = {
+								size = { 35 35 }
+								parentanchor = vcenter
+								tooltip = "[Building.GetDownsizeTooltip]"
+								onclick = "[PopupManager.AskConfirmation( Building.Downsize )]"
+								enabled = "[IsValid( Building.Downsize )]"
+								visible = "[ShouldAskConfirmation( Building.Downsize )]"
+								using = tooltip_below
+							}
+
+							### CANCEL CONSTRUCTION
+							button_icon_minus_action = {
+								size = { 35 35 }
+								parentanchor = vcenter
+								tooltip = "[Building.GetCancelConstructionTooltip]"
+								visible = "[IsValid( Building.CancelConstruction )]"
+								onclick = "[Execute( Building.CancelConstruction )]"
+								using = tooltip_below
+							}
+
 							### LEVEL
 							container = {
-								minimumsize = {40 35}
-								
+								position = { 35 0 }
 								background = {
 									using = entry_bg
 									margin = { 0 -2 }
@@ -1200,56 +1015,30 @@ types production_methods
 								}
 							}
 
-							### BUILD PROGRESS
-							default_progressbar_horizontal = {
-								visible = "[Building.HasConstructionQueued]"
-								tooltip = "BUILDING_PROGRESS_TOOLTIP"
-								size = { 90% 5 }
-								parentanchor = hcenter
-
-								blockoverride "values" {
-									value = "[Building.GetConstructionProgressPercentage]"
-									min = 0
-									max = 1
-								}
-							}
-						}
-						
-						### DOWNSIZE / EXPAND
-						container = {
-							minimumsize = { 25 50 }
-							
-							### DOWNSIZE
-							button_icon_minus = {
-								size = { 25 25 }
-								parentanchor = left|bottom
-								tooltip = "[Building.GetDownsizeTooltip]"
-								onclick = "[Execute( Building.Downsize )]"
-								enabled = "[IsValid( Building.Downsize )]"
-								using = tooltip_below
-							}
-
-							### CANCEL CONSTRUCTION
-							button_icon_minus = {
-								size = { 25 25 }
-								parentanchor = left|bottom
-								tooltip = "[Building.GetCancelConstructionTooltip]"
-								visible = "[IsValid( Building.CancelConstruction )]"
-								onclick = "[Execute( Building.CancelConstruction )]"
-								using = tooltip_below
-							}
-
-							
-
 							### EXPAND
 							button_icon_plus = {
 								widgetid = "[Concatenate('building_expand', Building.GetIDString)]"
-								size = { 25 25 }
-								parentanchor = right|top
+								position = { 75 0 }
+								size = { 35 35 }
+								parentanchor = vcenter
 								tooltip = "[Building.GetQueueConstructionTooltip]"
 								onclick = "[Execute( Building.QueueConstruction )]"
 								enabled = "[IsValid( Building.QueueConstruction )]"
 								visible = "[And(Building.GetOwner.IsLocalPlayer, Building.IsExpandable)]"
+							}
+						}
+
+						### BUILD PROGRESS
+						default_progressbar_horizontal = {
+							visible = "[Building.HasConstructionQueued]"
+							tooltip = "BUILDING_PROGRESS_TOOLTIP"
+							size = { 100 5 }
+							using = default_list_position
+
+							blockoverride "values" {
+								value = "[Building.GetConstructionProgressPercentage]"
+								min = 0
+								max = 1
 							}
 						}
 					}

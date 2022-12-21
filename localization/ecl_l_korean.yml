@@ -1,0 +1,7 @@
+﻿l_korean:
+
+ law_encouranging_childbirth:0 "출산 장려"
+ law_encouranging_childbirth_desc:0 "민족과 국가를 위해 여성들은 성스러운 의무를 다할 준비가 되어 있고 이에 따른 권리를 누리게 될 것입니다."
+ institution_childbirth_affairs:0 "출산 장려부"
+ institution_childbirth_affairs_desc:0 "여성들이 다산을 할 수 있도록 장려하는 부처입니다."
+ modifier_country_institution_childbirth_affairs_max_investment_add:0 "최대 $institution_childbirth_affairs$ [concept_institution] 투자"

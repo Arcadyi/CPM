@@ -1,7 +1,7 @@
 Includes = {
 	"pdxmesh_vfx.fxh"
 	"cw/pdxmesh.fxh"
-	"nocoloroverlay.fxh"
+	"coloroverlay_typhion.fxh"
 	"ssao_struct.fxh"
 	"cw/camera.fxh"
 }
@@ -119,7 +119,8 @@ VertexShader =
 					uint OffsetIndex = BoneIndex + JointsInstanceIndex;
 
 					float4x4 VertexMatrix = PdxMeshGetJointVertexMatrix( OffsetIndex );
-					float3x3 NormalMatrix = PdxMeshGetJointNormalMatrix( OffsetIndex );
+					float3x3 VertexRotationMatrix = CastTo3x3( VertexMatrix );
+					float3x3 NormalMatrix = transpose( VertexRotationMatrix );
 
 					SkinnedPosition += mul( VertexMatrix, Position ) * Weights[ i ];
 
@@ -167,9 +168,12 @@ VertexShader =
 				#endif
 				
 				#ifdef UI_PANNING_TEXTURE
-								
+
+					Out.UV1 = Input.UV0;
+
 					Out.UV0 *= UI_PANNING_TEXTURE_UV0_MULT;
 					Out.UV0  = frac ( GlobalTime * UI_PANNING_TEXTURE_UV2_SPEED );
+				
 
 					Out.UV2 *= UI_PANNING_TEXTURE_UV2_MULT;
 					Out.UV2 += frac( GlobalTime * UI_PANNING_TEXTURE_UV2_SPEED );
@@ -230,38 +234,40 @@ PixelShader =
 
 					// Mask for the lower edge
 					float LowerEdgeMask = saturate( ( Input.UV1.y - LOWER_EDGE_FALLOFF ) );
-					float4 NoiseTextureSample = PdxTex2D( DiffuseMap, float2( Input.UV2.x / 1.0f, Input.UV2.y / 1.0f ) );
+					float4 NoiseTextureSample = PdxTex2D( DiffuseMap, Input.UV1.xy );
 
 					// Distorted and Base UV Sets used to sample textures later
-					float2 BaseUV = float2( Input.UV0.x, Input.UV0.y );
+					float2 BaseUV = float2( Input.UV2.x, Input.UV2.y );
 					float2 DistortedUVs = BaseUV + float2(NoiseTextureSample.r, NoiseTextureSample.g) * UV_DIST_STRENGTH;
 
-					float4 NoiseTextureDistorted  = PdxTex2D( DiffuseMap, DistortedUVs );
+					float4 NoiseTexture;
 					float4 NoiseTextureDistorted2 = PdxTex2D( DiffuseMap, DistortedUVs );
 
-					NoiseTextureDistorted *= NoiseTextureDistorted2;
+					NoiseTexture = NoiseTextureSample * NoiseTextureDistorted2;
 
 					// Texture Masks for the Upper and Lower Edge
-					float UpperEdge = saturate( ( ( saturate( 1.0f - Input.UV1.y + NoiseTextureDistorted.a ) ) + UPPER_EDGE_FALLOFF ) );
-					float LowerEdge = LowerEdgeMask + ( LowerEdgeMask * NoiseTextureDistorted.a ) * LOWER_EDGE_MULT;
-					float LowerEdge2 = LowerEdgeMask + ( LowerEdgeMask * NoiseTextureDistorted.b ) * LOWER_EDGE_MULT;
+					float UpperEdge = saturate( ( ( saturate( 1.0f - Input.UV1.y + NoiseTexture.a ) ) + UPPER_EDGE_FALLOFF ) );
+					float LowerEdge = LowerEdgeMask + ( LowerEdgeMask * NoiseTexture.a ) * LOWER_EDGE_MULT;
+					float LowerEdge2 = LowerEdgeMask + ( LowerEdgeMask * NoiseTexture.g ) * LOWER_EDGE_MULT;
 					
 					// Final Composite RGB
 					float4 Composite;
 
 					float LowerCut = smoothstep( 0.0f, LOWER_EDGE_CUT, LowerEdge * LowerEdge2 );
 
-					Composite.rgb = lerp( NoiseTextureDistorted.a, NoiseTextureDistorted.r, LowerEdge ) + LowerEdge;
+					Composite.rgb = lerp( NoiseTexture.a, NoiseTexture.r, LowerEdge ) + LowerEdge;
 					Composite.rgb = PdxTex2D( PropertiesMap, saturate(float2( Composite.r + LOWER_EDGE_COL_SLIDE, Composite.g ))).rgb;
 					Composite.rgb = lerp(Composite.rgb, UPPER_EDGE_COL, UpperEdge );
 					
 					// Final Composite Alpha
 					Composite.a = saturate( LowerEdgeMask + Input.UV1.g * NoiseTextureDistorted2.a * FINAL_ALPHA_MULT );
 					Composite.a = saturate( Composite.a - LowerCut );
+					Composite.a*= NoiseTextureSample.b;
 
 					Out.Color = Composite;
 					Out.Color.rgb *= FINAL_COL_MULT;
 					Out.Color.a *= PdxMeshGetOpacity(Input.InstanceIndex);
+
 				#endif
 
 				#ifdef UI_SCREEN_BURN

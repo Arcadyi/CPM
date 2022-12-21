@@ -9,6 +9,7 @@
 			age = 59
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ludwig_von_Hessen-Darmstadt
 				reserved
@@ -28,6 +29,7 @@
 			age = 30
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ludwig_von_Hessen-Darmstadt
 				tactful

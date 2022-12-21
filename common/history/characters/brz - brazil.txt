@@ -10,6 +10,7 @@
 			dna = dna_emperor_pedro_02
 			interest_group = ig_intelligentsia
 			ideology = ideology_reformer
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Pedro_de_Braganca
 				meticulous
@@ -26,6 +27,7 @@
 			ig_leader = yes
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Diogo_AntO_nio_FeijO_
 				reserved
@@ -40,6 +42,7 @@
 			ig_leader = yes
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_reformer
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Bernardo_Pereira_de_Vasconcelos
 				expert_political_operator
@@ -54,6 +57,7 @@
 			ig_leader = yes
 			interest_group = ig_industrialists
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Martim_Francisco_Ribeiro_de_Andrada
 				
@@ -68,6 +72,7 @@
 			ig_leader = yes
 			interest_group = ig_devout
 			ideology = ideology_reformer
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_JanuA_rio_da_Cunha_Barbosa
 				inspirational_orator
@@ -83,6 +88,7 @@
 			ig_leader = yes
 			interest_group = ig_rural_folk
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Nicolau_Pereira_de_Campos_Vergueiro
 				imperious
@@ -97,6 +103,7 @@
 			ig_leader = yes
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Aureliano_de_Sousa_e_Oliveira_Coutinho
 				charismatic
@@ -112,6 +119,7 @@
 			ig_leader = yes
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_JoA_o_Paulo_dos_Santos_Barretto
 				tactful
@@ -156,6 +164,7 @@
 			last_name = Labatut
 			birth_date = 1776.11.18
 			culture = cu:french
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Pierre_Labatut
 				arrogant
@@ -170,6 +179,7 @@
 			last_name = Grenfell
 			birth_date = 1800.9.20
 			culture = cu:british
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_John_Grenfell
 				experienced_naval_commander

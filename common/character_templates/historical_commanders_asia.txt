@@ -8,6 +8,7 @@ afg_general_mohammed = {
 	commander_rank = default
 	interest_group = ig_landowners
 	birth_date = 1800.1.1 # Uncertain birth date
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Yar_Mohammed
 	}
@@ -32,6 +33,7 @@ chi_admiral_ding_ruchang = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1836.11.18
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Ruchang_Ding
 		basic_naval_commander
@@ -58,6 +60,7 @@ chi_admiral_sa_chenbing = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1859.4.30
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Chenbing_Sa
 		basic_naval_commander
@@ -84,6 +87,7 @@ chi_general_yuan_shikai = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1859.9.16
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Shikai_Yuan
 		ambitious
@@ -110,6 +114,7 @@ chi_general_zeng_guofan = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1811.11.26
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Guofan_Zeng
 		plains_commander
@@ -136,6 +141,7 @@ chi_general_sengge_rinchen = {
 	commander_rank = default
 	interest_group = ig_landowners
 	birth_date = 1811.2.26
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Sengge_Rinchen_Borjigin
 		stalwart_defender
@@ -167,6 +173,7 @@ jap_admiral_togo = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1848.1.27
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Heihachiro_Togo
 		expert_naval_commander
@@ -193,6 +200,7 @@ jap_general_saigo = {
 	commander_rank = default
 	interest_group = ig_landed_gentry
 	birth_date = 1828.1.23
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Takamori_Saigo
 		basic_offensive_planner
@@ -219,6 +227,7 @@ jap_general_gentaro = {
 	commander_rank = default
 	interest_group = ig_landed_gentry
 	birth_date = 1852.3.16
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Gentaro_Kodama
 		experienced_offensive_planner
@@ -245,6 +254,7 @@ jap_general_oyama = {
 	commander_rank = default
 	interest_group = ig_landed_gentry
 	birth_date = 1842.11.12
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Iwao_Oyama
 		experienced_offensive_planner
@@ -272,6 +282,7 @@ pan_general_singh = {
 	commander_rank = default
 	interest_group = ig_landowners
 	birth_date = 1807.12.4
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Sher_Singh
 		reckless
@@ -297,6 +308,7 @@ tur_general_pasha = {
 	commander_rank = default
 	interest_group = ig_landowners
 	birth_date = 1804.2.4 # Only birth year certain
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Mehmed_Naik_Pasha
 		persistent
@@ -323,6 +335,7 @@ tur_admiral_hobart = { # Augustus Charles Hobart-Hampden
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1822.4.1
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Hobart_Pasha
 		experienced_convoy_raider
@@ -349,6 +362,7 @@ tur_general_mehmed_ali = { # Ludwig Karl Friedrich Detroit
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1827.11.18
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Mehmed_Ali_Pasha
 		defense_in_depth_specialist
@@ -375,6 +389,7 @@ tur_general_osman_nuri = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1832.2.18
+	trait_generation = { set_variable = historical_figure }
 	traits = {
 		concept_wikipedia_Osman_Nuri_Pasha
 		stalwart_defender

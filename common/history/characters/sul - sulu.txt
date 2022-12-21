@@ -9,6 +9,7 @@
 			birth_date = 1772.2.2 # reigned from 1823 - 1844, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Jamalul_Kiram_Sulu
 			}
@@ -23,6 +24,7 @@
 			birth_date = 1808.12.6 # reigned from 1844 - 1862, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Mohammad_Pulalun_Kiram_Sulu
 			}

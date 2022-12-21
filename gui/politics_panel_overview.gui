@@ -141,37 +141,45 @@ types politics_panel_types
 						layoutpolicy_horizontal = expanding
 						layoutpolicy_vertical = preferred
 						margin = { 0 5 }
-						
+
 						hbox = {
 							layoutpolicy_horizontal = expanding
 							textbox = {
 								margin_right = 5
 								autoresize = yes
-								text = "[InterestGroup.GetNameNoIcon]"
+								text = "[InterestGroup.GetNameNoIcon] #bold ([InterestGroup.GetApprovalValue|=+])#!"
 								align = left|nobaseline
 								elide = right
 								block "fontsize_name" {
 									using = fontsize_large
 								}
+								tooltip = "IG_APPROVAL_BREAKDOWN"
 							}
-
-							button_icon_goto = {
-								size = { 25 25 }
-	 							onclick = "[InformationPanelBar.OpenInterestGroupPanel(InterestGroup.AccessSelf)]"
-								tooltip = "GO_TO_BUTTON_INTEREST_GROUP"
-								block "goto_visibility" {}
-	 						}
 
 	 						expand = {}
 						}
-						textbox = {
+
+						hbox = {
 							layoutpolicy_horizontal = expanding
-							size = { 0 20 }
-							text = "[InterestGroup.GetApprovalRating] #bold ([InterestGroup.GetApprovalValue|=+])#!"
-							tooltip = "IG_APPROVAL_BREAKDOWN"
-							using = tooltip_below
-							align = nobaseline
-							elide = right
+							spacing = 5
+
+							textbox = {
+								visible = "[InterestGroup.IsLeadingGovernment]"
+								autoresize = yes
+								text = "RULER_PREMIER"
+								align = left|nobaseline
+								elide = right
+								default_format = "#title"
+							}
+
+							textbox = {
+								layoutpolicy_horizontal = expanding
+								size = { 0 20 }
+								text = "[InterestGroup.GetLeader.GetCustom('GetUniversalFullNameNoFormatting')]"
+								using = tooltip_below
+								align = nobaseline
+								elide = right
+							}
 						}
 					}
 					
@@ -994,30 +1002,6 @@ types politics_panel_types
 									using = tooltip_above
 								}
 							}
-
-							widget = {
-								visible = no		# hide temporarily
-								size = { 30 30 }
-
-								button_icon_round = {
-									blockoverride "icon" {
-										texture = "gfx/interface/buttons/button_icons/areacharts.dds"
-									}
-									visible = "[Not(GetVariableSystem.HasValue('visual_leaders_extra', 'support'))]"
-									onclick = "[GetVariableSystem.Set('visual_leaders_extra', 'support')]"
-									tooltip = "SUPPORT"
-									using = tooltip_above
-								}
-								button_icon_round = {
-									blockoverride "icon" {
-										texture = "gfx/interface/buttons/button_icons/back.dds"
-									}
-									visible = "[GetVariableSystem.HasValue('visual_leaders_extra', 'support')]"
-									onclick = "[GetVariableSystem.Clear('visual_leaders_extra')]"
-									tooltip = "BACK"
-									using = tooltip_above
-								}
-							}
 						}
 
 						dynamicgridbox = {
@@ -1028,206 +1012,200 @@ types politics_panel_types
 							datamodel_wrap = 4
 
 							item = {
-								container = {
-									minimumsize = { 250 395 }
-									datacontext = "[InterestGroup.AccessLeader]"
+								visual_leaders_item = {}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 
-									flowcontainer = {
-										direction = vertical
-										parentanchor = hcenter
+	type visual_leaders_item = container {
+		minimumsize = { 250 395 }
+		datacontext = "[InterestGroup.AccessLeader]"
 
-										container = {
-											parentanchor = hcenter
+		flowcontainer = {
+			direction = vertical
+			parentanchor = hcenter
 
-											### LEADER PORTRAIT
-											character_portrait_large_torso = {
-												blockoverride "show_hat" {}
-												blockoverride "highlight" {}
-												blockoverride "portrait_icons" {}
+			container = {
+				parentanchor = hcenter
 
-												tooltipwidget = {
-													FancyTooltip_Character = {}
-												}
-											}
+				### PREMIER EFFECT
+				icon = {
+					visible = "[InterestGroup.IsLeadingGovernment]"
+					parentanchor = top|hcenter
+					using = rotate_glow_animation
+					size = { 200 200 }
+					alpha = 1.0
+				}
 
-											### IG ICON
-											ig_button = {
-												parentanchor = top|left
-												position = { 5 5 }
-												size = { 50 50 }
-												blockoverride "in_government_icon" {}
-											}
+				### LEADER PORTRAIT
+				character_portrait_large_torso = {
+					blockoverride "show_hat" {}
+					blockoverride "highlight" {}
+					blockoverride "portrait_icons" {}
 
-											### IG CLOUT
-											textbox = {
-												parentanchor = top|right
-												position = { 0 5 }
-												text = "[Character.GetInterestGroup.GetClout|%1V]"
-												using = clout_tooltip_with_graph
-												maximumsize = { 70 30 }
-												minimumsize = { 70 30 }
-												align = nobaseline|center
-												using = fontsize_large
-											}
+					tooltipwidget = {
+						FancyTooltip_Character = {}
+					}
+				}
 
-											### IG APPROVAL
-											textbox = {
-												parentanchor = top|right
-												position = { 0 25 }
-												text = "[Character.GetInterestGroup.GetApprovalValue|+=]"
-												tooltip = "IG_APPROVAL_BREAKDOWN"
-												maximumsize = { 70 30 }
-												minimumsize = { 70 30 }
-												align = nobaseline|center
-												using = fontsize_large
-											}
+				### PREMIER TITLE
+				textbox = {
+					visible = "[InterestGroup.IsLeadingGovernment]"
+					parentanchor = top|hcenter
+					position = { 0 -5 }
+					autoresize = yes
+					text = "RULER_PREMIER"
+					align = center|nobaseline
+					elide = right
+					default_format = "#title"
+					using = fontsize_large
+				}
 
-											### IG SUPPRESSED / BOLSTERED
-											icon = {
-												parentanchor = top|right
-												tooltip = "TOOLTIP_SUPPRESSED"
-												visible = "[InterestGroup.IsSuppressed]"
-												texture = "gfx/interface/icons/generic_icons/ig_suppress.dds"
-												position = { 20 5 }
-												size = { 35 35 }
-											}
-											icon = {
-												parentanchor = top|right
-												tooltip = "TOOLTIP_PROMOTED"
-												visible = "[InterestGroup.IsBolstered]"
-												texture = "gfx/interface/icons/generic_icons/ig_bolster.dds"
-												position = { 20 5 }
-												size = { 35 35 }
-											}
+				### IG ICON
+				ig_button = {
+					parentanchor = top|left
+					position = { 5 5 }
+					size = { 50 50 }
+					blockoverride "in_government_icon" {}
+				}
 
-											### IG CLOUT GRAPH
-											visual_leaders_plotline = {
-												visible = "[GetVariableSystem.HasValue('visual_leaders_extra', 'clout')]"
-												parentanchor = center
-												position = { 0 25 }
-												blockoverride "size" {
-													size = { 130 60 }
-												}
-												blockoverride "multiitem" {}
-											}
+				### IG CLOUT
+				textbox = {
+					parentanchor = top|right
+					position = { 0 5 }
+					text = "[Character.GetInterestGroup.GetClout|%1V]"
+					using = clout_tooltip_with_graph
+					maximumsize = { 70 30 }
+					minimumsize = { 70 30 }
+					align = nobaseline|center
+					using = fontsize_large
+				}
 
-											### IG SUPPORT LIST
-											textbox = {
-												visible = "[GetVariableSystem.HasValue('visual_leaders_extra', 'support')]"
-												parentanchor = center
-												position = { 0 20 }
-												maximumsize = { 210 185 }
-												minimumsize = { 210 185 }
-												multiline = yes
-												align = center
-												text = "[InterestGroup.GetSupportingPopTypesDesc]"
-												background = {
-													using = dark_area
-													alpha = 0.7
-												}
-											}
+				### IG APPROVAL
+				textbox = {
+					parentanchor = top|right
+					position = { 0 25 }
+					text = "[Character.GetInterestGroup.GetApprovalValue|+=]"
+					tooltip = "IG_APPROVAL_BREAKDOWN"
+					maximumsize = { 70 30 }
+					minimumsize = { 70 30 }
+					align = nobaseline|center
+					using = fontsize_large
+				}
 
-											widget = {
-												visible = "[Not(GetVariableSystem.HasValue('visual_leaders_extra', 'support'))]"
-												size = { 100% 100% }
+				### IG SUPPRESSED / BOLSTERED
+				icon = {
+					parentanchor = top|right
+					tooltip = "TOOLTIP_SUPPRESSED"
+					visible = "[InterestGroup.IsSuppressed]"
+					texture = "gfx/interface/icons/generic_icons/ig_suppress.dds"
+					position = { 25 5 }
+					size = { 35 35 }
+				}
+				icon = {
+					parentanchor = top|right
+					tooltip = "TOOLTIP_PROMOTED"
+					visible = "[InterestGroup.IsBolstered]"
+					texture = "gfx/interface/icons/generic_icons/ig_bolster.dds"
+					position = { 25 5 }
+					size = { 35 35 }
+				}
 
-												### IG IN GOVERNMENT
-												icon = {
-													parentanchor = bottom|left
-													visible = "[InterestGroup.IsInGovernment]"
-													texture = "gfx/interface/icons/generic_icons/in_government_icon.dds"
-													position = { 5 -5 }
-													size = { 40 40 }
-												}
+				### IG CLOUT GRAPH
+				visual_leaders_plotline = {
+					visible = "[GetVariableSystem.HasValue('visual_leaders_extra', 'clout')]"
+					parentanchor = center
+					position = { 0 25 }
+					blockoverride "size" {
+						size = { 130 60 }
+					}
+					blockoverride "multiitem" {}
+				}
 
-												### IDEOLOGY
-												icon = {
-													parentanchor = bottom|right
-													position = { -5 -5 }
-													size = { 40 40 }
-													datacontext = "[Character.GetIdeology]"
-													texture = "[Ideology.GetTexture]"
-													tooltipwidget = {
-														FancyTooltip_Ideology = {}
-													}
-												}
+				### IDEOLOGY
+				icon = {
+					parentanchor = bottom|right
+					position = { -5 -5 }
+					size = { 40 40 }
+					datacontext = "[Character.GetIdeology]"
+					texture = "[Ideology.GetTexture]"
+					tooltipwidget = {
+						FancyTooltip_Ideology = {}
+					}
+				}
 
-												### POPULARITY
-												textbox = {
-													parentanchor = bottom|hcenter
-													position = { 0 -40 }
-													text = "[Character.GetPopularity|v+0]"
-													tooltip = "POPULARITY_BREAKDOWN"
-													maximumsize = { 50 20 }
-													minimumsize = { 50 20 }
-													align = nobaseline|center
-													using = fontsize_large
-													background = {
-														using = dark_area
-														alpha = 0.3
-													}
-												}
-											}
-										}
+				### POPULARITY
+				textbox = {
+					parentanchor = bottom|hcenter
+					position = { 0 -40 }
+					text = "[Character.GetPopularity|v+0]"
+					tooltip = "POPULARITY_BREAKDOWN"
+					maximumsize = { 50 20 }
+					minimumsize = { 50 20 }
+					align = nobaseline|center
+					using = fontsize_large
+					background = {
+						using = dark_area
+						alpha = 0.3
+					}
+				}
+			}
 
-										flowcontainer = {
-											direction = vertical
-											parentanchor = hcenter
+			flowcontainer = {
+				direction = vertical
+				parentanchor = hcenter
 
-											### IG NAME
-											textbox = {
-												parentanchor = hcenter
-												text = "[Character.GetInterestGroup.GetNameNoIcon]"
-												maximumsize = { 240 -1 }
-												minimumsize = { 240 -1 }
-												autoresize = yes
-												elide = right
-												align = nobaseline|center
-											}
+				### IG NAME
+				textbox = {
+					parentanchor = hcenter
+					text = "[Character.GetInterestGroup.GetNameNoIcon]"
+					maximumsize = { 240 -1 }
+					minimumsize = { 240 -1 }
+					autoresize = yes
+					elide = right
+					align = nobaseline|center
+				}
 
-											### LEADER NAME
-											textbox = {
-												parentanchor = hcenter
-												text = "[Character.GetCustom('GetUniversalFullNameNoFormatting')], [Character.GetAge]"
-												maximumsize = { 240 44 }
-												minimumsize = { 240 44 }
-												autoresize = yes
-												elide = right
-												align = nobaseline|center
-												fontsize_min = 14
-												background = {
-													using = default_header_bg_faded
-												}
-											}
+				### LEADER NAME
+				textbox = {
+					parentanchor = hcenter
+					text = "[Character.GetCustom('GetUniversalFullNameNoFormatting')], [Character.GetAge]"
+					maximumsize = { 240 44 }
+					minimumsize = { 240 44 }
+					autoresize = yes
+					elide = right
+					align = nobaseline|center
+					fontsize_min = 14
+					background = {
+						using = default_header_bg_faded
+					}
+				}
 
-											spacer = {
-												size = { 0 5 }
-											}
+				spacer = {
+					size = { 0 5 }
+				}
 
-											### LEADER TRAITS
-											dynamicgridbox = {
-												parentanchor = top|hcenter
-												flipdirection = yes
-												datamodel = "[Character.AccessTraits]"
+				### LEADER TRAITS
+				dynamicgridbox = {
+					parentanchor = top|hcenter
+					flipdirection = yes
+					datamodel = "[Character.AccessTraits]"
 
-												item = {
-													widget = {
-														size = { 32 42 }
+					item = {
+						widget = {
+							size = { 32 42 }
 
-														icon = {
-															size = { 30 42 }
-															texture = "[CharacterTrait.GetTexture]"
-															using = tooltip_above
+							icon = {
+								size = { 30 42 }
+								texture = "[CharacterTrait.GetTexture]"
+								using = tooltip_above
 
-															tooltipwidget = {
-																FancyTooltip_CharacterTrait = {}
-															}
-														}
-													}
-												}
-											}
-										}
-									}
+								tooltipwidget = {
+									FancyTooltip_CharacterTrait = {}
 								}
 							}
 						}
@@ -1237,9 +1215,7 @@ types politics_panel_types
 		}
 	}
 
-
 	# based on v3_plotline and v3_plotline_clout in politics_panel_types.gui
-
 	type visual_leaders_plotline = flowcontainer {
 		direction = vertical
 		margin_top = 10

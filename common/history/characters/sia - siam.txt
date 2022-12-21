@@ -8,6 +8,7 @@
 			dna = dna_king_rama_03
 			interest_group = ig_landowners
 			ideology = ideology_moderate # "modernizer"?
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Nangklao_Chakri
 				charismatic
@@ -23,6 +24,7 @@
 			age = 28
 			interest_group = ig_landowners
 			ideology = ideology_moderate # "modernizer"?
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Pinklao_Chakri
 				charismatic

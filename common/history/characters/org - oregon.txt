@@ -10,6 +10,7 @@
 			ig_leader = yes
 			interest_group = ig_industrialists
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_John_McLoughlin
 				tactful
@@ -25,6 +26,7 @@
 			ig_leader = yes
 			interest_group = ig_rural_folk
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ewing_Young
 				charismatic
@@ -40,6 +42,7 @@
 			ig_leader = yes
 			interest_group = ig_devout
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Jason_Lee
 			}
@@ -54,6 +57,7 @@
 			ig_leader = yes
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_William_Slacum
 				direct
@@ -69,6 +73,7 @@
 			ig_leader = yes
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_William_Bailey
 			}
@@ -83,6 +88,7 @@
 			ig_leader = yes
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ira_Babcock
 			}
@@ -97,6 +103,7 @@
 			ig_leader = yes
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Etienne_Lucier
 			}

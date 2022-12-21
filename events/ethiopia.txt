@@ -53,6 +53,7 @@ ethiopia.1 = {
 			culture = cu:amhara
 			religion = rel:oriental_orthodox
 			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Tewodros_Solomon
 				romantic

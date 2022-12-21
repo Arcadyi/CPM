@@ -1,7 +1,0 @@
-﻿atheist = {
-	texture = "gfx/interface/icons/religion_icons/atheist.dds"
-	traits = {
-		atheist
-	}
-	color = { 1 1 1 }
-}

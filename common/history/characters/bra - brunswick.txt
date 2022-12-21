@@ -9,6 +9,7 @@
 			age = 30
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Wilhelm_von_Braunschweig
 				tactful

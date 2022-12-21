@@ -9,6 +9,7 @@
 			age = 37
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Carlo_Ludovico_di_Borbone_Parma
 				reckless
@@ -23,6 +24,7 @@
 			first_name = Carlo
 			last_name = di_Borbone_Parma
 			age = 37
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Carlo_di_Borbone_Parma
 		#		polite

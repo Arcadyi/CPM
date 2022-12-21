@@ -88,8 +88,17 @@ ecchi_rom_radulescu-motru_character_template = {
     traits = { reckless romantic arrogant }
     interest_group_leader_usage = {
         country_trigger = {
-            exists = c:ROM
-            this = c:ROM
+            OR = {
+                AND = {
+                    exists = c:KUK
+                    this = c:KUK
+                    NOT = { exists = c:ROM }
+                }
+                AND = {
+                    exists = c:ROM
+                    this = c:ROM
+                }
+            }
         }
         interest_group_trigger = {
             is_marginal = no
@@ -185,8 +194,17 @@ ecchi_hun_lukacs_character_template = {
     traits = { innovative cautious }
     interest_group_leader_usage = {
         country_trigger = {
-            exists = c:HUN
-            this = c:HUN
+            OR = {
+                AND = {
+                    exists = c:KUK
+                    this = c:KUK
+                    NOT = { exists = c:HUN }
+                }
+                AND = {
+                    exists = c:HUN
+                    this = c:HUN
+                }
+            }
         }
         interest_group_trigger = {
             is_marginal = no

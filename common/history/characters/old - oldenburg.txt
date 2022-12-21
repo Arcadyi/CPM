@@ -9,6 +9,7 @@
 			age = 53
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Augustus_von_Holstein-Gottorp
 				cautious
@@ -26,6 +27,7 @@
 			heir = yes
 			age = 9
 			interest_group = ig_landowners
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Peter_von_Holstein-Gottorp
 				romantic

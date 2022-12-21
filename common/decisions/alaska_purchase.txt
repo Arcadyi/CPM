@@ -7,11 +7,19 @@
 		NOT = {
 			has_variable = alaska_purchase_var
 		}
-		c:RUS = {
-			owns_entire_state_region = STATE_ALASKA
-			is_subject = no
-			is_player = no
+		OR = {
+			c:RUS = {
+				owns_entire_state_region = STATE_ALASKA
+				is_subject = no
+				is_player = no
+			}
+			c:RAC = {
+				owns_entire_state_region = STATE_ALASKA
+				is_subject_of = c:RUS
+				is_player = no
+			}			
 		}
+
 	}
 
 	possible = {
@@ -22,32 +30,11 @@
 		c:RUS = {
 			relations:root >= 0
 			is_at_war = no
-			OR = {
-			in_default = yes
 			taking_loans = yes
 			can_take_on_scaled_debt = {
 				who = c:RUS
 				value = c:RUS.scaled_debt
 			}
-			any_rival_country = {
-				OR = {
-					country_or_subject_owns_entire_state_region = STATE_YUKON_TERRITORY
-					country_or_subject_owns_entire_state_region = STATE_BRITISH_COLUMBIA
-					custom_tooltip ={
-						text = alaskapurchase_tt
-						any_neighbouring_state = {
-							owner = c:RUS
-							}
-						}
-					}
-				}
-			}
-		}
-				custom_tooltip = {
-					text = alaskainprog_tt
-					NOT = {
-						has_global_variable = alaska_purchase_in_prog
-					}
 		}
 	}
 
@@ -55,9 +42,6 @@
 		set_variable = {
 			name = alaska_purchase_var
 			value = yes
-		}
-		set_global_variable = {
-			name = alaska_purchase_in_prog
 		}
 		trigger_event = {
 			id = alaska.4
@@ -78,82 +62,6 @@
 				weekly_net_fixed_income > 100000
 			}
 			add = 10
-		}
-		modifier = {
-			OR = {
-				is_diplomatic_play_committed_participant = yes
-				is_at_war = yes
-			}
-			add = -1000
-		}
-	}
-}
-
-rus_sell_alaska = {
-	is_shown = {
-		exists = c:USA
-		exists = c:RUS
-		c:RUS = ROOT
-		is_subject = no
-		owns_entire_state_region = STATE_ALASKA
-		NOT = {
-			has_variable = alaska_purchase_var
-		}
-		c:USA = {
-			is_subject = no
-		}
-	}
-
-	possible = {
-		is_at_war = no
-		c:USA = {
-			owns_entire_state_region = STATE_WASHINGTON
-			in_default = no
-			taking_loans = no
-			is_at_war = no
-			gdp > 60000000
-			relations:root >= relations_threshold:cordial
-		}
-		custom_tooltip = {
-			text = alaskainprog_tt
-			NOT = {
-				has_global_variable = alaska_purchase_in_prog
-			}
-		}
-	}
-
-	when_taken = {
-		set_variable = {
-			name = alaska_purchase_var
-			value = yes
-		}
-		set_global_variable = {
-			name = alaska_purchase_in_prog
-		}
-		trigger_event = {
-			id = alaska.5
-			days = 0
-			popup = yes
-		}
-	}
-
-	ai_chance = {
-		base = 0	
-		modifier = {
-			trigger = { gold_reserves < 1 }
-			add = 10
-		}		
-		modifier = {
-			trigger = { 
-				taking_loans = yes
-			}
-			add = 10
-		}
-		modifier = {
-			trigger = {
-				in_default = yes
-			}
-			add = 100
 		}
 		modifier = {
 			OR = {

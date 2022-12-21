@@ -2,8 +2,6 @@
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 	# note that if you change this, also update the decision
 	complete = {
-		OR = {
-			AND = {
 		owns_entire_state_region = STATE_CALIFORNIA
 		owns_entire_state_region = STATE_NEVADA
 		owns_entire_state_region = STATE_UTAH
@@ -11,12 +9,7 @@
 		owns_entire_state_region = STATE_NEW_MEXICO
 		owns_entire_state_region = STATE_TEXAS
 	}
-		has_variable = manifest_destiny_we_did_it_folks
-	}
-		NOT = {
-			has_variable = manifest_destiny_we_did_it_folks_cooldown
-		}
-}
+
 	on_complete = {
 		trigger_event = { id = manifest_destiny.1 }
 	}
@@ -29,14 +22,85 @@ je_manifest_destiny_frontier_wars = {
 	icon = "gfx/interface/icons/event_icons/event_map.dds"
 	# note that if you change this, also update the decision
 	complete = {
-		owns_entire_state_region = STATE_MONTANA
-		owns_entire_state_region = STATE_WYOMING
-		owns_entire_state_region = STATE_COLORADO
-		owns_entire_state_region = STATE_NORTH_DAKOTA
-		owns_entire_state_region = STATE_SOUTH_DAKOTA
-		owns_entire_state_region = STATE_NEBRASKA
-		owns_entire_state_region = STATE_KANSAS
-	}
+		has_state_in_state_region = STATE_MONTANA
+		s:STATE_MONTANA = {
+			NOT = {
+				any_scope_state = {
+					owner = {
+						country_rank = 0
+					}
+				}
+			}
+		}
+		has_state_in_state_region = STATE_WYOMING
+		s:STATE_WYOMING = {
+			NOT = {
+				any_scope_state = {
+					owner = {
+						country_rank = 0
+					}
+				}
+			}
+		}
+		has_state_in_state_region = STATE_NEBRASKA
+		s:STATE_NEBRASKA = {
+			NOT = {
+				any_scope_state = {
+					owner = {
+						country_rank = 0
+					}
+				}
+			}
+		}
+		has_state_in_state_region = STATE_COLORADO
+		s:STATE_COLORADO = {
+			NOT = {
+				any_scope_state = {
+					owner = {
+						country_rank = 0
+					}
+					NOT = {
+						owner = c:UTE
+					}
+				}
+			}
+		}
+		has_state_in_state_region = STATE_KANSAS
+		s:STATE_KANSAS = {
+			NOT = {
+				any_scope_state = {
+					owner = {
+						country_rank = 0
+					}
+					NOT = {
+						owner = c:COM
+					}
+				}
+			}
+		}
+		has_state_in_state_region = STATE_NORTH_DAKOTA
+		s:STATE_NORTH_DAKOTA = {
+			NOT = {
+				any_scope_state = {
+					owner = {
+						country_rank = 0
+					}
+				}
+			}
+		}
+		has_state_in_state_region = STATE_SOUTH_DAKOTA
+		s:STATE_SOUTH_DAKOTA = {
+			NOT = {
+				any_scope_state = {
+					owner = {
+						country_rank = 0
+					}
+				}
+			}
+		
+		}
+    }
+
 	
 	on_complete = {
 		trigger_event = { id = manifest_destiny.2 }
@@ -52,57 +116,5 @@ je_manifest_destiny_frontier_wars = {
 	weight = 100
 	
 	inheritable = no
-	should_be_pinned_by_default = yes
-}
-
-je_manifest_destiny_mexican_american_war = {
-	icon = "gfx/interface/icons/event_icons/event_military.dds"
-	complete = {
-		c:USA = {
-			is_at_war = no
-			is_diplomatic_play_committed_participant = no
-			AND = {
-				custom_tooltip = { 
-					text = mexican_american_war_tt1
-					has_variable = mexican_american_war
-				}
-			}
-
-			
-		}
-		c:MEX = {
-			is_subject_of = c:USA
-		}
-	}
-
-	fail = {
-		c:USA = {
-			is_at_war = no
-			is_diplomatic_play_committed_participant = no
-			custom_tooltip = { 
-				text = mexican_american_war_tt1
-				has_variable = mexican_american_war
-			}
-		}
-		c:MEX = {
-			NOT = {
-				is_subject_of = c:USA
-			}
-		}
-	}
-
-	on_fail = { 
-		trigger_event = {
-			id = manifest_destiny.4 #USA Loses!
-		}
-	}
-
-	on_complete = {
-		trigger_event = { 
-			id = manifest_destiny.6  #USA Wins!
-		}
-	}
-
-	weight = 100
 	should_be_pinned_by_default = yes
 }

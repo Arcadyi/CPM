@@ -12,6 +12,7 @@
 			# age = 36 # unknown age, but he died in 1859
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Somanath_Mohapatra
 				cautious
@@ -27,6 +28,7 @@
 			# age = 10 # unknown age, but he died in 1884
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Braja_Sundar_Mohapatra
 				reserved

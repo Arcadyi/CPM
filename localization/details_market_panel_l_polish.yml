@@ -1,0 +1,4 @@
+﻿l_polish:
+ CONCEPT_MARKET_GOOD_POLICY_SHORT_MOD:0 "[Concept('concept_market_good_policy', '$concept_market_good_policy_short$')]"
+ CONCEPT_BUY_ORDER_SHORT_MOD:0 "[Concept('concept_buy_orders', '$concept_buy_order_short$')]"
+ CONCEPT_SELL_ORDER_SHORT_MOD:0 "[Concept('concept_sell_orders', '$concept_sell_order_short$')]"

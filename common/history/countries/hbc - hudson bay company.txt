@@ -11,6 +11,10 @@
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_land_based_taxation
 
+		add_journal_entry = {
+			type = je_independence_hbc
+		}
+
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
 			level = 2

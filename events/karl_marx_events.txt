@@ -60,6 +60,7 @@ marx_events.1 = {
 					interest_group = ig_trade_unions
 					female = no
 					ideology = ideology_communist
+					trait_generation = { set_variable = historical_figure }
 					traits = {
 						direct
 						persistent
@@ -80,6 +81,7 @@ marx_events.1 = {
 					dna = dna_karl_marx
 					ideology = ideology_communist
 					religion = rel:jewish
+					trait_generation = { set_variable = historical_figure }
 					traits = {
 						concept_wikipedia_Karl_Heinrich_Marx
 						direct
@@ -126,6 +128,7 @@ marx_events.1 = {
 					interest_group = ig_trade_unions
 					female = yes
 					ideology = ideology_communist
+					trait_generation = { set_variable = historical_figure }
 					traits = {
 						direct
 						persistent
@@ -145,6 +148,7 @@ marx_events.1 = {
 					dna = dna_karl_marx
 					ideology = ideology_communist
 					religion = rel:jewish
+					trait_generation = { set_variable = historical_figure }
 					traits = {
 						concept_wikipedia_Charlie_Marx
 						direct
@@ -163,6 +167,7 @@ marx_events.1 = {
 					interest_group = ig_trade_unions
 					female = no
 					ideology = ideology_communist
+					trait_generation = { set_variable = historical_figure }
 					traits = {
 						concept_wikipedia_Kras_Masov
 						direct

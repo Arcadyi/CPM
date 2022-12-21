@@ -1,8 +1,0 @@
-﻿l_english:
-atheism_decision:0 "Enact State Atheism"
-atheism_decision_desc:0 "Too long have the masses been oppressed under the boot of religion, no more."
-atheist:0 "Atheist"
-atheist_desc:0 "The lack of belief in any deity"
-atheist_conversion:0 "This will turn a portion of the population in [GetPlayer.GetName] to Atheist "
-state_atheism:0 "State Atheism"
-#state_atheism_desc:0 "[GetPlayer.GetName] has enacted oppressive laws banning public displays of religious worship."

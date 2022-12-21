@@ -9,6 +9,7 @@
 			ig_leader = yes
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Nicolai_Krog
 				brave
@@ -20,6 +21,7 @@
 			first_name = Ferdinand
 			last_name = Wedel_Jarlsberg
 			age = 55
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ferdinand_Wedel_Jarlsberg
 			}
@@ -30,6 +32,7 @@
 			 first_name = Thomas 
 			 last_name = Konow
 			 age = 40
+			 trait_generation = { set_variable = historical_figure }
 			 traits = {
 			 	concept_wikipedia_Thomas_Konow
 			 	meticulous

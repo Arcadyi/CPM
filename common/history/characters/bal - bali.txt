@@ -9,6 +9,7 @@
 			birth_date = 1783.5.6 # pure guesswork, reigned from 1814-1850
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Putra_Klungkung
 			}
@@ -23,6 +24,7 @@
 			birth_date = 1832.2.7 # pure guesswork, reigned from 1851-1903
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Putra_Klungkung
 			}

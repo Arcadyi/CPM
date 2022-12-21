@@ -27,7 +27,8 @@ law_mercantilism = {
 	}
 
 	modifier = {
-		interest_group_ig_petty_bourgeoisie_pol_str_mult = 0.15
+		country_shopkeepers_pol_str_mult = 0.25
+		building_group_bg_trade_tax_mult = 0.25
 	}
 	
 	possible_political_movements = {
@@ -69,7 +70,12 @@ law_protectionism = {
 	}	
 	
 	modifier = {
-		interest_group_ig_trade_unions_pol_str_mult = 0.15
+		country_authority_add = 125
+		state_infrastructure_mult = 0.05
+		country_bureaucrats_pol_str_mult = 0.25
+		country_trade_route_competitiveness_mult = -0.25
+		country_trade_route_quantity_mult = -0.25
+		country_trade_route_cost_mult = 0.25
 	}
 	
 	possible_political_movements = {
@@ -104,7 +110,7 @@ law_free_trade = {
 	}
 	
 	modifier = {
-		interest_group_ig_industrialists_pol_str_mult = 0.15
+		country_capitalists_pol_str_mult = 0.25
 		country_trade_route_competitiveness_mult = 0.5
 		country_trade_route_quantity_mult = 0.5
 		country_trade_route_cost_mult = -0.5
@@ -128,7 +134,8 @@ law_isolationism = {
 	}		
 	
 	modifier = {
-		interest_group_ig_rural_folk_pol_str_mult = 0.15
+		country_farmers_pol_str_mult = 0.25
+		state_infrastructure_from_population_max_add = 25
 		country_authority_mult = 0.5
 		state_tax_capacity_mult = 0.25
 		country_tech_spread_mult = -0.4

@@ -1,0 +1,29 @@
+﻿l_polish:
+
+ # GetFullName
+ custom_loc_universal_full_name_default:0 "[ROOT.GetCharacter.GetFullName]"
+ custom_loc_universal_full_name_reverse:0 "$custom_loc_universal_full_name_default$"
+ custom_loc_universal_full_name_reverse_chinese:0 "$custom_loc_universal_full_name_default$"
+ custom_loc_universal_full_name_reverse_japanese:0 "$custom_loc_universal_full_name_default$"
+
+ # GetFullNameNoFormatting
+ custom_loc_universal_full_name_no_formatting_default:0 "[ROOT.GetCharacter.GetFullNameNoFormatting]"
+ custom_loc_universal_full_name_no_formatting_reverse:0 "$custom_loc_universal_full_name_no_formatting_default$"
+ custom_loc_universal_full_name_no_formatting_reverse_chinese:0 "$custom_loc_universal_full_name_no_formatting_default$"
+ custom_loc_universal_full_name_no_formatting_reverse_japanese:0 "$custom_loc_universal_full_name_no_formatting_default$"
+
+ # GetFullNameWithTitleNoFormatting
+ custom_loc_universal_full_name_with_title_no_formatting_default:0 "[ROOT.GetCharacter.GetFullNameWithTitleNoFormatting]"
+ custom_loc_universal_full_name_with_title_no_formatting_reverse:0 "$custom_loc_universal_full_name_with_title_no_formatting_default$"
+ custom_loc_universal_full_name_with_title_no_formatting_reverse_chinese:0 "$custom_loc_universal_full_name_with_title_no_formatting_default$"
+ custom_loc_universal_full_name_with_title_no_formatting_reverse_japanese:0 "$custom_loc_universal_full_name_with_title_no_formatting_default$"
+
+ # Titles
+ custom_loc_universal_title_default:0 ""
+ custom_loc_universal_title_ruler:0 ""
+ custom_loc_universal_title_heir:0 ""
+
+ # Special Characters
+ custom_loc_universal_blank:0 ""
+ custom_loc_universal_asterisk:0 ""
+ custom_loc_universal_asterisk_formatted:0 ""

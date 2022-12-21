@@ -9,6 +9,7 @@
 			age = 33
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Nasir-ud-Din_Haidar_Sayyid
 				meticulous
@@ -25,6 +26,7 @@
 			age = 59
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Muhammad_Ali_Sayyid
 				ambitious

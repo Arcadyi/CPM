@@ -46,12 +46,6 @@ law_monarchy = {
 		exists = ruler
 		ruler = {
 			has_ideology = ideology_royalist
-			OR = {
-                                has_ideology = ideology_royalist
-                                has_ideology = ideology_orleanist
-                                has_ideology = ideology_legitimist
-                                has_ideology = ideology_bonapartist
-                        }
 		}
 	}
 }
@@ -190,3 +184,4 @@ law_council_republic = {
 			}
 		}
 	}
+}

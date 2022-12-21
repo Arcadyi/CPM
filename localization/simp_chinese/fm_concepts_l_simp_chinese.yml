@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+
+ concept_league_of_nations:0 "国际联盟"
+ concept_league_of_nations_short:0 "国联"
+ concept_league_of_nations_desc:0 "一种国际组织，可以制裁恶名国家，调停战争等。"
+ concept_sanction:0 "经济制裁"
+ concept_sanction_short:0 "制裁"
+ concept_sanction_desc:0 "当一国被[Concept('concept_league_of_nations', '$concept_league_of_nations_short$')]制裁时，[Concept('concept_league_of_nations', '$concept_league_of_nations_short$')]成员有义务对其发动[concept_embargo]。"

@@ -9,6 +9,7 @@
 			age = 3
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ram_Singh_Kachwaha
 				cautious

@@ -9,6 +9,7 @@
 			age = 40 # unknown birthdate, but one brother was born in 1793
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Muiz_Muhammad_Orakzai
 				reserved
@@ -24,6 +25,7 @@
 			age = 20 # Unknown age, but his wife was born in 1817
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Jahangir_Mohammad_Orakzai
 				cautious
@@ -40,6 +42,7 @@
 			female = yes
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Qudsia_Begum_Orakzai
 				meticulous

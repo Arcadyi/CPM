@@ -9,6 +9,7 @@
 			age = 80 # died February 1st, 1837
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Friedrich_Franz_von_Mecklenburg-Schwerin
 				arrogant
@@ -27,6 +28,7 @@
 			age = 36
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Paul_Friedrich_von_Mecklenburg-Schwerin
 				reserved

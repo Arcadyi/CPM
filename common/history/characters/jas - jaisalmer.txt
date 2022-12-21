@@ -9,6 +9,7 @@
 			age = 66 # unknown age, but his father ruled from 1762 to 1820, so he was probably born in the 18th century
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Gaj_Bhatti
 				cautious
@@ -24,6 +25,7 @@
 			age = 40 # unknown age, but he died in 1864
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ranjit_Bhatti
 				reserved

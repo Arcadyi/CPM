@@ -104,6 +104,26 @@ coa_time_swe_nor_trigger = {
 	game_date > 1844.1.15
 }
 
+coa_time_pru_trigger = {
+	game_date > 1892.1.15
+}
+
+coa_time_cal_trigger = {
+	game_date > 1911.2.3
+}
+
+coa_time_fra_trigger = {
+	game_date > 1870.1.15
+}
+
+coa_time_hnd_trigger = {
+	game_date > 1947.7.22
+}
+
+coa_time_isr_trigger = {
+	game_date > 1880.1.15
+}
+
 coa_council_republic_democratic_trigger = {
 	coa_democracy_trigger = yes
 	has_law = law_type:law_council_republic
@@ -168,6 +188,43 @@ coa_union_south_africa_trigger = {
 	owns_entire_state_region = STATE_ZULULAND
 }
 
+coa_alex_II_trigger = {
+	ruler = {
+		has_variable = is_alex_II 
+	}
+}
+
+coa_radical_trigger = {
+	any_interest_group = {
+		is_in_government = yes
+		has_party = yes
+		party = {
+			is_party_type = radical_party
+		}
+	}
+}
+
+coa_socialism_trigger = {
+	any_interest_group = {
+		is_in_government = yes
+		has_party = yes
+		party = {
+			is_party_type = social_democrat_party
+		}
+	}
+}
+
+
+coa_hnd_own_india_trigger = {
+	owns_entire_state_region = STATE_SOUTH_BENGAL
+	owns_entire_state_region = STATE_NORTH_BENGAL
+	owns_entire_state_region = STATE_PUNJAB
+	owns_entire_state_region = STATE_KASHMIR
+	owns_entire_state_region = STATE_BALUCHISTAN
+	owns_entire_state_region = STATE_SINDH
+	owns_entire_state_region = STATE_CIRCARS
+}
+
 # Government
 
 coa_def_democracy_flag_trigger = {
@@ -221,6 +278,14 @@ coa_def_french_british_ensign_trigger = {
 	OR = {
 		coa_def_french_ensign_trigger = yes
 		coa_def_british_ensign_trigger = yes
+	}
+}
+
+coa_def_french_british_spanish_ensign_trigger = {
+	OR = {
+		coa_def_french_ensign_trigger = yes
+		coa_def_british_ensign_trigger = yes
+		coa_def_spanish_ensign_trigger = yes
 	}
 }
 
@@ -307,4 +372,49 @@ coa_def_union_south_africa_trigger = {
 coa_def_swe_nor_time_trigger = {
 	exists = scope:actor
 	scope:actor = { coa_time_swe_nor_trigger = yes }
+}
+
+coa_def_pru_time_trigger = {
+	exists = scope:actor
+	scope:actor = { coa_time_pru_trigger = yes }
+}
+
+coa_def_alex_ii_trigger = {
+	exists = scope:actor
+	scope:actor = { coa_alex_II_trigger = yes }
+}
+
+coa_def_radical_party_trigger = {
+	exists = scope:actor
+	scope:actor = { coa_radical_trigger = yes }
+}
+
+coa_def_social_democrat_party_trigger = {
+	exists = scope:actor
+	scope:actor = { coa_socialism_trigger = yes }
+}
+
+coa_def_time_cal_trigger = {
+	exists = scope:actor
+	scope:actor = { coa_time_cal_trigger  = yes }
+}
+
+coa_def_time_fra_trigger = {
+	exists = scope:actor
+	scope:actor = { coa_time_fra_trigger  = yes }
+}
+
+coa_def_time_hnd_trigger = {
+	exists = scope:actor
+	scope:actor = { coa_time_hnd_trigger  = yes }
+}
+
+coa_def_hnd_own_india_trigger = {
+	exists = scope:actor
+	scope:actor = { coa_hnd_own_india_trigger  = yes }
+}
+
+coa_def_time_isr_trigger = {
+	exists = scope:actor
+	scope:actor = { coa_time_isr_trigger  = yes }
 }

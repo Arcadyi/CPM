@@ -9,6 +9,7 @@
 			birth_date= 1809.8.25 # Birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Muhammad_al_Khalifa
 			}

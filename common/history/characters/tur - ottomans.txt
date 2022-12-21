@@ -12,6 +12,7 @@ CHARACTERS = {
 			dna = dna_mahmud_02
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Mahmut_Osmanoglu
 				ambitious
@@ -26,6 +27,7 @@ CHARACTERS = {
 			birth_date = 1823.4.25
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Abdulmecid_Osmanoglu
 				persistent
@@ -37,11 +39,12 @@ CHARACTERS = {
 			# Mehmed Emin Rauf Pasha, Grand Vizier of the Ottoman Empire 1833-1839, 1842-1846, and in 1852
 			#role = politician # Remove this line
 			first_name = "Mehmet_Emin_Rauf"
-			last_name = "Saidmehmedzade"
+			last_name = "Pasha"
 			age = 56 # not sure of his actual birth date, born in 1780
 			ig_leader = yes
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Mehmet_Emin_Rauf_Pasha
 				cautious
@@ -50,12 +53,13 @@ CHARACTERS = {
 
 		create_character = {
 			# Mustafa Reshid Pasha, architect of the Tanzimat Reforms
-			first_name = "Mustafa_Resid"
-			last_name = "Mustafazade"
+			first_name = "Mustafa_Reshid"
+			last_name = "Pasha"
 			birth_date = 1800.3.13
 			ig_leader = yes
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Mustafa_Reshid_Pasha
 				experienced_political_operator
@@ -73,6 +77,7 @@ CHARACTERS = {
 			culture = cu:albanian
 			interest_group = ig_rural_folk
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Mustafa_Bushatli
 				imperious
@@ -81,13 +86,13 @@ CHARACTERS = {
 
 		create_character = {
 			# Koca Husrev Mehmed Pasha 
-			first_name = "Husrev_Mehmed"
-			last_name = "Kocazade"
+			first_name = "Koca_Huesrev"
+			last_name = "Pasha"
 			age = 67 # not sure of his actual birth date, born in 1756 or thereabouts
 			ig_leader = yes
-			culture = cu:north_caucasian
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Koca_Huesrev_Pasha
 			}
@@ -110,54 +115,41 @@ CHARACTERS = {
 
 		create_character = {
 			# Mekkizade Mustafa Asim Efendi, Sheikh-ul-Islam of the Ottoman Empire from 1818-1819, 1823-1825, 1833-1846
-			first_name = "Mustafa_Asim_TUR"
+			first_name = "Mustafa_Asim"
 			last_name = "Mekkizade"
 			age = 74
 			ig_leader = yes
 			interest_group = ig_devout
+			trait_generation = { set_variable = historical_figure }
 			traits = {
-				tactful
 				concept_wikipedia_Mustafa_Asim_Mekkizade
-			}
-		}
-		
-		create_character = {
-			# Topal Izzet Mehmed Pasha, Grand Vizier of the Ottoman Empire from 1828-1829, 1841-1842
-			first_name = "Izzet_Mehmed"
-			last_name = "Darendeli"
-			age = 44
-			ig_leader = yes
-			interest_group = ig_petty_bourgeoisie
-			traits = {
 				tactful
 			}
 		}
 
 		create_character = {
 			is_general = yes
-			first_name = "Resid_Mehmed"
-			last_name = "Gurcuzade"
+			first_name = Resid_Mehmed
+			last_name = "Pasha"
 			age = 56
-			culture = cu:georgian
-			interest_group = ig_armed_forces
 			hq = region_balkans
 			commander_rank = commander_rank_3
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Resid_Mehmed_Pasha
 				mountain_commander
 				cruel
-				brave
-				cancer
 			}
 		}
 		
 		create_character = {
 			is_general = yes
 			first_name = abdulkerim_nadir
-			last_name = "Cirpanli"
+			last_name = "Pasha"
 			age = 29
 			hq = region_anatolia
-			commander_rank = commander_rank_1
+			commander_rank = commander_rank_3
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_abdulkerim_nadir_Pasha
 				cruel
@@ -168,11 +160,12 @@ CHARACTERS = {
 
 		create_character = {
 			is_admiral = yes
-			first_name = "Tahir_Mehmed"
-			last_name = "Cengeloglu"
+			first_name = "Yaver"
+			last_name = "Pasha"
 			hq = region_anatolia
 			commander_rank = commander_rank_3
-			age = 51
+			age = 42
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Yaver_Pasha
 				basic_diplomat
@@ -180,8 +173,6 @@ CHARACTERS = {
 			}
 
 		}
-		
-		
 
 			# create_character = {
 			# name = "Hafiz Osman Pasha"
@@ -195,15 +186,14 @@ CHARACTERS = {
 
 		create_character = { # TUR, General
 			is_general = yes
-			first_name = "Hafiz_Mehmed"
-			last_name = "Cerkeszade"
+			first_name = Hafiz_Osman
+			last_name = Pasha
 			interest_group = ig_armed_forces
-			culture = cu:north_caucasian
 			ideology = ideology_royalist
 			birth_date = 1790.2.11 # Unsure of birth date, approxiamate age based on portraits.
 			hq = region_caucasus
+			trait_generation = { set_variable = historical_figure }
 			traits = {
-				pious
 				concept_wikipedia_Hafiz_Osman_Pasha
 				reckless
 				basic_defensive_strategist
@@ -212,14 +202,15 @@ CHARACTERS = {
 
 		create_character = { # TUR, General
 			is_general = yes
-			first_name = "Omer_Lutfi_TUR"
-			last_name = "Latas"
+			first_name = Omer_Lutfi
+			last_name = Pasha
 			culture = cu:serb
 			religion = sunni
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
 			birth_date = 1806.9.24
 			hq = region_arabic
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Omer_Lutfi_Pasha
 				meticulous

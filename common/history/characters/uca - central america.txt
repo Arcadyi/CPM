@@ -10,6 +10,7 @@
 			dna = dna_president_francisco_morazan
 			interest_group = ig_armed_forces
 			ideology = ideology_reformer
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Francisco_Morazan
 				meticulous

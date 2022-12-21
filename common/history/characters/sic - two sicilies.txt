@@ -9,6 +9,7 @@
 			dna = dna_king_ferdinand_02
 			interest_group = ig_landowners
 			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ferdinando_di_Borbone_delle_Due_Sicilie
 				imperious
@@ -26,6 +27,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_royalist
 			age = 0 # technically age -15 days on January 1, 1836, but let's ignore that
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Francesco_di_Borbone_delle_Due_Sicilie
 				imperious
@@ -37,6 +39,7 @@
 			first_name = Carlo
 			last_name = Filangieri
 			age = 52
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Carlo_Filangieri
 		#		harsh
@@ -73,6 +76,7 @@
 			first_name = Prince_Leopoldo
 			last_name = di_Borbone_delle_Due_Sicilie
 			age = 46
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Prince_Leopoldo_di_Borbone_delle_Due_Sicilie
 		#		womanizer
@@ -98,6 +102,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
 			birth_date = 1778.4.24
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Raffaele_de_Cosa
 				basic_naval_commander

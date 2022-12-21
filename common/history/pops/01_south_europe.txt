@@ -235,23 +235,25 @@
 		}
 	}
 	s:STATE_NAVARRA = {
-		region_state:CSP = {
+		region_state:CAR = {
 			create_pop = {
 				culture = spanish
-				size = 579200
-			}
-			create_pop = {
-				culture = catalan
-				size = 32220
+				size = 145160
 			}
 			create_pop = {
 				culture = basque
-				size = 700060
+				size = 360000
+			}
+		}
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 154600
 			}
 		}
 	}
 	s:STATE_ARAGON = {
-		region_state:CSP = {
+		region_state:SPA = {
 			create_pop = {
 				culture = spanish
 				size = 401200
@@ -267,14 +269,34 @@
 		}
 	}
 	s:STATE_CATALONIA = {
-		region_state:CSP = {
+		region_state:SPA = {
 			create_pop = {
 				culture = catalan
-				size = 704308
+				size = 404308
 			}
 			create_pop = {
 				culture = spanish
-				size = 316804
+				size = 216804
+			}
+		}
+		region_state:CAR = {
+			create_pop = {
+				culture = catalan
+				size = 300000
+			}
+			create_pop = {
+				culture = spanish
+				size = 100000
+			}
+		}
+		region_state:ANR = {
+			create_pop = {
+				culture = catalan
+				size = 6500
+			}
+			create_pop = {
+				culture = french
+				size = 1240
 			}
 		}
 	}
@@ -453,23 +475,45 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 61604
+				size = 59044
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 12000
+				size = 3000
 			}
 			create_pop = {
 				culture = bulgarian
-				size = 92004
+				size = 90004
 			}
 			create_pop = {
 				culture = greek
-				size = 4000
+				size = 3900
 			}
 			create_pop = {
 				culture = romanian
-				size = 84000
+				size = 76000
+			}
+		}
+		region_state:RUS = {
+			create_pop = {
+				culture = turkish
+				size = 2560
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 9000
+			}
+			create_pop = {
+				culture = bulgarian
+				size = 2000
+			}
+			create_pop = {
+				culture = greek
+				size = 100
+			}
+			create_pop = {
+				culture = romanian
+				size = 8000
 			}
 		}
 	}

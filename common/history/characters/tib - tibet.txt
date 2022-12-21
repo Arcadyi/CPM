@@ -9,6 +9,7 @@
 			age = 20
 			interest_group = ig_devout
 			ideology = ideology_theocrat
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Tsultrim_Gyatso
 				cautious

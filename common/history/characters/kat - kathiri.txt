@@ -9,6 +9,7 @@
 			age = 26 # Uncertain
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ghalib_al_Kathir
 			}

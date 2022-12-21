@@ -7,6 +7,7 @@
     ideology = ideology_traditionalist
     interest_group = ig_rural_folk
     birth_date = 1825.10.10
+    trait_generation = { set_variable = historical_figure }
     traits = {
     	concept_wikipedia_Paul_Kruger
         pious

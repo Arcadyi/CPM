@@ -9,6 +9,7 @@
 			age = 37
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Omar_Ali_Bolkiah
 				cautious
@@ -24,6 +25,7 @@
 			age = 48 # yes he's older than the guy he succeeded
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Abdul_Momin_Bolkiah
 				reserved

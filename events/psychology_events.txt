@@ -506,6 +506,7 @@ psychology_events.5 = {
 				dna = dna_sigmund_freud
 				religion = rel:jewish
 				ideology = ideology_atheist
+				trait_generation = { set_variable = historical_figure }
 				traits = {
 					concept_wikipedia_Sigismund_Schlomo_Freud
 					ambitious
@@ -528,6 +529,7 @@ psychology_events.5 = {
 				interest_group = ig_intelligentsia
 				religion = rel:jewish
 				ideology = ideology_atheist
+				trait_generation = { set_variable = historical_figure }
 				traits = {
 					ambitious
 					charismatic

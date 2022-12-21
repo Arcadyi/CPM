@@ -9,6 +9,7 @@
 			age = 30 # Don't know his age directly. His predecessor, maybe his father, was born in 1781, so I'm assuming Mehrab was born a generation later, like in 1806 or so. 
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Mehrab_Baloch
 				cautious
@@ -24,6 +25,7 @@
 			age = 10 # described the "youthful son" of Mehrab in 1841
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Nasir_Baloch
 				charismatic
@@ -38,6 +40,7 @@
 			ig_leader = yes
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Muhammad_Hussein_Baloch
 				ambitious

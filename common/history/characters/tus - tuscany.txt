@@ -9,6 +9,7 @@
 			age = 39
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Leopoldo_d_Absburgo-Toscana
 				tactful
@@ -26,6 +27,7 @@
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
 			age = 1 # 
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Francesco_d_Absburgo-Toscana
 				arrogant

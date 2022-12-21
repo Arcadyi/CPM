@@ -15,3 +15,17 @@
 		remove_war_goal = { who = initiator war_goal = contain_threat}
 	}
 }
+
+dp_test_cb = {
+	war_goal = war_reparations
+	enable_switch_sides = yes
+	allow_negotiated_peace = yes
+	mirror_war_goal = no
+	initiator_can_add_war_goals = yes # default yes
+    target_can_add_war_goals = yes # default yes
+	backing_down_always_ends_play = no
+
+	selectable_in_lens = {
+		always = no
+	}
+}

@@ -16,25 +16,9 @@
 	# Zollverein
 	c:PRU = {
 		create_diplomatic_pact = {
-			country = c:WLD	
-			type = customs_union
-		}
-		create_diplomatic_pact = {
-			country = c:LIP
-			type = customs_union
-		}			
-		create_diplomatic_pact = {
-			country = c:SCM
-			type = customs_union
-		}	
-		create_diplomatic_pact = {
 			country = c:SAX
 			type = customs_union
-		}	
-		create_diplomatic_pact = {
-			country = c:MST
-			type = customs_union
-		}			
+		}		
 		create_diplomatic_pact = {
 			country = c:ANH
 			type = customs_union
@@ -90,7 +74,23 @@
 		create_diplomatic_pact = {
 			country = c:HEK
 			type = customs_union
-		}	
+		}
+		create_diplomatic_pact = {
+			country = c:SND
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:GRA
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:GRZ
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:ALN
+			type = customs_union
+		}
 	}
 	# Steuerverein
 	c:GBR = {	

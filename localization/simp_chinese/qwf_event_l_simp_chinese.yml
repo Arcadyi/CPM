@@ -1,0 +1,42 @@
+﻿l_simp_chinese:
+ geneva_conventions.2.t:0 "秩序的挑战者"
+ geneva_conventions.1.t:0 "国际联盟的建立"
+ geneva_conventions.1.d:0 "随着越来越多的国家加入日内瓦公约，列强们决定建立一个国际联合组织，主要宗旨为维护和平、裁减军备和实施委任统治、和平解决国际争端。随着[SCOPE.sCountry('country_ranking_1').GetName]、[SCOPE.sCountry('country_ranking_2').GetName]、[SCOPE.sCountry('country_ranking_3').GetName]和[SCOPE.sCountry('country_ranking_4').GetName]被推举为常任理事国，国际联盟被正式宣告成立。"
+ 
+ qwf_gw.0002.t:0 "秩序的挑战者"
+ qwf_gw.0002.d:0 "在目前国际局势一触即发的情况下，任何[concept_great_power]发起战端都将导致轩然大波。而[SCOPE.sC('great_power_troublemakers').GetName]现在就充当了这个角色，我国早已被渲染成目前世界秩序的[concept_order_challenger]，这无疑是一次重新洗牌目前秩序的好机会。"
+ qwf_gw.0002.f:0 "一场大战看来在所难免"
+ qwf_gw.0001.a:0 "为了荣耀！胜利属于#V [GetGlobalVariable('qwf_order_challenger').GetCountry.GetName]#!！"
+ qwf_gw.0001.b:0 "这太冒险了。。。"
+ 
+ qwf_gw.1001.t:0 "大战结束了"
+ qwf_gw.1001.d:0 "随着伤亡惨重的大战落幕，在大战中与我国处于敌对一方国家的所有附属国家都在战胜[concept_great_power]的授意下宣布独立。同时所有战胜国都可以向战败方国家索取[concept_great_war_reparations]以补偿战胜国在大战中的损失。"
+ qwf_gw.1001.f:0 "我们胜利了，不过付出了一代人的鲜血。"
+ qwf_gw.1001.a:0 "看起来新的秩序建立了。"
+ 
+ qwf_gw.1002.t:0 "大战结束了"
+ qwf_gw.1002.d:0 "随着大战和约的签署，我国被迫向战胜国屈膝投降，在大战中战胜我国[concept_great_power]的授意下，我们的所有附属国家都已经宣布独立。同时所有战胜国都可以向我国及其他战败方国家索取[concept_great_war_reparations]以补偿战胜国在大战中的损失。"
+ qwf_gw.1002.f:0 "我们失去了一代人，也失去了战前的引以为傲的荣誉。"
+ qwf_gw.1002.a:0 "我们不得不屈服。"
+ qwf_gw.1002.b:0 "这只是休战罢了！"
+ 
+ qwf_gw.1003.t:0 "大战结束了"
+ qwf_gw.1003.d:0 "伤亡惨重的大战终于结束了，[SCOPE.sC('great_power_leader_won').GetName]主导了大战和谈，[SCOPE.sC('great_power_leader_lose').GetName]被指控为挑起战争的元凶。所有战败国的附属国家宣布了独立，战胜国正在筹划对战败一方索取[concept_great_war_reparations]以作为其挑起战争的惩罚。"
+ qwf_gw.1003.f:0 "世界秩序重新洗牌了。"
+ qwf_gw.1003.a:0 "希望这是终战之战"
+ 
+ qwf_gw.1004.t:0 "重铸秩序：惨败"
+ qwf_gw.1004.d:0 "随着战争落幕，[SCOPE.sC('great_power_leader_won').GetName]如愿以偿的获取了诸多[concept_great_power]的认可，成为了新的秩序参与者。我国则因此蒙羞，受到了其他[concept_great_power]的轻视。"
+ qwf_gw.1004.f:0 "我们不被认为是构建秩序的列强了。"
+ qwf_gw.1004.a:0 "[SCOPE.sC('great_power_leader_lose').GetName]总有一天会得到他应得的！"
+ 
+ qwf_gw.1005.t:0 "重铸秩序：胜利"
+ qwf_gw.1005.d:0 "随着战争落幕，我国如愿以偿的获取了诸多[concept_great_power]的认可，成为了新的秩序参与者。[SCOPE.sC('great_power_leader_lose').GetName]则因此蒙羞，受到了其他[concept_great_power]的轻视。"
+ qwf_gw.1005.f:0 "我们被认为是构建秩序的列强了。"
+ qwf_gw.1005.a:0 "这是[SCOPE.sC('great_power_leader_won').GetName]应得的。"
+ 
+ qwf_gw.1006.t:0 "重铸秩序：维持现状"
+ qwf_gw.1006.d:0 "国际社会本以为这场重铸秩序会导致现有秩序的颠覆或巩固，现在看来大错特错。[concept_great_power]间僵持不下，最终只能相互妥协继续遵从目前的国际秩序。"
+ qwf_gw.1006.f:0 "这场虎头蛇尾的[concept_diplomatic_play]并未改变什么。"
+ qwf_gw.1006.a:0 "这是我们时代的和平。"
+

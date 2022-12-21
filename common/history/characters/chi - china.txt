@@ -10,6 +10,7 @@
 			culture = cu:manchu
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Daoguang_Aisin_Gioro
 				cautious
@@ -25,6 +26,7 @@
 			culture = cu:manchu
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Yizhu_Aisin_Gioro
 				arrogant
@@ -40,6 +42,7 @@
 			ig_leader = yes
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Qiying_Aisin_Gioro
 				reckless
@@ -56,6 +59,7 @@
 			ig_leader = yes
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Zexu_Lin
 				imperious
@@ -72,6 +76,7 @@
 			ig_leader = yes
 			interest_group = ig_trade_unions
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Zizhen_Gong
 				reckless
@@ -88,6 +93,7 @@
 			ig_leader = yes
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Changling_He
 				meticulous
@@ -102,6 +108,7 @@
 			ig_leader = yes
 			interest_group = ig_industrialists
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Yuan_Ruan
 				meticulous
@@ -116,6 +123,7 @@
 			ig_leader = yes
 			interest_group = ig_rural_folk
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Lexing_Zhang
 				ambitious
@@ -132,6 +140,7 @@
 			ig_leader = yes
 			interest_group = ig_devout
 			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Yupian_Huang
 				persistent
@@ -145,6 +154,7 @@
 			last_name = Guan
 			age = 55
 			culture = cu:han
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Tianpei_Guan
 				expert_naval_commander
@@ -159,6 +169,7 @@
 			last_name = Chen
 			age = 60
 			culture = cu:han
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Huacheng_Chen
 				experienced_naval_commander
@@ -174,6 +185,7 @@
 			culture = cu:han
 			hq = region_north_china
 			commander_rank = commander_rank_4
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Fang_Yang
 				persistent
@@ -191,6 +203,7 @@
 			birth_date = 1798.12.24 # exact date unknown
 			hq = region_north_china
 			commander_rank = commander_rank_3
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Guanwen_Wanggiya
 				traditionalist_commander
@@ -208,6 +221,7 @@
 			birth_date = 1793.1.9
 			hq = region_south_china
 			commander_rank = commander_rank_5
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Bingzhang_Luo
 				stalwart_defender
@@ -225,6 +239,7 @@
 			birth_date = 1790.6.13
 			hq = region_south_china
 			commander_rank = commander_rank_4
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Yishan_Aisin_Gioro
 				reckless
@@ -242,6 +257,7 @@
 			birth_date = 1772.6.1 # exact date unknown
 			hq = region_south_china
 			commander_rank = commander_rank_3
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Delu_Wang
 				experienced_offensive_planner
@@ -260,6 +276,7 @@
 			birth_date = 1786.1.18
 			hq = region_manchuria
 			commander_rank = commander_rank_3
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Qishan_Borjigin
 				cautious
@@ -276,6 +293,7 @@
 			ideology = ideology_royalist
 			birth_date = 1791.6.10 # exact date unknown
 			hq = region_himalayas
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Buyantai_Yanzha
 				basic_colonial_administrator
@@ -293,6 +311,7 @@
 			birth_date = 1789.6.6 # exact date unknown
 			hq = region_south_china
 			commander_rank = commander_rank_2
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Yunfei_Ge_2
 				brave

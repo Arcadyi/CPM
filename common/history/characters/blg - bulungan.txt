@@ -9,6 +9,7 @@
 			birth_date = 1801.2.5 # reigned from 1817-1861, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Muhammad_Alimuddin_Bulungan
 			}
@@ -23,6 +24,7 @@
 			birth_date = 1832.10.2 # reigned from 1861-1866, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Muhammad_Jalaluddin_Bulungan
 			}

@@ -9,6 +9,7 @@
 			age = 26 # b. 1810, succeeded to the throne in 1829
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Mir_Sher_Talpur
 				ambitious

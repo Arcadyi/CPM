@@ -9,6 +9,7 @@
 			age = 23
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Petar_Petrovic_Njegos
 				ambitious
@@ -24,6 +25,7 @@
 			age = 9
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Danilo_Petrovic_Njegos
 				ambitious
@@ -35,6 +37,7 @@
 			first_name = Mirko
 			last_name = Petrovic_Njegos
 			age = 16
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Mirko_Petrovic_Njegos
 		#		au_fait

@@ -51,13 +51,13 @@
 		}
 		
 		set_institution_investment_level = {
-			institution = institution_navy_professionalism
-			level = 3
-		}
-		
-		set_institution_investment_level = {
 			institution = institution_schools
 			level = 3
+		}
+
+		set_institution_investment_level = {
+			institution = institution_navy_professionalism
+			level = 2
 		}
 
 		set_institution_investment_level = {

@@ -1,0 +1,13 @@
+﻿l_english:
+    #lawgroups
+    lawgroup_navy_model:0 "Navy Model"
+    lawgroup_navy_model_desc:0 "How your navy is organized and regulated"
+    #laws
+    law_feudal_navy:0 "Feudal Navy"
+    law_feudal_navy_desc:0 "The navy's bulk is formed by untrained and unprofessional forces"
+    law_professional_navy:0 "Professional Navy"
+    law_professional_navy_desc:0 "The navy consists of well trained, professional regulars"
+    law_merchant_navy:0 "Merchant Navy"
+    law_merchant_navy_desc:0 "The navy largerly serves to assist the nation's import and export"
+    law_mass_draft:0 "Mass Draft"
+    law_mass_draft_desc:0 "The navy consists of drafted and professional regulars"

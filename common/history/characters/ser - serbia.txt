@@ -9,6 +9,7 @@
 			age = 56
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Milos_Obrenovic
 				persistent
@@ -26,6 +27,7 @@
 			age = 17
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Milan_Obrenovic
 				reserved
@@ -38,6 +40,7 @@
 			first_name = Prince_Aleksandar
 			last_name = Karadordevic
 			age = 30
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Prince_Aleksandar_Karadordevic
 		#		openminded

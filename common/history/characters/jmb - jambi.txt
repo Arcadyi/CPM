@@ -9,6 +9,7 @@
 			birth_date = 1770.1.2 # reigned from 1833 – 1841, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Muhammad_Fakhruddin_Jambi
 			}
@@ -23,6 +24,7 @@
 			birth_date = 1816.1.6
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Thaha_Syaifuddin_Jambi
 			}

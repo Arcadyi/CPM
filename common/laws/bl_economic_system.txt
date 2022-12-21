@@ -221,8 +221,8 @@ law_command_economy = {
 	modifier = {
 		country_mandate_subsidies = yes
 		
-		state_construction_mult = 0.25
-		state_tax_capacity_mult = 0.25	
+		country_government_wages_mult = 0.25
+		country_minting_mult = 0.25
 		country_authority_mult = 0.25
 		country_bureaucrats_pol_str_mult = 0.25
 	}

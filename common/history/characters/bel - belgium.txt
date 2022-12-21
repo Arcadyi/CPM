@@ -11,6 +11,7 @@
 			dna = dna_king_leopold_01
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Leopold_of_Saxe-Coburg-Gotha
 				tactful
@@ -28,6 +29,7 @@
 			age = 1
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Leopold_of_Saxe-Coburg-Gotha
 				ambitious # yes, even as a one-year-old
@@ -41,6 +43,7 @@
 			ig_leader = yes
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Hippolyte_Metdepenningen
 				cautious
@@ -54,6 +57,7 @@
 			ig_leader = yes
 			interest_group = ig_devout
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Barthelemy_de_Theux_de_Meylandt
 				cautious
@@ -65,6 +69,7 @@
 			first_name = Andre_Lambert
 			last_name = Nypels
 			age = 50
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Andre_Lambert_Nypels
 				plains_commander
@@ -78,6 +83,7 @@
 			last_name = Evain
 			age = 61
 			culture = cu:french
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Louis_Evain
 				trench_rat

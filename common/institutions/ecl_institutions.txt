@@ -1,0 +1,8 @@
+﻿institution_childbirth_affairs = { # Max level from tech
+	icon = "gfx/interface/icons/institution_icons/encouranging_childbirth.dds"
+	background_texture = "gfx/interface/illustrations/institutions/encouranging_childbirth.dds"
+	modifier = {
+		state_accepted_birth_rate_mult = 0.1
+		state_dependent_wage_mult = 0.05
+	}
+}

@@ -12,6 +12,7 @@
 			commander_rank = commander_rank_2
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ismail_Berzeg
 				ambitious
@@ -29,6 +30,7 @@
 			commander_rank = commander_rank_2
 			interest_group = ig_armed_forces
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Hawduqo_Mansur
 				forest_commander

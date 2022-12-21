@@ -22,3 +22,8 @@
  custom_loc_universal_title_default:0 ""
  custom_loc_universal_title_ruler:0 ""
  custom_loc_universal_title_heir:0 ""
+
+ # Special Characters
+ custom_loc_universal_blank:0 ""
+ custom_loc_universal_asterisk:0 ""
+ custom_loc_universal_asterisk_formatted:0 ""

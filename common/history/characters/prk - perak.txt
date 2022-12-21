@@ -9,6 +9,7 @@
 			birth_date = 1780.1.7 # reigned from 1830–1851, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Shahabuddin_Riayat_Shah_Perak
 			}
@@ -23,6 +24,7 @@
 			birth_date = 1801.3.3 # reigned from 1851 - 1857, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Abdullah_Muhammad_Shah_Perak
 			}

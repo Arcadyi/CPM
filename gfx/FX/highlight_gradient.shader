@@ -2,7 +2,7 @@ Includes = {
 	"cw/fullscreen_vertexshader.fxh"
 	"cw/random.fxh"
 	"jomini/jomini_colormap_constants.fxh"
-	"nocoloroverlay.fxh"
+	"coloroverlay_typhion.fxh"
 }
 
 ConstantBuffer( PdxConstantBuffer0 )

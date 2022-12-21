@@ -9,6 +9,7 @@
 			birth_date = 1789.3.5 # reigned from 1822-1856, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Achmadul_Mansur_Sirajuddin_Syah_Tidore
 			}
@@ -23,6 +24,7 @@
 			birth_date = 1809.10.2 # reigned from 1856–1865, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Achmad_Syaifuddin_Alting_Tidore
 			}

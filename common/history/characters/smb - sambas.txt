@@ -9,6 +9,7 @@
 			birth_date = 1772.1.5 # reigned from 1832 - 1846, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Umar_Aqamaddin_Sambas
 			}
@@ -23,6 +24,7 @@
 			birth_date = 1801.1.2 # reigned from 1846 - 1854, birth date unknown
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Abu_Bakar_Sambas
 			}

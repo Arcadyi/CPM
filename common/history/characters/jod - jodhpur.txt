@@ -9,6 +9,7 @@
 			age = 53
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Man_Singh_Rathore
 				reserved
@@ -24,6 +25,7 @@
 			age = 17
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Takht_Singh_Rathore
 				meticulous

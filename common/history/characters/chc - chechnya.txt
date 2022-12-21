@@ -12,6 +12,7 @@
 			commander_rank = commander_rank_2
 			interest_group = ig_devout
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Shamil_Murid
 				pious
@@ -24,6 +25,7 @@
 			first_name = "Hadji"
 			last_name = "Murad"
 			birth_date = 1818.2.1
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Hadji_Murad
 				mountain_commander

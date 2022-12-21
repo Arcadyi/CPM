@@ -9,6 +9,7 @@
 			age = 44
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Wilhelm_von_Nassau-Weilburg
 				tactful
@@ -27,6 +28,7 @@
 			age = 19
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Adolf_von_Nassau-Weilburg
 				charismatic

@@ -9,6 +9,7 @@
 			ruler = yes
 			birth_date = 1796.7.6
 			dna = dna_tsar_nicolas_01
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Nikolai_Romanov
 				arrogant
@@ -26,6 +27,7 @@
 			birth_date = 1818.4.26
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Aleksandr_Romanov
 				meticulous
@@ -39,6 +41,7 @@
 			birth_date = 1781.7.4
 			ig_leader = yes
 			interest_group = ig_armed_forces
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Aleksandr_von_Benckendorff
 				imperious
@@ -65,6 +68,7 @@
 			ig_leader = yes
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Mikhail_Speransky
 				cautious
@@ -81,6 +85,7 @@
 			ig_leader = yes
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Sergei_Uvarov
 				meticulous
@@ -95,6 +100,7 @@
 			ig_leader = yes
 			interest_group = ig_devout
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Filaret_Drozdov
 				charismatic
@@ -109,6 +115,7 @@
 			ig_leader = yes
 			interest_group = ig_trade_unions
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Aleksandr_Herzen
 			}
@@ -124,6 +131,7 @@
 			ig_leader = yes
 			interest_group = ig_rural_folk
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Yevhen_Hrebinka
 				romantic
@@ -139,6 +147,7 @@
 			ig_leader = yes
 			interest_group = ig_industrialists
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Alexei_Bobrinsky
 				persistent
@@ -152,6 +161,7 @@
 			birth_date = 1782.5.30 # Gregorian Calendar
 			hq = region_russia
 			commander_rank = commander_rank_5
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Mikhail_Vorontsov
 				direct
@@ -167,6 +177,7 @@
 			birth_date = 1786.1.10 # Gregorian Calendar
 			hq = region_dnieper
 			commander_rank = commander_rank_5
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Aleksandr_Chernyshyov
 				brave
@@ -190,6 +201,7 @@
 			age = 54
 			hq = region_poland
 			commander_rank = commander_rank_2
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ivan_Paskevich
 				brave
@@ -203,6 +215,7 @@
 			age = 52
 			hq = region_caucasus
 			commander_rank = commander_rank_2
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Matvey_Khrapovitsky
 				mountain_commander
@@ -215,6 +228,7 @@
 			last_name = Lazarev
 			birth_date = 1788.11.14 # Gregorian Calendar
 			hq = region_russia
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Mikhail_Lazarev
 			 	explorer
@@ -229,6 +243,7 @@
 			age = 49
 			hq = region_central_asia
 			commander_rank = commander_rank_2
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Nikolay_Muravyov_Karsky
 				persistent
@@ -253,6 +268,7 @@
 			last_name = Grabbe
 			age = 47
 			hq = region_west_siberia
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Pavel_Grabbe
 				ambitious
@@ -278,6 +294,7 @@
 			last_name = von_Berg
 			hq = region_baltic
 			age = 42
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Friedrich_von_Berg
 				meticulous
@@ -306,6 +323,7 @@
 			birth_date = 1778.1.25
 			hq = region_baltic
 			commander_rank = commander_rank_2
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Fabian_Gottlieb_von_Bellingshausen
 				explorer
@@ -323,6 +341,7 @@
 			birth_date = 1809.7.15
 			hq = region_dnieper
 			commander_rank = commander_rank_3
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Vasily_Zavoyko
 				explorer
@@ -337,6 +356,7 @@
 			ideology = ideology_reformer
 			birth_date = 1776.2.9
 			hq = region_east_siberia
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Pyotr_Ricord
 				basic_naval_commander

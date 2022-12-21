@@ -5,18 +5,11 @@
 	progressiveness = -50
 	
 	modifier = {
-		unit_morale_loss_mult = 0.1
-		state_working_adult_ratio_add = 0.025
-		building_group_bg_military_throughput_mult = -0.25
-		state_conscription_rate_add = 0.025
+		state_conscription_rate_add = 0.02
 		interest_group_ig_landowners_pol_str_mult = 0.25
 		country_military_goods_cost_mult = -0.25
-		country_military_wages_mult = -0.25
 		state_building_barracks_max_level_add = 25
 		state_building_conscription_center_max_level_add = 25
-		country_military_tech_cost_mult = 0.5
-		country_military_tech_spread_mult = -0.5
-		country_military_weekly_innovation_mult = -0.25
 	}
 	
 	on_enact = {
@@ -42,7 +35,7 @@ law_professional_army = {
 	progressiveness = 0
 	
 	unlocking_technologies = { military_drill }
-
+	
 	institution = institution_qwf_conscription
 	institution_modifier = {
 		state_conscription_rate_add = 0.002
@@ -52,18 +45,13 @@ law_professional_army = {
 	}
 	
 	modifier = {
-		unit_morale_loss_mult = -0.1
-		building_group_bg_military_throughput_mult = 0.1
-		country_military_goods_cost_mult = 0.1
-		country_military_wages_mult = 0.1
-		interest_group_ig_armed_forces_pop_attraction_mult = 0.25
+		state_conscription_rate_add = 0.01
+		interest_group_ig_armed_forces_pol_str_mult = 0.25
+		country_institution_qwf_conscription_max_investment_add = 3
 		state_building_barracks_max_level_add = 100
 		state_building_conscription_center_max_level_add = 50
-		state_conscription_rate_add = 0.01
-            interest_group_ig_armed_forces_pol_str_mult = 0.25
-            country_institution_qwf_conscription_max_investment_add = 3
 	}
-
+	
 	possible_political_movements = {
 		law_mass_conscription
 	}
@@ -76,7 +64,7 @@ law_national_militia = {
 	progressiveness = 0
 	
 	unlocking_technologies = { mandatory_service }
-
+	
 	institution = institution_qwf_conscription
 	institution_modifier = {
 		state_conscription_rate_add = 0.005
@@ -86,19 +74,13 @@ law_national_militia = {
 	}
 	
 	modifier = {
-		unit_morale_loss_mult = -0.05
-		building_group_bg_military_throughput_mult = -0.1
-		country_military_goods_cost_mult = -0.1
-		country_military_wages_mult = -0.1
 		state_conscription_rate_add = 0.05
-		interest_group_ig_armed_forces_pop_attraction_mult = -0.25
 		interest_group_ig_armed_forces_pol_str_mult = -0.25
-		state_working_adult_ratio_add = 0.05
+		country_institution_qwf_conscription_max_investment_add = 3
 		state_building_barracks_max_level_add = 5
 		state_building_conscription_center_max_level_add = 100
-		country_institution_qwf_conscription_max_investment_add = 3
 	}
-
+	
 	possible_political_movements = {
 		law_professional_army
 		law_mass_conscription
@@ -119,7 +101,7 @@ law_mass_conscription = {
 	progressiveness = 50
 	
 	unlocking_technologies = { enlistment_offices }
-
+	
 	institution = institution_qwf_conscription
 	institution_modifier = {
 		state_conscription_rate_add = 0.008
@@ -128,14 +110,13 @@ law_mass_conscription = {
 	}
 	
 	modifier = {
-		unit_morale_loss_mult = 0.05
 		state_conscription_rate_add = 0.04
 		building_training_rate_mult = 1
+		country_institution_qwf_conscription_max_investment_add = 3
 		state_building_barracks_max_level_add = 100
 		state_building_conscription_center_max_level_add = 100
-		country_institution_qwf_conscription_max_investment_add = 3
 	}
-
+	
 	possible_political_movements = {
 		law_mass_conscription
 	}

@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			ig_leader = yes
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_George_Eden
 				reckless
@@ -26,6 +27,7 @@
 			birth_date = 1795.4.5
 			hq = region_south_india
 			commander_rank = commander_rank_3
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Sir_Henry_Havelock
 				brave
@@ -57,6 +59,7 @@
 			birth_date = 1782.1.26
 			hq = region_north_india
 			commander_rank = commander_rank_3
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Sir_Henry_Godwin
 				basic_offensive_planner
@@ -73,6 +76,7 @@
 			ideology = ideology_moderate
 			birth_date = 1812.1.2 # exact date unknown
 			hq = region_north_india
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_John_Wood
 				explorer
@@ -89,6 +93,7 @@
 			ideology = ideology_moderate
 			birth_date = 1782.12.13 # exact date unknown
 			hq = region_south_india
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Sir_Charles_Malcolm
 				basic_naval_commander

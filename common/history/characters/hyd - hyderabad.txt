@@ -9,6 +9,7 @@
 			age = 42
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Nasir-ud-Daulah_Asaf_Jah
 				reckless
@@ -25,6 +26,7 @@
 			age = 9
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Afzal-uh-Daulah_Asaf_Jah
 				meticulous

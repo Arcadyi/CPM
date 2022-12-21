@@ -10,6 +10,7 @@
 			ideology = ideology_moderate
 			birth_date = 1789.3.8
 			dna = dna_miguel_barragan
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Miguel_Barragan
 				reserved # Santa Anna's puppet
@@ -29,6 +30,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate
 			commander_rank = commander_rank_2
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Antonio_Lopez_de_Santa_Anna
 				ambitious
@@ -50,6 +52,7 @@
 		#	is_general = yes # Both general and IG leader - commented out due to bureaucracy concerns
 			interest_group = ig_landowners
 			ideology = ideology_jingoist_leader
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Anastasio_Bustamante
 				ambitious
@@ -66,6 +69,7 @@
 		#	is_general = yes # Both general and IG leader - commented out due to bureaucracy concerns
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_jingoist_leader
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Mariano_Paredes
 				imperious
@@ -82,6 +86,7 @@
 			is_general = yes # Both general and IG leader
 			interest_group = ig_rural_folk
 			ideology = ideology_radical
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Juan_Alvarez
 				persistent
@@ -98,6 +103,7 @@
 			ig_leader = yes
 			interest_group = ig_devout
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Lucas_Alaman
 				pious
@@ -114,6 +120,7 @@
 			ig_leader = yes
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Valentin_Gomez_Farias
 				direct
@@ -129,6 +136,7 @@
 			ig_leader = yes
 			interest_group = ig_industrialists
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Rafael_Mangino_i_Mendivil
 				reserved

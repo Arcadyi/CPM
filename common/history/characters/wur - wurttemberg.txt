@@ -9,6 +9,7 @@
 			age = 57
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Wilhelm_von_Wurttemberg
 				meticulous
@@ -27,6 +28,7 @@
 			age = 13
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Karl_von_Wurttemberg
 				romantic
@@ -67,6 +69,7 @@
 			first_name = Prince_Friedrich
 			last_name = Wurttemberg
 			age = 28
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Prince_Friedrich_Wurttemberg
 		#		mediocre

@@ -1,0 +1,115 @@
+﻿l_english:
+#japan
+ state_trait_traditional_whaling:0 "Traditional Whaling"
+ state_trait_satsuma_ware:0 "Satsuma Wares"
+ state_trait_miike_coalfield:0 "Miike Coalfield"
+ state_trait_hokutan_coalfield:0 "Hokutan Horonai"
+ state_trait_edo_rice:0 "Edo Rice Plains"
+ state_trait_Hokkaido_fishing:0 "Hokkaido fishing"              #Newly added20221218
+ state_trait_Shikoku_sanchi:0 "Shikoku sanchi"              #Newly added20221220
+#korea
+ state_trait_jiktong_coalfield:0 "Jiktong Coalfield"
+ state_trait_oryong_ironmine:0 "Oryong Iron Ore Deposits"
+ state_trait_jangsaengpo:0 "Jangsaengpo"
+ state_trait_Taibai_Mountains:0 "Taibai Moutains"              #Newly added20221220
+ state_trait_Nangnim_Mountains:0 "Nangnim Mountains"              #Newly added20221220
+ state_trait_Busan:0 "Busan"              #Newly added20221220
+#china
+ state_trait_manchurian_forest:0 "Manchurian Forest"
+ state_trait_fushun_coal:0 "Fushun Coalfield"
+ state_trait_anshan_iron:0 "Anshan Iron Ore Deposits"
+ state_trait_shanxi_coal:0 "Shanxi Coalfield"                 #Newly added
+ state_trait_hanyang_steel:0 "Hanyang Iron Works"                #Newly added
+ state_trait_hengduan:0 "Hengduan Mountains"                #Newly added
+ state_trait_shanghai_Port:0 "Port of Shanghai"                #Newly added
+ state_trait_Northeast_black_soil:0 "Black soil zone of Northeast"                #Newly added
+ state_trait_Jingde_porcelain:0 "Jingdezhen porcelain"                #Newly added
+ state_trait_Victoria_Harbour:0 "Victoria Harbour"                #Newly added
+ state_trait_Tibetan_Plateau:0 "Tibetan Plateau"               #Newly added
+ state_trait_Altai_Mountains:0 "Altai Mountains"               #Newly added20221220
+ state_trait_Tianshan_Mountains:0 "Tien Shan"               #Newly added20221220
+ state_trait_Khingan_Mountains:0 "Khingan Mountains"               #Newly added20221220
+ state_trait_Haihe_river:0 "Haihe river"               #Newly added20221221
+ state_trait_huai_river:0 "Huai river"               #Newly added20221221
+#Afghanistan              
+ state_trait_Hindu_kush_Mountains:0 "Hindu kush"                #Newly added
+#austrialia
+ state_trait_bowen:0 "Bowen Basin"
+ state_trait_murray_darling:0 "Murry-Darling Basin"
+ state_trait_bay_of_plenty_one:0 "Bay of Plenty"
+
+#Europe
+#Scandinavia
+ state_trait_Scandinavian_Mountains:0 "Scandinavian Mountains"               #Newly added20221220
+#denmark
+ state_trait_danish_pig:0 "The Danish Pig"
+#spain
+ state_trait_camocha:0 "Camocha Coalfield"
+ state_trait_cercs:0 "Cercs Coalfield"
+ state_trait_bonastre:0 "Can Bonastre"
+ state_trait_guadalquivir_river:0 "Guadalquivir"
+#austria
+ state_trait_most_basin:0 "Most Basin"
+ state_trait_moravskeho:0 "Moravskeho Manchesteru"
+ state_trait_great_alfold:0 "Great Alföld"
+ state_trait_delvidek:0 "Vojvodina"
+#italy
+ state_trait_frescobaldi:0 "Frescobaldi"
+ state_trait_Fabbrica_Italiana_Automobili_Torino:0 "F.I.A.T."                #Newly added
+#france
+ state_trait_goulaine:0 "Chateau de Goulaine"
+ state_trait_vin_de_bordeaux:0 "Vin De Bordeaux"
+ state_trait_City_of_Art:0 "City of Art"                 #Newly added
+#germany
+ state_trait_staffelter:0 "Staffelter Hof"
+ state_trait_Ruhr_Industrial_Base:0 "Ruhr Industrial Base"                #Newly added
+ state_trait_Loewenbraeu:0 "Löwenbräu"                #Newly added
+ state_trait_Royal_Saxon_Porcelain_Manufacutre:0 "Royal Saxon Porcelain Manufacutre"                #Newly added
+ state_trait_Daimler_Benz:0 "Daimler Motoren Gesellschaft"                #Newly added
+#lowcountries
+ state_trait_tulip:0 "Lingering Tulip Mania"
+ state_trait_great_fishery:0 "Great Fishery"
+ state_trait_haarlow:0 "Nederlandsche Handel-Maatschappij"
+ state_trait_flemish_diamond:0 "The Flemish Diamond"
+#portugal
+ state_trait_portugal_breadbasket:0 "Portugal's Breadbasket"
+#England
+ state_trait_cottonopolis:0 "Cottonpolis"
+ state_trait_linenopolis:0 "Linenpolis"
+ state_trait_Royal_Academy:0 "Royal Academy of Arts"                #Newly added
+#Russia
+ state_trait_Mariinsky_Theatre:0 "Mariinsky Theatre"                #Newly added
+ state_trait_Stanovoy_Range:0 "Stanovoy Range"               #Newly added20221220
+ state_trait_Yablonovyy:0 "Yablonovyy"               #Newly added20221220
+ state_trait_Sajan:0 "Sajan"              #Newly added20221220
+ state_trait_Lake_Baikal:0 "Lake Baikal"              #Newly added20221221
+ state_trait_Caspian_Sea:0 "Caspian Sea"              #Newly added20221221
+
+#americans
+#usa
+ state_trait_mission_grapes:0 "Mission Grapes"
+ state_trait_black_soil_nsa:0 "Black Soil"
+ state_trait_big_thicket:0 "Taxes Big Thicket"
+ state_trait_tornado:0 "Tornado Seasons"
+ state_trait_beancity:0 "Beancity"
+ state_trait_sonoran_desert:0 "Sonoran Desert"
+ state_trait_steel_city:0 "Steel City"
+ state_trait_San_Francisco_Port:0 "Port of San Francisco"                #Newly added
+ state_trait_the_Motor_City:0 "Motor City"               #Newly added
+ state_trait_Broadway:0 "Broadway"               #Newly added
+#Mexico
+ state_trait_grand_river:0 "Grand river"              #Newly added20221221
+#Brazil
+ state_trait_RIO_DE_JANEIRO:0 "Rio De Janeiro"               #Newly added
+#Peru
+ state_trait_Peru_fishing:0 "Peru Fishing"              #Newly added20221218
+
+#middleast
+# state_trait_mocha:0 "Arabian Mocha"
+
+#any
+ state_trait_taiga:0 "Taiga"
+ state_trait_arctic:0 "Arctic Weather"
+ state_trait_mollisol:0 "Mollisol Soil"
+ state_trait_chernozem:0 "Chernozem"
+ state_trait_gobi:0 "gobi"               #Newly added20221220

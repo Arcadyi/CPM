@@ -20,9 +20,11 @@ law_migration_controls = {
 	
 	modifier = {
 		country_disallow_discriminated_migration = yes	
-		interest_group_ig_petty_bourgeoisie_pol_str_mult = 0.1
-		state_radicals_from_sol_change_accepted_culture_mult = -0.1
-		state_loyalists_from_sol_change_accepted_culture_mult = 0.1
+		country_clerks_pol_str_mult = 0.1
+		state_radicals_from_sol_change_accepted_culture_mult = -0.05
+		state_loyalists_from_sol_change_accepted_culture_mult = 0.05
+		state_radicals_from_sol_change_accepted_religion_mult = -0.05
+		state_loyalists_from_sol_change_accepted_religion_mult = 0.05	
 	}
 	
 	progressiveness = 0
@@ -39,7 +41,7 @@ law_closed_borders = {
 
 	modifier = {
 		country_disallow_migration = yes
-		interest_group_ig_rural_folk_pol_str_mult = 0.1
+		country_aristocrats_pol_str_mult = 0.1
 		country_authority_mult = 0.1
 	}
 	

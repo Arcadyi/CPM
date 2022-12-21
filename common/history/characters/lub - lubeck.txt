@@ -10,6 +10,7 @@
 			age = 61
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Christian_Nicolaus_von_Evers
 				meticulous

@@ -11,6 +11,7 @@
 			birth_date = 1791.12.12
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Maria_Luisa_von_Habsburg
 				tactful
@@ -26,6 +27,7 @@
 			first_name = Wilhelm
 			last_name = Albrecht
 			age = 17
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Wilhelm_Albrecht
 		#		indifferent

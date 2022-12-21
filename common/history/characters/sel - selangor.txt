@@ -9,6 +9,7 @@
 			birth_date = 1772.2.6
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Muhammad_Shah_Opu_Daeng_Celak
 			}
@@ -23,6 +24,7 @@
 			birth_date = 1804.3.3
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Abdul_Samad_Opu_Daeng_Celak
 			}

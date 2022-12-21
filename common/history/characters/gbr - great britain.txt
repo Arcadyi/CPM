@@ -10,6 +10,7 @@
 			culture = cu:british
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_William_Hannover
 				romantic
@@ -32,6 +33,7 @@
 			culture = cu:british
 			interest_group = ig_industrialists
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Victoria_Hannover
 				direct
@@ -50,6 +52,7 @@
 			ig_leader = yes
 			interest_group = ig_intelligentsia
 			ideology = ideology_reformer
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_William_Lamb
 				arrogant
@@ -66,6 +69,7 @@
 		    ideology = ideology_market_liberal
 		    interest_group = ig_industrialists
 		    birth_date = 1788.2.5
+		    trait_generation = { set_variable = historical_figure }
 		    traits = {
 		    	concept_wikipedia_Robert_Peel
 		        meticulous
@@ -81,6 +85,7 @@
 			ig_leader = yes
 			interest_group = ig_devout
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_William_Howley
 				tactful
@@ -94,6 +99,7 @@
 			ig_leader = yes
 			interest_group = ig_trade_unions
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Robert_Owen
 				cautious
@@ -107,6 +113,7 @@
 			ig_leader = yes
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Rowland_Hill
 				reserved
@@ -120,6 +127,7 @@
 			ig_leader = yes
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_reformer
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Thomas_Barnes
 				meticulous
@@ -133,6 +141,7 @@
 			ig_leader = yes
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Edward_Smith-Stanley
 				imperious
@@ -147,6 +156,7 @@
 			ig_leader = yes
 			interest_group = ig_rural_folk
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Charles_Gordon_Lennox
 				imperious
@@ -159,6 +169,7 @@
 			last_name = Cochrane
 			hq = region_italy
 			age = 61
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Thomas_Cochrane
 				reckless
@@ -174,6 +185,7 @@
 			age = 66
 			hq = region_england
 			commander_rank = commander_rank_5
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Sir_Edward_Codrington
 				direct
@@ -189,6 +201,7 @@
 			age = 57
 			hq = region_england
 			commander_rank = commander_rank_3
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Hugh_Gough
 				direct
@@ -203,6 +216,7 @@
 			last_name = Cockburn
 			age = 64
 			hq = region_new_england
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Sir_George_Cockburn
 				innovative
@@ -217,6 +231,7 @@
 			age = 58
 			hq = region_north_sea_coast
 			commander_rank = commander_rank_2
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_John_Seaton
 				tactful
@@ -287,6 +302,7 @@
 			last_name = Dundas
 			age = 51
 			hq = region_iberia
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_James_Dundas
 				cautious
@@ -302,6 +318,7 @@
 			birth_date = 1773.7.25
 			hq = region_north_sea_coast
 			commander_rank = commander_rank_2
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Sir_Thomas_Byam_Martin
 				dockyard_master

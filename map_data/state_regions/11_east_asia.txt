@@ -13,10 +13,6 @@
         bg_lead_mining = 36
         bg_sulfur_mining = 80
     }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
-    }
 }
 
 STATE_TIANSHAN = {
@@ -119,10 +115,6 @@ STATE_ALXA = {
     capped_resources = {
         bg_coal_mining = 32
     }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
-    }
 }
 
 STATE_HINGGAN = {
@@ -195,10 +187,6 @@ STATE_SHENGJING = {
         bg_logging = 2
         bg_fishing = 2
     }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
-    }
     naval_exit_id = 3057
 }
 
@@ -223,10 +211,6 @@ STATE_OUTER_MANCHURIA = {
         type = "bg_gold_fields"
         depleted_type = "bg_gold_mining"
         undiscovered_amount = 8
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
     }
     naval_exit_id = 3059
 }
@@ -338,10 +322,6 @@ STATE_XIAN = {
         bg_sulfur_mining = 60
         bg_logging = 9
     }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
-    }
 }
 
 STATE_QINGHAI = {
@@ -375,10 +355,6 @@ STATE_CHONGQING = {
     capped_resources = {
         bg_coal_mining = 36
         bg_logging = 9
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
     }
 }
 
@@ -620,17 +596,10 @@ STATE_FORMOSA = {
     mine = "xE73B31"
     wood = "xE73B31"
     arable_land = 172
-    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_banana_plantations" "bg_sugar_plantations" "bg_coffee_plantations" }
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_logging = 7
         bg_fishing = 13
-        bg_coal_mining = 36
-        bg_sulfur_mining = 18
-    }
-    resource = {
-        type = "bg_gold_fields"
-        depleted_type = "bg_gold_mining"
-        undiscovered_amount = 4
     }
     naval_exit_id = 3056
 }
@@ -651,10 +620,6 @@ STATE_SHANDONG = {
         bg_sulfur_mining = 32
         bg_logging = 6
         bg_fishing = 15
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
     }
     naval_exit_id = 3057
 }
@@ -1016,10 +981,6 @@ STATE_SAKHALIN = {
         bg_whaling = 3
         bg_fishing = 7
     }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
-    }
     naval_exit_id = 3059
 }
 
@@ -1056,13 +1017,11 @@ STATE_TOHOKU = {
     id = 529
     subsistence_building = "building_subsistence_farms"
     provinces = { "x15EED4" "x19C715" "x1BAF33" "x3190C0" "x322F47" "x3CA2FC" "x4C5533" "x637FEB" "x701040" "x81A720" "xA26E5F" "xAC762F" "xB011C0" "xB090C0" "xBC2AFE" "xBED026" "xE0D080" "xE22202" "xF01040" "xF29D08" }
-    traits = { "state_trait_hirose_river" }
-    traits = { "state_trait_hirose_river" }
     city = "xB090C0"
-    port = "x3190C0"
+    port = "xE0D080"
     farm = "x1BAF33"
     mine = "xF01040"
-    wood = "xE0D080"
+    wood = "x3190C0"
     arable_land = 186
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
@@ -1079,13 +1038,11 @@ STATE_KANTO = {
     id = 530
     subsistence_building = "building_subsistence_farms"
     provinces = { "x478599" "x7010C0" "x709040" "x7090C0" "x787CC4" "xB94331" "xD350FB" "xEAE893" "xEF9040" "xF011C0" }
-    traits = { "state_trait_arakawa_river" }
-    traits = { "state_trait_arakawa_river" }
     city = "xEF9040"
-    port = "x7010C0"
-    farm = "x709040"
+    port = "x709040"
+    farm = "xB94331"
     mine = "xD350FB"
-    wood = "xB94331"
+    wood = "x478599"
     arable_land = 280
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
@@ -1103,10 +1060,10 @@ STATE_CHUBU = {
     subsistence_building = "building_subsistence_farms"
     provinces = { "x205FEB" "x3050C0" "x31D0C0" "x4942D2" "x5A57C3" "x5E87A1" "x779089" "x88595F" "x910F25" "x9B2E00" "xADE732" "xB050C0" "xB0D040" "xB5F9BD" "xC02285" "xD12DC5" "xE76E8F" "xEF90C0" }
     city = "x9B2E00"
-    port = "xE76E8F"
-    farm = "x88595F"
-    mine = "xD12DC5"
-    wood = "x5E87A1"
+    port = "x31D0C0"
+    farm = "xE76E8F"
+    mine = "x779089"
+    wood = "xB0D040"
     arable_land = 374
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
@@ -1125,12 +1082,10 @@ STATE_KANSAI = {
     id = 532
     subsistence_building = "building_subsistence_farms"
     provinces = { "x305040" "x614287" "x705040" "x70D040" "x879C25" "x8EC4C9" "x9BD7C1" "x9E58B2" "xB03EF0" "xB0D0C0" "xCCB03E" }
-    traits = { "state_trait_yodo_river" }
-    traits = { "state_trait_yodo_river" }
-    city = "xB03EF0"
-    port = "x70D040"
-    farm = "x8EC4C9"
-    mine = "xCCB03E"
+    city = "x8EC4C9"
+    port = "xCCB03E"
+    farm = "x70D040"
+    mine = "xB03EF0"
     wood = "x614287"
     arable_land = 460
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
@@ -1141,15 +1096,13 @@ STATE_KANSAI = {
     naval_exit_id = 3059
 }
 
-
-
 STATE_KYUSHU = {
     id = 533
     subsistence_building = "building_subsistence_farms"
     provinces = { "x1F0D2C" "x5C7980" "x705080" "x70CF00" "x70D080" "x73414A" "x800111" "x906F1E" "xAE5874" "xCEA020" "xE16F98" "xEF5080" "xEF50C0" "xF0D000" }
     impassable = { "xEF50C0" "x800111" }
     city = "x70CF00"
-    port = "xAE5874"
+    port = "x70CF00"
     farm = "xCEA020"
     mine = "x705080"
     wood = "x73414A"
@@ -1172,7 +1125,7 @@ STATE_RYUKYU_ISLANDS = {
     port = "xF0D080"
     farm = "xF0F061"
     arable_land = 16
-    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_fishing = 5
     }
@@ -1206,9 +1159,9 @@ STATE_SHIKOKU = {
     traits = { "state_trait_seto_inland_sea" }
     city = "x7C9BEB"
     port = "xEFD040"
-    farm = "x5D5512"
+    farm = "xEFD040"
     mine = "xF05040"
-    wood = "x90D040"
+    wood = "x5D5512"
     arable_land = 82
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
@@ -1224,15 +1177,12 @@ STATE_SEOUL = {
     id = 536
     subsistence_building = "building_subsistence_farms"
     provinces = { "x03EAAF" "x305000" "x709080" "x70EFC0" "x71770E" "x7B6E17" "xA0E2EE" "xA84864" "xACB4D5" "xB05000" "xE0D3E4" "xFD1E20" }
-    traits = { "state_trait_hangang_river" }
-    traits = { "state_trait_hangang_river" }
     city = "xA0E2EE"
     port = "xB05000"
     farm = "x03EAAF"
     mine = "x70EFC0"
     wood = "x305000"
-    arable_land = 218
-    arable_land = 218
+    arable_land = 152
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_iron_mining = 30
@@ -1244,21 +1194,16 @@ STATE_SEOUL = {
     naval_exit_id = 3057
 }
 
-
-
 STATE_BUSAN = {
     id = 537
     subsistence_building = "building_subsistence_farms"
     provinces = { "x076864" "x305080" "x31D000" "x806A04" "x9BA8B5" "xA00BB8" "xC3F34F" }
-    traits = { "state_trait_nakdong_river" }
-    traits = { "state_trait_nakdong_river" }
     city = "x31D000"
     port = "xC3F34F"
     farm = "x806A04"
     mine = "x806A04"
     wood = "x9BA8B5"
-    arable_land = 182
-    arable_land = 182
+    arable_land = 78
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_coal_mining = 10
@@ -1273,15 +1218,12 @@ STATE_YANGHO = {
     id = 690
     subsistence_building = "building_subsistence_farms"
     provinces = { "x34B782" "x8ACAAA" "xA48A8B" "xAE0221" "xB0D000" "xB0D080" "xBC0C5A" "xC81C12" "xD42CA8" "xF09080" "xF91D98" }
-    traits = { "state_trait_geumgang_river" }
-    traits = { "state_trait_geumgang_river" }
     city = "xF91D98"
     port = "x8ACAAA"
     farm = "x8ACAAA"
     mine = "xB0D000"
     wood = "x34B782"
-    arable_land = 229
-    arable_land = 229
+    arable_land = 76
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_coal_mining = 10
@@ -1317,15 +1259,12 @@ STATE_PYONGYANG = {
     id = 539
     subsistence_building = "building_subsistence_farms"
     provinces = { "x096D79" "x11044D" "x12BC01" "x47D537" "x5204B8" "x605101" "x640C37" "x701180" "x7BEA9E" "x808E39" "x880F26" "x913CAF" "xA2DB51" "xB8F465" "xC5EF9A" "xDD6252" "xEAF581" "xF01000" "xF01180" }
-    traits = { "state_trait_daedong_river" }
-    traits = { "state_trait_daedong_river" }
     city = "xDD6252"
     port = "x11044D"
     farm = "xDD6252"
     mine = "x880F26"
     wood = "x47D537"
-    arable_land = 181
-    arable_land = 181
+    arable_land = 136
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_coal_mining = 60
@@ -1336,3 +1275,4 @@ STATE_PYONGYANG = {
     }
     naval_exit_id = 3057
 }
+

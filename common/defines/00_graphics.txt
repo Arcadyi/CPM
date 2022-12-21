@@ -1,6 +1,6 @@
 ﻿NMapMode = {
 
-	# Use opacity 1 as the default for colors and control the final opacity directly in the
+	# Use opacity 3.4 as the default for colors and control the final opacity directly in the
 	# Map Modes (or make a very specific call to step away from this for a very specific reasons)
 	@opacity = 3.4
 
@@ -15,7 +15,7 @@
 	### HEAT MAP MAP MODE ###
 	HEAT_MAP_COLOR_FROM = { 0.4 0.4 0.1 0.34 }
 	HEAT_MAP_COLOR_TO = { 0.1 0.4 0.2 @opacity }
-	HEAT_MAP_MIN_ALPHA = 0 										# Used in the Interest Group Map Mode
+	HEAT_MAP_MIN_ALPHA = 0.4 									# Used in the Interest Group Map Mode
 
 	### HIGHLIGHT ###
 	HIGHLIGHT_COLOR = { 1 1 1 0.5 }								# White
@@ -280,7 +280,7 @@ NFrontend = {
 NCamera = {
     FOV	= 55 	# Field-of-View
     ZNEAR = 1
-    ZFAR = 50000
+    ZFAR = 10000
 
 	EDGE_SCROLLING_PIXELS = 10 # how many pixels from window edge that will trigger edge scrolling
 

@@ -1,0 +1,247 @@
+﻿ideology_traditionalist = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_traditionalist.dds"
+	
+	character_ideology = yes
+	
+	lawgroup_rights_of_women = {
+		law_encouranging_childbirth = strongly_approve
+		law_no_womens_rights = approve
+		law_women_own_property = neutral
+		law_women_in_the_workplace = disapprove
+		law_womens_suffrage = strongly_disapprove
+	}
+
+	lawgroup_church_and_state = {
+		law_state_religion = approve
+		law_freedom_of_conscience = disapprove
+		law_total_separation = strongly_disapprove
+	}
+	
+	possible = {
+		scope:interest_group = {
+			OR = {
+				is_interest_group_type = ig_rural_folk
+				is_interest_group_type = ig_trade_unions
+				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_petty_bourgeoisie
+				is_interest_group_type = ig_landowners
+				is_interest_group_type = ig_devout
+			}
+		}
+		scope:interest_group = {
+			NOR = {
+				has_variable = communist_ig_var
+				has_variable = chose_vanguardism
+				has_variable = chose_fascism
+				has_variable = chose_ethno_nationalism
+			}
+		}
+	}
+	
+	leader_weight = {
+		value = 100
+		# less likely for unions
+		if = {
+			limit = {
+				scope:interest_group = {
+					is_interest_group_type = ig_trade_unions
+				}
+			}
+			add = -75
+		}
+		# more likely for landowners and devout
+		if = {
+			limit = {
+				scope:interest_group = {
+					OR = {
+						is_interest_group_type = ig_landowners
+						is_interest_group_type = ig_devout
+					}
+				}
+			}
+			add = 50
+		}
+	}
+}
+
+ideology_reformer = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_reformer.dds"
+	
+	character_ideology = yes
+	
+	lawgroup_citizenship = {
+		law_ethnostate = strongly_disapprove
+		law_national_supremacy = strongly_disapprove
+		law_racial_segregation = disapprove
+		law_cultural_exclusion = approve
+		law_multicultural = neutral	
+	}
+	
+	lawgroup_rights_of_women = {
+		law_encouranging_childbirth = neutral
+		law_no_womens_rights = neutral
+		law_women_own_property = approve
+		law_women_in_the_workplace = neutral
+		law_womens_suffrage = neutral
+	}
+	
+	lawgroup_childrens_rights = {
+		law_child_labor_allowed = disapprove
+		law_restricted_child_labor = neutral
+		law_compulsory_primary_school = approve
+	}
+	
+	possible = {
+		owner = {
+			has_technology_researched = egalitarianism
+			NOT = { has_technology_researched = human_rights }
+		}
+		# Any Interest Group
+		scope:interest_group = {
+			NOR = {
+				has_variable = communist_ig_var
+				has_variable = chose_vanguardism
+				has_variable = chose_fascism
+				has_variable = chose_conservatism
+				has_variable = chose_ethno_nationalism
+			}
+		}
+	}
+	
+	leader_weight = {
+		value = 100
+		# less likely when issues are not relevant
+		if = {
+			limit = {
+				owner = {
+					NOR = {
+						has_law = law_type:law_ethnostate
+						has_law = law_type:law_national_supremacy
+						has_law = law_type:law_racial_segregation
+						has_law = law_type:law_no_womens_rights
+						has_law = law_type:law_encouranging_childbirth
+						has_law = law_type:law_child_labor_allowed
+					}
+				}
+			}
+			add = -100
+		}
+		# less likely among more progressive IG's if they're angry and socialism is researched
+		if = {
+			limit = {
+				owner = {
+					has_technology_researched = socialism
+				}
+				scope:interest_group = {
+					OR = {
+						is_interest_group_type = ig_intelligentsia
+						is_interest_group_type = ig_trade_unions
+					}
+					ig_approval < 0
+				}
+			}
+			add = -75
+		}
+		# more likely when issues are relevant
+		if = {
+			limit = {
+				owner = {
+					OR = {
+						has_law = law_type:law_ethnostate
+						has_law = law_type:law_national_supremacy
+						has_law = law_type:law_racial_segregation
+						has_law = law_type:law_no_womens_rights
+						has_law = law_type:law_encouranging_childbirth
+						has_law = law_type:law_child_labor_allowed
+					}
+				}
+			}
+			add = 50
+		}
+	}
+}
+
+ideology_feminist = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_womens_liberation.dds"
+	
+	character_ideology = yes
+	
+	lawgroup_rights_of_women = {
+		law_womens_suffrage = strongly_approve
+		law_women_in_the_workplace = approve
+		law_women_own_property = neutral
+		law_no_womens_rights = strongly_disapprove
+		law_encouranging_childbirth = strongly_disapprove
+	}
+	
+	possible = {
+		owner = { has_technology_researched = feminism }
+		scope:interest_group = {
+			OR = {
+				is_interest_group_type = ig_rural_folk
+				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_trade_unions
+				is_interest_group_type = ig_petty_bourgeoisie
+				is_interest_group_type = ig_industrialists
+			}
+		}
+		scope:interest_group = {
+			NOR = {
+				has_variable = communist_ig_var
+				has_variable = chose_vanguardism
+				has_variable = chose_fascism
+				has_variable = chose_conservatism
+				has_variable = chose_ethno_nationalism
+			}
+		}
+	}
+	
+	leader_weight = {
+		value = {
+			value = 100
+			 # less likely if issues are not relevant
+			if = {
+				limit = {
+					owner = {
+						OR = {
+							has_law = law_type:law_womens_suffrage
+							AND = {
+								has_law = law_type:law_women_in_the_workplace
+								OR = {
+									has_law = law_type:law_oligarchy
+									has_law = law_type:law_autocracy
+								}
+							}
+						}
+					}
+				}
+				add = -100
+			}
+			# more likely if character is a woman after mass propaganda
+			if = {
+				limit = {
+					owner = { has_technology_researched = mass_propaganda }
+					is_female = yes
+				}
+				multiply = {
+					value = 2
+				}
+			}
+			# more likely with limited women's rights
+			if = {
+				limit = {
+					owner = { 
+						OR = {
+							has_law = law_type:law_encouranging_childbirth
+							has_law = law_type:law_no_womens_rights
+							has_law = law_type:law_women_own_property
+						}
+					}
+				}
+				multiply = {
+					value = 2
+				}
+			}
+		}
+	}
+}

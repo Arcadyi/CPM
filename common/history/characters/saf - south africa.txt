@@ -10,6 +10,7 @@
 			interest_group = ig_landowners
 			ideology = ideology_moderate
 			ig_leader = yes
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_sir_benjamin_d_urban
 				cruel

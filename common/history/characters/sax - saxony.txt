@@ -9,6 +9,7 @@
 			age = 81 # died June 6th, 1836
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Anton_von_Wettin
 				reserved # dude was old and did nothing
@@ -27,6 +28,7 @@
 			age = 29
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Friedrich_August_von_Wettin
 				meticulous

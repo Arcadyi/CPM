@@ -10,6 +10,7 @@
 			dna = dna_queen_maria
 			interest_group = ig_intelligentsia # Maria II was a Constitutionalist
 			ideology = ideology_reformer
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Maria_de_Braganca
 				persistent
@@ -27,6 +28,7 @@
 			birth_date = 1792.3.18
 			interest_group = ig_armed_forces
 			commander_rank = commander_rank_2
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Antonio_Jose_Severim_de_Noronha
 				tactful
@@ -38,6 +40,7 @@
 			first_name = Luis_2
 			last_name = do_Rego_Barreto
 			birth_date = 1777.10.28
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Luis_2_do_Rego_Barreto
 				experienced_colonial_administrator

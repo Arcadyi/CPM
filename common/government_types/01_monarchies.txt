@@ -15,6 +15,80 @@
 	}
 }
 
+gov_heavenly_kingdom = {
+	transfer_of_power = hereditary
+	
+	male_ruler = "RULER_TITLE_HEAVENLY_KING"
+	female_ruler = "RULER_TITLE_HEAVENLY_QUEEN" 
+
+	male_heir = "RULER_TITLE_HEIR_APPARENT"
+	female_heir = "RULER_TITLE_HEIR_APPARENT"
+	
+	possible = {
+		exists = c:TPG
+		c:TPG = ROOT
+		has_law = law_type:law_theocracy
+	}
+}
+
+gov_kurdish_state = {								
+	transfer_of_power = hereditary
+
+	male_ruler = "RULER_TITLE_EMIR"
+	female_ruler = "RULER_TITLE_EMIRA"
+	
+	male_heir = "" # Empty on purpose
+	female_heir = "" # Empty on purpose
+	
+	possible = {
+		country_has_primary_culture = cu:kurdish
+		OR = {
+			AND = {
+				exists = c:TUR
+				is_subject_of = c:TUR	
+			}
+			AND = {
+				exists = c:PER
+				is_subject_of = c:PER
+			}
+		}
+	
+	}		
+}
+
+gov_royal_revolt = {
+	transfer_of_power = hereditary
+
+	male_ruler = "RULER_TITLE_INFANTE"
+	female_ruler = "RULER_TITLE_INFANTE"
+	
+	male_heir = "RULER_TITLE_HEIR_APPARENT"
+	female_heir = "RULER_TITLE_HEIR_APPARENT"
+	
+	possible = {
+		exists = c:CAR
+		c:CAR = ROOT
+		has_law = law_type:law_monarchy
+	}
+}
+
+gov_hermit_kingdom = {
+	transfer_of_power = hereditary
+
+	male_ruler = "RULER_TITLE_KING"
+	female_ruler = "RULER_TITLE_QUEEN"
+	
+	male_heir = "RULER_TITLE_PRINCE"
+	female_heir = "RULER_TITLE_PRINCESS"
+	
+	possible = {
+	exists = c:KOR
+	c:KOR = ROOT
+	has_law = law_type:law_monarchy
+      has_law = law_type:law_isolationism
+	}
+}
+
 gov_hawaiian_monarchy_recognised = {
 	transfer_of_power = hereditary
 	
@@ -434,62 +508,6 @@ gov_hm_gov = {
 	}
 }
 
-gov_absolute_monarchy = {
-	transfer_of_power = hereditary
-
-	male_ruler = "RULER_TITLE_KING"
-	female_ruler = "RULER_TITLE_QUEEN"
-	
-	male_heir = "RULER_TITLE_PRINCE"
-	female_heir = "RULER_TITLE_PRINCESS"
-	
-	possible = {
-		has_law = law_type:law_monarchy
-		has_law = law_type:law_autocracy 
-		NOT = { 
-			scope.owner = { 
-				scope.ruler = { 
-					has_variable = is_bonapartist 
-				} 
-			} 
-		}
-		AND = { 
-			exists = c:FRA 
-			c:FRA = ROOT
-		}
-	}
-}
-
-gov_monarchy = {
-	transfer_of_power = hereditary
-
-	male_ruler = "RULER_TITLE_KING"
-	female_ruler = "RULER_TITLE_QUEEN"
-	
-	male_heir = "RULER_TITLE_PRINCE"
-	female_heir = "RULER_TITLE_PRINCESS"
-	
-	possible = {
-		has_law = law_type:law_monarchy
-		NOT = {
-			 owner = { 
-				scope.ruler = { 
-					has_variable = is_bonapartist 
-				} 
-			} 
-		}
-		OR = { 
-			has_law = law_type:law_oligarchy 
-			has_law = law_type:law_elder_council 
-			has_law = law_type:law_landed_voting 
-		}
-		AND = { 
-			exists = c:FRA 
-			c:FRA = ROOT
-		}
-	}
-}
-
 gov_constitutional_monarchy = {
 	transfer_of_power = hereditary
 
@@ -501,18 +519,6 @@ gov_constitutional_monarchy = {
 	
 	possible = {
 		has_law = law_type:law_monarchy
-		NOT = { 
-			owner = { 
-				scope.ruler = { 
-					has_variable = is_bonapartist 
-				} 
-			} 
-		}
-		OR = { 
-			has_law = law_type:law_wealth_voting 
-			has_law = law_type:law_census_voting 
-			has_law = law_type:law_universal_suffrage 
-		}
 		AND = { 
 			exists = c:FRA 
 			c:FRA = ROOT
@@ -1037,18 +1043,3 @@ gov_constitutional_grand_principality = {
 	}
 }
 
-gov_windhoek = {
-	transfer_of_power = hereditary
-	
-	male_ruler = "RULER_TITLE_KAPTEIN"
-	female_ruler = "RULER_TITLE_KAPTEIN" 
-	
-	male_heir = "" # Empty on purpose
-	female_heir = "" # Empty on purpose
-
-	possible = {
-		has_law = law_type:law_monarchy
-		exists = c:WNH
-		c:WNH = ROOT
-	}
-}

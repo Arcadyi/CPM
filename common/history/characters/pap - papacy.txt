@@ -9,6 +9,7 @@
 			dna = dna_pope_gregory_16
 			interest_group = ig_devout
 			ideology = ideology_theocrat
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Gregorius_Cappellari
 				imperious
@@ -23,6 +24,7 @@
 			ig_leader = yes
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Carlo_Armellini
 			}
@@ -36,6 +38,7 @@
 			ig_leader = yes
 			interest_group = ig_devout
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Luigi_Lambruschini
 			}
@@ -49,6 +52,7 @@
 			ig_leader = yes
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_theocrat
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Giovanni_Maria_Ferretti
 			}
@@ -59,6 +63,7 @@
 			first_name = Filippo 
 			last_name = Resta
 			age = 39
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Filippo_Resta
 		# 		doughty

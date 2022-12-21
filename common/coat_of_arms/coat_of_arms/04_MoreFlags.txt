@@ -268,15 +268,6 @@ BGI_socialist = {
 	}
 }
 
-BGM = {
-	pattern = "pattern_solid.tga"
-	color1 = rgb {4 147 67}
-	
-	textured_emblem = {
-		texture = "BGM.png"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
-	}
-}
 
 BJA = {
 	pattern = "pattern_solid.tga"
@@ -819,15 +810,6 @@ FNG = {
 	}
 }
 
-FRA_theocracy = {
-	pattern = "pattern_solid.tga"
-	color1 = rgb {235 4 4}
-	
-	textured_emblem = {
-		texture = "FRA_theocracy.tga"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
-	}
-}
 
 FRS = {
 	pattern = "pattern_solid.tga"

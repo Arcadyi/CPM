@@ -8,6 +8,7 @@
 			birth_date = 1778.2.19
 			interest_group = ig_landowners
 			ideology = ideology_moderate
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Abd_al-Rahman_al-Alawi
 				cautious
@@ -22,6 +23,7 @@
 			age = 26 # born in either 1803 or 1810
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate # "modernizer"?
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Muhammad_al-Alawi
 				imperious

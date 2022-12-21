@@ -63,5 +63,22 @@
 		set_variable = started_as_AUS
 	}
 
+	every_country = {
+		limit = {
+			exists = c:RUS
+			this = c:RUS
+		}
+		if = {
+			limit = {
+				any_scope_character = {
+					is_heir = yes
+				}
+			}
+			heir = {
+				set_variable = is_alex_II
+			}
+		}
+	}
+
 	set_global_variable = started_with_better_flags
 }

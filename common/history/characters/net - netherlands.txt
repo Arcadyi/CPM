@@ -10,6 +10,7 @@
 			dna = dna_king_william_01
 			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_royalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Willem1_van_Oranje-Nassau
 				romantic
@@ -24,6 +25,7 @@
 			age = 44
 			interest_group = ig_intelligentsia
 			ideology = ideology_reformer
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Willem2_van_Oranje-Nassau
 				persistent
@@ -35,6 +37,7 @@
 			first_name = David_Hendrik
 			last_name = Chasse
 			age = 71
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_David_Hendrik_Chasse
 				wrathful
@@ -47,6 +50,7 @@
 			 first_name = Engelbertus
 			 last_name = Lucas
 			 age = 51
+			 trait_generation = { set_variable = historical_figure }
 			 traits = {
 			 	concept_wikipedia_Engelbertus_Lucas
 			 	experienced_naval_commander

@@ -39,11 +39,8 @@ zanzibar.1 = {
 					last_name = "al_Said"
 					culture=cu:bedouin
 					ruler = yes
-					traits = { 
-						hedonist 
-						ambitious
-						concept_wikipedia_Majid_al_Said
-					}
+					trait_generation = { set_variable = historical_figure }
+					traits = { hedonist ambitious concept_wikipedia_Majid_al_Said }
 					birth_date = 1834.10.19 # Majid's exact birthdate is unknown, so it is arbitrarily being set to the same month and day as the start of his reign as sultan, because a January 1st birthday is boring.
 				}
 			}

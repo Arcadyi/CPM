@@ -1,8 +1,8 @@
 ﻿COUNTRIES = {
 	c:LYD = {
-		effect_starting_technology_tier_3_tech = yes
 		set_next_election_date = 1839.10.12
-
+		
+		effect_starting_technology_tier_3_tech = yes
 		
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_landed_voting
@@ -23,6 +23,6 @@
 		add_modifier = {
 			name = adjunct_volksraad
 			months = -1
-		}
+		}	
 	}
 }

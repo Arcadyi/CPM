@@ -782,7 +782,7 @@
 		}
 	}
 	s:STATE_CELEBES = {
-		region_state:SLW = {
+		region_state:DEI = {
 			create_pop = {
 				culture = moluccan
 				size = 101200
@@ -792,8 +792,6 @@
 				religion = animist
 				size = 347996
 			}
-		}
-		region_state:DEI = {
 			create_pop = {
 				culture = moluccan
 				size = 11000
@@ -968,7 +966,7 @@
 				pop_type = slaves
 				culture = filipino
 				religion = animist
-				size = 1000
+				size = 20208
 			}
 			create_pop = {
 				culture = bornean
@@ -1059,7 +1057,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = filipino
-				size = 2000
+				size = 50000
 			}
 		}
 		region_state:SUL = {
@@ -1107,7 +1105,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = filipino
-				size = 1000
+				size = 30000
 			}
 		}
 	}

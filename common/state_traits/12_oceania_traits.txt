@@ -6,13 +6,21 @@
 	}
 }
 
-#state_trait_volcanic_soil = {
-#   icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
-#	
-#	modifier = {
-#		building_group_bg_agriculture_throughput_mult = 0.2
-#	}
-#}
+state_trait_volcanic_soil = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+		building_group_bg_agriculture_throughput_mult = 0.2
+	}
+}
+
+state_trait_Barossa_Valley = {
+	icon = "gfx/interface/icons/state_trait_icons/wineyard.dds"
+	
+	modifier = {
+		building_wheat_farm_throughput_mult = 0.25
+	}
+}
 
 state_trait_great_dividing_range = {
 	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
@@ -31,13 +39,6 @@ state_trait_Port_Jackson = {
 		state_building_port_max_level_add = 3
                 building_port_throughput_mult = 0.2
 		state_building_naval_base_max_level_add = 15
-	}
-}
-state_trait_hawaii_sandalwood_forests = {
-	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
-
-	modifier = {
-		building_output_hardwood_mult = 0.25
 	}
 }
 

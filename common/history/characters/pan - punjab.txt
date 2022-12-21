@@ -12,6 +12,7 @@
 			ideology = ideology_traditionalist
 			hq = region_north_india
 			commander_rank = commander_rank_3
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Ranjit_Singh
 				ambitious
@@ -28,6 +29,7 @@
 			age = 35
 			interest_group = ig_armed_forces
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Kharak_Singh
 				reckless
@@ -42,6 +44,7 @@
 			age = 50
 			hq = region_himalayas
 			commander_rank = commander_rank_2
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Zorawar_Singh
 				reserved
@@ -91,6 +94,7 @@
 			last_name = Gardner
 			hq = region_persia
 			age = 51
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Alexander_Gardner
 				brave

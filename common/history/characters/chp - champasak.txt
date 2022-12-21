@@ -9,6 +9,7 @@
 			age = 56
 			interest_group = ig_armed_forces
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Huy_Chao
 				wrathful
@@ -24,6 +25,7 @@
 			age = 53 # unknown age, but he was the brother of Huy
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
+			trait_generation = { set_variable = historical_figure }
 			traits = {
 				concept_wikipedia_Nark_Chao
 				cautious

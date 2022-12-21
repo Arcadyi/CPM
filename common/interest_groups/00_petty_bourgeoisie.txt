@@ -28,16 +28,10 @@
 			is_pop_type = aristocrats
 			is_pop_type = capitalists
 		}
-		OR = {
-			pop_employment_building_group = bg_manufacturing
-			pop_employment_building_group = bg_service
-			pop_employment_building_group = bg_urban_facilities
-			pop_employment_building_group = bg_government
-		}
 	}
 
 	pop_weight = {
-		value = 75
+		value = 50
 
 		add = {
 			desc = "RURAL_POP"
@@ -188,7 +182,7 @@
 				}
 				value = 50
 			}
-		}			
+		}
 
 		add = {
 			desc = "SOL_50_100"
@@ -241,9 +235,8 @@
 			scope:interest_group = {
 				leader = {
 					value = popularity
-					multiply = 0.0025
+					multiply = 0.005
 					add = 1
-					max = 1.25
 					min = 0.75
 				}
 			}
